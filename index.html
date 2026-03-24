@@ -122,12 +122,18 @@
             color: #666;
             max-width: 85%;
             width: 100%;
-            margin: 0 auto;
+            margin: 0 auto 12px;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
+        }
+
+        .card-date {
+            font-size: 13px;
+            color: #999;
+            margin-bottom: 16px;
         }
 
         .footer {
@@ -302,12 +308,15 @@
 
         function renderCards() {
             const stack = document.getElementById('cardStack');
+            const now = new Date();
+            const dateStr = now.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, '.');
             stack.innerHTML = buildersData.map((builder, index) => `
                 <div class="card ${index === 0 ? 'active' : ''}" data-index="${index}">
                     <div class="content">
                         <div class="summary">${builder.summaryEn}</div>
                         <div class="divider"></div>
                         ${builder.analysis ? `<div class="analysis">${builder.analysis}</div>` : ''}
+                        <div class="card-date">${dateStr}</div>
                     </div>
                     <div class="footer">
                         <div class="source">
