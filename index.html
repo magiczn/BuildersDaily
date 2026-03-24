@@ -106,6 +106,27 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
+            cursor: default;
+            transition: all 0.3s ease;
+        }
+
+        .summary.truncated {
+            cursor: pointer;
+        }
+
+        .summary.expanded {
+            -webkit-line-clamp: unset;
+        }
+
+        .summary .expand-hint {
+            color: #999;
+            font-size: 14px;
+            margin-left: 4px;
+            cursor: pointer;
+        }
+
+        .summary.expanded .expand-hint {
+            display: inline;
         }
 
         .divider {
@@ -128,6 +149,23 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
+            cursor: default;
+            transition: all 0.3s ease;
+        }
+
+        .analysis.truncated {
+            cursor: pointer;
+        }
+
+        .analysis.expanded {
+            -webkit-line-clamp: unset;
+        }
+
+        .analysis .expand-hint {
+            color: #999;
+            font-size: 12px;
+            margin-left: 4px;
+            cursor: pointer;
         }
 
         .card-date {
@@ -336,9 +374,9 @@
                 <div class="card ${index === 0 ? 'active' : ''}" data-index="${index}">
                     <div class="content">
                         <div class="card-date">${dateStr}</div>
-                        <div class="summary">${builder.summaryEn}</div>
+                        <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
                         <div class="divider"></div>
-                        ${builder.analysis ? `<div class="analysis">${builder.analysis}</div>` : ''}
+                        ${builder.analysis ? `<div class="analysis" data-full="${builder.analysis.replace(/"/g, '&quot;')}">${builder.analysis}</div>` : ''}
                     </div>
                     <div class="footer">
                         <div class="source">
@@ -355,6 +393,19 @@
                     </div>
                 </div>
             `).join('');
+
+            // 检查哪些文本需要展开提示
+            setTimeout(() => {
+                document.querySelectorAll('.summary, .analysis').forEach(el => {
+                    if (el.scrollHeight > el.clientHeight + 5) {
+                        el.classList.add('truncated');
+                        const hint = document.createElement('span');
+                        hint.className = 'expand-hint';
+                        hint.textContent = '展开';
+                        el.appendChild(hint);
+                    }
+                });
+            }, 100);
         }
 
         function bindEvents() {
@@ -393,6 +444,29 @@
                 } else if (e.key === 'ArrowUp') {
                     e.preventDefault();
                     goTo(currentIndex - 1);
+                }
+            });
+
+            // 点击展开/收起文本
+            document.addEventListener('click', (e) => {
+                const target = e.target;
+                
+                // 点击展开提示
+                if (target.classList.contains('expand-hint')) {
+                    const parent = target.parentElement;
+                    parent.classList.toggle('expanded');
+                    target.textContent = parent.classList.contains('expanded') ? '收起' : '展开';
+                    e.stopPropagation();
+                    return;
+                }
+                
+                // 点击被截断的文本区域
+                if (target.classList.contains('truncated')) {
+                    target.classList.toggle('expanded');
+                    const hint = target.querySelector('.expand-hint');
+                    if (hint) {
+                        hint.textContent = target.classList.contains('expanded') ? '收起' : '展开';
+                    }
                 }
             });
         }
