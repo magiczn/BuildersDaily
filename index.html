@@ -115,6 +115,20 @@
             flex-shrink: 0;
         }
 
+        .analysis {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #666;
+            max-width: 80%;
+            width: 100%;
+            margin: 0 auto 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
         .builder-meta {
             font-size: 13px;
             color: #999;
@@ -300,6 +314,7 @@
                     <div class="content">
                         <div class="summary">${builder.summaryEn}</div>
                         <div class="divider"></div>
+                        ${builder.analysis ? `<div class="analysis">${builder.analysis}</div>` : ''}
                         <div class="builder-meta">${builder.role}</div>
                     </div>
                     <div class="footer">

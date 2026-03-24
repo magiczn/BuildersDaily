@@ -7,6 +7,43 @@ function truncateText(text, maxLength = 280) {
   return text.substring(0, maxLength).trim() + '...';
 }
 
+// 生成中文分析 - 使用 AI API 或返回空
+async function generateAnalysis(text, name) {
+  const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+
+  if (!ANTHROPIC_API_KEY || !text || text.length < 10) {
+    return '';
+  }
+
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: 'claude-3-5-haiku-20241022',
+        max_tokens: 150,
+        messages: [{
+          role: 'user',
+          content: `请用不超过100字的中文，简要分析这条AI行业人士的推文核心观点或意义。用一句话总结：\n\n推文："${text.substring(0, 200)}"`
+        }]
+      })
+    });
+
+    if (!response.ok) {
+      return '';
+    }
+
+    const data = await response.json();
+    return data.content[0].text.trim();
+  } catch (error) {
+    return '';
+  }
+}
+
 // 默认的 builder 数据（当无法获取实时数据时使用）
 const defaultData = [
   {
@@ -71,6 +108,9 @@ async function fetchFromFollowBuilders() {
           if (builder.tweets && builder.tweets.length > 0) {
             const latestTweet = builder.tweets[0];
 
+            // 生成中文分析
+            const analysis = await generateAnalysis(latestTweet.text, builder.name);
+
             builders.push({
               name: builder.name,
               handle: builder.handle,
@@ -78,6 +118,7 @@ async function fetchFromFollowBuilders() {
               avatar: builder.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
               summary: truncateText(latestTweet.text, 280),
               summaryEn: truncateText(latestTweet.text, 280),
+              analysis: analysis,
               url: latestTweet.url || `https://x.com/${builder.handle}`,
               verified: builder.verified || false
             });
