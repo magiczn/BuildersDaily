@@ -1,98 +1,89 @@
 const fs = require('fs');
 const path = require('path');
 
-// 文本截断函数 - 限制显示长度以适应页面
+// 文本截断函数
 function truncateText(text, maxLength = 280) {
   if (!text || text.length <= maxLength) return text;
   return text.substring(0, maxLength).trim() + '...';
 }
 
-// 使用智谱 API 生成中文分析
-async function generateAnalysis(text, name) {
-  const ZHIPU_API_KEY = process.env.ZHIPU_API_KEY;
-
-  if (!ZHIPU_API_KEY || !text || text.length < 10) {
+// 生成发散性中文分析（不依赖外部 API）
+function generateAnalysis(name, text, role) {
+  if (!text || text.length < 10 || text.startsWith('http')) {
     return '';
   }
 
-  try {
-    const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${ZHIPU_API_KEY}`
-      },
-      body: JSON.stringify({
-        model: 'glm-4-flash',
-        max_tokens: 150,
-        messages: [{
-          role: 'user',
-          content: `请用不超过100字的中文，简要分析这条AI行业人士的推文核心观点或意义：\n\n推文作者：${name}\n推文内容："${text.substring(0, 300)}"`
-        }]
-      })
-    });
+  // 基于角色和内容生成发散性分析
+  const roleKeywords = {
+    'OpenAI': 'OpenAI 在 AI 领域持续领先，',
+    'Anthropic': 'Anthropic 的 AI 安全理念，',
+    'Google': 'Google 的 AI 产品化能力，',
+    'YC': '作为 YC 领导者，',
+    'Replit': 'Replit 展示了云端开发的未来，',
+    'VC': '从投资视角看，',
+    'CEO': '从企业领导者视角，',
+    'Product': '从产品角度分析，'
+  };
 
-    if (!response.ok) {
-      const error = await response.text();
-      console.log('智谱 API error:', error);
-      return '';
-    }
-
-    const data = await response.json();
-    return data.choices[0].message.content.trim();
-  } catch (error) {
-    console.log('Analysis generation error:', error.message);
-    return '';
+  // 检测关键词并生成发散性分析
+  let analysis = '';
+  
+  if (text.includes('AI') || text.includes('agent') || text.includes('Agent')) {
+    analysis = `${name} 的观点反映了 AI 领域的最新趋势。`;
+  } else if (text.includes('ship') || text.includes('launch')) {
+    analysis = `这展示了 AI 公司的快速迭代能力。`;
+  } else if (text.includes('science') || text.includes('research')) {
+    analysis = `AI 正在推动科学研究的范式转变。`;
+  } else if (text.includes('computer use') || text.includes('code')) {
+    analysis = `这预示着 AI Agent 在未来工作流中的核心地位。`;
+  } else {
+    analysis = `${name} 分享的观点值得关注，反映了行业动态。`;
   }
+
+  // 添加发散性观点
+  const extensions = [
+    '未来可能重塑行业标准。',
+    '这预示着技术发展的新方向。',
+    '值得关注后续发展。',
+    '可能对创业生态产生深远影响。',
+    '体现了 AI 原生开发的趋势。'
+  ];
+
+  analysis += extensions[Math.floor(Math.random() * extensions.length)];
+
+  // 控制在100字以内
+  if (analysis.length > 100) {
+    analysis = analysis.substring(0, 97) + '...';
+  }
+
+  return analysis;
 }
 
-// 默认的 builder 数据（当无法获取实时数据时使用）
+// 默认数据
 const defaultData = [
   {
-    name: "Guillermo Rauch",
-    handle: "rauchg",
-    role: "Vercel CEO",
-    avatar: "GR",
-    summary: "Code is an output. Nature is healing. We are shifting from glorifying code to focusing on true inputs like requirements, specs, and user feedback.",
-    summaryEn: "Code is an output. Nature is healing. We are shifting from glorifying code to focusing on true inputs like requirements, specs, and user feedback.",
-    url: "https://x.com/rauchg",
-    verified: true
-  },
-  {
-    name: "Aaron Levie",
-    handle: "levie",
-    role: "Box CEO",
-    avatar: "AL",
-    summary: "We are so unbelievably early with agents. Comparing to cloud computing in 2010, the agent market could grow 1000x from today's early adoption phase.",
-    summaryEn: "We are so unbelievably early with agents. Comparing to cloud computing in 2010, the agent market could grow 1000x from today's early adoption phase.",
-    url: "https://x.com/levie",
-    verified: true
-  },
-  {
-    name: "Sam Altman",
-    handle: "sama",
-    role: "OpenAI CEO",
-    avatar: "SA",
-    summary: "The pace of AI development is beyond imagination. We are witnessing an important moment in technology history.",
-    summaryEn: "The pace of AI development is beyond imagination. We are witnessing an important moment in technology history.",
-    url: "https://x.com/sama",
-    verified: true
+    name: "Swyx",
+    handle: "swyx",
+    role: "AI Engineer & Latent Space Podcast",
+    avatar: "S",
+    summary: "分享了 AI 开发相关内容",
+    summaryEn: "Exploring AI development trends",
+    analysis: "Swyx 是 AI 开发领域的知名布道者，常分享前沿工具和趋势。他的 Latent Space 播客是了解 AI 工程最新动态的重要渠道。",
+    url: "https://x.com/swyx",
+    verified: false
   }
 ];
 
-// 尝试从 follow-builders skill 获取数据
+// 从 follow-builders skill 获取数据
 async function fetchFromFollowBuilders() {
   try {
-    // 检查是否存在 follow-builders skill
     const skillPath = process.env.CLAUDE_SKILL_DIR ||
                       process.env.HOME + '/.agents/skills/follow-builders';
-
     const prepareScript = path.join(skillPath, 'scripts/prepare-digest.js');
 
     if (fs.existsSync(prepareScript)) {
       console.log('Found follow-builders skill, fetching data...');
 
-      // 使用 child_process 运行 prepare-digest.js
       const { execSync } = require('child_process');
       const result = execSync(`cd ${path.dirname(prepareScript)} && node prepare-digest.js 2>/dev/null`, {
         encoding: 'utf-8',
@@ -100,8 +91,6 @@ async function fetchFromFollowBuilders() {
       });
 
       const data = JSON.parse(result);
-
-      // 转换数据格式
       const builders = [];
 
       // 处理 X/Twitter 数据
@@ -110,9 +99,10 @@ async function fetchFromFollowBuilders() {
           if (builder.tweets && builder.tweets.length > 0) {
             const latestTweet = builder.tweets[0];
 
-            // 使用 OpenAI 生成中文分析
             console.log(`Generating analysis for ${builder.name}...`);
-            const analysis = await generateAnalysis(latestTweet.text, builder.name);
+
+            // 生成发散性分析
+            const analysis = generateAnalysis(builder.name, latestTweet.text, builder.bio);
 
             builders.push({
               name: builder.name,
@@ -140,47 +130,7 @@ async function fetchFromFollowBuilders() {
   return null;
 }
 
-// 模拟获取新数据（随机打乱并添加时间戳）
-function generateDailyData() {
-  const today = new Date().toISOString().split('T')[0];
-
-  // 这里可以添加更多 builder 数据
-  const allBuilders = [
-    ...defaultData,
-    {
-      name: "Demis Hassabis",
-      handle: "demishassabis",
-      role: "Google DeepMind CEO",
-      avatar: "DH",
-      summary: "AGI research is accelerating, and we are seeing breakthrough progress in multiple areas.",
-      summaryEn: "AGI research is accelerating, and we are seeing breakthrough progress in multiple areas.",
-      url: "https://x.com/demishassabis",
-      verified: true
-    },
-    {
-      name: "Andrej Karpathy",
-      handle: "karpathy",
-      role: "AI Researcher",
-      avatar: "AK",
-      summary: "Neural networks are becoming increasingly powerful, and we need better understanding and alignment methods.",
-      summaryEn: "Neural networks are becoming increasingly powerful, and we need better understanding and alignment methods.",
-      url: "https://x.com/karpathy",
-      verified: true
-    }
-  ];
-
-  // 随机选择 5-10 个 builder
-  const shuffled = allBuilders.sort(() => 0.5 - Math.random());
-  const selected = shuffled.slice(0, Math.floor(Math.random() * 6) + 5);
-
-  // 添加日期标记
-  return selected.map(b => ({
-    ...b,
-    _updated: today
-  }));
-}
-
-// 更新 data.json 文件
+// 更新 data.json
 function updateDataJson(buildersData) {
   const dataPath = path.join(__dirname, '..', 'data.json');
   fs.writeFileSync(dataPath, JSON.stringify(buildersData, null, 2));
@@ -192,16 +142,13 @@ function updateDataJson(buildersData) {
 async function main() {
   console.log('Fetching daily digest data...');
 
-  // 首先尝试从 follow-builders 获取
   let data = await fetchFromFollowBuilders();
 
-  // 如果失败，使用生成的数据
   if (!data) {
-    console.log('Using generated daily data...');
-    data = generateDailyData();
+    console.log('Using default data...');
+    data = defaultData;
   }
 
-  // 更新 data.json
   updateDataJson(data);
   console.log('Update completed successfully!');
 }
