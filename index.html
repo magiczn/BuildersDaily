@@ -126,7 +126,7 @@
         }
 
         .summary.expanded .expand-hint {
-            display: inline;
+            display: none;
         }
 
         .divider {
@@ -166,6 +166,10 @@
             font-size: 12px;
             margin-left: 4px;
             cursor: pointer;
+        }
+
+        .analysis.expanded .expand-hint {
+            display: none;
         }
 
         .card-date {
@@ -454,19 +458,14 @@
                 // 点击展开提示
                 if (target.classList.contains('expand-hint')) {
                     const parent = target.parentElement;
-                    parent.classList.toggle('expanded');
-                    target.textContent = parent.classList.contains('expanded') ? '收起' : '展开';
+                    parent.classList.add('expanded');
                     e.stopPropagation();
                     return;
                 }
                 
                 // 点击被截断的文本区域
                 if (target.classList.contains('truncated')) {
-                    target.classList.toggle('expanded');
-                    const hint = target.querySelector('.expand-hint');
-                    if (hint) {
-                        hint.textContent = target.classList.contains('expanded') ? '收起' : '展开';
-                    }
+                    target.classList.add('expanded');
                 }
             });
         }
