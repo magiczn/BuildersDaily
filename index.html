@@ -262,17 +262,17 @@
 
         async function loadData() {
             try {
-                const response = await fetch(‘data.json’);
+                const response = await fetch('data.json');
                 buildersData = await response.json();
                 init();
             } catch (error) {
-                console.error(‘Failed to load data:’, error);
-                document.getElementById(‘cardStack’).innerHTML = ‘<div style=”padding: 40px; text-align: center;”>加载数据失败，请刷新重试</div>’;
+                console.error('Failed to load data:', error);
+                document.getElementById('cardStack').innerHTML = '<div style="padding: 40px; text-align: center;">加载数据失败，请刷新重试</div>';
             }
         }
 
         function init() {
-            document.getElementById(‘currentDate’).textContent = new Date().toLocaleDateString(‘zh-CN’, { month: ‘long’, day: ‘numeric’ });
+            document.getElementById('currentDate').textContent = new Date().toLocaleDateString('zh-CN', { month: 'long', day: 'numeric' });
             renderCards();
             bindEvents();
             updateUI();
