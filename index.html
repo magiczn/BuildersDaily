@@ -59,11 +59,10 @@
             height: 60px;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             padding: 0 24px;
             background: transparent;
             flex-shrink: 0;
-            position: relative;
         }
 
         .header-title {
@@ -73,9 +72,12 @@
             letter-spacing: 0.5px;
         }
 
+        .header-date {
+            font-size: 13px;
+            color: #999;
+        }
+
         .page-number {
-            position: absolute;
-            right: 24px;
             font-size: 13px;
             color: #ccc;
         }
@@ -227,6 +229,7 @@
         </div>
 
         <div class="header">
+            <span class="header-date" id="headerDate">2025年1月15日</span>
             <span class="header-title">AI Builders Digest</span>
             <span class="page-number" id="pageNumber">1</span>
         </div>
@@ -281,6 +284,11 @@
         }
 
         function init() {
+            // 设置日期（年月日）
+            const now = new Date();
+            const dateStr = now.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+            document.getElementById('headerDate').textContent = dateStr;
+
             renderCards();
             bindEvents();
             updateUI();
