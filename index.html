@@ -255,185 +255,24 @@
     </div>
 
     <script>
-        const buildersData = [
-    {
-        "name": "Swyx",
-        "handle": "swyx",
-        "role": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-        "avatar": "S",
-        "summary": "https://t.co/9gMu5IrCKI",
-        "summaryEn": "https://t.co/9gMu5IrCKI",
-        "url": "https://x.com/swyx/status/2036337349630763421",
-        "verified": false
-    },
-    {
-        "name": "Kevin Weil",
-        "handle": "kevinweil",
-        "role": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
-        "avatar": "KW",
-        "summary": "I’m inspired by young people putting frontier AI to work in science in new and surprising ways.\n\nWe recently met a young astronomer who used AI to analyze massive datasets. He identified 1.5 million n...",
-        "summaryEn": "I’m inspired by young people putting frontier AI to work in science in new and surprising ways.\n\nWe recently met a young astronomer who used AI to analyze massive datasets. He identified 1.5 million new celestial objects in space, and the head of NASA offered him a job and a ride in a fighter jet as a signing bonus! (https://t.co/v68AdOyShw)\n\nTo celebrate stand-out students and recent grads like this—and help keep their ideas moving—we’re launching a new program: ChatGPT 26. If you're selected, we'll host you at OpenAI HQ in SF, give you access to our latest tech, and give you a $10K cash grant to keep pushing your ideas forward.\n\nIf this sounds like you, we’d love to meet you and hear your story. Apply or nominate someone here: https://t.co/jqm2jPOiM4",
-        "url": "https://x.com/kevinweil/status/2036095876628693168",
-        "verified": false
-    },
-    {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-        "avatar": "PY",
-        "summary": "It’s incredible to see Anthropic ship basically everyday. \n\nReally set the bar for what AI native development looks like. https://t.co/fAwdrLwppX",
-        "summaryEn": "It’s incredible to see Anthropic ship basically everyday. \n\nReally set the bar for what AI native development looks like. https://t.co/fAwdrLwppX",
-        "url": "https://x.com/petergyang/status/2036212646962434395",
-        "verified": false
-    },
-    {
-        "name": "Nan Yu",
-        "handle": "thenanyu",
-        "role": "head of product @linear",
-        "avatar": "NY",
-        "summary": "Sometimes you have to take a moment, step back, and realize how insane this is. \n\nCodex noticed that I included a line in a prompt that obliquely references a feature that's behind a feature flag else...",
-        "summaryEn": "Sometimes you have to take a moment, step back, and realize how insane this is. \n\nCodex noticed that I included a line in a prompt that obliquely references a feature that's behind a feature flag elsewhere in the app, and flagged it.\n\nWhat % of human reviewers would catch this? https://t.co/2vqBMfTlX3",
-        "url": "https://x.com/thenanyu/status/2036095568733143258",
-        "verified": false
-    },
-    {
-        "name": "Thariq",
-        "handle": "trq212",
-        "role": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
-        "avatar": "T",
-        "summary": "btw we acquired a computer use company and then 4 weeks later shipped computer use https://t.co/6lpOcP5aUU",
-        "summaryEn": "btw we acquired a computer use company and then 4 weeks later shipped computer use https://t.co/6lpOcP5aUU",
-        "url": "https://x.com/trq212/status/2036302910498173034",
-        "verified": false
-    },
-    {
-        "name": "Google Labs",
-        "handle": "GoogleLabs",
-        "role": "Google’s home for our latest AI tools and experiments.",
-        "avatar": "GL",
-        "summary": "Thanks for exploring virtual try-on with our experimental app Doppl. Your feedback has helped us refine the technology and you can use our virtual try-on tech on product listings and image results acr...",
-        "summaryEn": "Thanks for exploring virtual try-on with our experimental app Doppl. Your feedback has helped us refine the technology and you can use our virtual try-on tech on product listings and image results across Google. As we make this transition, the Doppl app will officially shut down on April 30, 2026.\n\nOur goal in Labs is to test new ideas and give you a first look at experimental AI. Thank you for being part of this community and helping us explore, learn, and scale these early technologies!\n\nLearn more: https://t.co/recuFnJIQ8",
-        "url": "https://x.com/GoogleLabs/status/2036188820128071786",
-        "verified": false
-    },
-    {
-        "name": "Amjad Masad",
-        "handle": "amasad",
-        "role": "ceo @replit. civilizationist",
-        "avatar": "AM",
-        "summary": "Super useful viral TSA wait time app — built on Replit. https://t.co/6tTjLYjc8S",
-        "summaryEn": "Super useful viral TSA wait time app — built on Replit. https://t.co/6tTjLYjc8S",
-        "url": "https://x.com/amasad/status/2036272008158433564",
-        "verified": false
-    },
-    {
-        "name": "Alex Albert",
-        "handle": "alexalbert__",
-        "role": "Research @AnthropicAI. Opinions are my own!",
-        "avatar": "AA",
-        "summary": "Highly recommend reading this guest post by theoretical physicist Matthew Schwartz to get a sense of how AI is helping science.\n\nHe found Opus 4.5 to be roughly the level of a second-year grad student...",
-        "summaryEn": "Highly recommend reading this guest post by theoretical physicist Matthew Schwartz to get a sense of how AI is helping science.\n\nHe found Opus 4.5 to be roughly the level of a second-year grad student and it helped him accelerate his research by 10x. https://t.co/mSk8lOczdB",
-        "url": "https://x.com/alexalbert__/status/2036232980059062550",
-        "verified": false
-    },
-    {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "role": "ceo @box - your business lives in content. unleash it with AI",
-        "avatar": "AL",
-        "summary": "Computer use and the ability to write and run code on the fly are the ultimate primitives for agents to be able to take on more and more tasks in knowledge work. \n\nMost work requires hopping between m...",
-        "summaryEn": "Computer use and the ability to write and run code on the fly are the ultimate primitives for agents to be able to take on more and more tasks in knowledge work. \n\nMost work requires hopping between multiple applications, and working with broad sets of data, in a workflow, and agents will need to be able to traverse these systems to be able to effectively automate any real work in the enterprise. \n\nNow we will have agents that are the equivalent of having an expert programmer (or any number of them) that can write code or use any API to automate whatever work you’re doing. Agents will have access to either a user’s computer and resources, or their own sandbox to operate in, and be able to pull together the tools necessary to perform the task at hand. This opens up the broadest set of agentic use-cases.\n\nTo be sure, there are going to be various hurdles around security, permissions and access controls, identity challenges, and more. \n\nFor instance, should the agent always act on behalf of the user, or should they have their own identity and limited set of access rights? How do you triage security events when historically volume of activity on a system is no longer a reliable signal of a security issue? How do you ensure the agent isn’t going rogue or getting prompt injected to do something risky? All problems that need to get figured out.\n\nThen, there’s also lots of work needed to ensure software is setup to enable to agents to operate with their tools in a headless fashion. This will be an uncomfortable reality for some incumbents, and equally a welcome one for tools that historically have operated seamlessly via APIs, and have business models to support this.\n\nLots of change coming in the world of work agents, and it’s going to get pretty wild.",
-        "url": "https://x.com/levie/status/2036290915950797314",
-        "verified": false
-    },
-    {
-        "name": "Garry Tan",
-        "handle": "garrytan",
-        "role": "President & CEO @ycombinator —Founder https://t.co/7aoJjp1iIK—designer/engineer who helps founders—SF Dem accelerating the boom loop—haters not allowed in my sauna",
-        "avatar": "GT",
-        "summary": "Many such cases https://t.co/3OfLIYntTr",
-        "summaryEn": "Many such cases https://t.co/3OfLIYntTr",
-        "url": "https://x.com/garrytan/status/2036330995973292346",
-        "verified": false
-    },
-    {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "role": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-        "avatar": "MT",
-        "summary": "Going to be hard to explain to future generations that there was a time, before Claude Code, when people with an idea would sometimes spend years looking for a “technical co-founder”",
-        "summaryEn": "Going to be hard to explain to future generations that there was a time, before Claude Code, when people with an idea would sometimes spend years looking for a “technical co-founder”",
-        "url": "https://x.com/mattturck/status/2036182407779365309",
-        "verified": false
-    },
-    {
-        "name": "Nikunj Kothari",
-        "handle": "nikunj",
-        "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-        "avatar": "NK",
-        "summary": "Being in SF means constantly hearing the same three things (jevons paradox, goodharts law and the bitter lesson) over and over again..\n\nGood reminder (even for me) to read more history, art and sci-fi...",
-        "summaryEn": "Being in SF means constantly hearing the same three things (jevons paradox, goodharts law and the bitter lesson) over and over again..\n\nGood reminder (even for me) to read more history, art and sci-fi!",
-        "url": "https://x.com/nikunj/status/2036108908532801630",
-        "verified": false
-    },
-    {
-        "name": "Peter Steinberger",
-        "handle": "steipete",
-        "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
-        "avatar": "PS",
-        "summary": "Pretty much every PR I review:\n\n0) review <URL> [codex does it's thing and finds issues]\n1) is the issue clear? [if not, trash PR]\n2) is this the best possible fix? [95% of the time no]\n3) continue di...",
-        "summaryEn": "Pretty much every PR I review:\n\n0) review <URL> [codex does it's thing and finds issues]\n1) is the issue clear? [if not, trash PR]\n2) is this the best possible fix? [95% of the time no]\n3) continue discussion, consider tradeoffs, usually rewrite PR\n\nMost folks send too localized, small fixes that would end up making the project unmaintainable.",
-        "url": "https://x.com/steipete/status/2036252448399171717",
-        "verified": false
-    },
-    {
-        "name": "Dan Shipper",
-        "handle": "danshipper",
-        "role": "ceo @every | the only subscription you need to stay at the edge of AI",
-        "avatar": "DS",
-        "summary": "this is so good\n\nobviously the future https://t.co/RhJWDcgBlE",
-        "summaryEn": "this is so good\n\nobviously the future https://t.co/RhJWDcgBlE",
-        "url": "https://x.com/danshipper/status/2036251531570278825",
-        "verified": false
-    },
-    {
-        "name": "Aditya Agarwal",
-        "handle": "adityaag",
-        "role": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
-        "avatar": "AA",
-        "summary": "This is crazy. I thought we were past this.\n\nRyan is building something important -- let's enable him to do so. https://t.co/BMb5jjvSx9",
-        "summaryEn": "This is crazy. I thought we were past this.\n\nRyan is building something important -- let's enable him to do so. https://t.co/BMb5jjvSx9",
-        "url": "https://x.com/adityaag/status/2036138235068555727",
-        "verified": false
-    },
-    {
-        "name": "Sam Altman",
-        "handle": "sama",
-        "role": "AI is cool i guess",
-        "avatar": "SA",
-        "summary": "I have loved being on the Helion board; I continue to be extremely excited about a future with abundant energy and Helion in particular.\n\nAs Helion and OpenAI start to explore working together at sign...",
-        "summaryEn": "I have loved being on the Helion board; I continue to be extremely excited about a future with abundant energy and Helion in particular.\n\nAs Helion and OpenAI start to explore working together at significant scale, it is difficult for me to be on both boards. (I will have a financial interest in Helion so still be recused from negotiations, but from a governance perspective this will make things easier for both companies.)\n\nDavid and Chris are exceptional founders and I think people will be quite impressed by the company's progress.",
-        "url": "https://x.com/sama/status/2036137695605563682",
-        "verified": false
-    },
-    {
-        "name": "Claude",
-        "handle": "claudeai",
-        "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on desktop or download the app.",
-        "avatar": "C",
-        "summary": "Available on Pro and Max. \n\nUpdate your desktop app and pair with mobile to try: https://t.co/YhYFTjHZYK",
-        "summaryEn": "Available on Pro and Max. \n\nUpdate your desktop app and pair with mobile to try: https://t.co/YhYFTjHZYK",
-        "url": "https://x.com/claudeai/status/2036195797881028970",
-        "verified": false
-    }
-];
-
+        let buildersData = [];
         let currentIndex = 0;
         let startY = 0;
         let isDragging = false;
 
+        async function loadData() {
+            try {
+                const response = await fetch(‘data.json’);
+                buildersData = await response.json();
+                init();
+            } catch (error) {
+                console.error(‘Failed to load data:’, error);
+                document.getElementById(‘cardStack’).innerHTML = ‘<div style=”padding: 40px; text-align: center;”>加载数据失败，请刷新重试</div>’;
+            }
+        }
+
         function init() {
-            document.getElementById('currentDate').textContent = new Date().toLocaleDateString('zh-CN', { month: 'long', day: 'numeric' });
+            document.getElementById(‘currentDate’).textContent = new Date().toLocaleDateString(‘zh-CN’, { month: ‘long’, day: ‘numeric’ });
             renderCards();
             bindEvents();
             updateUI();
@@ -555,7 +394,7 @@
             document.getElementById('pageIndicator').textContent = `${currentIndex + 1} / ${buildersData.length}`;
         }
 
-        init();
+        loadData();
     </script>
 </body>
 </html>
