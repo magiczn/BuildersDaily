@@ -133,7 +133,8 @@
         .card-date {
             font-size: 13px;
             color: #999;
-            margin-bottom: 16px;
+            margin-top: 40px;
+            margin-bottom: 24px;
         }
 
         .footer {
@@ -313,10 +314,10 @@
             stack.innerHTML = buildersData.map((builder, index) => `
                 <div class="card ${index === 0 ? 'active' : ''}" data-index="${index}">
                     <div class="content">
+                        <div class="card-date">${dateStr}</div>
                         <div class="summary">${builder.summaryEn}</div>
                         <div class="divider"></div>
                         ${builder.analysis ? `<div class="analysis">${builder.analysis}</div>` : ''}
-                        <div class="card-date">${dateStr}</div>
                     </div>
                     <div class="footer">
                         <div class="source">
