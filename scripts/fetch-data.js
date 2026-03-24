@@ -7,39 +7,41 @@ function truncateText(text, maxLength = 280) {
   return text.substring(0, maxLength).trim() + '...';
 }
 
-// 生成中文分析 - 使用 AI API 或返回空
+// 使用智谱 API 生成中文分析
 async function generateAnalysis(text, name) {
-  const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+  const ZHIPU_API_KEY = process.env.ZHIPU_API_KEY;
 
-  if (!ANTHROPIC_API_KEY || !text || text.length < 10) {
+  if (!ZHIPU_API_KEY || !text || text.length < 10) {
     return '';
   }
 
   try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+    const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01'
+        'Authorization': `Bearer ${ZHIPU_API_KEY}`
       },
       body: JSON.stringify({
-        model: 'claude-3-5-haiku-20241022',
+        model: 'glm-4-flash',
         max_tokens: 150,
         messages: [{
           role: 'user',
-          content: `请用不超过100字的中文，简要分析这条AI行业人士的推文核心观点或意义。用一句话总结：\n\n推文："${text.substring(0, 200)}"`
+          content: `请用不超过100字的中文，简要分析这条AI行业人士的推文核心观点或意义：\n\n推文作者：${name}\n推文内容："${text.substring(0, 300)}"`
         }]
       })
     });
 
     if (!response.ok) {
+      const error = await response.text();
+      console.log('智谱 API error:', error);
       return '';
     }
 
     const data = await response.json();
-    return data.content[0].text.trim();
+    return data.choices[0].message.content.trim();
   } catch (error) {
+    console.log('Analysis generation error:', error.message);
     return '';
   }
 }
@@ -108,7 +110,8 @@ async function fetchFromFollowBuilders() {
           if (builder.tweets && builder.tweets.length > 0) {
             const latestTweet = builder.tweets[0];
 
-            // 生成中文分析
+            // 使用 OpenAI 生成中文分析
+            console.log(`Generating analysis for ${builder.name}...`);
             const analysis = await generateAnalysis(latestTweet.text, builder.name);
 
             builders.push({
