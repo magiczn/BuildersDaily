@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+// 文本截断函数 - 限制显示长度以适应页面
+function truncateText(text, maxLength = 280) {
+  if (!text || text.length <= maxLength) return text;
+  return text.substring(0, maxLength).trim() + '...';
+}
+
 // 默认的 builder 数据（当无法获取实时数据时使用）
 const defaultData = [
   {
@@ -70,8 +76,8 @@ async function fetchFromFollowBuilders() {
               handle: builder.handle,
               role: builder.bio || 'AI Builder',
               avatar: builder.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
-              summary: latestTweet.text,
-              summaryEn: latestTweet.text,
+              summary: truncateText(latestTweet.text, 280),
+              summaryEn: truncateText(latestTweet.text, 280),
               url: latestTweet.url || `https://x.com/${builder.handle}`,
               verified: builder.verified || false
             });
