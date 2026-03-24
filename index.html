@@ -115,17 +115,22 @@
             color: #1a1a1a;
             font-weight: 400;
             max-width: 320px;
-            margin: 0 auto 32px;
+            margin: 0 auto;
         }
 
-        .summary-en {
-            font-size: 14px;
-            line-height: 1.7;
-            color: #666;
-            max-width: 320px;
+        .divider {
+            width: 40px;
+            height: 1px;
+            background: #e8e8e8;
+            margin: 32px auto;
+        }
+
+        .builder-meta {
+            font-size: 13px;
+            color: #999;
+            line-height: 1.6;
+            max-width: 280px;
             margin: 0 auto;
-            padding-top: 24px;
-            border-top: 1px solid #e8e8e8;
         }
 
         .footer {
@@ -294,12 +299,9 @@
             stack.innerHTML = buildersData.map((builder, index) => `
                 <div class="card ${index === 0 ? 'active' : ''}" data-index="${index}">
                     <div class="content">
-                        <div class="builder-info">
-                            <div class="builder-name">${builder.name}</div>
-                            <div class="builder-role">${builder.role}</div>
-                        </div>
-                        <div class="summary">${builder.summary}</div>
-                        <div class="summary-en">${builder.summaryEn}</div>
+                        <div class="summary">${builder.summaryEn}</div>
+                        <div class="divider"></div>
+                        <div class="builder-meta">${builder.role}</div>
                     </div>
                     <div class="footer">
                         <div class="source">

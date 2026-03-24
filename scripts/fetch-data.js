@@ -8,7 +8,7 @@ const defaultData = [
     handle: "rauchg",
     role: "Vercel CEO",
     avatar: "GR",
-    summary: "代码只是输出，我们正在回归本质。从崇拜代码本身转向关注真正的输入：需求、规格、用户反馈和实际生产数据。",
+    summary: "Code is an output. Nature is healing. We are shifting from glorifying code to focusing on true inputs like requirements, specs, and user feedback.",
     summaryEn: "Code is an output. Nature is healing. We are shifting from glorifying code to focusing on true inputs like requirements, specs, and user feedback.",
     url: "https://x.com/rauchg",
     verified: true
@@ -18,7 +18,7 @@ const defaultData = [
     handle: "levie",
     role: "Box CEO",
     avatar: "AL",
-    summary: "我们现在仍处于 AI Agent 的早期阶段。类比 2010 年的云计算，预测 Agent 市场可能从今天早期阶段增长 1000 倍。",
+    summary: "We are so unbelievably early with agents. Comparing to cloud computing in 2010, the agent market could grow 1000x from today's early adoption phase.",
     summaryEn: "We are so unbelievably early with agents. Comparing to cloud computing in 2010, the agent market could grow 1000x from today's early adoption phase.",
     url: "https://x.com/levie",
     verified: true
@@ -28,7 +28,7 @@ const defaultData = [
     handle: "sama",
     role: "OpenAI CEO",
     avatar: "SA",
-    summary: "AI 的发展速度超乎想象，我们正在见证技术史上的重要时刻。",
+    summary: "The pace of AI development is beyond imagination. We are witnessing an important moment in technology history.",
     summaryEn: "The pace of AI development is beyond imagination. We are witnessing an important moment in technology history.",
     url: "https://x.com/sama",
     verified: true
@@ -51,7 +51,7 @@ async function fetchFromFollowBuilders() {
       const { execSync } = require('child_process');
       const result = execSync(`cd ${path.dirname(prepareScript)} && node prepare-digest.js 2>/dev/null`, {
         encoding: 'utf-8',
-        timeout: 60000
+        timeout: 120000
       });
 
       const data = JSON.parse(result);
@@ -64,12 +64,13 @@ async function fetchFromFollowBuilders() {
         for (const builder of data.x) {
           if (builder.tweets && builder.tweets.length > 0) {
             const latestTweet = builder.tweets[0];
+
             builders.push({
               name: builder.name,
               handle: builder.handle,
               role: builder.bio || 'AI Builder',
               avatar: builder.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
-              summary: latestTweet.text.substring(0, 200) + (latestTweet.text.length > 200 ? '...' : ''),
+              summary: latestTweet.text,
               summaryEn: latestTweet.text,
               url: latestTweet.url || `https://x.com/${builder.handle}`,
               verified: builder.verified || false
@@ -101,7 +102,7 @@ function generateDailyData() {
       handle: "demishassabis",
       role: "Google DeepMind CEO",
       avatar: "DH",
-      summary: "AGI 的研究正在加速，我们在多个领域看到了突破性的进展。",
+      summary: "AGI research is accelerating, and we are seeing breakthrough progress in multiple areas.",
       summaryEn: "AGI research is accelerating, and we are seeing breakthrough progress in multiple areas.",
       url: "https://x.com/demishassabis",
       verified: true
@@ -111,7 +112,7 @@ function generateDailyData() {
       handle: "karpathy",
       role: "AI Researcher",
       avatar: "AK",
-      summary: "神经网络正在变得越来越强大，我们需要更好的理解和对齐方法。",
+      summary: "Neural networks are becoming increasingly powerful, and we need better understanding and alignment methods.",
       summaryEn: "Neural networks are becoming increasingly powerful, and we need better understanding and alignment methods.",
       url: "https://x.com/karpathy",
       verified: true
