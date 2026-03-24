@@ -9,7 +9,7 @@
 
         html, body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-            background: #000;
+            background: #fafafa;
             overflow: hidden;
             touch-action: pan-y;
             height: 100%;
@@ -27,14 +27,14 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 3px;
-            background: rgba(255,255,255,0.2);
+            height: 2px;
+            background: rgba(0,0,0,0.06);
             z-index: 1000;
         }
 
         .progress-bar {
             height: 100%;
-            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            background: #1a1a1a;
             transition: width 0.3s;
             width: 0%;
         }
@@ -45,10 +45,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: #fff;
+            background: #fafafa;
             display: flex;
             flex-direction: column;
-            transition: transform 0.3s ease-out;
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             transform: translateY(100%);
         }
 
@@ -56,78 +56,84 @@
         .card.prev { transform: translateY(-100%); }
 
         .header {
-            height: 50px;
+            height: 60px;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 0 20px;
-            background: #fff;
-            border-bottom: 1px solid #f0f0f0;
+            padding: 0 24px;
+            background: transparent;
             flex-shrink: 0;
         }
 
         .header-title {
-            font-size: 16px;
-            font-weight: 700;
-            color: #1a1a1a;
+            font-size: 14px;
+            font-weight: 500;
+            color: #999;
+            letter-spacing: 0.5px;
         }
 
         .header-date {
             position: absolute;
-            right: 20px;
+            right: 24px;
             font-size: 13px;
-            color: #999;
+            color: #ccc;
         }
 
         .content {
             flex: 1;
-            padding: 28px;
+            padding: 0 40px;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
-            padding-top: 40px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
 
         .builder-info {
-            margin-bottom: 24px;
+            margin-bottom: 48px;
         }
 
         .builder-name {
-            font-size: 22px;
-            font-weight: 700;
+            font-size: 18px;
+            font-weight: 600;
             color: #1a1a1a;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
 
         .builder-role {
-            font-size: 15px;
-            color: #666;
+            font-size: 13px;
+            color: #999;
+            line-height: 1.5;
+            max-width: 280px;
+            margin: 0 auto;
         }
 
         .summary {
-            font-size: 20px;
-            line-height: 1.75;
+            font-size: 22px;
+            line-height: 1.8;
             color: #1a1a1a;
             font-weight: 400;
-            margin-bottom: 20px;
+            max-width: 320px;
+            margin: 0 auto 32px;
         }
 
         .summary-en {
-            font-size: 15px;
-            line-height: 1.65;
+            font-size: 14px;
+            line-height: 1.7;
             color: #666;
-            padding-top: 20px;
-            border-top: 1px solid #f0f0f0;
+            max-width: 320px;
+            margin: 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid #e8e8e8;
         }
 
         .footer {
-            padding: 16px 20px 30px;
-            background: #fff;
-            border-top: 1px solid #f5f5f5;
+            padding: 24px 40px 48px;
+            background: transparent;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             flex-shrink: 0;
         }
 
@@ -135,29 +141,27 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            flex: 1;
-            min-width: 0;
         }
 
         .source-avatar {
-            width: 40px;
-            height: 40px;
+            width: 36px;
+            height: 36px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #1a1a1a;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #fff;
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 12px;
+            font-weight: 500;
             flex-shrink: 0;
         }
 
-        .source-info { min-width: 0; }
+        .source-info { text-align: left; }
 
         .source-name {
-            font-size: 15px;
-            font-weight: 600;
+            font-size: 14px;
+            font-weight: 500;
             color: #1a1a1a;
             display: flex;
             align-items: center;
@@ -165,75 +169,53 @@
         }
 
         .source-verified {
-            width: 14px;
-            height: 14px;
-            background: #ff6b6b;
+            width: 12px;
+            height: 12px;
+            background: #1a1a1a;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #fff;
-            font-size: 8px;
+            font-size: 7px;
             font-weight: 700;
         }
 
         .source-handle {
-            font-size: 13px;
+            font-size: 12px;
             color: #999;
             margin-top: 2px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }
 
         .read-more {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            padding: 10px 16px;
-            background: #f5f5f5;
-            border-radius: 20px;
-            text-decoration: none;
-            color: #333;
-            font-size: 13px;
-            font-weight: 500;
-            flex-shrink: 0;
-        }
-
-        .read-more svg {
-            width: 14px;
-            height: 14px;
+            display: none;
         }
 
         .swipe-hint {
             position: fixed;
-            bottom: 100px;
+            bottom: 80px;
             left: 50%;
             transform: translateX(-50%);
-            background: rgba(0,0,0,0.7);
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 20px;
-            font-size: 13px;
+            color: #999;
+            font-size: 12px;
             opacity: 0;
             transition: opacity 0.3s;
             pointer-events: none;
             z-index: 100;
+            letter-spacing: 1px;
         }
 
         .swipe-hint.show { opacity: 1; }
 
         .page-indicator {
             position: fixed;
-            bottom: 20px;
+            bottom: 24px;
             left: 50%;
             transform: translateX(-50%);
-            background: rgba(0,0,0,0.6);
-            color: #fff;
-            padding: 6px 14px;
-            border-radius: 12px;
+            color: #ccc;
             font-size: 12px;
             z-index: 100;
+            letter-spacing: 0.5px;
         }
     </style>
 </head>
@@ -250,7 +232,7 @@
 
         <div id="cardStack"></div>
 
-        <div class="swipe-hint" id="swipeHint">上滑查看更多</div>
+        <div class="swipe-hint" id="swipeHint">上滑阅读下一条</div>
         <div class="page-indicator" id="pageIndicator">1 / 10</div>
     </div>
 
@@ -330,14 +312,6 @@
                                 <div class="source-handle">@${builder.handle}</div>
                             </div>
                         </div>
-                        <a href="${builder.url}" target="_blank" class="read-more" onclick="event.stopPropagation()">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                <polyline points="15,3 21,3 21,9"/>
-                                <line x1="10" y1="14" x2="21" y2="3"/>
-                            </svg>
-                            阅读原文
-                        </a>
                     </div>
                 </div>
             `).join('');
