@@ -100,6 +100,11 @@
             max-width: 80%;
             width: 100%;
             margin: 0 auto;
+            display: -webkit-box;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .divider {
@@ -117,6 +122,11 @@
             max-width: 80%;
             width: 100%;
             margin: 0 auto;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .footer {
@@ -200,7 +210,7 @@
 
         .page-indicator {
             position: fixed;
-            bottom: 24px;
+            bottom: 8px;
             left: 50%;
             transform: translateX(-50%);
             color: #ccc;
@@ -278,6 +288,13 @@
             renderCards();
             bindEvents();
             updateUI();
+
+            // 首次显示提示
+            if (buildersData.length > 1) {
+                const hint = document.getElementById('swipeHint');
+                hint.classList.add('show');
+                setTimeout(() => hint.classList.remove('show'), 2000);
+            }
         }
 
         function renderCards() {
@@ -371,12 +388,6 @@
             });
 
             updateUI();
-
-            if (currentIndex < buildersData.length - 1) {
-                const hint = document.getElementById('swipeHint');
-                hint.classList.add('show');
-                setTimeout(() => hint.classList.remove('show'), 1500);
-            }
         }
 
         function updateUI() {
