@@ -102,7 +102,7 @@
             width: 100%;
             margin: 0 auto;
             display: -webkit-box;
-            -webkit-line-clamp: 6;
+            -webkit-line-clamp: 8;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -124,7 +124,7 @@
             width: 100%;
             margin: 0 auto 12px;
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -133,8 +133,8 @@
         .card-date {
             font-size: 13px;
             color: #999;
-            margin-top: 32px;
-            margin-bottom: 32px;
+            margin-top: 0;
+            margin-bottom: 24px;
         }
 
         .footer {
@@ -217,7 +217,7 @@
             top: 80px;
             left: 50%;
             transform: translateX(-50%);
-            color: #999;
+            color: #1a1a1a;
             font-size: 12px;
             opacity: 0;
             transition: opacity 0.3s;
@@ -243,7 +243,7 @@
 
         <div id="cardStack"></div>
 
-        <div class="swipe-hint" id="swipeHint">上滑阅读下一条</div>
+        <div class="swipe-hint" id="swipeHint">下滑显示下一条</div>
     </div>
 
     <script>
