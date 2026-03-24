@@ -129,27 +129,12 @@ function generateDailyData() {
   }));
 }
 
-// 更新 index.html 中的数据
-function updateIndexHtml(buildersData) {
-  const indexPath = path.join(__dirname, '..', 'index.html');
-  let content = fs.readFileSync(indexPath, 'utf-8');
-
-  // 将数据转换为 JSON 字符串
-  const dataString = JSON.stringify(buildersData, null, 4);
-
-  // 替换 buildersData 数组
-  const regex = /const buildersData = \[[\s\S]*?\];/;
-  const replacement = `const buildersData = ${dataString};`;
-
-  if (regex.test(content)) {
-    content = content.replace(regex, replacement);
-    fs.writeFileSync(indexPath, content);
-    console.log(`Updated index.html with ${buildersData.length} builders`);
-    return true;
-  } else {
-    console.error('Could not find buildersData in index.html');
-    return false;
-  }
+// 更新 data.json 文件
+function updateDataJson(buildersData) {
+  const dataPath = path.join(__dirname, '..', 'data.json');
+  fs.writeFileSync(dataPath, JSON.stringify(buildersData, null, 2));
+  console.log(`Updated data.json with ${buildersData.length} builders`);
+  return true;
 }
 
 // 主函数
@@ -165,14 +150,9 @@ async function main() {
     data = generateDailyData();
   }
 
-  // 更新 index.html
-  if (updateIndexHtml(data)) {
-    console.log('Update completed successfully!');
-    process.exit(0);
-  } else {
-    console.error('Failed to update index.html');
-    process.exit(1);
-  }
+  // 更新 data.json
+  updateDataJson(data);
+  console.log('Update completed successfully!');
 }
 
 main().catch(err => {
