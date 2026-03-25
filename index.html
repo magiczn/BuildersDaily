@@ -366,14 +366,17 @@
 
         .cover-stats {
             display: inline-flex;
+            flex-direction: column;
             align-items: center;
-            gap: 14px;
+            justify-content: center;
+            gap: 8px;
             padding: 14px 18px;
             border: 1px solid #e6e6e6;
             border-radius: 18px;
             background: linear-gradient(180deg, #ffffff 0%, #f6f6f6 100%);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             margin-bottom: 48px;
+            text-align: center;
         }
 
         .cover-stats-label {
@@ -381,6 +384,7 @@
             letter-spacing: 0.14em;
             text-transform: uppercase;
             color: #999;
+            line-height: 1;
         }
 
         .cover-stats-text {
