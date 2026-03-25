@@ -359,8 +359,41 @@
         .cover-desc {
             font-size: 14px;
             color: #666;
-            margin-bottom: 48px;
+            margin-bottom: 18px;
             line-height: 1.6;
+            max-width: 420px;
+        }
+
+        .cover-stats {
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 18px;
+            border: 1px solid #e6e6e6;
+            border-radius: 18px;
+            background: linear-gradient(180deg, #ffffff 0%, #f6f6f6 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            margin-bottom: 48px;
+        }
+
+        .cover-stats-label {
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #999;
+        }
+
+        .cover-stats-text {
+            font-size: 20px;
+            line-height: 1.2;
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+
+        .cover-stats-text strong {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
         }
 
         .cover-meta {
@@ -523,7 +556,11 @@
                         <div class="cover-logo">AI</div>
                         <div class="cover-date">${fullDateStr}</div>
                         <div class="cover-title">Builders Daily</div>
-                        <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见。<br>今天共追踪到 ${builderCount} 位 Builders 的 ${postCount} 条动态。</div>
+                        <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见。</div>
+                        <div class="cover-stats">
+                            <div class="cover-stats-label">Today's Pulse</div>
+                            <div class="cover-stats-text">追踪到 <strong>${builderCount}</strong> 位 Builders 的 <strong>${postCount}</strong> 条动态</div>
+                        </div>
                         <div class="cover-arrow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="9 18 15 12 9 6"></polyline>
