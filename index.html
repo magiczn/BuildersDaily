@@ -359,10 +359,10 @@
         }
 
         .cover-date {
-            font-size: 14px;
+            font-size: 11px;
             color: #999;
-            letter-spacing: 2px;
-            margin-bottom: 24px;
+            letter-spacing: 0.14em;
+            line-height: 1;
         }
 
         .cover-title {
@@ -376,7 +376,7 @@
         .cover-desc {
             font-size: 14px;
             color: #666;
-            margin-bottom: 18px;
+            margin-top: 18px;
             line-height: 1.6;
             max-width: 420px;
         }
@@ -575,11 +575,9 @@
                 <div class="cover-card active" data-index="-1">
                     <div class="cover-top">
                         <div class="cover-logo">AI</div>
-                        <div class="cover-date">${fullDateStr}</div>
                         <div class="cover-title">Builders Daily</div>
-                        <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见。</div>
                         <div class="cover-stats">
-                            <div class="cover-stats-label">Today's Pulse</div>
+                            <div class="cover-date">${fullDateStr}</div>
                             <div class="cover-stats-text">追踪到 <strong>${builderCount}</strong> 位 Builders 的 <strong>${postCount}</strong> 条动态</div>
                         </div>
                         <div class="cover-arrow">
@@ -593,6 +591,7 @@
                             <div>出品：<span>红心大狼狗</span></div>
                             <div>致谢：<span>张咋啦</span></div>
                         </div>
+                        <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见</div>
                     </div>
                 </div>
             `;
