@@ -142,47 +142,63 @@
             margin-bottom: 16px;
         }
 
-        .divider {
-            width: 40px;
-            height: 1px;
-            background: #e8e8e8;
-            margin: 24px auto;
-            flex-shrink: 0;
+        .analysis-shell {
+            width: 100%;
+            max-width: 85%;
+            margin: 28px auto 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .analysis-toggle {
+            border: 0;
+            border-radius: 999px;
+            background: rgba(0, 0, 0, 0.06);
+            color: #1a1a1a;
+            padding: 10px 18px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+        }
+
+        .analysis-toggle:hover {
+            background: rgba(0, 0, 0, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .analysis-shell.revealed .analysis-toggle {
+            display: none;
+        }
+
+        .analysis-panel {
+            width: 100%;
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .analysis-shell.revealed .analysis-panel {
+            grid-template-rows: 1fr;
+        }
+
+        .analysis-panel-inner {
+            min-height: 0;
+            overflow: hidden;
         }
 
         .analysis {
             font-size: 14px;
-            line-height: 1.7;
-            color: #666;
-            max-width: 85%;
+            line-height: 1.85;
+            color: #5f5f5f;
             width: 100%;
-            margin: 0 auto 12px;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            cursor: default;
-            transition: all 0.3s ease;
-        }
-
-        .analysis.truncated {
-            cursor: pointer;
-        }
-
-        .analysis.expanded {
-            -webkit-line-clamp: unset;
-        }
-
-        .analysis .expand-hint {
-            color: #999;
-            font-size: 12px;
-            margin-left: 4px;
-            cursor: pointer;
-        }
-
-        .analysis.expanded .expand-hint {
-            display: none;
+            margin: 0;
+            padding-top: 18px;
+            border-top: 1px solid #ececec;
+            text-align: left;
         }
 
         .card-date {
@@ -573,8 +589,8 @@
                     </div>
                     <div class="cover-bottom">
                         <div class="cover-meta">
-                            <div>出品：<span>赵楠</span></div>
-                            <div>致谢：<span>张 Zara</span></div>
+                            <div>出品：<span>红心大狼狗</span></div>
+                            <div>致谢：<span>张咋啦</span></div>
                         </div>
                     </div>
                 </div>
@@ -587,8 +603,16 @@
                         <div class="card-date">${dateStr}</div>
                         ${builder.isSummary ? '<div class="summary-title">今日小结</div>' : ''}
                         <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
-                        <div class="divider"></div>
-                        ${builder.analysis ? `<div class="analysis" data-full="${builder.analysis.replace(/"/g, '&quot;')}">${builder.analysis}</div>` : ''}
+                        ${builder.analysis ? `
+                            <div class="analysis-shell">
+                                <button type="button" class="analysis-toggle">AI 解读</button>
+                                <div class="analysis-panel">
+                                    <div class="analysis-panel-inner">
+                                        <div class="analysis">${builder.analysis}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        ` : ''}
                     </div>
                     <div class="footer">
                         <div class="source">
@@ -618,7 +642,7 @@
 
             // 检查哪些文本需要展开提示
             setTimeout(() => {
-                document.querySelectorAll('.summary, .analysis').forEach(el => {
+                document.querySelectorAll('.summary').forEach(el => {
                     if (el.scrollHeight > el.clientHeight + 5) {
                         el.classList.add('truncated');
                         const hint = document.createElement('span');
@@ -677,6 +701,15 @@
             document.addEventListener('click', (e) => {
                 const target = e.target;
 
+                if (target.closest('.analysis-toggle')) {
+                    const shell = target.closest('.analysis-shell');
+                    if (shell) {
+                        shell.classList.add('revealed');
+                    }
+                    e.stopPropagation();
+                    return;
+                }
+
                 // 点击展开提示
                 if (target.classList.contains('expand-hint')) {
                     const parent = target.parentElement;
@@ -693,7 +726,7 @@
         }
 
         function handleStart(e) {
-            if (e.target.tagName === 'A') return; // 忽略链接点击
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || e.target.closest('.analysis-toggle')) return; // 忽略链接和按钮点击
             startY = e.touches ? e.touches[0].clientY : e.clientY;
             currentY = startY;
             lastY = startY;
