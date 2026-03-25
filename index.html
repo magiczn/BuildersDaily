@@ -383,18 +383,45 @@
         }
 
         .cover-stats {
+            position: relative;
             display: inline-flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 8px;
-            padding: 14px 18px;
-            border: 1px solid #e6e6e6;
-            border-radius: 18px;
-            background: linear-gradient(180deg, #ffffff 0%, #f6f6f6 100%);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            margin-bottom: 48px;
+            gap: 10px;
+            padding: 22px 30px 24px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 28px;
+            background:
+                radial-gradient(circle at 18% 18%, rgba(0, 0, 0, 0.035) 0%, rgba(0, 0, 0, 0) 34%),
+                linear-gradient(180deg, #ffffff 0%, #f5f4f1 100%);
+            box-shadow:
+                0 18px 36px rgba(0, 0, 0, 0.06),
+                inset 0 1px 0 rgba(255, 255, 255, 0.82);
+            margin-bottom: 52px;
             text-align: center;
+            overflow: hidden;
+        }
+
+        .cover-stats::before {
+            content: '';
+            position: absolute;
+            inset: 10px;
+            border-radius: 22px;
+            border: 1px solid rgba(255, 255, 255, 0.58);
+            pointer-events: none;
+        }
+
+        .cover-stats::after {
+            content: '';
+            position: absolute;
+            width: 92px;
+            height: 92px;
+            top: -38px;
+            right: -24px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 72%);
+            pointer-events: none;
         }
 
         .cover-stats-label {
@@ -406,14 +433,36 @@
         }
 
         .cover-stats-text {
-            font-size: 20px;
-            line-height: 1.2;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: baseline;
+            gap: 0.18em 0.34em;
+            max-width: 620px;
+            font-size: clamp(20px, 2.9vw, 23px);
+            line-height: 1.25;
             color: #1a1a1a;
             font-weight: 600;
         }
 
+        .cover-stats-prefix {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.34em 0.74em;
+            border-radius: 999px;
+            background: #1a1a1a;
+            color: #fff;
+            font-size: 0.46em;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            transform: translateY(-0.12em);
+        }
+
         .cover-stats-text strong {
-            font-size: 28px;
+            font-size: clamp(34px, 5vw, 42px);
             font-weight: 700;
             letter-spacing: -0.02em;
         }
@@ -585,7 +634,14 @@
                         <div class="cover-logo">AI</div>
                         <div class="cover-title">Builders Daily</div>
                         <div class="cover-stats">
-                            <div class="cover-stats-text">追踪到 <strong>${builderCount}</strong> 位 Builders 的 <strong>${postCount}</strong> 条动态</div>
+                            <div class="cover-stats-text">
+                                <span class="cover-stats-prefix">今日</span>
+                                <span>追踪到</span>
+                                <strong>${builderCount}</strong>
+                                <span>位 Builders 的</span>
+                                <strong>${postCount}</strong>
+                                <span>条动态</span>
+                            </div>
                         </div>
                         <div class="cover-arrow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
