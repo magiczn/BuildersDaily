@@ -1,9 +1,0 @@
-name: Deploy
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-# GitHub Pages 部署由 pages-build-deployment 自动处理
-# 此工作流仅用于记录和手动触发
