@@ -67,15 +67,8 @@ function generateAnalysis(name, text, role) {
     return '';
   }
 
-  const roleContext = identifyRole(role, name);
   const signals = identifySignals(text);
-  const parts = [
-    roleContext.intro + buildLead(signals),
-    buildCoreInsight(signals),
-    buildWhyItMatters(signals, roleContext)
-  ].filter(Boolean);
-
-  return parts.join('');
+  return buildShortComment(signals);
 }
 
 function identifyRole(role, name) {
@@ -268,114 +261,69 @@ function identifySignals(text) {
   return signals;
 }
 
-function buildLead(signals) {
-  if (signals.includes('infrastructure') && signals.includes('product')) {
-    return '看似是在聊一个具体功能点，真正值得写进头条的是 AI 产品从“能跑”走向“可运营”的工程化门槛。';
+function buildShortComment(signals) {
+  if (signals.includes('agent') && signals.includes('infrastructure')) {
+    return 'Agent 竞争开始比拼真实接入能力。';
   }
 
   if (signals.includes('distribution') && signals.includes('monetization')) {
-    return '这不只是一次内容更新，更像是在验证 AI 时代“内容、社群、交易”能不能真正闭环。';
-  }
-
-  if (signals.includes('agent')) {
-    return '如果把它放进今天的 AI 版图里看，核心不是一句观点本身，而是 Agent 能力正在从演示阶段跨进真实工作流。';
+    return '内容、社群、交易正在长成同一条链。';
   }
 
   if (signals.includes('models')) {
-    return '这类表态值得重点关注，因为它往往不只是某个功能更新，而是模型能力路线和资源投入方向的提前外露。';
-  }
-
-  if (signals.includes('devtools')) {
-    return '这条动态真正有价值的地方，不是一个工具技巧，而是开发范式仍在向 AI 原生继续迁移。';
+    return '这更像模型路线信号，不只是功能预告。';
   }
 
   if (signals.includes('workflow')) {
-    return '表面上看像是在聊一个产品点子，但更值得媒体视角追踪的是交互形态和工作流边界正在被重新定义。';
+    return '生成式 UI 正在重写产品交互边界。';
+  }
+
+  if (signals.includes('infrastructure')) {
+    return '真正拉开差距的，常是支付和集成这些脏活。';
+  }
+
+  if (signals.includes('agent')) {
+    return 'Agent 正从演示走向真实工作流。';
+  }
+
+  if (signals.includes('devtools')) {
+    return '开发门槛在降，产品判断门槛在升。';
+  }
+
+  if (signals.includes('distribution')) {
+    return '分发能力，正在变成产品本身。';
   }
 
   if (signals.includes('product')) {
-    return '重点不在一句话的新鲜感，而在它暴露了真实用户需求和产品取舍的优先级。';
-  }
-
-  return '这不是一条简单的动态更新，背后折射的是 AI 生态正在发生的结构性变化。';
-}
-
-function buildCoreInsight(signals) {
-  const sentences = [];
-
-  if (signals.includes('agent')) {
-    sentences.push('过去行业讨论 Agent，更多停留在“会不会做”；现在真正拉开差距的，已经变成“能不能稳定接进浏览器、支付、协作、数据系统这些脏活累活”。');
-  }
-
-  if (signals.includes('infrastructure')) {
-    sentences.push('这类内容的新闻价值在于提醒我们，AI 产品竞争不只发生在模型层，真正决定留存和转化的，往往是 billing、webhook、权限、集成这些看起来不性感、但极度影响交付速度的基础设施细节。');
-  }
-
-  if (signals.includes('distribution')) {
-    sentences.push('从编辑部的观察视角看，AI 创业越来越像“产品力 + 分发力”双轮驱动，谁能把内容、社群和用户触达串起来，谁就更容易把一次曝光变成长期关系。');
-  }
-
-  if (signals.includes('monetization')) {
-    sentences.push('这里还透露出一个非常现实的行业趋势：不少 AI 产品不再先追求完美技术栈，而是优先压缩商业化链路的复杂度，让创作者或小团队尽快把收入闭环跑起来。');
-  }
-
-  if (signals.includes('launch')) {
-    sentences.push('高频发布本身已经成为 AI 公司的能力展示：不是为了刷存在感，而是用更短反馈回路去占领用户心智和工作流入口。');
+    return '这更像需求变化，不只是功能炫技。';
   }
 
   if (signals.includes('research')) {
-    sentences.push('如果放到更大的 AI 版图里看，这类信息往往意味着“研究成果正在被包装成可消费的叙事”，而真正值得继续跟踪的是它有没有形成新的能力壁垒。');
+    return '重点不在论文，而在它能否变成新能力。';
   }
 
-  if (signals.includes('devtools')) {
-    sentences.push('对开发者来说，这说明门槛正在重新分配: 低价值的重复实现会继续被工具吞掉，而对系统设计、产品判断、工作流编排的要求反而更高。');
-  }
-
-  if (signals.includes('workflow')) {
-    sentences.push('更深一层看，这类想法指向的是 AI 产品不再只是“回答问题”，而是开始接管界面生成、状态编排和业务数据映射，用户面对的会是更动态、也更不稳定但更高效的产品外壳。');
-  }
-
-  if (signals.includes('models')) {
-    sentences.push('模型厂商每一次公开表态，其实都在给生态发信号：接下来会重点押注生成质量、交互形态，还是工具调用与代理能力，这会直接影响上层应用的产品路线。');
-  }
-
-  if (signals.includes('capital')) {
-    sentences.push('资本和并购视角也不能忽略，因为很多产品方向之所以突然升温，背后往往是资源重配和平台级玩家的战略下注。');
-  }
-
-  if (sentences.length === 0) {
-    sentences.push('真正值得媒体持续追踪的，不是表面的热闹，而是这条动态有没有暴露新的供给能力、用户行为变化，或者分发方式的切换。');
-  }
-
-  return sentences.slice(0, 2).join('');
+  return '值得继续看它会不会长成真实需求。';
 }
 
-function buildWhyItMatters(signals, roleContext) {
-  if (signals.includes('agent') && signals.includes('infrastructure')) {
-    return `站在${roleContext.perspective.replace('从', '').replace('视角', '')}看，下一阶段最值得下注的，可能不再是“再做一个聊天机器人”，而是把 Agent 无缝接入真实业务流程。`;
-  }
+function generateDailySummary(builders) {
+  const sourcePosts = builders.filter(item => !item.isSummary);
+  const uniqueBuilders = new Set(sourcePosts.map(item => item.handle)).size;
+  const combinedText = sourcePosts.map(item => item.summaryEn || item.summary || '').join('\n').toLowerCase();
+  const signals = identifySignals(combinedText);
+  const themes = [];
 
-  if (signals.includes('distribution')) {
-    return '这也是为什么最近越来越多 builder 同时经营内容、社区和产品本身：在 AI 同质化越来越强的环境里，分发能力本身就是护城河。';
-  }
+  if (signals.includes('agent')) themes.push('Agent 正从 demo 走向真实工作流');
+  if (signals.includes('models')) themes.push('模型厂商持续向外释放路线信号');
+  if (signals.includes('distribution')) themes.push('内容、社群和分发继续绑定');
+  if (signals.includes('infrastructure')) themes.push('支付、集成、部署这些基础设施更受重视');
+  if (signals.includes('workflow')) themes.push('生成式 UI 和新工作流开始冒头');
+  if (signals.includes('devtools')) themes.push('开发范式继续向 AI 原生迁移');
 
-  if (signals.includes('models')) {
-    return '对媒体观察者来说，真正该追踪的不是一句“更强了”，而是这次投入最终会不会转化成开发者可调用的新能力与新工作流。';
-  }
+  const lead = `今天共追踪到 ${uniqueBuilders} 位 builder 的 ${sourcePosts.length} 条动态。`;
+  const body = themes.slice(0, 3).join('；');
+  const close = '整体看，竞争重点正从单点模型能力，转向工作流整合、分发效率和更快的商业化闭环。';
 
-  if (signals.includes('infrastructure')) {
-    return '所以这类动态虽然没有模型发布那么显眼，却往往更接近真实的产品护城河，因为它直接决定了交付效率和用户体验。';
-  }
-
-  if (signals.includes('devtools')) {
-    return '长期看，这类变化会继续推高“一个人团队”的产能上限，也会把软件竞争进一步推向速度、判断力和分发效率。';
-  }
-
-  if (signals.includes('workflow')) {
-    return '如果这条路继续走通，未来很多 SaaS 的差异化不再只是功能多少，而是谁能把生成能力更自然地嵌进真实工作流。';
-  }
-
-  return `放在${roleContext.perspective.replace('从', '').replace('视角', '')}里看，这条信息真正的价值在于它提示我们：AI 行业的竞争，已经从单点能力比拼转向更完整的产品系统竞争。`;
+  return `${lead}${body ? body + '；' : ''}${close}`.slice(0, 200);
 }
 
 // 默认数据
@@ -464,6 +412,19 @@ async function fetchFromLocalXList() {
         builders.push(buildBuilderEntry(post, metadataCache));
       }
     }
+
+    builders.push({
+      name: '今日总结',
+      handle: 'daily_brief',
+      role: 'Builder Daily',
+      avatar: 'BD',
+      summary: generateDailySummary(builders),
+      summaryEn: generateDailySummary(builders),
+      analysis: '',
+      url: '',
+      verified: false,
+      isSummary: true
+    });
 
     console.log(`Built ${builders.length} cards from local x-list-monitor data`);
 

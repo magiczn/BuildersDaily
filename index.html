@@ -545,7 +545,7 @@
                                     ${builder.name}
                                     ${builder.verified ? '<span class="source-verified">V</span>' : ''}
                                 </div>
-                                <div class="source-handle">@${builder.handle}</div>
+                                ${builder.isSummary ? '' : `<div class="source-handle">@${builder.handle}</div>`}
                             </div>
                         </div>
                         <div class="source-role">${builder.role}</div>
