@@ -7,56 +7,156 @@ function truncateText(text, maxLength = 280) {
   return text.substring(0, maxLength).trim() + '...';
 }
 
-// 生成发散性中文分析（不依赖外部 API）
+// 生成深度中文分析
 function generateAnalysis(name, text, role) {
   if (!text || text.length < 10 || text.startsWith('http')) {
     return '';
   }
 
-  // 基于角色和内容生成发散性分析
-  const roleKeywords = {
-    'OpenAI': 'OpenAI 在 AI 领域持续领先，',
-    'Anthropic': 'Anthropic 的 AI 安全理念，',
-    'Google': 'Google 的 AI 产品化能力，',
-    'YC': '作为 YC 领导者，',
-    'Replit': 'Replit 展示了云端开发的未来，',
-    'VC': '从投资视角看，',
-    'CEO': '从企业领导者视角，',
-    'Product': '从产品角度分析，'
-  };
+  // 识别角色背景
+  const roleContext = identifyRole(role, name);
 
-  // 检测关键词并生成发散性分析
+  // 识别内容主题
+  const themeContext = identifyTheme(text);
+
+  // 生成深度分析
   let analysis = '';
-  
-  if (text.includes('AI') || text.includes('agent') || text.includes('Agent')) {
-    analysis = `${name} 的观点反映了 AI 领域的最新趋势。`;
-  } else if (text.includes('ship') || text.includes('launch')) {
-    analysis = `这展示了 AI 公司的快速迭代能力。`;
-  } else if (text.includes('science') || text.includes('research')) {
-    analysis = `AI 正在推动科学研究的范式转变。`;
-  } else if (text.includes('computer use') || text.includes('code')) {
-    analysis = `这预示着 AI Agent 在未来工作流中的核心地位。`;
-  } else {
-    analysis = `${name} 分享的观点值得关注，反映了行业动态。`;
-  }
 
-  // 添加发散性观点
-  const extensions = [
-    '未来可能重塑行业标准。',
-    '这预示着技术发展的新方向。',
-    '值得关注后续发展。',
-    '可能对创业生态产生深远影响。',
-    '体现了 AI 原生开发的趋势。'
-  ];
+  // 开头：角色背景引入
+  analysis += roleContext.intro;
 
-  analysis += extensions[Math.floor(Math.random() * extensions.length)];
+  // 中间：内容主题分析
+  analysis += themeContext.analysis;
 
-  // 控制在100字以内
-  if (analysis.length > 100) {
-    analysis = analysis.substring(0, 97) + '...';
-  }
+  // 结尾：行业影响展望
+  analysis += themeContext.implication;
 
   return analysis;
+}
+
+function identifyRole(role, name) {
+  const roleLower = (role || '').toLowerCase();
+  const nameLower = name.toLowerCase();
+
+  // OpenAI 相关
+  if (roleLower.includes('openai') || nameLower.includes('altman')) {
+    return {
+      intro: `${name} 作为 OpenAI 核心人物，`,
+      perspective: '从 AGI 发展视角'
+    };
+  }
+
+  // Anthropic 相关
+  if (roleLower.includes('anthropic') || roleLower.includes('claude')) {
+    return {
+      intro: `${name} 来自 Anthropic，`,
+      perspective: '从 AI 安全与实用性视角'
+    };
+  }
+
+  // YC 相关
+  if (roleLower.includes('yc') || roleLower.includes('y combinator')) {
+    return {
+      intro: `${name} 作为 YC 核心成员，`,
+      perspective: '从创业生态视角'
+    };
+  }
+
+  // Google 相关
+  if (roleLower.includes('google')) {
+    return {
+      intro: `${name} 来自 Google，`,
+      perspective: '从科技巨头视角'
+    };
+  }
+
+  // Replit 相关
+  if (roleLower.includes('replit')) {
+    return {
+      intro: `${name} 作为 Replit 领导者，`,
+      perspective: '从开发者工具演进视角'
+    };
+  }
+
+  // 产品相关
+  if (roleLower.includes('product') || roleLower.includes('pm')) {
+    return {
+      intro: `${name} 从产品视角出发，`,
+      perspective: '从产品设计视角'
+    };
+  }
+
+  // VC/投资相关
+  if (roleLower.includes('vc') || roleLower.includes('invest') || roleLower.includes('partner')) {
+    return {
+      intro: `${name} 从投资视角分析，`,
+      perspective: '从投资趋势视角'
+    };
+  }
+
+  // 默认
+  return {
+    intro: `${name} 分享的最新动态，`,
+    perspective: '从行业实践视角'
+  };
+}
+
+function identifyTheme(text) {
+  const textLower = text.toLowerCase();
+
+  // AI Agent / Codex / Computer Use
+  if (textLower.includes('agent') || textLower.includes('codex') || textLower.includes('computer use')) {
+    return {
+      analysis: '聚焦于 AI Agent 的实际落地应用，展示了从概念验证到生产环境的快速演进。这反映了行业正在从单纯的对话式 AI 向具备实际执行能力的智能体转型。',
+      implication: '未来每个开发者都可能拥有专属的 AI 编程伙伴，软件开发范式将迎来根本性变革。'
+    };
+  }
+
+  // 发布/上线
+  if (textLower.includes('ship') || textLower.includes('launch') || textLower.includes('release') || textLower.includes('announce')) {
+    return {
+      analysis: '展示了 AI 公司惊人的迭代速度——从想法到上线以天计而非月计。这种高频发布节奏已成为 AI 原生公司的标配，体现了用 AI 构建 AI 的效率优势。',
+      implication: '传统软件公司的开发周期将被彻底颠覆，快速试错和数据驱动成为核心竞争力。'
+    };
+  }
+
+  // 科学研究
+  if (textLower.includes('science') || textLower.includes('research') || textLower.includes('paper') || textLower.includes('study')) {
+    return {
+      analysis: '揭示了 AI 在科研领域的突破性应用。从数据分析到假设生成，AI 正在成为科学家的超级助手，加速发现的节奏。',
+      implication: 'AI + Science 的结合将催生更多跨学科突破，科研门槛降低的同时也带来了新的伦理挑战。'
+    };
+  }
+
+  // 收购/投资
+  if (textLower.includes('acquire') || textLower.includes('invest') || textLower.includes('fund') || textLower.includes('raise')) {
+    return {
+      analysis: '反映了 AI 行业的资本热度与战略布局。巨头通过收购补齐能力短板，初创公司则获得资源加速商业化。',
+      implication: '行业整合加速，人才和技术的争夺战将更加激烈，创业窗口期可能缩短。'
+    };
+  }
+
+  // 编程/开发
+  if (textLower.includes('code') || textLower.includes('developer') || textLower.includes('build') || textLower.includes('replit')) {
+    return {
+      analysis: '展示了 AI 时代的开发新范式。从代码补全到全栈生成，AI 正在重塑开发者的工作方式，降低技术门槛的同时提升创造力。',
+      implication: '未来的开发者更像产品架构师，核心能力从写代码转向定义问题和设计解决方案。'
+    };
+  }
+
+  // 产品/用户
+  if (textLower.includes('user') || textLower.includes('product') || textLower.includes('customer') || textLower.includes('app')) {
+    return {
+      analysis: '强调了 AI 产品化的核心原则——以用户价值为导向。技术再先进，如果不能解决实际问题，就只是炫技。',
+      implication: 'AI 创业将从技术驱动转向产品驱动，用户体验和场景理解成为关键差异化因素。'
+    };
+  }
+
+  // 默认通用分析
+  return {
+    analysis: '反映了 AI 领域的最新动态和行业趋势。在技术快速迭代的当下，保持对前沿发展的关注至关重要。',
+    implication: '这个方向值得持续追踪，可能孕育着下一个重要机会。'
+  };
 }
 
 // 默认数据
