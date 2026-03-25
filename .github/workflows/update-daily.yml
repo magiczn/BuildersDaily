@@ -1,41 +1,9 @@
-name: Update Daily Digest
+name: Deploy
 
 on:
-  schedule:
-    # 每天早上 8 点运行 (UTC 时间 0 点)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # 允许手动触发
+  push:
+    branches: [main]
+  workflow_dispatch:
 
-permissions:
-  contents: write
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        persist-credentials: true
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-
-    - name: Install dependencies
-      run: |
-        # 安装 follow-builders skill 依赖
-        npm install -g @anthropic-ai/claude-code
-
-    - name: Fetch latest data
-      run: node scripts/fetch-data.js
-
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add data.json
-        git diff --cached --quiet || git commit -m "Update daily digest: $(date +'%Y-%m-%d')"
-        git push
+# GitHub Pages 部署由 pages-build-deployment 自动处理
+# 此工作流仅用于记录和手动触发
