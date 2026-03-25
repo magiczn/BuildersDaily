@@ -5,18 +5,18 @@
 ```
 你的服务器/VPS          GitHub Pages
     ↓                       ↓
-定时运行脚本 ──→ 更新 data.json ──→ 前端 fetch 数据
-  (有 skill 访问权限)      (纯静态托管)
+定时运行脚本 ──→ 先更新 x-list-monitor ──→ 再更新 data.json ──→ 前端 fetch 数据
+   (本地浏览器登录态)             (纯静态托管)
 ```
 
 ## 方案一：使用你自己的服务器/VPS（推荐）
 
 ### 1. 准备工作
 
-在你的服务器上确保已安装：
+在你的机器上确保已安装：
 - Node.js 18+
 - Git
-- follow-builders skill（已配置好）
+- x-list-monitor（已配置好登录态和 listUrl）
 
 ### 2. 设置 GitHub Token
 
@@ -39,19 +39,16 @@ source ~/.bashrc
 ### 3. 测试运行
 
 ```bash
-cd /path/to/nan-builders-digest
-node scripts/deploy-server.js
+cd /Users/zhaonan/0-Projects/NDN-NanDailyNews
+bash scripts/daily-update.sh
 ```
 
 如果成功，你会看到：
 ```
-[2024-03-24T08:00:00.000Z] Starting daily digest update...
-[2024-03-24T08:00:00.000Z] Fetching data from follow-builders skill...
-[2024-03-24T08:00:05.000Z] Fetched 17 items from follow-builders
-[2024-03-24T08:00:06.000Z] Cloning repository...
-[2024-03-24T08:00:08.000Z] Committing changes...
-[2024-03-24T08:00:09.000Z] Pushing to GitHub...
-[2024-03-24T08:00:10.000Z] Update completed successfully!
+=== Tue Mar 25 17:10:00 CST 2026 ===
+更新 x-list-monitor 数据...
+生成 NDN data.json...
+Tue Mar 25 17:10:12 CST 2026: 数据已更新并推送到 GitHub
 ```
 
 ### 4. 设置定时任务
@@ -63,7 +60,7 @@ crontab -e
 添加以下行（每天早上8点运行）：
 
 ```cron
-0 8 * * * cd /path/to/nan-builders-digest && node scripts/deploy-server.js >> /var/log/builders-digest.log 2>&1
+0 12 * * * cd /Users/zhaonan/0-Projects/NDN-NanDailyNews && bash scripts/daily-update.sh >> /var/log/builders-digest.log 2>&1
 ```
 
 查看日志：
@@ -131,7 +128,7 @@ git push
 
 如果你是 Mac 用户，可以使用 launchd：
 
-1. 创建 plist 文件 `~/Library/LaunchAgents/com.builders.digest.plist`：
+1. 使用项目里的 plist 文件：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -139,23 +136,23 @@ git push
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.builders.digest</string>
+    <string>com.ndn.daily-update</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/node</string>
-        <string>/Users/YOUR_USERNAME/0-Projects/NDN-NanDailyNews/scripts/deploy-server.js</string>
+        <string>/bin/bash</string>
+        <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/scripts/daily-update.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>8</integer>
+        <integer>12</integer>
         <key>Minute</key>
         <integer>0</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/tmp/builders-digest.out</string>
+    <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/logs/launchd.stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/builders-digest.err</string>
+    <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/logs/launchd.stderr.log</string>
 </dict>
 </plist>
 ```
@@ -163,7 +160,10 @@ git push
 2. 加载定时任务：
 
 ```bash
-launchctl load ~/Library/LaunchAgents/com.builders.digest.plist
+mkdir -p ~/Library/LaunchAgents
+cp /Users/zhaonan/0-Projects/NDN-NanDailyNews/launchd/com.ndn.daily-update.plist ~/Library/LaunchAgents/com.ndn.daily-update.plist
+launchctl unload ~/Library/LaunchAgents/com.ndn.daily-update.plist 2>/dev/null
+launchctl load ~/Library/LaunchAgents/com.ndn.daily-update.plist
 ```
 
 ---
@@ -192,17 +192,18 @@ async function loadData() {
 
 解决：检查 token 是否有 `repo` 权限，且未过期
 
-### 2. follow-builders skill 找不到
+### 2. x-list-monitor 找不到
 
-错误：`follow-builders skill not found`
+错误：`未找到 x-list-monitor 目录`
 
-解决：检查 `FOLLOW_BUILDERS_PATH` 环境变量，或确认 skill 已安装
+解决：检查 `X_LIST_MONITOR_DIR` 环境变量，或确认本地项目已存在
 
 ### 3. 没有新数据
 
-如果 `prepare-digest.js` 返回空数据，检查：
-- skill 的 state-feed.json 是否有记录
-- 是否需要更新 skill 本身
+如果 `posts.json` 内容为空或太旧，检查：
+- x-list-monitor 的 `.auth/user.json` 是否已失效
+- `config/monitor.json` 里的 `listUrl` 是否正确
+- 手动运行 `cd /Users/zhaonan/0-Projects/x-list-monitor && npm run daily` 是否成功
 
 ---
 

@@ -1,10 +1,64 @@
 const fs = require('fs');
 const path = require('path');
 
+const LOCAL_X_MONITOR_DIR = process.env.X_LIST_MONITOR_DIR ||
+  '/Users/zhaonan/0-Projects/x-list-monitor';
+const PROFILES_PATH = path.join(__dirname, '..', 'profiles.json');
+
 // 文本截断函数
 function truncateText(text, maxLength = 280) {
   if (!text || text.length <= maxLength) return text;
   return text.substring(0, maxLength).trim() + '...';
+}
+
+function loadProfilesMetadata() {
+  try {
+    if (!fs.existsSync(PROFILES_PATH)) {
+      return new Map();
+    }
+
+    const profiles = JSON.parse(fs.readFileSync(PROFILES_PATH, 'utf8'));
+    return new Map(
+      profiles
+        .filter(item => item && item.handle)
+        .map(item => [item.handle.toLowerCase(), item])
+    );
+  } catch (error) {
+    console.log('Could not load profiles metadata:', error.message);
+    return new Map();
+  }
+}
+
+function loadExistingMetadata() {
+  try {
+    const dataPath = path.join(__dirname, '..', 'data.json');
+    if (!fs.existsSync(dataPath)) {
+      return new Map();
+    }
+
+    const existing = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    return new Map(
+      existing
+        .filter(item => item && item.handle)
+        .map(item => [item.handle.toLowerCase(), item])
+    );
+  } catch (error) {
+    console.log('Could not load existing metadata cache:', error.message);
+    return new Map();
+  }
+}
+
+function buildAvatar(name, handle) {
+  if (name && name.includes(' ')) {
+    return name
+      .split(' ')
+      .map(part => part[0])
+      .join('')
+      .substring(0, 2)
+      .toUpperCase();
+  }
+
+  return (handle || '?').substring(0, 2).toUpperCase();
 }
 
 // 生成深度中文分析
@@ -174,6 +228,90 @@ const defaultData = [
   }
 ];
 
+function pickRole(postText) {
+  const text = (postText || '').toLowerCase();
+
+  if (text.includes('openai')) return 'AI Builder';
+  if (text.includes('anthropic') || text.includes('claude')) return 'AI Builder';
+  if (text.includes('agent') || text.includes('codex')) return 'AI Builder';
+  if (text.includes('product')) return 'Product Builder';
+
+  return 'AI Builder';
+}
+
+function buildBuilderEntry(post, metadataCache) {
+  const handle = post.author;
+  const cached = metadataCache.get(handle.toLowerCase());
+  const name = cached?.name || handle;
+  const role = cached?.role || pickRole(post.text);
+
+  return {
+    name,
+    handle,
+    role,
+    avatar: cached?.avatar || buildAvatar(name, handle),
+    summary: truncateText(post.text, 280),
+    summaryEn: truncateText(post.text, 280),
+    analysis: generateAnalysis(name, post.text, role),
+    url: post.statusUrl || `https://x.com/${handle}`,
+    verified: cached?.verified || false
+  };
+}
+
+// 从本地 x-list-monitor 获取数据
+async function fetchFromLocalXList() {
+  try {
+    const postsPath = path.join(LOCAL_X_MONITOR_DIR, 'data', 'posts.json');
+
+    if (!fs.existsSync(postsPath)) {
+      console.log(`Local x-list-monitor posts not found at ${postsPath}`);
+      return null;
+    }
+
+    console.log(`Found local x-list-monitor data, loading from ${postsPath}...`);
+
+    const posts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
+    const metadataCache = new Map([
+      ...loadExistingMetadata(),
+      ...loadProfilesMetadata()
+    ]);
+    const thresholdMs = Date.now() - 24 * 60 * 60 * 1000;
+
+    const filteredPosts = posts
+      .filter(post => post && post.author && post.text && post.statusUrl)
+      .filter(post => !post.isReply && !post.isRepost)
+      .filter(post => post.text.length >= 20 && !post.text.startsWith('http'))
+      .filter(post => Date.parse(post.timestamp) >= thresholdMs)
+      .sort((a, b) => Date.parse(b.timestamp) - Date.parse(a.timestamp));
+
+    const byHandle = new Map();
+    for (const post of filteredPosts) {
+      const bucket = byHandle.get(post.author) || [];
+      if (bucket.length < 2) {
+        bucket.push(post);
+        byHandle.set(post.author, bucket);
+      }
+    }
+
+    const builders = [];
+    for (const handlePosts of byHandle.values()) {
+      for (const post of handlePosts) {
+        builders.push(buildBuilderEntry(post, metadataCache));
+      }
+    }
+
+    console.log(`Built ${builders.length} cards from local x-list-monitor data`);
+
+    if (builders.length > 0) {
+      return builders;
+    }
+  } catch (error) {
+    console.log('Could not fetch from local x-list-monitor:', error.message);
+  }
+
+  return null;
+}
+
 // 从 follow-builders skill 获取数据
 async function fetchFromFollowBuilders() {
   try {
@@ -250,7 +388,11 @@ function updateDataJson(buildersData) {
 async function main() {
   console.log('Fetching daily digest data...');
 
-  let data = await fetchFromFollowBuilders();
+  let data = await fetchFromLocalXList();
+
+  if (!data) {
+    data = await fetchFromFollowBuilders();
+  }
 
   if (!data) {
     console.log('Using default data...');
