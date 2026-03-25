@@ -48,12 +48,17 @@
             background: #fafafa;
             display: flex;
             flex-direction: column;
-            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            will-change: transform;
             transform: translateY(100%);
         }
 
         .card.active { transform: translateY(0); }
         .card.prev { transform: translateY(-100%); }
+
+        .card.animating,
+        .cover-card.animating {
+            transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+        }
 
         .header {
             height: 60px;
@@ -254,6 +259,131 @@
             line-height: 1.5;
         }
 
+        .view-original {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 12px;
+            color: #666;
+            text-decoration: none;
+            margin-top: 8px;
+            padding: 6px 12px;
+            background: rgba(0,0,0,0.04);
+            border-radius: 16px;
+            transition: all 0.2s;
+        }
+
+        .view-original:hover {
+            background: rgba(0,0,0,0.08);
+            color: #1a1a1a;
+        }
+
+        .view-original svg {
+            width: 12px;
+            height: 12px;
+        }
+
+        /* 首页样式 */
+        .cover-card {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fafafa;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            will-change: transform;
+            transform: translateY(100%);
+            padding: 40px 20px;
+        }
+
+        .cover-top {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cover-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+
+        .cover-card.active { transform: translateY(0); }
+        .cover-card.prev { transform: translateY(-100%); }
+
+        .cover-logo {
+            width: 64px;
+            height: 64px;
+            background: #1a1a1a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+
+        .cover-date {
+            font-size: 14px;
+            color: #999;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+        }
+
+        .cover-title {
+            font-size: 32px;
+            font-weight: 600;
+            color: #1a1a1a;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .cover-desc {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 48px;
+            line-height: 1.6;
+        }
+
+        .cover-meta {
+            font-size: 13px;
+            color: #999;
+            line-height: 1;
+            display: flex;
+            gap: 32px;
+        }
+
+        .cover-meta span {
+            color: #666;
+        }
+
+        .cover-arrow {
+            margin-top: 48px;
+            color: #1a1a1a;
+            animation: bounce 1.5s ease-in-out infinite;
+        }
+
+        .cover-arrow svg {
+            width: 24px;
+            height: 24px;
+            transform: rotate(-90deg);
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); opacity: 1; }
+            50% { transform: translateY(-8px); opacity: 0.6; }
+        }
+
         .swipe-hint {
             position: fixed;
             top: 80px;
@@ -311,9 +441,14 @@
 
     <script>
         let buildersData = [];
-        let currentIndex = 0;
+        let currentIndex = -1; // -1 表示首页
         let startY = 0;
+        let currentY = 0;
         let isDragging = false;
+        let velocity = 0;
+        let lastY = 0;
+        let lastTime = 0;
+        let animationId = null;
 
         async function loadData() {
             try {
@@ -362,20 +497,40 @@
             renderCards();
             bindEvents();
             updateUI();
-
-            if (buildersData.length > 1) {
-                const hint = document.getElementById('swipeHint');
-                hint.classList.add('show');
-                setTimeout(() => hint.classList.remove('show'), 2000);
-            }
         }
 
         function renderCards() {
             const stack = document.getElementById('cardStack');
             const now = new Date();
             const dateStr = now.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, '.');
-            stack.innerHTML = buildersData.map((builder, index) => `
-                <div class="card ${index === 0 ? 'active' : ''}" data-index="${index}">
+            const fullDateStr = now.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+
+            // 首页
+            let html = `
+                <div class="cover-card active" data-index="-1">
+                    <div class="cover-top">
+                        <div class="cover-logo">N</div>
+                        <div class="cover-date">${fullDateStr}</div>
+                        <div class="cover-title">AI Builders Daily</div>
+                        <div class="cover-desc">聚合 X.com、Lenny's Newsletter 等 AI Builders<br>前沿动态，每日为你速递核心洞见</div>
+                        <div class="cover-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="cover-bottom">
+                        <div class="cover-meta">
+                            <div>出品人：<span>赵楠</span></div>
+                            <div>致谢：<span>张 Zara</span></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // 内容页
+            html += buildersData.map((builder, index) => `
+                <div class="card" data-index="${index}">
                     <div class="content">
                         <div class="card-date">${dateStr}</div>
                         <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
@@ -394,9 +549,19 @@
                             </div>
                         </div>
                         <div class="source-role">${builder.role}</div>
+                        ${builder.url ? `<a href="${builder.url}" target="_blank" class="view-original">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            查看原文
+                        </a>` : ''}
                     </div>
                 </div>
             `).join('');
+
+            stack.innerHTML = html;
 
             // 检查哪些文本需要展开提示
             setTimeout(() => {
@@ -422,7 +587,7 @@
             container.addEventListener('mousedown', handleStart);
             container.addEventListener('mousemove', handleMove);
             container.addEventListener('mouseup', handleEnd);
-            container.addEventListener('mouseleave', () => isDragging = false);
+            container.addEventListener('mouseleave', handleEnd);
 
             let wheelTimeout;
             container.addEventListener('wheel', (e) => {
@@ -431,10 +596,12 @@
                 wheelTimeout = setTimeout(() => {
                     if (e.deltaY > 0 && currentIndex === buildersData.length - 1) {
                         showToast();
+                    } else if (e.deltaY < 0 && currentIndex === -1) {
+                        // 首页继续向上滑，不做任何事
                     } else {
                         goTo(currentIndex + (e.deltaY > 0 ? 1 : -1));
                     }
-                }, 100);
+                }, 50);
             }, { passive: false });
 
             document.addEventListener('keydown', (e) => {
@@ -447,14 +614,16 @@
                     }
                 } else if (e.key === 'ArrowUp') {
                     e.preventDefault();
-                    goTo(currentIndex - 1);
+                    if (currentIndex > -1) {
+                        goTo(currentIndex - 1);
+                    }
                 }
             });
 
             // 点击展开/收起文本
             document.addEventListener('click', (e) => {
                 const target = e.target;
-                
+
                 // 点击展开提示
                 if (target.classList.contains('expand-hint')) {
                     const parent = target.parentElement;
@@ -462,7 +631,7 @@
                     e.stopPropagation();
                     return;
                 }
-                
+
                 // 点击被截断的文本区域
                 if (target.classList.contains('truncated')) {
                     target.classList.add('expanded');
@@ -471,31 +640,127 @@
         }
 
         function handleStart(e) {
+            if (e.target.tagName === 'A') return; // 忽略链接点击
             startY = e.touches ? e.touches[0].clientY : e.clientY;
+            currentY = startY;
+            lastY = startY;
+            lastTime = Date.now();
+            velocity = 0;
             isDragging = true;
+            cancelAnimationFrame(animationId);
+
+            // 移除动画类，准备跟随手指
+            document.querySelectorAll('.card, .cover-card').forEach(el => {
+                el.classList.remove('animating');
+            });
         }
 
         function handleMove(e) {
             if (!isDragging) return;
             if (e.preventDefault) e.preventDefault();
+
+            const y = e.touches ? e.touches[0].clientY : e.clientY;
+            const now = Date.now();
+            const dt = now - lastTime;
+
+            // 计算速度
+            if (dt > 0) {
+                velocity = (lastY - y) / dt * 16; // 归一化到 16ms 帧间隔
+            }
+            lastY = y;
+            lastTime = now;
+
+            const diff = startY - y;
+            currentY = y;
+
+            // 实时移动卡片
+            updateCardPositions(diff);
+        }
+
+        function updateCardPositions(diff) {
+            const vh = window.innerHeight;
+            const coverCard = document.querySelector('.cover-card');
+            const cards = document.querySelectorAll('.card');
+
+            // 边界弹性效果
+            let rubberDiff = diff;
+            if (diff < 0 && currentIndex === -1) {
+                // 首页向下拉，弹性阻力
+                rubberDiff = diff * 0.3;
+            } else if (diff > 0 && currentIndex === buildersData.length - 1) {
+                // 最后一页向上拉，弹性阻力
+                rubberDiff = diff * 0.3;
+            }
+
+            if (currentIndex === -1) {
+                // 在首页
+                if (coverCard) {
+                    coverCard.style.transform = `translateY(${-rubberDiff}px)`;
+                }
+                if (cards[0]) {
+                    cards[0].style.transform = `translateY(calc(100% - ${rubberDiff}px))`;
+                }
+            } else {
+                // 在内容页
+                if (coverCard) {
+                    coverCard.style.transform = `translateY(calc(-100% - ${rubberDiff}px))`;
+                }
+                cards.forEach((card, i) => {
+                    if (i < currentIndex) {
+                        card.style.transform = `translateY(calc(-100% - ${rubberDiff}px))`;
+                    } else if (i === currentIndex) {
+                        card.style.transform = `translateY(${-rubberDiff}px)`;
+                    } else if (i === currentIndex + 1) {
+                        card.style.transform = `translateY(calc(100% - ${rubberDiff}px))`;
+                    }
+                });
+            }
         }
 
         function handleEnd(e) {
             if (!isDragging) return;
             isDragging = false;
 
-            const endY = e.changedTouches ? e.changedTouches[0].clientY : e.clientY;
-            const diff = startY - endY;
+            const diff = startY - currentY;
+            const absDiff = Math.abs(diff);
 
-            if (Math.abs(diff) > 50) {
-                // 向下滑动（diff > 0）
+            // 添加动画类
+            document.querySelectorAll('.card, .cover-card').forEach(el => {
+                el.classList.add('animating');
+            });
+
+            // 判断是否切换：基于滑动距离或速度
+            const shouldSwitch = absDiff > 60 || (Math.abs(velocity) > 8 && absDiff > 20);
+
+            if (shouldSwitch) {
+                // 向上滑动（diff > 0）
                 if (diff > 0 && currentIndex === buildersData.length - 1) {
-                    // 在最后一页继续向下滑动，显示 toast
+                    // 在最后一页继续向上滑动，显示 toast 并回弹
+                    resetCardPositions();
                     showToast();
+                } else if (diff < 0 && currentIndex === -1) {
+                    // 首页向下滑动，回弹
+                    resetCardPositions();
                 } else {
                     goTo(currentIndex + (diff > 0 ? 1 : -1));
                 }
+            } else {
+                // 回弹到原位
+                resetCardPositions();
             }
+        }
+
+        function resetCardPositions() {
+            // 清除内联 transform 样式，让 CSS 类接管
+            const coverCard = document.querySelector('.cover-card');
+            const cards = document.querySelectorAll('.card');
+
+            if (coverCard) {
+                coverCard.style.transform = '';
+            }
+            cards.forEach(card => {
+                card.style.transform = '';
+            });
         }
 
         function showToast() {
@@ -505,12 +770,25 @@
         }
 
         function goTo(index) {
-            if (index < 0 || index >= buildersData.length) return;
+            // -1 是首页，0 到 buildersData.length-1 是内容页
+            if (index < -1 || index >= buildersData.length) return;
 
             currentIndex = index;
 
+            // 清除内联样式
+            resetCardPositions();
+
+            // 更新首页类名
+            const coverCard = document.querySelector('.cover-card');
+            if (coverCard) {
+                coverCard.className = 'cover-card animating';
+                if (currentIndex === -1) coverCard.classList.add('active');
+                else coverCard.classList.add('prev');
+            }
+
+            // 更新内容卡片类名
             document.querySelectorAll('.card').forEach((card, i) => {
-                card.className = 'card';
+                card.className = 'card animating';
                 if (i === currentIndex) card.classList.add('active');
                 else if (i < currentIndex) card.classList.add('prev');
             });
@@ -519,9 +797,18 @@
         }
 
         function updateUI() {
-            const progress = ((currentIndex + 1) / buildersData.length) * 100;
+            // 首页时进度为0，内容页从1开始计算
+            const total = buildersData.length + 1; // 包含首页
+            const current = currentIndex + 1; // -1 变成 0，0 变成 1
+            const progress = (current / total) * 100;
             document.getElementById('progressBar').style.width = progress + '%';
-            document.getElementById('pageNumber').textContent = currentIndex + 1;
+
+            // 页码：首页不显示，内容页从1开始
+            if (currentIndex === -1) {
+                document.getElementById('pageNumber').textContent = '';
+            } else {
+                document.getElementById('pageNumber').textContent = currentIndex + 1;
+            }
         }
 
         loadData();
