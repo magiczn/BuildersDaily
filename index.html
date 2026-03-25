@@ -134,6 +134,14 @@
             display: none;
         }
 
+        .summary-title {
+            font-size: 15px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #888;
+            margin-bottom: 16px;
+        }
+
         .divider {
             width: 40px;
             height: 1px;
@@ -504,6 +512,9 @@
             const now = new Date();
             const dateStr = now.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, '.');
             const fullDateStr = now.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+            const sourcePosts = buildersData.filter((builder) => !builder.isSummary);
+            const builderCount = new Set(sourcePosts.map((builder) => builder.handle)).size;
+            const postCount = sourcePosts.length;
 
             // 首页
             let html = `
@@ -512,7 +523,7 @@
                         <div class="cover-logo">AI</div>
                         <div class="cover-date">${fullDateStr}</div>
                         <div class="cover-title">Builders Daily</div>
-                        <div class="cover-desc">聚合 X.com、Lenny's Newsletter 等 AI Builders<br>前沿动态，每日为你速递核心洞见</div>
+                        <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见。<br>今天共追踪到 ${builderCount} 位 Builders 的 ${postCount} 条动态。</div>
                         <div class="cover-arrow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="9 18 15 12 9 6"></polyline>
@@ -533,6 +544,7 @@
                 <div class="card" data-index="${index}">
                     <div class="content">
                         <div class="card-date">${dateStr}</div>
+                        ${builder.isSummary ? '<div class="summary-title">今日小结</div>' : ''}
                         <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
                         <div class="divider"></div>
                         ${builder.analysis ? `<div class="analysis" data-full="${builder.analysis.replace(/"/g, '&quot;')}">${builder.analysis}</div>` : ''}

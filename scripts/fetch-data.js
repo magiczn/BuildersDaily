@@ -263,46 +263,46 @@ function identifySignals(text) {
 
 function buildShortComment(signals) {
   if (signals.includes('agent') && signals.includes('infrastructure')) {
-    return 'Agent 竞争开始比拼真实接入能力。';
+    return 'Agent 的分水岭已经不是会不会写，而是能不能稳定接进支付、浏览器和真实业务流程。';
   }
 
   if (signals.includes('distribution') && signals.includes('monetization')) {
-    return '内容、社群、交易正在长成同一条链。';
+    return '内容、社群和交易正在连成一条链，谁能把分发做深，谁就更容易把注意力变成成交。';
   }
 
   if (signals.includes('models')) {
-    return '这更像模型路线信号，不只是功能预告。';
+    return '这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。';
   }
 
   if (signals.includes('workflow')) {
-    return '生成式 UI 正在重写产品交互边界。';
+    return '生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。';
   }
 
   if (signals.includes('infrastructure')) {
-    return '真正拉开差距的，常是支付和集成这些脏活。';
+    return '真正拉开差距的，往往不是模型本身，而是支付、集成、部署这些最影响交付效率的脏活。';
   }
 
   if (signals.includes('agent')) {
-    return 'Agent 正从演示走向真实工作流。';
+    return 'Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。';
   }
 
   if (signals.includes('devtools')) {
-    return '开发门槛在降，产品判断门槛在升。';
+    return '开发门槛还在降，但产品判断、系统设计和工作流编排的门槛其实正在变高。';
   }
 
   if (signals.includes('distribution')) {
-    return '分发能力，正在变成产品本身。';
+    return '分发能力正在变成产品本身，能持续触达并留住用户的团队，会越来越占优势。';
   }
 
   if (signals.includes('product')) {
-    return '这更像需求变化，不只是功能炫技。';
+    return '这更像需求结构在变，不只是做了个新功能，而是产品优先级和用户预期都在重排。';
   }
 
   if (signals.includes('research')) {
-    return '重点不在论文，而在它能否变成新能力。';
+    return '重点不在论文标题，而在它最后能不能沉淀成开发者真正能调用、用户真正能感知的新能力。';
   }
 
-  return '值得继续看它会不会长成真实需求。';
+  return '这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。';
 }
 
 function generateDailySummary(builders) {
