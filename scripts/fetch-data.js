@@ -67,25 +67,15 @@ function generateAnalysis(name, text, role) {
     return '';
   }
 
-  // 识别角色背景
   const roleContext = identifyRole(role, name);
+  const signals = identifySignals(text);
+  const parts = [
+    roleContext.intro + buildLead(signals),
+    buildCoreInsight(signals),
+    buildWhyItMatters(signals, roleContext)
+  ].filter(Boolean);
 
-  // 识别内容主题
-  const themeContext = identifyTheme(text);
-
-  // 生成深度分析
-  let analysis = '';
-
-  // 开头：角色背景引入
-  analysis += roleContext.intro;
-
-  // 中间：内容主题分析
-  analysis += themeContext.analysis;
-
-  // 结尾：行业影响展望
-  analysis += themeContext.implication;
-
-  return analysis;
+  return parts.join('');
 }
 
 function identifyRole(role, name) {
@@ -155,62 +145,237 @@ function identifyRole(role, name) {
   };
 }
 
-function identifyTheme(text) {
+function identifySignals(text) {
   const textLower = text.toLowerCase();
+  const signals = [];
 
-  // AI Agent / Codex / Computer Use
   if (textLower.includes('agent') || textLower.includes('codex') || textLower.includes('computer use')) {
-    return {
-      analysis: '聚焦于 AI Agent 的实际落地应用，展示了从概念验证到生产环境的快速演进。这反映了行业正在从单纯的对话式 AI 向具备实际执行能力的智能体转型。',
-      implication: '未来每个开发者都可能拥有专属的 AI 编程伙伴，软件开发范式将迎来根本性变革。'
-    };
+    signals.push('agent');
   }
 
-  // 发布/上线
-  if (textLower.includes('ship') || textLower.includes('launch') || textLower.includes('release') || textLower.includes('announce')) {
-    return {
-      analysis: '展示了 AI 公司惊人的迭代速度——从想法到上线以天计而非月计。这种高频发布节奏已成为 AI 原生公司的标配，体现了用 AI 构建 AI 的效率优势。',
-      implication: '传统软件公司的开发周期将被彻底颠覆，快速试错和数据驱动成为核心竞争力。'
-    };
+  if (
+    textLower.includes('ship') ||
+    textLower.includes('launch') ||
+    textLower.includes('release') ||
+    textLower.includes('announce') ||
+    textLower.includes('发布') ||
+    textLower.includes('上线')
+  ) {
+    signals.push('launch');
   }
 
-  // 科学研究
-  if (textLower.includes('science') || textLower.includes('research') || textLower.includes('paper') || textLower.includes('study')) {
-    return {
-      analysis: '揭示了 AI 在科研领域的突破性应用。从数据分析到假设生成，AI 正在成为科学家的超级助手，加速发现的节奏。',
-      implication: 'AI + Science 的结合将催生更多跨学科突破，科研门槛降低的同时也带来了新的伦理挑战。'
-    };
+  if (
+    textLower.includes('science') ||
+    textLower.includes('research') ||
+    textLower.includes('paper') ||
+    textLower.includes('study') ||
+    textLower.includes('benchmark') ||
+    textLower.includes('eval')
+  ) {
+    signals.push('research');
   }
 
-  // 收购/投资
   if (textLower.includes('acquire') || textLower.includes('invest') || textLower.includes('fund') || textLower.includes('raise')) {
-    return {
-      analysis: '反映了 AI 行业的资本热度与战略布局。巨头通过收购补齐能力短板，初创公司则获得资源加速商业化。',
-      implication: '行业整合加速，人才和技术的争夺战将更加激烈，创业窗口期可能缩短。'
-    };
+    signals.push('capital');
   }
 
-  // 编程/开发
-  if (textLower.includes('code') || textLower.includes('developer') || textLower.includes('build') || textLower.includes('replit')) {
-    return {
-      analysis: '展示了 AI 时代的开发新范式。从代码补全到全栈生成，AI 正在重塑开发者的工作方式，降低技术门槛的同时提升创造力。',
-      implication: '未来的开发者更像产品架构师，核心能力从写代码转向定义问题和设计解决方案。'
-    };
+  if (
+    textLower.includes('code') ||
+    textLower.includes('developer') ||
+    textLower.includes('build') ||
+    textLower.includes('replit') ||
+    textLower.includes('github') ||
+    textLower.includes('编程')
+  ) {
+    signals.push('devtools');
   }
 
-  // 产品/用户
-  if (textLower.includes('user') || textLower.includes('product') || textLower.includes('customer') || textLower.includes('app')) {
-    return {
-      analysis: '强调了 AI 产品化的核心原则——以用户价值为导向。技术再先进，如果不能解决实际问题，就只是炫技。',
-      implication: 'AI 创业将从技术驱动转向产品驱动，用户体验和场景理解成为关键差异化因素。'
-    };
+  if (
+    textLower.includes('ui') ||
+    textLower.includes('design') ||
+    textLower.includes('variant') ||
+    textLower.includes('workflow') ||
+    textLower.includes('生成式') ||
+    textLower.includes('工作流') ||
+    textLower.includes('重构')
+  ) {
+    signals.push('workflow');
   }
 
-  // 默认通用分析
-  return {
-    analysis: '反映了 AI 领域的最新动态和行业趋势。在技术快速迭代的当下，保持对前沿发展的关注至关重要。',
-    implication: '这个方向值得持续追踪，可能孕育着下一个重要机会。'
-  };
+  if (
+    textLower.includes('user') ||
+    textLower.includes('product') ||
+    textLower.includes('customer') ||
+    textLower.includes('app') ||
+    textLower.includes('体验') ||
+    textLower.includes('增长')
+  ) {
+    signals.push('product');
+  }
+
+  if (
+    textLower.includes('billing') ||
+    textLower.includes('webhook') ||
+    textLower.includes('stripe') ||
+    textLower.includes('api') ||
+    textLower.includes('infra') ||
+    textLower.includes('sdk') ||
+    textLower.includes('部署')
+  ) {
+    signals.push('infrastructure');
+  }
+
+  if (
+    textLower.includes('live') ||
+    textLower.includes('course') ||
+    textLower.includes('community') ||
+    textLower.includes('newsletter') ||
+    textLower.includes('podcast') ||
+    textLower.includes('直播') ||
+    textLower.includes('课程') ||
+    textLower.includes('社群')
+  ) {
+    signals.push('distribution');
+  }
+
+  if (
+    textLower.includes('price') ||
+    textLower.includes('billing') ||
+    textLower.includes('subscription') ||
+    textLower.includes('coupon') ||
+    textLower.includes('付费') ||
+    textLower.includes('订阅') ||
+    textLower.includes('优惠')
+  ) {
+    signals.push('monetization');
+  }
+
+  if (
+    textLower.includes('grok') ||
+    textLower.includes('claude') ||
+    textLower.includes('gpt') ||
+    textLower.includes('gemini') ||
+    textLower.includes('model') ||
+    textLower.includes('模型')
+  ) {
+    signals.push('models');
+  }
+
+  if (signals.length === 0) {
+    signals.push('general');
+  }
+
+  return signals;
+}
+
+function buildLead(signals) {
+  if (signals.includes('infrastructure') && signals.includes('product')) {
+    return '看似是在聊一个具体功能点，真正值得写进头条的是 AI 产品从“能跑”走向“可运营”的工程化门槛。';
+  }
+
+  if (signals.includes('distribution') && signals.includes('monetization')) {
+    return '这不只是一次内容更新，更像是在验证 AI 时代“内容、社群、交易”能不能真正闭环。';
+  }
+
+  if (signals.includes('agent')) {
+    return '如果把它放进今天的 AI 版图里看，核心不是一句观点本身，而是 Agent 能力正在从演示阶段跨进真实工作流。';
+  }
+
+  if (signals.includes('models')) {
+    return '这类表态值得重点关注，因为它往往不只是某个功能更新，而是模型能力路线和资源投入方向的提前外露。';
+  }
+
+  if (signals.includes('devtools')) {
+    return '这条动态真正有价值的地方，不是一个工具技巧，而是开发范式仍在向 AI 原生继续迁移。';
+  }
+
+  if (signals.includes('workflow')) {
+    return '表面上看像是在聊一个产品点子，但更值得媒体视角追踪的是交互形态和工作流边界正在被重新定义。';
+  }
+
+  if (signals.includes('product')) {
+    return '重点不在一句话的新鲜感，而在它暴露了真实用户需求和产品取舍的优先级。';
+  }
+
+  return '这不是一条简单的动态更新，背后折射的是 AI 生态正在发生的结构性变化。';
+}
+
+function buildCoreInsight(signals) {
+  const sentences = [];
+
+  if (signals.includes('agent')) {
+    sentences.push('过去行业讨论 Agent，更多停留在“会不会做”；现在真正拉开差距的，已经变成“能不能稳定接进浏览器、支付、协作、数据系统这些脏活累活”。');
+  }
+
+  if (signals.includes('infrastructure')) {
+    sentences.push('这类内容的新闻价值在于提醒我们，AI 产品竞争不只发生在模型层，真正决定留存和转化的，往往是 billing、webhook、权限、集成这些看起来不性感、但极度影响交付速度的基础设施细节。');
+  }
+
+  if (signals.includes('distribution')) {
+    sentences.push('从编辑部的观察视角看，AI 创业越来越像“产品力 + 分发力”双轮驱动，谁能把内容、社群和用户触达串起来，谁就更容易把一次曝光变成长期关系。');
+  }
+
+  if (signals.includes('monetization')) {
+    sentences.push('这里还透露出一个非常现实的行业趋势：不少 AI 产品不再先追求完美技术栈，而是优先压缩商业化链路的复杂度，让创作者或小团队尽快把收入闭环跑起来。');
+  }
+
+  if (signals.includes('launch')) {
+    sentences.push('高频发布本身已经成为 AI 公司的能力展示：不是为了刷存在感，而是用更短反馈回路去占领用户心智和工作流入口。');
+  }
+
+  if (signals.includes('research')) {
+    sentences.push('如果放到更大的 AI 版图里看，这类信息往往意味着“研究成果正在被包装成可消费的叙事”，而真正值得继续跟踪的是它有没有形成新的能力壁垒。');
+  }
+
+  if (signals.includes('devtools')) {
+    sentences.push('对开发者来说，这说明门槛正在重新分配: 低价值的重复实现会继续被工具吞掉，而对系统设计、产品判断、工作流编排的要求反而更高。');
+  }
+
+  if (signals.includes('workflow')) {
+    sentences.push('更深一层看，这类想法指向的是 AI 产品不再只是“回答问题”，而是开始接管界面生成、状态编排和业务数据映射，用户面对的会是更动态、也更不稳定但更高效的产品外壳。');
+  }
+
+  if (signals.includes('models')) {
+    sentences.push('模型厂商每一次公开表态，其实都在给生态发信号：接下来会重点押注生成质量、交互形态，还是工具调用与代理能力，这会直接影响上层应用的产品路线。');
+  }
+
+  if (signals.includes('capital')) {
+    sentences.push('资本和并购视角也不能忽略，因为很多产品方向之所以突然升温，背后往往是资源重配和平台级玩家的战略下注。');
+  }
+
+  if (sentences.length === 0) {
+    sentences.push('真正值得媒体持续追踪的，不是表面的热闹，而是这条动态有没有暴露新的供给能力、用户行为变化，或者分发方式的切换。');
+  }
+
+  return sentences.slice(0, 2).join('');
+}
+
+function buildWhyItMatters(signals, roleContext) {
+  if (signals.includes('agent') && signals.includes('infrastructure')) {
+    return `站在${roleContext.perspective.replace('从', '').replace('视角', '')}看，下一阶段最值得下注的，可能不再是“再做一个聊天机器人”，而是把 Agent 无缝接入真实业务流程。`;
+  }
+
+  if (signals.includes('distribution')) {
+    return '这也是为什么最近越来越多 builder 同时经营内容、社区和产品本身：在 AI 同质化越来越强的环境里，分发能力本身就是护城河。';
+  }
+
+  if (signals.includes('models')) {
+    return '对媒体观察者来说，真正该追踪的不是一句“更强了”，而是这次投入最终会不会转化成开发者可调用的新能力与新工作流。';
+  }
+
+  if (signals.includes('infrastructure')) {
+    return '所以这类动态虽然没有模型发布那么显眼，却往往更接近真实的产品护城河，因为它直接决定了交付效率和用户体验。';
+  }
+
+  if (signals.includes('devtools')) {
+    return '长期看，这类变化会继续推高“一个人团队”的产能上限，也会把软件竞争进一步推向速度、判断力和分发效率。';
+  }
+
+  if (signals.includes('workflow')) {
+    return '如果这条路继续走通，未来很多 SaaS 的差异化不再只是功能多少，而是谁能把生成能力更自然地嵌进真实工作流。';
+  }
+
+  return `放在${roleContext.perspective.replace('从', '').replace('视角', '')}里看，这条信息真正的价值在于它提示我们：AI 行业的竞争，已经从单点能力比拼转向更完整的产品系统竞争。`;
 }
 
 // 默认数据
