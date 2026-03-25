@@ -197,24 +197,32 @@ async function fetchFromFollowBuilders() {
       if (data.x && Array.isArray(data.x)) {
         for (const builder of data.x) {
           if (builder.tweets && builder.tweets.length > 0) {
-            const latestTweet = builder.tweets[0];
+            // 取每个 builder 的前 2 条推文
+            const tweetsToAdd = builder.tweets.slice(0, 2);
 
-            console.log(`Generating analysis for ${builder.name}...`);
+            for (const tweet of tweetsToAdd) {
+              // 跳过纯链接推文
+              if (!tweet.text || tweet.text.startsWith('http') || tweet.text.length < 20) {
+                continue;
+              }
 
-            // 生成发散性分析
-            const analysis = generateAnalysis(builder.name, latestTweet.text, builder.bio);
+              console.log(`Generating analysis for ${builder.name}...`);
 
-            builders.push({
-              name: builder.name,
-              handle: builder.handle,
-              role: builder.bio || 'AI Builder',
-              avatar: builder.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
-              summary: truncateText(latestTweet.text, 280),
-              summaryEn: truncateText(latestTweet.text, 280),
-              analysis: analysis,
-              url: latestTweet.url || `https://x.com/${builder.handle}`,
-              verified: builder.verified || false
-            });
+              // 生成发散性分析
+              const analysis = generateAnalysis(builder.name, tweet.text, builder.bio);
+
+              builders.push({
+                name: builder.name,
+                handle: builder.handle,
+                role: builder.bio || 'AI Builder',
+                avatar: builder.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
+                summary: truncateText(tweet.text, 280),
+                summaryEn: truncateText(tweet.text, 280),
+                analysis: analysis,
+                url: tweet.url || `https://x.com/${builder.handle}`,
+                verified: builder.verified || false
+              });
+            }
           }
         }
       }
