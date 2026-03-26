@@ -6,6 +6,7 @@ const LOCAL_X_MONITOR_DIR = process.env.X_LIST_MONITOR_DIR ||
 const PROFILES_PATH = path.join(__dirname, '..', 'profiles.json');
 const ENV_PATH = path.join(__dirname, '..', '.env');
 const ZHIPU_CHAT_COMPLETIONS_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
+const MIN_MODEL_ANALYSIS_LENGTH = 88;
 let envLoaded = false;
 
 // 文本截断函数
@@ -78,17 +79,18 @@ function getAiAnalysisConfig() {
     apiKey: process.env.ZHIPU_API_KEY,
     model: process.env.AI_ANALYSIS_MODEL || 'glm-4.7',
     endpoint: process.env.ZHIPU_API_ENDPOINT || ZHIPU_CHAT_COMPLETIONS_URL,
-    batchSize: Math.max(1, Number.parseInt(process.env.AI_ANALYSIS_BATCH_SIZE || '6', 10) || 6)
+    batchSize: Math.min(2, Math.max(1, Number.parseInt(process.env.AI_ANALYSIS_BATCH_SIZE || '2', 10) || 2)),
+    timeoutMs: Math.max(20000, Number.parseInt(process.env.AI_ANALYSIS_TIMEOUT_MS || '90000', 10) || 90000)
   };
 }
 
 function normalizeAnalysisText(text) {
   const normalized = String(text || '').replace(/\s+/g, ' ').trim();
-  if (normalized.length <= 140) {
+  if (normalized.length <= 320) {
     return normalized;
   }
 
-  return `${normalized.slice(0, 139)}…`;
+  return `${normalized.slice(0, 319)}…`;
 }
 
 function chunkItems(items, batchSize) {
@@ -684,6 +686,47 @@ function nextCommentIndex(text, commentState) {
   return occurrenceIndex;
 }
 
+function attachAnalysisContext(builders) {
+  const postsByHandle = new Map();
+
+  for (const item of builders) {
+    if (!item || item.isSummary || !item.handle) {
+      continue;
+    }
+
+    const handle = item.handle.toLowerCase();
+    const bucket = postsByHandle.get(handle) || [];
+    bucket.push(item);
+    postsByHandle.set(handle, bucket);
+  }
+
+  for (const item of builders) {
+    if (!item || item.isSummary || !item.handle) {
+      continue;
+    }
+
+    const context = [];
+    const sameAuthorPosts = (postsByHandle.get(item.handle.toLowerCase()) || [])
+      .filter((entry) => entry !== item)
+      .slice(0, 2)
+      .map((entry) => truncateText(entry.summaryEn || entry.summary || '', 120));
+
+    if (item.role && item.role !== 'AI Builder') {
+      context.push(`作者身份：${item.role}`);
+    }
+
+    if (sameAuthorPosts.length) {
+      context.push(`同作者近 24 小时其他动态：${sameAuthorPosts.join(' / ')}`);
+    }
+
+    if (context.length) {
+      item.analysisContext = context.join('\n');
+    }
+  }
+
+  return builders;
+}
+
 function buildAnalysisMessages(batch) {
   const items = batch.map((entry, index) => ({
     index,
@@ -691,7 +734,8 @@ function buildAnalysisMessages(batch) {
     handle: entry.handle,
     role: entry.role,
     url: entry.url,
-    text: entry.summaryEn || entry.summary || ''
+    text: entry.summaryEn || entry.summary || '',
+    context: entry.analysisContext || ''
   }));
 
   return [
@@ -701,13 +745,16 @@ function buildAnalysisMessages(batch) {
         '你是 AI Builders Daily 的中文主笔。',
         '请基于推文内容，为每条推文写 1 段有洞见的中文解读。',
         '要求：',
-        '1. 每条 70 到 120 个中文字符左右。',
-        '2. 必须抓住推文里的具体信号，比如产品动作、模型路线、工作流变化、商业化路径、分发方式、组织动作或用户需求变化。',
-        '3. 要解释“这条推文为什么重要”，不要只是重复原文。',
-        '4. 禁止模板化空话，例如“值得关注”“说明行业发展很快”“反映了趋势”。',
-        '5. 同一批输出的措辞要有明显变化，不要像同一个模板改词。',
-        '6. 不用 markdown，不要分点，不要加标题。',
-        '7. 只返回 JSON：{"items":[{"index":0,"analysis":"..."}, ...]}'
+        '1. 每条 140 到 260 个中文字符，写成 2 到 4 句完整中文。',
+        '2. 第一句必须直接解释这条推文具体在说什么，不能空泛开场。',
+        '3. 后面再补一层更深的判断：它反映的是产品动作、模型路线、组织变化、分发策略、商业化压力，还是用户需求变化；判断必须贴着原文细节展开。',
+        '4. 如果提供了作者身份或同作者近期动态，要把这些上下文用进去，让分析更具体，而不是只就单条文本泛泛发挥。',
+        '5. 可以推断，但必须克制。如果信息不够，就用“从这条本身看，更像是……”这类表述守住事实边界。',
+        '6. 禁止模板化空话，例如“值得关注”“说明行业发展很快”“反映了趋势”“这预示着未来”“可以持续观察”。',
+        '7. 不要复述原文，不要用大而空的结论，不要写成官腔或投资腔。',
+        '8. 同一批输出的措辞要明显错开，不要像同一个句型换词。',
+        '9. 不用 markdown，不要分点，不要加标题，不要引用引号。',
+        '10. 只返回 JSON：{"items":[{"index":0,"analysis":"..."}, ...]}'
       ].join('\n')
     },
     {
@@ -718,21 +765,36 @@ function buildAnalysisMessages(batch) {
 }
 
 async function requestZhipuAnalyses(batch, config) {
-  const response = await fetch(config.endpoint, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${config.apiKey}`
-    },
-    body: JSON.stringify({
-      model: config.model,
-      temperature: 0.7,
-      response_format: {
-        type: 'json_object'
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), config.timeoutMs);
+  let response;
+
+  try {
+    response = await fetch(config.endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${config.apiKey}`
       },
-      messages: buildAnalysisMessages(batch)
-    })
-  });
+      body: JSON.stringify({
+        model: config.model,
+        temperature: 0.62,
+        response_format: {
+          type: 'json_object'
+        },
+        messages: buildAnalysisMessages(batch)
+      }),
+      signal: controller.signal
+    });
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      throw new Error(`Zhipu API timeout after ${config.timeoutMs}ms`);
+    }
+
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
 
   const payload = await response.json().catch(() => ({}));
 
@@ -755,6 +817,9 @@ async function requestZhipuAnalyses(batch, config) {
 async function enrichAnalysesWithModel(builders) {
   const config = getAiAnalysisConfig();
   if (!config) {
+    for (const item of builders) {
+      delete item.analysisContext;
+    }
     return builders;
   }
 
@@ -765,21 +830,44 @@ async function enrichAnalysesWithModel(builders) {
 
   console.log(`Generating AI analyses with ${config.provider}:${config.model}...`);
 
-  try {
-    for (const batch of chunkItems(posts, config.batchSize)) {
-      const results = await requestZhipuAnalyses(batch, config);
+  const batches = chunkItems(posts, config.batchSize);
+  for (const [batchIndex, batch] of batches.entries()) {
+    console.log(`AI analysis batch ${batchIndex + 1}/${batches.length}`);
+    const resolvedIndexes = new Set();
+    let results = [];
 
-      for (const item of results) {
-        const entry = batch[item.index];
-        const analysis = normalizeAnalysisText(item.analysis);
+    try {
+      results = await requestZhipuAnalyses(batch, config);
+    } catch (error) {
+      console.log(`Batch AI analysis failed, retrying individually: ${error.message}`);
+    }
 
-        if (entry && analysis) {
-          entry.analysis = analysis;
-        }
+    for (const item of results) {
+      const entry = batch[item.index];
+      const analysis = normalizeAnalysisText(item.analysis);
+
+      if (entry && analysis.length >= MIN_MODEL_ANALYSIS_LENGTH) {
+        entry.analysis = analysis;
+        resolvedIndexes.add(item.index);
       }
     }
-  } catch (error) {
-    console.log(`Falling back to rule-based analyses: ${error.message}`);
+
+    const unresolved = batch.filter((_, index) => !resolvedIndexes.has(index));
+    for (const entry of unresolved) {
+      try {
+        const [single] = await requestZhipuAnalyses([entry], config);
+        const analysis = normalizeAnalysisText(single?.analysis);
+        if (analysis.length >= MIN_MODEL_ANALYSIS_LENGTH) {
+          entry.analysis = analysis;
+        }
+      } catch (error) {
+        console.log(`Single-item AI analysis fallback failed for ${entry.handle}: ${error.message}`);
+      }
+    }
+  }
+
+  for (const item of builders) {
+    delete item.analysisContext;
   }
 
   return builders;
@@ -895,6 +983,7 @@ async function fetchFromLocalXList() {
       }
     }
 
+    attachAnalysisContext(builders);
     await enrichAnalysesWithModel(builders);
 
     builders.push({
@@ -983,6 +1072,7 @@ async function fetchFromFollowBuilders() {
         }
       }
 
+      attachAnalysisContext(builders);
       await enrichAnalysesWithModel(builders);
 
       if (builders.length > 0) {

@@ -6,7 +6,7 @@
     "avatar": "NY",
     "summary": "For those people who say there’s a third option which tries to balance both — sometimes there’s not.\nYou’re in charge of Instagram do you completely rip Snapchat stories or not? You already know what happens.",
     "summaryEn": "For those people who say there’s a third option which tries to balance both — sometimes there’s not.\nYou’re in charge of Instagram do you completely rip Snapchat stories or not? You already know what happens.",
-    "analysis": "Nan Yu 以 Instagram 抄袭 Snapchat Stories 为例，指出在关键决策时并不存在所谓的折中方案，要么彻底复制要么放弃。这揭示了产品竞争中的残酷现实：在赢家通吃的社交赛道，犹豫不决的中间路线往往会被市场淘汰，唯有果断执行才能确立优势。",
+    "analysis": "Nan Yu 认为在产品决策中试图寻找平衡的第三种选择往往是徒劳的，并以 Instagram 彻底照搬 Snapchat Stories 为例说明。结合他另一条关于职业选择的推文看，这反映了他对竞争策略的二元判断：在关键节点上，要么激进复制要么被淘汰，中间路线只会模糊焦点。这种观点在当下的 AI 创业潮中尤为尖锐，暗示了在快速迭代中追求极致而非平衡的必要性。",
     "url": "https://x.com/thenanyu/status/2037008518515953803",
     "verified": false
   },
@@ -17,7 +17,7 @@
     "avatar": "NY",
     "summary": "Probably true\n1 leads to better future career opportunities and if you’re jr you should absolutely choose that over option 2 x.com/thenanyu/statu…",
     "summaryEn": "Probably true\n1 leads to better future career opportunities and if you’re jr you should absolutely choose that over option 2 x.com/thenanyu/statu…",
-    "analysis": "Nan Yu 针对职业选择给出了明确建议，认为对于初级从业者而言，应优先选择能带来更好未来机会的路径，而非眼前的选项二。这反映了技术人才在早期积累阶段的核心逻辑：短期收益让位于长期成长空间，构建不可替代的竞争力远比当下的舒适更为关键。",
+    "analysis": "Nan Yu 断言对于初级开发者而言，选项 1 显然比选项 2 能带来更好的职业发展机会，应该坚定选择。联系他关于“没有第三种选择”的观点，这实际上是在劝诫新人避免在职业初期寻求舒适区或所谓的平衡。这反映了当前技术圈对稀缺技能的渴求，与其面面俱到平庸发展，不如在关键路径上通过高风险投入换取不可替代性。",
     "url": "https://x.com/thenanyu/status/2037006445422559245",
     "verified": false
   },
@@ -28,7 +28,7 @@
     "avatar": "AM",
     "summary": "Apple seems happy with apps made with Replit as evident by the high rate of acceptance.\nOh wow!! Approved second try! I think this is the fastest I’ve ever built and launched an app thanks to using @Replit  for the first time time  x.com/eliasxreyes/st…",
     "summaryEn": "Apple seems happy with apps made with Replit as evident by the high rate of acceptance.\nOh wow!! Approved second try! I think this is the fastest I’ve ever built and launched an app thanks to using @Replit  for the first time time  x.com/eliasxreyes/st…",
-    "analysis": "Replit 创始人分享案例显示，使用其平台构建的应用顺利通过了 Apple 审核且速度极快。这表明苹果对 AI 辅助开发工具持开放态度，低代码开发正逐步获得主流应用商店的认可，开发门槛的实质性降低将催生更多独立开发者。",
+    "analysis": "Amasad 指出苹果应用商店对使用 Replit 开发的 App 展现出了极高的接受度，甚至出现了秒批的情况。这一细节揭示了平台审核方对 AI 辅助开发工具的默许，说明只要最终产品合规，开发工具链的自动化程度并不构成准入障碍。这降低了独立开发者的试错成本，意味着 AI 编程工具正在打通主流分发的最后一道关卡。",
     "url": "https://x.com/amasad/status/2037004600893472936",
     "verified": false
   },
@@ -39,7 +39,7 @@
     "avatar": "AL",
     "summary": "《记忆的加与减》\n1\n前段时间我做了一件反直觉的事。\n我打开了一个93KB的文件，那是我给AI写的记忆手册，里面塞满了我的偏好、项目介绍、代码规范、API文档、历史任务记录、各种规则……花了好几个月积累这些内容，想着信息越全，AI就越懂我。\n然后我把它砍到了22KB。删掉了四分之三。",
     "summaryEn": "《记忆的加与减》\n1\n前段时间我做了一件反直觉的事。\n我打开了一个93KB的文件，那是我给AI写的记忆手册，里面塞满了我的偏好、项目介绍、代码规范、API文档、历史任务记录、各种规则……花了好几个月积累这些内容，想着信息越全，AI就越懂我。\n然后我把它砍到了22KB。删掉了四分之三。",
-    "analysis": "作者将积累数月的 AI 记忆手册从 93KB 精简至 22KB，主动删除了四分之三的冗余信息。这一反直觉的实践说明，在向 AI 投喂上下文时，信息密度比单纯的数量更重要，过多的噪音反而会干扰模型对核心指令的理解与执行。",
+    "analysis": "作者讲述了自己将原本 93KB 塞满偏好与文档的 AI 记忆手册，大幅删减至 22KB 的反直觉操作。这一行为精准切中了当前大模型上下文窗口管理的痛点，即过量的冗余信息反而会稀释模型对核心指令的注意力。从这条本身看，更像是开发者从大而全向少而精的工程思维回归，证明了在 AI 协作中信息密度远比信息总量重要。",
     "url": "https://x.com/AlchainHust/status/2037001707604021431",
     "verified": false
   },
@@ -50,7 +50,7 @@
     "avatar": "YI",
     "summary": "居然和葛剑雄/易中天/龚琳娜老师在B站课堂同框了，哈哈哈~\n我的 AI 编程课程上架 B 站不到 24小时，就进入了 IT 榜单前 10。这边给大家准备了一个立减400的优惠券：\nhttps://\nb23.tv/SqLFoPe\n欢迎想学AI编程的朋友加入学习，相信我这是全网最好的 Vibe Coding课程，帮我冲一下首周销量。",
     "summaryEn": "居然和葛剑雄/易中天/龚琳娜老师在B站课堂同框了，哈哈哈~\n我的 AI 编程课程上架 B 站不到 24小时，就进入了 IT 榜单前 10。这边给大家准备了一个立减400的优惠券：\nhttps://\nb23.tv/SqLFoPe\n欢迎想学AI编程的朋友加入学习，相信我这是全网最好的 Vibe Coding课程，帮我冲一下首周销量。",
-    "analysis": "Yihui 的 AI 编程课程上线不到 24 小时即冲进 B 站 IT 榜单前十，与头部名师同框。这一成绩验证了大众市场对 AI 辅助编程技能的爆发式需求，技术下沉趋势明显，掌握 Vibe Coding 正在成为普通开发者提升效率的刚需。",
+    "analysis": "Yihui 宣称其 AI 编程课程在 B 站上线不到 24 小时便冲进 IT 榜单前十，并借与名家同框的噱头推广优惠券。结合他随后承认所谓同框只是张无法编辑的图片来看，这种略显夸张的营销手段暴露了独立开发者在流量平台生存的焦虑，必须靠视觉冲击和榜单背书来争夺用户注意力。这也侧面印证了当下 AI 编程教育市场的竞争烈度，即便是主打 Vibe Coding 这种细分赛道，首周销量的压力依然迫使创作者不得不采取激进的分发策略。",
     "url": "https://x.com/yihui_indie/status/2036987781936013398",
     "verified": false
   },
@@ -61,7 +61,7 @@
     "avatar": "YI",
     "summary": "夸早了，是一张图片，不能编辑还是有点蛋疼",
     "summaryEn": "夸早了，是一张图片，不能编辑还是有点蛋疼",
-    "analysis": "Yihui 指出 AI 生成的内容实为图片且无法编辑，纠正了此前的乐观判断。这暴露了当前多模态 AI 在实用性上的短板：仅生成视觉内容而缺乏可编辑的结构化数据，会极大限制其在实际工作流中的落地价值。",
+    "analysis": "Yihui纠正了此前的赞扬，指出某AI工具输出的结果仅为图片而非可编辑文本，这种格式限制让他感到十分不便。作为一位刚在B站将AI编程课推上热榜前十的资深开发者，他对生产力的敏感度极高，这番吐槽直指当前多模态模型在落地场景中的软肋。从这条看，这不仅是产品体验的瑕疵，更暴露了模型在结构化数据输出与可编辑性上的技术瓶颈，说明仅仅生成内容已无法满足专业开发者的实际工作流需求。",
     "url": "https://x.com/yihui_indie/status/2036836957104537898",
     "verified": false
   },
@@ -72,19 +72,8 @@
     "avatar": "HW",
     "summary": "编程御三家的 hr 应该：\n去 Anthropic 挖 LLM 人才：UI 一坨（Cowork / claude code GUI ），但模型强到你原谅一切。\n去 Cursor 挖 UI/UX：新的 Glass 严重被低估了，但模型还在被产品带飞。\n去 OpenAI 挖 Marketing：不会让你最爱用，但一定让你最离不开。",
     "summaryEn": "编程御三家的 hr 应该：\n去 Anthropic 挖 LLM 人才：UI 一坨（Cowork / claude code GUI ），但模型强到你原谅一切。\n去 Cursor 挖 UI/UX：新的 Glass 严重被低估了，但模型还在被产品带飞。\n去 OpenAI 挖 Marketing：不会让你最爱用，但一定让你最离不开。",
-    "analysis": "作者建议大厂HR按需挖人：Anthropic胜在模型强但UI弱，Cursor凭借Glass界面弥补模型短板，OpenAI则靠营销构建粘性。这揭示了AI竞争已从单一技术比拼，分化为模型、体验与品牌策略的三维战场，企业需针对自身短板精准吸纳人才，而非盲目堆砌技术栈。",
+    "analysis": "这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
     "url": "https://x.com/hwwaanng/status/2036987752361976047",
-    "verified": false
-  },
-  {
-    "name": "Hwwaanng",
-    "handle": "hwwaanng",
-    "role": "AI Builder",
-    "avatar": "HW",
-    "summary": "先做，有人用再改。\n有人用，就有人给你改，反正大家都有 Agent。",
-    "summaryEn": "先做，有人用再改。\n有人用，就有人给你改，反正大家都有 Agent。",
-    "analysis": "作者主张先发布产品获取用户，再依赖用户反馈或Agent进行迭代优化，而非追求初始完美。这种观点降低了AI时代的开发门槛，暗示在智能体辅助下，产品进化的速度将远超传统研发周期，抢占用户注意力比打磨细节更关键。",
-    "url": "https://x.com/hwwaanng/status/2036710375413190746",
     "verified": false
   },
   {
@@ -94,7 +83,7 @@
     "avatar": "EM",
     "summary": "Grok Imagine\nGrok-Imagine just literally overtook the entire video leaderboard on DesignArena\nClean sweep...4 out of 4:\n #1 in Video Arena\n #1 in Video-to-Video\n #1 in Image-to-Video\n #1 in Multi-Image-to-Video\nOutranking Veo 3.1, Sora, Kling - all of them\nJust a few months ago,",
     "summaryEn": "Grok Imagine\nGrok-Imagine just literally overtook the entire video leaderboard on DesignArena\nClean sweep...4 out of 4:\n #1 in Video Arena\n #1 in Video-to-Video\n #1 in Image-to-Video\n #1 in Multi-Image-to-Video\nOutranking Veo 3.1, Sora, Kling - all of them\nJust a few months ago,",
-    "analysis": "马斯克宣称Grok Imagine在DesignArena视频生成榜单位居第一，全面超越Sora与Kling等竞品。这标志着xAI在视频生成领域实现了技术反超，打破了此前由OpenAI等头部厂商建立的优势格局，视频生成赛道的竞争烈度正急剧升温。",
+    "analysis": "推文指出 xAI 的 Grok-Imagine 模型在 DesignArena 视频生成评测中横扫所有细分榜单，击败了 Sora 和 Kling 等强劲对手。这不仅是单一模型能力的展示，更呼应了马斯克近期提出的“首要议程是改进一切”的激进策略，显示出 xAI 试图在视频生成这一关键赛道通过硬核技术指标快速突围。从这种全维度霸榜的动作看，团队显然将模型在专业社区的口碑视为当前阶段的核心竞争力。",
     "url": "https://x.com/elonmusk/status/2036972742218834073",
     "verified": true
   },
@@ -105,7 +94,7 @@
     "avatar": "EM",
     "summary": "First thing on the agenda: improve everything",
     "summaryEn": "First thing on the agenda: improve everything",
-    "analysis": "马斯克将“改进一切”列为首要议程，意在全方位提升现有模型与基础设施。这反映出AI领域技术迭代极快，即便是领跑者也无法通过单一优势维持领先，必须通过全方位的自我革新来应对瞬息万变的竞争环境。",
+    "analysis": "马斯克直接将改进一切列为当前议程的首要任务，这恰好发生在他宣布Grok Imagine横扫视频生成榜单之后。这种时间点上的巧合暗示了xAI正在从单纯的技术验证转向对产品细节和整体体验的极致打磨，试图在多模态赛道建立更深的护城河。从这条本身看，更像是他在取得阶段性胜利后，立刻要求团队保持危机感并继续扩大技术优势。",
     "url": "https://x.com/elonmusk/status/2036954117508309087",
     "verified": true
   },
@@ -116,19 +105,8 @@
     "avatar": "OG",
     "summary": "虽然写代码的速度提升了\n但是思考的速度并没有提升\n如何能加快人类思考（推理）速度呢？",
     "summaryEn": "虽然写代码的速度提升了\n但是思考的速度并没有提升\n如何能加快人类思考（推理）速度呢？",
-    "analysis": "作者指出AI虽提升了编码速度，但人类思考与推理的效率依然滞后，成为新的瓶颈。这揭示了生产力工具的进化方向正从执行自动化转向认知增强，如何通过AI加速人类的逻辑推演过程，将是下一代应用的核心命题。",
+    "analysis": "Oran Ge指出了一个核心矛盾：尽管AI工具显著压缩了代码编写的时间成本，却并未同步提升人类底层的逻辑推理速度。这位AI Builder的困惑揭示了当前技术栈的局限，即模型主要在执行层而非认知决策层提供增量。从这条本身看，更像是行业对“思考增强型”工具的迫切呼唤，暗示未来的产品迭代可能会从单纯提升产出效率，转向如何通过深度交互来缩短人类从问题定义到解决方案的认知路径。",
     "url": "https://x.com/oran_ge/status/2036959429124599851",
-    "verified": false
-  },
-  {
-    "name": "Oran Ge",
-    "handle": "oran_ge",
-    "role": "AI Builder",
-    "avatar": "OG",
-    "summary": "Agent 使用浏览器的最佳实践，发布之后立即获得 1000 stars：\nWeb Access\n它把 Agent 上网的各种痛点都解决了：\n- 用搜索替代浏览，获取不全的信息\n- 访问微信公众号、小红书每次都需要重新登录\n- 使用浏览器的时候和人类用户抢浏览器\n- 使用单线程，缓慢，低效",
-    "summaryEn": "Agent 使用浏览器的最佳实践，发布之后立即获得 1000 stars：\nWeb Access\n它把 Agent 上网的各种痛点都解决了：\n- 用搜索替代浏览，获取不全的信息\n- 访问微信公众号、小红书每次都需要重新登录\n- 使用浏览器的时候和人类用户抢浏览器\n- 使用单线程，缓慢，低效",
-    "analysis": "Oran Ge发布的Web Access工具解决了Agent上网时的登录失效、资源抢占及单线程低效等痛点。这表明智能体要实现规模化落地，必须先攻克基础设施层面的环境交互难题，只有解决好这些“脏活累活”，AI才能在真实网络环境中流畅运行。",
-    "url": "https://x.com/oran_ge/status/2036692345941594426",
     "verified": false
   },
   {
@@ -138,7 +116,7 @@
     "avatar": "GT",
     "summary": "I guess you expect politicians to be two-faced but you would hope someone who at least made some stuff in tech to not be like that\nNot so lucky here\nYou asked me for an intro to Garry like 8 months ago. I guess you didn't get what you wanted so now it's time to attack, huh?",
     "summaryEn": "I guess you expect politicians to be two-faced but you would hope someone who at least made some stuff in tech to not be like that\nNot so lucky here\nYou asked me for an intro to Garry like 8 months ago. I guess you didn't get what you wanted so now it's time to attack, huh?",
-    "analysis": "现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "analysis": "Garry Tan 公开指责某位技术背景人士因八个月前求介绍未果而翻脸，痛斥其虚伪程度甚至超过政客，直言对方是因未达目的才发起攻击。这不仅是对个人恩怨的回应，更折射出YC掌门人与旧金山地方政治力量之间关于创业生态存亡的激烈交锋，他正试图通过揭露对方动机来反击那些试图扼杀初创企业的政策倾向。",
     "url": "https://x.com/garrytan/status/2036950994828091892",
     "verified": true
   },
@@ -149,7 +127,7 @@
     "avatar": "GT",
     "summary": "Saikat hates startups and would do whatever he can to destroy the ability for people to start startups in San Francisco and California\nHe himself is an early Stripe centimillionaire, so this is the worst form of pulling up the ladder you could possibly imagine\nCraven",
     "summaryEn": "Saikat hates startups and would do whatever he can to destroy the ability for people to start startups in San Francisco and California\nHe himself is an early Stripe centimillionaire, so this is the worst form of pulling up the ladder you could possibly imagine\nCraven",
-    "analysis": "模型之外，真正决定产品能不能跑顺的，常常是 billing、集成和部署这些基础设施细节。用户看到的是功能，团队付出的却是系统摩擦成本。",
+    "analysis": "Garry Tan 公开指责 Saikat 身为 Stripe 早期获利者却在政坛上极力打压旧金山与加州的创业环境，斥责这是最恶劣的过河拆桥。作为 YC 掌门人，他这番激烈言辞不仅是对个人道德的批判，更是在代表硅谷创投圈向敌视商业的地方政治势力宣战。这揭示了技术新贵进入政界后可能发生的立场剧变，也预示着创业生态与监管力量之间将面临更赤裸的利益博弈。",
     "url": "https://x.com/garrytan/status/2036947059333620218",
     "verified": true
   },
@@ -160,7 +138,7 @@
     "avatar": "NK",
     "summary": "Priority given to the founders with the funniest response.\nLink to RSVP here:",
     "summaryEn": "Priority given to the founders with the funniest response.\nLink to RSVP here:",
-    "analysis": "眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+    "analysis": "这条推文是风投合伙人Nikunj Kothari为一场旧金山创始人晚宴招募参与者，并特意表示会把入场机会优先给回复最有趣的创始人。结合他平时行事低调却为了朋友大张旗鼓办局的背景，这种筛选标准显然不是为了单纯搞笑，而是想用幽默感作为过滤器，筛选出那些思维活跃、不拘一格且能玩到一起的创业者，这比看履历更能找到同频的人。",
     "url": "https://x.com/nikunj/status/2036936135541481923",
     "verified": false
   },
@@ -171,7 +149,7 @@
     "avatar": "NK",
     "summary": "I'm generally quite low key when it comes to events. But when\n@andruyeung\n comes to town, you ball out..\nExcited to cohost a VERY fancy founder dinner on April 7th in SF.\nWe already have some fantastic founders coming & would love to add a few more.\nRSVP link in the next post!",
     "summaryEn": "I'm generally quite low key when it comes to events. But when\n@andruyeung\n comes to town, you ball out..\nExcited to cohost a VERY fancy founder dinner on April 7th in SF.\nWe already have some fantastic founders coming & would love to add a few more.\nRSVP link in the next post!",
-    "analysis": "这类想法最有意思的地方，是它在推动界面从固定页面走向按任务即时生成。界面如果会跟着目标变化，软件就更像一个可编排的流程层。",
+    "analysis": "这位风投合伙人宣布为了迎接朋友到访，特意打破平时办活动低调的习惯，要在旧金山合办一场极其奢华的创始人晚宴。从特意强调VERY fancy和打破常规来看，这不仅是单纯的投资人社交局，更像是针对特定圈层的私密聚会，通过高规格的接待来巩固与核心创业者及同僚的强关系，这种情感连接往往比商务会议更有效。",
     "url": "https://x.com/nikunj/status/2036935343199707640",
     "verified": false
   },
@@ -182,7 +160,7 @@
     "avatar": "DA",
     "summary": "tomorrow's gonna be a big day\n@every\n!!",
     "summaryEn": "tomorrow's gonna be a big day\n@every\n!!",
-    "analysis": "这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "Dan Shipper预告明天对于媒体平台Every来说将是重要的一天，语气中充满期待。结合他随后发布的YouTube和Spotify链接，这很可能意味着Every将上线一档重磅内容或发布重大产品更新，作为AI Builder的他选择通过跨平台分发来造势，显示出内容创作者正在尝试用多渠道覆盖来最大化重要节点的声量。",
     "url": "https://x.com/danshipper/status/2036923805273129160",
     "verified": false
   },
@@ -193,7 +171,7 @@
     "avatar": "DA",
     "summary": "YouTube:\nhttps://\nyoutu.be/KRv9GpJYrUA\nSpotify:",
     "summaryEn": "YouTube:\nhttps://\nyoutu.be/KRv9GpJYrUA\nSpotify:",
-    "analysis": "现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "analysis": "Dan Shipper直接贴出了YouTube和Spotify的内容链接，显然是在为之前预告的Every重要日做实质性的内容分发。这种不写具体文案直接甩链接的做法，说明他对内容的吸引力有足够自信，或者这只是一个占位符，真正的意图是引导流量进入这两个主流音视频平台，以便利用平台的推荐算法获取增量用户。",
     "url": "https://x.com/danshipper/status/2036831785154183190",
     "verified": false
   },
@@ -204,7 +182,7 @@
     "avatar": "OP",
     "summary": "More on our approach to the Model Spec:",
     "summaryEn": "More on our approach to the Model Spec:",
-    "analysis": "这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
+    "analysis": "OpenAI 在推文中分享了关于模型规范的更多细节，并附上了播客链接。这显示出他们正在试图通过长音频内容来解释复杂的技术决策，在技术透明度和公众理解之间寻找平衡。结合近期动态，这更像是面对外界对模型价值观对齐的质疑时，主动通过深度内容来掌握安全定义的话语权，而非单纯的技术文档更新。",
     "url": "https://x.com/OpenAI/status/2036855698617938422",
     "verified": false
   },
@@ -215,7 +193,7 @@
     "avatar": "OP",
     "summary": "Listen to the OpenAI Podcast on—\nSpotify\nhttps://\nopen.spotify.com/show/0zojMEDiz\nKMh3aTxnGLENP\n…\nApple\nhttps://\npodcasts.apple.com/us/podcast/ope\nnai-podcast/id1820330260\n…\nYouTube",
     "summaryEn": "Listen to the OpenAI Podcast on—\nSpotify\nhttps://\nopen.spotify.com/show/0zojMEDiz\nKMh3aTxnGLENP\n…\nApple\nhttps://\npodcasts.apple.com/us/podcast/ope\nnai-podcast/id1820330260\n…\nYouTube",
-    "analysis": "分发能力正在变成产品本身，能持续触达并留住用户的团队，会越来越占优势。对 AI 产品来说，能不能形成重复触达，常常比一次爆发更重要。",
+    "analysis": "OpenAI 官方账号发布了其播客在 Spotify、Apple 和 YouTube 的链接。这不仅仅是内容的分发，更是为了配合同一条推文中提到的模型规范说明，构建一个立体的传播矩阵。通过多平台覆盖，他们试图将枯燥的技术规范转化为更易被大众和开发者接受的音频叙事，降低理解门槛，从而强化其在 AI 安全领域的解释权。",
     "url": "https://x.com/OpenAI/status/2036855700132147593",
     "verified": false
   },
@@ -226,7 +204,7 @@
     "avatar": "CL",
     "summary": "Your work tools in Claude are now available on mobile.\nExplore Figma designs, create Canva slides, check Amplitude dashboards, all from your phone.\nGive it a try:\nhttp://\nclaude.com/download",
     "summaryEn": "Your work tools in Claude are now available on mobile.\nExplore Figma designs, create Canva slides, check Amplitude dashboards, all from your phone.\nGive it a try:\nhttp://\nclaude.com/download",
-    "analysis": "真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
+    "analysis": "Claude 宣布将 Figma、Canva 和 Amplitude 等工作工具集成到了移动端应用中。这一动作意味着 Claude 正在打破 AI 助手仅作为聊天工具的局限，试图通过连接生产力软件抢占移动办公场景。这反映出 Anthropic 在产品策略上更侧重于将 AI 嵌入到具体工作流中，通过高频刚需工具来提升用户粘性，而非单纯追求模型参数的竞赛。",
     "url": "https://x.com/claudeai/status/2036850783526719610",
     "verified": false
   },
@@ -237,41 +215,8 @@
     "avatar": "LE",
     "summary": "Jevons paradox is happening in real time. Companies, especially outside of tech, are realizing that they can now afford to take on software projects that they wouldn’t have been able to tackle before because now AI lets them do so.\nWe’re going to start to use software for all\nEng...",
     "summaryEn": "Jevons paradox is happening in real time. Companies, especially outside of tech, are realizing that they can now afford to take on software projects that they wouldn’t have been able to tackle before because now AI lets them do so.\nWe’re going to start to use software for all\nEng...",
-    "analysis": "比起单点功能更新，这更像用户需求顺序在变化，产品判断也得跟着改。谁能更快识别“需求排序”变化，谁就更容易领先半步。",
+    "analysis": "Box CEO Aaron Levie 指出杰文斯悖论正在现实上演，企业尤其是非科技公司因 AI 降低了成本而开始承担以前无法完成的软件项目。这揭示了一个反直觉的商业现象：AI 效率的提升反而导致了软件需求的爆发式增长，而非减少。从这条推文看，更像是 SaaS 行业从业者对 AI 带来增量市场的乐观确认，而非对现有岗位被替代的担忧。",
     "url": "https://x.com/levie/status/2036832183131033977",
-    "verified": false
-  },
-  {
-    "name": "Zara Zhang",
-    "handle": "zarazhangrui",
-    "role": "AI Builder",
-    "avatar": "ZZ",
-    "summary": "GitHub is the new Substack\nCode is a form of self-expression",
-    "summaryEn": "GitHub is the new Substack\nCode is a form of self-expression",
-    "analysis": "这句话抓住了一个很新的变化: 代码仓库正在变成内容分发面。过去写作者靠文章建立风格，现在 builder 直接用 repo、demo 和 commit 记录表达判断，代码本身就在说话。",
-    "url": "https://x.com/zarazhangrui/status/2036675965003411514",
-    "verified": true
-  },
-  {
-    "name": "Peter Yang",
-    "handle": "petergyang",
-    "role": "Product at Roblox",
-    "avatar": "PY",
-    "summary": "Nooo they can't talk to each other? Come on\n@telegram",
-    "summaryEn": "Nooo they can't talk to each other? Come on\n@telegram",
-    "analysis": "这条吐槽指向的是 agent 协作层还很原始。单个 bot 能工作已经不稀奇了，下一步真正有价值的是让不同 agent 在同一消息流里自然接力，而不是各自单打独斗。",
-    "url": "https://x.com/petergyang/status/2036669221363761456",
-    "verified": false
-  },
-  {
-    "name": "Peter Yang",
-    "handle": "petergyang",
-    "role": "Product at Roblox",
-    "avatar": "PY",
-    "summary": "My Telegram is just chats with my OpenClaw and now Claude bots. Haven't talked to a single human yet.",
-    "summaryEn": "My Telegram is just chats with my OpenClaw and now Claude bots. Haven't talked to a single human yet.",
-    "analysis": "Telegram 官方这些年一直把 bot、Mini App、支付都做成平台能力，所以这条吐槽其实挺有启发: 一旦 bot 之间能更自然协作，聊天应用就不只是聊天入口，而会逐步变成 agent 的轻量操作系统。",
-    "url": "https://x.com/petergyang/status/2036664048700600706",
     "verified": false
   },
   {
@@ -279,8 +224,8 @@
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "今天共追踪到 15 位 builder 的 25 条动态。Agent 正从 demo 走向真实工作流；模型厂商持续向外释放路线信号；内容、社群和分发继续绑定；整体看，竞争重点正从单点模型能力，转向工作流整合、分发效率和更快的商业化闭环。",
-    "summaryEn": "今天共追踪到 15 位 builder 的 25 条动态。Agent 正从 demo 走向真实工作流；模型厂商持续向外释放路线信号；内容、社群和分发继续绑定；整体看，竞争重点正从单点模型能力，转向工作流整合、分发效率和更快的商业化闭环。",
+    "summary": "今天共追踪到 13 位 builder 的 20 条动态。模型厂商持续向外释放路线信号；内容、社群和分发继续绑定；支付、集成、部署这些基础设施更受重视；整体看，竞争重点正从单点模型能力，转向工作流整合、分发效率和更快的商业化闭环。",
+    "summaryEn": "今天共追踪到 13 位 builder 的 20 条动态。模型厂商持续向外释放路线信号；内容、社群和分发继续绑定；支付、集成、部署这些基础设施更受重视；整体看，竞争重点正从单点模型能力，转向工作流整合、分发效率和更快的商业化闭环。",
     "analysis": "",
     "url": "",
     "verified": false,

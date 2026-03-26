@@ -171,35 +171,111 @@
             transform: translateY(-1px);
         }
 
-        .analysis-shell.revealed .analysis-toggle {
-            display: none;
-        }
-
-        .analysis-panel {
-            width: 100%;
-            display: grid;
-            grid-template-rows: 0fr;
-            transition: grid-template-rows 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-
-        .analysis-shell.revealed .analysis-panel {
-            grid-template-rows: 1fr;
-        }
-
-        .analysis-panel-inner {
-            min-height: 0;
+        body.analysis-modal-open {
             overflow: hidden;
         }
 
-        .analysis {
-            font-size: 12.5px;
-            line-height: 1.9;
-            color: #818181;
-            width: 100%;
-            margin: 0;
-            padding-top: 14px;
-            border-top: 1px solid rgba(0, 0, 0, 0.05);
-            text-align: center;
+        .analysis-modal {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background: rgba(17, 17, 17, 0.38);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.24s ease;
+            z-index: 1200;
+        }
+
+        .analysis-modal.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .analysis-dialog {
+            width: min(680px, 100%);
+            max-height: min(78vh, 760px);
+            background: rgba(250, 250, 248, 0.98);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 28px;
+            box-shadow: 0 28px 60px rgba(0, 0, 0, 0.16);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transform: translateY(10px) scale(0.985);
+            transition: transform 0.24s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .analysis-modal.open .analysis-dialog {
+            transform: translateY(0) scale(1);
+        }
+
+        .analysis-dialog-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 20px 22px 16px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .analysis-dialog-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            min-width: 0;
+        }
+
+        .analysis-dialog-label {
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #9a9a9a;
+        }
+
+        .analysis-dialog-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #171717;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .analysis-close {
+            width: 34px;
+            height: 34px;
+            border: 0;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.05);
+            color: #555;
+            font-size: 18px;
+            line-height: 1;
+            cursor: pointer;
+            flex-shrink: 0;
+            transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+        }
+
+        .analysis-close:hover {
+            background: rgba(0, 0, 0, 0.09);
+            color: #222;
+            transform: scale(1.04);
+        }
+
+        .analysis-dialog-body {
+            padding: 22px 22px 26px;
+            overflow-y: auto;
+        }
+
+        .analysis-dialog-text {
+            font-size: 15px;
+            line-height: 2;
+            color: #434343;
+            text-align: left;
+            white-space: pre-wrap;
         }
 
         .card-date {
@@ -557,6 +633,20 @@
 
         <div class="swipe-hint" id="swipeHint">上滑显示更多</div>
         <div class="toast" id="toast">今天就这些了</div>
+        <div class="analysis-modal" id="analysisModal" aria-hidden="true">
+            <div class="analysis-dialog" role="dialog" aria-modal="true" aria-labelledby="analysisModalTitle">
+                <div class="analysis-dialog-header">
+                    <div class="analysis-dialog-meta">
+                        <div class="analysis-dialog-label">AI 解读</div>
+                        <div class="analysis-dialog-title" id="analysisModalTitle"></div>
+                    </div>
+                    <button type="button" class="analysis-close" id="analysisModalClose" aria-label="关闭">×</button>
+                </div>
+                <div class="analysis-dialog-body">
+                    <div class="analysis-dialog-text" id="analysisModalText"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -569,6 +659,7 @@
         let lastY = 0;
         let lastTime = 0;
         let animationId = null;
+        let activeAnalysisTrigger = null;
 
         async function loadData() {
             try {
@@ -671,12 +762,12 @@
                         <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
                         ${builder.analysis ? `
                             <div class="analysis-shell">
-                                <button type="button" class="analysis-toggle">AI 解读</button>
-                                <div class="analysis-panel">
-                                    <div class="analysis-panel-inner">
-                                        <div class="analysis">${builder.analysis}</div>
-                                    </div>
-                                </div>
+                                <button
+                                    type="button"
+                                    class="analysis-toggle"
+                                    data-analysis="${encodeURIComponent(builder.analysis)}"
+                                    data-analysis-title="${encodeURIComponent(builder.name || '')}"
+                                >AI 解读</button>
                             </div>
                         ` : ''}
                     </div>
@@ -722,6 +813,8 @@
 
         function bindEvents() {
             const container = document.getElementById('container');
+            const modal = document.getElementById('analysisModal');
+            const modalClose = document.getElementById('analysisModalClose');
 
             container.addEventListener('touchstart', handleStart, { passive: true });
             container.addEventListener('touchmove', handleMove, { passive: false });
@@ -760,18 +853,25 @@
                     if (currentIndex > -1) {
                         goTo(currentIndex - 1);
                     }
+                } else if (e.key === 'Escape') {
+                    closeAnalysisModal();
                 }
             });
 
-            // 点击展开/收起文本
             document.addEventListener('click', (e) => {
                 const target = e.target;
 
                 if (target.closest('.analysis-toggle')) {
-                    const shell = target.closest('.analysis-shell');
-                    if (shell) {
-                        shell.classList.add('revealed');
-                    }
+                    const trigger = target.closest('.analysis-toggle');
+                    const analysisText = decodeAnalysisValue(trigger.dataset.analysis || '');
+                    const analysisTitle = decodeAnalysisValue(trigger.dataset.analysisTitle || '');
+                    openAnalysisModal(analysisText, analysisTitle, trigger);
+                    e.stopPropagation();
+                    return;
+                }
+
+                if (target === modal || target.closest('#analysisModalClose')) {
+                    closeAnalysisModal();
                     e.stopPropagation();
                     return;
                 }
@@ -789,10 +889,56 @@
                     target.classList.add('expanded');
                 }
             });
+
+            modalClose.addEventListener('click', closeAnalysisModal);
+        }
+
+        function decodeAnalysisValue(value) {
+            try {
+                return decodeURIComponent(value || '');
+            } catch (error) {
+                return value || '';
+            }
+        }
+
+        function openAnalysisModal(text, title, trigger = null) {
+            const modal = document.getElementById('analysisModal');
+            const modalTitle = document.getElementById('analysisModalTitle');
+            const modalText = document.getElementById('analysisModalText');
+
+            activeAnalysisTrigger = trigger;
+            modalTitle.textContent = title ? `${title} 的解读` : 'AI 解读';
+            modalText.textContent = text;
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('analysis-modal-open');
+            document.getElementById('analysisModalClose').focus();
+        }
+
+        function closeAnalysisModal() {
+            const modal = document.getElementById('analysisModal');
+            if (!modal.classList.contains('open')) {
+                return;
+            }
+
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('analysis-modal-open');
+
+            if (activeAnalysisTrigger) {
+                activeAnalysisTrigger.focus();
+                activeAnalysisTrigger = null;
+            }
         }
 
         function handleStart(e) {
-            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || e.target.closest('.analysis-toggle')) return; // 忽略链接和按钮点击
+            if (
+                document.getElementById('analysisModal').classList.contains('open') ||
+                e.target.tagName === 'A' ||
+                e.target.tagName === 'BUTTON' ||
+                e.target.closest('.analysis-toggle') ||
+                e.target.closest('.analysis-dialog')
+            ) return;
             startY = e.touches ? e.touches[0].clientY : e.clientY;
             currentY = startY;
             lastY = startY;
