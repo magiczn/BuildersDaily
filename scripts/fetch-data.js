@@ -121,6 +121,49 @@ function parseJsonResponse(rawContent) {
   }
 }
 
+function buildDailySummaryMessages(builders) {
+  const sourcePosts = builders
+    .filter((item) => !item.isSummary && item.summaryEn)
+    .slice(0, 18)
+    .map((item, index) => ({
+      index,
+      name: item.name,
+      handle: item.handle,
+      role: item.role,
+      text: truncateText(item.summaryEn || item.summary || '', 180)
+    }));
+
+  const uniqueBuilders = new Set(sourcePosts.map((item) => item.handle)).size;
+
+  return [
+    {
+      role: 'system',
+      content: [
+        '你是 AI Builders Daily 的中文主笔。',
+        '请基于今天追踪到的一组 builder 动态，写一段自然、好读的今日小结。',
+        '要求：',
+        '1. 输出 120 到 180 个中文字符，1 段完整中文，不要分点。',
+        '2. 第一部分自然带出今天观察到的整体气氛或主线，不要机械报数。',
+        '3. 中间要把 2 到 3 个最重要的共性主题串起来，例如模型路线、产品分发、Agent 落地、开发工具、商业化压力。',
+        '4. 结尾给出一句克制的判断，像媒体摘要，不要空话，不要官腔。',
+        '5. 不要写成“今天共追踪到……”，也不要重复类似“整体来看”“值得关注”“反映了趋势”这种模板话。',
+        '6. 要整合成一段自然文字，像人写的日报收尾。',
+        '7. 只返回 JSON：{"summary":"..."}'
+      ].join('\n')
+    },
+    {
+      role: 'user',
+      content: JSON.stringify({
+        stats: {
+          unique_builders: uniqueBuilders,
+          posts: sourcePosts.length
+        },
+        items: sourcePosts
+      }, null, 2)
+    }
+  ];
+}
+
 function loadProfilesMetadata() {
   try {
     if (!fs.existsSync(PROFILES_PATH)) {
@@ -814,6 +857,56 @@ async function requestZhipuAnalyses(batch, config) {
   return items;
 }
 
+async function requestZhipuDailySummary(builders, config) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), config.timeoutMs);
+  let response;
+
+  try {
+    response = await fetch(config.endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${config.apiKey}`
+      },
+      body: JSON.stringify({
+        model: config.model,
+        temperature: 0.5,
+        response_format: {
+          type: 'json_object'
+        },
+        messages: buildDailySummaryMessages(builders)
+      }),
+      signal: controller.signal
+    });
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      throw new Error(`Zhipu daily summary timeout after ${config.timeoutMs}ms`);
+    }
+
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+
+  const payload = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    const message = payload.error?.message || payload.msg || `HTTP ${response.status}`;
+    throw new Error(`Zhipu API error: ${message}`);
+  }
+
+  const content = payload.choices?.[0]?.message?.content;
+  const parsed = parseJsonResponse(content);
+  const summary = normalizeAnalysisText(parsed?.summary || '');
+
+  if (!summary) {
+    throw new Error('Zhipu API returned no daily summary.');
+  }
+
+  return summary;
+}
+
 async function enrichAnalysesWithModel(builders) {
   const config = getAiAnalysisConfig();
   if (!config) {
@@ -892,6 +985,25 @@ function generateDailySummary(builders) {
   const close = '整体看，竞争重点正从单点模型能力，转向工作流整合、分发效率和更快的商业化闭环。';
 
   return `${lead}${body ? body + '；' : ''}${close}`.slice(0, 200);
+}
+
+async function generateDailySummaryWithModel(builders) {
+  const sourcePosts = builders.filter((item) => !item.isSummary);
+  if (!sourcePosts.length) {
+    return '';
+  }
+
+  const config = getAiAnalysisConfig();
+  if (!config) {
+    return generateDailySummary(builders);
+  }
+
+  try {
+    return await requestZhipuDailySummary(sourcePosts, config);
+  } catch (error) {
+    console.log(`Falling back to rule-based daily summary: ${error.message}`);
+    return generateDailySummary(builders);
+  }
 }
 
 // 默认数据
@@ -1009,13 +1121,15 @@ async function fetchFromLocalXList() {
     attachAnalysisContext(builders);
     await enrichAnalysesWithModel(builders);
 
+    const dailySummary = await generateDailySummaryWithModel(builders);
+
     builders.push({
       name: '今日总结',
       handle: 'daily_brief',
       role: 'Builder Daily',
       avatar: 'BD',
-      summary: generateDailySummary(builders),
-      summaryEn: generateDailySummary(builders),
+      summary: dailySummary,
+      summaryEn: dailySummary,
       analysis: '',
       url: '',
       verified: false,
