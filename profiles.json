@@ -23,7 +23,7 @@
   {
     "handle": "zarazhangrui",
     "name": "Zara Zhang",
-    "role": "AI Builder",
+    "role": "AI Product Builder",
     "avatar": "ZZ",
     "verified": true
   },
@@ -37,36 +37,78 @@
   {
     "handle": "yihui_indie",
     "name": "Yihui",
-    "role": "AI Builder",
+    "role": "AI Coding Creator",
     "avatar": "YI",
     "verified": false
   },
   {
     "handle": "hwwaanng",
     "name": "Hwwaanng",
-    "role": "AI Builder",
+    "role": "AI Coding Observer",
     "avatar": "HW",
     "verified": false
   },
   {
     "handle": "oran_ge",
     "name": "Oran Ge",
-    "role": "AI Builder",
+    "role": "Orange AI",
     "avatar": "OG",
     "verified": false
   },
   {
     "handle": "thenanyu",
     "name": "Nan Yu",
-    "role": "AI Builder",
+    "role": "Product & Growth",
     "avatar": "NY",
     "verified": false
   },
   {
     "handle": "turingou",
     "name": "Turing Ou",
-    "role": "AI Builder",
+    "role": "AI Product Builder",
     "avatar": "TO",
+    "verified": false
+  },
+  {
+    "handle": "amasad",
+    "name": "Amjad Masad",
+    "role": "CEO @Replit",
+    "avatar": "AM",
+    "verified": false
+  },
+  {
+    "handle": "alchainhust",
+    "name": "AlchainHust",
+    "role": "AI Workflow Builder",
+    "avatar": "AL",
+    "verified": false
+  },
+  {
+    "handle": "danshipper",
+    "name": "Dan Shipper",
+    "role": "CEO @Every",
+    "avatar": "DS",
+    "verified": false
+  },
+  {
+    "handle": "openai",
+    "name": "OpenAI",
+    "role": "AI Research Lab",
+    "avatar": "OP",
+    "verified": false
+  },
+  {
+    "handle": "claudeai",
+    "name": "Claude",
+    "role": "Anthropic's Claude",
+    "avatar": "CL",
+    "verified": false
+  },
+  {
+    "handle": "levie",
+    "name": "Aaron Levie",
+    "role": "CEO @Box",
+    "avatar": "AL",
     "verified": false
   }
 ]

@@ -909,22 +909,45 @@ const defaultData = [
   }
 ];
 
-function pickRole(postText) {
+function pickRole(postText, handle = '', name = '') {
   const text = (postText || '').toLowerCase();
+  const handleLower = String(handle || '').toLowerCase();
+  const nameLower = String(name || '').toLowerCase();
 
-  if (text.includes('openai')) return 'AI Builder';
-  if (text.includes('anthropic') || text.includes('claude')) return 'AI Builder';
-  if (text.includes('agent') || text.includes('codex')) return 'AI Builder';
+  const roleMap = {
+    thenanyu: 'Product & Growth',
+    amasad: 'CEO @Replit',
+    alchainhust: 'AI Workflow Builder',
+    yihui_indie: 'AI Coding Creator',
+    hwwaanng: 'AI Coding Observer',
+    oran_ge: 'Orange AI',
+    danshipper: 'CEO @Every',
+    openai: 'AI Research Lab',
+    claudeai: "Anthropic's Claude",
+    levie: 'CEO @Box',
+    turingou: 'AI Product Builder',
+    zarazhangrui: 'AI Product Builder'
+  };
+
+  if (roleMap[handleLower]) {
+    return roleMap[handleLower];
+  }
+
+  if (nameLower === 'openai' || text.includes('openai')) return 'AI Research Lab';
+  if (nameLower === 'claude' || handleLower.includes('claude') || text.includes('anthropic')) return "Anthropic's Claude";
+  if (text.includes('replit')) return 'Developer Tools';
   if (text.includes('product')) return 'Product Builder';
+  if (text.includes('agent') || text.includes('codex')) return 'AI Tools Builder';
+  if (text.includes('founder')) return 'Founder';
 
-  return 'AI Builder';
+  return 'Independent Builder';
 }
 
 function buildBuilderEntry(post, metadataCache, commentState) {
   const handle = post.author;
   const cached = metadataCache.get(handle.toLowerCase());
   const name = cached?.name || handle;
-  const role = cached?.role || pickRole(post.text);
+  const role = cached?.role || pickRole(post.text, handle, name);
   const occurrenceIndex = nextCommentIndex(post.text, commentState);
 
   return {

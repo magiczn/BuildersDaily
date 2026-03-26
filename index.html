@@ -52,6 +52,18 @@
             transform: translateY(100%);
         }
 
+        .card-main {
+            flex: 1;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 48px;
+            padding: 24px 40px 0;
+            overflow: hidden;
+        }
+
         .card.active { transform: translateY(0); }
         .card.prev { transform: translateY(-100%); }
 
@@ -88,14 +100,16 @@
         }
 
         .content {
-            flex: 1;
-            padding: 0 40px;
+            flex: 0 1 auto;
+            width: 100%;
+            padding: 0;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             text-align: center;
+            gap: 18px;
         }
 
         .summary {
@@ -139,13 +153,58 @@
             letter-spacing: 0.12em;
             text-transform: uppercase;
             color: #888;
-            margin-bottom: 16px;
+            margin-bottom: 0;
+        }
+
+        .card-top {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .card-top .source {
+            padding: 18px 32px;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+            background: rgba(255, 255, 255, 0.6);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.02);
+        }
+
+        .card-top .source {
+            gap: 14px;
+        }
+
+        .card-top .source-avatar {
+            width: 44px;
+            height: 44px;
+            font-size: 14px;
+        }
+
+        .card-top .source-info {
+            text-align: left;
+        }
+
+        .card-top .source-name {
+            font-size: 16px;
+        }
+
+        .card-top .source-handle {
+            margin-top: 3px;
+        }
+
+        .source-role-top {
+            font-size: 12px;
+            color: #9a9a9a;
+            margin-top: 6px;
+            line-height: 1.45;
         }
 
         .analysis-shell {
             width: 100%;
             max-width: 78%;
-            margin: 24px auto 0;
+            margin: 0 auto;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -153,21 +212,23 @@
         }
 
         .analysis-toggle {
-            border: 1px solid rgba(0, 0, 0, 0.08);
-            border-radius: 999px;
-            background: rgba(0, 0, 0, 0.025);
-            color: #7a7a7a;
-            padding: 7px 14px;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-radius: 24px;
+            background: rgba(255, 255, 255, 0.6);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.02);
+            color: #6f6f6f;
+            padding: 10px 18px;
             font-size: 11px;
             font-weight: 500;
             letter-spacing: 0.1em;
             cursor: pointer;
-            transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+            transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
         }
 
         .analysis-toggle:hover {
-            background: rgba(0, 0, 0, 0.05);
-            color: #5f5f5f;
+            background: rgba(255, 255, 255, 0.82);
+            color: #595959;
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.035);
             transform: translateY(-1px);
         }
 
@@ -282,18 +343,19 @@
             font-size: 13px;
             color: #999;
             margin-top: 0;
-            margin-bottom: 24px;
+            margin-bottom: 0;
+            letter-spacing: 0.08em;
         }
 
         .footer {
-            padding: 16px 40px 20px;
+            padding: 12px 40px 28px;
             background: transparent;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
-            gap: 6px;
+            gap: 10px;
         }
 
         .source {
@@ -382,6 +444,10 @@
         .view-original svg {
             width: 12px;
             height: 12px;
+        }
+
+        .footer:empty {
+            display: none;
         }
 
         /* 首页样式 */
@@ -756,33 +822,37 @@
             // 内容页
             html += buildersData.map((builder, index) => `
                 <div class="card" data-index="${index}">
-                    <div class="content">
-                        <div class="card-date">${dateStr}</div>
-                        ${builder.isSummary ? '<div class="summary-title">今日小结</div>' : ''}
-                        <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
-                        ${builder.analysis ? `
-                            <div class="analysis-shell">
-                                <button
-                                    type="button"
-                                    class="analysis-toggle"
-                                    data-analysis="${encodeURIComponent(builder.analysis)}"
-                                    data-analysis-title="${encodeURIComponent(builder.name || '')}"
-                                >AI 解读</button>
-                            </div>
-                        ` : ''}
-                    </div>
-                    <div class="footer">
-                        <div class="source">
-                            <div class="source-avatar">${builder.avatar}</div>
-                            <div class="source-info">
-                                <div class="source-name">
-                                    ${builder.name}
-                                    ${builder.verified ? '<span class="source-verified">V</span>' : ''}
+                    <div class="card-main">
+                        <div class="card-top">
+                            <div class="source">
+                                <div class="source-avatar">${builder.avatar}</div>
+                                <div class="source-info">
+                                    <div class="source-name">
+                                        ${builder.name}
+                                        ${builder.verified ? '<span class="source-verified">V</span>' : ''}
+                                    </div>
+                                    ${builder.isSummary ? '' : `<div class="source-handle">@${builder.handle}</div>`}
+                                    <div class="source-role-top">${builder.role}</div>
                                 </div>
-                                ${builder.isSummary ? '' : `<div class="source-handle">@${builder.handle}</div>`}
                             </div>
                         </div>
-                        <div class="source-role">${builder.role}</div>
+                        <div class="content">
+                            ${builder.isSummary ? '<div class="summary-title">今日小结</div>' : ''}
+                            <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
+                            ${builder.analysis ? `
+                                <div class="analysis-shell">
+                                    <button
+                                        type="button"
+                                        class="analysis-toggle"
+                                        data-analysis="${encodeURIComponent(builder.analysis)}"
+                                        data-analysis-title="${encodeURIComponent(builder.name || '')}"
+                                    >AI 解读</button>
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="card-date">${dateStr}</div>
                         ${builder.url ? `<a href="${builder.url}" target="_blank" class="view-original">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
