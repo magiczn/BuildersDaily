@@ -4,6 +4,9 @@ const path = require('path');
 const LOCAL_X_MONITOR_DIR = process.env.X_LIST_MONITOR_DIR ||
   '/Users/zhaonan/0-Projects/x-list-monitor';
 const PROFILES_PATH = path.join(__dirname, '..', 'profiles.json');
+const ENV_PATH = path.join(__dirname, '..', '.env');
+const ZHIPU_CHAT_COMPLETIONS_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
+let envLoaded = false;
 
 // 文本截断函数
 function truncateText(text, maxLength = 280) {
@@ -17,6 +20,103 @@ function containsAny(text, keywords) {
 
 function containsAll(text, keywords) {
   return keywords.every((keyword) => text.includes(keyword));
+}
+
+function loadEnvFile() {
+  if (envLoaded) {
+    return;
+  }
+
+  envLoaded = true;
+
+  if (!fs.existsSync(ENV_PATH)) {
+    return;
+  }
+
+  const raw = fs.readFileSync(ENV_PATH, 'utf8');
+  for (const rawLine of raw.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith('#')) {
+      continue;
+    }
+
+    const separatorIndex = line.indexOf('=');
+    if (separatorIndex === -1) {
+      continue;
+    }
+
+    const key = line.slice(0, separatorIndex).trim();
+    if (!key || process.env[key]) {
+      continue;
+    }
+
+    let value = line.slice(separatorIndex + 1).trim();
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+
+    process.env[key] = value;
+  }
+}
+
+function getAiAnalysisConfig() {
+  loadEnvFile();
+
+  const provider = (process.env.AI_ANALYSIS_PROVIDER || (process.env.ZHIPU_API_KEY ? 'zhipu' : ''))
+    .trim()
+    .toLowerCase();
+
+  if (provider !== 'zhipu' || !process.env.ZHIPU_API_KEY) {
+    return null;
+  }
+
+  return {
+    provider: 'zhipu',
+    apiKey: process.env.ZHIPU_API_KEY,
+    model: process.env.AI_ANALYSIS_MODEL || 'glm-4.7',
+    endpoint: process.env.ZHIPU_API_ENDPOINT || ZHIPU_CHAT_COMPLETIONS_URL,
+    batchSize: Math.max(1, Number.parseInt(process.env.AI_ANALYSIS_BATCH_SIZE || '6', 10) || 6)
+  };
+}
+
+function normalizeAnalysisText(text) {
+  const normalized = String(text || '').replace(/\s+/g, ' ').trim();
+  if (normalized.length <= 140) {
+    return normalized;
+  }
+
+  return `${normalized.slice(0, 139)}…`;
+}
+
+function chunkItems(items, batchSize) {
+  const chunks = [];
+
+  for (let index = 0; index < items.length; index += batchSize) {
+    chunks.push(items.slice(index, index + batchSize));
+  }
+
+  return chunks;
+}
+
+function parseJsonResponse(rawContent) {
+  if (!rawContent) {
+    return null;
+  }
+
+  const trimmed = String(rawContent)
+    .trim()
+    .replace(/^```json\s*/i, '')
+    .replace(/^```\s*/i, '')
+    .replace(/\s*```$/, '');
+
+  try {
+    return JSON.parse(trimmed);
+  } catch {
+    return null;
+  }
 }
 
 function loadProfilesMetadata() {
@@ -584,6 +684,107 @@ function nextCommentIndex(text, commentState) {
   return occurrenceIndex;
 }
 
+function buildAnalysisMessages(batch) {
+  const items = batch.map((entry, index) => ({
+    index,
+    name: entry.name,
+    handle: entry.handle,
+    role: entry.role,
+    url: entry.url,
+    text: entry.summaryEn || entry.summary || ''
+  }));
+
+  return [
+    {
+      role: 'system',
+      content: [
+        '你是 AI Builders Daily 的中文主笔。',
+        '请基于推文内容，为每条推文写 1 段有洞见的中文解读。',
+        '要求：',
+        '1. 每条 70 到 120 个中文字符左右。',
+        '2. 必须抓住推文里的具体信号，比如产品动作、模型路线、工作流变化、商业化路径、分发方式、组织动作或用户需求变化。',
+        '3. 要解释“这条推文为什么重要”，不要只是重复原文。',
+        '4. 禁止模板化空话，例如“值得关注”“说明行业发展很快”“反映了趋势”。',
+        '5. 同一批输出的措辞要有明显变化，不要像同一个模板改词。',
+        '6. 不用 markdown，不要分点，不要加标题。',
+        '7. 只返回 JSON：{"items":[{"index":0,"analysis":"..."}, ...]}'
+      ].join('\n')
+    },
+    {
+      role: 'user',
+      content: JSON.stringify({ items }, null, 2)
+    }
+  ];
+}
+
+async function requestZhipuAnalyses(batch, config) {
+  const response = await fetch(config.endpoint, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${config.apiKey}`
+    },
+    body: JSON.stringify({
+      model: config.model,
+      temperature: 0.7,
+      response_format: {
+        type: 'json_object'
+      },
+      messages: buildAnalysisMessages(batch)
+    })
+  });
+
+  const payload = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    const message = payload.error?.message || payload.msg || `HTTP ${response.status}`;
+    throw new Error(`Zhipu API error: ${message}`);
+  }
+
+  const content = payload.choices?.[0]?.message?.content;
+  const parsed = parseJsonResponse(content);
+  const items = Array.isArray(parsed?.items) ? parsed.items : [];
+
+  if (!items.length) {
+    throw new Error('Zhipu API returned no analysis items.');
+  }
+
+  return items;
+}
+
+async function enrichAnalysesWithModel(builders) {
+  const config = getAiAnalysisConfig();
+  if (!config) {
+    return builders;
+  }
+
+  const posts = builders.filter((item) => !item.isSummary && item.summaryEn);
+  if (!posts.length) {
+    return builders;
+  }
+
+  console.log(`Generating AI analyses with ${config.provider}:${config.model}...`);
+
+  try {
+    for (const batch of chunkItems(posts, config.batchSize)) {
+      const results = await requestZhipuAnalyses(batch, config);
+
+      for (const item of results) {
+        const entry = batch[item.index];
+        const analysis = normalizeAnalysisText(item.analysis);
+
+        if (entry && analysis) {
+          entry.analysis = analysis;
+        }
+      }
+    }
+  } catch (error) {
+    console.log(`Falling back to rule-based analyses: ${error.message}`);
+  }
+
+  return builders;
+}
+
 function generateDailySummary(builders) {
   const sourcePosts = builders.filter(item => !item.isSummary);
   const uniqueBuilders = new Set(sourcePosts.map(item => item.handle)).size;
@@ -694,6 +895,8 @@ async function fetchFromLocalXList() {
       }
     }
 
+    await enrichAnalysesWithModel(builders);
+
     builders.push({
       name: '今日总结',
       handle: 'daily_brief',
@@ -779,6 +982,8 @@ async function fetchFromFollowBuilders() {
           }
         }
       }
+
+      await enrichAnalysesWithModel(builders);
 
       if (builders.length > 0) {
         return builders;

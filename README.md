@@ -76,6 +76,15 @@ launchctl load ~/Library/LaunchAgents/com.ndn.daily-update.plist
 可选环境变量：
 
 - `X_LIST_MONITOR_DIR`：本地 x-list-monitor 项目目录，默认 `/Users/zhaonan/0-Projects/x-list-monitor`
+- `ZHIPU_API_KEY`：如果提供，会用智谱模型生成更深的 `AI 解读`
+- `AI_ANALYSIS_PROVIDER`：默认 `zhipu`
+- `AI_ANALYSIS_MODEL`：默认 `glm-4.7`
+- `AI_ANALYSIS_BATCH_SIZE`：每批送进模型的推文数，默认 `6`
+
+说明：
+
+- 如果没有配置模型 API Key，`AI 解读` 会自动回退到本地规则版，不会影响每日更新链路
+- `x-list-monitor` 现在会在源头过滤纯回复和纯转发，`posts.json` 会更干净
 
 人物资料维护：
 
