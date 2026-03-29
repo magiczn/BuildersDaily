@@ -1,12 +1,199 @@
 [
   {
+    "name": "铁锤人",
+    "handle": "lxfater",
+    "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 商务联系：tiechuiren101",
+    "avatar": "LX",
+    "summary": "我直接宣布答案吧\ntypeless 第一，微信第四\n闪电说因为能白嫖豆包语音API 不好排\n好像每一次有新的语音输入法发布，都会在推上引发激烈的讨论。有的小伙伴激动得就像发现了新大陆，有的小伙伴则皱眉挑战它与之前的某款相比有何特色。比如这次豆包也公测了自己的 Mac 输入法，体验了一下，确实被惊艳到了（但不是语音输入）。分享一下我对于不同 Mac",
+    "summaryEn": "我直接宣布答案吧\ntypeless 第一，微信第四\n闪电说因为能白嫖豆包语音API 不好排\n好像每一次有新的语音输入法发布，都会在推上引发激烈的讨论。有的小伙伴激动得就像发现了新大陆，有的小伙伴则皱眉挑战它与之前的某款相比有何特色。比如这次豆包也公测了自己的 Mac 输入法，体验了一下，确实被惊艳到了（但不是语音输入）。分享一下我对于不同 Mac",
+    "analysis": "这条推文直接给出了 Mac 输入法的个人排名，将 typeless 列为第一并解释了为何微信排名靠后，同时点评了豆包新 Mac 输入法的公测体验。作为维护过万星项目的开发者，他对输入法的排序实际上是在评估工具链的工程落地能力，而不仅仅是功能堆砌。提到白嫖 API 影响排名，说明在当下的工具竞争中，API 成本和生态稳定性正成为极客用户筛选产品的关键门槛。",
+    "url": "https://x.com/lxfater/status/2038093092868501973",
+    "verified": true
+  },
+  {
+    "name": "阿绎 AYi",
+    "handle": "AYi_AInotes",
+    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AIGC 丨 Prompt 心理学硕士丨大厂在职 和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "说个反直觉的事儿，\n越追最新的AI工具，\n反而越难真正完成\nAI 带来的效率提升和认知升级。\n这篇四十万浏览三千多收藏的内容，老哥花了一百多个小时亲测，\n把2026年Claude生态里真正能用的 工具全筛出来了，还对应不同角色的最小启动工具集。\n不是普通的工具清单，",
+    "summaryEn": "说个反直觉的事儿，\n越追最新的AI工具，\n反而越难真正完成\nAI 带来的效率提升和认知升级。\n这篇四十万浏览三千多收藏的内容，老哥花了一百多个小时亲测，\n把2026年Claude生态里真正能用的 工具全筛出来了，还对应不同角色的最小启动工具集。\n不是普通的工具清单，",
+    "analysis": "作者指出盲目追逐最新 AI 工具反而阻碍了效率提升，并推荐了一份耗时百小时筛选出的 Claude 生态实用工具集。结合他近期对商业博弈和心理学的关注，这种筛选并非简单的罗列，而是试图在信息噪音中构建可落地的最小启动闭环。这反映出 AI 领域正从尝鲜期进入深水区，用户不再为概念买单，而是迫切需要能解决具体角色痛点的确定性方案。",
+    "url": "https://x.com/AYi_AInotes/status/2038093075063697811",
+    "verified": true
+  },
+  {
+    "name": "阿绎 AYi",
+    "handle": "AYi_AInotes",
+    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AIGC 丨 Prompt 心理学硕士丨大厂在职 和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "→ 对手刚刚压价，正在抢走你的客户\n→ 你两次错过升职机会，且毫无解释\n→ 一场对方比你更有筹码的谈判\n→ 一个你试图进入但已被现有巨头主导的市场\n→ 一项正在变得对立的合作关系\n→ 一场即将演变成真正问题的联合创始人冲突\n→ 一轮投资者不断拒绝却无明确反馈的融资",
+    "summaryEn": "→ 对手刚刚压价，正在抢走你的客户\n→ 你两次错过升职机会，且毫无解释\n→ 一场对方比你更有筹码的谈判\n→ 一个你试图进入但已被现有巨头主导的市场\n→ 一项正在变得对立的合作关系\n→ 一场即将演变成真正问题的联合创始人冲突\n→ 一轮投资者不断拒绝却无明确反馈的融资",
+    "analysis": "这条推文列举了商业与职场中七种典型的至暗时刻，涵盖了价格战、职场晋升受阻、不对等谈判及融资被拒等高压场景。结合作者近期强调不应盲目追逐新工具而忽视认知升级的观点，这里罗列的困境其实是在暗示，单纯依赖技术无法解决这些结构性难题，更需要的是深度的商业博弈与心理建设能力。这说明在 AI 热潮下，大厂从业者反而更关注那些技术无法轻易抹平的、关于人性与利益分配的硬骨头。",
+    "url": "https://x.com/AYi_AInotes/status/2037975275196280904",
+    "verified": true
+  },
+  {
+    "name": "Orange AI",
+    "handle": "oran_ge",
+    "role": "CEO of MarsWave. Build for Agents, by Agents.",
+    "avatar": "OG",
+    "summary": "玉伯老师给的新定义：\nSaaS：Skill as a Service\nDAU：Daily Agent User",
+    "summaryEn": "玉伯老师给的新定义：\nSaaS：Skill as a Service\nDAU：Daily Agent User",
+    "analysis": "这条推文引用了玉伯对行业术语的重新定义，将 SaaS 解释为技能即服务，把 DAU 改写为日活智能体用户。身为构建 Agent 产品的 CEO，作者转发此观点显然是在为未来的交互范式背书，意味着软件价值的核心正在从提供标准化功能转向交付特定技能，而用户指标也将由操作人类转向衡量智能体的活跃度。这种概念重构折射出 Agent 赛道正在试图摆脱传统 SaaS 的估值逻辑，试图通过重新定义用户行为来确立新的商业叙事。",
+    "url": "https://x.com/oran_ge/status/2038088203085955554",
+    "verified": true
+  },
+  {
+    "name": "Orange AI",
+    "handle": "oran_ge",
+    "role": "CEO of MarsWave. Build for Agents, by Agents.",
+    "avatar": "OG",
+    "summary": "写个新软件，10 分钟\n打包 electron， 一小时。。。。。。",
+    "summaryEn": "写个新软件，10 分钟\n打包 electron， 一小时。。。。。。",
+    "analysis": "Orange AI 吐槽写新软件只需十分钟，但打包成 Electron 应用却要耗费一小时。这种强烈的反差暴露了传统桌面应用分发管道与 AI Agent 开发速度之间的严重脱节。结合他构建 Agent 平台的背景来看，这意味着当核心代码可以由 AI 秒级生成时，陈旧的打包流程反而成了即时交付软件的瓶颈，这也侧面印证了玉伯将 SaaS 重新定义为 Skill as a Service 的必要性。",
+    "url": "https://x.com/oran_ge/status/2038086158815760419",
+    "verified": true
+  },
+  {
+    "name": "Frank Wang 玉伯",
+    "handle": "lifesinger",
+    "role": "I am curious and honest",
+    "avatar": "FW",
+    "summary": "DAU 也迎来了春天\nDAU = Daily Agent Users",
+    "summaryEn": "DAU 也迎来了春天\nDAU = Daily Agent Users",
+    "analysis": "玉伯把 DAU 的传统含义从日活跃用户重构为日活跃 Agent 用户。这一修改反映了产品核心价值正从服务人类界面转向管理自主数字劳动力的根本性迁移。这意味着未来的关键指标将不再统计人类的点击频次，而是计算 Agent 在网络空间中执行任务的活跃度，这也与他近期对空间拓扑的底层思考一脉相承。",
+    "url": "https://x.com/lifesinger/status/2038085619453247545",
+    "verified": true
+  },
+  {
+    "name": "Frank Wang 玉伯",
+    "handle": "lifesinger",
+    "role": "I am curious and honest",
+    "avatar": "FW",
+    "summary": "来一个说人话版本\n互联网和 AI 产品，在底层上，都是在对空间或时间起作用。\n空间可拆解成三层：拓扑 + 方向 + 度量。拓扑就是点和线，是谁和谁连在一起。比如地铁线路图，就是一张拓扑图。给连接点的线，加上箭头，就有了方向。给线划上刻度，就有了度量。\n为什么 Manus 看起来像上一代产品\n为什么 OpenClaw 这么火\n为什么 Agentic AI 是未来\n都在下面几张图里",
+    "summaryEn": "来一个说人话版本\n互联网和 AI 产品，在底层上，都是在对空间或时间起作用。\n空间可拆解成三层：拓扑 + 方向 + 度量。拓扑就是点和线，是谁和谁连在一起。比如地铁线路图，就是一张拓扑图。给连接点的线，加上箭头，就有了方向。给线划上刻度，就有了度量。\n为什么 Manus 看起来像上一代产品\n为什么 OpenClaw 这么火\n为什么 Agentic AI 是未来\n都在下面几张图里",
+    "analysis": "玉伯将互联网和 AI 产品的本质归结为对空间或时间的操作，并用拓扑、方向和度量三层结构来拆解空间属性。这种抽象视角意在用底层几何逻辑来区分产品代际，暗示 OpenClaw 和 Agentic AI 之所以火热，是因为它们在空间连接或度量上实现了突破。结合他近期将 DAU 重新定义为 Daily Agent Users 的动态，这更像是他在试图构建一套能解释“智能体时代”产品演进的通用理论框架。",
+    "url": "https://x.com/lifesinger/status/2038069179740291089",
+    "verified": true
+  },
+  {
+    "name": "Peter Steinberger",
+    "handle": "steipete",
+    "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw",
+    "avatar": "PS",
+    "summary": "MCPorter (MCP->CLI)0.8.0 is out.\n- stronger OAuth handling for servers\n- valid JSON output on fallback paths\n- better mcporter call behavior and error handling\n- generated CLIs handle object-valued args better\n- keep-alive/daemon reliability",
+    "summaryEn": "MCPorter (MCP->CLI)0.8.0 is out.\n- stronger OAuth handling for servers\n- valid JSON output on fallback paths\n- better mcporter call behavior and error handling\n- generated CLIs handle object-valued args better\n- keep-alive/daemon reliability",
+    "analysis": "Peter 发布了 MCPorter 0.8.0 版本，重点强化了 OAuth 安全性、JSON 输出稳定性以及守护进程的可靠性。这些看似枯燥的工程细节，实则是在解决 AI 工具链从原型走向生产环境时的稳定性痛点，尤其是 JSON 输出和守护进程的优化，直接关系到自动化任务能否在后台长期可靠运行。考虑到他刚从退休状态回归并投身 OpenClaw 生态，这种对底层稳定性的极致打磨，说明他正试图将这套工具链打造成连接模型与操作系统的基础设施。",
+    "url": "https://x.com/steipete/status/2038074759527981416",
+    "verified": true
+  },
+  {
+    "name": "Peter Steinberger",
+    "handle": "steipete",
+    "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw",
+    "avatar": "PS",
+    "summary": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change)",
+    "summaryEn": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change)",
+    "analysis": "Peter Steinberger 吐槽了开源维护者每天都要面对的负面反馈，并解释下架 Chrome 插件是因为 Chrome 144+ 版本已原生支持该功能。这反映出开源项目的分发策略必须随底层平台能力的进化而调整，维护者需在独立扩展和原生集成间做取舍。结合他近期在 MCPorter 上的投入，这种对原生能力的拥抱，说明他更倾向于利用系统级特性来简化工具链，而非维持冗余的兼容层。",
+    "url": "https://x.com/steipete/status/2037988925818519763",
+    "verified": true
+  },
+  {
+    "name": "Peter Yang",
+    "handle": "petergyang",
+    "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
+    "avatar": "PY",
+    "summary": "I would really love to talk to\n@grok\n about all the posts I have bookmarked on here but am too lazy to scroll through manually.\n@elonmusk\n what do you think?",
+    "summaryEn": "I would really love to talk to\n@grok\n about all the posts I have bookmarked on here but am too lazy to scroll through manually.\n@elonmusk\n what do you think?",
+    "analysis": "Peter Yang 呼吁 Grok 能够直接读取并对话他在 X 平台上收藏的所有推文，以此解决手动翻阅的麻烦。这暴露了当前 AI 助手在个人数据资产处理上的断层，即平台积累了大量高价值用户数据却未开放给模型深度调用。考虑到他在 Roblox 的产品背景，这并非简单的功能请求，而是指出了 AI 产品化中记忆与个性化的痛点，即模型若不能无缝整合用户的历史筛选行为，其智能程度将大打折扣。",
+    "url": "https://x.com/petergyang/status/2038068968792162594",
+    "verified": true
+  },
+  {
+    "name": "Peter Yang",
+    "handle": "petergyang",
+    "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
+    "avatar": "PY",
+    "summary": "X asking me to thumbs down my own reply .\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still.",
+    "summaryEn": "X asking me to thumbs down my own reply .\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still.",
+    "analysis": "Peter Yang 发现 X 平台让他给自己的回复点踩，并指出该按钮应该对原帖也开放，以清理信息流中的 AI 垃圾内容。这反映了平台在内容质量控制上的两难，单纯依赖用户反馈机制难以根治 AI 生成内容的泛滥，尤其是当算法分发机制未能有效过滤低质信息时。结合他作为 Roblox 产品经理的视角，这更像是从产品体验出发，对平台治理工具滞后于内容生成速度的批评。",
+    "url": "https://x.com/petergyang/status/2038067082223554732",
+    "verified": true
+  },
+  {
+    "name": "Yihui",
+    "handle": "yihui_indie",
+    "role": "- AI Coding： https://happyaicoding.com - AI Anime： https://mkanime.ai - Bilibilier & Youtuber & Builder",
+    "avatar": "YI",
+    "summary": "如果大家想和我一起学习 AI 编程，欢迎加入我的课程。我也会在付费学员群里面分享更多，今年关于我出海 & Marketing 的心得。",
+    "summaryEn": "如果大家想和我一起学习 AI 编程，欢迎加入我的课程。我也会在付费学员群里面分享更多，今年关于我出海 & Marketing 的心得。",
+    "analysis": "Yihui 在推广他的 AI 编程课程，并承诺在付费社群中分享今年关于产品出海与市场营销的实战经验。这显示出独立开发者正从单纯的技术变现转向“技术+流量”的双重变现路径，试图通过将 AI 编程技能与海外营销经验打包，构建更高的付费壁垒。考虑到他刚发布了年入百万的视频，这种课程推广实际上是将个人成功案例系统化，试图在 AI 红利期通过知识付费完成商业闭环。",
+    "url": "https://x.com/yihui_indie/status/2038067744894271773",
+    "verified": true
+  },
+  {
+    "name": "Yihui",
+    "handle": "yihui_indie",
+    "role": "- AI Coding： https://happyaicoding.com - AI Anime： https://mkanime.ai - Bilibilier & Youtuber & Builder",
+    "avatar": "YI",
+    "summary": "录了一个视频，分享我去年一个人如何做到年入百万的？同时聊了AI时代下，普通人关于 AI、自媒体、Vibe Coding 、出海的一些机会。\n希望能对大家有帮助！",
+    "summaryEn": "录了一个视频，分享我去年一个人如何做到年入百万的？同时聊了AI时代下，普通人关于 AI、自媒体、Vibe Coding 、出海的一些机会。\n希望能对大家有帮助！",
+    "analysis": "Yihui 录制视频复盘自己去年单人实现百万营收的具体路径，并探讨了普通人在 AI、自媒体、Vibe Coding 及出海领域的潜在机会。结合他近期推广 AI 编程课程和分享出海营销心得的动作来看，这不仅是个人成功经验的总结，更是为了通过打造个人 IP 来建立信任，从而为他的付费课程和工具产品引流，体现了独立开发者在 AI 时代将内容创作与产品变现深度绑定的商业化策略。",
+    "url": "https://x.com/yihui_indie/status/2038067740741910949",
+    "verified": true
+  },
+  {
+    "name": "Garry Tan",
+    "handle": "garrytan",
+    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+    "avatar": "GT",
+    "summary": "After Richmond disabled its Flock cameras to \"protect immigrants,\" car thefts jumped 33%.\nImmigrant shopkeepers begged to bring them back. Last week their city council finally listened.\nOpposing safety cameras is a luxury belief.",
+    "summaryEn": "After Richmond disabled its Flock cameras to \"protect immigrants,\" car thefts jumped 33%.\nImmigrant shopkeepers begged to bring them back. Last week their city council finally listened.\nOpposing safety cameras is a luxury belief.",
+    "analysis": "Garry Tan 引用里士满市禁用 Flock 摄像头后汽车盗窃案激增 33% 的案例，指出当地移民店主强烈要求恢复监控，以此反驳反对安全摄像头的观点是脱离现实的奢侈信念。作为 YC 总裁且身处旧金山这样的科技中心，他频繁关注公共安全议题，这实际上反映了科技精英阶层开始重新审视城市治理与安全基础设施的关系，认为忽视基层商户的实际生存需求去追求某种政治正确，是阻碍城市繁荣发展的错误路径。",
+    "url": "https://x.com/garrytan/status/2038054087451885747",
+    "verified": true
+  },
+  {
+    "name": "Garry Tan",
+    "handle": "garrytan",
+    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+    "avatar": "GT",
+    "summary": "Embrace boiling the ocean\nMy single biggest pain point right now: AI-induced attention deficit\nI have 5 Claude Code sessions running\n10 Terminal tabs open\n50 browser tabs open\n100 X articles in my bookmarks\nWhen there are multiple AIs working for you, you're constantly task switc...",
+    "summaryEn": "Embrace boiling the ocean\nMy single biggest pain point right now: AI-induced attention deficit\nI have 5 Claude Code sessions running\n10 Terminal tabs open\n50 browser tabs open\n100 X articles in my bookmarks\nWhen there are multiple AIs working for you, you're constantly task switc...",
+    "analysis": "Garry Tan 坦言自己正被 AI 工具带来的多任务并行搞得焦头烂额，列举了同时开着五个 Claude 会话和数十个浏览器标签页的混乱现状。作为 YC 掌门人，他这种“煮干大海”式的操作虽然看似高效，实则暴露了当前 AI 交互模式下的认知过载问题，说明即便是最顶尖的技术极客，也还没找到驾驭多智能体协作的完美工作流。",
+    "url": "https://x.com/garrytan/status/2037982376148734119",
+    "verified": true
+  },
+  {
+    "name": "Amjad Masad",
+    "handle": "amasad",
+    "role": "ceo @replit . civilizationist",
+    "avatar": "AM",
+    "summary": "Wow!\n@amasad Just crossed $100k ARR on a new company fully built on @Replit\nI just redid the whole website last night on Replit design + canvas with animations / sketching on paper and going back and forth with Agent 4 (I have 0 technical experience)\nWould love to show you",
+    "summaryEn": "Wow!\n@amasad Just crossed $100k ARR on a new company fully built on @Replit\nI just redid the whole website last night on Replit design + canvas with animations / sketching on paper and going back and forth with Agent 4 (I have 0 technical experience)\nWould love to show you",
+    "analysis": "Amjad Masad 转发了一位零技术背景的用户利用 Replit 的 Agent 4 和 Canvas 工具独立重构网站并实现十万美元 ARR 的案例。作为 Replit 掌舵者，这不仅是自家产品能力的背书，更验证了他近期关于“AI 让人人都能构建应用”的判断，意味着编程门槛的崩塌正在催生大量非技术出身的独立开发者，软件开发的准入逻辑已被彻底改写。",
+    "url": "https://x.com/amasad/status/2038053670907007165",
+    "verified": true
+  },
+  {
+    "name": "Amjad Masad",
+    "handle": "amasad",
+    "role": "ceo @replit . civilizationist",
+    "avatar": "AM",
+    "summary": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\nThis is what I meant when I started talking about “the 1000x engineer” four years ago.\nMy dear f...",
+    "summaryEn": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\nThis is what I meant when I started talking about “the 1000x engineer” four years ago.\nMy dear f...",
+    "analysis": "Replit CEO 重申了他四年前提出的“1000 倍工程师”概念，认为 AI 降低了应用开发门槛，让顶尖工程师能专注于更深层的平台构建。结合他近期转发用户在 Replit 上快速构建并重构网站的商业案例来看，这不仅是技术愿景的延续，更是对自家产品“AI 优先”开发模式的实战背书。从这条本身看，更像是 Replit 试图通过重新定义工程师价值层级，来巩固其在 AI 辅助编程领域的生态位，并吸引那些寻求极致效率的独立开发者。",
+    "url": "https://x.com/amasad/status/2037951485418344835",
+    "verified": true
+  },
+  {
     "name": "Nan Yu",
     "handle": "thenanyu",
     "role": "head of product @linear",
     "avatar": "NY",
     "summary": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
     "summaryEn": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
-    "analysis": "Linear 的产品负责人 Nan Yu 公开批评 TED 和 30 Under 30 已经沦为品牌自我毁灭的典型反面教材。这反映出顶级产品人对过度营销导致品牌光环稀释的极度警惕，认为稀缺性和权威感一旦被商业透支便无法挽回。从他推崇日本文化对传统的敬畏来看，这种对比显示了他更看重长期主义的匠心，而非短期流量堆砌出的虚假繁荣。",
+    "analysis": "Linear 产品负责人 Nan Yu 尖锐地指出，TED 和福布斯 30 Under 30 已沦为品牌自我毁灭的反面教材，甚至应该被写进商学院教案。作为一家以极致产品体验和精英用户群体著称的 SaaS 公司高管，这种极端评价折射出他对“精英主义”标签泛滥的厌恶，以及对品牌稀释现象的极度警惕。这或许暗示了 Linear 在品牌策略上会刻意保持克制，避免过度商业化或通过榜单营销来透支用户信任。",
     "url": "https://x.com/thenanyu/status/2038025287955280120",
     "verified": true
   },
@@ -17,30 +204,8 @@
     "avatar": "NY",
     "summary": "RETVRN (to Japan)\nyou can always leave it to the japanese to take a storied american musical tradition and not only do it absolute justice on the technical side, but bring a joy and jubilance that can only come from deep reverence and enjoyment of the art",
     "summaryEn": "RETVRN (to Japan)\nyou can always leave it to the japanese to take a storied american musical tradition and not only do it absolute justice on the technical side, but bring a joy and jubilance that can only come from deep reverence and enjoyment of the art",
-    "analysis": "Nan Yu 感叹日本在演绎美国音乐传统时，不仅技术精湛更展现出一种源于深层敬畏的纯粹快乐。结合他此前痛斥 TED 和 30 Under 30 品牌陨落的言论，可以看出这位产品高管极其厌恶形式主义的空心化，更推崇那种沉下心打磨细节、保持真诚热爱的产品哲学。这种对匠心与纯粹感的双重推崇，或许正是 Linear 能在工具软件领域维持高端品牌调性的精神内核。",
+    "analysis": "Nan Yu 在推文中称赞日本艺术家对美国音乐传统的演绎，认为他们不仅技术精湛，更注入了源自热爱的独特欢愉感。结合他作为 Linear 产品负责人的身份，这反映了他对“真诚”和“匠心”的极高推崇，认为只有对产品本质保持敬畏和热爱，才能在技术之上构建出有灵魂的品牌体验，而非空洞的商业包装。这与他近期批评 TED 品牌“自我毁灭”的逻辑一脉相承，即品牌必须回归内容与体验的真诚度。",
     "url": "https://x.com/thenanyu/status/2038021774105784782",
-    "verified": true
-  },
-  {
-    "name": "Peter Yang",
-    "handle": "petergyang",
-    "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
-    "avatar": "PY",
-    "summary": "Reason I ask this question is I'm going to China tmr and I hope the 50 GB eSim I bought lasts for 12 days of vibe coding",
-    "summaryEn": "Reason I ask this question is I'm going to China tmr and I hope the 50 GB eSim I bought lasts for 12 days of vibe coding",
-    "analysis": "Peter Yang 解释他提问的动机是因为明天要去中国，担心自己买的50GB eSim流量能否撑过12天的“vibe coding”。这直接点出了高频使用AI辅助编程对网络流量的巨大消耗，也侧面反映了他对在中国网络环境下使用海外AI工具可能遇到的网络限制和数据成本的务实考量。结合他另一条询问中国开发者工具的推文，说明他正在实地考察不同地域AI开发环境的差异。",
-    "url": "https://x.com/petergyang/status/2038010951920992754",
-    "verified": true
-  },
-  {
-    "name": "Peter Yang",
-    "handle": "petergyang",
-    "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
-    "avatar": "PY",
-    "summary": "What do builders in China use to vibe code if they’re not using Claude Code or Codex?",
-    "summaryEn": "What do builders in China use to vibe code if they’re not using Claude Code or Codex?",
-    "analysis": "Peter Yang 询问中国的开发者如果不使用 Claude Code 或 Codex，通常会依靠什么工具来进行“vibe coding”。这反映了在主流闭源模型服务存在地域访问限制的背景下，中国开发者群体可能已经形成了独特的工具链或替代方案。从他作为Roblox产品经理且即将访华的背景看，这不仅是单纯的技术好奇，更是在调研全球不同市场对AI编程工具的实际采纳路径。",
-    "url": "https://x.com/petergyang/status/2037968730278543863",
     "verified": true
   },
   {
@@ -50,7 +215,7 @@
     "avatar": "NK",
     "summary": "If you like Poker and have some time tomorrow in SF, you really don’t want to miss this..\nHosted by my dear friend\n@satyakamdar\n. DM him for an invite",
     "summaryEn": "If you like Poker and have some time tomorrow in SF, you really don’t want to miss this..\nHosted by my dear friend\n@satyakamdar\n. DM him for an invite",
-    "analysis": "Nikunj Kothari 正在大力推广一场在旧金山举办的扑克聚会，由好友 Satya Kamdar 主办，并呼吁感兴趣的参与者私信索取邀请函。考虑到他作为 FPV Ventures 合伙人的投资人身份，这种看似随意的局其实是硅谷创投圈建立信任和交换信息的经典场景。相比于正式会议，扑克桌上的博弈往往更能筛选出性格相投的创始人，也便于在私密氛围中获取未公开的项目线索。",
+    "analysis": "Nikunj Kothari 正在旧金山的社交网络中为一场德州扑克局招募参与者，并鼓励感兴趣者私信他的朋友获取邀请。考虑到他作为投资人的背景，这种线下扑克聚会不仅是个人兴趣的延伸，更是典型的硅谷社交筛选机制。结合他近期对 Vibe Coding 创业公司 ARR 的激烈争论，这显示出他正试图通过高信任度的私密圈层活动，在非正式场合中更精准地触达和评估那些潜在的高增长创业者。",
     "url": "https://x.com/nikunj/status/2037990692530872359",
     "verified": true
   },
@@ -61,30 +226,8 @@
     "avatar": "NK",
     "summary": "Alright let’s put this ARR debate to rest once and for all..\nIf ANY vibe coding startup with  scale (>$5M claimed ARR) publicly discloses how they calculate it (esp sub vs. inference) and how much of it they subsidize,\nI’ll donate $2,500 to a charity of their choice today",
     "summaryEn": "Alright let’s put this ARR debate to rest once and for all..\nIf ANY vibe coding startup with  scale (>$5M claimed ARR) publicly discloses how they calculate it (esp sub vs. inference) and how much of it they subsidize,\nI’ll donate $2,500 to a charity of their choice today",
-    "analysis": "Nikunj Kothari 提出悬赏，要求任何 ARR 超过 500 万美元的“vibe coding”初创公司公开其收入计算细节，特别是订阅和推理收入的划分及补贴情况。这反映了他对当前 AI 编程工具商业数据真实性的强烈质疑，尤其是针对那些夸大推理收入或通过补贴冲高 ARR 的行为。作为投资人，他试图通过这种激进的公开挑战，逼迫市场正视生成式 AI 应用在商业化路径上的泡沫风险。",
+    "analysis": "这位风投合伙人悬赏两千五百美元，要求任何声称ARR超五百万美元的Vibe Coding初创公司公开其营收计算细节，特别是订阅收入与推理成本的区分及补贴情况。这直接戳穿了AI应用层繁荣背后的财务泡沫，反映出当前VC对高估值初创公司真实造血能力的极度不信任，尤其是那些靠烧钱换营收的AI编程工具。从这条激进的质疑看，更像是投资圈对AI商业化路径的一次集体清算，试图搞清楚到底有多少营收是建立在不可持续的算力补贴之上。",
     "url": "https://x.com/nikunj/status/2037930304460231081",
-    "verified": true
-  },
-  {
-    "name": "Peter Steinberger",
-    "handle": "steipete",
-    "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw",
-    "avatar": "PS",
-    "summary": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change)",
-    "summaryEn": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change)",
-    "analysis": "Steinberger 吐槽了运营成功开源项目时面对的日常苛责，并解释因 Chrome 浏览器更新，他们下架了旧插件，转而引导用户使用原生设置。这反映了开源维护者与平台巨头的博弈，当 Chrome 原生功能覆盖第三方插件生态时，开发者被迫调整产品路线。不仅要忍受用户的情绪宣泄，还得处理平台政策变动带来的技术债务，这种被动适应在 AI 工具层尤为明显。",
-    "url": "https://x.com/steipete/status/2037988925818519763",
-    "verified": true
-  },
-  {
-    "name": "Peter Steinberger",
-    "handle": "steipete",
-    "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw",
-    "avatar": "PS",
-    "summary": "Another sick upcoming feature:\n/acp spawn codex --bind here\nLOOK AT ME, I AM CODEX NOW\nYou could bind codex/claude code/opencode already in threads, now you can take over your current session as well.",
-    "summaryEn": "Another sick upcoming feature:\n/acp spawn codex --bind here\nLOOK AT ME, I AM CODEX NOW\nYou could bind codex/claude code/opencode already in threads, now you can take over your current session as well.",
-    "analysis": "Steinberger 预告了 OpenClaw 的新功能，允许用户通过命令直接在当前会话中绑定并变身为 Codex 等模型。这展示了 AI 终端工具正在从单纯的模型调用向深度集成与上下文无缝切换演进。作者退休后投身 AI 领域，这种“变身为模型”的交互设计，说明开发者正试图打破不同 AI 能力间的壁垒，追求一种更沉浸、更流畅的编程控制体验。",
-    "url": "https://x.com/steipete/status/2037725493315707290",
     "verified": true
   },
   {
@@ -94,63 +237,8 @@
     "avatar": "ZZ",
     "summary": "Human context window is the new wall\nTurns out the bottleneck is the human’s context window, not the AI’s",
     "summaryEn": "Human context window is the new wall\nTurns out the bottleneck is the human’s context window, not the AI’s",
-    "analysis": "Zara Zhang 指出当前 AI 发展的瓶颈已从模型的上下文窗口大小转移到了人类的认知处理能力上。这反映了随着 AI 输出信息密度和速度的指数级提升，用户在接收端的信息过载问题日益凸显，产品交互模式亟待从单纯的信息扩容转向帮助人类过滤和整合信息的方向。作为一名 Builder，她敏锐地捕捉到了技术指标提升后，人机协作中人的生理局限性成为了新的阻碍。",
+    "analysis": "Zara指出AI发展的新瓶颈不再是模型的上下文窗口大小，而是人类处理信息能力的生理极限。这揭示了AI应用层的一个核心矛盾，即随着模型能力无限扩张，产品设计的难点已从如何让AI读懂更多信息，转变为如何让人类能够有效消化和驾驭AI的输出。作为一名Builder，她敏锐地捕捉到未来的竞争焦点将转向交互优化和信息筛选，单纯堆砌参数已无法解决用户认知过载的根本问题。",
     "url": "https://x.com/zarazhangrui/status/2037983921946923034",
-    "verified": true
-  },
-  {
-    "name": "Garry Tan",
-    "handle": "garrytan",
-    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-    "avatar": "GT",
-    "summary": "Embrace boiling the ocean\nMy single biggest pain point right now: AI-induced attention deficit\nI have 5 Claude Code sessions running\n10 Terminal tabs open\n50 browser tabs open\n100 X articles in my bookmarks\nWhen there are multiple AIs working for you, you're constantly task switc...",
-    "summaryEn": "Embrace boiling the ocean\nMy single biggest pain point right now: AI-induced attention deficit\nI have 5 Claude Code sessions running\n10 Terminal tabs open\n50 browser tabs open\n100 X articles in my bookmarks\nWhen there are multiple AIs working for you, you're constantly task switc...",
-    "analysis": "Garry Tan 描述了自己因同时运行多个 AI 会话和打开大量标签页而陷入严重的注意力缺失与任务切换困境。这揭示了 AI 工具虽然大幅提升了单点任务的执行效率，但也因并行能力的增强导致工作流碎片化，迫使开发者需要重新审视如何在多线程高强度作业下保持认知连贯性。身为 YC 掌舵人，他这种“煮干大海”式的操作方式，侧面印证了顶级投资人与 Builder 们正在承受 AI 带来的生产力反噬。",
-    "url": "https://x.com/garrytan/status/2037982376148734119",
-    "verified": true
-  },
-  {
-    "name": "Garry Tan",
-    "handle": "garrytan",
-    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-    "avatar": "GT",
-    "summary": "GStack still growing every day.",
-    "summaryEn": "GStack still growing every day.",
-    "analysis": "Garry Tan 宣布他创建的 GStack 依然保持着每日增长的势头。结合他近期抱怨 AI 导致注意力缺失却又高频使用 Claude Code 的动态，这反映出他作为顶级投资人正试图通过亲自下场构建工具，来验证 AI 在整合信息流与提升工作流效率方面的真实潜力。这种持续的增长数据，侧面印证了即便在信息过载的当下，针对特定场景高效整合 AI 服务的工具依然具备极强的用户粘性。",
-    "url": "https://x.com/garrytan/status/2037979742608253202",
-    "verified": true
-  },
-  {
-    "name": "阿绎 AYi",
-    "handle": "AYi_AInotes",
-    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AIGC 玩家丨提示词小子 心理学硕士丨大厂在职 和 4 只猫一起生活和工作",
-    "avatar": "阿A",
-    "summary": "→ 对手刚刚压价，正在抢走你的客户\n→ 你两次错过升职机会，且毫无解释\n→ 一场对方比你更有筹码的谈判\n→ 一个你试图进入但已被现有巨头主导的市场\n→ 一项正在变得对立的合作关系\n→ 一场即将演变成真正问题的联合创始人冲突\n→ 一轮投资者不断拒绝却无明确反馈的融资",
-    "summaryEn": "→ 对手刚刚压价，正在抢走你的客户\n→ 你两次错过升职机会，且毫无解释\n→ 一场对方比你更有筹码的谈判\n→ 一个你试图进入但已被现有巨头主导的市场\n→ 一项正在变得对立的合作关系\n→ 一场即将演变成真正问题的联合创始人冲突\n→ 一轮投资者不断拒绝却无明确反馈的融资",
-    "analysis": "这条推文列举了商业竞争中常见的七种极度不利且充满压力的困境。联系作者近期对孙子兵法“不战而屈人之兵”的解读，这并非单纯的负面清单罗列，而是在强调当直接对抗胜算极低时，更需要利用地形、信息和时机寻找破局点。这种将心理学视角与商业博弈结合的思考方式，揭示了在存量竞争激烈的当下，创业者如何通过认知重构来应对资源不对等的残酷现实。",
-    "url": "https://x.com/AYi_AInotes/status/2037975275196280904",
-    "verified": true
-  },
-  {
-    "name": "阿绎 AYi",
-    "handle": "AYi_AInotes",
-    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AIGC 玩家丨提示词小子 心理学硕士丨大厂在职 和 4 只猫一起生活和工作",
-    "avatar": "阿A",
-    "summary": "孙子最被误解的一句话：\n“不战而屈人之兵，善之善者也。”\n大家都把这当成哲学思想。\n其实，这是作战指令。\n最佳的竞争手段，几乎从来不是直接进攻。而是那步能让直接进攻变得多余的棋——因为你在战争开始前，就已经赢得了地形、信息和时机。\n这个提示词，就是为你找到那一步棋而设计的。",
-    "summaryEn": "孙子最被误解的一句话：\n“不战而屈人之兵，善之善者也。”\n大家都把这当成哲学思想。\n其实，这是作战指令。\n最佳的竞争手段，几乎从来不是直接进攻。而是那步能让直接进攻变得多余的棋——因为你在战争开始前，就已经赢得了地形、信息和时机。\n这个提示词，就是为你找到那一步棋而设计的。",
-    "analysis": "这条推文借孙子兵法“不战而屈人之兵”的概念，推销一个旨在帮助用户通过掌控地形、信息和时机来避免直接对抗的提示词工具。结合作者近期列举的压价、升职受阻等具体职场与商业困境，这实际上是在将复杂的博弈论思维封装成可执行的 AI 指令，试图解决用户在缺乏筹码时的焦虑。从产品化角度看，它反映了当前 AI 提示词市场正从泛泛的聊天转向针对具体痛点的战术性解决方案。",
-    "url": "https://x.com/AYi_AInotes/status/2037975278681837733",
-    "verified": true
-  },
-  {
-    "name": "Amjad Masad",
-    "handle": "amasad",
-    "role": "ceo @replit . civilizationist",
-    "avatar": "AM",
-    "summary": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\nThis is what I meant when I started talking about “the 1000x engineer” four years ago.\nMy dear f...",
-    "summaryEn": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\nThis is what I meant when I started talking about “the 1000x engineer” four years ago.\nMy dear f...",
-    "analysis": "Replit CEO 重申了他四年前提出的“1000 倍工程师”概念，指出 AI 让大众都能开发应用，从而将顶尖工程师解放出来去构建更底层的平台和拓展可能性边界。这不仅是技术愿景的延续，更揭示了编程工具平台在 AI 时代的战略转型，即通过降低门槛扩大用户基数，同时依靠核心开发者维持技术护城河。从这条本身看，更像是 Replit 在面对 AI 编码竞争时，试图通过重新定义工程师的价值层级来巩固其生态地位。",
-    "url": "https://x.com/amasad/status/2037951485418344835",
     "verified": true
   },
   {
@@ -160,7 +248,7 @@
     "avatar": "EM",
     "summary": "The fraudsters always come up with the most sympathetic excuses and do so very loudly, because that is what swindlers do\n> Elon tries to reduce national debt\n> Accused of murdering babies\n> “You’re a nazi!”\n> Tesla showrooms lit on fire\n> “Deport him!”\n> Congress passes massive s...",
     "summaryEn": "The fraudsters always come up with the most sympathetic excuses and do so very loudly, because that is what swindlers do\n> Elon tries to reduce national debt\n> Accused of murdering babies\n> “You’re a nazi!”\n> Tesla showrooms lit on fire\n> “Deport him!”\n> Congress passes massive s...",
-    "analysis": "马斯克指责反对削减预算的人是骗子，并列举了针对他的极端指控和特斯拉展厅被烧等事件作为反击依据。结合他近期频繁介入政治议题的动态，这不仅是情绪宣泄，更是一种将个人品牌与政治斗争深度绑定的策略，试图通过描绘受害者形象来巩固核心支持者。这种做法反映出他正试图通过激化对立，为其在政府效率改革中面临的阻力寻找合法性外衣。",
+    "analysis": "Elon Musk 在推文中指责批评者总是用极具煽动性的借口进行欺诈，并列举了自己被骂纳粹、展厅被烧等遭遇作为例证。结合他近期频繁发声的背景，这种激烈的反击显示出他正试图将针对自己的政治攻击定性为恶意的骗局，而非正常的政策分歧。这反映了他面对舆论压力时，选择通过强化对立情绪来巩固核心支持者，而非寻求和解。",
     "url": "https://x.com/elonmusk/status/2037940344596439303",
     "verified": true
   },
@@ -171,30 +259,8 @@
     "avatar": "EM",
     "summary": "Europe will love Tesla self-driving!\nDue to the extreme regulatory burden of the EU, which in general stifles innovation in Europe, Tesla owners there have been stuck with basic lane-following.\nGerman TV reporter testing @Tesla FSD (Supervised) V14 in the country as public transp...",
     "summaryEn": "Europe will love Tesla self-driving!\nDue to the extreme regulatory burden of the EU, which in general stifles innovation in Europe, Tesla owners there have been stuck with basic lane-following.\nGerman TV reporter testing @Tesla FSD (Supervised) V14 in the country as public transp...",
-    "analysis": "马斯克宣布特斯拉FSD V14正在德国接受测试，并直言欧盟的监管负担长期阻碍了当地自动驾驶技术的创新落地。这显示出特斯拉在海外市场采取了技术展示倒逼监管的策略，利用德国媒体的实测来证明产品成熟度，试图打破欧洲市场的僵局。从他近期对欧盟监管的频繁抨击来看，这更像是在为特斯拉自动驾驶在欧洲的商业化扫清障碍，将技术问题转化为监管博弈。",
+    "analysis": "这条推文借德国记者实测特斯拉 FSD V14 的契机，抨击欧盟严苛的监管导致当地车主长期只能使用基础车道保持功能。从产品落地的角度看，这意味着特斯拉试图通过媒体实测来展示技术优越性，从而向监管机构施压。这种一边推广产品一边攻击当地政策的策略，揭示了自动驾驶技术在全球化扩张中与合规体系产生的剧烈摩擦。",
     "url": "https://x.com/elonmusk/status/2037936582519623919",
-    "verified": true
-  },
-  {
-    "name": "Frank Wang 玉伯",
-    "handle": "lifesinger",
-    "role": "I am curious and honest",
-    "avatar": "FW",
-    "summary": "为什么 Manus 看起来像上一代产品\n为什么 OpenClaw 这么火\n为什么 Agentic AI 是未来\n都在下面几张图里",
-    "summaryEn": "为什么 Manus 看起来像上一代产品\n为什么 OpenClaw 这么火\n为什么 Agentic AI 是未来\n都在下面几张图里",
-    "analysis": "这条推文通过对比 Manus 和 OpenClaw，试图用图表来解释为何 Agentic AI 代表了下一代产品形态。结合他近期关于空间拓扑和时间变化的思考，这并非简单的工具评测，而是对交互范式的深层审视，暗示了从静态界面操作向自主智能体执行的跨越。这种对比反映了技术圈内对 AI Agent 落地形态的激烈探讨，以及从传统自动化向真正智能代理转型的迫切需求。",
-    "url": "https://x.com/lifesinger/status/2037933438188102022",
-    "verified": true
-  },
-  {
-    "name": "Frank Wang 玉伯",
-    "handle": "lifesinger",
-    "role": "I am curious and honest",
-    "avatar": "FW",
-    "summary": "空间 = 拓扑 + 方向 + 度量\n时间 = 变化 + 方向 + 度量\n互联网改变了空间的度量和方向\nAI 则正在改变时间的度量和方向\n更有意思的是\nAgentic AI\n非常有机会改变\n空间的拓扑和时间的变化\n如果成真\n这会是社会巨变的大时代",
-    "summaryEn": "空间 = 拓扑 + 方向 + 度量\n时间 = 变化 + 方向 + 度量\n互联网改变了空间的度量和方向\nAI 则正在改变时间的度量和方向\n更有意思的是\nAgentic AI\n非常有机会改变\n空间的拓扑和时间的变化\n如果成真\n这会是社会巨变的大时代",
-    "analysis": "作者用数学公式重新定义了空间与时间，认为互联网和 AI 分别改变了它们的度量与方向，而 Agentic AI 更将重塑空间的拓扑结构。这把技术演进提升到了本体论高度，指出智能体不只是提升效率，而是根本性地重构了信息空间的连接方式和时间流逝的演化路径。从这条本身看，更像是他对当前技术爆发背后底层逻辑的抽象思考，试图用极简框架来定义这场可能引发社会巨变的 AI 浪潮。",
-    "url": "https://x.com/lifesinger/status/2037929285890064723",
     "verified": true
   },
   {
@@ -204,7 +270,7 @@
     "avatar": "KW",
     "summary": "杰伦的太阳之子我看了个开头就关了，日照版的我可真是从头看到尾。",
     "summaryEn": "杰伦的太阳之子我看了个开头就关了，日照版的我可真是从头看到尾。",
-    "analysis": "这条推文对比了用户对杰伦版太阳之子与日照版截然不同的观看体验，指出前者看个开头就关掉，后者却全程看完。这种反差揭示了本土化内容在特定语境下的穿透力远超明星效应，哪怕是地域性极强的改编，只要切中受众情绪，粘性反而更高。从作者关注科技与人文的视角看，这或许是对当下内容消费中“接地气”胜过“高大上”的一种直观反馈。",
+    "analysis": "作者直言对杰伦版《太阳之子》兴致缺缺，反倒是一口气看完了日照版全片。这种截然不同的观看体验与其归因于个人口味，不如说是内容在特定语境下的真实感或叙事张力起了决定性作用，说明哪怕是同一题材，落地后的本土化处理往往比原版光环更能有效留住用户，毕竟用户最终买单的还是内容本身的质感。",
     "url": "https://x.com/kenw_2/status/2037931532636008633",
     "verified": true
   },
@@ -215,52 +281,8 @@
     "avatar": "KW",
     "summary": "补充：Grok说这530万中国用户已经包括了翻墙和直连在内。",
     "summaryEn": "补充：Grok说这530万中国用户已经包括了翻墙和直连在内。",
-    "analysis": "这条推文引用Grok的数据澄清530万中国用户的统计口径，明确指出该数字已包含了翻墙和直连两种访问方式。这反映出在受限网络环境下，AI产品的市场渗透率评估不能依赖单一渠道，必须通过合并不同访问路径的数据来还原真实影响力。结合作者近期对数据的关注，这种对统计细节的抠取，说明技术手段如何定义“用户”正变得比单纯数字更关键。",
+    "analysis": "作者特意澄清了Grok关于530万中国用户的统计口径，强调该数据已将翻墙和直连用户全部囊括其中。这一细节修正不仅揭示了AI模型在分析区域市场时面临的数据边界模糊问题，更反映出海外大模型产品在中国市场即便面临分发壁垒，依然凭借技术吸引力维持着不可忽视的实际用户基数。",
     "url": "https://x.com/kenw_2/status/2037916426535579957",
-    "verified": true
-  },
-  {
-    "name": "Orange AI",
-    "handle": "oran_ge",
-    "role": "CEO of MarsWave. Build for Agents, by Agents.",
-    "avatar": "OG",
-    "summary": "不知不觉竟然已经装了109个skills\n删掉了三分之二\nAgent速度都变快了…",
-    "summaryEn": "不知不觉竟然已经装了109个skills\n删掉了三分之二\nAgent速度都变快了…",
-    "analysis": "作者记录了自己将Agent中的技能包从109个删减至三分之一，意外发现系统运行速度因此显著变快。这直接暴露了当前Agent应用中普遍存在的“插件臃肿”问题，说明过多的工具调用非但没有增强能力，反而因为上下文过载拖累了推理效率。作为该领域的创业者，这种通过做减法来换取性能提升的实操，比盲目堆砌功能更能体现对产品工程边界的清醒认知。",
-    "url": "https://x.com/oran_ge/status/2037903812296671267",
-    "verified": true
-  },
-  {
-    "name": "Orange AI",
-    "handle": "oran_ge",
-    "role": "CEO of MarsWave. Build for Agents, by Agents.",
-    "avatar": "OG",
-    "summary": "爱马仕这个名字很神奇，以前以为只是个奢侈品牌的音译，最近 harness engineering 火了才发现，爱马仕（Hermès）1837年创立时真的就是做马具（harness）的。给巴黎的王公贵族做马鞍、缰绳、挽具，全手工，精致到拿了世博会大奖。",
-    "summaryEn": "爱马仕这个名字很神奇，以前以为只是个奢侈品牌的音译，最近 harness engineering 火了才发现，爱马仕（Hermès）1837年创立时真的就是做马具（harness）的。给巴黎的王公贵族做马鞍、缰绳、挽具，全手工，精致到拿了世博会大奖。",
-    "analysis": "作者指出爱马仕品牌起源于马具制作，并敏锐捕捉到这与当下流行的harness engineering在词源上的巧合。这实际上是用一种历史视角来审视AI工程化趋势，暗示当前技术焦点正从单纯追求模型参数，转向如何像制作马具一样精密地“驾驭”大模型。结合他构建Agent的背景，这番话折射出行业正在经历从炫技到落地的务实转变，工程化控制能力变得愈发关键。",
-    "url": "https://x.com/oran_ge/status/2037712554051694642",
-    "verified": true
-  },
-  {
-    "name": "郭宇 guoyu.eth",
-    "handle": "turingou",
-    "role": "Retired. 只活一次等于没活。",
-    "avatar": "TO",
-    "summary": "往年来看 F1 都是自己花钱买 paddock，今年要特别感谢 OKX 赠票！礼盒也设计的很有心，丝巾特别好看，打开后立马系上，今年不买任何丑帽子回家，专注在赛场做个安静的花粉症男孩",
-    "summaryEn": "往年来看 F1 都是自己花钱买 paddock，今年要特别感谢 OKX 赠票！礼盒也设计的很有心，丝巾特别好看，打开后立马系上，今年不买任何丑帽子回家，专注在赛场做个安静的花粉症男孩",
-    "analysis": "郭宇在推文中提到往年自费看F1赛车，今年却收到了OKX赠送的门票和精心设计的礼盒，他对丝巾爱不释手并决定不再购买难看的帽子。结合他退休后“只活一次”的人设，这并非简单的商业推广，而是他作为前技术大厂高管转型生活方式后，个人品牌价值在Web3圈层的自然变现。这种无需强求的商业合作，恰恰证明了他在离开字节跳动后依然拥有极强的个人号召力。",
-    "url": "https://x.com/turingou/status/2037730897710223802",
-    "verified": true
-  },
-  {
-    "name": "花叔",
-    "handle": "AlchainHust",
-    "role": "AI Native Coder：「小猫补光灯」「拍照学单词」 经营20万+粉丝的YouTube/B站频道：AI进化论-花生 AI编程知识星球： https://t.zsxq.com/BFTPI 小红书：花叔（只工作不上班版 公众号：花叔 即刻：Alchian花生",
-    "avatar": "AL",
-    "summary": "最近几周稍微多发了些X的内容，数据比我想象的可观。\n不过...还没拿到1分老马发的工资，因为有个血泪教训。\n因为要参与X的创作者分成前提是除了数据外，还需要有身份认证，而我一直在拿护照做身份认证，于是一直没成功...我还以为是我拍摄角度或者现在X不支持中国创作者认证了。",
-    "summaryEn": "最近几周稍微多发了些X的内容，数据比我想象的可观。\n不过...还没拿到1分老马发的工资，因为有个血泪教训。\n因为要参与X的创作者分成前提是除了数据外，还需要有身份认证，而我一直在拿护照做身份认证，于是一直没成功...我还以为是我拍摄角度或者现在X不支持中国创作者认证了。",
-    "analysis": "花叔抱怨自己在X上发帖数据虽好，却因为一直用护照认证失败而无法开通创作者分成，还误以为平台不支持中国创作者。这暴露了X平台变现机制对特定地区用户的技术门槛，也反映出这位AI编程博主在跨平台运营时遇到的合规细节阻碍。对于依赖多渠道分发的创作者来说，这种看似微小的认证卡点，直接切断了流量转化为收益的路径，比内容创作本身更令人头疼。",
-    "url": "https://x.com/AlchainHust/status/2037718553244074225",
     "verified": true
   },
   {
@@ -268,8 +290,8 @@
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "Builder 们今天似乎都沉浸在“vibe coding”带来的多线程体验中，从 Peter Yang 寻找国内工具到 Garry Tan 的多会话并行，AI 编程工具正重塑开发流程。这种对生产力的极致追求，也伴随着对 Agent 落地与商业化的冷静审视，无论是 OpenClaw 的功能迭代还是对 ARR 的质疑，都表明行业正从概念走向实战。当人类注意力成为新瓶颈，工具的进化速度将决定胜负。",
-    "summaryEn": "Builder 们今天似乎都沉浸在“vibe coding”带来的多线程体验中，从 Peter Yang 寻找国内工具到 Garry Tan 的多会话并行，AI 编程工具正重塑开发流程。这种对生产力的极致追求，也伴随着对 Agent 落地与商业化的冷静审视，无论是 OpenClaw 的功能迭代还是对 ARR 的质疑，都表明行业正从概念走向实战。当人类注意力成为新瓶颈，工具的进化速度将决定胜负。",
+    "summary": "Builder 们不再满足于追逐新奇的 AI 工具，而是开始重新审视 Agent 时代的底层逻辑，玉伯将 DAU 重新定义为 Daily Agent User，直指技能即服务的未来。与此同时，无论是 MCP 协议的迭代，还是基于 Replit 的百万营收案例，都显示出大家正将精力集中在基础设施的打磨与商业变现的验证上。这标志着行业正在从工具焦虑中走出，转向更具确定性的工程化与商业化深水区。",
+    "summaryEn": "Builder 们不再满足于追逐新奇的 AI 工具，而是开始重新审视 Agent 时代的底层逻辑，玉伯将 DAU 重新定义为 Daily Agent User，直指技能即服务的未来。与此同时，无论是 MCP 协议的迭代，还是基于 Replit 的百万营收案例，都显示出大家正将精力集中在基础设施的打磨与商业变现的验证上。这标志着行业正在从工具焦虑中走出，转向更具确定性的工程化与商业化深水区。",
     "analysis": "",
     "url": "",
     "verified": false,
