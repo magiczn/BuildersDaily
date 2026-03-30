@@ -1,114 +1,194 @@
 [
   {
-    "handle": "garrytan",
-    "name": "Garry Tan",
-    "role": "President & CEO @ycombinator",
-    "avatar": "GT",
+    "handle": "adityaag",
+    "name": "Aditya Agarwal",
+    "bio": "General Partner @SouthPkCommons , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+    "role": "General Partner @SouthPkCommons , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+    "avatar": "AA",
     "verified": true
   },
   {
-    "handle": "petergyang",
-    "name": "Peter Yang",
-    "role": "Product at Roblox",
-    "avatar": "PY",
-    "verified": false
-  },
-  {
-    "handle": "nikunj",
-    "name": "Nikunj Kothari",
-    "role": "Partner @fpvventures",
-    "avatar": "NK",
-    "verified": false
-  },
-  {
-    "handle": "zarazhangrui",
-    "name": "Zara Zhang",
-    "role": "AI Product Builder",
-    "avatar": "ZZ",
-    "verified": true
-  },
-  {
-    "handle": "elonmusk",
-    "name": "Elon Musk",
-    "role": "Founder, xAI / SpaceX / Tesla",
-    "avatar": "EM",
-    "verified": true
-  },
-  {
-    "handle": "yihui_indie",
-    "name": "Yihui",
-    "role": "AI Coding Creator",
-    "avatar": "YI",
-    "verified": false
-  },
-  {
-    "handle": "hwwaanng",
-    "name": "Hwwaanng",
-    "role": "AI Coding Observer",
-    "avatar": "HW",
-    "verified": false
-  },
-  {
-    "handle": "oran_ge",
-    "name": "Oran Ge",
-    "role": "Orange AI",
-    "avatar": "OG",
-    "verified": false
-  },
-  {
-    "handle": "thenanyu",
-    "name": "Nan Yu",
-    "role": "Product & Growth",
-    "avatar": "NY",
-    "verified": false
-  },
-  {
-    "handle": "turingou",
-    "name": "Turing Ou",
-    "role": "AI Product Builder",
-    "avatar": "TO",
-    "verified": false
+    "handle": "alchainhust",
+    "name": "花叔",
+    "role": "AI Native Coder：「小猫补光灯」「拍照学单词」 经营20万+粉丝的YouTube/B站频道：AI进化论-花生 AI编程知识星球： https://t.zsxq.com/BFTPI 小红书：花叔（只工作不上班版 公众号：花叔 即刻：Alchian花生",
+    "avatar": "AL",
+    "verified": true,
+    "bio": "AI Native Coder：「小猫补光灯」「拍照学单词」 经营20万+粉丝的YouTube/B站频道：AI进化论-花生 AI编程知识星球： https://t.zsxq.com/BFTPI 小红书：花叔（只工作不上班版 公众号：花叔 即刻：Alchian花生"
   },
   {
     "handle": "amasad",
     "name": "Amjad Masad",
-    "role": "CEO @Replit",
+    "role": "ceo @replit . civilizationist",
     "avatar": "AM",
-    "verified": false
+    "verified": true,
+    "bio": "ceo @replit . civilizationist"
   },
   {
-    "handle": "alchainhust",
-    "name": "AlchainHust",
-    "role": "AI Workflow Builder",
-    "avatar": "AL",
-    "verified": false
-  },
-  {
-    "handle": "danshipper",
-    "name": "Dan Shipper",
-    "role": "CEO @Every",
-    "avatar": "DS",
-    "verified": false
-  },
-  {
-    "handle": "openai",
-    "name": "OpenAI",
-    "role": "AI Research Lab",
-    "avatar": "OP",
-    "verified": false
+    "handle": "AYi_AInotes",
+    "name": "阿绎 AYi",
+    "bio": "分享有用的 AI 实践，也分享工具之外的深度认知。 AIGC 丨 Prompt 心理学硕士丨大厂在职 和 4 只猫一起生活和工作",
+    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AIGC 丨 Prompt 心理学硕士丨大厂在职 和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "verified": true
   },
   {
     "handle": "claudeai",
     "name": "Claude",
-    "role": "Anthropic's Claude",
+    "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
     "avatar": "CL",
-    "verified": false
+    "verified": true,
+    "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app."
+  },
+  {
+    "handle": "danshipper",
+    "name": "Dan Shipper",
+    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+    "avatar": "DS",
+    "verified": true,
+    "bio": "ceo @every | the only subscription you need to stay at the edge of AI"
+  },
+  {
+    "handle": "elonmusk",
+    "name": "Elon Musk",
+    "role": "http://Terafab.ai",
+    "avatar": "EM",
+    "verified": true,
+    "bio": "http://Terafab.ai"
+  },
+  {
+    "handle": "garrytan",
+    "name": "Garry Tan",
+    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+    "avatar": "GT",
+    "verified": true,
+    "bio": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop"
+  },
+  {
+    "handle": "hwwaanng",
+    "name": "Hwang",
+    "role": "AI Startup, Design/Vibe/Shape macOS ► https://bridge.surf iOS ► https://handstime.app / https://lofidot.com early @AFFiNEOfficial",
+    "avatar": "HW",
+    "verified": true,
+    "bio": "AI Startup, Design/Vibe/Shape macOS ► https://bridge.surf iOS ► https://handstime.app / https://lofidot.com early @AFFiNEOfficial"
+  },
+  {
+    "handle": "kenw_2",
+    "name": "Ken W",
+    "bio": "An old friend, stay curious, stay human.",
+    "role": "An old friend, stay curious, stay human.",
+    "avatar": "KW",
+    "verified": true
   },
   {
     "handle": "levie",
     "name": "Aaron Levie",
-    "role": "CEO @Box",
+    "role": "ceo @box - your business lives in content. unleash it with AI",
     "avatar": "AL",
-    "verified": false
+    "verified": true,
+    "bio": "ceo @box - your business lives in content. unleash it with AI"
+  },
+  {
+    "handle": "lifesinger",
+    "name": "Frank Wang 玉伯",
+    "bio": "I am curious and honest",
+    "role": "I am curious and honest",
+    "avatar": "FW",
+    "verified": true
+  },
+  {
+    "handle": "lxfater",
+    "name": "铁锤人",
+    "bio": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 商务联系：tiechuiren101",
+    "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 商务联系：tiechuiren101",
+    "avatar": "LX",
+    "verified": true
+  },
+  {
+    "handle": "mattturck",
+    "name": "Matt Turck",
+    "bio": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+    "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+    "avatar": "MT",
+    "verified": true
+  },
+  {
+    "handle": "nikunj",
+    "name": "Nikunj Kothari",
+    "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+    "avatar": "NK",
+    "verified": true,
+    "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +"
+  },
+  {
+    "handle": "nurijanian",
+    "name": "George from prodmgmt.world",
+    "bio": "Can I make everyone a great product manager? I will do my best | Get my product management OS + AI skills for Claude Code/Cursor: http://prodmgmt.world",
+    "role": "Can I make everyone a great product manager? I will do my best | Get my product management OS + AI skills for Claude Code/Cursor: http://prodmgmt.world",
+    "avatar": "GF",
+    "verified": true
+  },
+  {
+    "handle": "openai",
+    "name": "OpenAI",
+    "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+    "avatar": "OP",
+    "verified": true,
+    "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs"
+  },
+  {
+    "handle": "oran_ge",
+    "name": "Orange AI",
+    "role": "CEO of MarsWave. Build for Agents, by Agents.",
+    "avatar": "OG",
+    "verified": true,
+    "bio": "CEO of MarsWave. Build for Agents, by Agents."
+  },
+  {
+    "handle": "petergyang",
+    "name": "Peter Yang",
+    "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
+    "avatar": "PY",
+    "verified": true,
+    "bio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox"
+  },
+  {
+    "handle": "steipete",
+    "name": "Peter Steinberger",
+    "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw",
+    "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw",
+    "avatar": "PS",
+    "verified": true
+  },
+  {
+    "handle": "thenanyu",
+    "name": "Nan Yu",
+    "role": "head of product @linear",
+    "avatar": "NY",
+    "verified": true,
+    "bio": "head of product @linear"
+  },
+  {
+    "handle": "turingou",
+    "name": "郭宇 guoyu.eth",
+    "role": "Retired. 只活一次等于没活。",
+    "avatar": "TO",
+    "verified": true,
+    "bio": "Retired. 只活一次等于没活。"
+  },
+  {
+    "handle": "yihui_indie",
+    "name": "Yihui",
+    "role": "- AI Coding： https://happyaicoding.com - AI Anime： https://mkanime.ai - Bilibilier & Youtuber & Builder",
+    "avatar": "YI",
+    "verified": true,
+    "bio": "- AI Coding： https://happyaicoding.com - AI Anime： https://mkanime.ai - Bilibilier & Youtuber & Builder"
+  },
+  {
+    "handle": "zarazhangrui",
+    "name": "Zara Zhang",
+    "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+    "avatar": "ZZ",
+    "verified": true,
+    "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg"
   }
 ]

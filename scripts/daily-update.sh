@@ -16,7 +16,9 @@ echo "=== $(date) ===" >> "$LOG_FILE"
 echo "更新 x-list-monitor 数据..." >> "$LOG_FILE"
 if [ -d "$X_LIST_MONITOR_DIR" ]; then
     cd "$X_LIST_MONITOR_DIR"
-    npm run daily >> "$LOG_FILE" 2>&1
+    if ! npm run daily >> "$LOG_FILE" 2>&1; then
+        echo "x-list-monitor 更新失败，继续使用已有数据或后备数据源。" >> "$LOG_FILE"
+    fi
 else
     echo "未找到 x-list-monitor 目录: $X_LIST_MONITOR_DIR" >> "$LOG_FILE"
 fi

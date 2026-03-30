@@ -133,6 +133,8 @@
             text-overflow: ellipsis;
             cursor: default;
             transition: all 0.3s ease;
+            user-select: text;
+            -webkit-user-select: text;
         }
 
         .summary.truncated {
@@ -205,6 +207,8 @@
             color: #9a9a9a;
             margin-top: 6px;
             line-height: 1.45;
+            user-select: text;
+            -webkit-user-select: text;
         }
 
         .analysis-shell {
@@ -340,7 +344,7 @@
         }
 
         .card-date {
-            font-size: 13px;
+            font-size: 12px;
             color: #999;
             margin-top: 0;
             margin-bottom: 0;
@@ -731,7 +735,7 @@
             <div class="analysis-dialog" role="dialog" aria-modal="true" aria-labelledby="analysisModalTitle">
                 <div class="analysis-dialog-header">
                     <div class="analysis-dialog-meta">
-                        <div class="analysis-dialog-label">AI 解读</div>
+                        <div class="analysis-dialog-label">由 AI 解读，仅供参考</div>
                         <div class="analysis-dialog-title" id="analysisModalTitle"></div>
                     </div>
                     <button type="button" class="analysis-close" id="analysisModalClose" aria-label="关闭">×</button>
@@ -754,6 +758,10 @@
         let lastTime = 0;
         let animationId = null;
         let activeAnalysisTrigger = null;
+        let dragActivated = false;
+        let startedOnSelectableText = false;
+        const SWIPE_ACTIVATION_DISTANCE = 14;
+        const TEXT_SELECTION_ACTIVATION_DISTANCE = 28;
 
         async function loadData() {
             try {
@@ -835,7 +843,7 @@
                         <div class="cover-stats">
                             <div class="cover-stats-prefix">${dateStr}</div>
                             <div class="cover-stats-text">
-                                <span>追踪到</span>
+                                <span>今日追踪到</span>
                                 <strong>${builderCount}</strong>
                                 <span>位 Builders 的</span>
                                 <strong>${postCount}</strong>
@@ -887,7 +895,7 @@
                                         class="analysis-toggle"
                                         data-analysis="${encodeURIComponent(builder.analysis)}"
                                         data-analysis-title="${encodeURIComponent(builder.name || '')}"
-                                    >AI 解读</button>
+                                    >解读</button>
                                 </div>
                             ` : ''}
                         </div>
@@ -1018,7 +1026,7 @@
             const modalText = document.getElementById('analysisModalText');
 
             activeAnalysisTrigger = trigger;
-            modalTitle.textContent = title ? `${title} 的解读` : 'AI 解读';
+            modalTitle.textContent = title ? `${title} 的解读` : '解读';
             modalText.textContent = text;
             modal.classList.add('open');
             modal.setAttribute('aria-hidden', 'false');
@@ -1042,6 +1050,29 @@
             }
         }
 
+        function hasActiveTextSelection() {
+            const selection = window.getSelection?.();
+            return Boolean(selection && String(selection).trim().length > 0);
+        }
+
+        function isSelectableTextTarget(target) {
+            if (!target || typeof target.closest !== 'function') {
+                return false;
+            }
+
+            return Boolean(target.closest('.summary, .source-role-top, .source-role'));
+        }
+
+        function abortDrag() {
+            if (dragActivated) {
+                resetCardPositions();
+            }
+
+            isDragging = false;
+            dragActivated = false;
+            startedOnSelectableText = false;
+        }
+
         function handleStart(e) {
             if (
                 document.getElementById('analysisModal').classList.contains('open') ||
@@ -1056,21 +1087,45 @@
             lastTime = Date.now();
             velocity = 0;
             isDragging = true;
-            cancelAnimationFrame(animationId);
-
-            // 移除动画类，准备跟随手指
-            document.querySelectorAll('.card, .cover-card').forEach(el => {
-                el.classList.remove('animating');
-            });
+            dragActivated = false;
+            startedOnSelectableText = isSelectableTextTarget(e.target);
         }
 
         function handleMove(e) {
             if (!isDragging) return;
-            if (e.preventDefault) e.preventDefault();
+
+            if (hasActiveTextSelection()) {
+                abortDrag();
+                return;
+            }
 
             const y = e.touches ? e.touches[0].clientY : e.clientY;
             const now = Date.now();
             const dt = now - lastTime;
+            const diff = startY - y;
+            const absDiff = Math.abs(diff);
+            const activationDistance = startedOnSelectableText
+                ? TEXT_SELECTION_ACTIVATION_DISTANCE
+                : SWIPE_ACTIVATION_DISTANCE;
+
+            if (!dragActivated) {
+                if (absDiff < activationDistance) {
+                    currentY = y;
+                    lastY = y;
+                    lastTime = now;
+                    return;
+                }
+
+                dragActivated = true;
+                cancelAnimationFrame(animationId);
+
+                // 只有确认是翻页手势后，才接管页面动画
+                document.querySelectorAll('.card, .cover-card').forEach(el => {
+                    el.classList.remove('animating');
+                });
+            }
+
+            if (e.preventDefault) e.preventDefault();
 
             // 计算速度
             if (dt > 0) {
@@ -1078,8 +1133,6 @@
             }
             lastY = y;
             lastTime = now;
-
-            const diff = startY - y;
             currentY = y;
 
             // 实时移动卡片
@@ -1128,7 +1181,14 @@
 
         function handleEnd(e) {
             if (!isDragging) return;
+            const wasDragActivated = dragActivated;
             isDragging = false;
+            dragActivated = false;
+            startedOnSelectableText = false;
+
+            if (!wasDragActivated) {
+                return;
+            }
 
             const diff = startY - currentY;
             const absDiff = Math.abs(diff);

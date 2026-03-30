@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { syncProfilesFromX } = require('./sync-x-profiles');
 
 const LOCAL_X_MONITOR_DIR = process.env.X_LIST_MONITOR_DIR ||
   '/Users/zhaonan/0-Projects/x-list-monitor';
@@ -1059,7 +1060,7 @@ function buildBuilderEntry(post, metadataCache, commentState) {
   const handle = post.author;
   const cached = metadataCache.get(handle.toLowerCase());
   const name = cached?.name || handle;
-  const role = cached?.role || pickRole(post.text, handle, name);
+  const role = cached?.bio || cached?.role || pickRole(post.text, handle, name);
   const occurrenceIndex = nextCommentIndex(post.text, commentState);
 
   return {
@@ -1088,10 +1089,6 @@ async function fetchFromLocalXList() {
     console.log(`Found local x-list-monitor data, loading from ${postsPath}...`);
 
     const posts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
-    const metadataCache = new Map([
-      ...loadExistingMetadata(),
-      ...loadProfilesMetadata()
-    ]);
     const thresholdMs = Date.now() - 24 * 60 * 60 * 1000;
 
     const filteredPosts = posts
@@ -1100,6 +1097,19 @@ async function fetchFromLocalXList() {
       .filter(post => post.text.length >= 20 && !post.text.startsWith('http'))
       .filter(post => Date.parse(post.timestamp) >= thresholdMs)
       .sort((a, b) => Date.parse(b.timestamp) - Date.parse(a.timestamp));
+
+    const activeHandles = Array.from(new Set(
+      filteredPosts
+        .map((post) => post.author)
+        .filter(Boolean)
+    ));
+
+    await syncProfilesFromX(activeHandles);
+
+    const metadataCache = new Map([
+      ...loadExistingMetadata(),
+      ...loadProfilesMetadata()
+    ]);
 
     const byHandle = new Map();
     for (const post of filteredPosts) {
