@@ -8,6 +8,7 @@ const PROFILES_PATH = path.join(__dirname, '..', 'profiles.json');
 const ENV_PATH = path.join(__dirname, '..', '.env');
 const ZHIPU_CHAT_COMPLETIONS_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
 const MIN_MODEL_ANALYSIS_LENGTH = 88;
+const MAX_CARD_SUMMARY_LENGTH = 600;
 let envLoaded = false;
 
 // 文本截断函数
@@ -1068,8 +1069,8 @@ function buildBuilderEntry(post, metadataCache, commentState) {
     handle,
     role,
     avatar: cached?.avatar || buildAvatar(name, handle),
-    summary: truncateText(post.text, 280),
-    summaryEn: truncateText(post.text, 280),
+    summary: truncateText(post.text, MAX_CARD_SUMMARY_LENGTH),
+    summaryEn: truncateText(post.text, MAX_CARD_SUMMARY_LENGTH),
     analysis: generateAnalysis(name, handle, post.text, role, { occurrenceIndex }),
     url: post.statusUrl || `https://x.com/${handle}`,
     verified: cached?.verified || false
@@ -1208,8 +1209,8 @@ async function fetchFromFollowBuilders() {
                 handle: builder.handle,
                 role: builder.bio || 'AI Builder',
                 avatar: builder.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase(),
-                summary: truncateText(tweet.text, 280),
-                summaryEn: truncateText(tweet.text, 280),
+                summary: truncateText(tweet.text, MAX_CARD_SUMMARY_LENGTH),
+                summaryEn: truncateText(tweet.text, MAX_CARD_SUMMARY_LENGTH),
                 analysis: analysis,
                 url: tweet.url || `https://x.com/${builder.handle}`,
                 verified: builder.verified || false

@@ -70,6 +70,28 @@
             overflow: hidden;
         }
 
+        .card-main.reading-mode {
+            justify-content: center;
+            gap: 28px;
+            overflow: hidden;
+        }
+
+        .story-card {
+            width: min(760px, 100%);
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            padding: 28px;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-radius: 32px;
+            background: rgba(255, 255, 255, 0.72);
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.04);
+        }
+
+        .summary-card .story-card {
+            width: min(820px, 100%);
+        }
+
         .card.active { transform: translateY(0); }
         .card.prev { transform: translateY(-100%); }
 
@@ -106,29 +128,38 @@
         }
 
         .content {
-            flex: 0 1 auto;
+            flex: 1 1 auto;
             width: 100%;
             padding: 0;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            align-items: center;
-            text-align: center;
+            align-items: flex-start;
+            text-align: left;
             gap: 18px;
         }
 
+        .card-main.reading-mode .content {
+            flex: 0 1 auto;
+            max-height: min(56vh, calc(100dvh - 250px));
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding-right: 6px;
+        }
+
         .summary {
-            font-size: 20px;
-            line-height: 1.8;
-            color: #1a1a1a;
+            font-size: 18px;
+            line-height: 1.9;
+            color: #353535;
             font-weight: 400;
-            max-width: 85%;
+            max-width: none;
             width: 100%;
-            margin: 0 auto;
+            margin: 0;
             display: -webkit-box;
-            -webkit-line-clamp: 8;
             -webkit-box-orient: vertical;
+            -webkit-line-clamp: 8;
+            position: relative;
             overflow: hidden;
             text-overflow: ellipsis;
             cursor: default;
@@ -137,51 +168,85 @@
             -webkit-user-select: text;
         }
 
+        .summary.not-truncated {
+            display: block;
+            -webkit-line-clamp: unset;
+            max-height: none;
+        }
+
+        .summary.summary-full {
+            display: block;
+            -webkit-line-clamp: unset;
+            max-height: none;
+            overflow: visible;
+            max-width: none;
+            font-size: 15px;
+            line-height: 2.02;
+            cursor: default;
+            color: #4a4a4a;
+        }
+
         .summary.truncated {
             cursor: pointer;
         }
 
-        .summary.expanded {
-            -webkit-line-clamp: unset;
-        }
-
-        .summary .expand-hint {
-            color: #999;
-            font-size: 14px;
-            margin-left: 4px;
+        .expand-hint {
+            display: block;
+            width: fit-content;
+            margin: 6px auto 0;
+            color: #6f6f6f;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            line-height: 1;
             cursor: pointer;
         }
 
-        .summary.expanded .expand-hint {
-            display: none;
+        .summary.expanded {
+            display: block;
+            -webkit-line-clamp: unset;
+            max-height: none;
+            overflow: visible;
+            max-width: none;
+            padding-bottom: 8px;
         }
 
-        .summary-title {
-            font-size: 15px;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: #888;
-            margin-bottom: 0;
+        .summary-card .content {
+            gap: 20px;
+        }
+
+        .summary-card .card-top .source {
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
         }
 
         .card-top {
             padding: 0;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             flex-shrink: 0;
+            width: 100%;
         }
 
         .card-top .source {
-            padding: 18px 32px;
-            border: 1px solid rgba(0, 0, 0, 0.06);
-            border-radius: var(--control-radius);
-            background: rgba(255, 255, 255, 0.6);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.02);
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+            background: transparent;
+            box-shadow: none;
         }
 
         .card-top .source {
             gap: 14px;
+        }
+
+        .card:not(.summary-card) .card-top .source {
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: row-reverse;
         }
 
         .card-top .source-avatar {
@@ -209,24 +274,70 @@
             line-height: 1.45;
             user-select: text;
             -webkit-user-select: text;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: min(100%, 520px);
+        }
+
+        .source-role-top.truncated {
+            cursor: pointer;
+        }
+
+        .source-role-top.expanded {
+            display: block;
+            -webkit-line-clamp: unset;
+            -webkit-box-orient: initial;
+            overflow: visible;
+            text-overflow: initial;
         }
 
         .analysis-shell {
-            width: 100%;
-            max-width: 78%;
-            margin: 0 auto;
+            width: auto;
+            max-width: none;
+            margin: 0;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             gap: 10px;
         }
 
+        .story-bottom-row {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-top: auto;
+            padding-top: 6px;
+        }
+
+        .story-bottom-row.no-action {
+            justify-content: flex-end;
+        }
+
+        .story-meta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 4px;
+        }
+
+        .story-meta .card-date {
+            font-size: 12px;
+            color: #999;
+            letter-spacing: 0;
+            line-height: 1.2;
+        }
+
         .analysis-toggle {
-            border: 1px solid rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(12, 12, 12, 0.95);
             border-radius: var(--control-radius);
-            background: rgba(255, 255, 255, 0.6);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.02);
-            color: #6f6f6f;
+            background: #111111;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            color: #f5f5f3;
             padding: 10px 18px;
             font-size: 11px;
             font-weight: 500;
@@ -236,111 +347,463 @@
         }
 
         .analysis-toggle:hover {
-            background: rgba(255, 255, 255, 0.82);
-            color: #595959;
-            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.035);
+            background: #232323;
+            color: #ffffff;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
             transform: translateY(-1px);
         }
 
-        body.analysis-modal-open {
+        .analysis-toggle.light {
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            background: rgba(255, 255, 255, 0.72);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
+            color: #6f6f6f;
+        }
+
+        .analysis-toggle.light:hover {
+            background: rgba(255, 255, 255, 0.9);
+            color: #4f4f4f;
+            box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+        }
+
+        body.reader-modal-open {
             overflow: hidden;
         }
 
-        .analysis-modal {
+        body.confirm-modal-open {
+            overflow: hidden;
+        }
+
+        body.export-modal-open {
+            overflow: hidden;
+        }
+
+        body.preview-modal-open {
+            overflow: hidden;
+        }
+
+        .sheet-close {
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            border: 1px solid rgba(0, 0, 0, 0.07);
+            border-radius: 50%;
+            background: rgba(250, 250, 248, 0.96);
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+            color: #6f6f6f;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(8px);
+            transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            margin-bottom: calc(4px + env(safe-area-inset-bottom));
+            will-change: transform, opacity;
+        }
+
+        .reader-modal.open .sheet-close {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .sheet-close:hover {
+            background: rgba(255, 255, 255, 0.98);
+            color: #4d4d4d;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .reader-modal {
             position: fixed;
             inset: 0;
             display: none;
             align-items: center;
             justify-content: center;
-            padding: 24px;
-            background: rgba(17, 17, 17, 0.32);
+            flex-direction: column;
+            gap: 10px;
+            padding: 12px;
+            background: rgba(17, 17, 17, 0.42);
             pointer-events: none;
-            z-index: 1200;
-            visibility: hidden;
+            z-index: 1250;
         }
 
-        .analysis-modal.open {
+        .reader-modal.open {
             display: flex;
             pointer-events: auto;
-            visibility: visible;
         }
 
-        .analysis-dialog {
-            width: min(680px, 100%);
-            max-height: min(78vh, 760px);
-            background: rgba(250, 250, 248, 0.98);
-            border: 1px solid rgba(0, 0, 0, 0.08);
-            border-radius: 28px;
-            box-shadow: 0 28px 60px rgba(0, 0, 0, 0.16);
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            transform: translateY(0) scale(1);
-        }
-
-        .analysis-dialog-header {
-            display: flex;
+        .confirm-modal {
+            position: fixed;
+            inset: 0;
+            display: none;
             align-items: center;
-            justify-content: space-between;
-            gap: 16px;
-            padding: 20px 22px 16px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-        }
-
-        .analysis-dialog-meta {
-            display: flex;
+            justify-content: center;
             flex-direction: column;
-            gap: 6px;
-            min-width: 0;
+            gap: 10px;
+            padding: 12px;
+            background: rgba(17, 17, 17, 0.22);
+            pointer-events: none;
+            z-index: 1300;
         }
 
-        .analysis-dialog-label {
+        .confirm-modal.open {
+            display: flex;
+            pointer-events: auto;
+        }
+
+        .confirm-dialog {
+            width: min(440px, 100%);
+            background: rgba(250, 250, 248, 0.99);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 26px;
+            box-shadow: 0 30px 72px rgba(0, 0, 0, 0.18);
+            padding: 22px;
+            opacity: 0;
+            transform: translateY(12px);
+            transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.18s ease;
+            will-change: transform, opacity;
+            backface-visibility: hidden;
+        }
+
+        .confirm-modal.open .confirm-dialog {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .confirm-label {
             font-size: 11px;
             letter-spacing: 0.14em;
             text-transform: uppercase;
             color: #9a9a9a;
         }
 
-        .analysis-dialog-title {
+        .confirm-title {
+            margin-top: 10px;
             font-size: 18px;
             font-weight: 600;
             color: #171717;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }
 
-        .analysis-close {
-            width: 34px;
-            height: 34px;
-            border: 0;
-            border-radius: 50%;
-            background: rgba(0, 0, 0, 0.05);
-            color: #555;
-            font-size: 18px;
-            line-height: 1;
+        .confirm-text {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.75;
+            color: #5f5f5f;
+        }
+
+        .confirm-actions {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .confirm-action {
+            height: 46px;
+            border-radius: 16px;
+            border: 1px solid transparent;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0.03em;
             cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .confirm-action.cancel {
+            background: #eeeeec;
+            border-color: rgba(0, 0, 0, 0.04);
+            color: #555555;
+        }
+
+        .confirm-action.confirm {
+            background: #111111;
+            border-color: rgba(12, 12, 12, 0.95);
+            color: #f6f6f4;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+        }
+
+        .confirm-action:hover {
+            transform: translateY(-1px);
+        }
+
+        .export-modal {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            gap: 10px;
+            padding: 12px;
+            background: rgba(17, 17, 17, 0.22);
+            pointer-events: none;
+            z-index: 1310;
+        }
+
+        .export-modal.open {
+            display: flex;
+            pointer-events: auto;
+        }
+
+        .export-dialog {
+            width: min(460px, 100%);
+            background: rgba(250, 250, 248, 0.99);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 26px;
+            box-shadow: 0 30px 72px rgba(0, 0, 0, 0.18);
+            padding: 22px;
+            opacity: 0;
+            transform: translateY(12px);
+            transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.18s ease;
+            will-change: transform, opacity;
+            backface-visibility: hidden;
+        }
+
+        .export-modal.open .export-dialog {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .export-label {
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #9a9a9a;
+        }
+
+        .export-title {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #171717;
+        }
+
+        .export-text {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.75;
+            color: #5f5f5f;
+        }
+
+        .export-actions {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            margin-top: 20px;
+        }
+
+        .export-action {
+            height: 46px;
+            border-radius: 16px;
+            border: 1px solid transparent;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+        }
+
+        .export-action.preview {
+            background: #111111;
+            border-color: rgba(12, 12, 12, 0.95);
+            color: #f6f6f4;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+        }
+
+        .export-action:hover {
+            transform: translateY(-1px);
+        }
+
+        .preview-modal {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            gap: 10px;
+            padding: 12px;
+            background: rgba(17, 17, 17, 0.46);
+            pointer-events: none;
+            z-index: 1320;
+        }
+
+        .preview-modal.open {
+            display: flex;
+            pointer-events: auto;
+        }
+
+        .preview-dialog {
+            width: min(760px, 100%);
+            max-height: min(86dvh, 920px);
+            background: rgba(250, 250, 248, 0.99);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 26px;
+            box-shadow: 0 30px 72px rgba(0, 0, 0, 0.18);
+            padding: 18px;
+            opacity: 0;
+            transform: translateY(12px);
+            transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.18s ease;
+            will-change: transform, opacity;
+            backface-visibility: hidden;
+            overflow: auto;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .preview-modal.open .preview-dialog {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .preview-dialog img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 18px;
+            background: #fff;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .reader-dialog {
+            width: min(760px, 100%);
+            max-height: min(91dvh, 1040px);
+            background: rgba(250, 250, 248, 0.99);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 30px;
+            box-shadow: 0 30px 72px rgba(0, 0, 0, 0.18);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(12px);
+            transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.18s ease;
+            will-change: transform, opacity;
+            backface-visibility: hidden;
+        }
+
+        .reader-modal.open .reader-dialog {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reader-dialog-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 18px 22px 14px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .reader-dialog.profile-mode .reader-dialog-header {
+            border-bottom: 0;
+            padding-bottom: 10px;
+        }
+
+        .reader-dialog.profile-mode .reader-dialog-body {
+            padding-top: 0;
+        }
+
+        .reader-dialog-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            min-width: 0;
+        }
+
+        .reader-dialog-label {
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #9a9a9a;
+        }
+
+        .reader-dialog-title {
+            font-size: 19px;
+            font-weight: 600;
+            color: #171717;
+            line-height: 1.3;
+        }
+
+        .reader-dialog-subtitle {
+            font-size: 12px;
+            color: #9a9a9a;
+            line-height: 1.4;
+        }
+
+        .reader-tools {
+            display: flex;
+            align-items: center;
+            gap: 10px;
             flex-shrink: 0;
+        }
+
+        .reader-export {
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.7);
+            color: #5f5f5f;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            padding: 9px 14px;
+            cursor: pointer;
             transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
         }
 
-        .analysis-close:hover {
-            background: rgba(0, 0, 0, 0.09);
+        .reader-export:hover {
+            background: rgba(255, 255, 255, 0.92);
             color: #222;
-            transform: scale(1.04);
+            transform: translateY(-1px);
         }
 
-        .analysis-dialog-body {
-            padding: 22px 22px 26px;
+        .reader-dialog-body {
+            padding: 22px 22px calc(24px + env(safe-area-inset-bottom));
             overflow-y: auto;
         }
 
-        .analysis-dialog-text {
-            font-size: 15px;
-            line-height: 2;
-            color: #434343;
+        .reader-section {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .reader-section + .reader-section {
+            margin-top: 24px;
+            padding-top: 22px;
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .reader-section-label {
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #9a9a9a;
+        }
+
+        .reader-section-note {
+            margin-top: -4px;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #8f8f8f;
+        }
+
+        .reader-dialog-text {
+            font-size: 17px;
+            line-height: 1.96;
+            color: #363636;
             text-align: left;
             white-space: pre-wrap;
+            user-select: text;
+            -webkit-user-select: text;
+        }
+
+        .reader-dialog-text.analysis {
+            font-size: 14px;
+            line-height: 2.02;
+            color: #545454;
         }
 
         .card-date {
@@ -352,27 +815,146 @@
         }
 
         .footer {
-            padding: 12px 40px 28px;
+            width: min(760px, calc(100vw - 80px));
+            margin: 0 auto;
+            padding: 16px 0 28px;
             background: transparent;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             flex-shrink: 0;
-            gap: 4px;
+            gap: 10px;
+        }
+
+        .summary-footer {
+            display: none;
+        }
+
+        .summary-top-row {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 16px;
+        }
+
+        .summary-heading {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 6px;
+        }
+
+        .summary-heading-title {
+            font-size: 17px;
+            font-weight: 600;
+            color: #1a1a1a;
+            letter-spacing: 0.01em;
+        }
+
+        .summary-heading-meta {
+            font-size: 12px;
+            color: #8f8f8f;
+            letter-spacing: 0.08em;
+        }
+
+        .summary-export {
+            min-width: 112px;
+            padding: 10px 18px;
+        }
+
+        .summary-export:hover {
+            transform: translateY(-1px);
         }
 
         @media (max-width: 768px) {
+            .cover-shell {
+                width: min(760px, 100%);
+                padding: 24px 22px 22px;
+                border-radius: 28px;
+                gap: 24px;
+            }
+
+            .cover-top {
+                align-items: center;
+                gap: 18px;
+            }
+
+            .cover-logo {
+                width: 52px;
+                height: 52px;
+            }
+
+            .cover-stats {
+                padding: 20px 20px 22px;
+                gap: 16px;
+            }
+
+            .cover-stats-row {
+                gap: 14px;
+            }
+
+            .cover-stat-value {
+                font-size: 30px;
+            }
+
+            .cover-stat-unit {
+                font-size: 16px;
+            }
+
+            .cover-stats-divider {
+                height: 26px;
+            }
+
+            .story-card {
+                padding: 20px 20px 18px;
+                border-radius: 28px;
+                gap: 18px;
+            }
+
+            .content {
+                gap: 14px;
+            }
+
+            .summary {
+                font-size: 17px;
+                line-height: 1.88;
+                -webkit-line-clamp: 10;
+            }
+
+            .card-top .source {
+                gap: 10px;
+            }
+
+            .source-role-top {
+                margin-top: 4px;
+            }
+
+            .story-bottom-row {
+                padding-top: 2px;
+            }
+
             .footer {
-                padding: 12px 40px calc(76px + env(safe-area-inset-bottom));
+                width: calc(100vw - 80px);
+                padding: 16px 0 calc(76px + env(safe-area-inset-bottom));
             }
 
-            .analysis-modal {
-                padding: 18px;
+            .reader-dialog {
+                max-height: min(82dvh, 860px);
+                border-radius: 28px 28px 24px 24px;
             }
 
-            .analysis-dialog {
-                max-height: min(72dvh, 760px);
+            .reader-dialog-text {
+                font-size: 17px;
+                line-height: 1.9;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .reader-modal,
+            .confirm-modal {
+                padding: 24px;
             }
         }
 
@@ -386,13 +968,14 @@
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background: #1a1a1a;
+            background: rgba(255, 255, 255, 0.96);
+            border: 1.5px solid #1a1a1a;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #fff;
+            color: #1a1a1a;
             font-size: 13px;
-            font-weight: 500;
+            font-weight: 600;
             flex-shrink: 0;
         }
 
@@ -443,8 +1026,9 @@
         .view-original {
             display: inline-flex;
             align-items: center;
-            gap: 4px;
-            font-size: 12px;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
             color: #999;
             text-decoration: none;
             margin-top: 0;
@@ -456,14 +1040,15 @@
             transition: color 0.2s ease, transform 0.2s ease;
         }
 
+        .view-original svg {
+            width: 14px;
+            height: 14px;
+            display: block;
+        }
+
         .view-original:hover {
             color: #777;
             transform: translateY(-1px);
-        }
-
-        .view-original svg {
-            width: 12px;
-            height: 12px;
         }
 
         .footer:empty {
@@ -482,38 +1067,56 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-align: center;
+            gap: 18px;
+            text-align: left;
             will-change: transform;
             transform: translateY(100%);
             padding: 40px 20px;
         }
 
-        .cover-top {
-            flex: 1;
+        .cover-shell {
+            width: min(760px, 100%);
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            gap: 28px;
+            padding: 32px 32px 28px;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-radius: 32px;
+            background: rgba(255, 255, 255, 0.76);
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.04);
+        }
+
+        .cover-top {
+            display: flex;
+            justify-content: space-between;
             align-items: center;
+            gap: 28px;
+        }
+
+        .cover-heading {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+            flex: 1 1 auto;
         }
 
         .cover-bottom {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             gap: 14px;
-            padding-bottom: 20px;
         }
 
         .cover-card.active { transform: translateY(0); }
         .cover-card.prev { transform: translateY(-100%); }
 
         .cover-logo {
-            width: 72px;
-            height: 72px;
+            width: 60px;
+            height: 60px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 18px;
         }
 
         .cover-logo svg {
@@ -527,7 +1130,6 @@
             color: #999;
             letter-spacing: 0.14em;
             line-height: 1;
-            margin-bottom: 20px;
         }
 
         .cover-title {
@@ -535,55 +1137,43 @@
             font-weight: 600;
             color: #1a1a1a;
             letter-spacing: 1px;
-            margin-bottom: 28px;
         }
 
         .cover-desc {
-            font-size: 13px;
+            font-size: 11px;
             color: #999;
-            line-height: 1;
-            max-width: 420px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            max-width: 460px;
         }
 
         .cover-stats {
             position: relative;
-            display: inline-flex;
+            display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
-            gap: 10px;
-            padding: 22px 30px 24px;
+            gap: 18px;
+            width: 100%;
+            padding: 24px 26px 24px;
             border: 1px solid rgba(0, 0, 0, 0.08);
-            border-radius: 28px;
+            border-radius: 30px;
             background:
-                radial-gradient(circle at 18% 18%, rgba(0, 0, 0, 0.035) 0%, rgba(0, 0, 0, 0) 34%),
-                linear-gradient(180deg, #ffffff 0%, #f5f4f1 100%);
+                linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(246,245,241,0.98) 100%);
             box-shadow:
-                0 18px 36px rgba(0, 0, 0, 0.06),
+                0 18px 36px rgba(0, 0, 0, 0.05),
                 inset 0 1px 0 rgba(255, 255, 255, 0.82);
-            margin-bottom: 52px;
-            text-align: center;
+            text-align: left;
             overflow: hidden;
         }
 
         .cover-stats::before {
-            content: '';
-            position: absolute;
-            inset: 10px;
-            border-radius: 22px;
-            border: 1px solid rgba(255, 255, 255, 0.58);
+            content: none;
             pointer-events: none;
         }
 
         .cover-stats::after {
-            content: '';
-            position: absolute;
-            width: 92px;
-            height: 92px;
-            top: -38px;
-            right: -24px;
-            border-radius: 50%;
-            background: radial-gradient(circle, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 72%);
+            content: none;
             pointer-events: none;
         }
 
@@ -595,15 +1185,55 @@
             line-height: 1;
         }
 
+        .cover-stats-kicker {
+            font-size: 11px;
+            color: #8f8f8f;
+            letter-spacing: 0.14em;
+            line-height: 1;
+        }
+
+        .cover-stats-row {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .cover-stat {
+            display: inline-flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        .cover-stat-value {
+            font-size: clamp(34px, 4.4vw, 44px);
+            line-height: 0.95;
+            font-weight: 800;
+            color: #171717;
+            letter-spacing: -0.03em;
+        }
+
+        .cover-stat-unit {
+            font-size: clamp(18px, 2.2vw, 20px);
+            line-height: 1.15;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .cover-stats-divider {
+            display: none;
+        }
+
         .cover-stats-text {
             position: relative;
             z-index: 1;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: baseline;
             gap: 0.2em 0.34em;
-            max-width: 620px;
+            max-width: 100%;
             font-size: clamp(20px, 2.9vw, 23px);
             line-height: 1.25;
             color: #1a1a1a;
@@ -615,8 +1245,8 @@
             align-items: center;
             justify-content: center;
             width: fit-content;
-            align-self: center;
-            margin: 0 auto 8px;
+            align-self: flex-start;
+            margin: 0;
             padding: 0.22em 0.58em;
             border-radius: 999px;
             background: #1a1a1a;
@@ -638,6 +1268,7 @@
             line-height: 1;
             display: flex;
             gap: 32px;
+            flex-wrap: wrap;
         }
 
         .cover-meta span {
@@ -651,9 +1282,10 @@
         }
 
         .cover-update {
-            font-size: 12px;
+            font-size: 11px;
             color: #999;
-            line-height: 1;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
         }
 
         .cover-update-time {
@@ -662,7 +1294,9 @@
         }
 
         .cover-arrow {
-            margin-top: 48px;
+            position: static;
+            margin-top: 2px;
+            align-self: center;
             color: #1a1a1a;
             animation: bounce 1.5s ease-in-out infinite;
         }
@@ -731,19 +1365,57 @@
 
         <div class="swipe-hint" id="swipeHint">上滑显示更多</div>
         <div class="toast" id="toast">今天就这些了</div>
-        <div class="analysis-modal" id="analysisModal" aria-hidden="true">
-            <div class="analysis-dialog" role="dialog" aria-modal="true" aria-labelledby="analysisModalTitle">
-                <div class="analysis-dialog-header">
-                    <div class="analysis-dialog-meta">
-                        <div class="analysis-dialog-label">由 AI 解读，仅供参考</div>
-                        <div class="analysis-dialog-title" id="analysisModalTitle"></div>
+        <div class="reader-modal" id="readerModal" aria-hidden="true">
+            <div class="reader-dialog" role="dialog" aria-modal="true" aria-labelledby="readerModalTitle">
+                <div class="reader-dialog-header">
+                    <div class="reader-dialog-meta">
+                        <div class="reader-dialog-label" id="readerModalLabel">深度阅读</div>
+                        <div class="reader-dialog-title" id="readerModalTitle"></div>
+                        <div class="reader-dialog-subtitle" id="readerModalSubtitle"></div>
                     </div>
-                    <button type="button" class="analysis-close" id="analysisModalClose" aria-label="关闭">×</button>
+                    <div class="reader-tools">
+                        <button type="button" class="reader-export" id="readerModalExport">保存图片</button>
+                    </div>
                 </div>
-                <div class="analysis-dialog-body">
-                    <div class="analysis-dialog-text" id="analysisModalText"></div>
+                <div class="reader-dialog-body">
+                    <section class="reader-section">
+                        <div class="reader-section-label" id="readerModalPrimaryLabel">正文</div>
+                        <div class="reader-dialog-text" id="readerModalText"></div>
+                    </section>
+                    <section class="reader-section" id="readerModalAnalysisSection" hidden>
+                        <div class="reader-section-label" id="readerModalAnalysisLabel">AI 深度阅读</div>
+                        <div class="reader-section-note" id="readerModalAnalysisNote"></div>
+                        <div class="reader-dialog-text analysis" id="readerModalAnalysisText"></div>
+                    </section>
                 </div>
             </div>
+            <button type="button" class="sheet-close" id="readerModalClose" aria-label="关闭">×</button>
+        </div>
+        <div class="confirm-modal" id="confirmModal" aria-hidden="true">
+            <div class="confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="confirmModalTitle">
+                <div class="confirm-label">打开链接</div>
+                <div class="confirm-title" id="confirmModalTitle">跳转到 X.com</div>
+                <div class="confirm-text">即将离开当前页面并打开 X.com 查看原文，你要继续吗？</div>
+                <div class="confirm-actions">
+                    <button type="button" class="confirm-action cancel" id="confirmModalCancel">取消</button>
+                    <button type="button" class="confirm-action confirm" id="confirmModalConfirm">确认</button>
+                </div>
+            </div>
+        </div>
+        <div class="export-modal" id="exportModal" aria-hidden="true">
+            <div class="export-dialog" role="dialog" aria-modal="true" aria-labelledby="exportModalTitle">
+                <div class="export-title" id="exportModalTitle">保存到相册</div>
+                <div class="export-text">受 iPhone 浏览器和系统权限限制，网页不能直接把图片写入相册。点“打开预览”后，请在图片上长按，再选择“存储到照片”即可。</div>
+                <div class="export-actions">
+                    <button type="button" class="export-action preview" id="exportModalPreview">打开预览</button>
+                </div>
+            </div>
+        </div>
+        <div class="preview-modal" id="previewModal" aria-hidden="true">
+            <div class="preview-dialog" role="dialog" aria-modal="true" aria-label="图片预览">
+                <img id="previewModalImage" alt="导出图片预览" />
+            </div>
+            <button type="button" class="sheet-close" id="previewModalClose" aria-label="关闭">×</button>
         </div>
     </div>
 
@@ -757,11 +1429,18 @@
         let lastY = 0;
         let lastTime = 0;
         let animationId = null;
-        let activeAnalysisTrigger = null;
+        let activeReaderTrigger = null;
+        let activeConfirmTrigger = null;
+        let pendingSourceUrl = '';
+        let readerExportPayload = null;
+        let pendingExportAsset = null;
         let dragActivated = false;
         let startedOnSelectableText = false;
+        let readerSwipeState = null;
         const SWIPE_ACTIVATION_DISTANCE = 14;
         const TEXT_SELECTION_ACTIVATION_DISTANCE = 28;
+        const READER_SWIPE_DISMISS_DISTANCE = 96;
+        const READER_SWIPE_VELOCITY = 10;
 
         async function loadData() {
             try {
@@ -823,93 +1502,165 @@
             // 首页
             let html = `
                 <div class="cover-card active" data-index="-1">
-                    <div class="cover-top">
-                        <div class="cover-logo" aria-label="Builders Daily logo">
-                            <svg viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
-                                <circle cx="130" cy="130" r="130" fill="#0C0C0C"/>
-                                <circle cx="230" cy="30" r="10" fill="#D32F2F"/>
-                                <text x="130" y="155"
-                                    text-anchor="middle"
-                                    dominant-baseline="middle"
-                                    fill="white"
-                                    font-size="132"
-                                    font-weight="500"
-                                    font-style="normal"
-                                    letter-spacing="-0.02em"
-                                    font-family="'Baskerville', 'Iowan Old Style', 'Times New Roman', serif">X</text>
-                            </svg>
-                        </div>
-                        <div class="cover-title">Builders Daily</div>
-                        <div class="cover-stats">
-                            <div class="cover-stats-prefix">${dateStr}</div>
-                            <div class="cover-stats-text">
-                                <span>今日追踪到</span>
-                                <strong>${builderCount}</strong>
-                                <span>位 Builders 的</span>
-                                <strong>${postCount}</strong>
-                                <span>条动态</span>
+                    <div class="cover-shell">
+                        <div class="cover-top">
+                            <div class="cover-heading">
+                                <div class="cover-date">${dateStr}</div>
+                                <div class="cover-title">Builders Daily</div>
+                            </div>
+                            <div class="cover-logo" aria-label="Builders Daily logo">
+                                <svg viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+                                    <circle cx="130" cy="130" r="130" fill="#0C0C0C"/>
+                                    <circle cx="230" cy="30" r="10" fill="#D32F2F"/>
+                                    <text x="130" y="155"
+                                        text-anchor="middle"
+                                        dominant-baseline="middle"
+                                        fill="white"
+                                        font-size="132"
+                                        font-weight="500"
+                                        font-style="normal"
+                                        letter-spacing="-0.02em"
+                                        font-family="'Baskerville', 'Iowan Old Style', 'Times New Roman', serif">X</text>
+                                </svg>
                             </div>
                         </div>
-                        <div class="cover-arrow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="9 18 15 12 9 6"></polyline>
-                            </svg>
+                        <div class="cover-stats">
+                            <div class="cover-stats-kicker">今日追踪</div>
+                            <div class="cover-stats-row">
+                                <div class="cover-stat">
+                                    <strong class="cover-stat-value">${builderCount}</strong>
+                                    <span class="cover-stat-unit">位 Builders</span>
+                                </div>
+                                <div class="cover-stats-divider" aria-hidden="true"></div>
+                                <div class="cover-stat">
+                                    <strong class="cover-stat-value">${postCount}</strong>
+                                    <span class="cover-stat-unit">条动态</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover-bottom">
+                            <div class="cover-meta">
+                                <div>出品：<span>红心大狼狗</span></div>
+                                <div>致谢：<span>张咋啦</span></div>
+                            </div>
+                            <div class="cover-divider"></div>
+                            <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见</div>
+                            <div class="cover-update">每日 <span class="cover-update-time">8:05</span> 更新</div>
                         </div>
                     </div>
-                    <div class="cover-bottom">
-                        <div class="cover-meta">
-                            <div>出品：<span>红心大狼狗</span></div>
-                            <div>致谢：<span>张咋啦</span></div>
-                        </div>
-                        <div class="cover-divider"></div>
-                        <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见</div>
-                        <div class="cover-update">每日 <span class="cover-update-time">8:05</span> 更新</div>
+                    <div class="cover-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
                     </div>
                 </div>
             `;
 
             // 内容页
             html += buildersData.map((builder, index) => `
-                <div class="card" data-index="${index}">
+                <div class="card${builder.isSummary ? ' summary-card' : ''}" data-index="${index}">
                     <div class="card-main">
-                        <div class="card-top">
-                            <div class="source">
-                                <div class="source-avatar">${builder.avatar}</div>
-                                <div class="source-info">
-                                    <div class="source-name">
-                                        ${builder.name}
-                                        ${builder.verified ? '<span class="source-verified">V</span>' : ''}
+                        <div class="story-card">
+                            <div class="card-top">
+                                ${builder.isSummary ? `
+                                    <div class="summary-top-row">
+                                        <div class="summary-heading">
+                                            <div class="summary-heading-title">今日总结</div>
+                                            <div class="summary-heading-meta">Builders Daily</div>
+                                        </div>
                                     </div>
-                                    ${builder.isSummary ? '' : `<div class="source-handle">@${builder.handle}</div>`}
-                                    <div class="source-role-top">${builder.role}</div>
-                                </div>
+                                ` : `
+                                    <div class="source">
+                                        <div class="source-avatar">${builder.avatar}</div>
+                                        <div class="source-info">
+                                            <div class="source-name">
+                                                ${builder.name}
+                                                ${builder.verified ? '<span class="source-verified">V</span>' : ''}
+                                            </div>
+                                            <div class="source-handle">@${builder.handle}</div>
+                                            <div
+                                                class="source-role-top"
+                                                data-reader-text="${encodeURIComponent(builder.role || '')}"
+                                                data-reader-profile="true"
+                                                data-reader-label="作者简介"
+                                                data-reader-primary-label="作者简介"
+                                                data-reader-title="${encodeURIComponent(builder.name || '')}"
+                                                data-reader-subtitle="${encodeURIComponent(builder.handle ? `@${builder.handle}` : '')}"
+                                            >${builder.role}</div>
+                                        </div>
+                                    </div>
+                                `}
+                            </div>
+                            <div class="content">
+                                <div
+                                    class="summary${builder.isSummary ? ' summary-full' : ''}"
+                                    data-reader-text="${encodeURIComponent(builder.summaryEn || '')}"
+                                    data-reader-analysis="${encodeURIComponent(builder.analysis || '')}"
+                                    data-reader-label="深度阅读"
+                                    data-reader-primary-label="${builder.isSummary ? '今日小结' : '正文'}"
+                                    data-reader-title="${encodeURIComponent(builder.name || '')}"
+                                    data-reader-subtitle="${encodeURIComponent(builder.isSummary ? '' : (builder.handle ? `@${builder.handle}` : ''))}"
+                                    data-reader-is-summary="${builder.isSummary ? 'true' : 'false'}"
+                                >${builder.summaryEn}</div>
+                                ${!builder.isSummary ? `
+                                    <div class="story-bottom-row${(builder.analysis || builder.summaryEn) ? '' : ' no-action'}">
+                                        ${(builder.analysis || builder.summaryEn) ? `
+                                            <div class="analysis-shell">
+                                                <button
+                                                    type="button"
+                                                    class="analysis-toggle light"
+                                                    data-reader-text="${encodeURIComponent(builder.summaryEn || '')}"
+                                                    data-reader-analysis="${encodeURIComponent(builder.analysis || '')}"
+                                                    data-reader-label="深度阅读"
+                                                    data-reader-primary-label="${builder.isSummary ? '今日小结' : '正文'}"
+                                                    data-reader-title="${encodeURIComponent(builder.name || '')}"
+                                                    data-reader-subtitle="${encodeURIComponent(builder.isSummary ? '' : (builder.handle ? `@${builder.handle}` : ''))}"
+                                                    data-reader-is-summary="${builder.isSummary ? 'true' : 'false'}"
+                                                    data-export-card="${builder.isSummary ? 'true' : 'false'}"
+                                                >深度阅读</button>
+                                            </div>
+                                        ` : '<div></div>'}
+                                        <div class="story-meta">
+                                            <div class="card-date">${dateStr}</div>
+                                            ${builder.url ? `
+                                                <a href="${builder.url}" target="_blank" class="view-original" aria-label="查看原文">
+                                                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                                        <path d="M14 5H19V10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M10 14L19 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                                        <path d="M19 14V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18V6C5 5.44772 5.44772 5 6 5H10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                </a>
+                                            ` : ''}
+                                        </div>
+                                    </div>
+                                ` : ''}
+                                ${builder.isSummary ? `
+                                    <div class="story-bottom-row">
+                                        <div class="analysis-shell">
+                                            <button
+                                                type="button"
+                                                class="analysis-toggle summary-export"
+                                                data-reader-text="${encodeURIComponent(builder.summaryEn || '')}"
+                                                data-reader-analysis="${encodeURIComponent(builder.analysis || '')}"
+                                                data-reader-label="深度阅读"
+                                                data-reader-primary-label="今日小结"
+                                                data-reader-title="${encodeURIComponent(builder.name || '')}"
+                                                data-reader-subtitle=""
+                                                data-reader-is-summary="true"
+                                                data-export-card="true"
+                                                data-export-date="${dateStr}"
+                                            >保存图片</button>
+                                        </div>
+                                        <div class="story-meta">
+                                            <div class="card-date">${dateStr}</div>
+                                        </div>
+                                    </div>
+                                ` : ''}
                             </div>
                         </div>
-                        <div class="content">
-                            ${builder.isSummary ? '<div class="summary-title">今日小结</div>' : ''}
-                            <div class="summary" data-full="${builder.summaryEn.replace(/"/g, '&quot;')}">${builder.summaryEn}</div>
-                            ${builder.analysis ? `
-                                <div class="analysis-shell">
-                                    <button
-                                        type="button"
-                                        class="analysis-toggle"
-                                        data-analysis="${encodeURIComponent(builder.analysis)}"
-                                        data-analysis-title="${encodeURIComponent(builder.name || '')}"
-                                    >解读</button>
-                                </div>
-                            ` : ''}
-                        </div>
                     </div>
-                    <div class="footer">
-                        <div class="card-date">${dateStr}</div>
-                        ${builder.url ? `<a href="${builder.url}" target="_blank" class="view-original">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                <polyline points="15 3 21 3 21 9"></polyline>
-                                <line x1="10" y1="14" x2="21" y2="3"></line>
-                            </svg>
-                            查看原文
-                        </a>` : ''}
+                    <div class="footer${builder.isSummary ? ' summary-footer' : ''}">
+                        ${builder.isSummary ? `` : ``}
                     </div>
                 </div>
             `).join('');
@@ -921,10 +1672,14 @@
                 document.querySelectorAll('.summary').forEach(el => {
                     if (el.scrollHeight > el.clientHeight + 5) {
                         el.classList.add('truncated');
-                        const hint = document.createElement('span');
-                        hint.className = 'expand-hint';
-                        hint.textContent = '展开';
-                        el.appendChild(hint);
+                    } else {
+                        el.classList.add('not-truncated');
+                    }
+                });
+
+                document.querySelectorAll('.source-role-top').forEach(el => {
+                    if (el.scrollHeight > el.clientHeight + 3) {
+                        el.classList.add('truncated');
                     }
                 });
             }, 100);
@@ -932,8 +1687,19 @@
 
         function bindEvents() {
             const container = document.getElementById('container');
-            const modal = document.getElementById('analysisModal');
-            const modalClose = document.getElementById('analysisModalClose');
+            const readerModal = document.getElementById('readerModal');
+            const readerModalClose = document.getElementById('readerModalClose');
+            const readerModalExport = document.getElementById('readerModalExport');
+            const confirmModal = document.getElementById('confirmModal');
+            const confirmModalCancel = document.getElementById('confirmModalCancel');
+            const confirmModalConfirm = document.getElementById('confirmModalConfirm');
+            const exportModal = document.getElementById('exportModal');
+            const exportModalPreview = document.getElementById('exportModalPreview');
+            const previewModal = document.getElementById('previewModal');
+            const previewModalClose = document.getElementById('previewModalClose');
+            const readerDialog = document.querySelector('.reader-dialog');
+            const readerDialogHeader = document.querySelector('.reader-dialog-header');
+            const readerDialogBody = document.querySelector('.reader-dialog-body');
 
             container.addEventListener('touchstart', handleStart, { passive: true });
             container.addEventListener('touchmove', handleMove, { passive: false });
@@ -973,7 +1739,15 @@
                         goTo(currentIndex - 1);
                     }
                 } else if (e.key === 'Escape') {
-                    closeAnalysisModal();
+                    if (previewModal.classList.contains('open')) {
+                        closePreviewModal();
+                    } else if (exportModal.classList.contains('open')) {
+                        closeExportModal();
+                    } else if (confirmModal.classList.contains('open')) {
+                        closeConfirmModal();
+                    } else {
+                        closeReaderModal();
+                    }
                 }
             });
 
@@ -982,34 +1756,80 @@
 
                 if (target.closest('.analysis-toggle')) {
                     const trigger = target.closest('.analysis-toggle');
-                    const analysisText = decodeAnalysisValue(trigger.dataset.analysis || '');
-                    const analysisTitle = decodeAnalysisValue(trigger.dataset.analysisTitle || '');
-                    openAnalysisModal(analysisText, analysisTitle, trigger);
+                    if (trigger.dataset.exportCard === 'true') {
+                        exportElementAsImage(trigger);
+                    } else {
+                        openReaderModalFromElement(trigger, trigger);
+                    }
                     e.stopPropagation();
                     return;
                 }
 
-                if (target === modal || target.closest('#analysisModalClose')) {
-                    closeAnalysisModal();
+                const sourceLink = target.closest('.view-original');
+                if (sourceLink) {
+                    e.preventDefault();
+                    openConfirmModal(sourceLink.href, sourceLink);
+                    return;
+                }
+
+                if (target === readerModal || target.closest('#readerModalClose')) {
+                    closeReaderModal();
                     e.stopPropagation();
                     return;
                 }
 
-                // 点击展开提示
-                if (target.classList.contains('expand-hint')) {
-                    const parent = target.parentElement;
-                    parent.classList.add('expanded');
+                if (
+                    target === previewModal ||
+                    target.closest('#previewModalClose')
+                ) {
+                    closePreviewModal();
+                    e.stopPropagation();
+                    return;
+                }
+
+                if (
+                    target === exportModal
+                ) {
+                    closeExportModal();
+                    e.stopPropagation();
+                    return;
+                }
+
+                if (
+                    target === confirmModal ||
+                    target.closest('#confirmModalCancel')
+                ) {
+                    closeConfirmModal();
+                    e.stopPropagation();
+                    return;
+                }
+
+                if (target.closest('#confirmModalConfirm')) {
+                    confirmSourceOpen();
                     e.stopPropagation();
                     return;
                 }
 
                 // 点击被截断的文本区域
-                if (target.classList.contains('truncated')) {
-                    target.classList.add('expanded');
+                const truncatedTarget = target.closest('.summary.truncated, .source-role-top.truncated');
+                if (truncatedTarget) {
+                    openReaderModalFromElement(truncatedTarget, target);
+                    e.stopPropagation();
+                    return;
                 }
             });
 
-            modalClose.addEventListener('click', closeAnalysisModal);
+            readerModalClose.addEventListener('click', closeReaderModal);
+            readerModalExport.addEventListener('click', exportReaderModalAsImage);
+            confirmModalCancel.addEventListener('click', closeConfirmModal);
+            confirmModalConfirm.addEventListener('click', confirmSourceOpen);
+            exportModalPreview.addEventListener('click', previewExportedImage);
+            previewModalClose.addEventListener('click', closePreviewModal);
+
+            readerModal.addEventListener('touchstart', handleReaderSwipeStart, { passive: true });
+            readerModal.addEventListener('touchmove', handleReaderSwipeMove, { passive: false });
+            readerModal.addEventListener('touchend', handleReaderSwipeEnd);
+            readerModal.addEventListener('touchcancel', handleReaderSwipeEnd);
         }
 
         function decodeAnalysisValue(value) {
@@ -1020,34 +1840,470 @@
             }
         }
 
-        function openAnalysisModal(text, title, trigger = null) {
-            const modal = document.getElementById('analysisModal');
-            const modalTitle = document.getElementById('analysisModalTitle');
-            const modalText = document.getElementById('analysisModalText');
-
-            activeAnalysisTrigger = trigger;
-            modalTitle.textContent = title ? `${title} 的解读` : '解读';
-            modalText.textContent = text;
-            modal.classList.add('open');
-            modal.setAttribute('aria-hidden', 'false');
-            document.body.classList.add('analysis-modal-open');
-            document.getElementById('analysisModalClose').focus();
+        function getReaderPayloadFromElement(element) {
+            const label = element.dataset.readerLabel || '推文正文';
+            const primaryLabel = element.dataset.readerPrimaryLabel || label || '正文';
+            return {
+                label,
+                primaryLabel,
+                title: decodeAnalysisValue(element.dataset.readerTitle || ''),
+                subtitle: decodeAnalysisValue(element.dataset.readerSubtitle || ''),
+                text: decodeAnalysisValue(element.dataset.readerText || ''),
+                analysis: decodeAnalysisValue(element.dataset.readerAnalysis || ''),
+                isSummary: element.dataset.readerIsSummary === 'true',
+                isProfile: element.dataset.readerProfile === 'true' || label === '作者简介' || primaryLabel === '作者简介'
+            };
         }
 
-        function closeAnalysisModal() {
-            const modal = document.getElementById('analysisModal');
+        function openReaderModalFromElement(element, trigger = null) {
+            if (!element) {
+                return;
+            }
+
+            openReaderModal({
+                ...getReaderPayloadFromElement(element),
+                trigger
+            });
+        }
+
+        function exportElementAsImage(element) {
+            if (!element) {
+                return;
+            }
+
+            const payload = getReaderPayloadFromElement(element);
+            const exportDate =
+                element.dataset.exportDate ||
+                element.closest('.card')?.querySelector('.card-date')?.textContent ||
+                '';
+            readerExportPayload = {
+                label: payload.isSummary ? exportDate : payload.label,
+                title: payload.isSummary ? '今日小结' : (payload.title || 'Builders Daily'),
+                subtitle: payload.isSummary ? '' : payload.subtitle,
+                primaryLabel: payload.isSummary ? '' : payload.primaryLabel,
+                text: payload.text,
+                analysis: payload.analysis,
+                isSummary: payload.isSummary
+            };
+            exportReaderModalAsImage();
+        }
+
+        function openReaderModal({ label, primaryLabel, title, subtitle, text, analysis, isSummary = false, isProfile = false, trigger = null }) {
+            const modal = document.getElementById('readerModal');
+            const dialog = modal.querySelector('.reader-dialog');
+            const modalLabel = document.getElementById('readerModalLabel');
+            const modalTitle = document.getElementById('readerModalTitle');
+            const modalSubtitle = document.getElementById('readerModalSubtitle');
+            const modalPrimaryLabel = document.getElementById('readerModalPrimaryLabel');
+            const modalText = document.getElementById('readerModalText');
+            const modalAnalysisSection = document.getElementById('readerModalAnalysisSection');
+            const modalAnalysisLabel = document.getElementById('readerModalAnalysisLabel');
+            const modalAnalysisNote = document.getElementById('readerModalAnalysisNote');
+            const modalAnalysisText = document.getElementById('readerModalAnalysisText');
+            const readerExport = document.getElementById('readerModalExport');
+
+            activeReaderTrigger = trigger;
+            dialog.classList.toggle('profile-mode', Boolean(isProfile));
+            modalLabel.textContent = label || '推文正文';
+            modalPrimaryLabel.textContent = primaryLabel || label || '正文';
+            modalTitle.textContent = title || 'Builders Daily';
+            modalSubtitle.textContent = subtitle || '';
+            modalSubtitle.hidden = !modalSubtitle.textContent;
+            modalPrimaryLabel.hidden = Boolean(isProfile);
+            modalText.textContent = text || '';
+            modalAnalysisText.textContent = isProfile ? '' : (analysis || '');
+            modalAnalysisSection.hidden = Boolean(isProfile) || !analysis;
+            modalAnalysisLabel.hidden = Boolean(isSummary);
+            modalAnalysisNote.hidden = true;
+            modalAnalysisLabel.textContent = 'AI 深度阅读';
+            readerExport.hidden = Boolean(isProfile);
+            readerExportPayload = {
+                label: modalLabel.textContent,
+                title: modalTitle.textContent,
+                subtitle: modalSubtitle.textContent,
+                primaryLabel: modalPrimaryLabel.textContent,
+                text: modalText.textContent,
+                analysis: modalAnalysisText.textContent,
+                isSummary
+            };
+
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('reader-modal-open');
+        }
+
+        function closeReaderModal() {
+            const modal = document.getElementById('readerModal');
+            if (!modal.classList.contains('open')) {
+                return;
+            }
+
+            resetReaderSwipeVisuals();
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('reader-modal-open');
+            readerExportPayload = null;
+            activeReaderTrigger = null;
+        }
+
+        function resetReaderSwipeVisuals() {
+            const modal = document.getElementById('readerModal');
+            const dialog = modal.querySelector('.reader-dialog');
+            if (!dialog) return;
+            dialog.style.transition = '';
+            dialog.style.transform = '';
+            modal.style.background = '';
+        }
+
+        function handleReaderSwipeStart(e) {
+            const modal = document.getElementById('readerModal');
+            if (!modal.classList.contains('open')) return;
+
+            const target = e.target;
+            const dialog = modal.querySelector('.reader-dialog');
+            const body = modal.querySelector('.reader-dialog-body');
+            if (!dialog || !body) return;
+
+            const touch = e.touches ? e.touches[0] : e;
+            const onBackdrop = target === modal;
+            const inHeader = Boolean(target.closest('.reader-dialog-header'));
+            const inBody = Boolean(target.closest('.reader-dialog-body'));
+
+            if (!onBackdrop && !inHeader && !inBody) {
+                readerSwipeState = null;
+                return;
+            }
+
+            readerSwipeState = {
+                startY: touch.clientY,
+                currentY: touch.clientY,
+                lastY: touch.clientY,
+                lastTime: Date.now(),
+                velocity: 0,
+                activated: false,
+                zone: onBackdrop ? 'backdrop' : (inHeader ? 'header' : 'body'),
+                bodyStartScrollTop: body.scrollTop
+            };
+        }
+
+        function handleReaderSwipeMove(e) {
+            const modal = document.getElementById('readerModal');
+            const dialog = modal.querySelector('.reader-dialog');
+            const body = modal.querySelector('.reader-dialog-body');
+            if (!readerSwipeState || !dialog || !body) return;
+
+            const touch = e.touches ? e.touches[0] : e;
+            const y = touch.clientY;
+            const now = Date.now();
+            const dy = y - readerSwipeState.startY;
+            const absDy = Math.abs(dy);
+
+            let shouldDismissByGesture = false;
+
+            if (readerSwipeState.zone === 'backdrop' || readerSwipeState.zone === 'header') {
+                shouldDismissByGesture = absDy > 4;
+            } else if (readerSwipeState.zone === 'body') {
+                const atTop = body.scrollTop <= 0;
+                const atBottom = body.scrollTop + body.clientHeight >= body.scrollHeight - 1;
+                shouldDismissByGesture = (atTop && dy > 0) || (atBottom && dy < 0);
+            }
+
+            if (!shouldDismissByGesture) {
+                readerSwipeState.currentY = y;
+                readerSwipeState.lastY = y;
+                readerSwipeState.lastTime = now;
+                return;
+            }
+
+            if (!readerSwipeState.activated) {
+                readerSwipeState.activated = true;
+                dialog.style.transition = 'none';
+            }
+
+            if (e.preventDefault) e.preventDefault();
+
+            const dt = now - readerSwipeState.lastTime;
+            if (dt > 0) {
+                readerSwipeState.velocity = ((y - readerSwipeState.lastY) / dt) * 16;
+            }
+            readerSwipeState.currentY = y;
+            readerSwipeState.lastY = y;
+            readerSwipeState.lastTime = now;
+
+            const offset = dy * 0.92;
+            const opacity = Math.max(0.16, 0.42 - Math.min(Math.abs(offset) / 420, 0.2));
+            dialog.style.transform = `translateY(${offset}px)`;
+            modal.style.background = `rgba(17, 17, 17, ${opacity.toFixed(3)})`;
+        }
+
+        function handleReaderSwipeEnd() {
+            const modal = document.getElementById('readerModal');
+            const dialog = modal.querySelector('.reader-dialog');
+            if (!readerSwipeState || !dialog) return;
+
+            const offset = readerSwipeState.currentY - readerSwipeState.startY;
+            const absOffset = Math.abs(offset);
+            const shouldClose = readerSwipeState.activated && (
+                absOffset > READER_SWIPE_DISMISS_DISTANCE ||
+                Math.abs(readerSwipeState.velocity) > READER_SWIPE_VELOCITY
+            );
+
+            dialog.style.transition = 'transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.18s ease';
+
+            if (shouldClose) {
+                readerSwipeState = null;
+                closeReaderModal();
+                return;
+            }
+
+            resetReaderSwipeVisuals();
+            readerSwipeState = null;
+        }
+
+        function wrapCanvasText(ctx, text, maxWidth) {
+            const rawLines = String(text || '').split('\n');
+            const lines = [];
+            rawLines.forEach((rawLine) => {
+                const line = rawLine.trimEnd();
+                if (!line) {
+                    lines.push('');
+                    return;
+                }
+                let current = '';
+                for (const char of line) {
+                    const test = current + char;
+                    if (ctx.measureText(test).width > maxWidth && current) {
+                        lines.push(current);
+                        current = char;
+                    } else {
+                        current = test;
+                    }
+                }
+                if (current) {
+                    lines.push(current);
+                }
+            });
+            return lines;
+        }
+
+        function triggerCanvasDownload(canvas, filename) {
+            const dataUrl = canvas.toDataURL('image/png');
+
+            if (isIOSLike()) {
+                openExportModal({
+                    dataUrl,
+                    filename
+                });
+                return;
+            }
+
+            const link = document.createElement('a');
+            link.href = dataUrl;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+        }
+
+        function openExportModal(asset) {
+            const modal = document.getElementById('exportModal');
+            pendingExportAsset = asset;
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('export-modal-open');
+        }
+
+        function closeExportModal() {
+            const modal = document.getElementById('exportModal');
             if (!modal.classList.contains('open')) {
                 return;
             }
 
             modal.classList.remove('open');
             modal.setAttribute('aria-hidden', 'true');
-            document.body.classList.remove('analysis-modal-open');
+            document.body.classList.remove('export-modal-open');
+            pendingExportAsset = null;
+        }
 
-            if (activeAnalysisTrigger) {
-                activeAnalysisTrigger.focus();
-                activeAnalysisTrigger = null;
+        function previewExportedImage() {
+            if (!pendingExportAsset?.dataUrl) {
+                closeExportModal();
+                return;
             }
+
+            openImagePreview(pendingExportAsset.dataUrl, pendingExportAsset.filename);
+            closeExportModal();
+        }
+
+        function isIOSLike() {
+            const ua = window.navigator.userAgent || '';
+            const platform = window.navigator.platform || '';
+            return /iPad|iPhone|iPod/.test(ua) || (platform === 'MacIntel' && window.navigator.maxTouchPoints > 1);
+        }
+
+        function openImagePreview(dataUrl, filename) {
+            const modal = document.getElementById('previewModal');
+            const image = document.getElementById('previewModalImage');
+            image.src = dataUrl;
+            image.alt = filename ? `${filename} 预览` : '导出图片预览';
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('preview-modal-open');
+        }
+
+        function closePreviewModal() {
+            const modal = document.getElementById('previewModal');
+            if (!modal.classList.contains('open')) {
+                return;
+            }
+
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('preview-modal-open');
+        }
+
+        function exportReaderModalAsImage() {
+            if (!readerExportPayload) {
+                return;
+            }
+
+            const payload = readerExportPayload;
+            const canvas = document.createElement('canvas');
+            const width = 1200;
+            const padding = 88;
+            const contentWidth = width - padding * 2;
+
+            const ctx = canvas.getContext('2d');
+            if (!ctx) return;
+
+            const sections = [];
+
+            if (payload.label) {
+                ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+                const labelMetrics = wrapCanvasText(ctx, payload.label, contentWidth);
+                sections.push({ type: 'label', lines: labelMetrics, lineHeight: 36, gapAfter: 42 });
+            }
+
+            ctx.font = '600 62px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+            const titleLines = wrapCanvasText(ctx, payload.title || 'Builders Daily', contentWidth);
+            sections.push({ type: 'title', lines: titleLines, lineHeight: 78, gapAfter: payload.subtitle ? 20 : 28 });
+
+            if (payload.subtitle) {
+                ctx.font = '400 30px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+                const subtitleLines = wrapCanvasText(ctx, payload.subtitle, contentWidth);
+                sections.push({ type: 'subtitle', lines: subtitleLines, lineHeight: 42, gapAfter: 38 });
+            }
+
+            if (payload.primaryLabel) {
+                ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+                const primaryLabelLines = wrapCanvasText(ctx, payload.primaryLabel, contentWidth);
+                sections.push({ type: 'sectionLabel', lines: primaryLabelLines, lineHeight: 36, gapAfter: 18 });
+            }
+
+            ctx.font = '400 40px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
+            const textLines = wrapCanvasText(ctx, payload.text || '', contentWidth);
+            sections.push({ type: 'body', lines: textLines, lineHeight: 64, gapAfter: payload.analysis ? 46 : 56 });
+
+            if (payload.analysis) {
+                if (!payload.isSummary) {
+                    ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+                    const analysisLabelLines = wrapCanvasText(ctx, 'AI 深度阅读', contentWidth);
+                    sections.push({ type: 'sectionLabel', lines: analysisLabelLines, lineHeight: 36, gapAfter: 20 });
+                }
+
+                ctx.font = '400 34px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
+                const analysisLines = wrapCanvasText(ctx, payload.analysis, contentWidth);
+                sections.push({ type: 'analysis', lines: analysisLines, lineHeight: 54, gapAfter: 0 });
+            }
+
+            const footerHeight = 96;
+            const totalHeight = sections.reduce((sum, section) => sum + section.lines.length * section.lineHeight + section.gapAfter, 0);
+            const height = Math.max(1400, padding * 2 + totalHeight + footerHeight);
+
+            canvas.width = width;
+            canvas.height = height;
+
+            ctx.fillStyle = '#f7f6f2';
+            ctx.fillRect(0, 0, width, height);
+
+            ctx.strokeStyle = 'rgba(0,0,0,0.06)';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(28, 28, width - 56, height - 56);
+
+            let y = padding;
+            sections.forEach((section) => {
+                if (section.type === 'label' || section.type === 'sectionLabel') {
+                    ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+                    ctx.fillStyle = '#8f8f8f';
+                } else if (section.type === 'title') {
+                    ctx.font = '600 62px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+                    ctx.fillStyle = '#171717';
+                } else if (section.type === 'subtitle') {
+                    ctx.font = '400 30px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+                    ctx.fillStyle = '#8f8f8f';
+                } else if (section.type === 'body') {
+                    ctx.font = '400 40px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
+                    ctx.fillStyle = '#202020';
+                } else if (section.type === 'analysis') {
+                    ctx.font = '400 34px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
+                    ctx.fillStyle = '#434343';
+                }
+
+                section.lines.forEach((line) => {
+                    ctx.fillText(line, padding, y);
+                    y += section.lineHeight;
+                });
+                y += section.gapAfter;
+            });
+
+            ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+            ctx.fillStyle = '#8f8f8f';
+            ctx.fillText('Builders Daily', padding, height - 50);
+
+            const xiaohongshuSignature = '小红书：红心大狼狗';
+            ctx.font = '500 24px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
+            ctx.fillStyle = '#8f8f8f';
+            const signatureWidth = ctx.measureText(xiaohongshuSignature).width;
+            ctx.fillText(xiaohongshuSignature, width - padding - signatureWidth, height - 50);
+
+            const safeTitle = (payload.title || 'builders-daily')
+                .replace(/[^\p{L}\p{N}\-_]+/gu, '-')
+                .replace(/-+/g, '-')
+                .replace(/^-|-$/g, '')
+                .slice(0, 48) || 'builders-daily';
+            triggerCanvasDownload(canvas, `${safeTitle}.png`);
+        }
+
+        function openConfirmModal(url, trigger = null) {
+            const modal = document.getElementById('confirmModal');
+            pendingSourceUrl = url || '';
+            activeConfirmTrigger = trigger;
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('confirm-modal-open');
+        }
+
+        function closeConfirmModal() {
+            const modal = document.getElementById('confirmModal');
+            if (!modal.classList.contains('open')) {
+                return;
+            }
+
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('confirm-modal-open');
+            pendingSourceUrl = '';
+            activeConfirmTrigger = null;
+        }
+
+        function confirmSourceOpen() {
+            if (!pendingSourceUrl) {
+                closeConfirmModal();
+                return;
+            }
+
+            window.open(pendingSourceUrl, '_blank', 'noopener,noreferrer');
+            closeConfirmModal();
         }
 
         function hasActiveTextSelection() {
@@ -1075,11 +2331,17 @@
 
         function handleStart(e) {
             if (
-                document.getElementById('analysisModal').classList.contains('open') ||
+                document.getElementById('previewModal').classList.contains('open') ||
+                document.getElementById('exportModal').classList.contains('open') ||
+                document.getElementById('confirmModal').classList.contains('open') ||
+                document.getElementById('readerModal').classList.contains('open') ||
                 e.target.tagName === 'A' ||
                 e.target.tagName === 'BUTTON' ||
                 e.target.closest('.analysis-toggle') ||
-                e.target.closest('.analysis-dialog')
+                e.target.closest('.preview-dialog') ||
+                e.target.closest('.reader-dialog') ||
+                e.target.closest('.export-dialog') ||
+                e.target.closest('.confirm-dialog')
             ) return;
             startY = e.touches ? e.touches[0].clientY : e.clientY;
             currentY = startY;
@@ -1243,6 +2505,10 @@
             if (index < -1 || index >= buildersData.length) return;
 
             currentIndex = index;
+
+            document.querySelectorAll('.card-main.reading-mode').forEach((element) => {
+                element.classList.remove('reading-mode');
+            });
 
             // 清除内联样式
             resetCardPositions();
