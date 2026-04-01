@@ -706,6 +706,18 @@
             padding-top: 0;
         }
 
+        .reader-dialog.profile-mode .reader-tools {
+            display: none;
+        }
+
+        .reader-dialog.profile-mode #readerModalPrimaryLabel,
+        .reader-dialog.profile-mode #readerModalAnalysisSection,
+        .reader-dialog.profile-mode #readerModalAnalysisLabel,
+        .reader-dialog.profile-mode #readerModalAnalysisNote,
+        .reader-dialog.profile-mode #readerModalAnalysisText {
+            display: none !important;
+        }
+
         .reader-dialog-meta {
             display: flex;
             flex-direction: column;
@@ -1910,13 +1922,16 @@
             modalSubtitle.textContent = subtitle || '';
             modalSubtitle.hidden = !modalSubtitle.textContent;
             modalPrimaryLabel.hidden = Boolean(isProfile);
+            modalPrimaryLabel.style.display = isProfile ? 'none' : '';
             modalText.textContent = text || '';
             modalAnalysisText.textContent = isProfile ? '' : (analysis || '');
             modalAnalysisSection.hidden = Boolean(isProfile) || !analysis;
+            modalAnalysisSection.style.display = (isProfile || !analysis) ? 'none' : '';
             modalAnalysisLabel.hidden = Boolean(isSummary);
             modalAnalysisNote.hidden = true;
             modalAnalysisLabel.textContent = 'AI 深度阅读';
             readerExport.hidden = Boolean(isProfile);
+            readerExport.style.display = isProfile ? 'none' : '';
             readerExportPayload = {
                 label: modalLabel.textContent,
                 title: modalTitle.textContent,
