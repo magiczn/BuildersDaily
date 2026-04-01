@@ -382,10 +382,22 @@
             overflow: hidden;
         }
 
+        body.builders-modal-open {
+            overflow: hidden;
+        }
+
         .sheet-close {
             width: 42px;
             height: 42px;
+            min-width: 42px;
+            min-height: 42px;
             padding: 0;
+            flex: 0 0 42px;
+            aspect-ratio: 1 / 1;
+            align-self: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             border: 1px solid rgba(0, 0, 0, 0.07);
             border-radius: 50%;
             background: rgba(250, 250, 248, 0.96);
@@ -426,11 +438,16 @@
             background: rgba(17, 17, 17, 0.42);
             pointer-events: none;
             z-index: 1250;
+            overscroll-behavior: contain;
         }
 
         .reader-modal.open {
             display: flex;
             pointer-events: auto;
+        }
+
+        .builders-modal {
+            z-index: 1270;
         }
 
         .confirm-modal {
@@ -445,6 +462,7 @@
             background: rgba(17, 17, 17, 0.22);
             pointer-events: none;
             z-index: 1300;
+            overscroll-behavior: contain;
         }
 
         .confirm-modal.open {
@@ -539,6 +557,7 @@
             background: rgba(17, 17, 17, 0.22);
             pointer-events: none;
             z-index: 1310;
+            overscroll-behavior: contain;
         }
 
         .export-modal.open {
@@ -626,6 +645,7 @@
             background: rgba(17, 17, 17, 0.46);
             pointer-events: none;
             z-index: 1320;
+            overscroll-behavior: contain;
         }
 
         .preview-modal.open {
@@ -649,6 +669,8 @@
             overflow: auto;
             user-select: none;
             -webkit-user-select: none;
+            overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
         }
 
         .preview-modal.open .preview-dialog {
@@ -682,6 +704,7 @@
             transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.18s ease;
             will-change: transform, opacity;
             backface-visibility: hidden;
+            overscroll-behavior: contain;
         }
 
         .reader-modal.open .reader-dialog {
@@ -698,6 +721,14 @@
             border-bottom: 1px solid rgba(0, 0, 0, 0.06);
         }
 
+        #readerModal .reader-dialog-header {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 14px;
+            border-bottom: 0;
+            padding-bottom: 12px;
+        }
+
         .reader-dialog.profile-mode .reader-dialog-header {
             border-bottom: 0;
             padding-bottom: 10px;
@@ -707,8 +738,16 @@
             padding-top: 0;
         }
 
+        .reader-dialog.profile-mode .reader-dialog-footer {
+            display: none;
+        }
+
         .reader-dialog.profile-mode .reader-tools {
             display: none;
+        }
+
+        .reader-dialog.profile-mode #readerModalHero {
+            display: none !important;
         }
 
         .reader-dialog.profile-mode #readerModalPrimaryLabel,
@@ -724,6 +763,14 @@
             flex-direction: column;
             gap: 6px;
             min-width: 0;
+        }
+
+        #readerModal .reader-dialog-meta {
+            gap: 4px;
+        }
+
+        #readerModal .reader-dialog:not(.profile-mode) .reader-dialog-meta {
+            display: none;
         }
 
         .reader-dialog-label {
@@ -747,13 +794,16 @@
         }
 
         .reader-tools {
-            position: absolute;
-            bottom: calc(18px + env(safe-area-inset-bottom));
-            left: 22px;
             display: flex;
             align-items: center;
+            justify-content: flex-start;
             gap: 10px;
             flex-shrink: 0;
+        }
+
+        .reader-dialog-footer {
+            flex-shrink: 0;
+            padding: 18px 22px calc(18px + env(safe-area-inset-bottom));
         }
 
         .reader-export {
@@ -776,8 +826,367 @@
         }
 
         .reader-dialog-body {
-            padding: 22px 22px calc(72px + env(safe-area-inset-bottom));
+            padding: 22px 22px calc(28px + env(safe-area-inset-bottom));
             overflow-y: auto;
+            overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #readerModal .reader-dialog-body {
+            padding-top: 16px;
+            padding-bottom: 22px;
+        }
+
+        .builders-dialog .reader-dialog-header {
+            padding-bottom: 18px;
+        }
+
+        .builders-dialog .reader-dialog-body {
+            padding: 8px 22px calc(28px + env(safe-area-inset-bottom));
+        }
+
+        .builders-dialog .reader-dialog-subtitle {
+            font-size: 11px;
+            letter-spacing: 0.08em;
+            color: #a3a3a3;
+            text-transform: uppercase;
+        }
+
+        .pink-hero {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            min-height: 98px;
+            padding: 14px 18px 12px;
+            border-radius: 24px;
+            background:
+                radial-gradient(circle at 86% 18%, rgba(187, 246, 255, 0.7) 0, rgba(187, 246, 255, 0.7) 8%, rgba(187,246,255,0) 9%),
+                linear-gradient(135deg, #ffb1c8 0%, #ffc5d7 42%, #fce7ee 66%, #d8fbff 100%);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+        }
+
+        .builders-hero {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            gap: 18px;
+            min-height: 172px;
+            padding: 22px 22px 20px;
+            border-radius: 28px;
+            background:
+                radial-gradient(circle at 78% 22%, rgba(187, 246, 255, 0.92) 0, rgba(187, 246, 255, 0.92) 12%, rgba(187,246,255,0) 13%),
+                linear-gradient(135deg, #ff8fb1 0%, #ff99bc 38%, #ffd5e2 62%, #bff8ff 100%);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.58);
+        }
+
+        .pink-hero::before,
+        .pink-hero::after {
+            content: "";
+            position: absolute;
+            border-radius: 20px;
+            opacity: 0.78;
+            pointer-events: none;
+        }
+
+        .builders-hero::before,
+        .builders-hero::after {
+            content: "";
+            position: absolute;
+            border-radius: 28px;
+            opacity: 0.9;
+            pointer-events: none;
+        }
+
+        .pink-hero::before {
+            width: 96px;
+            height: 96px;
+            right: 18px;
+            top: -12px;
+            border: 9px solid rgba(189, 247, 255, 0.76);
+            transform: rotate(14deg);
+        }
+
+        .pink-hero::after {
+            width: 126px;
+            height: 126px;
+            right: -34px;
+            bottom: -58px;
+            background: rgba(255, 255, 255, 0.16);
+            transform: rotate(-16deg);
+        }
+
+        .builders-hero::before {
+            width: 180px;
+            height: 180px;
+            right: 52px;
+            top: -26px;
+            border: 18px solid rgba(189, 247, 255, 0.82);
+            transform: rotate(18deg);
+        }
+
+        .builders-hero::after {
+            width: 250px;
+            height: 250px;
+            right: -76px;
+            bottom: -102px;
+            background: rgba(255, 255, 255, 0.18);
+            transform: rotate(-18deg);
+        }
+
+        .pink-hero-copy {
+            position: relative;
+            z-index: 1;
+            max-width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .builders-hero-copy {
+            position: relative;
+            z-index: 1;
+            max-width: 330px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .pink-hero-kicker {
+            font-size: 10px;
+            line-height: 1;
+            letter-spacing: 0.08em;
+            color: rgba(33, 33, 33, 0.54);
+        }
+
+        .builders-hero-kicker {
+            font-size: 11px;
+            line-height: 1;
+            letter-spacing: 0.08em;
+            color: rgba(33, 33, 33, 0.56);
+        }
+
+        .pink-hero-title {
+            font-size: 18px;
+            line-height: 1.18;
+            font-weight: 600;
+            color: #181818;
+        }
+
+        .builders-hero-title {
+            font-size: 28px;
+            line-height: 1.14;
+            font-weight: 600;
+            color: #181818;
+        }
+
+        .pink-hero-text {
+            font-size: 11px;
+            line-height: 1.55;
+            color: rgba(37, 37, 37, 0.66);
+            max-width: 220px;
+        }
+
+        .builders-hero-text {
+            font-size: 13px;
+            line-height: 1.75;
+            color: rgba(37, 37, 37, 0.72);
+            max-width: 280px;
+        }
+
+        .pink-hero-art {
+            position: relative;
+            z-index: 1;
+            width: 94px;
+            flex: 0 0 94px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: stretch;
+        }
+
+        .builders-hero-art {
+            position: relative;
+            z-index: 1;
+            width: 218px;
+            flex: 0 0 218px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pink-hero-orb {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background:
+                radial-gradient(circle at 30% 26%, rgba(255,255,255,0.76) 0 11%, transparent 12%),
+                linear-gradient(135deg, rgba(255, 226, 235, 0.92) 0%, rgba(198, 245, 255, 0.88) 100%);
+            box-shadow: inset 0 0 0 1px rgba(34,34,34,0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .builders-hero-orb {
+            width: 172px;
+            height: 172px;
+            border-radius: 50%;
+            background:
+                radial-gradient(circle at 28% 26%, rgba(255,255,255,0.8) 0 12%, transparent 13%),
+                linear-gradient(135deg, rgba(255, 221, 232, 0.94) 0%, rgba(188, 245, 255, 0.9) 100%);
+            box-shadow: inset 0 0 0 1px rgba(34,34,34,0.06);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pink-hero-orb::before,
+        .pink-hero-orb::after {
+            content: "";
+            position: absolute;
+            background: #101010;
+        }
+
+        .builders-hero-orb::before,
+        .builders-hero-orb::after {
+            content: "";
+            position: absolute;
+            background: #101010;
+        }
+
+        .pink-hero-orb::before {
+            width: 58px;
+            height: 12px;
+            border-radius: 16px;
+            left: 22px;
+            top: 32px;
+            transform: rotate(-35deg);
+        }
+
+        .pink-hero-orb::after {
+            width: 9px;
+            height: 42px;
+            border-radius: 12px;
+            left: 46px;
+            top: 16px;
+            transform: rotate(14deg);
+        }
+
+        .builders-hero-orb::before {
+            width: 140px;
+            height: 28px;
+            border-radius: 22px;
+            left: 46px;
+            top: 78px;
+            transform: rotate(-38deg);
+        }
+
+        .builders-hero-orb::after {
+            width: 20px;
+            height: 112px;
+            border-radius: 18px;
+            left: 118px;
+            top: 40px;
+            transform: rotate(16deg);
+        }
+
+        .pink-hero-card {
+            position: absolute;
+            width: 28px;
+            height: 40px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.22);
+            border: 1.5px solid rgba(188, 245, 255, 0.86);
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.04);
+            transform: rotate(15deg);
+            left: 11px;
+            top: 12px;
+        }
+
+        .builders-hero-card {
+            position: absolute;
+            width: 86px;
+            height: 118px;
+            border-radius: 22px;
+            background: rgba(255, 255, 255, 0.28);
+            border: 2px solid rgba(188, 245, 255, 0.9);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.06);
+            transform: rotate(18deg);
+            left: 28px;
+            top: 26px;
+        }
+
+        .reader-hero {
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .summary-hero {
+            width: 100%;
+            margin-bottom: 6px;
+        }
+
+        .summary-top-row {
+            width: 100%;
+        }
+
+        .summary-top-row .pink-hero-copy {
+            max-width: 240px;
+        }
+
+        .summary-top-row .pink-hero-text {
+            max-width: 236px;
+        }
+
+        .summary-top-row .pink-hero-art {
+            width: 80px;
+            flex-basis: 80px;
+        }
+
+        .builders-list {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .builders-item {
+            padding: 16px 16px 15px;
+            border-radius: 22px;
+            background: rgba(242, 242, 239, 0.9);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.56);
+        }
+
+        .builders-item-top {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .builders-item-name {
+            font-size: 15px;
+            line-height: 1.35;
+            font-weight: 600;
+            color: #1b1b1b;
+        }
+
+        .builders-item-handle {
+            font-size: 12px;
+            line-height: 1.4;
+            color: #9c9c9c;
+            letter-spacing: 0.04em;
+        }
+
+        .builders-item-role {
+            margin-top: 8px;
+            font-size: 13px;
+            line-height: 1.75;
+            color: #4f4f4f;
+            white-space: pre-wrap;
         }
 
         .reader-section {
@@ -965,14 +1374,132 @@
                 padding-top: 18px;
             }
 
-            .reader-tools {
-                bottom: calc(16px + env(safe-area-inset-bottom));
-                left: 18px;
+            .reader-dialog-footer {
+                padding-top: 16px;
+                padding-left: 18px;
+                padding-right: 18px;
+                padding-bottom: calc(16px + env(safe-area-inset-bottom));
             }
 
             .reader-dialog-text {
                 font-size: 17px;
                 line-height: 1.9;
+            }
+
+            .builders-dialog .reader-dialog-body {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+
+            .pink-hero {
+                min-height: 86px;
+                padding: 12px 14px 11px;
+                gap: 8px;
+                border-radius: 22px;
+            }
+
+            .builders-hero {
+                min-height: 148px;
+                padding: 18px 18px 16px;
+                gap: 12px;
+            }
+
+            .pink-hero-copy {
+                max-width: 160px;
+                gap: 4px;
+            }
+
+            .builders-hero-copy {
+                max-width: 180px;
+                gap: 10px;
+            }
+
+            .pink-hero-title {
+                font-size: 16px;
+            }
+
+            .builders-hero-title {
+                font-size: 22px;
+            }
+
+            .pink-hero-text {
+                font-size: 10px;
+                line-height: 1.5;
+                max-width: 150px;
+            }
+
+            .builders-hero-text {
+                font-size: 12px;
+                line-height: 1.7;
+                max-width: 165px;
+            }
+
+            .pink-hero-art {
+                width: 72px;
+                flex-basis: 72px;
+            }
+
+            .builders-hero-art {
+                width: 138px;
+                flex-basis: 138px;
+            }
+
+            .pink-hero-orb {
+                width: 54px;
+                height: 54px;
+            }
+
+            .builders-hero-orb {
+                width: 118px;
+                height: 118px;
+            }
+
+            .pink-hero-orb::before {
+                width: 44px;
+                height: 10px;
+                left: 18px;
+                top: 24px;
+            }
+
+            .builders-hero-orb::before {
+                width: 96px;
+                height: 20px;
+                left: 34px;
+                top: 54px;
+            }
+
+            .pink-hero-orb::after {
+                width: 8px;
+                height: 30px;
+                left: 34px;
+                top: 14px;
+            }
+
+            .builders-hero-orb::after {
+                width: 14px;
+                height: 72px;
+                left: 80px;
+                top: 30px;
+            }
+
+            .pink-hero-card {
+                width: 20px;
+                height: 30px;
+                border-radius: 8px;
+                left: 8px;
+                top: 8px;
+            }
+
+            .builders-hero-card {
+                width: 62px;
+                height: 88px;
+                border-radius: 16px;
+                left: 18px;
+                top: 18px;
+            }
+
+            .builders-item {
+                padding: 14px 14px 15px;
             }
         }
 
@@ -1180,6 +1707,14 @@
             margin-top: 4px;
         }
 
+        .cover-actions {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0;
+            margin-top: 4px;
+        }
+
         .cover-stats {
             position: relative;
             display: flex;
@@ -1326,6 +1861,29 @@
             letter-spacing: 0.02em;
         }
 
+        .cover-builders-button {
+            appearance: none;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.82);
+            color: #8f8f8f;
+            font-size: 11px;
+            line-height: 1.4;
+            letter-spacing: 0.04em;
+            padding: 6px 11px;
+            cursor: pointer;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+            transition: color 0.2s ease, transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .cover-builders-button:hover {
+            color: #666;
+            background: rgba(255, 255, 255, 0.94);
+            border-color: rgba(0, 0, 0, 0.12);
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+            transform: translateY(-1px);
+        }
+
         .cover-arrow {
             position: static;
             margin-top: 2px;
@@ -1406,8 +1964,17 @@
                         <div class="reader-dialog-title" id="readerModalTitle"></div>
                         <div class="reader-dialog-subtitle" id="readerModalSubtitle"></div>
                     </div>
-                    <div class="reader-tools">
-                        <button type="button" class="reader-export" id="readerModalExport">保存图片</button>
+                    <div class="pink-hero reader-hero" id="readerModalHero" aria-hidden="true">
+                        <div class="pink-hero-copy">
+                            <div class="pink-hero-kicker" id="readerHeroKicker">深度阅读</div>
+                            <div class="pink-hero-title" id="readerHeroTitle">Builder Name</div>
+                            <div class="pink-hero-text" id="readerHeroText">@handle</div>
+                        </div>
+                        <div class="pink-hero-art">
+                            <div class="pink-hero-orb">
+                                <div class="pink-hero-card"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="reader-dialog-body">
@@ -1421,8 +1988,40 @@
                         <div class="reader-dialog-text analysis" id="readerModalAnalysisText"></div>
                     </section>
                 </div>
+                <div class="reader-dialog-footer">
+                    <div class="reader-tools">
+                        <button type="button" class="reader-export" id="readerModalExport">保存图片</button>
+                    </div>
+                </div>
             </div>
             <button type="button" class="sheet-close" id="readerModalClose" aria-label="关闭">×</button>
+        </div>
+        <div class="reader-modal builders-modal" id="buildersModal" aria-hidden="true">
+            <div class="reader-dialog builders-dialog" role="dialog" aria-modal="true" aria-labelledby="buildersModalTitle">
+                <div class="reader-dialog-header">
+                    <div class="reader-dialog-meta">
+                        <div class="reader-dialog-label">Builders 名单</div>
+                        <div class="reader-dialog-title" id="buildersModalTitle">跟踪中的 Builders</div>
+                        <div class="reader-dialog-subtitle" id="buildersModalSubtitle"></div>
+                    </div>
+                </div>
+                <div class="reader-dialog-body builders-dialog-body">
+                    <div class="builders-hero" aria-hidden="true">
+                        <div class="builders-hero-copy">
+                            <div class="builders-hero-kicker">Builder Directory</div>
+                            <div class="builders-hero-title">探索每日跟踪的 AI Builders</div>
+                            <div class="builders-hero-text">按名字与领域快速浏览这份长期追踪名单，了解他们各自专注的方向、代表项目与在圈内的独特位置。</div>
+                        </div>
+                        <div class="builders-hero-art">
+                            <div class="builders-hero-orb">
+                                <div class="builders-hero-card"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="builders-list" id="buildersList"></div>
+                </div>
+            </div>
+            <button type="button" class="sheet-close" id="buildersModalClose" aria-label="关闭">×</button>
         </div>
         <div class="confirm-modal" id="confirmModal" aria-hidden="true">
             <div class="confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="confirmModalTitle">
@@ -1454,6 +2053,36 @@
 
     <script>
         let buildersData = [];
+        let trackedBuilders = [];
+        const BUILDER_SUMMARY_MAP = {
+            adityaag: '前 Facebook 早期工程师、Dropbox 前 CTO，如今是 South Park Commons 合伙人，长期投资 AI、医疗与下一代产品团队。',
+            alchainhust: '中文 AI 编程创作者与创业者，运营多平台内容频道和知识星球，擅长把 AI 工具做成普通人也能用的产品体验。',
+            amasad: 'Replit CEO，推动在线开发环境和 AI 编程深度融合，是 AI 原生软件工程工作流的重要推动者之一。',
+            AYi_AInotes: '长期分享中文 AI 实践、Prompt 方法和工具认知，把复杂的新技术拆成可执行的方法，兼具内容力与产品感。',
+            claudeai: 'Anthropic 旗下助手品牌，代表安全、可靠和高质量推理体验，也是当前 AI 编程与写作场景的重要基础设施之一。',
+            danshipper: 'Every CEO，也是高频 AI 媒体与产品观察者，擅长把复杂技术趋势转成创业者和创作者能直接使用的洞察。',
+            elonmusk: 'xAI、Tesla、SpaceX 核心人物，持续影响大模型、自动驾驶和机器人方向，是全球最受关注的 AI 产业推动者之一。',
+            garrytan: 'Y Combinator 总裁，连续创业者与天使投资人，活跃于 AI 创业一线，对开发者工具和创业生态有持续影响力。',
+            Gorden_Sun: '长期日更 AI 资讯与工具观察，擅长高频跟踪模型、产品和行业变化，是中文 AI 信息流的重要节点之一。',
+            hwwaanng: '兼具设计与产品能力的 AI 创业者，打造多端效率工具，关注设计系统、Vibe Coding 与 AI 原生交互形态。',
+            kenw_2: '以观察和表达见长的独立创作者，内容常围绕技术、人性和产品思考，属于少数兼具温度与判断力的长期记录者。',
+            levie: 'Box CEO，持续推动企业内容管理与 AI 结合，是企业级 AI 工作流和知识系统方向的重要布道者与实践者。',
+            lifesinger: '玉伯是资深技术人与产品建设者，长期在工程、组织和方法论层面输出深度判断，是中文互联网的重要前辈之一。',
+            lxfater: '铁锤人是 AI 创业实践者和高影响力开发者，维护 3 万 star 开源项目，也在用内容和产品验证个人创业路径。',
+            mattturck: 'FirstMark 合伙人，知名 AI 投资人，也是 MAD Landscape 作者，长期梳理全球 AI 公司版图与行业演进。',
+            nikunj: 'FPV Ventures 合伙人，聚焦早期科技投资，职业经历覆盖 Meter、Opendoor、Atlassian 等，是资深产品与投资复合型人物。',
+            nurijanian: '以产品管理教育和 AI 工作流训练见长，持续帮助更多 PM 提升判断与执行能力，是 AI 时代的产品方法论布道者。',
+            op7418: '歸藏长期关注 AIGC、图像视频生成和设计工具，是中文世界 AI 设计与创意工具观察最活跃的作者之一。',
+            openai: 'OpenAI 官方账号，代表通用人工智能路线的最前沿动态，也是 ChatGPT、GPT 系列与开发者生态的重要信息源。',
+            oran_ge: 'MarsWave CEO，专注 Agent 基础设施与 AI 应用落地，代表了一类从工具走向真实工作流的 Builder 创业者。',
+            petergyang: '高频分享 AI 教程、创作者经济与产品方法论，擅长把实用经验转成易传播的知识资产，影响了大量从业者。',
+            steipete: '资深 iOS 与开发者工具人物，近年重新活跃于 AI Coding 圈，常在工程实践和工具效率层面提出有价值的观察。',
+            thenanyu: 'Linear 产品负责人，长期关注开发工具和团队工作流，是 AI 编程时代产品设计与软件协作方向的重要声音。',
+            turingou: '郭宇是独立开发者与长期思考者，关注效率工具、技术人生和个体创造，内容常带有鲜明的个人判断与审美。',
+            vista8: '向阳乔木是 AI 产品人和独立站实践者，运营 qiaomu.ai，持续关注 AI 工具、产品管理和个人创造效率。',
+            yihui_indie: 'Yihui 同时做 AI Coding、AI 动画和内容创作，把产品实验、视频表达和社区传播结合得非常紧密。',
+            zarazhangrui: 'Zara Zhang 是偏 Builder 气质的创作者，活跃于代码、内容和社区表达之间，兼具技术背景与鲜明个人风格。'
+        };
         let currentIndex = -1; // -1 表示首页
         let startY = 0;
         let currentY = 0;
@@ -1470,43 +2099,83 @@
         let dragActivated = false;
         let startedOnSelectableText = false;
         let readerSwipeState = null;
+        let wheelDeltaAccumulator = 0;
+        let wheelDirection = 0;
+        let wheelResetTimer = null;
+        let pageTransitionLockedUntil = 0;
         const SWIPE_ACTIVATION_DISTANCE = 14;
         const TEXT_SELECTION_ACTIVATION_DISTANCE = 28;
         const READER_SWIPE_DISMISS_DISTANCE = 96;
         const READER_SWIPE_VELOCITY = 10;
+        const WHEEL_SWITCH_THRESHOLD = 72;
+        const PAGE_TRANSITION_LOCK_MS = 420;
 
-        async function loadData() {
+        function fetchJsonWithXHR(path) {
+            return new Promise((resolve, reject) => {
+                const xhr = new XMLHttpRequest();
+                xhr.overrideMimeType('application/json');
+                xhr.open('GET', path, true);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200 || xhr.status === 0) {
+                            try {
+                                resolve(JSON.parse(xhr.responseText));
+                            } catch (error) {
+                                reject(error);
+                            }
+                        } else {
+                            reject(new Error(`Failed to load ${path}`));
+                        }
+                    }
+                };
+                xhr.send(null);
+            });
+        }
+
+        async function fetchJson(path) {
             try {
-                const response = await fetch('data.json');
-                buildersData = await response.json();
-                init();
+                const response = await fetch(path, { cache: 'no-store' });
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${path}`);
+                }
+                return await response.json();
             } catch (error) {
-                console.log('Fetch failed, trying alternative method...');
-                loadDataWithXHR();
+                return fetchJsonWithXHR(path);
             }
         }
 
-        function loadDataWithXHR() {
-            const xhr = new XMLHttpRequest();
-            xhr.overrideMimeType('application/json');
-            xhr.open('GET', 'data.json', true);
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState === 4) {
-                    if (xhr.status === 200 || xhr.status === 0) {
-                        try {
-                            buildersData = JSON.parse(xhr.responseText);
-                            init();
-                        } catch (e) {
-                            console.error('Failed to parse data:', e);
-                            showError();
-                        }
-                    } else {
-                        console.error('Failed to load data.json');
-                        showError();
-                    }
-                }
-            };
-            xhr.send(null);
+        function normalizeTrackedBuilders(rawProfiles) {
+            const list = Array.isArray(rawProfiles) ? rawProfiles : [];
+            return list
+                .filter((item) => item && item.handle && item.name)
+                .map((item) => ({
+                    handle: String(item.handle).trim(),
+                    name: String(item.name || '').trim(),
+                    role: String(item.role || item.bio || '').trim(),
+                    summary: String(
+                        BUILDER_SUMMARY_MAP[String(item.handle).trim()] ||
+                        item.summary ||
+                        item.role ||
+                        item.bio ||
+                        ''
+                    ).trim()
+                }))
+                .sort((a, b) => a.handle.localeCompare(b.handle, 'en', { sensitivity: 'base' }));
+        }
+
+        async function loadData() {
+            try {
+                const [data, profiles] = await Promise.all([
+                    fetchJson('data.json'),
+                    fetchJson('profiles.json').catch(() => [])
+                ]);
+                buildersData = data;
+                trackedBuilders = normalizeTrackedBuilders(profiles);
+                init();
+            } catch (error) {
+                console.error('Failed to load data:', error);
+                showError();
+            }
         }
 
         function showError() {
@@ -1520,8 +2189,44 @@
             document.getElementById('headerDate').textContent = dateStr;
 
             renderCards();
+            renderBuildersList();
             bindEvents();
             updateUI();
+        }
+
+        function escapeHtml(value) {
+            return String(value || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function renderBuildersList() {
+            const buildersList = document.getElementById('buildersList');
+            const buildersModalSubtitle = document.getElementById('buildersModalSubtitle');
+            if (!buildersList || !buildersModalSubtitle) {
+                return;
+            }
+
+            const total = trackedBuilders.length;
+            buildersModalSubtitle.textContent = total ? `共跟踪 ${total} 位 builders` : '';
+
+            if (!total) {
+                buildersList.innerHTML = '<div class="builders-item"><div class="builders-item-role">当前没有可显示的 builders 名单。</div></div>';
+                return;
+            }
+
+            buildersList.innerHTML = trackedBuilders.map((builder) => `
+                <div class="builders-item">
+                    <div class="builders-item-top">
+                        <div class="builders-item-name">${escapeHtml(builder.name)}</div>
+                        <div class="builders-item-handle">@${escapeHtml(builder.handle)}</div>
+                    </div>
+                    <div class="builders-item-role">${escapeHtml(builder.summary || builder.role || '暂无简介')}</div>
+                </div>
+            `).join('');
         }
 
         function renderCards() {
@@ -1577,9 +2282,8 @@
                                 <div>致谢：<span>张咋啦</span></div>
                             </div>
                             <div class="cover-divider"></div>
-                            <div class="cover-notes">
-                                <div class="cover-desc">聚焦 X.com 上面卓越 AI Builders 的动态与洞见</div>
-                                <div class="cover-update">每日 <span class="cover-update-time">8:05</span> 更新</div>
+                            <div class="cover-actions">
+                                <button type="button" class="cover-builders-button" id="coverBuildersButton">Builders 名单</button>
                             </div>
                         </div>
                     </div>
@@ -1599,9 +2303,17 @@
                             <div class="card-top">
                                 ${builder.isSummary ? `
                                     <div class="summary-top-row">
-                                        <div class="summary-heading">
-                                            <div class="summary-heading-title">今日总结</div>
-                                            <div class="summary-heading-meta">Builders Daily</div>
+                                        <div class="pink-hero summary-hero" aria-hidden="true">
+                                            <div class="pink-hero-copy">
+                                                <div class="pink-hero-kicker">Daily Summary</div>
+                                                <div class="pink-hero-title">今日总结</div>
+                                                <div class="pink-hero-text">把这一天的重要动态与判断收束在一起。</div>
+                                            </div>
+                                            <div class="pink-hero-art">
+                                                <div class="pink-hero-orb">
+                                                    <div class="pink-hero-card"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 ` : `
@@ -1725,6 +2437,8 @@
             const readerModal = document.getElementById('readerModal');
             const readerModalClose = document.getElementById('readerModalClose');
             const readerModalExport = document.getElementById('readerModalExport');
+            const buildersModal = document.getElementById('buildersModal');
+            const buildersModalClose = document.getElementById('buildersModalClose');
             const confirmModal = document.getElementById('confirmModal');
             const confirmModalCancel = document.getElementById('confirmModalCancel');
             const confirmModalConfirm = document.getElementById('confirmModalConfirm');
@@ -1735,6 +2449,7 @@
             const readerDialog = document.querySelector('.reader-dialog');
             const readerDialogHeader = document.querySelector('.reader-dialog-header');
             const readerDialogBody = document.querySelector('.reader-dialog-body');
+            const blockingOverlays = [readerModal, buildersModal, confirmModal, exportModal, previewModal];
 
             container.addEventListener('touchstart', handleStart, { passive: true });
             container.addEventListener('touchmove', handleMove, { passive: false });
@@ -1745,19 +2460,12 @@
             container.addEventListener('mouseup', handleEnd);
             container.addEventListener('mouseleave', handleEnd);
 
-            let wheelTimeout;
             container.addEventListener('wheel', (e) => {
+                if (hasBlockingOverlayOpen()) {
+                    return;
+                }
                 e.preventDefault();
-                clearTimeout(wheelTimeout);
-                wheelTimeout = setTimeout(() => {
-                    if (e.deltaY > 0 && currentIndex === buildersData.length - 1) {
-                        showToast();
-                    } else if (e.deltaY < 0 && currentIndex === -1) {
-                        // 首页继续向上滑，不做任何事
-                    } else {
-                        goTo(currentIndex + (e.deltaY > 0 ? 1 : -1));
-                    }
-                }, 50);
+                handleWheelNavigation(e.deltaY);
             }, { passive: false });
 
             document.addEventListener('keydown', (e) => {
@@ -1780,6 +2488,8 @@
                         closeExportModal();
                     } else if (confirmModal.classList.contains('open')) {
                         closeConfirmModal();
+                    } else if (buildersModal.classList.contains('open')) {
+                        closeBuildersModal();
                     } else {
                         closeReaderModal();
                     }
@@ -1788,6 +2498,12 @@
 
             document.addEventListener('click', (e) => {
                 const target = e.target;
+
+                if (target.closest('#coverBuildersButton')) {
+                    openBuildersModal();
+                    e.stopPropagation();
+                    return;
+                }
 
                 if (target.closest('.analysis-toggle')) {
                     const trigger = target.closest('.analysis-toggle');
@@ -1809,6 +2525,12 @@
 
                 if (target === readerModal || target.closest('#readerModalClose')) {
                     closeReaderModal();
+                    e.stopPropagation();
+                    return;
+                }
+
+                if (target === buildersModal || target.closest('#buildersModalClose')) {
+                    closeBuildersModal();
                     e.stopPropagation();
                     return;
                 }
@@ -1856,15 +2578,85 @@
 
             readerModalClose.addEventListener('click', closeReaderModal);
             readerModalExport.addEventListener('click', exportReaderModalAsImage);
+            buildersModalClose.addEventListener('click', closeBuildersModal);
             confirmModalCancel.addEventListener('click', closeConfirmModal);
             confirmModalConfirm.addEventListener('click', confirmSourceOpen);
             exportModalPreview.addEventListener('click', previewExportedImage);
             previewModalClose.addEventListener('click', closePreviewModal);
 
-            readerModal.addEventListener('touchstart', handleReaderSwipeStart, { passive: true });
-            readerModal.addEventListener('touchmove', handleReaderSwipeMove, { passive: false });
-            readerModal.addEventListener('touchend', handleReaderSwipeEnd);
-            readerModal.addEventListener('touchcancel', handleReaderSwipeEnd);
+            blockingOverlays.forEach((overlay) => {
+                if (!overlay) return;
+                overlay.addEventListener('wheel', (e) => {
+                    e.stopPropagation();
+                }, { passive: false });
+            });
+
+        }
+
+        function hasBlockingOverlayOpen() {
+            return Boolean(
+                document.getElementById('readerModal')?.classList.contains('open') ||
+                document.getElementById('buildersModal')?.classList.contains('open') ||
+                document.getElementById('confirmModal')?.classList.contains('open') ||
+                document.getElementById('exportModal')?.classList.contains('open') ||
+                document.getElementById('previewModal')?.classList.contains('open')
+            );
+        }
+
+        function resetWheelAccumulator() {
+            wheelDeltaAccumulator = 0;
+            wheelDirection = 0;
+            if (wheelResetTimer) {
+                clearTimeout(wheelResetTimer);
+                wheelResetTimer = null;
+            }
+        }
+
+        function handleWheelNavigation(deltaY) {
+            const now = Date.now();
+            if (now < pageTransitionLockedUntil) {
+                return;
+            }
+
+            const direction = Math.sign(deltaY);
+            if (!direction) {
+                return;
+            }
+
+            if (wheelDirection && direction !== wheelDirection) {
+                wheelDeltaAccumulator = 0;
+            }
+
+            wheelDirection = direction;
+            wheelDeltaAccumulator += deltaY;
+
+            if (wheelResetTimer) {
+                clearTimeout(wheelResetTimer);
+            }
+            wheelResetTimer = setTimeout(() => {
+                wheelDeltaAccumulator = 0;
+                wheelDirection = 0;
+                wheelResetTimer = null;
+            }, 140);
+
+            if (Math.abs(wheelDeltaAccumulator) < WHEEL_SWITCH_THRESHOLD) {
+                return;
+            }
+
+            const nextIndex = currentIndex + (wheelDeltaAccumulator > 0 ? 1 : -1);
+            resetWheelAccumulator();
+            pageTransitionLockedUntil = now + PAGE_TRANSITION_LOCK_MS;
+
+            if (nextIndex > buildersData.length - 1) {
+                showToast();
+                return;
+            }
+
+            if (nextIndex < -1) {
+                return;
+            }
+
+            goTo(nextIndex);
         }
 
         function decodeAnalysisValue(value) {
@@ -1929,6 +2721,10 @@
             const modalLabel = document.getElementById('readerModalLabel');
             const modalTitle = document.getElementById('readerModalTitle');
             const modalSubtitle = document.getElementById('readerModalSubtitle');
+            const modalHero = document.getElementById('readerModalHero');
+            const heroKicker = document.getElementById('readerHeroKicker');
+            const heroTitle = document.getElementById('readerHeroTitle');
+            const heroText = document.getElementById('readerHeroText');
             const modalPrimaryLabel = document.getElementById('readerModalPrimaryLabel');
             const modalText = document.getElementById('readerModalText');
             const modalAnalysisSection = document.getElementById('readerModalAnalysisSection');
@@ -1944,6 +2740,16 @@
             modalTitle.textContent = title || 'Builders Daily';
             modalSubtitle.textContent = subtitle || '';
             modalSubtitle.hidden = !modalSubtitle.textContent;
+            modalHero.hidden = Boolean(isProfile);
+            if (isSummary) {
+                heroKicker.textContent = 'Daily Summary';
+                heroTitle.textContent = '今日总结';
+                heroText.textContent = '把这一天的重要动态与判断收束在一起。';
+            } else {
+                heroKicker.textContent = '深度阅读';
+                heroTitle.textContent = title || 'Builders Daily';
+                heroText.textContent = subtitle || '';
+            }
             modalPrimaryLabel.hidden = Boolean(isProfile);
             modalPrimaryLabel.style.display = isProfile ? 'none' : '';
             modalText.textContent = text || '';
@@ -1982,6 +2788,25 @@
             document.body.classList.remove('reader-modal-open');
             readerExportPayload = null;
             activeReaderTrigger = null;
+        }
+
+        function openBuildersModal() {
+            const modal = document.getElementById('buildersModal');
+            if (!modal) return;
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('builders-modal-open');
+        }
+
+        function closeBuildersModal() {
+            const modal = document.getElementById('buildersModal');
+            if (!modal || !modal.classList.contains('open')) {
+                return;
+            }
+
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('builders-modal-open');
         }
 
         function resetReaderSwipeVisuals() {
@@ -2372,6 +3197,7 @@
                 document.getElementById('previewModal').classList.contains('open') ||
                 document.getElementById('exportModal').classList.contains('open') ||
                 document.getElementById('confirmModal').classList.contains('open') ||
+                document.getElementById('buildersModal').classList.contains('open') ||
                 document.getElementById('readerModal').classList.contains('open') ||
                 e.target.tagName === 'A' ||
                 e.target.tagName === 'BUTTON' ||
