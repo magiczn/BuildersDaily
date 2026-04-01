@@ -675,6 +675,7 @@
             box-shadow: 0 30px 72px rgba(0, 0, 0, 0.18);
             display: flex;
             flex-direction: column;
+            position: relative;
             overflow: hidden;
             opacity: 0;
             transform: translateY(12px);
@@ -691,9 +692,9 @@
         .reader-dialog-header {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: flex-start;
             gap: 16px;
-            padding: 18px 22px 14px;
+            padding: 20px 22px 14px;
             border-bottom: 1px solid rgba(0, 0, 0, 0.06);
         }
 
@@ -746,6 +747,9 @@
         }
 
         .reader-tools {
+            position: absolute;
+            bottom: calc(18px + env(safe-area-inset-bottom));
+            left: 22px;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -772,7 +776,7 @@
         }
 
         .reader-dialog-body {
-            padding: 22px 22px calc(24px + env(safe-area-inset-bottom));
+            padding: 22px 22px calc(72px + env(safe-area-inset-bottom));
             overflow-y: auto;
         }
 
@@ -955,6 +959,15 @@
             .reader-dialog {
                 max-height: min(82dvh, 860px);
                 border-radius: 28px 28px 24px 24px;
+            }
+
+            .reader-dialog-header {
+                padding-top: 18px;
+            }
+
+            .reader-tools {
+                bottom: calc(16px + env(safe-area-inset-bottom));
+                left: 18px;
             }
 
             .reader-dialog-text {
@@ -1620,7 +1633,7 @@
                                             <div class="analysis-shell">
                                                 <button
                                                     type="button"
-                                                    class="analysis-toggle light"
+                                                    class="analysis-toggle"
                                                     data-reader-text="${encodeURIComponent(builder.summaryEn || '')}"
                                                     data-reader-analysis="${encodeURIComponent(builder.analysis || '')}"
                                                     data-reader-label="深度阅读"
