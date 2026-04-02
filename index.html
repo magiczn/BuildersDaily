@@ -754,7 +754,9 @@
         .reader-dialog.profile-mode #readerModalAnalysisSection,
         .reader-dialog.profile-mode #readerModalAnalysisLabel,
         .reader-dialog.profile-mode #readerModalAnalysisNote,
-        .reader-dialog.profile-mode #readerModalAnalysisText {
+        .reader-dialog.profile-mode #readerModalAnalysisText,
+        .reader-dialog.profile-mode #readerModalCommentsSection,
+        .reader-dialog.profile-mode #readerModalCommentsList {
             display: none !important;
         }
 
@@ -1229,6 +1231,46 @@
             font-size: 14px;
             line-height: 2.02;
             color: #545454;
+        }
+
+        .reader-comments-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .reader-comment {
+            padding: 14px 16px;
+            border-radius: 18px;
+            background: rgba(243, 243, 239, 0.92);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+        }
+
+        .reader-comment-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+            font-size: 11px;
+            line-height: 1.4;
+        }
+
+        .reader-comment-author {
+            font-weight: 600;
+            color: #272727;
+        }
+
+        .reader-comment-likes {
+            color: #8b8b8b;
+            letter-spacing: 0.04em;
+        }
+
+        .reader-comment-text {
+            font-size: 14px;
+            line-height: 1.75;
+            color: #444;
+            white-space: pre-wrap;
         }
 
         .card-date {
@@ -1982,6 +2024,10 @@
                         <div class="reader-section-note" id="readerModalAnalysisNote"></div>
                         <div class="reader-dialog-text analysis" id="readerModalAnalysisText"></div>
                     </section>
+                    <section class="reader-section" id="readerModalCommentsSection" hidden>
+                        <div class="reader-section-label">热门评论</div>
+                        <div class="reader-comments-list" id="readerModalCommentsList"></div>
+                    </section>
                 </div>
                 <div class="reader-dialog-footer">
                     <div class="reader-tools">
@@ -2338,6 +2384,7 @@
                                     class="summary${builder.isSummary ? ' summary-full' : ''}"
                                     data-reader-text="${encodeURIComponent(builder.summaryEn || '')}"
                                     data-reader-analysis="${encodeURIComponent(builder.analysis || '')}"
+                                    data-reader-comments="${encodeURIComponent(JSON.stringify(builder.hotComments || []))}"
                                     data-reader-label="深度阅读"
                                     data-reader-primary-label="${builder.isSummary ? '今日小结' : '正文'}"
                                     data-reader-title="${encodeURIComponent(builder.name || '')}"
@@ -2353,6 +2400,7 @@
                                                     class="analysis-toggle"
                                                     data-reader-text="${encodeURIComponent(builder.summaryEn || '')}"
                                                     data-reader-analysis="${encodeURIComponent(builder.analysis || '')}"
+                                                    data-reader-comments="${encodeURIComponent(JSON.stringify(builder.hotComments || []))}"
                                                     data-reader-label="深度阅读"
                                                     data-reader-primary-label="${builder.isSummary ? '今日小结' : '正文'}"
                                                     data-reader-title="${encodeURIComponent(builder.name || '')}"
@@ -2384,6 +2432,7 @@
                                                 class="analysis-toggle summary-export"
                                                 data-reader-text="${encodeURIComponent(builder.summaryEn || '')}"
                                                 data-reader-analysis="${encodeURIComponent(builder.analysis || '')}"
+                                                data-reader-comments="${encodeURIComponent(JSON.stringify(builder.hotComments || []))}"
                                                 data-reader-label="深度阅读"
                                                 data-reader-primary-label="今日小结"
                                                 data-reader-title="${encodeURIComponent(builder.name || '')}"
@@ -2662,6 +2711,16 @@
             }
         }
 
+        function decodeCommentsValue(value) {
+            try {
+                const decoded = decodeURIComponent(value || '');
+                const parsed = JSON.parse(decoded || '[]');
+                return Array.isArray(parsed) ? parsed : [];
+            } catch (error) {
+                return [];
+            }
+        }
+
         function getReaderPayloadFromElement(element) {
             const label = element.dataset.readerLabel || '推文正文';
             const primaryLabel = element.dataset.readerPrimaryLabel || label || '正文';
@@ -2672,6 +2731,7 @@
                 subtitle: decodeAnalysisValue(element.dataset.readerSubtitle || ''),
                 text: decodeAnalysisValue(element.dataset.readerText || ''),
                 analysis: decodeAnalysisValue(element.dataset.readerAnalysis || ''),
+                comments: decodeCommentsValue(element.dataset.readerComments || ''),
                 isSummary: element.dataset.readerIsSummary === 'true',
                 isProfile: element.dataset.readerProfile === 'true' || label === '作者简介' || primaryLabel === '作者简介'
             };
@@ -2710,7 +2770,7 @@
             exportReaderModalAsImage();
         }
 
-        function openReaderModal({ label, primaryLabel, title, subtitle, text, analysis, isSummary = false, isProfile = false, trigger = null }) {
+        function openReaderModal({ label, primaryLabel, title, subtitle, text, analysis, comments = [], isSummary = false, isProfile = false, trigger = null }) {
             const modal = document.getElementById('readerModal');
             const dialog = modal.querySelector('.reader-dialog');
             const modalLabel = document.getElementById('readerModalLabel');
@@ -2726,6 +2786,8 @@
             const modalAnalysisLabel = document.getElementById('readerModalAnalysisLabel');
             const modalAnalysisNote = document.getElementById('readerModalAnalysisNote');
             const modalAnalysisText = document.getElementById('readerModalAnalysisText');
+            const modalCommentsSection = document.getElementById('readerModalCommentsSection');
+            const modalCommentsList = document.getElementById('readerModalCommentsList');
             const readerExport = document.getElementById('readerModalExport');
 
             activeReaderTrigger = trigger;
@@ -2754,6 +2816,18 @@
             modalAnalysisLabel.hidden = Boolean(isSummary);
             modalAnalysisNote.hidden = true;
             modalAnalysisLabel.textContent = 'AI 深度阅读';
+            const visibleComments = Array.isArray(comments) ? comments.filter((item) => item && item.text) : [];
+            modalCommentsSection.hidden = Boolean(isProfile) || visibleComments.length === 0;
+            modalCommentsSection.style.display = (isProfile || visibleComments.length === 0) ? 'none' : '';
+            modalCommentsList.innerHTML = visibleComments.map((comment) => `
+                <article class="reader-comment">
+                    <div class="reader-comment-meta">
+                        <span class="reader-comment-author">@${escapeHtml(comment.author || 'comment')}</span>
+                        <span class="reader-comment-likes">${Number(comment.likes) || 0} 赞</span>
+                    </div>
+                    <div class="reader-comment-text">${escapeHtml(comment.text || '')}</div>
+                </article>
+            `).join('');
             readerExport.hidden = Boolean(isProfile);
             readerExport.style.display = isProfile ? 'none' : '';
             readerExportPayload = {

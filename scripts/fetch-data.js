@@ -9,6 +9,7 @@ const ENV_PATH = path.join(__dirname, '..', '.env');
 const ZHIPU_CHAT_COMPLETIONS_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
 const MIN_MODEL_ANALYSIS_LENGTH = 88;
 const MAX_CARD_SUMMARY_LENGTH = 600;
+const SHOULD_SKIP_PROFILE_SYNC = process.env.SKIP_PROFILE_SYNC === '1';
 let envLoaded = false;
 
 // 文本截断函数
@@ -1073,7 +1074,18 @@ function buildBuilderEntry(post, metadataCache, commentState) {
     summaryEn: truncateText(post.text, MAX_CARD_SUMMARY_LENGTH),
     analysis: generateAnalysis(name, handle, post.text, role, { occurrenceIndex }),
     url: post.statusUrl || `https://x.com/${handle}`,
-    verified: cached?.verified || false
+    verified: cached?.verified || false,
+    hotComments: Array.isArray(post.hotComments)
+      ? post.hotComments
+          .filter((comment) => comment && comment.text && (comment.likes || 0) >= 5)
+          .slice(0, 3)
+          .map((comment) => ({
+            author: comment.author || '',
+            text: truncateText(comment.text, 220),
+            likes: Number(comment.likes) || 0,
+            url: comment.statusUrl || ''
+          }))
+      : []
   };
 }
 
@@ -1105,7 +1117,9 @@ async function fetchFromLocalXList() {
         .filter(Boolean)
     ));
 
-    await syncProfilesFromX(activeHandles);
+    if (!SHOULD_SKIP_PROFILE_SYNC) {
+      await syncProfilesFromX(activeHandles);
+    }
 
     const metadataCache = new Map([
       ...loadExistingMetadata(),
@@ -1144,7 +1158,8 @@ async function fetchFromLocalXList() {
       analysis: '',
       url: '',
       verified: false,
-      isSummary: true
+      isSummary: true,
+      hotComments: []
     });
 
     console.log(`Built ${builders.length} cards from local x-list-monitor data`);
@@ -1213,7 +1228,8 @@ async function fetchFromFollowBuilders() {
                 summaryEn: truncateText(tweet.text, MAX_CARD_SUMMARY_LENGTH),
                 analysis: analysis,
                 url: tweet.url || `https://x.com/${builder.handle}`,
-                verified: builder.verified || false
+                verified: builder.verified || false,
+                hotComments: []
               });
             }
           }
