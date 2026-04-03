@@ -2513,6 +2513,11 @@
             }, { passive: false });
 
             document.addEventListener('keydown', (e) => {
+                if (hasBlockingOverlayOpen() && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === ' ')) {
+                    e.preventDefault();
+                    return;
+                }
+
                 if (e.key === 'ArrowDown' || e.key === ' ') {
                     e.preventDefault();
                     if (currentIndex === buildersData.length - 1) {
@@ -2992,6 +2997,27 @@
             readerSwipeState = null;
         }
 
+        function splitCanvasToken(ctx, token, maxWidth) {
+            const parts = [];
+            let current = '';
+
+            for (const char of token) {
+                const test = current + char;
+                if (ctx.measureText(test).width > maxWidth && current) {
+                    parts.push(current);
+                    current = char;
+                } else {
+                    current = test;
+                }
+            }
+
+            if (current) {
+                parts.push(current);
+            }
+
+            return parts;
+        }
+
         function wrapCanvasText(ctx, text, maxWidth) {
             const rawLines = String(text || '').split('\n');
             const lines = [];
@@ -3001,18 +3027,53 @@
                     lines.push('');
                     return;
                 }
+
+                const tokens = line.match(/[A-Za-z0-9@#_./:'’%-]+|\s+|./g) || [];
                 let current = '';
-                for (const char of line) {
-                    const test = current + char;
-                    if (ctx.measureText(test).width > maxWidth && current) {
-                        lines.push(current);
-                        current = char;
-                    } else {
+
+                for (const token of tokens) {
+                    if (/^\s+$/.test(token)) {
+                        if (!current) {
+                            continue;
+                        }
+
+                        const test = current + token;
+                        if (ctx.measureText(test).width <= maxWidth) {
+                            current = test;
+                        } else {
+                            lines.push(current.trimEnd());
+                            current = '';
+                        }
+                        continue;
+                    }
+
+                    const test = current + token;
+                    if (ctx.measureText(test).width <= maxWidth) {
                         current = test;
+                        continue;
+                    }
+
+                    if (current) {
+                        lines.push(current.trimEnd());
+                        current = '';
+                    }
+
+                    if (ctx.measureText(token).width <= maxWidth) {
+                        current = token;
+                        continue;
+                    }
+
+                    const parts = splitCanvasToken(ctx, token, maxWidth);
+                    if (parts.length > 1) {
+                        lines.push(...parts.slice(0, -1));
+                        current = parts[parts.length - 1] || '';
+                    } else {
+                        current = token;
                     }
                 }
+
                 if (current) {
-                    lines.push(current);
+                    lines.push(current.trimEnd());
                 }
             });
             return lines;
@@ -3102,55 +3163,130 @@
             const payload = readerExportPayload;
             const canvas = document.createElement('canvas');
             const width = 1200;
+            const height = 1600;
             const padding = 88;
             const contentWidth = width - padding * 2;
+            const footerHeight = 96;
+            const availableHeight = height - padding * 2 - footerHeight;
 
             const ctx = canvas.getContext('2d');
             if (!ctx) return;
 
-            const sections = [];
-
-            if (payload.label) {
-                ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-                const labelMetrics = wrapCanvasText(ctx, payload.label, contentWidth);
-                sections.push({ type: 'label', lines: labelMetrics, lineHeight: 36, gapAfter: 42 });
+            function px(value, scale) {
+                return Math.max(12, Math.round(value * scale));
             }
 
-            ctx.font = '600 62px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-            const titleLines = wrapCanvasText(ctx, payload.title || 'Builders Daily', contentWidth);
-            sections.push({ type: 'title', lines: titleLines, lineHeight: 78, gapAfter: payload.subtitle ? 20 : 28 });
+            function buildSections(scale) {
+                const sections = [];
+                const labelFont = `500 ${px(26, scale)}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
+                const titleFont = `600 ${px(62, scale)}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
+                const subtitleFont = `400 ${px(30, scale)}px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
+                const bodyFont = `400 ${px(40, scale)}px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif`;
+                const analysisFont = `400 ${px(34, scale)}px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif`;
 
-            if (payload.subtitle) {
-                ctx.font = '400 30px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-                const subtitleLines = wrapCanvasText(ctx, payload.subtitle, contentWidth);
-                sections.push({ type: 'subtitle', lines: subtitleLines, lineHeight: 42, gapAfter: 38 });
-            }
-
-            if (payload.primaryLabel) {
-                ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-                const primaryLabelLines = wrapCanvasText(ctx, payload.primaryLabel, contentWidth);
-                sections.push({ type: 'sectionLabel', lines: primaryLabelLines, lineHeight: 36, gapAfter: 18 });
-            }
-
-            ctx.font = '400 40px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
-            const textLines = wrapCanvasText(ctx, payload.text || '', contentWidth);
-            sections.push({ type: 'body', lines: textLines, lineHeight: 64, gapAfter: payload.analysis ? 46 : 56 });
-
-            if (payload.analysis) {
-                if (!payload.isSummary) {
-                    ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-                    const analysisLabelLines = wrapCanvasText(ctx, 'AI 深度阅读', contentWidth);
-                    sections.push({ type: 'sectionLabel', lines: analysisLabelLines, lineHeight: 36, gapAfter: 20 });
+                if (payload.label) {
+                    ctx.font = labelFont;
+                    const labelLines = wrapCanvasText(ctx, payload.label, contentWidth);
+                    sections.push({
+                        type: 'label',
+                        font: labelFont,
+                        color: '#8f8f8f',
+                        lines: labelLines,
+                        lineHeight: px(36, scale),
+                        gapAfter: px(42, scale)
+                    });
                 }
 
-                ctx.font = '400 34px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
-                const analysisLines = wrapCanvasText(ctx, payload.analysis, contentWidth);
-                sections.push({ type: 'analysis', lines: analysisLines, lineHeight: 54, gapAfter: 0 });
+                ctx.font = titleFont;
+                const titleLines = wrapCanvasText(ctx, payload.title || 'Builders Daily', contentWidth);
+                sections.push({
+                    type: 'title',
+                    font: titleFont,
+                    color: '#171717',
+                    lines: titleLines,
+                    lineHeight: px(62, scale),
+                    gapAfter: payload.subtitle ? px(2, scale) : px(28, scale)
+                });
+
+                if (payload.subtitle) {
+                    ctx.font = subtitleFont;
+                    const subtitleLines = wrapCanvasText(ctx, payload.subtitle, contentWidth);
+                    sections.push({
+                        type: 'subtitle',
+                        font: subtitleFont,
+                        color: '#8f8f8f',
+                        lines: subtitleLines,
+                        lineHeight: px(34, scale),
+                        gapAfter: px(34, scale)
+                    });
+                }
+
+                if (payload.primaryLabel) {
+                    ctx.font = labelFont;
+                    const primaryLabelLines = wrapCanvasText(ctx, payload.primaryLabel, contentWidth);
+                    sections.push({
+                        type: 'sectionLabel',
+                        font: labelFont,
+                        color: '#8f8f8f',
+                        lines: primaryLabelLines,
+                        lineHeight: px(36, scale),
+                        gapAfter: px(18, scale)
+                    });
+                }
+
+                ctx.font = bodyFont;
+                const textLines = wrapCanvasText(ctx, payload.text || '', contentWidth);
+                sections.push({
+                    type: 'body',
+                    font: bodyFont,
+                    color: '#202020',
+                    lines: textLines,
+                    lineHeight: px(64, scale),
+                    gapAfter: payload.analysis ? px(46, scale) : px(56, scale)
+                });
+
+                if (payload.analysis) {
+                    if (!payload.isSummary) {
+                        ctx.font = labelFont;
+                        const analysisLabelLines = wrapCanvasText(ctx, 'AI 深度阅读', contentWidth);
+                        sections.push({
+                            type: 'sectionLabel',
+                            font: labelFont,
+                            color: '#8f8f8f',
+                            lines: analysisLabelLines,
+                            lineHeight: px(36, scale),
+                            gapAfter: px(20, scale)
+                        });
+                    }
+
+                    ctx.font = analysisFont;
+                    const analysisLines = wrapCanvasText(ctx, payload.analysis, contentWidth);
+                    sections.push({
+                        type: 'analysis',
+                        font: analysisFont,
+                        color: '#434343',
+                        lines: analysisLines,
+                        lineHeight: px(54, scale),
+                        gapAfter: 0
+                    });
+                }
+
+                return sections;
             }
 
-            const footerHeight = 96;
-            const totalHeight = sections.reduce((sum, section) => sum + section.lines.length * section.lineHeight + section.gapAfter, 0);
-            const height = Math.max(1400, padding * 2 + totalHeight + footerHeight);
+            const scaleSteps = [1, 0.96, 0.92, 0.88, 0.84, 0.8, 0.76];
+            let sections = buildSections(scaleSteps[0]);
+            for (const scale of scaleSteps) {
+                const candidate = buildSections(scale);
+                const totalHeight = candidate.reduce(
+                    (sum, section) => sum + section.lines.length * section.lineHeight + section.gapAfter,
+                    0
+                );
+                sections = candidate;
+                if (totalHeight <= availableHeight) {
+                    break;
+                }
+            }
 
             canvas.width = width;
             canvas.height = height;
@@ -3164,22 +3300,8 @@
 
             let y = padding;
             sections.forEach((section) => {
-                if (section.type === 'label' || section.type === 'sectionLabel') {
-                    ctx.font = '500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-                    ctx.fillStyle = '#8f8f8f';
-                } else if (section.type === 'title') {
-                    ctx.font = '600 62px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-                    ctx.fillStyle = '#171717';
-                } else if (section.type === 'subtitle') {
-                    ctx.font = '400 30px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-                    ctx.fillStyle = '#8f8f8f';
-                } else if (section.type === 'body') {
-                    ctx.font = '400 40px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
-                    ctx.fillStyle = '#202020';
-                } else if (section.type === 'analysis') {
-                    ctx.font = '400 34px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
-                    ctx.fillStyle = '#434343';
-                }
+                ctx.font = section.font;
+                ctx.fillStyle = section.color;
 
                 section.lines.forEach((line) => {
                     ctx.fillText(line, padding, y);
