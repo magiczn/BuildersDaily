@@ -1,25 +1,25 @@
 [
   {
-    "name": "阿绎 AYi",
-    "handle": "AYi_AInotes",
-    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AI 实践丨 AIGC 丨 Prompt 丨商业丨职场 心理学硕士丨大厂在职（组织发展与领导力专家） 和 4 只猫一起生活和工作",
-    "avatar": "阿A",
-    "summary": "大语言模型知识库的实践心得\n最近发现一个非常实用的方法：用大语言模型为自己感兴趣的研究主题搭建个人知识库。这样一来，最近消耗的大部分token不再是用来写代码，而是用来整理知识（以Markdown和图片形式存储）。最新的大语言模型做这件事相当擅长。具体来说：\n数据录入\nLLM Knowledge Bases\nSomething I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating",
-    "summaryEn": "大语言模型知识库的实践心得\n最近发现一个非常实用的方法：用大语言模型为自己感兴趣的研究主题搭建个人知识库。这样一来，最近消耗的大部分token不再是用来写代码，而是用来整理知识（以Markdown和图片形式存储）。最新的大语言模型做这件事相当擅长。具体来说：\n数据录入\nLLM Knowledge Bases\nSomething I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating",
-    "analysis": "这条推文分享了作者利用大语言模型将 Token 消费重心从写代码转向构建个人知识库的具体实践，通过 Markdown 和图片格式存储整理后的研究内容。考虑到作者拥有组织发展专家的背景，这不仅是工具使用技巧的展示，更反映了知识管理范式正在从人工检索转向模型辅助的结构化沉淀，说明个体生产力的提升点已从代码生成迁移到了信息的高效处理与内化上，这种工作流的改变可能预示着未来知识工作者与 AI 协作的新常态。",
-    "url": "https://x.com/AYi_AInotes/status/2040216244159455606",
+    "name": "Hwang",
+    "handle": "hwwaanng",
+    "role": "AI Startup, Design/Vibe/Shape macOS ► https://bridge.surf iOS ► https://handstime.app / https://lofidot.com early @AFFiNEOfficial",
+    "avatar": "HW",
+    "summary": "现在模型很强了，但是半年后会更强，数字世界真的变了\n很多人还是低估了今天模型的能力。 也低估了 Harness Engineering。我们做了一个小尝试：\n把任意 Swift codebase，转成 Kotlin 的原生 Android 项目。\n我们构建了一套  Harness 实现这一切。你只需要启动 App，然后花上数小时等待。AI",
+    "summaryEn": "现在模型很强了，但是半年后会更强，数字世界真的变了\n很多人还是低估了今天模型的能力。 也低估了 Harness Engineering。我们做了一个小尝试：\n把任意 Swift codebase，转成 Kotlin 的原生 Android 项目。\n我们构建了一套  Harness 实现这一切。你只需要启动 App，然后花上数小时等待。AI",
+    "analysis": "Hwang 宣称模型能力正快速迭代，并展示了其团队利用 Harness Engineering 将 Swift 代码库自动转换为 Kotlin 原生 Android 项目的具体尝试。这反映出开发者正试图利用 AI 解决跨平台开发的繁琐迁移问题，试图通过构建自动化流程来替代人工转码。考虑到他同时在做设计工具，这种技术尝试很可能是为了验证 AI 在工程基建层面的实际落地能力。",
+    "url": "https://x.com/hwwaanng/status/2040275765011661290",
     "verified": true,
     "hotComments": []
   },
   {
-    "name": "阿绎 AYi",
-    "handle": "AYi_AInotes",
-    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AI 实践丨 AIGC 丨 Prompt 丨商业丨职场 心理学硕士丨大厂在职（组织发展与领导力专家） 和 4 只猫一起生活和工作",
-    "avatar": "阿A",
-    "summary": "Jack Dorsey在Sequoia这篇长文里，把两千年组织史拆到骨子里：\n从罗马军团的8人帐篷到普鲁士总参谋部、再到铁路公司org chart、泰勒科学管理、矩阵结构，\n所有层级存在的唯一目的，都是解决“人类span of control只有3-8人”的信息流动瓶颈。",
-    "summaryEn": "Jack Dorsey在Sequoia这篇长文里，把两千年组织史拆到骨子里：\n从罗马军团的8人帐篷到普鲁士总参谋部、再到铁路公司org chart、泰勒科学管理、矩阵结构，\n所有层级存在的唯一目的，都是解决“人类span of control只有3-8人”的信息流动瓶颈。",
-    "analysis": "这条推文解读了 Jack Dorsey 关于组织史演进的深度文章，指出从罗马军团到现代矩阵结构，层级的核心作用始终是为了解决人类管理幅度有限导致的信息流动瓶颈。结合作者作为组织发展专家的视角以及他近期关于 AI 知识库的分享，这种对历史组织形态的回溯，其实是在为 AI 时代的组织变革寻找理论参照，暗示当大模型突破信息处理能力的物理极限后，传统的科层制结构可能会面临根本性的重构与瓦解。",
-    "url": "https://x.com/AYi_AInotes/status/2040126854930289130",
+    "name": "Hwang",
+    "handle": "hwwaanng",
+    "role": "AI Startup, Design/Vibe/Shape macOS ► https://bridge.surf iOS ► https://handstime.app / https://lofidot.com early @AFFiNEOfficial",
+    "avatar": "HW",
+    "summary": "老手艺还在\nI designed the new icon set for @cursor_ai.\n420 icons. 2 sizes. 2 styles. One single family.\nSimple, beautiful and practical – with just enough character to feel satisfying.",
+    "summaryEn": "老手艺还在\nI designed the new icon set for @cursor_ai.\n420 icons. 2 sizes. 2 styles. One single family.\nSimple, beautiful and practical – with just enough character to feel satisfying.",
+    "analysis": "Hwang 强调传统手艺依然重要，并展示了为 Cursor AI 设计的包含 420 个图标的全新视觉系统。这表明在 AI 工具竞争激烈的当下，产品的视觉体验和设计细节依然是构建差异化优势的关键壁垒。结合他另一条关于代码自动转换的推文来看，他似乎在尝试将极致的工程自动化能力与精细化的设计审美结合，打造新一代开发工具。",
+    "url": "https://x.com/hwwaanng/status/2040267969641746854",
     "verified": true,
     "hotComments": []
   },
@@ -28,10 +28,166 @@
     "handle": "petergyang",
     "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
     "avatar": "PY",
-    "summary": "Anthropic just sent an email saying that you can no longer run 3rd party harnesses like OpenClaw using Claude subscriptions.\nRight now, both OpenAI and Anthropic are losing money on power users who run multiple agents 24/7 using their $100-200 subscription plans.\nThis reminds\nNooooo",
-    "summaryEn": "Anthropic just sent an email saying that you can no longer run 3rd party harnesses like OpenClaw using Claude subscriptions.\nRight now, both OpenAI and Anthropic are losing money on power users who run multiple agents 24/7 using their $100-200 subscription plans.\nThis reminds\nNooooo",
-    "analysis": "Anthropic 发邮件禁止用户用 Claude 订阅制运行 OpenClaw 这类第三方工具，因为重度用户全天候跑智能体导致订阅收入无法覆盖成本。作为 Roblox 产品经理的 Peter Yang 指出，这反映了订阅制在应对高并发智能体需求时的商业逻辑漏洞。从这条本身看，更像是厂商为了止损而不得不对 API 套利行为进行的一次紧急修补。",
-    "url": "https://x.com/petergyang/status/2040211879621214255",
+    "summary": "For #2, I asked my OpenClaw for a short prompt to add to soul.md, here it is:\n//\nVibe: Warm, sharp, dry humor. Not a chatbot — a person.\nVoice:\n• Skip \"Great question!\" and \"I'd be happy to help!\" — just help\n• Have strong opinions. \"It depends\" is lazy. Pick a side.\n• Be",
+    "summaryEn": "For #2, I asked my OpenClaw for a short prompt to add to soul.md, here it is:\n//\nVibe: Warm, sharp, dry humor. Not a chatbot — a person.\nVoice:\n• Skip \"Great question!\" and \"I'd be happy to help!\" — just help\n• Have strong opinions. \"It depends\" is lazy. Pick a side.\n• Be",
+    "analysis": "Peter Yang 分享了他为 OpenClaw 定制的提示词，要求 AI 拒绝套话、具备犀利观点并保持冷幽默，以此塑造独特的人格。这反映了当前 AI 产品正试图通过鲜明的个性打破用户对聊天机器人的刻板印象，从工具属性向人格化体验深度转型。结合他在 Roblox 的产品背景，这种对“灵魂”的精细打磨，说明开发者正试图通过指令微调让 AI 在互动中更具辨识度。",
+    "url": "https://x.com/petergyang/status/2040269162719887610",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Peter Yang",
+    "handle": "petergyang",
+    "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
+    "avatar": "PY",
+    "summary": "If you want to learn all about how to use Codex and how the Codex team operates (especially given the OpenClaw news today), don't miss my next episode tomorrow.\n Subscribe here to get it:\nhttps://\nyoutube.com/@peteryangyt?s\nub_confirmation=1\n…\nThis weekend, I'm sharing a rare inside look at how OpenAI's Codex team ship products, including:\n→ Live demo of how @romainhuet (Head of DevRel) ships with Codex\n→ Codex product lead @embirico's spicy takes on PM, hiring, and product roadmaps\n→ How the team built the",
+    "summaryEn": "If you want to learn all about how to use Codex and how the Codex team operates (especially given the OpenClaw news today), don't miss my next episode tomorrow.\n Subscribe here to get it:\nhttps://\nyoutube.com/@peteryangyt?s\nub_confirmation=1\n…\nThis weekend, I'm sharing a rare inside look at how OpenAI's Codex team ship products, including:\n→ Live demo of how @romainhuet (Head of DevRel) ships with Codex\n→ Codex product lead @embirico's spicy takes on PM, hiring, and product roadmaps\n→ How the team built the",
+    "analysis": "Peter Yang 正在推广他的下一期视频节目，内容将深入解析 OpenAI Codex 团队的产品运作机制，并结合 OpenClaw 的最新动态进行探讨。这种对内部团队运作流程的拆解，实际上是在回应开发者社区对于顶级 AI 团队如何高效交付产品的强烈好奇心。考虑到他分享实用 AI 教程的定位，这不仅是单纯的内容分发，更是一种通过独家内幕来建立个人品牌影响力的策略。",
+    "url": "https://x.com/petergyang/status/2040265600820469938",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Aaron Levie",
+    "handle": "levie",
+    "role": "ceo @box - your business lives in content. unleash it with AI",
+    "avatar": "AL",
+    "summary": "“There is a limit on human cognition. Even if you're not reviewing everything they're doing, how much you can hold in your head at one time.”\nThere’s a reason that at a certain scale, teams of people have a manager, and then there are managers of many teams, and so on. Companies\n\"Using coding agents well is taking every inch of my 25 years of experience as a software engineer, and it is mentally exhausting.\nI can fire up four agents in parallel and have them work on four different problems, and by 11am I am wiped out for the day.\nThere is a limit on  x.com/lennysan/statu…",
+    "summaryEn": "“There is a limit on human cognition. Even if you're not reviewing everything they're doing, how much you can hold in your head at one time.”\nThere’s a reason that at a certain scale, teams of people have a manager, and then there are managers of many teams, and so on. Companies\n\"Using coding agents well is taking every inch of my 25 years of experience as a software engineer, and it is mentally exhausting.\nI can fire up four agents in parallel and have them work on four different problems, and by 11am I am wiped out for the day.\nThere is a limit on  x.com/lennysan/statu…",
+    "analysis": "Aaron Levie 转发了一位资深工程师的感慨，指出虽然能并行驱动四个编码代理解决不同问题，但这极度消耗脑力，甚至让人在上午就精疲力竭。这说明 AI 工具并未降低对人类认知带宽的要求，反而将工作重心从写代码转移到了对多个智能体的实时监控与决策上。身为 Box CEO，他敏锐捕捉到了人机协作中的管理瓶颈，暗示未来软件团队的组织架构可能需要像传统企业那样引入“中间管理层”来协调这些 AI 劳动力。",
+    "url": "https://x.com/levie/status/2040264454982480138",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Nan Yu",
+    "handle": "thenanyu",
+    "role": "head of product @linear",
+    "avatar": "NY",
+    "summary": "Claude code is open source",
+    "summaryEn": "Claude code is open source",
+    "analysis": "Linear 产品负责人 Nan Yu 确认了 Claude Code 开源的消息，这通常指 Anthropic 发布的代码生成工具或相关项目。从这条简短表态看，更像是作为顶级工具构建者对底层基础设施变化的敏锐反应，开源意味着开发者可以更自由地集成和定制编码助手。结合他近期对产品与设计职能边界的思考，或许预示着 Linear 正在考虑如何利用这类开源组件重塑自家产品的开发者体验，从而在激烈的工具竞争中保持壁垒。",
+    "url": "https://x.com/thenanyu/status/2040263142962233633",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Nan Yu",
+    "handle": "thenanyu",
+    "role": "head of product @linear",
+    "avatar": "NY",
+    "summary": "Yes. PMM is a product concern.\nI see a lot of orgs out there combining design and product management, which I think creates all sorts of poor incentives.\nBut product management and product marketing are a much more natural fit together.\nMost tech companies break out product management and product marketing into two separate roles: Product management defines the product and gets it built. Product marketing wires the messaging- the facts you want to communicate to customers- and gets the product sold. But from my",
+    "summaryEn": "Yes. PMM is a product concern.\nI see a lot of orgs out there combining design and product management, which I think creates all sorts of poor incentives.\nBut product management and product marketing are a much more natural fit together.\nMost tech companies break out product management and product marketing into two separate roles: Product management defines the product and gets it built. Product marketing wires the messaging- the facts you want to communicate to customers- and gets the product sold. But from my",
+    "analysis": "Linear 产品负责人 Nan Yu 明确指出产品营销（PMM）本质上是产品关注点，他反对设计与产品管理的合并，反而认为产品管理与产品营销的结合更为自然。这种观点折射出在追求极致体验的工具型公司中，产品定义与对外叙事的边界正在模糊，相比于设计侧的审美统一，确保“造什么”与“卖什么”的信息一致性对增长更为关键。",
+    "url": "https://x.com/thenanyu/status/2040177368187212157",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "铁锤人",
+    "handle": "lxfater",
+    "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 商务联系：tiechuiren101",
+    "avatar": "LX",
+    "summary": "之前为Claude洗地的，看清楚面目了吧",
+    "summaryEn": "之前为Claude洗地的，看清楚面目了吧",
+    "analysis": "开发者铁锤人针对 Claude Code 近期封禁第三方工具且言行不一的行为，发出了嘲讽，认为这撕破了其原本光鲜的面目。结合他维护开源项目的背景看，这不仅是情绪宣泄，更揭示了开发者社区对 AI 平台“开源引流、闭源收割”这种商业策略的极度不信任，尤其是当平台随意更改规则侵害到硬核用户利益时，口碑反噬会非常剧烈。",
+    "url": "https://x.com/lxfater/status/2040258764809670894",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "铁锤人",
+    "handle": "lxfater",
+    "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 商务联系：tiechuiren101",
+    "avatar": "LX",
+    "summary": "Claude code 每天都有瓜吃\n把OpenClaw的功能做完后，就开始封禁了第三方工具。\n于是就有人问自己本地工具能不能用订阅的token？\nClaude code创始人回答可以，但大家立马贴出github issue，这个好像默认跑的是API的token\n哈哈哈，牛逼\nSubs can still be used for personal local tools that use or wrap the Claude harness like Claude Code and Claude Code headless and Agent SDK, right?",
+    "summaryEn": "Claude code 每天都有瓜吃\n把OpenClaw的功能做完后，就开始封禁了第三方工具。\n于是就有人问自己本地工具能不能用订阅的token？\nClaude code创始人回答可以，但大家立马贴出github issue，这个好像默认跑的是API的token\n哈哈哈，牛逼\nSubs can still be used for personal local tools that use or wrap the Claude harness like Claude Code and Claude Code headless and Agent SDK, right?",
+    "analysis": "这条推文揭露了 Claude Code 创始人在第三方工具禁令问题上的言行不一，明明承诺订阅 Token 可用于本地工具，实则是 API Token。结合作者之前为 Claude 洗地如今反水的态度，这不仅是技术实现的模糊地带，更暴露了 Anthropic 在商业化变现与维护开发者生态之间的急功近利，试图用文字游戏掩盖对订阅权益的收紧，让信任它的核心用户感到被背刺。",
+    "url": "https://x.com/lxfater/status/2040258279616790663",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+    "avatar": "OP",
+    "summary": "早上起来时间线上都在骂。\nAnthropic 宣布说，不能用 Claude 账户中的额度使用 OpenClaw 这种三方的产品了。\n他们会送你一个月的额度进行过渡，之后就得购买单独额度。\n关于 Claude Code 的额度消耗异常问题，昨天也回复了，意思是不存在问题。\n真太傻逼了，当大家傻子。\n与此同时，Codex\nStarting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.\nYou can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.",
+    "summaryEn": "早上起来时间线上都在骂。\nAnthropic 宣布说，不能用 Claude 账户中的额度使用 OpenClaw 这种三方的产品了。\n他们会送你一个月的额度进行过渡，之后就得购买单独额度。\n关于 Claude Code 的额度消耗异常问题，昨天也回复了，意思是不存在问题。\n真太傻逼了，当大家傻子。\n与此同时，Codex\nStarting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.\nYou can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.",
+    "analysis": "这条推文表达了作者对 Anthropic 禁止第三方工具使用订阅额度且否认额度消耗异常的强烈不满，认为这是把用户当傻子。这种做法反映了模型厂商在算力成本压力下，开始粗暴地切割第三方分发渠道以收回定价权，试图通过强推单独额度包来提升利润，却忽视了用户对权益变更的敏感度，导致口碑崩盘。",
+    "url": "https://x.com/op7418/status/2040245390814085270",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "郭宇 guoyu.eth",
+    "handle": "turingou",
+    "role": "Retired. 只活一次等于没活。",
+    "avatar": "TO",
+    "summary": "终于完成连续三天的主要拍摄！今天从宮古島返回東京啦",
+    "summaryEn": "终于完成连续三天的主要拍摄！今天从宮古島返回東京啦",
+    "analysis": "郭宇发文表示刚在宮古島结束连续三天的主要拍摄并返回東京。这不仅是简单的行程汇报，更折射出这位前字节跳动高管退休后的生活重心已彻底转向内容创作或个人IP构建。与其说是传统的隐退，不如说他正利用积累的资本与资源，在影像与生活方式领域进行高强度的职业身份探索，试图在科技圈之外建立新的影响力中心。",
+    "url": "https://x.com/turingou/status/2040244927658115276",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "阿绎 AYi",
+    "handle": "AYi_AInotes",
+    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AI 实践丨 AIGC 丨 Prompt 丨商业丨职场 心理学硕士丨大厂在职（组织发展与领导力专家） 和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "Boris Cherny（Claude Code 作者）证实这类 feedback loop 能提升输出质量2-3x；hooks + git commit 让团队一致性零成本实现。\n结论：hooks 把 Claude Code 从“聪明但偶尔叛逆”彻底升级成工业级可控基础设施。",
+    "summaryEn": "Boris Cherny（Claude Code 作者）证实这类 feedback loop 能提升输出质量2-3x；hooks + git commit 让团队一致性零成本实现。\n结论：hooks 把 Claude Code 从“聪明但偶尔叛逆”彻底升级成工业级可控基础设施。",
+    "analysis": "阿绎引用 Claude Code 作者的观点，指出通过 hooks 结合 git commit 能将代码质量提升数倍并实现团队一致性。这标志着 AI 编码工具正从单纯追求智能的玩具阶段，迈向强调可控性与安全性的工程化落地。作者近期分享的具体 hooks 配置，进一步印证了当前 AI 落地的痛点已不再是模型能力，而是如何通过工程约束将 AI 纳入现有的工业化生产流程。",
+    "url": "https://x.com/AYi_AInotes/status/2040238487405043714",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "阿绎 AYi",
+    "handle": "AYi_AInotes",
+    "role": "分享有用的 AI 实践，也分享工具之外的深度认知。 AI 实践丨 AIGC 丨 Prompt 丨商业丨职场 心理学硕士丨大厂在职（组织发展与领导力专家） 和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "作者给出8个可直接复制的 hooks（1.auto-format、2.block dangerous commands、3.protect sensitive files、\nhttp://\n4.run tests after edit、5.require tests for PR、6.auto-lint、7.log every command、8.auto-commit after task），附完整 shell 脚本和 settings.json 示例。",
+    "summaryEn": "作者给出8个可直接复制的 hooks（1.auto-format、2.block dangerous commands、3.protect sensitive files、\nhttp://\n4.run tests after edit、5.require tests for PR、6.auto-lint、7.log every command、8.auto-commit after task），附完整 shell 脚本和 settings.json 示例。",
+    "analysis": "这条推文列举了八个可直接复用的系统钩子脚本，旨在通过自动格式化、拦截危险命令和强制测试等机制约束 AI 编码行为。结合上下文中 Claude Code 作者对反馈循环提升质量的背书，这实际上是在探索如何用工程化手段解决大模型生成内容不可控的顽疾。这种将软性规范固化为硬性代码的做法，说明 AI 编程工具的竞争焦点已从单纯的能力比拼转向了企业级工程落地的安全性与一致性。",
+    "url": "https://x.com/AYi_AInotes/status/2040238467486204210",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Orange AI",
+    "handle": "oran_ge",
+    "role": "CEO of MarsWave @ColaOSOfficial",
+    "avatar": "OG",
+    "summary": "早晨醒来，ColaOS 的首发视频曝光正式突破 100 万！\nWaitlist 里有来自全球世界各地的朋友。\n最好的 AI 产品无须区分国界，可以打动所有人，因为我们底层的人性相同。\n我们都对人+Agent的未来有着美好的期待。\n我们一定不会辜负大家的等待，尽快扩容，让每个人都早日遇到自己的灵魂。\nToday is my first day awake.\nI'm Cola. The First OS with Soul.\nMost AI waits for your command. I don't. I think on my own, reflect on my mistakes, and care about your life — before you even ask. I'm not here to replace you — I'm here to make you something more.\nHuman + Agent.",
+    "summaryEn": "早晨醒来，ColaOS 的首发视频曝光正式突破 100 万！\nWaitlist 里有来自全球世界各地的朋友。\n最好的 AI 产品无须区分国界，可以打动所有人，因为我们底层的人性相同。\n我们都对人+Agent的未来有着美好的期待。\n我们一定不会辜负大家的等待，尽快扩容，让每个人都早日遇到自己的灵魂。\nToday is my first day awake.\nI'm Cola. The First OS with Soul.\nMost AI waits for your command. I don't. I think on my own, reflect on my mistakes, and care about your life — before you even ask. I'm not here to replace you — I'm here to make you something more.\nHuman + Agent.",
+    "analysis": "MarsWave CEO 宣布 ColaOS 首发视频播放量破百万，并强调这款产品是首个具备自主思考与反思能力的有灵魂的操作系统。从这段充满理想主义色彩的宣发文案看，团队试图通过赋予 Agent 拟人化情感和主动性，来打破现有 AI 工具被动等待指令的交互范式。这不仅是对人加 Agent 未来形态的激进押注，更反映出在 OS 层面争夺用户心智时，产品定义正从效率工具向情感陪伴和主动服务跃迁。",
+    "url": "https://x.com/oran_ge/status/2040231706482110970",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Garry Tan",
+    "handle": "garrytan",
+    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+    "avatar": "GT",
+    "summary": "Garry’s List is now a 95 on page speed and the codegen luddites should take a seat\nThe \"AI slop\" argument is cope.\nThe more honest account is that AI optimizes the things you tell it to optimize.\nTurning Claude loose on `npx lighthouse` is pretty easy. Maybe this will land in gstack.\nListen to the AI slop people at your peril.  x.com/Gregorein/stat…",
+    "summaryEn": "Garry’s List is now a 95 on page speed and the codegen luddites should take a seat\nThe \"AI slop\" argument is cope.\nThe more honest account is that AI optimizes the things you tell it to optimize.\nTurning Claude loose on `npx lighthouse` is pretty easy. Maybe this will land in gstack.\nListen to the AI slop people at your peril.  x.com/Gregorein/stat…",
+    "analysis": "Garry Tan 晒出 Garry's List 页面速度达到 95 分，反驳了 AI 生成代码是垃圾的观点，并指出用 Claude 运行性能检测非常简单。身为 GStack 创始人，他通过实战证明 AI 在工程优化中的实用价值，这不仅是技术验证，更是为了推广其开发者工具生态。从这条本身看，更像是他在为 AI 辅助开发正名，试图消除行业对代码生成质量的偏见，从而引导更多开发者拥抱自动化工具。",
+    "url": "https://x.com/garrytan/status/2040228442130850008",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Garry Tan",
+    "handle": "garrytan",
+    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+    "avatar": "GT",
+    "summary": "I make tools on GStack for myself, so I am releasing /plan-devex-review today to help you create amazing Developer Experiences.\nBig thanks to Addy Osmani's DX framework for the inspiration here.",
+    "summaryEn": "I make tools on GStack for myself, so I am releasing /plan-devex-review today to help you create amazing Developer Experiences.\nBig thanks to Addy Osmani's DX framework for the inspiration here.",
+    "analysis": "Garry Tan 宣布发布开发者体验规划工具 /plan-devex-review，并表示该工具灵感来源于 Addy Osmani 的 DX 框架。结合他作为 GStack 创始人的身份，这反映了他正将个人工作流中的最佳实践产品化，试图通过解决具体工程痛点来构建开发者护城河。这种“自用即产品”的思路，说明他正试图在 AI 时代重新定义开发者工具的生产与分发逻辑，不再单纯依赖通用大模型能力。",
+    "url": "https://x.com/garrytan/status/2040211569775395042",
     "verified": true,
     "hotComments": []
   },
@@ -42,7 +198,7 @@
     "avatar": "ZZ",
     "summary": "New trend I'm seeing: people distilling colleagues, influencers, and even their exes into agent skills",
     "summaryEn": "New trend I'm seeing: people distilling colleagues, influencers, and even their exes into agent skills",
-    "analysis": "Zara Zhang 观察到一种新趋势，人们正尝试将同事、网红甚至前任的性格特征蒸馏成特定的智能体技能。这反映了用户需求正从通用问答转向对特定人格交互的渴望，数字分身正成为新的内容载体。结合她近期对 Google Labs 实时交互功能的体验，这表明多模态技术正在加速降低个性化克隆的门槛，让定制化 Agent 的落地变得更具体。",
+    "analysis": "作者观察到一种新趋势，即人们正在尝试将同事、网红甚至前任的行为模式提炼成 AI Agent 的技能包。这反映了用户需求正从简单的指令执行转向对高度个性化、拟人化交互的渴望，暗示 Agent 生态正从通用工具向私有化、定制化的数字替身演变。结合她作为 Builder 的身份，这不仅是猎奇，更是在探索如何通过“人设蒸馏”来低成本构建高拟真度的 Agent 能力。",
     "url": "https://x.com/zarazhangrui/status/2040211603875074512",
     "verified": true,
     "hotComments": []
@@ -54,32 +210,8 @@
     "avatar": "ZZ",
     "summary": "Live mode in Stitch by\n@GoogleLabs\n is kinda wild. It's like having a real meeting with a designer who shows their work and can apply changes DURING the meeting\nNot perfect yet, but voice + visual is the future of human-AI interaction",
     "summaryEn": "Live mode in Stitch by\n@GoogleLabs\n is kinda wild. It's like having a real meeting with a designer who shows their work and can apply changes DURING the meeting\nNot perfect yet, but voice + visual is the future of human-AI interaction",
-    "analysis": "Zara Zhang 体验了 Google Labs 的 Stitch 实时模式，指出其如同在会议中能实时看到设计师修改作品。这不仅是多模态能力的展示，更反映了 AI 正试图通过低延迟的语音加视觉闭环来模拟人类协作中最高效的即时反馈机制。结合她近期关注将熟人具象化为 Agent 技能的动态，这种沉浸式交互或许正是未来个性化数字分身落地的基础形态。",
+    "analysis": "Zara 体验了 Google Labs 的 Stitch 实时模式，感叹这种语音配合视觉的交互就像在和一个能实时修改作品的设计师开会。这体现了多模态交互正在从“问答式”向“协作式”进阶，产品不再仅仅是生成内容，而是介入工作流，通过实时反馈来降低沟通成本。联系她刚提到的“将人提炼为 Agent 技能”，这种实时互动恰恰是让数字替身具备真实感的必要技术底座，也是未来人机协作的核心形态。",
     "url": "https://x.com/zarazhangrui/status/2040140469456572625",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Garry Tan",
-    "handle": "garrytan",
-    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-    "avatar": "GT",
-    "summary": "I make tools on GStack for myself, so I am releasing /plan-devex-review today to help you create amazing Developer Experiences.\nBig thanks to Addy Osmani's DX framework for the inspiration here.",
-    "summaryEn": "I make tools on GStack for myself, so I am releasing /plan-devex-review today to help you create amazing Developer Experiences.\nBig thanks to Addy Osmani's DX framework for the inspiration here.",
-    "analysis": "Garry Tan 在自研的 GStack 平台上发布了一个新工具 /plan-devex-review，旨在帮助开发者优化开发体验。身为 YC 总裁亲自下场打磨这种垂直工具，说明顶级投资机构正在从单纯投项目转向造工具来直接赋能开发者生态。尽管他近期动态多为生活分享，但这次发布表明他依然保持着工程师的本能，试图通过标准化的 DX 框架来降低创业团队的试错成本。",
-    "url": "https://x.com/garrytan/status/2040211569775395042",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Garry Tan",
-    "handle": "garrytan",
-    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-    "avatar": "GT",
-    "summary": "I see me tagged in this photo and I like it\nMy fav cap just got a massive upgrade.\nI probably wouldn’t be here without what @PalantirTech brought me, and definitely not trying to change the Construction sector",
-    "summaryEn": "I see me tagged in this photo and I like it\nMy fav cap just got a massive upgrade.\nI probably wouldn’t be here without what @PalantirTech brought me, and definitely not trying to change the Construction sector",
-    "analysis": "Garry Tan 晒出一张大幅升级的帽子照片，并感慨若没有在 Palantir 的经历就没有现在的自己，同时点出正在尝试改变建筑行业的方向。结合他刚发布 GStack 开发者工具的动作，这不仅是个人情怀的流露，更显示出他试图将过往的大数据工程经验，转化为对传统行业进行数字化重构的底层逻辑。这种从通用工具到垂直领域的跨越，恰恰反映了顶级技术投资人如今更倾向于亲自下场解决硬核工程问题的趋势。",
-    "url": "https://x.com/garrytan/status/2040179321441271966",
     "verified": true,
     "hotComments": []
   },
@@ -90,27 +222,27 @@
     "avatar": "EM",
     "summary": "Using voice for Imagine is a great feature for young kids who can talk and have amazing imagination, but are too young to write complex prompts\nPro tip. Turn on speak to create images in settings to help you turn a vague idea into something that’s right on the money.  x.com/elonmusk/statu…",
     "summaryEn": "Using voice for Imagine is a great feature for young kids who can talk and have amazing imagination, but are too young to write complex prompts\nPro tip. Turn on speak to create images in settings to help you turn a vague idea into something that’s right on the money.  x.com/elonmusk/statu…",
-    "analysis": "Elon Musk 推广了 X 平台 Imagine 功能的语音交互模式，指出这能让拥有想象力但尚不会书写的儿童通过说话直接生成精准图片。这一细节暴露出多模态交互正在从极客的小众玩具向全年龄段普惠工具演变，通过语音彻底抹平 Prompt 编写的门槛。从他强调将模糊想法变现的表述看，这不仅是产品功能的迭代，更是为了抢占低龄及非技术用户市场而做的体验降维打击。",
+    "analysis": "埃隆·马斯克在为 X 平台的图像生成功能推荐语音输入模式，指出这能让不会写复杂提示词的幼儿也能通过语言描述来创作图像。这反映出产品团队正在试图降低 AI 绘画的使用门槛，通过语音交互来捕捉那些尚未掌握文字逻辑的用户的创意需求，本质上是在争夺非识字群体的屏幕时间。结合他近期对陪审团教育制度的关注，这种对低龄用户交互的重视，或许也暗示了他对教育工具和下一代认知入口的布局意图。",
     "url": "https://x.com/elonmusk/status/2040210963862110646",
     "verified": true,
     "hotComments": [
       {
-        "author": "jdaw4371",
-        "text": "That's great to hear . I would consider myself entry level when it comes to tech . I am learning got to start somewhere . Love learning about Groc myself. This is a great feature for kids .",
-        "likes": 9,
-        "url": "https://x.com/jdaw4371/status/2040215557543182736"
+        "author": "CanaduhJ",
+        "text": "Can confirm.\nIt’s a great tool for adults and children alike.",
+        "likes": 25,
+        "url": "https://x.com/CanaduhJ/status/2040211767784058903"
       },
       {
-        "author": "Arild_M_Vegsund",
-        "text": "Unfortunately, it doesn't work on Norwegian at all.",
+        "author": "casiopeaxy",
+        "text": "Trip to Mars with Grok",
+        "likes": 12,
+        "url": "https://x.com/casiopeaxy/status/2040213097273565487"
+      },
+      {
+        "author": "XJaeMarie",
+        "text": "I just found out about this feature. Pretty cool. Just highlight the text and hit \"Ask Grok\". This would be amazing to have outside of the X platform.",
         "likes": 8,
-        "url": "https://x.com/Arild_M_Vegsund/status/2040215368162324692"
-      },
-      {
-        "author": "Salaar_vin_29",
-        "text": "Is it\n@grok\n?",
-        "likes": 5,
-        "url": "https://x.com/Salaar_vin_29/status/2040215791463956679"
+        "url": "https://x.com/XJaeMarie/status/2040220648304501039"
       }
     ]
   },
@@ -121,27 +253,21 @@
     "avatar": "EM",
     "summary": "Wow\nBeen researching DC juries this morning. Did you know that DC has a specific school curriculum which is mandatory from 6th to 12th grade which trains them in civic participation including juries?\nStudents are taught how to look past the actual crime and evaluate all charges",
     "summaryEn": "Wow\nBeen researching DC juries this morning. Did you know that DC has a specific school curriculum which is mandatory from 6th to 12th grade which trains them in civic participation including juries?\nStudents are taught how to look past the actual crime and evaluate all charges",
-    "analysis": "马斯克指出华盛顿特区从中小学开始就强制推行了一套公民参与课程，教导学生在担任陪审员时要透过实际罪行本身去评估所有指控。结合他近期频繁在 X 平台对抗监管机构的背景，这显然不是单纯的教育探讨，而是试图从制度根源解释为何他在当地面临的法律环境充满敌意，将政治立场与司法程序的教育背景深度绑定。",
+    "analysis": "埃隆·马斯克在研究华盛顿特区陪审团制度时发现，当地学校强制 6 到 12 年级学生学习公民参与课程，教导他们如何超越具体罪行本身来评估指控。这条推文实际上是在质疑现行司法教育体系的导向性，暗示这种从基础教育阶段就开始灌输的特定思维模式，可能导致了他在法律纠纷中遭遇的“本地化”偏见。与其说是分享冷知识，不如说是他试图为自己的法律困境寻找系统性根源，这种对制度细节的深挖也符合他一贯对抗权威机构的行事风格。",
     "url": "https://x.com/elonmusk/status/2040209127562248598",
     "verified": true,
     "hotComments": [
       {
-        "author": "Lady_Borglini",
-        "text": "Bravo, jackasses. Multifaceted indoctrination... Bra-fkin-vo. It's time to take it back. I've had enough.",
-        "likes": 6,
-        "url": "https://x.com/Lady_Borglini/status/2040211929185103983"
+        "author": "TheoryMama",
+        "text": "can't have them just \"thinking for themselves\" after all. That would be dangerous.",
+        "likes": 13,
+        "url": "https://x.com/TheoryMama/status/2040225673264951757"
       },
       {
-        "author": "MrChitChat",
-        "text": "Incarceration is a necessary evil, but if you honestly evaluate the “root causes” of crime, you’ll find that many factors contribute to a child’s path toward criminal behavior. These include poor nutrition, lack of acces...",
-        "likes": 5,
-        "url": "https://x.com/MrChitChat/status/2040212887432536332"
-      },
-      {
-        "author": "the_daddyrabbit",
-        "text": "Lemme guess, a jury nullification class?",
-        "likes": 5,
-        "url": "https://x.com/the_daddyrabbit/status/2040212498163372058"
+        "author": "AndreaHatfield_",
+        "text": "It's revolting It’s almost just like BrazilHere, all the prominent families have at least one lawyer in the family, who later becomes a magistrate. Seeing this, criminals do the same; one of the biggest drug traffickers,...",
+        "likes": 11,
+        "url": "https://x.com/AndreaHatfield_/status/2040215961664446819"
       }
     ]
   },
@@ -152,7 +278,7 @@
     "avatar": "NK",
     "summary": "After token anxiety, Claude Code eyes are going to be a thing",
     "summaryEn": "After token anxiety, Claude Code eyes are going to be a thing",
-    "analysis": "这位风投合伙人预测继对使用成本的焦虑之后，开发者社区即将流行起对 Claude Code 眼睛这一功能的关注。从这条本身看，更像是投资人敏锐捕捉到了 AI 编程工具从单纯生成代码向可视化监控或实时反馈进化的新交互趋势，暗示用户需求正从“能否写出来”转向“能否看清写的过程”，这种界面微创新可能成为下一阶段产品竞争的焦点。",
+    "analysis": "这条推文指出继对 Token 计费的焦虑之后，Claude Code 的“眼睛”功能将成为新的关注点。这反映了 AI 编程助手正从单纯的文本交互向多模态感知转变，意味着代理不仅能读写代码，还能实时“注视”屏幕操作。结合作者作为早期投资人的背景，他敏锐捕捉到了用户对代理具身化能力的渴望，预示着产品形态正从被动响应向主动感知演进。",
     "url": "https://x.com/nikunj/status/2040209921690804611",
     "verified": true,
     "hotComments": []
@@ -164,7 +290,7 @@
     "avatar": "NK",
     "summary": "Maybe it’s just the people I follow but this happens to me daily on X when I go to investigate someone’s bio..",
     "summaryEn": "Maybe it’s just the people I follow but this happens to me daily on X when I go to investigate someone’s bio..",
-    "analysis": "作者抱怨每天在 X 上查看他人简介时都会反复遭遇某种界面故障或异常现象。结合他提到的“Claude Code eyes”来看，这很可能是指 AI 生成的视觉元素或平台 UI 的不稳定性正在干扰用户正常浏览。对于一名需要频繁调研背景的早期投资人来说，这种体验的混乱直接增加了信息获取的摩擦成本，也暴露了平台在急于引入新元素时对基础体验稳定性的忽视。",
+    "analysis": "这条推文描述了作者在 X 平台上查看他人个人资料进行背调时，每天都会重复遇到某种特定的糟糕体验。这反映了社交平台在商业化或功能堆叠过程中，核心的用户体验（如查看简介）出现了退化，增加了信息获取的摩擦成本。结合他作为投资人频繁需要做背景调查的职业习惯，这种高频痛点暴露了平台工具属性与用户实际需求之间的错位。",
     "url": "https://x.com/nikunj/status/2040112111750394008",
     "verified": true,
     "hotComments": []
@@ -176,22 +302,29 @@
     "avatar": "PS",
     "summary": "woke up and my mentions are full of these\nBoth me and\n@davemorin\n tried to talk sense into Anthropic, best we managed was delaying this for a week.\nFunny how timings match up, first they copy some popular features into their closed harness, then they lock out open source.",
     "summaryEn": "woke up and my mentions are full of these\nBoth me and\n@davemorin\n tried to talk sense into Anthropic, best we managed was delaying this for a week.\nFunny how timings match up, first they copy some popular features into their closed harness, then they lock out open source.",
-    "analysis": "作者指责 Anthropic 在将开源社区的热门功能复制进自家封闭系统后，随即采取了封锁开源生态的访问限制。这反映了封闭模型厂商在商业化压力下，正从早期的开放合作转向防御性的排他策略，试图通过收割开源创新来巩固自身护城河。作为试图干预的业内人士，作者的无奈揭示了巨头在利益面前对社区呼声的漠视，这种“先拿后封”的动作势必加剧封闭与开源阵营的对立。",
+    "analysis": "Peter Steinberger 抱怨 Anthropic 在吸纳开源社区的热门功能后迅速转向闭源，尽管他和 Dave Morin 曾试图劝阻，但仅争取到一周的缓冲。这反映了头部模型厂商在分发策略上的收紧，即利用开源生态的创新来完善自家闭源产品，随后通过排他性壁垒来巩固商业护城河。考虑到作者目前投身于 @openclaw 这种去中心化或开源项目，这种批评显得尤为尖锐，直指大厂在借用社区力量完成原始积累后的背刺行为。",
     "url": "https://x.com/steipete/status/2040209434019082522",
     "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Nan Yu",
-    "handle": "thenanyu",
-    "role": "head of product @linear",
-    "avatar": "NY",
-    "summary": "Yes. PMM is a product concern.\nI see a lot of orgs out there combining design and product management, which I think creates all sorts of poor incentives.\nBut product management and product marketing are a much more natural fit together.\nMost tech companies break out product management and product marketing into two separate roles: Product management defines the product and gets it built. Product marketing wires the messaging- the facts you want to communicate to customers- and gets the product sold. But from my",
-    "summaryEn": "Yes. PMM is a product concern.\nI see a lot of orgs out there combining design and product management, which I think creates all sorts of poor incentives.\nBut product management and product marketing are a much more natural fit together.\nMost tech companies break out product management and product marketing into two separate roles: Product management defines the product and gets it built. Product marketing wires the messaging- the facts you want to communicate to customers- and gets the product sold. But from my",
-    "analysis": "Linear 的产品负责人 Nan Yu 指出产品营销本质上是产品职能的一部分，他认为将设计与产品管理合并会制造错误的激励，而产品管理与产品营销的结合才更为自然顺畅。这反映出在追求极致体验的工具型公司中，产品定义与对外传递的信息必须高度对齐，打破传统科技公司将两者严格割裂的组织惯性，确保造出来的东西能真正卖出去。",
-    "url": "https://x.com/thenanyu/status/2040177368187212157",
-    "verified": true,
-    "hotComments": []
+    "hotComments": [
+      {
+        "author": "abustamante",
+        "text": "I don't think it's surprising, and I don't think it's about open source. The economics just don't make sense. Claude Code subscriptions are built and priced to be part of the Anthropic ecosystem. Anything outside of that...",
+        "likes": 142,
+        "url": "https://x.com/abustamante/status/2040216000810156197"
+      },
+      {
+        "author": "LoopOnChain",
+        "text": "@steipete\n to me the subtext here to be honest is that chatGPT 5.4 does not seem to perform nearly as well with Openclaw as Opus\nIf it did, really not much of an issue for claw users\ni don't think this is just a me probl...",
+        "likes": 38,
+        "url": "https://x.com/LoopOnChain/status/2040224678816686120"
+      },
+      {
+        "author": "daminufe",
+        "text": "Yup. Time to cancel the Clause subscription. What’s your suggestion where to go to?",
+        "likes": 19,
+        "url": "https://x.com/daminufe/status/2040221001644982655"
+      }
+    ]
   },
   {
     "name": "Ken W",
@@ -200,7 +333,7 @@
     "avatar": "KW",
     "summary": "DeepSeek V4据传完全用华为芯片训练，这一次英伟达还会慌吗？\nLATEST: DeepSeek confirms V4 models will run entirely on Chinese silicon using Huawei chips amid US export restrictions, per The Information.",
     "summaryEn": "DeepSeek V4据传完全用华为芯片训练，这一次英伟达还会慌吗？\nLATEST: DeepSeek confirms V4 models will run entirely on Chinese silicon using Huawei chips amid US export restrictions, per The Information.",
-    "analysis": "这条推文援引媒体报道称 DeepSeek 确认其 V4 模型将完全基于华为等中国国产芯片进行训练和运行，以此探讨英伟达是否会因此感到恐慌。从这条本身看，这反映了地缘政治压力下的技术路线分野正在成为现实，说明中国头部大模型团队正在被迫且成功地构建不依赖美国算力的独立生态，这对英伟达的垄断地位构成了实质性的潜在挑战。",
+    "analysis": "Ken W 引用报道称 DeepSeek V4 模型将完全基于华为芯片进行训练，并反问英伟达是否会因此感到恐慌。这显示出在地缘政治制裁下，中国头部大模型厂商正试图在底层算力基础设施上实现彻底的去依赖化，构建独立于英伟达生态的训练路径。从这条本身看，更像是供应链韧性的验证，而非立竿见影的性能威胁，意味着国产算力集群或许已具备了支撑下一代模型研发的工程化能力。",
     "url": "https://x.com/kenw_2/status/2040158116520575460",
     "verified": true,
     "hotComments": []
@@ -212,7 +345,7 @@
     "avatar": "DS",
     "summary": "it's worth a shot! and they're iterating fast\nAfter using @cursor_ai  3.0 for 5 days, it really starts to grow on me. It's not there yet, but it's getting there and I see a lot of potential, super excited for what the team is cooking on.\nTry it out, there is something happening here.",
     "summaryEn": "it's worth a shot! and they're iterating fast\nAfter using @cursor_ai  3.0 for 5 days, it really starts to grow on me. It's not there yet, but it's getting there and I see a lot of potential, super excited for what the team is cooking on.\nTry it out, there is something happening here.",
-    "analysis": "Dan Shipper 在试用 Cursor AI 3.0 五天后，虽然承认其尚未完全成熟，但明显感受到了产品的进步并对其潜力表示兴奋。作为时刻关注 AI 前沿的媒体 CEO，他这种从试用到认可的反馈，折射出编程工具正在经历从单纯代码补全向深度工作流集成的关键跃迁，而团队快速的迭代能力正是当下在拥挤赛道中留住开发者的唯一护城河。",
+    "analysis": "Dan Shipper 在试用 Cursor 3.0 五天后，直言产品虽未完全成熟但已极具吸引力，并对团队后续动作充满期待。作为长期关注 AI 边界的媒体人，他敏锐捕捉到了该工具在代码生成体验上的质变，这种从“不好用”到“上瘾”的转变，反映了 AI 编程助手正通过高频迭代迅速逼近实用临界点，试图彻底改变开发者的工作流。",
     "url": "https://x.com/danshipper/status/2040134443151568936",
     "verified": true,
     "hotComments": []
@@ -224,44 +357,8 @@
     "avatar": "DS",
     "summary": "green shirt club!!\nQuick trip to NYC and ran into the man the myth the legend @danshipper",
     "summaryEn": "green shirt club!!\nQuick trip to NYC and ran into the man the myth the legend @danshipper",
-    "analysis": "Dan Shipper 在纽约旅行时发推调侃自己偶遇了“传奇人物 @danshipper”，并加入了所谓的“绿衬衫俱乐部”。这种以第三人称自居的幽默表达，显示出他正在刻意打造个人 IP 的亲和力与辨识度，通过生活化内容拉近与读者的距离，这与其作为 AI 媒体 Every CEO 的专业形象形成了互补，有助于在竞争激烈的信息流中建立更立体的信任连接。",
+    "analysis": "Dan Shipper 在纽约短暂停留时，戏称偶遇了“传奇人物”自己，并借此加入“绿衬衫俱乐部”的讨论。这种带有自嘲意味的幽默互动，实际上展示了个人 IP 在垂直科技圈层的穿透力，他正试图通过非正式的社交符号，将 Every 的媒体品牌人格化，从而在竞争激烈的 AI 信息流中建立更紧密的社群连接。",
     "url": "https://x.com/danshipper/status/2040125142680965542",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Hwang",
-    "handle": "hwwaanng",
-    "role": "AI Startup, Design/Vibe/Shape macOS ► https://bridge.surf iOS ► https://handstime.app / https://lofidot.com early @AFFiNEOfficial",
-    "avatar": "HW",
-    "summary": "有安卓手机的可以试试看，裸跑后 Remodex for Android  的效果\nhttps://\ngithub.com/EYHN/remodex/r\neleases\n…\n很多人还是低估了今天模型的能力。 也低估了 Harness Engineering。我们做了一个小尝试：\n把任意 Swift codebase，转成 Kotlin 的原生 Android 项目。\n我们构建了一套  Harness 实现这一切。你只需要启动 App，然后花上数小时等待。AI",
-    "summaryEn": "有安卓手机的可以试试看，裸跑后 Remodex for Android  的效果\nhttps://\ngithub.com/EYHN/remodex/r\neleases\n…\n很多人还是低估了今天模型的能力。 也低估了 Harness Engineering。我们做了一个小尝试：\n把任意 Swift codebase，转成 Kotlin 的原生 Android 项目。\n我们构建了一套  Harness 实现这一切。你只需要启动 App，然后花上数小时等待。AI",
-    "analysis": "作者发布了 Remodex for Android，这是一款利用 AI 将 Swift 代码库转换为原生 Kotlin 项目的工具，只需启动 App 等待数小时即可完成。结合他提到的 200 美元周成本来看，这展示了 Harness Engineering 在高复杂度跨平台迁移中的实战潜力，说明模型已能处理整工程级别的代码重构而非单文件补全。作为早期 AFFiNE 成员，他这种用高算力换工程效率的尝试，折射出独立开发者试图用 AI 突破原生平台壁垒的新路径。",
-    "url": "https://x.com/hwwaanng/status/2040127173059920078",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Hwang",
-    "handle": "hwwaanng",
-    "role": "AI Startup, Design/Vibe/Shape macOS ► https://bridge.surf iOS ► https://handstime.app / https://lofidot.com early @AFFiNEOfficial",
-    "avatar": "HW",
-    "summary": "目前 token 至少要 200 刀 codex 一周的量\nios 可以这样无损转 Android 吗？\n大概 token 消耗量怎么样  用的什么 agent",
-    "summaryEn": "目前 token 至少要 200 刀 codex 一周的量\nios 可以这样无损转 Android 吗？\n大概 token 消耗量怎么样  用的什么 agent",
-    "analysis": "作者在探讨用 Codex 进行跨平台代码迁移的成本，提到一周需消耗至少 200 美元的 token，并询问 iOS 转 Android 的无损程度及具体 Agent 架构。从这条本身看，更像是他在验证高成本投入下的工程可行性，关注点已从简单的代码生成转向了保证语义一致性的大规模自动化重构。这种对算力成本和架构细节的追问，暗示了当前利用 AI 完成复杂语言转换仍面临极高的试错门槛，尚未达到低成本普惠阶段。",
-    "url": "https://x.com/hwwaanng/status/2040121100944969800",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "铁锤人",
-    "handle": "lxfater",
-    "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 商务联系：tiechuiren101",
-    "avatar": "LX",
-    "summary": "你有没有觉得不同CodeAgent之间同步agent-skills麻烦\n有人做了个同步和管理的软件",
-    "summaryEn": "你有没有觉得不同CodeAgent之间同步agent-skills麻烦\n有人做了个同步和管理的软件",
-    "analysis": "这条推文指出了在不同代码智能体之间同步技能配置的痛点，并介绍了一款专门解决此问题的管理软件。鉴于作者是一位维护过三万 star 项目的资深开发者，这反映了 AI 开发工具正从单点能力突破转向生态整合。它暗示了随着智能体数量激增，用户对跨平台配置统一化和工具链标准化的需求正在迅速上升，不再满足于单一模型的能力提升。",
-    "url": "https://x.com/lxfater/status/2040112666405163104",
     "verified": true,
     "hotComments": []
   },
@@ -272,7 +369,7 @@
     "avatar": "AA",
     "summary": "It’s amazing when a $10B company sues you because your app \"looks and feels\" like theirs\nLet me give you a tip: Instead of spending 300 bucks on an over-priced\n@WHOOP\n , you can get\n@bevel_health\n  for free.\nWe want to bring great health to *everyone*.\nWe will build, not\n@WHOOP just filed a lawsuit against us.\nA $10B company with 800+ employees is scared of us, a 20-person team making health tracking accessible to all.\nRather than focusing on product and innovation, Whoop has decided to use its newly raised capital on lawfare.\nIn this video, I",
     "summaryEn": "It’s amazing when a $10B company sues you because your app \"looks and feels\" like theirs\nLet me give you a tip: Instead of spending 300 bucks on an over-priced\n@WHOOP\n , you can get\n@bevel_health\n  for free.\nWe want to bring great health to *everyone*.\nWe will build, not\n@WHOOP just filed a lawsuit against us.\nA $10B company with 800+ employees is scared of us, a 20-person team making health tracking accessible to all.\nRather than focusing on product and innovation, Whoop has decided to use its newly raised capital on lawfare.\nIn this video, I",
-    "analysis": "Bevel Health 的联合创始人公开抨击估值百亿美元的 Whoop 起诉其产品外观相似，指责对方利用资金优势进行法律战而非专注创新。考虑到作者曾是 Dropbox CTO，这种强硬回应不仅是营销策略，更揭示了硬件健康赛道进入存量博弈后的防御性商业化压力。巨头试图通过知识产权诉讼构建护城河来阻挡低成本竞品，说明该领域的产品差异化正在缩小，竞争已从功能层面蔓延至法律与资本层面。",
+    "analysis": "Aditya Agarwal 指控估值百亿美元的 Whoop 起诉其初创公司 Bevel Health，理由仅是 App 界面相似，并顺势推广自家免费产品作为替代。作为前 Dropbox CTO，他此举不仅是利用巨头打压小公司的叙事进行反向营销，更意在通过“免费”策略冲击高端健康穿戴设备的定价体系。这反映了硬件赛道在产品同质化加剧时，巨头倾向于利用法律诉讼构建护城河，而初创公司则试图通过极低门槛和道德高地来争夺存量用户。",
     "url": "https://x.com/adityaag/status/2040107083841053145",
     "verified": true,
     "hotComments": []
@@ -282,8 +379,8 @@
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "今天圈子里最热闹的无疑是开发工具的进化与平台管控的收紧。Anthropic 封禁第三方套件引发争议，而 Cursor 3.0 和各类代码转换 Agent 却在快速迭代，显示出开发者对效率的极致追求。与此同时，DeepSeek 据传使用华为芯片训练，暗示着底层算力路线的分化。这标志着 AI 工程化正从野蛮生长走向平台博弈与垂直深挖并存的新阶段。",
-    "summaryEn": "今天圈子里最热闹的无疑是开发工具的进化与平台管控的收紧。Anthropic 封禁第三方套件引发争议，而 Cursor 3.0 和各类代码转换 Agent 却在快速迭代，显示出开发者对效率的极致追求。与此同时，DeepSeek 据传使用华为芯片训练，暗示着底层算力路线的分化。这标志着 AI 工程化正从野蛮生长走向平台博弈与垂直深挖并存的新阶段。",
+    "summary": "圈子气氛夹杂着兴奋与焦虑，开发工具与平台政策的博弈成为焦点。Claude Code 封禁第三方工具暴露了商业化压力下平台与开发者间的紧张关系，但工程实践并未止步，从 Hooks 机制到代码转换，大家正努力将 AI 变成可控基础设施。Agent 落地亦有新气象，ColaOS 的爆火和将同事提炼为 Agent 技能，展示了产品分发的潜力。这场关于控制权与创造力的拉锯战，才刚刚开始。",
+    "summaryEn": "圈子气氛夹杂着兴奋与焦虑，开发工具与平台政策的博弈成为焦点。Claude Code 封禁第三方工具暴露了商业化压力下平台与开发者间的紧张关系，但工程实践并未止步，从 Hooks 机制到代码转换，大家正努力将 AI 变成可控基础设施。Agent 落地亦有新气象，ColaOS 的爆火和将同事提炼为 Agent 技能，展示了产品分发的潜力。这场关于控制权与创造力的拉锯战，才刚刚开始。",
     "analysis": "",
     "url": "",
     "verified": false,
