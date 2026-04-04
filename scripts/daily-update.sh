@@ -3,10 +3,42 @@
 set -euo pipefail
 
 # 每日更新脚本
+export HOME="${HOME:-/Users/zhaonan}"
 PROJECT_DIR="/Users/zhaonan/0-Projects/NDN-NanDailyNews"
 X_LIST_MONITOR_DIR="${X_LIST_MONITOR_DIR:-/Users/zhaonan/0-Projects/x-list-monitor}"
 LOG_FILE="/tmp/nan-builders-$(date +%Y-%m-%d).log"
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+push_with_auth() {
+    local creds username password token auth_header
+
+    creds="$(printf 'protocol=https\nhost=github.com\n\n' | git credential-osxkeychain get 2>/dev/null || true)"
+    username="$(printf '%s\n' "$creds" | sed -n 's/^username=//p' | head -n 1)"
+    password="$(printf '%s\n' "$creds" | sed -n 's/^password=//p' | head -n 1)"
+
+    if [ -n "$username" ] && [ -n "$password" ]; then
+        auth_header="$(printf '%s:%s' "$username" "$password" | base64 | tr -d '\n')"
+        git -c credential.helper= \
+            -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth_header" \
+            push origin main
+        return
+    fi
+
+    token=""
+    if command -v gh >/dev/null 2>&1; then
+        token="$(gh auth token 2>/dev/null || true)"
+    fi
+
+    if [ -n "$token" ]; then
+        local auth_header
+        auth_header="$(printf 'x-access-token:%s' "$token" | base64 | tr -d '\n')"
+        git -c credential.helper= \
+            -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth_header" \
+            push origin main
+    else
+        git push origin main
+    fi
+}
 
 cd "$PROJECT_DIR"
 
@@ -32,7 +64,7 @@ node scripts/fetch-data.js >> "$LOG_FILE" 2>&1
 git add data.json
 if ! git diff --cached --quiet; then
     git commit -m "chore: 更新每日数据 - $(date +'%Y-%m-%d')" >> "$LOG_FILE" 2>&1
-    git push origin main >> "$LOG_FILE" 2>&1
+    push_with_auth >> "$LOG_FILE" 2>&1
     echo "$(date): 数据已更新并推送到 GitHub" >> "$LOG_FILE"
 else
     echo "$(date): 没有新数据需要更新" >> "$LOG_FILE"

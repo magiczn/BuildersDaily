@@ -16,6 +16,8 @@
 
     <key>EnvironmentVariables</key>
     <dict>
+      <key>HOME</key>
+      <string>/Users/zhaonan</string>
       <key>PATH</key>
       <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
       <key>X_LIST_MONITOR_DIR</key>
