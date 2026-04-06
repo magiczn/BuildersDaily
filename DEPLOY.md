@@ -5,7 +5,7 @@
 ```
 你的服务器/VPS          GitHub Pages
     ↓                       ↓
-定时运行脚本 ──→ 先更新 x-list-monitor ──→ 再更新 data.json ──→ 前端 fetch 数据
+定时运行脚本 ──→ 先更新本地采集数据 ──→ 再更新 data.json ──→ 前端 fetch 数据
    (本地浏览器登录态)             (纯静态托管)
 ```
 
@@ -16,7 +16,7 @@
 在你的机器上确保已安装：
 - Node.js 18+
 - Git
-- x-list-monitor（已配置好登录态和 listUrl）
+- BuildersDaily（已配置好登录态和 listUrl）
 
 ### 2. 设置 GitHub Token
 
@@ -39,14 +39,14 @@ source ~/.bashrc
 ### 3. 测试运行
 
 ```bash
-cd /Users/zhaonan/0-Projects/NDN-NanDailyNews
+cd /Users/zhaonan/0-Projects/BuildersDaily
 bash scripts/daily-update.sh
 ```
 
 如果成功，你会看到：
 ```
 === Tue Mar 25 17:10:00 CST 2026 ===
-更新 x-list-monitor 数据...
+更新本地采集数据...
 生成 NDN data.json...
 Tue Mar 25 17:10:12 CST 2026: 数据已更新并推送到 GitHub
 ```
@@ -60,7 +60,7 @@ crontab -e
 添加以下行（每天早上8点运行）：
 
 ```cron
-0 12 * * * cd /Users/zhaonan/0-Projects/NDN-NanDailyNews && bash scripts/daily-update.sh >> /var/log/builders-digest.log 2>&1
+0 12 * * * cd /Users/zhaonan/0-Projects/BuildersDaily && bash scripts/daily-update.sh >> /var/log/builders-digest.log 2>&1
 ```
 
 查看日志：
@@ -70,56 +70,20 @@ tail -f /var/log/builders-digest.log
 
 ---
 
-## 方案二：本地电脑手动/半自动更新
+## 方案二：本地电脑手动更新
 
-如果你不想用服务器，可以在本地电脑更新：
-
-### 快速更新脚本
+如果你不想用服务器，可以直接在本地跑完整流程：
 
 ```bash
-# 创建快捷命令
-alias update-digest='cd ~/0-Projects/NDN-NanDailyNews && node -e "
-const fs = require(\"fs\");
-const path = require(\"path\");
-const { execSync } = require(\"child_process\");
+cd /Users/zhaonan/0-Projects/BuildersDaily
+bash scripts/daily-update.sh
+```
 
-const skillPath = process.env.HOME + \"/.agents/skills/follow-builders\";
-const prepareScript = path.join(skillPath, \"scripts/prepare-digest.js\");
+如果只想更新页面数据，不抓取新推文：
 
-console.log(\"Fetching data...\");
-const result = execSync(\`cd \${path.dirname(prepareScript)} && node prepare-digest.js 2>/dev/null\`, { encoding: \"utf-8\" });
-const data = JSON.parse(result);
-
-const builders = [];
-if (data.x) {
-  for (const builder of data.x) {
-    if (builder.tweets && builder.tweets.length > 0) {
-      const tweet = builder.tweets[0];
-      builders.push({
-        name: builder.name,
-        handle: builder.handle,
-        role: builder.bio || \"AI Builder\",
-        avatar: builder.name.split(\" \").map(n => n[0]).join(\"\").substring(0, 2).toUpperCase(),
-        summary: tweet.text.substring(0, 150) + (tweet.text.length > 150 ? \"...\" : \"\"),
-        summaryEn: tweet.text,
-        url: tweet.url || \`https://x.com/\${builder.handle}\`,
-        verified: builder.verified || false
-      });
-    }
-  }
-}
-
-fs.writeFileSync(\"data.json\", JSON.stringify(builders, null, 2));
-console.log(\`Updated with \${builders.length} items\`);
-"
-
-# 运行更新
-update-digest
-
-# 提交到 GitHub
-git add data.json
-git commit -m "Update: $(date +%Y-%m-%d)"
-git push
+```bash
+cd /Users/zhaonan/0-Projects/BuildersDaily
+node scripts/fetch-data.js
 ```
 
 ---
@@ -140,7 +104,7 @@ git push
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/scripts/daily-update.sh</string>
+        <string>/Users/zhaonan/0-Projects/BuildersDaily/scripts/daily-update.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -150,9 +114,9 @@ git push
         <integer>0</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/logs/launchd.stdout.log</string>
+    <string>/Users/zhaonan/0-Projects/BuildersDaily/logs/launchd.stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/logs/launchd.stderr.log</string>
+    <string>/Users/zhaonan/0-Projects/BuildersDaily/logs/launchd.stderr.log</string>
 </dict>
 </plist>
 ```
@@ -161,7 +125,7 @@ git push
 
 ```bash
 mkdir -p ~/Library/LaunchAgents
-cp /Users/zhaonan/0-Projects/NDN-NanDailyNews/launchd/com.ndn.daily-update.plist ~/Library/LaunchAgents/com.ndn.daily-update.plist
+cp /Users/zhaonan/0-Projects/BuildersDaily/launchd/com.ndn.daily-update.plist ~/Library/LaunchAgents/com.ndn.daily-update.plist
 launchctl unload ~/Library/LaunchAgents/com.ndn.daily-update.plist 2>/dev/null
 launchctl load ~/Library/LaunchAgents/com.ndn.daily-update.plist
 ```
@@ -192,18 +156,18 @@ async function loadData() {
 
 解决：检查 token 是否有 `repo` 权限，且未过期
 
-### 2. x-list-monitor 找不到
+### 2. 本地采集目录找不到
 
-错误：`未找到 x-list-monitor 目录`
+错误：`未找到采集项目目录`
 
-解决：检查 `X_LIST_MONITOR_DIR` 环境变量，或确认本地项目已存在
+解决：检查 `X_LIST_MONITOR_DIR` 环境变量，或确认 `BuildersDaily` 根目录存在
 
 ### 3. 没有新数据
 
 如果 `posts.json` 内容为空或太旧，检查：
-- x-list-monitor 的 `.auth/user.json` 是否已失效
+- `.auth/user.json` 是否已失效
 - `config/monitor.json` 里的 `listUrl` 是否正确
-- 手动运行 `cd /Users/zhaonan/0-Projects/x-list-monitor && npm run daily` 是否成功
+- 手动运行 `cd /Users/zhaonan/0-Projects/BuildersDaily && npm run daily` 是否成功
 
 ---
 

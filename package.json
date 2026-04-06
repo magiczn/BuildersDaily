@@ -1,0 +1,17 @@
+{
+  "name": "buildersdaily",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "BuildersDaily local X collector and static site workflow.",
+  "scripts": {
+    "login": "node scripts/login.mjs",
+    "import:cookies": "node scripts/import-cookies.mjs",
+    "fetch:list": "node scripts/fetch-list.mjs",
+    "digest": "node scripts/digest.mjs",
+    "daily": "node scripts/fetch-list.mjs && node scripts/digest.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2"
+  }
+}

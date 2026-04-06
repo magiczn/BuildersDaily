@@ -1,0 +1,23 @@
+{
+  "listUrl": "https://x.com/i/lists/2036691714526830897",
+  "timezone": "Asia/Shanghai",
+  "lookbackHours": 36,
+  "digestHours": 24,
+  "maxScrolls": 10,
+  "minScrolls": 5,
+  "scrollPauseMs": 1500,
+  "settleDelayMs": 1200,
+  "maxNoNewPostScrolls": 3,
+  "headless": true,
+  "includeReplies": false,
+  "includeReposts": false,
+  "fetchHotComments": true,
+  "minCommentLikes": 5,
+  "minCommentTargetScore": 120,
+  "maxHotCommentsPerPost": 3,
+  "maxCommentPostsPerRun": 10,
+  "maxCommentScrolls": 3,
+  "commentScrollPauseMs": 1000,
+  "commentSettleDelayMs": 1200,
+  "includeAuthorRepliesInHotComments": false
+}

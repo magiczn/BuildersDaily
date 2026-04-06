@@ -4,7 +4,7 @@
 
 ## 在线体验
 
-访问: https://magiczn.github.io/nan-builders-digest
+访问: https://buildersdaily.today
 
 ## 功能特点
 
@@ -25,7 +25,7 @@
 
 ## 数据来源
 
-内容默认优先来自本地 [x-list-monitor](/Users/zhaonan/0-Projects/x-list-monitor) 抓取结果；如果本地数据不可用，则回退到 [follow-builders](https://github.com/zarazhangrui/follow-builders) Skill。
+内容默认优先来自当前项目本地采集结果；如果本地数据不可用，则回退到 [follow-builders](https://github.com/zarazhangrui/follow-builders) Skill。
 
 跟踪以下领域的顶级 AI Builder:
 - AI 研究员和工程师
@@ -38,27 +38,42 @@
 - 无需构建工具，单文件部署
 - 响应式设计，适配移动端和桌面端
 
+## 首次配置
+
+```bash
+cd /Users/zhaonan/0-Projects/BuildersDaily
+npm install
+npx playwright install chromium
+cp config/monitor.example.json config/monitor.json
+```
+
+然后：
+
+- 在 `config/monitor.json` 里填好你的 `listUrl`
+- 运行 `npm run login` 保存 X 登录态
+- 如果自动登录受限，可以导出 `x.com` cookies 到 `config/x.cookies.json` 后执行 `npm run import:cookies`
+
 ## 本地运行
 
 ```bash
 git clone https://github.com/magiczn/nan-builders-digest.git
 cd nan-builders-digest
-open ai-builders-digest.html
+open index.html
 ```
 
-或者直接双击 `ai-builders-digest.html` 文件在浏览器中打开。
+或者直接双击 `index.html` 文件在浏览器中打开。
 
 ## 数据更新
 
 ```bash
-cd /Users/zhaonan/0-Projects/NDN-NanDailyNews
+cd /Users/zhaonan/0-Projects/BuildersDaily
 node scripts/fetch-data.js
 ```
 
-如果要跑完整每日流水线（先更新本地 x-list-monitor，再更新 NDN 并提交 Git）：
+如果要跑完整每日流水线（先更新本地采集数据，再更新站点并提交 Git）：
 
 ```bash
-cd /Users/zhaonan/0-Projects/NDN-NanDailyNews
+cd /Users/zhaonan/0-Projects/BuildersDaily
 bash scripts/daily-update.sh
 ```
 
@@ -66,16 +81,16 @@ bash scripts/daily-update.sh
 
 ```bash
 mkdir -p ~/Library/LaunchAgents
-cp /Users/zhaonan/0-Projects/NDN-NanDailyNews/launchd/com.ndn.daily-update.plist ~/Library/LaunchAgents/com.ndn.daily-update.plist
+cp /Users/zhaonan/0-Projects/BuildersDaily/launchd/com.ndn.daily-update.plist ~/Library/LaunchAgents/com.ndn.daily-update.plist
 launchctl unload ~/Library/LaunchAgents/com.ndn.daily-update.plist 2>/dev/null
 launchctl load ~/Library/LaunchAgents/com.ndn.daily-update.plist
 ```
 
-默认每天中午 `12:00` 运行一次。
+默认每天 `07:00`、`12:00`、`16:00` 运行一次。
 
 可选环境变量：
 
-- `X_LIST_MONITOR_DIR`：本地 x-list-monitor 项目目录，默认 `/Users/zhaonan/0-Projects/x-list-monitor`
+- `X_LIST_MONITOR_DIR`：采集脚本工作目录，默认 `/Users/zhaonan/0-Projects/BuildersDaily`
 - `ZHIPU_API_KEY`：如果提供，会用智谱模型生成更深的 `AI 解读`
 - `AI_ANALYSIS_PROVIDER`：默认 `zhipu`
 - `AI_ANALYSIS_MODEL`：默认 `glm-4.7`
@@ -84,11 +99,11 @@ launchctl load ~/Library/LaunchAgents/com.ndn.daily-update.plist
 说明：
 
 - 如果没有配置模型 API Key，`AI 解读` 会自动回退到本地规则版，不会影响每日更新链路
-- `x-list-monitor` 现在会在源头过滤纯回复和纯转发，`posts.json` 会更干净
+- 采集脚本现在会在源头过滤纯回复和纯转发，`posts.json` 会更干净
 
 人物资料维护：
 
-- 在 [profiles.json](/Users/zhaonan/0-Projects/NDN-NanDailyNews/profiles.json) 里维护 `handle -> name / role / avatar / verified`
+- 在 [profiles.json](/Users/zhaonan/0-Projects/BuildersDaily/profiles.json) 里维护 `handle -> name / role / avatar / verified`
 - 每次更新完资料后重新运行 `node scripts/fetch-data.js`
 
 ## License

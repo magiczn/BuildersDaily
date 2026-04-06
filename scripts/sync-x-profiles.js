@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const LOCAL_X_MONITOR_DIR = process.env.X_LIST_MONITOR_DIR ||
-  '/Users/zhaonan/0-Projects/x-list-monitor';
+  path.resolve(__dirname, '..');
 const PROFILES_PATH = path.join(__dirname, '..', 'profiles.json');
 const AUTH_FILE = path.join(LOCAL_X_MONITOR_DIR, '.auth', 'user.json');
 const PLAYWRIGHT_MODULE = path.join(LOCAL_X_MONITOR_DIR, 'node_modules', 'playwright');

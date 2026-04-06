@@ -2,10 +2,13 @@
 
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+DEFAULT_X_LIST_MONITOR_DIR="$PROJECT_DIR"
+
 # 每日更新脚本
 export HOME="${HOME:-/Users/zhaonan}"
-PROJECT_DIR="/Users/zhaonan/0-Projects/NDN-NanDailyNews"
-X_LIST_MONITOR_DIR="${X_LIST_MONITOR_DIR:-/Users/zhaonan/0-Projects/x-list-monitor}"
+X_LIST_MONITOR_DIR="${X_LIST_MONITOR_DIR:-$DEFAULT_X_LIST_MONITOR_DIR}"
 LOG_FILE="/tmp/nan-builders-$(date +%Y-%m-%d).log"
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
@@ -44,15 +47,15 @@ cd "$PROJECT_DIR"
 
 echo "=== $(date) ===" >> "$LOG_FILE"
 
-# 先更新本地 x-list-monitor 数据池
-echo "更新 x-list-monitor 数据..." >> "$LOG_FILE"
-if [ -d "$X_LIST_MONITOR_DIR" ]; then
+# 先更新本地采集数据池
+echo "更新本地采集数据..." >> "$LOG_FILE"
+if [ -f "$X_LIST_MONITOR_DIR/package.json" ]; then
     cd "$X_LIST_MONITOR_DIR"
     if ! npm run daily >> "$LOG_FILE" 2>&1; then
-        echo "x-list-monitor 更新失败，继续使用已有数据或后备数据源。" >> "$LOG_FILE"
+        echo "本地采集更新失败，继续使用已有数据或后备数据源。" >> "$LOG_FILE"
     fi
 else
-    echo "未找到 x-list-monitor 目录: $X_LIST_MONITOR_DIR" >> "$LOG_FILE"
+    echo "未找到采集项目目录: $X_LIST_MONITOR_DIR" >> "$LOG_FILE"
 fi
 
 # 再生成 NDN data.json

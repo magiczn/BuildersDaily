@@ -6,12 +6,12 @@
     <string>com.ndn.daily-update</string>
 
     <key>WorkingDirectory</key>
-    <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews</string>
+    <string>/Users/zhaonan/0-Projects/BuildersDaily</string>
 
     <key>ProgramArguments</key>
     <array>
       <string>/bin/bash</string>
-      <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/scripts/daily-update.sh</string>
+      <string>/Users/zhaonan/0-Projects/BuildersDaily/scripts/daily-update.sh</string>
     </array>
 
     <key>EnvironmentVariables</key>
@@ -21,22 +21,36 @@
       <key>PATH</key>
       <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
       <key>X_LIST_MONITOR_DIR</key>
-      <string>/Users/zhaonan/0-Projects/x-list-monitor</string>
+      <string>/Users/zhaonan/0-Projects/BuildersDaily</string>
     </dict>
 
     <key>StartCalendarInterval</key>
-    <dict>
-      <key>Hour</key>
-      <integer>12</integer>
-      <key>Minute</key>
-      <integer>0</integer>
-    </dict>
+    <array>
+      <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Hour</key>
+        <integer>12</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Hour</key>
+        <integer>16</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+      </dict>
+    </array>
 
     <key>StandardOutPath</key>
-    <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/logs/launchd.stdout.log</string>
+    <string>/Users/zhaonan/0-Projects/BuildersDaily/logs/launchd.stdout.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/zhaonan/0-Projects/NDN-NanDailyNews/logs/launchd.stderr.log</string>
+    <string>/Users/zhaonan/0-Projects/BuildersDaily/logs/launchd.stderr.log</string>
 
     <key>RunAtLoad</key>
     <false/>

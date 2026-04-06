@@ -3,7 +3,7 @@ const path = require('path');
 const { syncProfilesFromX } = require('./sync-x-profiles');
 
 const LOCAL_X_MONITOR_DIR = process.env.X_LIST_MONITOR_DIR ||
-  '/Users/zhaonan/0-Projects/x-list-monitor';
+  path.resolve(__dirname, '..');
 const PROFILES_PATH = path.join(__dirname, '..', 'profiles.json');
 const ENV_PATH = path.join(__dirname, '..', '.env');
 const ZHIPU_CHAT_COMPLETIONS_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
@@ -1089,17 +1089,17 @@ function buildBuilderEntry(post, metadataCache, commentState) {
   };
 }
 
-// 从本地 x-list-monitor 获取数据
+// 从本地采集数据获取内容
 async function fetchFromLocalXList() {
   try {
     const postsPath = path.join(LOCAL_X_MONITOR_DIR, 'data', 'posts.json');
 
     if (!fs.existsSync(postsPath)) {
-      console.log(`Local x-list-monitor posts not found at ${postsPath}`);
+      console.log(`Local posts not found at ${postsPath}`);
       return null;
     }
 
-    console.log(`Found local x-list-monitor data, loading from ${postsPath}...`);
+    console.log(`Found local posts data, loading from ${postsPath}...`);
 
     const posts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
     const thresholdMs = Date.now() - 24 * 60 * 60 * 1000;
@@ -1162,13 +1162,13 @@ async function fetchFromLocalXList() {
       hotComments: []
     });
 
-    console.log(`Built ${builders.length} cards from local x-list-monitor data`);
+    console.log(`Built ${builders.length} cards from local posts data`);
 
     if (builders.length > 0) {
       return builders;
     }
   } catch (error) {
-    console.log('Could not fetch from local x-list-monitor:', error.message);
+    console.log('Could not fetch from local posts data:', error.message);
   }
 
   return null;

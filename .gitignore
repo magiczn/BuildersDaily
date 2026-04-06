@@ -1,14 +1,22 @@
 # 依赖
 node_modules/
 
-# 构建输出
-dist/
-*.log
+# 生成数据
+data/
+logs/
+.auth/
 
-# 环境变量（敏感信息）
+# 本地配置（敏感信息）
 .env
 .env.local
 .env.*.local
+config/monitor.json
+config/x.cookies.json
+
+# 构建输出 / 缓存
+dist/
+*.log
+playwright/.cache/
 
 # OS
 .DS_Store
