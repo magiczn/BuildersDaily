@@ -8,6 +8,7 @@
     "import:cookies": "node scripts/import-cookies.mjs",
     "fetch:list": "node scripts/fetch-list.mjs",
     "digest": "node scripts/digest.mjs",
+    "wechat:digest": "node scripts/wechat-digest.mjs",
     "daily": "node scripts/fetch-list.mjs && node scripts/digest.mjs"
   },
   "dependencies": {
