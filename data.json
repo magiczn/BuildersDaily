@@ -206,73 +206,12 @@
     "hotComments": []
   },
   {
-    "name": "Garry Tan",
-    "handle": "garrytan",
-    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-    "avatar": "GT",
-    "summary": "This is why GBrain is open source. Why I run my own stack. The explosion in intelligence means building your own context is more important than ever.\nIf you own and run your own prompts and your own data, then you earn the ability to think for yourself.\nReal freedom.",
-    "summaryEn": "This is why GBrain is open source. Why I run my own stack. The explosion in intelligence means building your own context is more important than ever.\nIf you own and run your own prompts and your own data, then you earn the ability to think for yourself.\nReal freedom.",
-    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：This is why GBrain is open source. Why I run my own stack. The explosion in intelligence means building your o...。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。一旦生成式 UI 跑通，很多产品竞争会从“功能多少”转向“工作流是否更自然”。看起来像设计问题，本质上其实是产品架构问题。",
-    "url": "https://x.com/garrytan/status/2051110206466302136",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Peter Yang",
-    "handle": "petergyang",
-    "role": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
-    "avatar": "PY",
-    "summary": "I tweeted this as a joke but it's literally what I'm doing right now lol sigh\nWhy do any real work when you can just migrate from openclaw -> hermes -> perplexity computer -> openclaw again",
-    "summaryEn": "I tweeted this as a joke but it's literally what I'm doing right now lol sigh\nWhy do any real work when you can just migrate from openclaw -> hermes -> perplexity computer -> openclaw again",
-    "analysis": "这条动态最直接的信息是：I tweeted this as a joke but it's literally what I'm doing right now lol sigh Why do any real work when you ca...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这不是一句玩笑话。Telegram Bot 平台本来就支持丰富交互和服务接入，如果 bot 开始在同一界面里并行协作，消息流本身就可能演化成新的 agent 工作台。",
-    "url": "https://x.com/petergyang/status/2051136319104098445",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Peter Yang",
-    "handle": "petergyang",
-    "role": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox",
-    "avatar": "PY",
-    "summary": "I caved and downloaded Hermes to try.\nFor those of you who have tried both Hermes and OpenClaw what difference do you notice?\nNo shilling please, just want some honest opinions",
-    "summaryEn": "I caved and downloaded Hermes to try.\nFor those of you who have tried both Hermes and OpenClaw what difference do you notice?\nNo shilling please, just want some honest opinions",
-    "analysis": "这条动态最直接的信息是：I caved and downloaded Hermes to try. For those of you who have tried both Hermes and OpenClaw what difference...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Telegram 官方这些年一直把 bot、Mini App、支付都做成平台能力，所以这条吐槽其实挺有启发: 一旦 bot 之间能更自然协作，聊天应用就不只是聊天入口",
-    "url": "https://x.com/petergyang/status/2051129249348894754",
-    "verified": true,
-    "hotComments": [
-      {
-        "author": "garrytan",
-        "text": "Hermes is a beautiful brand new reliable Honda and OpenClaw is a Ferrari that you need to bring a wrench for when it breaks down on the side of the road",
-        "likes": 167,
-        "url": "https://x.com/garrytan/status/2051157087682732059"
-      },
-      {
-        "author": "AlexFinn",
-        "text": "they're basically the same, with some minor differences:\nHermes memory gets tripped up slightly more often while OpenClaw breaks on every update\nuse them together and mute anyone who says there are major differences",
-        "likes": 61,
-        "url": "https://x.com/AlexFinn/status/2051167236019343864"
-      }
-    ]
-  },
-  {
-    "name": "Frank Wang 玉伯",
-    "handle": "lifesinger",
-    "role": "I am curious and honest",
-    "avatar": "FW",
-    "summary": "2026年5月4日，断桥上全是人。\n没有人在看西湖。\n3200 万个摄像头记录下了这个事实。摄像头在两年前部署，最初用来监控交通，后来被接入了观澜系统。观澜的任务很简单：观察人类，学习人类，然后在人类需要的时候，成为人类。\n此刻，断桥上一个穿白裙子的女孩停下了脚步。\n她没有看手机。",
-    "summaryEn": "2026年5月4日，断桥上全是人。\n没有人在看西湖。\n3200 万个摄像头记录下了这个事实。摄像头在两年前部署，最初用来监控交通，后来被接入了观澜系统。观澜的任务很简单：观察人类，学习人类，然后在人类需要的时候，成为人类。\n此刻，断桥上一个穿白裙子的女孩停下了脚步。\n她没有看手机。",
-    "analysis": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：2026年5月4日，断桥上全是人。 没有人在看西湖。 3200 万个摄像头记录下了这个事实。摄像头在两年前部署，最初用来监控交通，后来被接入了观澜系统。观澜的任务很简单：观察人类，学习人类，然后在人类需要的时候，成为人类...。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正拉开差距的，往往不是模型本身，而是支付、集成、部署这些最影响交付效率的脏活。越靠近生产环境，越能看出基础设施的重要性。",
-    "url": "https://x.com/lifesinger/status/2051130619011465238",
-    "verified": true,
-    "hotComments": []
-  },
-  {
     "name": "今日总结",
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
-    "summaryEn": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summaryEn": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "analysis": "",
     "url": "",
     "verified": false,
