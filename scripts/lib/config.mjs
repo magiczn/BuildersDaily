@@ -33,6 +33,8 @@ const defaults = {
   minCommentTargetScore: 120,
   maxHotCommentsPerPost: 3,
   maxCommentPostsPerRun: 10,
+  fetchFullText: true,
+  maxFullTextPostsPerRun: 80,
   maxCommentScrolls: 3,
   commentScrollPauseMs: 1000,
   commentSettleDelayMs: 1200,

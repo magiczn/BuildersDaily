@@ -172,6 +172,41 @@ function normalizeComment(rawComment) {
   };
 }
 
+async function collectFullPostText(detailPage, post, config) {
+  if (!config.fetchFullText || !post?.statusUrl || !post?.id) {
+    return post;
+  }
+
+  try {
+    await detailPage.goto(post.statusUrl, { waitUntil: "domcontentloaded", timeout: 60_000 });
+    await detailPage.waitForTimeout(config.commentSettleDelayMs);
+
+    const fullText = await detailPage.evaluate((postId) => {
+      const articles = Array.from(document.querySelectorAll('article[data-testid="tweet"]'));
+      const original = articles.find((article) => {
+        const href = article.querySelector("time")?.closest("a")?.href || "";
+        return href.includes(`/status/${postId}`);
+      }) || articles[0];
+
+      return Array.from(original?.querySelectorAll('[data-testid="tweetText"]') || [])
+        .map((node) => node.innerText.trim())
+        .filter(Boolean)
+        .join("\n");
+    }, post.id);
+
+    if (fullText && fullText.length > (post.text || "").length) {
+      return {
+        ...post,
+        text: fullText.replace(/\s+\n/g, "\n").trim()
+      };
+    }
+  } catch (error) {
+    console.warn(`Could not collect full text for ${post.statusUrl}: ${error.message}`);
+  }
+
+  return post;
+}
+
 function shouldKeepComment(comment, post, config) {
   if (!comment?.id || !comment?.author || !comment?.text) {
     return false;
@@ -356,6 +391,32 @@ async function main() {
     .filter((post) => post.commentTargetScore >= config.minCommentTargetScore)
     .slice(0, config.maxCommentPostsPerRun)
     .map(({ commentTargetScore, ...post }) => post);
+
+  const fullTextTargets = Array.from(collected.values())
+    .filter((post) => shouldKeepPost(post, config))
+    .filter((post) => Date.parse(post.timestamp) >= thresholdMs)
+    .sort((a, b) => Date.parse(b.timestamp) - Date.parse(a.timestamp))
+    .slice(0, config.maxFullTextPostsPerRun);
+
+  if (config.fetchFullText && fullTextTargets.length > 0) {
+    console.log(`Collecting full text for ${fullTextTargets.length} posts...`);
+    const detailPage = await context.newPage();
+
+    try {
+      for (let index = 0; index < fullTextTargets.length; index += 1) {
+        const target = fullTextTargets[index];
+        const enriched = await collectFullPostText(detailPage, target, config);
+        collected.set(target.id, enriched);
+        if ((enriched.text || "").length > (target.text || "").length) {
+          console.log(
+            `Full text ${index + 1}/${fullTextTargets.length}: ${target.author} ${target.id} ${target.text.length} -> ${enriched.text.length}`
+          );
+        }
+      }
+    } finally {
+      await detailPage.close().catch(() => {});
+    }
+  }
 
   if (config.fetchHotComments && selectedCommentTargets.length > 0) {
     console.log(`Collecting hot comments for ${selectedCommentTargets.length} posts...`);
