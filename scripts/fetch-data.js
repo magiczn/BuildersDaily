@@ -10,7 +10,61 @@ const ZHIPU_CHAT_COMPLETIONS_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/co
 const MIN_MODEL_ANALYSIS_LENGTH = 88;
 const MAX_CARD_SUMMARY_LENGTH = 600;
 const SHOULD_SKIP_PROFILE_SYNC = process.env.SKIP_PROFILE_SYNC === '1';
+const LOCAL_TIME_ZONE = process.env.BUILDERS_DAILY_TIMEZONE || process.env.TZ || 'Asia/Shanghai';
 let envLoaded = false;
+
+class StaleSourceDataError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = 'StaleSourceDataError';
+  }
+}
+
+function formatDateInTimeZone(value = new Date(), timeZone = LOCAL_TIME_ZONE) {
+  const date = value instanceof Date ? value : new Date(value);
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${byType.year}-${byType.month}-${byType.day}`;
+}
+
+function getPostTimestamp(post) {
+  return post?.timestamp || post?.createdAt || post?.created_at || post?.fetchedAt || '';
+}
+
+function assertPostsContainCurrentLocalDate(posts, postsPath) {
+  const targetDate = process.env.BUILDERS_DAILY_DATE || formatDateInTimeZone();
+  let latestDate = '';
+  let todayCount = 0;
+
+  for (const post of posts) {
+    const timestamp = getPostTimestamp(post);
+    if (!timestamp || Number.isNaN(Date.parse(timestamp))) {
+      continue;
+    }
+
+    const localDate = formatDateInTimeZone(timestamp);
+    if (!latestDate || localDate > latestDate) {
+      latestDate = localDate;
+    }
+
+    if (localDate === targetDate) {
+      todayCount += 1;
+    }
+  }
+
+  if (todayCount === 0) {
+    throw new StaleSourceDataError(
+      `No source posts for ${targetDate} (${LOCAL_TIME_ZONE}) in ${postsPath}; latest source date is ${latestDate || 'unknown'}. Refusing to overwrite data.json.`
+    );
+  }
+
+  console.log(`Found ${todayCount} source posts for ${targetDate} (${LOCAL_TIME_ZONE}).`);
+}
 
 // 文本截断函数
 function truncateText(text, maxLength = 280) {
@@ -69,9 +123,13 @@ function loadEnvFile() {
 function getAiAnalysisConfig() {
   loadEnvFile();
 
-  const provider = (process.env.AI_ANALYSIS_PROVIDER || (process.env.ZHIPU_API_KEY ? 'zhipu' : ''))
+  const provider = (process.env.AI_ANALYSIS_PROVIDER || '')
     .trim()
     .toLowerCase();
+
+  if (!provider || provider === 'local' || provider === 'none' || provider === 'off') {
+    return null;
+  }
 
   if (provider !== 'zhipu' || !process.env.ZHIPU_API_KEY) {
     return null;
@@ -1095,21 +1153,25 @@ async function fetchFromLocalXList() {
     const postsPath = path.join(LOCAL_X_MONITOR_DIR, 'data', 'posts.json');
 
     if (!fs.existsSync(postsPath)) {
-      console.log(`Local posts not found at ${postsPath}`);
-      return null;
+      throw new StaleSourceDataError(`Local posts not found at ${postsPath}; refusing to overwrite data.json.`);
     }
 
     console.log(`Found local posts data, loading from ${postsPath}...`);
 
     const posts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
+    assertPostsContainCurrentLocalDate(posts, postsPath);
     const thresholdMs = Date.now() - 24 * 60 * 60 * 1000;
 
     const filteredPosts = posts
       .filter(post => post && post.author && post.text && post.statusUrl)
       .filter(post => !post.isReply && !post.isRepost)
       .filter(post => post.text.length >= 20 && !post.text.startsWith('http'))
-      .filter(post => Date.parse(post.timestamp) >= thresholdMs)
-      .sort((a, b) => Date.parse(b.timestamp) - Date.parse(a.timestamp));
+      .filter(post => Date.parse(getPostTimestamp(post)) >= thresholdMs)
+      .sort((a, b) => Date.parse(getPostTimestamp(b)) - Date.parse(getPostTimestamp(a)));
+
+    if (!filteredPosts.length) {
+      throw new StaleSourceDataError('Current source data exists, but no usable posts remain after filtering; refusing to overwrite data.json.');
+    }
 
     const activeHandles = Array.from(new Set(
       filteredPosts
@@ -1168,6 +1230,10 @@ async function fetchFromLocalXList() {
       return builders;
     }
   } catch (error) {
+    if (error instanceof StaleSourceDataError) {
+      throw error;
+    }
+
     console.log('Could not fetch from local posts data:', error.message);
   }
 
