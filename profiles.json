@@ -32,6 +32,14 @@
     "verified": true
   },
   {
+    "handle": "alonzuman",
+    "name": "alon",
+    "bio": "playing AI games with real friends @pops_fyi",
+    "role": "playing AI games with real friends @pops_fyi",
+    "avatar": "AL",
+    "verified": true
+  },
+  {
     "handle": "amasad",
     "name": "Amjad Masad",
     "role": "ceo @replit . civilizationist",
@@ -72,6 +80,22 @@
     "bio": "ceo @every | the only subscription you need to stay at the edge of AI"
   },
   {
+    "handle": "davemorin",
+    "name": "Dave Morin",
+    "bio": "Founder @OfflineVentures @Slow @Path • Chairman @Esalen • Board @OpenClaw • Early @Apple @Facebook • Podcast @MoreOrLessPod • Skier • Dad of 3",
+    "role": "Founder @OfflineVentures @Slow @Path • Chairman @Esalen • Board @OpenClaw • Early @Apple @Facebook • Podcast @MoreOrLessPod • Skier • Dad of 3",
+    "avatar": "DM",
+    "verified": true
+  },
+  {
+    "handle": "elliotchen100",
+    "name": "艾略特",
+    "bio": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
+    "role": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
+    "avatar": "EL",
+    "verified": true
+  },
+  {
     "handle": "elonmusk",
     "name": "Elon Musk",
     "role": "http://Terafab.ai",
@@ -110,6 +134,14 @@
     "avatar": "HW",
     "verified": true,
     "bio": "Design/Vibe/Shape macOS ► http://harness.today iOS ► http://handstime.app / http://lofidot.com / http://slabox.app early @bridge_surf @AFFiNEOfficial"
+  },
+  {
+    "handle": "j1ngb0",
+    "name": "jingbo",
+    "bio": "I never fully understand what I’m building, and that’s totally fine.",
+    "role": "I never fully understand what I’m building, and that’s totally fine.",
+    "avatar": "J1",
+    "verified": true
   },
   {
     "handle": "kenw_2",
@@ -176,6 +208,14 @@
     "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +"
   },
   {
+    "handle": "nordwild",
+    "name": "upwild 上野原",
+    "bio": "",
+    "role": "",
+    "avatar": "U上",
+    "verified": false
+  },
+  {
     "handle": "nurijanian",
     "name": "George from prodmgmt.world",
     "bio": "Can I make everyone a great product manager? I will do my best | Get my product management OS + AI skills for Claude Code/Cursor: http://prodmgmt.world",
@@ -216,11 +256,27 @@
     "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at http://creatoreconomy.so | Product at Roblox"
   },
   {
+    "handle": "ryanolsonk",
+    "name": "Ryan Olson",
+    "bio": "Fighting brainrot & misaligned AI feeds Cofounder @retrodotapp Former Director of Engineering @instagram",
+    "role": "Fighting brainrot & misaligned AI feeds Cofounder @retrodotapp Former Director of Engineering @instagram",
+    "avatar": "RO",
+    "verified": true
+  },
+  {
     "handle": "sama",
     "name": "Sam Altman",
     "bio": "AI is cool i guess",
     "role": "AI is cool i guess",
     "avatar": "SA",
+    "verified": true
+  },
+  {
+    "handle": "shaunmmaguire",
+    "name": "Shaun Maguire",
+    "bio": "Partner @sequoia // @caltech physics PhD // Views are my own",
+    "role": "Partner @sequoia // @caltech physics PhD // Views are my own",
+    "avatar": "SM",
     "verified": true
   },
   {
@@ -240,12 +296,36 @@
     "verified": true
   },
   {
+    "handle": "sterlingcrispin",
+    "name": "Sterling Crispin",
+    "bio": "Artist + Software Developer / Married to @Helen_Crispin_ / Previously AR-VR and Neurotech",
+    "role": "Artist + Software Developer / Married to @Helen_Crispin_ / Previously AR-VR and Neurotech",
+    "avatar": "SC",
+    "verified": true
+  },
+  {
+    "handle": "theaaron",
+    "name": "Aaron Makelky",
+    "bio": "Wyoming teacher → SF tech. I test AI tools so you don’t have to.",
+    "role": "Wyoming teacher → SF tech. I test AI tools so you don’t have to.",
+    "avatar": "AM",
+    "verified": true
+  },
+  {
     "handle": "thenanyu",
     "name": "Nan Yu",
     "role": "head of product @linear",
     "avatar": "NY",
     "verified": true,
     "bio": "head of product @linear"
+  },
+  {
+    "handle": "ti_morse",
+    "name": "Ti Morse",
+    "bio": "Interviewing the greats @Relentless | Forward Deployed Podcaster",
+    "role": "Interviewing the greats @Relentless | Forward Deployed Podcaster",
+    "avatar": "TM",
+    "verified": true
   },
   {
     "handle": "turingou",
