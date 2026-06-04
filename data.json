@@ -1,5 +1,29 @@
 [
   {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt Engineering | 商业思维 丨职场丨认知心理学 喜欢健身，玩游戏，和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "天天盯着百分比焦虑的人，和已经在搭本地兜底的人，一年后不是一个段位了，我们都需要思考自己属于哪一种？",
+    "summaryEn": "天天盯着百分比焦虑的人，和已经在搭本地兜底的人，一年后不是一个段位了，我们都需要思考自己属于哪一种？",
+    "analysis": "这条动态最直接的信息是：天天盯着百分比焦虑的人，和已经在搭本地兜底的人，一年后不是一个段位了，我们都需要思考自己属于哪一种？AYi 的身份接近“大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/AYi_AInotes/status/2062438971074859375",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt Engineering | 商业思维 丨职场丨认知心理学 喜欢健身，玩游戏，和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "关于Codex的使用，分享下我的一些思考，如果从前几天我分享的使用AI的底层心法是以道御术的角度看，省额度是术，看清生产力归谁管是道。\n如果你也在用 Codex，并且习惯把额度省着点用——\n我劝你看完这条再决定要不要继续省，\n昨天那次 reset，可能正好把你攒的 buffer 覆盖掉了。\nOpenAI Codex 负责人 Tibo（\n@thsottiaux\n）发帖，\n说过去 24 小时出了 3 次小可靠性事故，\n给所有付费计划统一重置了额度，配了一句 May the tokens flow again。\n评论区一片感谢，刷屏 Saint Tibo、he did it again，我翻了一圈，想说一句可能没人爱听的话，\n你这几天精打细算省下来的额度，大概率是白省了。\n先讲讲 Codex 这套额度怎么算的，没按 token，而是按推理时间（reasoning time）算的。\n一个 5 小时窗口，本地和云任务共用。\n据社区实测，Plus 计划下 GPT-5.4 大概跑 40 分钟推理就把这 5 小时额度烧到 100%，GPT-5.3 大概 60 分钟。\n也就是说你开个 /goal 让它自己 plan→act→test→iterate 连轴转，\n额度掉得比你想象快得多，你只看到一个百分比，看不见它每分钟在烧多少。\n现在把 reset 叠进来看，\n据社区讨论，这个 reset 很多时候不...",
+    "summaryEn": "关于Codex的使用，分享下我的一些思考，如果从前几天我分享的使用AI的底层心法是以道御术的角度看，省额度是术，看清生产力归谁管是道。\n如果你也在用 Codex，并且习惯把额度省着点用——\n我劝你看完这条再决定要不要继续省，\n昨天那次 reset，可能正好把你攒的 buffer 覆盖掉了。\nOpenAI Codex 负责人 Tibo（\n@thsottiaux\n）发帖，\n说过去 24 小时出了 3 次小可靠性事故，\n给所有付费计划统一重置了额度，配了一句 May the tokens flow again。\n评论区一片感谢，刷屏 Saint Tibo、he did it again，我翻了一圈，想说一句可能没人爱听的话，\n你这几天精打细算省下来的额度，大概率是白省了。\n先讲讲 Codex 这套额度怎么算的，没按 token，而是按推理时间（reasoning time）算的。\n一个 5 小时窗口，本地和云任务共用。\n据社区实测，Plus 计划下 GPT-5.4 大概跑 40 分钟推理就把这 5 小时额度烧到 100%，GPT-5.3 大概 60 分钟。\n也就是说你开个 /goal 让它自己 plan→act→test→iterate 连轴转，\n额度掉得比你想象快得多，你只看到一个百分比，看不见它每分钟在烧多少。\n现在把 reset 叠进来看，\n据社区讨论，这个 reset 很多时候不...",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：关于Codex的使用，分享下我的一些思考，如果从前几天我分享的使用AI的底层心法是以道御术的角度看，省额度是术，看清生产力归谁管是道。 如果你也在用 Codex，并且习惯把额度省着点用—— 我劝你看完这条再决定要不要继续...。AYi 的身份接近“大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/AYi_AInotes/status/2062438967790723372",
+    "verified": true,
+    "hotComments": []
+  },
+  {
     "name": "郭宇 guoyu.eth",
     "handle": "turingou",
     "role": "Retired. 只活一次等于没活。",
@@ -42,7 +66,7 @@
     "avatar": "OG",
     "summary": "佛教的研究母题是「苦」，苦是来源于人类动物性的永不满足。\n永不满足自然会带来痛苦，但同时也会带来把事情做成的执念。\n执念的背后是欲望，欲望如大象，我们每个人都是骑象人，我们的智慧是大象的 harness。\n著名的金刚经，其含义是这个经书的智慧如金刚般尖锐，能斩断一切无明烦恼。\n但若只是斩断，人生未免太过无趣。\n不如学会驾驭大象，信步闲庭，妙手偶得。\n永不满足的一体两面，是人类永恒之苦，也是人类进步之源。",
     "summaryEn": "佛教的研究母题是「苦」，苦是来源于人类动物性的永不满足。\n永不满足自然会带来痛苦，但同时也会带来把事情做成的执念。\n执念的背后是欲望，欲望如大象，我们每个人都是骑象人，我们的智慧是大象的 harness。\n著名的金刚经，其含义是这个经书的智慧如金刚般尖锐，能斩断一切无明烦恼。\n但若只是斩断，人生未免太过无趣。\n不如学会驾驭大象，信步闲庭，妙手偶得。\n永不满足的一体两面，是人类永恒之苦，也是人类进步之源。",
-    "analysis": "这条动态最直接的信息是：佛教的研究母题是「苦」，苦是来源于人类动物性的永不满足。 永不满足自然会带来痛苦，但同时也会带来把事情做成的执念。 执念的背后是欲望，欲望如大象，我们每个人都是骑象人，我们的智慧是大象的 harness。 著名的金刚经，...。Orange AI 的身份接近“we are already living in science fiction. building the o...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：佛教的研究母题是「苦」，苦是来源于人类动物性的永不满足。 永不满足自然会带来痛苦，但同时也会带来把事情做成的执念。 执念的背后是欲望，欲望如大象，我们每个人都是骑象人，我们的智慧是大象的 harness。 著名的金刚经，...。Orange AI 的身份接近“we are already living in science fiction. building the o...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
     "url": "https://x.com/oran_ge/status/2062355909545021773",
     "verified": true,
     "hotComments": []
@@ -57,7 +81,26 @@
     "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：App to App Store in 48 hours! When @Replit said I could publish an app on the Apple app store, I was up for th...。Amjad Masad 的身份接近“ceo @replit . civilizationist”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。开发门槛还在降，但产品判断、系统设计和工作流编排的门槛其实正在变高。写得出来越来越不稀缺，知道该写什么反而更关键。",
     "url": "https://x.com/amasad/status/2062369124609892655",
     "verified": true,
-    "hotComments": []
+    "hotComments": [
+      {
+        "author": "AodenTeoMT",
+        "text": "Today, we’re excited to introduce Miso One, the most emotive voice model in the world.\nMiso One is an 8-billion-parameter text-to-speech model for highly expressive speech generation. It emotes like a human and responds...",
+        "likes": 5892,
+        "url": "https://x.com/AodenTeoMT/status/2062204362102100295"
+      },
+      {
+        "author": "steijnpelle",
+        "text": "Today, we're introducing Lassie and $47M in funding led by a16z.\nWe're building AI that runs small businesses, starting with doctors' offices.\nLassie is already trusted by 700+ practices across the country, working auton...",
+        "likes": 2223,
+        "url": "https://x.com/steijnpelle/status/2062184922090246332"
+      },
+      {
+        "author": "ian_dot_so",
+        "text": "Things are going to get very wierd very soon\nToday, we’re excited to introduce Miso One, the most emotive voice model in the world.\nMiso One is an 8-billion-parameter text-to-speech model for highly expressive speech gen...",
+        "likes": 1753,
+        "url": "https://x.com/ian_dot_so/status/2062269826177868211"
+      }
+    ]
   },
   {
     "name": "Amjad Masad",
@@ -78,7 +121,7 @@
     "avatar": "EM",
     "summary": "SpaceX\nJoin a great team with high impact x.com/aarongrider/st…",
     "summaryEn": "SpaceX\nJoin a great team with high impact x.com/aarongrider/st…",
-    "analysis": "这条动态最直接的信息是：SpaceX Join a great team with high impact x.com/aarongrider/st…。Elon Musk 的身份接近“http://Terafab.ai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "analysis": "这条动态最直接的信息是：SpaceX Join a great team with high impact x.com/aarongrider/st…。Elon Musk 的身份接近“http://Terafab.ai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
     "url": "https://x.com/elonmusk/status/2062368716730564785",
     "verified": true,
     "hotComments": [
@@ -109,7 +152,7 @@
     "avatar": "EM",
     "summary": "Yup\nJesus fucking christ the SPLC organized the Charlottesville rally and paid $300K to transport people there hahahahaha x.com/tyler2oneil/st…",
     "summaryEn": "Yup\nJesus fucking christ the SPLC organized the Charlottesville rally and paid $300K to transport people there hahahahaha x.com/tyler2oneil/st…",
-    "analysis": "这条动态最直接的信息是：Yup Jesus fucking christ the SPLC organized the Charlottesville rally and paid $300K to transport people there...。Elon Musk 的身份接近“http://Terafab.ai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+    "analysis": "这条动态最直接的信息是：Yup Jesus fucking christ the SPLC organized the Charlottesville rally and paid $300K to transport people there...。Elon Musk 的身份接近“http://Terafab.ai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
     "url": "https://x.com/elonmusk/status/2062363827602362838",
     "verified": true,
     "hotComments": [
@@ -134,7 +177,7 @@
     "avatar": "LX",
     "summary": "昨天半夜用不了Codex，害得我又订阅Claude code了\n这AI只要不能用，就浑身刺挠呀！！\nHi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
     "summaryEn": "昨天半夜用不了Codex，害得我又订阅Claude code了\n这AI只要不能用，就浑身刺挠呀！！\nHi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
-    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：昨天半夜用不了Codex，害得我又订阅Claude code了 这AI只要不能用，就浑身刺挠呀！！ Hi. Over the last 24 hours we had three separate small incid...。铁锤人 的身份接近“我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：昨天半夜用不了Codex，害得我又订阅Claude code了 这AI只要不能用，就浑身刺挠呀！！ Hi. Over the last 24 hours we had three separate small incid...。铁锤人 的身份接近“我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
     "url": "https://x.com/lxfater/status/2062365605093937492",
     "verified": true,
     "hotComments": []
@@ -146,7 +189,7 @@
     "avatar": "LX",
     "summary": "结石再次排出，进入工作状态了\n结石在膀胱有啥感觉呀，感觉已经排到膀胱了，有病友医生解答一下吗？",
     "summaryEn": "结石再次排出，进入工作状态了\n结石在膀胱有啥感觉呀，感觉已经排到膀胱了，有病友医生解答一下吗？",
-    "analysis": "这条动态最直接的信息是：结石再次排出，进入工作状态了 结石在膀胱有啥感觉呀，感觉已经排到膀胱了，有病友医生解答一下吗？铁锤人 的身份接近“我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：结石再次排出，进入工作状态了 结石在膀胱有啥感觉呀，感觉已经排到膀胱了，有病友医生解答一下吗？铁锤人 的身份接近“我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
     "url": "https://x.com/lxfater/status/2062362997121822909",
     "verified": true,
     "hotComments": []
@@ -164,38 +207,14 @@
     "hotComments": []
   },
   {
-    "name": "Hwang",
-    "handle": "hwwaanng",
-    "role": "Design/Vibe/Shape macOS ► http://harness.today / iOS ► http://handstime.app / http://lofidot.com / http://slabox.app early @bridge_surf @AFFiNEOfficial",
-    "avatar": "HW",
-    "summary": "太艺术了，爱了\nSee a (very accurate) Rothko for how the weather feels, wherever you are.\nhttps://\nrothko.joonas.wtf",
-    "summaryEn": "太艺术了，爱了\nSee a (very accurate) Rothko for how the weather feels, wherever you are.\nhttps://\nrothko.joonas.wtf",
-    "analysis": "这条动态最直接的信息是：太艺术了，爱了 See a (very accurate) Rothko for how the weather feels, wherever you are. https:// rothko.joonas.wtf。Hwang 的身份接近“Design/Vibe/Shape macOS ► http://harness.today / iOS ► h...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-    "url": "https://x.com/hwwaanng/status/2062051454496764406",
-    "verified": true,
-    "hotComments": []
-  },
-  {
     "name": "歸藏(guizang.ai)",
     "handle": "op7418",
     "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
     "avatar": "OP",
     "summary": "Reve 2.0 这个图像模型强啊\n原生 4K 输出，主要是它支持类似于你在 PS 里用到的图像分层之后的编辑能力就。\n图像中的每一个部分，你点它就能选中。而且这个不需要中间的处理，他给你处理好了。就是你想要编辑哪个部分，就点哪个部分",
     "summaryEn": "Reve 2.0 这个图像模型强啊\n原生 4K 输出，主要是它支持类似于你在 PS 里用到的图像分层之后的编辑能力就。\n图像中的每一个部分，你点它就能选中。而且这个不需要中间的处理，他给你处理好了。就是你想要编辑哪个部分，就点哪个部分",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Reve 2.0 这个图像模型强啊 原生 4K 输出，主要是它支持类似于你在 PS 里用到的图像分层之后的编辑能力就。 图像中的每一个部分，你点它就能选中。而且这个不需要中间的处理，他给你处理好了。就是你想要编辑哪个部分...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Reve 2.0 这个图像模型强啊 原生 4K 输出，主要是它支持类似于你在 PS 里用到的图像分层之后的编辑能力就。 图像中的每一个部分，你点它就能选中。而且这个不需要中间的处理，他给你处理好了。就是你想要编辑哪个部分...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
     "url": "https://x.com/op7418/status/2062354974043152673",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "歸藏(guizang.ai)",
-    "handle": "op7418",
-    "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
-    "avatar": "OP",
-    "summary": "看来快手确实要分拆可灵单独上市了了。\n其实早就该搞，太晚了现在。",
-    "summaryEn": "看来快手确实要分拆可灵单独上市了了。\n其实早就该搞，太晚了现在。",
-    "analysis": "这条动态最直接的信息是：看来快手确实要分拆可灵单独上市了了。 其实早就该搞，太晚了现在。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/op7418/status/2062062986903359546",
     "verified": true,
     "hotComments": []
   },
@@ -206,20 +225,8 @@
     "avatar": "VI",
     "summary": "跟朋友聊天，他提到去年千问统计的年度Top10提示词，主题如下：\n1. 股票\n2. 八字\n3. 情感咨询\n4. 朋友圈文案\n5. 景点推荐\n6. 双色球号码\n7. 失眠\n8. 解答这道题\n9. 离婚财产分割\n10. 人生的意义\n总之，感觉用 AI 做 2C 出路很少。\n1. 搞钱/省钱/变聪明：直接产生经济回报或能力提升。炒股，折扣购物，副业流水线。\n消耗token获得产出物，产出物带来金钱。\n2. 懒人向/省时间：刷医院挂号、买火车票、把微信群里老婆交代的10件事自动加进日历和购物车。\n愿意付的钱少，因为个人时间不值钱。\n3. 情感/养成向，情绪价值：数字分身，宠物，玄学等。\n消耗token带来情绪满足",
     "summaryEn": "跟朋友聊天，他提到去年千问统计的年度Top10提示词，主题如下：\n1. 股票\n2. 八字\n3. 情感咨询\n4. 朋友圈文案\n5. 景点推荐\n6. 双色球号码\n7. 失眠\n8. 解答这道题\n9. 离婚财产分割\n10. 人生的意义\n总之，感觉用 AI 做 2C 出路很少。\n1. 搞钱/省钱/变聪明：直接产生经济回报或能力提升。炒股，折扣购物，副业流水线。\n消耗token获得产出物，产出物带来金钱。\n2. 懒人向/省时间：刷医院挂号、买火车票、把微信群里老婆交代的10件事自动加进日历和购物车。\n愿意付的钱少，因为个人时间不值钱。\n3. 情感/养成向，情绪价值：数字分身，宠物，玄学等。\n消耗token带来情绪满足",
-    "analysis": "这条动态最直接的信息是：跟朋友聊天，他提到去年千问统计的年度Top10提示词，主题如下： 1. 股票 2. 八字 3. 情感咨询 4. 朋友圈文案 5. 景点推荐 6. 双色球号码 7. 失眠 8. 解答这道题 9. 离婚财产分割 10. 人生...。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：跟朋友聊天，他提到去年千问统计的年度Top10提示词，主题如下： 1. 股票 2. 八字 3. 情感咨询 4. 朋友圈文案 5. 景点推荐 6. 双色球号码 7. 失眠 8. 解答这道题 9. 离婚财产分割 10. 人生...。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
     "url": "https://x.com/vista8/status/2062352885804093503",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "向阳乔木",
-    "handle": "vista8",
-    "role": "喜欢摇滚乐、爱钓鱼的PM",
-    "avatar": "VI",
-    "summary": "在杨攀群里看到的转帖，笑死了\n新智元：xxx 已死",
-    "summaryEn": "在杨攀群里看到的转帖，笑死了\n新智元：xxx 已死",
-    "analysis": "这条动态最直接的信息是：在杨攀群里看到的转帖，笑死了 新智元：xxx 已死。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-    "url": "https://x.com/vista8/status/2062030798996271594",
     "verified": true,
     "hotComments": []
   },
@@ -230,20 +237,8 @@
     "avatar": "GS",
     "summary": "今天重置了，可以多出一些故障，我能接受\n是不是该重置额度补偿一下。",
     "summaryEn": "今天重置了，可以多出一些故障，我能接受\n是不是该重置额度补偿一下。",
-    "analysis": "这条动态最直接的信息是：今天重置了，可以多出一些故障，我能接受 是不是该重置额度补偿一下。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+    "analysis": "这条动态最直接的信息是：今天重置了，可以多出一些故障，我能接受 是不是该重置额度补偿一下。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
     "url": "https://x.com/Gorden_Sun/status/2062348452491936237",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Gorden Sun",
-    "handle": "Gorden_Sun",
-    "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
-    "avatar": "GS",
-    "summary": "再开源一个技能：本地生成特效视频\n我也不知道有什么用，就是觉得好玩，类似AE合成特效的逻辑。\nGithub：\nhttps://\ngithub.com/GordenSun/Gord\nen-vfx-video\n…\n使用方法，把以下内容发给Agent：\n安装这个Skill，然后制作一个文字动画和特效，文字内容为“Gorden”，要求彩色文字、弹跳动画、文字上有划光。",
-    "summaryEn": "再开源一个技能：本地生成特效视频\n我也不知道有什么用，就是觉得好玩，类似AE合成特效的逻辑。\nGithub：\nhttps://\ngithub.com/GordenSun/Gord\nen-vfx-video\n…\n使用方法，把以下内容发给Agent：\n安装这个Skill，然后制作一个文字动画和特效，文字内容为“Gorden”，要求彩色文字、弹跳动画、文字上有划光。",
-    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：再开源一个技能：本地生成特效视频 我也不知道有什么用，就是觉得好玩，类似AE合成特效的逻辑。 Github： https:// github.com/GordenSun/Gord en-vfx-video … 使用方法，...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 demo 更值钱。",
-    "url": "https://x.com/Gorden_Sun/status/2062043400191492112",
     "verified": true,
     "hotComments": []
   },
@@ -278,7 +273,7 @@
     "avatar": "PY",
     "summary": "How do I make Codex the default tab when I open the ChatGPT app",
     "summaryEn": "How do I make Codex the default tab when I open the ChatGPT app",
-    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：How do I make Codex the default tab when I open the ChatGPT app。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：How do I make Codex the default tab when I open the ChatGPT app。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
     "url": "https://x.com/petergyang/status/2062327484499317124",
     "verified": true,
     "hotComments": []
@@ -290,8 +285,20 @@
     "avatar": "PY",
     "summary": "Codex is absolutely killing it this afternoon for editing spreadsheets for me.",
     "summaryEn": "Codex is absolutely killing it this afternoon for editing spreadsheets for me.",
-    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Codex is absolutely killing it this afternoon for editing spreadsheets for me.。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 现在最值得关注的，不是它能不能惊艳演示，而是能不能长期接管真实任务。只要还需要人频繁接管，它就很难变成真正的生产力。",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Codex is absolutely killing it this afternoon for editing spreadsheets for me.。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 demo 更值钱。",
     "url": "https://x.com/petergyang/status/2062283525542531194",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Dave Morin",
+    "handle": "davemorin",
+    "role": "Founder @OfflineVentures @Slow @Path • Chairman @Esalen • Board @OpenClaw • Early @Apple @Facebook • Podcast @MoreOrLessPod • Skier • Dad of 3",
+    "avatar": "DM",
+    "summary": "The reports of our death have been greatly exaggerated.\nWe never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week.",
+    "summaryEn": "The reports of our death have been greatly exaggerated.\nWe never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week.",
+    "analysis": "这条动态最直接的信息是：The reports of our death have been greatly exaggerated. We never had more npm downloads than this week on @ope...。Dave Morin 的身份接近“Founder @OfflineVentures @Slow @Path • Chairman @Esalen...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。工具越强，越说明开发者的价值会往判断力、架构力和工作流设计上迁移。以后真正贵的，不会是代码量，而是正确的技术和产品决策。",
+    "url": "https://x.com/davemorin/status/2062311687328498061",
     "verified": true,
     "hotComments": []
   },
@@ -314,7 +321,7 @@
     "avatar": "PS",
     "summary": "We never had more npm downloads than this week on\n@openclaw\n - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week.",
     "summaryEn": "We never had more npm downloads than this week on\n@openclaw\n - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week.",
-    "analysis": "这条动态最直接的信息是：We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal de...。Peter Steinberger 的身份接近“Polyagentmorous ClawFather. Came back from retirement to...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。工具越强，越说明开发者的价值会往判断力、架构力和工作流设计上迁移。以后真正贵的，不会是代码量，而是正确的技术和产品决策。",
+    "analysis": "这条动态最直接的信息是：We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal de...。Peter Steinberger 的身份接近“Polyagentmorous ClawFather. Came back from retirement to...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。代码生成越来越便宜之后，真正拉开差距的反而是怎么拆问题、怎么设计系统。谁更会组织任务，谁就更能把 AI 工具用成杠杆。",
     "url": "https://x.com/steipete/status/2062276065448669627",
     "verified": true,
     "hotComments": []
@@ -326,7 +333,7 @@
     "avatar": "GT",
     "summary": "San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore.\nEx-AOC aide's $10M campaign ends in humiliation as he bombs in every precinct\nhttps://\ntrib.al/c2FqPM0",
     "summaryEn": "San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore.\nEx-AOC aide's $10M campaign ends in humiliation as he bombs in every precinct\nhttps://\ntrib.al/c2FqPM0",
-    "analysis": "这条动态最直接的信息是：San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore. Ex-AOC aide's $10M ca...。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore. Ex-AOC aide's $10M ca...。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
     "url": "https://x.com/garrytan/status/2062285811366904091",
     "verified": true,
     "hotComments": [
@@ -369,7 +376,7 @@
     "avatar": "OP",
     "summary": "We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at enterprise scale.\nIt brings GPT-5.5’s agentic coding and tool use together with stronger intelligence for drug discovery, analysis, design, and experimental workflows.",
     "summaryEn": "We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at enterprise scale.\nIt brings GPT-5.5’s agentic coding and tool use together with stronger intelligence for drug discovery, analysis, design, and experimental workflows.",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at en...。OpenAI 的身份接近“OpenAI’s mission is to ensure that artificial general in...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at en...。OpenAI 的身份接近“OpenAI’s mission is to ensure that artificial general in...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。表面上像一次常规更新，实质上更像模型团队在给生态提前打路线灯。越早看懂方向，越有机会抢到上层产品的时间差。",
     "url": "https://x.com/OpenAI/status/2062281977122996256",
     "verified": true,
     "hotComments": [
@@ -394,13 +401,37 @@
     ]
   },
   {
+    "name": "艾略特",
+    "handle": "elliotchen100",
+    "role": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
+    "avatar": "EL",
+    "summary": "我们的开源库 EverOS 最近做了一次大重构，开发者体验也完成了从“拉”到“夯”的转变。\n以前做 AI memory，经常是在数据库、向量库、索引同步、依赖环境之间来回排查。\n记忆到底存在哪？为什么没召回？索引是不是坏了？很多时候都不直观。\n新版 EverOS 直接把原始记忆放进 Markdown。\n开发者可以像看代码一样看 memory：打开文件、搜索文本、看 Git diff、手动修正，必要时直接删除并重建索引。\n整个架构也更清楚：\n原始记忆 = Markdown\n运行状态 = SQLite\n检索索引 = LanceDB\nMarkdown 负责可读、可改、可迁移。\nSQLite 负责状态和队列。\nLanceDB 负责向量、全文和过滤检索。\n这样做的好处是，索引不再是单点故障。索引坏了可以从 Markdown 重建，检索慢了可以重新优化，但原始记忆始终是开发者能打开、理解和带走的文件。\n我们觉得 AI memory 如果想成为开发者基础设施，第一步不是做得多复杂，而是让开发者能看懂、能改、能恢复。",
+    "summaryEn": "我们的开源库 EverOS 最近做了一次大重构，开发者体验也完成了从“拉”到“夯”的转变。\n以前做 AI memory，经常是在数据库、向量库、索引同步、依赖环境之间来回排查。\n记忆到底存在哪？为什么没召回？索引是不是坏了？很多时候都不直观。\n新版 EverOS 直接把原始记忆放进 Markdown。\n开发者可以像看代码一样看 memory：打开文件、搜索文本、看 Git diff、手动修正，必要时直接删除并重建索引。\n整个架构也更清楚：\n原始记忆 = Markdown\n运行状态 = SQLite\n检索索引 = LanceDB\nMarkdown 负责可读、可改、可迁移。\nSQLite 负责状态和队列。\nLanceDB 负责向量、全文和过滤检索。\n这样做的好处是，索引不再是单点故障。索引坏了可以从 Markdown 重建，检索慢了可以重新优化，但原始记忆始终是开发者能打开、理解和带走的文件。\n我们觉得 AI memory 如果想成为开发者基础设施，第一步不是做得多复杂，而是让开发者能看懂、能改、能恢复。",
+    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：我们的开源库 EverOS 最近做了一次大重构，开发者体验也完成了从“拉”到“夯”的转变。 以前做 AI memory，经常是在数据库、向量库、索引同步、依赖环境之间来回排查。 记忆到底存在哪？为什么没召回？索引是不是坏...。艾略特 的身份接近“Building @EverMind - memory for self-evolving agents htt...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。如果生成式 UI 成为常态，未来不少产品的优势都会来自更顺滑的任务组织方式。届时 UI 本身会成为智能系统的一部分，而不是最后一层壳。",
+    "url": "https://x.com/elliotchen100/status/2062268602380915053",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "艾略特",
+    "handle": "elliotchen100",
+    "role": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
+    "avatar": "EL",
+    "summary": "表面上是 Claude Code 能自己生成 workflow，往深一层看，是 agent 产品的控制面在变化。\n过去我们把复杂任务塞进一个长 context，期待模型自己记住目标、拆步骤、判断完成；现在这些东西开始外化成可执行的 harness。\n真正重要的不是并行几个 subagents，而是任务结构、权限边界、验证机制和 stop condition，正在变成 agent 产品的一部分。",
+    "summaryEn": "表面上是 Claude Code 能自己生成 workflow，往深一层看，是 agent 产品的控制面在变化。\n过去我们把复杂任务塞进一个长 context，期待模型自己记住目标、拆步骤、判断完成；现在这些东西开始外化成可执行的 harness。\n真正重要的不是并行几个 subagents，而是任务结构、权限边界、验证机制和 stop condition，正在变成 agent 产品的一部分。",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：表面上是 Claude Code 能自己生成 workflow，往深一层看，是 agent 产品的控制面在变化。 过去我们把复杂任务塞进一个长 context，期待模型自己记住目标、拆步骤、判断完成；现在这些东西开始外化...。艾略特 的身份接近“Building @EverMind - memory for self-evolving agents htt...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/elliotchen100/status/2062196598441177376",
+    "verified": true,
+    "hotComments": []
+  },
+  {
     "name": "Zara Zhang",
     "handle": "zarazhangrui",
     "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
     "avatar": "ZZ",
     "summary": "Introducing the Beautiful Feishu Whiteboard skill:\nYour agent can now create EDITABLE SVG graphics in Feishu/Lark docs in 30+ predefined styles\nGreat for concept visualization, technical architecture diagrams, summarizing meetings/long documents, or even replacing PPTs\nThe best part is everything is completely editable (can even drag elements around)\nSkill link in comment",
     "summaryEn": "Introducing the Beautiful Feishu Whiteboard skill:\nYour agent can now create EDITABLE SVG graphics in Feishu/Lark docs in 30+ predefined styles\nGreat for concept visualization, technical architecture diagrams, summarizing meetings/long documents, or even replacing PPTs\nThe best part is everything is completely editable (can even drag elements around)\nSkill link in comment",
-    "analysis": "这条动态最直接的信息是：Introducing the Beautiful Feishu Whiteboard skill: Your agent can now create EDITABLE SVG graphics in Feishu/L...。Zara Zhang 的身份接近“Builder. Dangerously skips permissions. Harvard’17. GitH...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。当 Agent 开始进入真实工作流，竞争重点就会从能力展示转向可靠性和接入深度。模型在变强，但产品壁垒会越来越落在流程和系统接入上。",
+    "analysis": "这条动态最直接的信息是：Introducing the Beautiful Feishu Whiteboard skill: Your agent can now create EDITABLE SVG graphics in Feishu/L...。Zara Zhang 的身份接近“Builder. Dangerously skips permissions. Harvard’17. GitH...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 现在最值得关注的，不是它能不能惊艳演示，而是能不能长期接管真实任务。只要还需要人频繁接管，它就很难变成真正的生产力。",
     "url": "https://x.com/zarazhangrui/status/2062256374730699257",
     "verified": true,
     "hotComments": []
@@ -412,20 +443,8 @@
     "avatar": "YI",
     "summary": "许久没有看到 Hyperframes 这样让我眼前一亮的项目了! 很多自媒体远远没有发现它的真实价值...",
     "summaryEn": "许久没有看到 Hyperframes 这样让我眼前一亮的项目了! 很多自媒体远远没有发现它的真实价值...",
-    "analysis": "这条动态最直接的信息是：许久没有看到 Hyperframes 这样让我眼前一亮的项目了! 很多自媒体远远没有发现它的真实价值...。Yihui 的身份接近“- AI Coding： https://happyaicoding.com - AI Anime： https...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "analysis": "这条动态最直接的信息是：许久没有看到 Hyperframes 这样让我眼前一亮的项目了! 很多自媒体远远没有发现它的真实价值...。Yihui 的身份接近“- AI Coding： https://happyaicoding.com - AI Anime： https...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
     "url": "https://x.com/yihui_indie/status/2062247940924821855",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Yihui",
-    "handle": "yihui_indie",
-    "role": "- AI Coding： https://happyaicoding.com - AI Anime： https://mkanime.ai - Bilibili Up & Youtuber & Builder",
-    "avatar": "YI",
-    "summary": "最近家楼下开了一家熊太婆，快成我的食堂了。原来武汉的过早这么好吃！\n但我发现吃完副作用也很明显，晕碳太严重了..",
-    "summaryEn": "最近家楼下开了一家熊太婆，快成我的食堂了。原来武汉的过早这么好吃！\n但我发现吃完副作用也很明显，晕碳太严重了..",
-    "analysis": "这条动态最直接的信息是：最近家楼下开了一家熊太婆，快成我的食堂了。原来武汉的过早这么好吃！ 但我发现吃完副作用也很明显，晕碳太严重了..。Yihui 的身份接近“- AI Coding： https://happyaicoding.com - AI Anime： https...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/yihui_indie/status/2062055922755916145",
     "verified": true,
     "hotComments": []
   },
@@ -442,38 +461,14 @@
     "hotComments": []
   },
   {
-    "name": "Ken W",
-    "handle": "kenw_2",
-    "role": "An old friend, stay curious, stay human.",
-    "avatar": "KW",
-    "summary": "济南：我们的山姆没有被人偷吃，是造谣。\n山姆成了免费自助餐？\n有网友发帖称，在青岛山姆店内，售卖矿泉水的货架上有一盒吃剩的鸡骨头和使用过的纸巾手套。该网友质疑：“没到结账区可以这样吃？”\n该发帖网友西女士告诉记者，自己是5月15日开业当天看到的，“后续工作人员和我说是人太多了，管理不过来，的确存在疏忽。”",
-    "summaryEn": "济南：我们的山姆没有被人偷吃，是造谣。\n山姆成了免费自助餐？\n有网友发帖称，在青岛山姆店内，售卖矿泉水的货架上有一盒吃剩的鸡骨头和使用过的纸巾手套。该网友质疑：“没到结账区可以这样吃？”\n该发帖网友西女士告诉记者，自己是5月15日开业当天看到的，“后续工作人员和我说是人太多了，管理不过来，的确存在疏忽。”",
-    "analysis": "这条动态最直接的信息是：济南：我们的山姆没有被人偷吃，是造谣。 山姆成了免费自助餐？ 有网友发帖称，在青岛山姆店内，售卖矿泉水的货架上有一盒吃剩的鸡骨头和使用过的纸巾手套。该网友质疑：“没到结账区可以这样吃？” 该发帖网友西女士告诉记者，自己是...。Ken W 的身份接近“An old friend, stay curious, stay human.”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-    "url": "https://x.com/kenw_2/status/2062085254320386185",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "AYi",
-    "handle": "AYi_AInotes",
-    "role": "大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt Engineering | 商业思维 丨职场丨认知心理学 喜欢健身，玩游戏，和 4 只猫一起生活和工作",
-    "avatar": "阿A",
-    "summary": "世界最好的开源图像模型，\n仅次于GPT－image-2和Nanobanana2\nIntroducing Ideogram 4.0: the best open image model in the world.\nThink it. Make it. Own it.\nDownload the weights, fine-tune on your own data, and run it on your hardware. Live on every Ideogram plan and the API today.",
-    "summaryEn": "世界最好的开源图像模型，\n仅次于GPT－image-2和Nanobanana2\nIntroducing Ideogram 4.0: the best open image model in the world.\nThink it. Make it. Own it.\nDownload the weights, fine-tune on your own data, and run it on your hardware. Live on every Ideogram plan and the API today.",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：世界最好的开源图像模型， 仅次于GPT－image-2和Nanobanana2 Introducing Ideogram 4.0: the best open image model in the world. Thin...。AYi 的身份接近“大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。表面上像一次常规更新，实质上更像模型团队在给生态提前打路线灯。越早看懂方向，越有机会抢到上层产品的时间差。",
-    "url": "https://x.com/AYi_AInotes/status/2062226941491458434",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "AYi",
-    "handle": "AYi_AInotes",
-    "role": "大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt Engineering | 商业思维 丨职场丨认知心理学 喜欢健身，玩游戏，和 4 只猫一起生活和工作",
-    "avatar": "阿A",
-    "summary": "150M 的活，35M 干了，\nGoogle 新出的 Gemma 4 12B，把多模态里那个最重的零件，视觉编码器，\n从 150M-550M 直接压到 35M了，\n过去做多模态，套路是固定的，\n图片先扔给一个专门的视觉编码器翻译成模型能懂的语言，\n再交给大模型理解，就像配了个翻译官。\n这个翻译官，传统 ViT 编码器要 150M 到 550M 参数。\nGemma 4 12B 直接把翻译官辞了，\n只留一个 35M 的轻量嵌入器，把图片切成 48×48 的小块，当成 token 直接扔进去，\n让 Transformer 自己学着看世界，\n音频也一样，16kHz 原始波形切成 40ms 一帧，直接喂进同一个模型。\n也就是说，图片、声音、文字，第一次被当成同一种东西。\n为什么敢这么干，\n因为它赌的是一件事，\n当基座模型大到某个临界点，那些专门的子模块，就不再是必需品了。\n这个剧本你可能见过，\n当年 ViT 取代 CNN，也是同一个套路，\n规模够大的时候，与其手工设计一堆专用结构，不如把活儿直接交给一个统一的大模型自己学。\n现在这套逻辑，正从视觉单模态，蔓延到整个多模态架构。\n而且 12B 这个尺寸不是随便选的，\n刚好大到能扔掉编码器，又刚好小到能塞进 16GB 的笔记本里，\n据 aaryan_kakad 在 M4 Max 上的实测，4-bit 量化下识图延迟 1.2 到 1.5 秒，\n官方...",
-    "summaryEn": "150M 的活，35M 干了，\nGoogle 新出的 Gemma 4 12B，把多模态里那个最重的零件，视觉编码器，\n从 150M-550M 直接压到 35M了，\n过去做多模态，套路是固定的，\n图片先扔给一个专门的视觉编码器翻译成模型能懂的语言，\n再交给大模型理解，就像配了个翻译官。\n这个翻译官，传统 ViT 编码器要 150M 到 550M 参数。\nGemma 4 12B 直接把翻译官辞了，\n只留一个 35M 的轻量嵌入器，把图片切成 48×48 的小块，当成 token 直接扔进去，\n让 Transformer 自己学着看世界，\n音频也一样，16kHz 原始波形切成 40ms 一帧，直接喂进同一个模型。\n也就是说，图片、声音、文字，第一次被当成同一种东西。\n为什么敢这么干，\n因为它赌的是一件事，\n当基座模型大到某个临界点，那些专门的子模块，就不再是必需品了。\n这个剧本你可能见过，\n当年 ViT 取代 CNN，也是同一个套路，\n规模够大的时候，与其手工设计一堆专用结构，不如把活儿直接交给一个统一的大模型自己学。\n现在这套逻辑，正从视觉单模态，蔓延到整个多模态架构。\n而且 12B 这个尺寸不是随便选的，\n刚好大到能扔掉编码器，又刚好小到能塞进 16GB 的笔记本里，\n据 aaryan_kakad 在 M4 Max 上的实测，4-bit 量化下识图延迟 1.2 到 1.5 秒，\n官方...",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：150M 的活，35M 干了， Google 新出的 Gemma 4 12B，把多模态里那个最重的零件，视觉编码器， 从 150M-550M 直接压到 35M了， 过去做多模态，套路是固定的， 图片先扔给一个专门的视觉编...。AYi 的身份接近“大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
-    "url": "https://x.com/AYi_AInotes/status/2062224992910115180",
+    "name": "Claude",
+    "handle": "claudeai",
+    "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+    "avatar": "CL",
+    "summary": "Ben kept getting distracted during long Claude Code sessions, so he built a miniature Clawd to get his attention. When  Claude Code needs input, a solenoid inside the aluminum body pushes it upward. In other words, it jumps up and down.",
+    "summaryEn": "Ben kept getting distracted during long Claude Code sessions, so he built a miniature Clawd to get his attention. When  Claude Code needs input, a solenoid inside the aluminum body pushes it upward. In other words, it jumps up and down.",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Ben kept getting distracted during long Claude Code sessions, so he built a miniature Clawd to get his attenti...。Claude 的身份接近“Claude is an AI assistant built by @anthropicai to be sa...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "url": "https://x.com/claudeai/status/2062220049146876347",
     "verified": true,
     "hotComments": []
   },
@@ -484,20 +479,75 @@
     "avatar": "CL",
     "summary": "We spoke with\n@BenJames_____\n about building things, creativity, and why silly ideas matter.",
     "summaryEn": "We spoke with\n@BenJames_____\n about building things, creativity, and why silly ideas matter.",
-    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：We spoke with @BenJames_____ about building things, creativity, and why silly ideas matter.。Claude 的身份接近“Claude is an AI assistant built by @anthropicai to be sa...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。如果生成式 UI 成为常态，未来不少产品的优势都会来自更顺滑的任务组织方式。届时 UI 本身会成为智能系统的一部分，而不是最后一层壳。",
+    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：We spoke with @BenJames_____ about building things, creativity, and why silly ideas matter.。Claude 的身份接近“Claude is an AI assistant built by @anthropicai to be sa...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。用户未来面对的，可能不再是固定页面，而是按任务实时长出来的界面。",
     "url": "https://x.com/claudeai/status/2062220040934449596",
     "verified": true,
     "hotComments": []
   },
   {
-    "name": "Nikunj Kothari",
-    "handle": "nikunj",
-    "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
-    "avatar": "NK",
-    "summary": "The best founders treat the following as a necessary component of their business but NOT the entire business..\n> AI / timing / why now\n> Funding\n> Distribution / hype\n> Market\n> Product\n> Revenue\nI’m seeing too many pitches that are touting only one of these as the core reason",
-    "summaryEn": "The best founders treat the following as a necessary component of their business but NOT the entire business..\n> AI / timing / why now\n> Funding\n> Distribution / hype\n> Market\n> Product\n> Revenue\nI’m seeing too many pitches that are touting only one of these as the core reason",
-    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：The best founders treat the following as a necessary component of their business but NOT the entire business.....。Nikunj Kothari 的身份接近“partner @fpvventures - investing in seed/A. previous: ea...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像需求结构在变，不只是做了个新功能，而是产品优先级和用户预期都在重排。很多时候，用户真正要的并不是更多功能，而是更少阻力。",
-    "url": "https://x.com/nikunj/status/2062033620773306763",
+    "name": "alon",
+    "handle": "alonzuman",
+    "role": "playing AI games with real friends @pops_fyi",
+    "avatar": "AL",
+    "summary": "Williams work is the backbone of Pops, and hes been very helpful since the very first moment\nCongratulations",
+    "summaryEn": "Williams work is the backbone of Pops, and hes been very helpful since the very first moment\nCongratulations",
+    "analysis": "这条动态最直接的信息是：Williams work is the backbone of Pops, and hes been very helpful since the very first moment Congratulations。alon 的身份接近“playing AI games with real friends @pops_fyi”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "url": "https://x.com/alonzuman/status/2062214979349344262",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "alon",
+    "handle": "alonzuman",
+    "role": "playing AI games with real friends @pops_fyi",
+    "avatar": "AL",
+    "summary": "Introducing Pops: AI games with real friends",
+    "summaryEn": "Introducing Pops: AI games with real friends",
+    "analysis": "这条动态最直接的信息是：Introducing Pops: AI games with real friends。alon 的身份接近“playing AI games with real friends @pops_fyi”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+    "url": "https://x.com/alonzuman/status/2062206630733971558",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "hthieblot",
+        "text": "Anyone who surfed the early web between 1995-2010.\nWhat’s the one website/app you still think about?",
+        "likes": 10999,
+        "url": "https://x.com/hthieblot/status/2062037035918180574"
+      },
+      {
+        "author": "connortbot",
+        "text": "I joined Y Combinator with 14 users, building a dev tool for myself.\nThen\n@SaaiArora\n joined as CTO, and we started growing and shipping 2x faster. It forced us to rebuild product and infra from the ground up for teams,...",
+        "likes": 420,
+        "url": "https://x.com/connortbot/status/2062215233075126690"
+      },
+      {
+        "author": "kodjima33",
+        "text": "I don’t know this woman but please follow and support her\nIn my 9 years in tech I have never seen anyone recording the screen of the interviewee\nIt’s so obvious that by looking at someone’s screen for 5 min you can learn...",
+        "likes": 327,
+        "url": "https://x.com/kodjima33/status/2062207776391135366"
+      }
+    ]
+  },
+  {
+    "name": "Dan Shipper",
+    "handle": "danshipper",
+    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+    "avatar": "DS",
+    "summary": "YouTube:\nhttps://\nyoutube.com/watch?v=kYKebK\nB3-d0\n…\nSpotify:\nhttps://\nopen.spotify.com/episode/4qTiIl\nvhxgnGI0cG06aFw5?si=omYJmHwVQOWgi31EgQTX7Q\n…",
+    "summaryEn": "YouTube:\nhttps://\nyoutube.com/watch?v=kYKebK\nB3-d0\n…\nSpotify:\nhttps://\nopen.spotify.com/episode/4qTiIl\nvhxgnGI0cG06aFw5?si=omYJmHwVQOWgi31EgQTX7Q\n…",
+    "analysis": "这条动态最直接的信息是：YouTube: https:// youtube.com/watch?v=kYKebK B3-d0 … Spotify: https:// open.spotify.com/episode/4qTiIl vhxgnGI...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/danshipper/status/2062202910377992244",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Dan Shipper",
+    "handle": "danshipper",
+    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+    "avatar": "DS",
+    "summary": "I bought Figma stock during the SaaSpocalypse panic. Talking to\n@mcolyer\n, Figma's director of product management for developers, made me wish I'd bought more.\nHe joined me on\n@every\n's AI & I to make the case for a SaaS resurgence—and to explain why chat-based tools are the wrong interface for design. We get into:\n- Why running your own agents makes you more willing to pay for SaaS, not less\n- How Figma's MCP server allows you to approach design work from two directions: Take a live web page and reconstruct it on the Figma canvas, or hand a Figma design over to an agent so it can makes change...",
+    "summaryEn": "I bought Figma stock during the SaaSpocalypse panic. Talking to\n@mcolyer\n, Figma's director of product management for developers, made me wish I'd bought more.\nHe joined me on\n@every\n's AI & I to make the case for a SaaS resurgence—and to explain why chat-based tools are the wrong interface for design. We get into:\n- Why running your own agents makes you more willing to pay for SaaS, not less\n- How Figma's MCP server allows you to approach design work from two directions: Take a live web page and reconstruct it on the Figma canvas, or hand a Figma design over to an agent so it can makes change...",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：I bought Figma stock during the SaaSpocalypse panic. Talking to @mcolyer , Figma's director of product managem...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类想法最有意思的地方，是它在推动界面从固定页面走向按任务即时生成。界面如果会跟着目标变化，软件就更像一个可编排的流程层。",
+    "url": "https://x.com/danshipper/status/2062202908306030915",
     "verified": true,
     "hotComments": []
   },
@@ -506,8 +556,8 @@
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
-    "summaryEn": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summaryEn": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "analysis": "",
     "url": "",
     "verified": false,
