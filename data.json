@@ -1,13 +1,154 @@
 [
   {
-    "name": "Dave Morin",
-    "handle": "davemorin",
-    "role": "Founder @OfflineVentures @Slow @Path • Chairman @Esalen • Board @OpenClaw • Early @Apple @Facebook • Podcast @MoreOrLessPod • Skier • Dad of 3",
-    "avatar": "DM",
-    "summary": "Credit where credit is due. This is such a good idea\n@micsolana\n and\n@foundersfund\n. So good.\nMAFIA EP 001",
-    "summaryEn": "Credit where credit is due. This is such a good idea\n@micsolana\n and\n@foundersfund\n. So good.\nMAFIA EP 001",
-    "analysis": "这条动态最直接的信息是：Credit where credit is due. This is such a good idea @micsolana and @foundersfund . So good. MAFIA EP 001。Dave Morin 的身份接近“Founder @OfflineVentures @Slow @Path • Chairman @Esalen...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
-    "url": "https://x.com/davemorin/status/2062658705599197266",
+    "name": "Boris Cherny",
+    "handle": "bcherny",
+    "role": "Claude Code @anthropicai",
+    "avatar": "BC",
+    "summary": "Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, recurring reports, triaging my inbox and drafting replies.\nIf you’ve been curious, this is a good month to find out what it can take off your plate. Can’t wait to see what you do.",
+    "summaryEn": "Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, recurring reports, triaging my inbox and drafting replies.\nIf you’ve been curious, this is a good month to find out what it can take off your plate. Can’t wait to see what you do.",
+    "analysis": "这条动态最直接的信息是：Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, recurring reports...。Boris Cherny 的身份接近“Claude Code @anthropicai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。重点不在论文标题，而在它最后能不能沉淀成开发者真正能调用、用户真正能感知的新能力。研究只有进入工具链，才会变成产业变量。",
+    "url": "https://x.com/bcherny/status/2063028956211867837",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Boris Cherny",
+    "handle": "bcherny",
+    "role": "Claude Code @anthropicai",
+    "avatar": "BC",
+    "summary": "We doubled Claude Cowork usage limits for the next month. This applies to your 5-hr rate limits. If you’ve been saving up a big messy project, now’s the time.\nWe've doubled usage limits in Claude Cowork for the next month.\nDelegate bigger, more complex tasks to Claude.",
+    "summaryEn": "We doubled Claude Cowork usage limits for the next month. This applies to your 5-hr rate limits. If you’ve been saving up a big messy project, now’s the time.\nWe've doubled usage limits in Claude Cowork for the next month.\nDelegate bigger, more complex tasks to Claude.",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：We doubled Claude Cowork usage limits for the next month. This applies to your 5-hr rate limits. If you’ve bee...。Boris Cherny 的身份接近“Claude Code @anthropicai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/bcherny/status/2063028954546733462",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "thebazuker",
+        "text": "Thank you sir",
+        "likes": 7,
+        "url": "https://x.com/thebazuker/status/2063031093075574999"
+      }
+    ]
+  },
+  {
+    "name": "Claude",
+    "handle": "claudeai",
+    "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+    "avatar": "CL",
+    "summary": "We've doubled usage limits in Claude Cowork for the next month.\nDelegate bigger, more complex tasks to Claude.",
+    "summaryEn": "We've doubled usage limits in Claude Cowork for the next month.\nDelegate bigger, more complex tasks to Claude.",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：We've doubled usage limits in Claude Cowork for the next month. Delegate bigger, more complex tasks to Claude.。Claude 的身份接近“Claude is an AI assistant built by @anthropicai to be sa...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "url": "https://x.com/claudeai/status/2063018337567670285",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "MEM00063",
+        "text": "In my experience, from Opus 4.6 onward, the bigger issue is not only usage limits.\nThe model often answers too early and too confidently, so a lot of tokens get spent correcting, narrowing, and explaining what should hav...",
+        "likes": 47,
+        "url": "https://x.com/MEM00063/status/2063028642356097124"
+      },
+      {
+        "author": "MindBranches",
+        "text": "How to set up Claude Cowork the right way (so it actually does your work while you step away)\narticle summary in 4k light and dark mode\nfull article:",
+        "likes": 37,
+        "url": "https://x.com/MindBranches/status/2063019810020098429"
+      },
+      {
+        "author": "Jtyles",
+        "text": "Thank you. I just used Cowork to create this video:",
+        "likes": 10,
+        "url": "https://x.com/Jtyles/status/2063025137943806060"
+      }
+    ]
+  },
+  {
+    "name": "Claude",
+    "handle": "claudeai",
+    "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+    "avatar": "CL",
+    "summary": "Live now on all paid plans through July 5.\nDownload the Claude desktop app to give Cowork a try:\nhttp://\nclaude.com/cowork",
+    "summaryEn": "Live now on all paid plans through July 5.\nDownload the Claude desktop app to give Cowork a try:\nhttp://\nclaude.com/cowork",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Live now on all paid plans through July 5. Download the Claude desktop app to give Cowork a try: http:// claud...。Claude 的身份接近“Claude is an AI assistant built by @anthropicai to be sa...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
+    "url": "https://x.com/claudeai/status/2063018339710992794",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt Engineering | 商业思维 丨职场丨认知心理学 喜欢健身，玩游戏，和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "感觉有点像把一台跑车开进养鸡场，每天给它称重、查油表、记谁没准时发动，\n指标是好看了，可它再也跑不出当初买它的那个速度",
+    "summaryEn": "感觉有点像把一台跑车开进养鸡场，每天给它称重、查油表、记谁没准时发动，\n指标是好看了，可它再也跑不出当初买它的那个速度",
+    "analysis": "这条动态最直接的信息是：感觉有点像把一台跑车开进养鸡场，每天给它称重、查油表、记谁没准时发动， 指标是好看了，可它再也跑不出当初买它的那个速度。AYi 的身份接近“大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/AYi_AInotes/status/2062937635169972695",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt Engineering | 商业思维 丨职场丨认知心理学 喜欢健身，玩游戏，和 4 只猫一起生活和工作",
+    "avatar": "阿A",
+    "summary": "加班回来微信群里看到一个这两天全网疯传的阿里离职员工写的 7.5 万字复盘《置身钉内》，越读越觉得后背发凉，感觉钉钉甚至是阿里内部的管理和文化出了很大的问题。\n最让人难受的还不是钉钉出了名的疯狂加班，有几个轻描淡写的细节让我还挺触动的，",
+    "summaryEn": "加班回来微信群里看到一个这两天全网疯传的阿里离职员工写的 7.5 万字复盘《置身钉内》，越读越觉得后背发凉，感觉钉钉甚至是阿里内部的管理和文化出了很大的问题。\n最让人难受的还不是钉钉出了名的疯狂加班，有几个轻描淡写的细节让我还挺触动的，",
+    "analysis": "这条动态最直接的信息是：加班回来微信群里看到一个这两天全网疯传的阿里离职员工写的 7.5 万字复盘《置身钉内》，越读越觉得后背发凉，感觉钉钉甚至是阿里内部的管理和文化出了很大的问题。 最让人难受的还不是钉钉出了名的疯狂加班，有几个轻描淡写的细节...。AYi 的身份接近“大厂组织发展专家 × 心理学硕士（QS30） × AI 实用主义 分享有用的 AI 实践，也分享工具之外的深度认...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "url": "https://x.com/AYi_AInotes/status/2062937632187826449",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Aditya Agarwal",
+    "handle": "adityaag",
+    "role": "General Partner @SouthPkCommons , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+    "avatar": "AA",
+    "summary": "Sometimes speed is just impatience disguised as ambition.",
+    "summaryEn": "Sometimes speed is just impatience disguised as ambition.",
+    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：Sometimes speed is just impatience disguised as ambition.。Aditya Agarwal 的身份接近“General Partner @SouthPkCommons , Co-Founder @Bevel_Heal...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。用户未来面对的，可能不再是固定页面，而是按任务实时长出来的界面。",
+    "url": "https://x.com/adityaag/status/2062917027103130013",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "花叔",
+    "handle": "AlchainHust",
+    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一 全网50万+粉",
+    "avatar": "AL",
+    "summary": "上周，我基于微软最新的SkillOpt论文和开源项目，对我达尔文.skill项目做了升级，纳入了SkillOpt的skill进化策略。\n没想到这周就看到微软的官方GitHub上提到了他们的框架被我采纳的事。\n这种开源社区的互动还挺有趣的。",
+    "summaryEn": "上周，我基于微软最新的SkillOpt论文和开源项目，对我达尔文.skill项目做了升级，纳入了SkillOpt的skill进化策略。\n没想到这周就看到微软的官方GitHub上提到了他们的框架被我采纳的事。\n这种开源社区的互动还挺有趣的。",
+    "analysis": "这条动态最直接的信息是：上周，我基于微软最新的SkillOpt论文和开源项目，对我达尔文.skill项目做了升级，纳入了SkillOpt的skill进化策略。 没想到这周就看到微软的官方GitHub上提到了他们的框架被我采纳的事。 这种开源社区...。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 做过的事 → 女娲.skill — GitH...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。开发门槛还在降，但产品判断、系统设计和工作流编排的门槛其实正在变高。写得出来越来越不稀缺，知道该写什么反而更关键。",
+    "url": "https://x.com/AlchainHust/status/2062780785388609802",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "LufzzLiz",
+        "text": "最近邮件与私信收到了好多国外友人的催稿，有生物老师，也有土耳其老哥的来信，希望我继续将项目做下去。\n我也大受鼓舞，只是最近工作太忙，先做一个demo页面看看，但我保证会持续迭代这个项目\n我希望AI技术真正能照进教育领域，给孩子们一些帮助，也希望有想法的伙伴贡献你的idea\n复刻差不多了，给大家分享教程并开源代码，先看看我的录屏效果如何，主要看前两个，后面还没做\n首先特别感谢下原作者@DilumSanjaya，创造出如此美妙的项目，让我大...",
+        "likes": 767,
+        "url": "https://x.com/LufzzLiz/status/2062839043738780041"
+      },
+      {
+        "author": "Mikocrypto11",
+        "text": "Claude Code 的创造者 Boris 讲了一个很关键的转变：\n“我现在不再给 Claude 写 prompts。\n我写 loops\n然后让 loops 去完成工作\n我的工作，就是写 loops。”\n这其实也是很多人用 Claude Code 卡住的地方\n他们还在把它当聊天工具用：\n输入一个需求\n等一次回答\n然后手动继续改\n但 Boris 在 30",
+        "likes": 560,
+        "url": "https://x.com/Mikocrypto11/status/2062792788706521333"
+      },
+      {
+        "author": "VincentLogic",
+        "text": "Git 在手，提示词满天飞，这大概就是 AI 时代最真实的样子。",
+        "likes": 344,
+        "url": "https://x.com/VincentLogic/status/2062921741983486020"
+      }
+    ]
+  },
+  {
+    "name": "花叔",
+    "handle": "AlchainHust",
+    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一 全网50万+粉",
+    "avatar": "AL",
+    "summary": "我去...头奖100万...\nB站这个Build in Public活动应该是我见过的奖励最高的AI Coding类活动了。\n其实我都不想分享出来增加竞争对手的",
+    "summaryEn": "我去...头奖100万...\nB站这个Build in Public活动应该是我见过的奖励最高的AI Coding类活动了。\n其实我都不想分享出来增加竞争对手的",
+    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：我去...头奖100万... B站这个Build in Public活动应该是我见过的奖励最高的AI Coding类活动了。 其实我都不想分享出来增加竞争对手的。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 做过的事 → 女娲.skill — GitH...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类想法最有意思的地方，是它在推动界面从固定页面走向按任务即时生成。界面如果会跟着目标变化，软件就更像一个可编排的流程层。",
+    "url": "https://x.com/AlchainHust/status/2062778270987219035",
     "verified": true,
     "hotComments": []
   },
@@ -16,8 +157,8 @@
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
-    "summaryEn": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summaryEn": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "analysis": "",
     "url": "",
     "verified": false,
