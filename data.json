@@ -1,12 +1,36 @@
 [
   {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt | 商业思维 丨职场丨认知心理学 合作/交流：DM/TG @AYi_AInotes",
+    "avatar": "阿A",
+    "summary": "Grok Imagine Video 1.5 实测：\n复刻《权力的游戏》Tyrion 经典法庭演讲，效果真的有点吊炸，完全不输seedance 2，\n整个场景真实感、物理表现和原生音频都拉满了……面部微表情、布料动态、火把光影互动都很自然\nGrok Imagine Video 1.5 is here\nOur new image-to-video model with sharper realism, better physics and faster generations\nhttp://\ngrok.com/imagine",
+    "summaryEn": "Grok Imagine Video 1.5 实测：\n复刻《权力的游戏》Tyrion 经典法庭演讲，效果真的有点吊炸，完全不输seedance 2，\n整个场景真实感、物理表现和原生音频都拉满了……面部微表情、布料动态、火把光影互动都很自然\nGrok Imagine Video 1.5 is here\nOur new image-to-video model with sharper realism, better physics and faster generations\nhttp://\ngrok.com/imagine",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok Imagine Video 1.5 实测： 复刻《权力的游戏》Tyrion 经典法庭演讲，效果真的有点吊炸，完全不输seedance 2， 整个场景真实感、物理表现和原生音频都拉满了……面部微表情、布料动态、火...。AYi 的身份接近“AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/AYi_AInotes/status/2067136072937566679",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt | 商业思维 丨职场丨认知心理学 合作/交流：DM/TG @AYi_AInotes",
+    "avatar": "阿A",
+    "summary": "要知道，Don 也是前一晚在酒吧写稿的普通文案，天才叙事也许不可信，但把技术翻译成人类情感这一刀，所有产品人都该学会啊",
+    "summaryEn": "要知道，Don 也是前一晚在酒吧写稿的普通文案，天才叙事也许不可信，但把技术翻译成人类情感这一刀，所有产品人都该学会啊",
+    "analysis": "这条动态最直接的信息是：要知道，Don 也是前一晚在酒吧写稿的普通文案，天才叙事也许不可信，但把技术翻译成人类情感这一刀，所有产品人都该学会啊。AYi 的身份接近“AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/AYi_AInotes/status/2067127521049546953",
+    "verified": true,
+    "hotComments": []
+  },
+  {
     "name": "Elon Musk",
     "handle": "elonmusk",
     "role": "http://Terafab.ai",
     "avatar": "EM",
     "summary": "Grok Imagine 1.5 is now in wide release\nGrok Imagine Video 1.5 is here\nOur new image-to-video model with sharper realism, better physics and faster generations\nhttp://\ngrok.com/imagine",
     "summaryEn": "Grok Imagine 1.5 is now in wide release\nGrok Imagine Video 1.5 is here\nOur new image-to-video model with sharper realism, better physics and faster generations\nhttp://\ngrok.com/imagine",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok Imagine 1.5 is now in wide release Grok Imagine Video 1.5 is here Our new image-to-video model with sharp...。Elon Musk 的身份接近“http://Terafab.ai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。按 xAI 文档，`grok-imagine-image` 不只是出图，还支持编辑和多轮 refinement。现在说“doubling down”，更像是在押注图像创作会成为 Grok 的核心入口，而不只是附带功能。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok Imagine 1.5 is now in wide release Grok Imagine Video 1.5 is here Our new image-to-video model with sharp...。Elon Musk 的身份接近“http://Terafab.ai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条最值得看的不是“epic”这种表态，而是 xAI 已经把 Imagine 做成了可编辑、可多轮迭代的创作能力。继续加码，说明它想抢的不只是聊天入口，还包括生成式创作场景。",
     "url": "https://x.com/elonmusk/status/2067093666792136855",
     "verified": true,
     "hotComments": [
@@ -56,7 +80,7 @@
     "avatar": "OP",
     "summary": "GLM-5.2 指令遵循不错，调模板的能力也不错，但在自主性和创造性上可能差一点。\n文档里虽然有图片链接，但他不知道把图片加进去\n丢了不少内容",
     "summaryEn": "GLM-5.2 指令遵循不错，调模板的能力也不错，但在自主性和创造性上可能差一点。\n文档里虽然有图片链接，但他不知道把图片加进去\n丢了不少内容",
-    "analysis": "这条动态最直接的信息是：GLM-5.2 指令遵循不错，调模板的能力也不错，但在自主性和创造性上可能差一点。 文档里虽然有图片链接，但他不知道把图片加进去 丢了不少内容。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：GLM-5.2 指令遵循不错，调模板的能力也不错，但在自主性和创造性上可能差一点。 文档里虽然有图片链接，但他不知道把图片加进去 丢了不少内容。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
     "url": "https://x.com/op7418/status/2067091909890421193",
     "verified": true,
     "hotComments": []
@@ -68,7 +92,7 @@
     "avatar": "OP",
     "summary": "简单拿我的社交媒体卡片对比测试了一下。\n左边是 GPT 5.5 的结果，右边是 GLM 5.2 的结果。给的素材都是 GLM 5.2 的发布博客。\n智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人\n核心定位是处理长周期任务，并且有稳定的 100 万上下文，模型还引入了思考力度控制。\n架构层面，GLM-5.2 提出了 IndexShare 机制，每四层稀疏注意力共享同一个 indexer，从而在百万 token 上下文下将每 token 的计算量降低约 2.9 倍。  x.com/Zai_org/status…",
     "summaryEn": "简单拿我的社交媒体卡片对比测试了一下。\n左边是 GPT 5.5 的结果，右边是 GLM 5.2 的结果。给的素材都是 GLM 5.2 的发布博客。\n智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人\n核心定位是处理长周期任务，并且有稳定的 100 万上下文，模型还引入了思考力度控制。\n架构层面，GLM-5.2 提出了 IndexShare 机制，每四层稀疏注意力共享同一个 indexer，从而在百万 token 上下文下将每 token 的计算量降低约 2.9 倍。  x.com/Zai_org/status…",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：简单拿我的社交媒体卡片对比测试了一下。 左边是 GPT 5.5 的结果，右边是 GLM 5.2 的结果。给的素材都是 GLM 5.2 的发布博客。 智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人 核心定位是...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：简单拿我的社交媒体卡片对比测试了一下。 左边是 GPT 5.5 的结果，右边是 GLM 5.2 的结果。给的素材都是 GLM 5.2 的发布博客。 智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人 核心定位是...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
     "url": "https://x.com/op7418/status/2067091465675866126",
     "verified": true,
     "hotComments": []
@@ -80,32 +104,8 @@
     "avatar": "OG",
     "summary": "GLM 5.2 的意义在于\n开源模型的 Coding 能力第一次达到了 Opus 水平\nIntroducing GLM-5.2: Frontier Intelligence, Open Weights\n- Significant improvements in coding and agentic tasks\n- Strong long-horizon capabilities with a 1M context window\n- Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong",
     "summaryEn": "GLM 5.2 的意义在于\n开源模型的 Coding 能力第一次达到了 Opus 水平\nIntroducing GLM-5.2: Frontier Intelligence, Open Weights\n- Significant improvements in coding and agentic tasks\n- Strong long-horizon capabilities with a 1M context window\n- Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：GLM 5.2 的意义在于 开源模型的 Coding 能力第一次达到了 Opus 水平 Introducing GLM-5.2: Frontier Intelligence, Open Weights - Signifi...。Orange AI 的身份接近“we are already living in science fiction. building the o...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：GLM 5.2 的意义在于 开源模型的 Coding 能力第一次达到了 Opus 水平 Introducing GLM-5.2: Frontier Intelligence, Open Weights - Signifi...。Orange AI 的身份接近“we are already living in science fiction. building the o...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
     "url": "https://x.com/oran_ge/status/2067080400112124341",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "AYi",
-    "handle": "AYi_AInotes",
-    "role": "AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt | 商业思维 丨职场丨认知心理学 合作/交流：DM/TG @AYi_AInotes",
-    "avatar": "阿A",
-    "summary": "说实话，能在二十五岁同时兼具硬核技术功底，主动开拓机会的行动力，还具备谦逊低调的心态，温和高效的沟通，跨越周期的长期视野，除了Michael Truell ，我找不到第二个人，\n而且Cursor 一路从初创工具走到被 SpaceX 重金收购，我觉得也从来不是什么运气加持，恰恰是这些难得的底层品质不断铺就前路，\n从Michael Truell身上我也看到了，真正厉害的创始人不会被动等待机遇，他会放下傲慢主动连接他人，守住技术本心的同时放眼长远，这也是值得所有创业者参考学习的内核。",
-    "summaryEn": "说实话，能在二十五岁同时兼具硬核技术功底，主动开拓机会的行动力，还具备谦逊低调的心态，温和高效的沟通，跨越周期的长期视野，除了Michael Truell ，我找不到第二个人，\n而且Cursor 一路从初创工具走到被 SpaceX 重金收购，我觉得也从来不是什么运气加持，恰恰是这些难得的底层品质不断铺就前路，\n从Michael Truell身上我也看到了，真正厉害的创始人不会被动等待机遇，他会放下傲慢主动连接他人，守住技术本心的同时放眼长远，这也是值得所有创业者参考学习的内核。",
-    "analysis": "这条动态最直接的信息是：说实话，能在二十五岁同时兼具硬核技术功底，主动开拓机会的行动力，还具备谦逊低调的心态，温和高效的沟通，跨越周期的长期视野，除了Michael Truell ，我找不到第二个人， 而且Cursor 一路从初创工具走到被 S...。AYi 的身份接近“AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-    "url": "https://x.com/AYi_AInotes/status/2067077739694227607",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "AYi",
-    "handle": "AYi_AInotes",
-    "role": "AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt | 商业思维 丨职场丨认知心理学 合作/交流：DM/TG @AYi_AInotes",
-    "avatar": "阿A",
-    "summary": "第五是长远眼光搭配落地极强的执行力，\n从早期机械 AI 工具快速调整赛道转向 AI 代码编辑器，再自研模型对接 SpaceX 超算算力，每一次转型判断都果断清晰，\n目标从来不止一款优化版代码编辑器，而是重构整个编程的效率与创造模式，向着 AI 承载全球软件开发的长线愿景前进，\n短短数年营收规模跃升至数十亿级别，却没有被短期热度、套现机会裹挟，始终锚定长期企业的建设，\n放眼当下浮躁的 AI 创业赛道真的很难得，毕竟在赢家通吃的环境里太多人容易滋生自负而不自知。",
-    "summaryEn": "第五是长远眼光搭配落地极强的执行力，\n从早期机械 AI 工具快速调整赛道转向 AI 代码编辑器，再自研模型对接 SpaceX 超算算力，每一次转型判断都果断清晰，\n目标从来不止一款优化版代码编辑器，而是重构整个编程的效率与创造模式，向着 AI 承载全球软件开发的长线愿景前进，\n短短数年营收规模跃升至数十亿级别，却没有被短期热度、套现机会裹挟，始终锚定长期企业的建设，\n放眼当下浮躁的 AI 创业赛道真的很难得，毕竟在赢家通吃的环境里太多人容易滋生自负而不自知。",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：第五是长远眼光搭配落地极强的执行力， 从早期机械 AI 工具快速调整赛道转向 AI 代码编辑器，再自研模型对接 SpaceX 超算算力，每一次转型判断都果断清晰， 目标从来不止一款优化版代码编辑器，而是重构整个编程的效率...。AYi 的身份接近“AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
-    "url": "https://x.com/AYi_AInotes/status/2067077736288391399",
     "verified": true,
     "hotComments": []
   },
@@ -141,57 +141,14 @@
     ]
   },
   {
-    "name": "Aaron Levie",
-    "handle": "levie",
-    "role": "ceo @box - your business lives in content. unleash it with AI",
-    "avatar": "AL",
-    "summary": "Key post that gives a bit of insight into what the future of AI could look like.\n“The most interesting thing happening in AI isn't that one model is getting smarter. It's that intelligence is becoming increasingly customizable. The companies that win won't necessarily be the",
-    "summaryEn": "Key post that gives a bit of insight into what the future of AI could look like.\n“The most interesting thing happening in AI isn't that one model is getting smarter. It's that intelligence is becoming increasingly customizable. The companies that win won't necessarily be the",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Key post that gives a bit of insight into what the future of AI could look like. “The most interesting thing h...。Aaron Levie 的身份接近“ceo @box - your business lives in content. unleash it wi...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
-    "url": "https://x.com/levie/status/2066735879213994434",
-    "verified": true,
-    "hotComments": [
-      {
-        "author": "paulg",
-        "text": "I was talking to a YC partner about how well all the hard tech startups are doing. He said investors are hot to fund them because they're afraid AI will eat all software. I'm glad hardware startups are getting funded, bu...",
-        "likes": 2265,
-        "url": "https://x.com/paulg/status/2066609844455403600"
-      },
-      {
-        "author": "CharlesRollet1",
-        "text": "NEW: Inside Cursor's wild rise. Lots of great new details:\n• CEO Michael Truell didn't pay himself for years\n• Cursor once made up 40-50% of Anthropic's revenue\n• Anthropic told Cursor that Claude Code was just a 'resear...",
-        "likes": 1826,
-        "url": "https://x.com/CharlesRollet1/status/2066571743163228218"
-      },
-      {
-        "author": "lulumeservey",
-        "text": "Satya wrote this article himself, in contrast to a lot of the AI-generated responses\nDario’s essays, roon’s tweets, Noam Brown’s posts, all slop-free too\nA counterintuitive measure of AI fluency is knowing how not to ove...",
-        "likes": 1628,
-        "url": "https://x.com/lulumeservey/status/2066539892838932877"
-      }
-    ]
-  },
-  {
     "name": "花叔",
     "handle": "AlchainHust",
     "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 6万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
     "avatar": "AL",
     "summary": "GLM-5.2在Code能力的Arena上甚至超过了Fade5？？\n有点不可思议，看看今天股价怎么变化了。\nBREAKING: GLM-5.2 is now 1st on Design Arena.\nWith an Elo of 1360, GLM-5.2 has jumped ahead of the now unavailable Claude Fable 5.\nAnd it's open weights.\nThis is an improvement of 4 positions and 27 Elo points to achieve one of the highest Elo scores in our code categories",
     "summaryEn": "GLM-5.2在Code能力的Arena上甚至超过了Fade5？？\n有点不可思议，看看今天股价怎么变化了。\nBREAKING: GLM-5.2 is now 1st on Design Arena.\nWith an Elo of 1360, GLM-5.2 has jumped ahead of the now unavailable Claude Fable 5.\nAnd it's open weights.\nThis is an improvement of 4 positions and 27 Elo points to achieve one of the highest Elo scores in our code categories",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：GLM-5.2在Code能力的Arena上甚至超过了Fade5？？ 有点不可思议，看看今天股价怎么变化了。 BREAKING: GLM-5.2 is now 1st on Design Arena. With an El...。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 6万+ 做过的事 → 女娲...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：GLM-5.2在Code能力的Arena上甚至超过了Fade5？？ 有点不可思议，看看今天股价怎么变化了。 BREAKING: GLM-5.2 is now 1st on Design Arena. With an El...。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 6万+ 做过的事 → 女娲...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
     "url": "https://x.com/AlchainHust/status/2067062846844789227",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "花叔",
-    "handle": "AlchainHust",
-    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 6万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
-    "avatar": "AL",
-    "summary": "我在微信读书上的橙皮书宇宙已经到第9本了。\n第一本的诞生是个随意的尝试...后面算是逐渐被读者逼出来的。每次出现新的概念都会在我这留言问什么时候出。\n虽迟但到！《Loop Engineering橙皮书》来了。",
-    "summaryEn": "我在微信读书上的橙皮书宇宙已经到第9本了。\n第一本的诞生是个随意的尝试...后面算是逐渐被读者逼出来的。每次出现新的概念都会在我这留言问什么时候出。\n虽迟但到！《Loop Engineering橙皮书》来了。",
-    "analysis": "这条动态最直接的信息是：我在微信读书上的橙皮书宇宙已经到第9本了。 第一本的诞生是个随意的尝试...后面算是逐渐被读者逼出来的。每次出现新的概念都会在我这留言问什么时候出。 虽迟但到！《Loop Engineering橙皮书》来了。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 6万+ 做过的事 → 女娲...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/AlchainHust/status/2066823959471923303",
     "verified": true,
     "hotComments": []
   },
@@ -202,7 +159,7 @@
     "avatar": "FW",
     "summary": "浮甘瓜于清泉，沉朱李于寒水。夏天了，来吃吃曹丕的山泉瓜李。",
     "summaryEn": "浮甘瓜于清泉，沉朱李于寒水。夏天了，来吃吃曹丕的山泉瓜李。",
-    "analysis": "这条动态最直接的信息是：浮甘瓜于清泉，沉朱李于寒水。夏天了，来吃吃曹丕的山泉瓜李。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：浮甘瓜于清泉，沉朱李于寒水。夏天了，来吃吃曹丕的山泉瓜李。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
     "url": "https://x.com/lifesinger/status/2067062616925835317",
     "verified": true,
     "hotComments": []
@@ -214,7 +171,7 @@
     "avatar": "FW",
     "summary": "还记得一年多前，和张卓坐在西溪首座咖啡厅外面。初夏的蚊子很多，我们一边聊着，一边驱赶蚊子。有点闷热的空气里，张卓说：你居然是想挑战抖音。\n一年过去了。我丝毫没有撼动抖音。抖音这棵大树，一片残叶都没落下。然而，抖音依赖的土壤深处，正在被 YouMind 等众多产品，撕开一丝丝裂缝。深不可见，却已然发生着。\n张卓原文：\nhttps://\nmp.weixin.qq.com/s/GKz6D1lTABNO\nRP9-VeZxKQ\n…",
     "summaryEn": "还记得一年多前，和张卓坐在西溪首座咖啡厅外面。初夏的蚊子很多，我们一边聊着，一边驱赶蚊子。有点闷热的空气里，张卓说：你居然是想挑战抖音。\n一年过去了。我丝毫没有撼动抖音。抖音这棵大树，一片残叶都没落下。然而，抖音依赖的土壤深处，正在被 YouMind 等众多产品，撕开一丝丝裂缝。深不可见，却已然发生着。\n张卓原文：\nhttps://\nmp.weixin.qq.com/s/GKz6D1lTABNO\nRP9-VeZxKQ\n…",
-    "analysis": "这条动态最直接的信息是：还记得一年多前，和张卓坐在西溪首座咖啡厅外面。初夏的蚊子很多，我们一边聊着，一边驱赶蚊子。有点闷热的空气里，张卓说：你居然是想挑战抖音。 一年过去了。我丝毫没有撼动抖音。抖音这棵大树，一片残叶都没落下。然而，抖音依赖的土...。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "analysis": "这条动态最直接的信息是：还记得一年多前，和张卓坐在西溪首座咖啡厅外面。初夏的蚊子很多，我们一边聊着，一边驱赶蚊子。有点闷热的空气里，张卓说：你居然是想挑战抖音。 一年过去了。我丝毫没有撼动抖音。抖音这棵大树，一片残叶都没落下。然而，抖音依赖的土...。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
     "url": "https://x.com/lifesinger/status/2067061688059461925",
     "verified": true,
     "hotComments": []
@@ -226,7 +183,7 @@
     "avatar": "PY",
     "summary": "Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus, I managed to save Fable's advice too before it got restricted\n Subscribe to get the tutorial tmr:\nhttps://\nyoutube.com/@PeterYangYT?s\nubscribe\n…\nFor me, the best use case for Fable isn't coding.\nIt’s giving it a ton of context about my business and life, then asking:\n→ What opportunities am I missing?\n→ What should I stop doing?\n→ Where am I lying to myself?\nHaving a sharper second brain for business strategy has",
     "summaryEn": "Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus, I managed to save Fable's advice too before it got restricted\n Subscribe to get the tutorial tmr:\nhttps://\nyoutube.com/@PeterYangYT?s\nubscribe\n…\nFor me, the best use case for Fable isn't coding.\nIt’s giving it a ton of context about my business and life, then asking:\n→ What opportunities am I missing?\n→ What should I stop doing?\n→ Where am I lying to myself?\nHaving a sharper second brain for business strategy has",
-    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus,...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus,...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
     "url": "https://x.com/petergyang/status/2067056979974160749",
     "verified": true,
     "hotComments": []
@@ -240,6 +197,18 @@
     "summaryEn": "Honestly I don't want to be a hater but I feel like this is what happens when nobody internally wants to tell the CEO no.\nMaybe this thing will blow our socks off?\nEvan Spiegel showing off the new Specs AR glasses to the public for the first time.",
     "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：Honestly I don't want to be a hater but I feel like this is what happens when nobody internally wants to tell...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像需求结构在变，不只是做了个新功能，而是产品优先级和用户预期都在重排。很多时候，用户真正要的并不是更多功能，而是更少阻力。",
     "url": "https://x.com/petergyang/status/2067047343971848201",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "艾略特",
+    "handle": "elliotchen100",
+    "role": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
+    "avatar": "EL",
+    "summary": "昨天升级了一下。\nEverOS 1.0.1 主要做了本地记忆持久化的路径安全加固：\n收紧外部传入 ID 的校验，并在底层 Markdown 写入层增加 memory root 边界保护，确保本地记忆文件始终写在预期目录内。\n本地优先的 memory，边界感很重要。\nEverOS 1.0.1 is here.\nIt focuses on path-safety hardening for local-first memory persistence.\nWe tightened validation for caller-supplied IDs, and added a memory-root containment backstop in the Markdown writer.",
+    "summaryEn": "昨天升级了一下。\nEverOS 1.0.1 主要做了本地记忆持久化的路径安全加固：\n收紧外部传入 ID 的校验，并在底层 Markdown 写入层增加 memory root 边界保护，确保本地记忆文件始终写在预期目录内。\n本地优先的 memory，边界感很重要。\nEverOS 1.0.1 is here.\nIt focuses on path-safety hardening for local-first memory persistence.\nWe tightened validation for caller-supplied IDs, and added a memory-root containment backstop in the Markdown writer.",
+    "analysis": "这条动态最直接的信息是：昨天升级了一下。 EverOS 1.0.1 主要做了本地记忆持久化的路径安全加固： 收紧外部传入 ID 的校验，并在底层 Markdown 写入层增加 memory root 边界保护，确保本地记忆文件始终写在预期目录内...。艾略特 的身份接近“Building @EverMind - memory for self-evolving agents htt...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "url": "https://x.com/elliotchen100/status/2067047707739607386",
     "verified": true,
     "hotComments": []
   },
@@ -311,36 +280,74 @@
     ]
   },
   {
-    "name": "Ken W",
-    "handle": "kenw_2",
-    "role": "An old friend, stay curious, stay human.",
-    "avatar": "KW",
-    "summary": "怕什么失业了，最多去干铁人三项？其实听起来就跟城里人整天嚷嚷着大不了去农村种田一样幼稚，他们以为那是很容易的事情。",
-    "summaryEn": "怕什么失业了，最多去干铁人三项？其实听起来就跟城里人整天嚷嚷着大不了去农村种田一样幼稚，他们以为那是很容易的事情。",
-    "analysis": "这条动态最直接的信息是：怕什么失业了，最多去干铁人三项？其实听起来就跟城里人整天嚷嚷着大不了去农村种田一样幼稚，他们以为那是很容易的事情。Ken W 的身份接近“An old friend, stay curious, stay human.”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-    "url": "https://x.com/kenw_2/status/2066790298718507205",
+    "name": "Dan Shipper",
+    "handle": "danshipper",
+    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+    "avatar": "DS",
+    "summary": "I think this is quite likely\nWhat if AI changes writing the way that photography changed painting? By Adam Kirsch.\nhttps://\ntheatlantic.com/ideas/2026/06/\nai-writing-style-literature/687536/?utm_source=twitter&utm_campaign=ntatl&utm_medium=social\n…",
+    "summaryEn": "I think this is quite likely\nWhat if AI changes writing the way that photography changed painting? By Adam Kirsch.\nhttps://\ntheatlantic.com/ideas/2026/06/\nai-writing-style-literature/687536/?utm_source=twitter&utm_campaign=ntatl&utm_medium=social\n…",
+    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：I think this is quite likely What if AI changes writing the way that photography changed painting? By Adam Kir...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。一旦生成式 UI 跑通，很多产品竞争会从“功能多少”转向“工作流是否更自然”。看起来像设计问题，本质上其实是产品架构问题。",
+    "url": "https://x.com/danshipper/status/2066988174849749303",
     "verified": true,
     "hotComments": []
   },
   {
-    "name": "Yihui",
-    "handle": "yihui_indie",
-    "role": "- AI Gateway : https://llmrelay.site - AI Coding： https://happyaicoding.com - AI Anime： https://mkanime.ai - Bilibili Up & Youtuber & Builder",
-    "avatar": "YI",
-    "summary": "在准备今晚20:00的B站直播的PPT，有一小部分是推荐增长工程师这个职位。才看到小吉和宗源的这期播客数据量这么低！不会做增长的我们快去听啊，干货超多的！",
-    "summaryEn": "在准备今晚20:00的B站直播的PPT，有一小部分是推荐增长工程师这个职位。才看到小吉和宗源的这期播客数据量这么低！不会做增长的我们快去听啊，干货超多的！",
-    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：在准备今晚20:00的B站直播的PPT，有一小部分是推荐增长工程师这个职位。才看到小吉和宗源的这期播客数据量这么低！不会做增长的我们快去听啊，干货超多的！Yihui 的身份接近“- AI Gateway : https://llmrelay.site - AI Coding： https:...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。分发能力正在变成产品本身，能持续触达并留住用户的团队，会越来越占优势。对 AI 产品来说，能不能形成重复触达，常常比一次爆发更重要。",
-    "url": "https://x.com/yihui_indie/status/2066738603598950699",
+    "name": "Dan Shipper",
+    "handle": "danshipper",
+    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+    "avatar": "DS",
+    "summary": "just switched off of Atlas Browser and back onto Dia\ni've been having so many weird bugs with atlas, and doesn't feel like it's improving",
+    "summaryEn": "just switched off of Atlas Browser and back onto Dia\ni've been having so many weird bugs with atlas, and doesn't feel like it's improving",
+    "analysis": "这条动态最直接的信息是：just switched off of Atlas Browser and back onto Dia i've been having so many weird bugs with atlas, and doesn...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "url": "https://x.com/danshipper/status/2066914130863473048",
     "verified": true,
-    "hotComments": []
+    "hotComments": [
+      {
+        "author": "henrytdowling",
+        "text": "had you been using atlas this whole time??",
+        "likes": 5,
+        "url": "https://x.com/henrytdowling/status/2066914259683217600"
+      }
+    ]
+  },
+  {
+    "name": "Amjad Masad",
+    "handle": "amasad",
+    "role": "ceo @replit . civilizationist",
+    "avatar": "AM",
+    "summary": "Databricks partner of the year!\nBig news out of @databricks Data + AI Summit.\nReplit has been named 2026 App Generation Partner of the Year and is now available on the Databricks Marketplace.\nIn SF this week? Come see us at Booth 651.",
+    "summaryEn": "Databricks partner of the year!\nBig news out of @databricks Data + AI Summit.\nReplit has been named 2026 App Generation Partner of the Year and is now available on the Databricks Marketplace.\nIn SF this week? Come see us at Booth 651.",
+    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：Databricks partner of the year! Big news out of @databricks Data + AI Summit. Replit has been named 2026 App G...。Amjad Masad 的身份接近“ceo @replit . civilizationist”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。开发门槛还在降，但产品判断、系统设计和工作流编排的门槛其实正在变高。写得出来越来越不稀缺，知道该写什么反而更关键。",
+    "url": "https://x.com/amasad/status/2066956074360426622",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "mntruell",
+        "text": "Lots to do together. Excited to be joining forces with\n@SpaceX\n to build useful AI.\nSpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world’s most useful AI m...",
+        "likes": 12090,
+        "url": "https://x.com/mntruell/status/2066874098001883538"
+      },
+      {
+        "author": "midjourney",
+        "text": "Midjourney will be announcing its first hardware project tomorrow (Wednesday 6/17) at 6pm PT. Stay tuned for a livestream of our in-person launch event in San Francisco. If you're in town and want an invite, reply below,...",
+        "likes": 3968,
+        "url": "https://x.com/midjourney/status/2066994481770213697"
+      },
+      {
+        "author": "a16z",
+        "text": "Cursor CEO Michael Truell on the future of writing code: \"Our goal with Cursor is to invent a new type of programming.\"\n\"It looks like a world where you have a representation of the logic of your software that does look...",
+        "likes": 2930,
+        "url": "https://x.com/a16z/status/2066932717871301046"
+      }
+    ]
   },
   {
     "name": "今日总结",
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
-    "summaryEn": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summaryEn": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "analysis": "",
     "url": "",
     "verified": false,
