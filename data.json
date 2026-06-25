@@ -72,6 +72,18 @@
     "hotComments": []
   },
   {
+    "name": "艾略特",
+    "handle": "elliotchen100",
+    "role": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
+    "avatar": "EL",
+    "summary": "推荐一个最近爱用的 browser use 小技巧，非常丝滑。\n我是那种浏览器一开就是几十上百个 tabs 的重度用户，而且还经常重复。\n后来我在 Codex 里加了一个触发任务，每次锁屏/离线的时候，Codex 自动调用 browser use 清理并关闭多余、重复的 tabs，完全不用我手动操心。\n这套路在 Codex 和 CC 里都能用，推荐一下。",
+    "summaryEn": "推荐一个最近爱用的 browser use 小技巧，非常丝滑。\n我是那种浏览器一开就是几十上百个 tabs 的重度用户，而且还经常重复。\n后来我在 Codex 里加了一个触发任务，每次锁屏/离线的时候，Codex 自动调用 browser use 清理并关闭多余、重复的 tabs，完全不用我手动操心。\n这套路在 Codex 和 CC 里都能用，推荐一下。",
+    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：推荐一个最近爱用的 browser use 小技巧，非常丝滑。 我是那种浏览器一开就是几十上百个 tabs 的重度用户，而且还经常重复。 后来我在 Codex 里加了一个触发任务，每次锁屏/离线的时候，Codex 自动调...。艾略特 的身份接近“Building @EverMind - memory for self-evolving agents htt...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 dem",
+    "url": "https://x.com/elliotchen100/status/2069797413850931353",
+    "verified": true,
+    "hotComments": []
+  },
+  {
     "name": "花叔",
     "handle": "AlchainHust",
     "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
@@ -84,37 +96,12 @@
     "hotComments": []
   },
   {
-    "name": "Amjad Masad",
-    "handle": "amasad",
-    "role": "ceo @replit . civilizationist",
-    "avatar": "AM",
-    "summary": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\nCongrats Yousef and team!\nHave spent all of 2026 building something new post-FaZe. Excited to join @ycombinator this summer as I continue on this next chapter.\nTen years ago I was 20, moving out of the FaZe House in New York to our new place in Newport Beach.\nThis week I turned 30, and I’m feeling the",
-    "summaryEn": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\nCongrats Yousef and team!\nHave spent all of 2026 building something new post-FaZe. Excited to join @ycombinator this summer as I continue on this next chapter.\nTen years ago I was 20, moving out of the FaZe House in New York to our new place in Newport Beach.\nThis week I turned 30, and I’m feeling the",
-    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea. Congrats Yousef a...。Amjad Masad 的身份接近“ceo @replit . civilizationist”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。用户未来面对的，可能不再是固定页面，而是按任务实时长出来的界面。",
-    "url": "https://x.com/amasad/status/2069588152285794373",
-    "verified": true,
-    "hotComments": [
-      {
-        "author": "FaZeApex",
-        "text": "Thank you Amjad! Hope to continue to learn from you as we try to follow in your foosteps",
-        "likes": 54,
-        "url": "https://x.com/FaZeApex/status/2069643570596970738"
-      },
-      {
-        "author": "0x_lun",
-        "text": "zero technical experience and rebuilt the whole site last night is the part that should scare every agency that charges for this",
-        "likes": 12,
-        "url": "https://x.com/0x_lun/status/2069594292692173055"
-      }
-    ]
-  },
-  {
     "name": "今日总结",
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。界面和工作流层面的重组开始变多，产品形态本身在松动，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
-    "summaryEn": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。界面和工作流层面的重组开始变多，产品形态本身在松动，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summaryEn": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "analysis": "",
     "url": "",
     "verified": false,
