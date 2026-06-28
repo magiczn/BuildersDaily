@@ -1,5 +1,17 @@
 [
   {
+    "name": "艾略特",
+    "handle": "elliotchen100",
+    "role": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
+    "avatar": "EL",
+    "summary": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。\nbro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。\n用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。\n延迟低，效果激情，有创意。\ni tried building an AI commentator for the World Cup\nit watches the live stream as the viewers, samples the newest frames, reads the action, and speaks the play-by-play back into the broadcast in real time\nhere it is calling the 2022 final:",
+    "summaryEn": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。\nbro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。\n用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。\n延迟低，效果激情，有创意。\ni tried building an AI commentator for the World Cup\nit watches the live stream as the viewers, samples the newest frames, reads the action, and speaks the play-by-play back into the broadcast in real time\nhere it is calling the 2022 final:",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。 bro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。 用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后...。艾略特 的身份接近“Building @EverMind - memory for self-evolving agents htt...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/elliotchen100/status/2071021724066550022",
+    "verified": true,
+    "hotComments": []
+  },
+  {
     "name": "AYi",
     "handle": "AYi_AInotes",
     "role": "AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知 AIGC | Prompt | 商业思维 丨职场丨认知心理学 合作/交流：DM/TG @AYi_AInotes",
@@ -18,109 +30,18 @@
     "avatar": "阿A",
     "summary": "所以科技平权从Fable 5开始转折了吗？\n以后我们普通人还能用到顶级AI大模型的机会吗？\n感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了\n最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。\n普通人能用的Fable 5，还在等政府审批，遥遥无期。\n以前是花钱订阅就能摸到人类最顶尖的模型能力，\n现在是最强的能力，只对特定身份和机构开放，\n也就是说分层的墙已经立起来了，\n以后普通用户能拿到的，永远是降过级的公开版本，\n真正能重构生产力的顶级能力，只会在高墙内流转～\nSince June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical",
     "summaryEn": "所以科技平权从Fable 5开始转折了吗？\n以后我们普通人还能用到顶级AI大模型的机会吗？\n感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了\n最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。\n普通人能用的Fable 5，还在等政府审批，遥遥无期。\n以前是花钱订阅就能摸到人类最顶尖的模型能力，\n现在是最强的能力，只对特定身份和机构开放，\n也就是说分层的墙已经立起来了，\n以后普通用户能拿到的，永远是降过级的公开版本，\n真正能重构生产力的顶级能力，只会在高墙内流转～\nSince June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型...。AYi 的身份接近“AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型...。AYi 的身份接近“AI 实用主义 大厂组织发展专家 × 心理学硕士（QS30） 分享有用的 AI 实践，也分享工具之外的深度认知...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
     "url": "https://x.com/AYi_AInotes/status/2070738404245942442",
     "verified": true,
     "hotComments": []
-  },
-  {
-    "name": "艾略特",
-    "handle": "elliotchen100",
-    "role": "Building @EverMind - memory for self-evolving agents https://github.com/EverMind-AI/Ev erOS …",
-    "avatar": "EL",
-    "summary": "也许市场根本不给 6 个月，我们也是学术，研发，产品，设计，运营多管旗下。\n但这个节奏下，要保证学术成绩，代码质量，产品体验甚至是设计品味会很难，万幸的是团队氛围很好，大家都想把这事儿落地做成。\n也可以期待下我们马上要发布的 Raven，一个 Memory-first 超强自进化 Agent。\n今天giac，特意看了EverOS，之前只觉得是做长期记忆的，今天他们coo说从天桥总从脑科学延伸出这项目，这个思路就合理。\n- 做的早，保护期也就6个月\n- 类似brain.md等想抄，也不会很难\n- python first不好，多语言还是要做\n- HyperMem是核心，这点\nhttp://\nwisme.ai也有类似实现。这个方向好玩",
-    "summaryEn": "也许市场根本不给 6 个月，我们也是学术，研发，产品，设计，运营多管旗下。\n但这个节奏下，要保证学术成绩，代码质量，产品体验甚至是设计品味会很难，万幸的是团队氛围很好，大家都想把这事儿落地做成。\n也可以期待下我们马上要发布的 Raven，一个 Memory-first 超强自进化 Agent。\n今天giac，特意看了EverOS，之前只觉得是做长期记忆的，今天他们coo说从天桥总从脑科学延伸出这项目，这个思路就合理。\n- 做的早，保护期也就6个月\n- 类似brain.md等想抄，也不会很难\n- python first不好，多语言还是要做\n- HyperMem是核心，这点\nhttp://\nwisme.ai也有类似实现。这个方向好玩",
-    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：也许市场根本不给 6 个月，我们也是学术，研发，产品，设计，运营多管旗下。 但这个节奏下，要保证学术成绩，代码质量，产品体验甚至是设计品味会很难，万幸的是团队氛围很好，大家都想把这事儿落地做成。 也可以期待下我们马上要发...。艾略特 的身份接近“Building @EverMind - memory for self-evolving agents htt...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 demo 更值",
-    "url": "https://x.com/elliotchen100/status/2070699350217592974",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "alon",
-    "handle": "alonzuman",
-    "role": "playing AI games with real friends @pops_fyi",
-    "avatar": "AL",
-    "summary": "yc companies:\nWhat the fuck man",
-    "summaryEn": "yc companies:\nWhat the fuck man",
-    "analysis": "这条动态最直接的信息是：yc companies: What the fuck man。alon 的身份接近“playing AI games with real friends @pops_fyi”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-    "url": "https://x.com/alonzuman/status/2070686829649825888",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "alon",
-    "handle": "alonzuman",
-    "role": "playing AI games with real friends @pops_fyi",
-    "avatar": "AL",
-    "summary": "zohran is a generational speaker/presenter, which exactly why hes so dangerous\nsay what you want about the policy, which is extremely bad, but his presentation & communication skills are genuinely next level.\nthe ad is ironically warm (esp with the filter) while communicating a “freeze”, it’s also dead simple, emotionally precise, & incredibly effective. x.com/nycmayor/statu…",
-    "summaryEn": "zohran is a generational speaker/presenter, which exactly why hes so dangerous\nsay what you want about the policy, which is extremely bad, but his presentation & communication skills are genuinely next level.\nthe ad is ironically warm (esp with the filter) while communicating a “freeze”, it’s also dead simple, emotionally precise, & incredibly effective. x.com/nycmayor/statu…",
-    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：zohran is a generational speaker/presenter, which exactly why hes so dangerous say what you want about the pol...。alon 的身份接近“playing AI games with real friends @pops_fyi”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。用户未来面对的，可能不再是固定页面，而是按任务实时长出来的界面。",
-    "url": "https://x.com/alonzuman/status/2070593292052423155",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Dan Shipper",
-    "handle": "danshipper",
-    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
-    "avatar": "DS",
-    "summary": "full blog post here:",
-    "summaryEn": "full blog post here:",
-    "analysis": "这条动态最直接的信息是：full blog post here:。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/danshipper/status/2070554247301591163",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Dan Shipper",
-    "handle": "danshipper",
-    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
-    "avatar": "DS",
-    "summary": "BREAKING: OpenAI announced GPT-5.6 Sol!\nAs of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and\n@every\n is not on the list. This appears to be a temporary situation while the government races to figure out a long-term policy for",
-    "summaryEn": "BREAKING: OpenAI announced GPT-5.6 Sol!\nAs of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and\n@every\n is not on the list. This appears to be a temporary situation while the government races to figure out a long-term policy for",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：BREAKING: OpenAI announced GPT-5.6 Sol! As of today, by U.S. government directive, access is limited to only ~...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
-    "url": "https://x.com/danshipper/status/2070554118146412979",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Dave Morin",
-    "handle": "davemorin",
-    "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Slow @Path • Early @Apple @Facebook • Skier • Dad of 3",
-    "avatar": "DM",
-    "summary": "“Stay true to who you are.” -\n@Om",
-    "summaryEn": "“Stay true to who you are.” -\n@Om",
-    "analysis": "这条动态最直接的信息是：“Stay true to who you are.” - @Om。Dave Morin 的身份接近“Partner @OfflineVentures • Chairman @Esalen • Board @Ope...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
-    "url": "https://x.com/davemorin/status/2070536397384204503",
-    "verified": true,
-    "hotComments": [
-      {
-        "author": "bgurley",
-        "text": "This is what’s causing Anthropic to aggressively beg for govt protection (see below). Customers are finding cheaper alternatives. Keeping employees requires continuing ultra-rich secondaries ($$$) that are dependent on r...",
-        "likes": 2979,
-        "url": "https://x.com/bgurley/status/2070427385237741797"
-      },
-      {
-        "author": "signulll",
-        "text": "say what you want about the policy, which is extremely bad, but his presentation & communication skills are genuinely next level.\nthe ad is ironically warm (esp with the filter) while communicating a “freeze”, it’s also...",
-        "likes": 2019,
-        "url": "https://x.com/signulll/status/2070580591926370594"
-      },
-      {
-        "author": "brian_armstrong",
-        "text": "How to keep AI spend flat while token usage grows exponentially: Not with friction and spend alerts. With better defaults, routing, and caching.\nBetter Defaults (not Usage Caps) – Engineers can choose any model they want...",
-        "likes": 1869,
-        "url": "https://x.com/brian_armstrong/status/2070670644577280109"
-      }
-    ]
   },
   {
     "name": "今日总结",
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
-    "summaryEn": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手，界面和工作流层面的重组开始变多，产品形态本身在松动。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
+    "summaryEn": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手，界面和工作流层面的重组开始变多，产品形态本身在松动。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
     "analysis": "",
     "url": "",
     "verified": false,
