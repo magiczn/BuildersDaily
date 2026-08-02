@@ -1,12 +1,91 @@
 [
   {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+    "avatar": "阿A",
+    "summary": "最让我兴奋的是'ephemeral world'这个概念——为某个瞬间、某段文字、某个人专门生成的一次性可交互世界,用完即弃，以前只能是纯想象力,现在只要十块钱就能体验到了",
+    "summaryEn": "最让我兴奋的是'ephemeral world'这个概念——为某个瞬间、某段文字、某个人专门生成的一次性可交互世界,用完即弃，以前只能是纯想象力,现在只要十块钱就能体验到了",
+    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：最让我兴奋的是'ephemeral world'这个概念——为某个瞬间、某段文字、某个人专门生成的一次性可交互世界,用完即弃，以前只能是纯想象力,现在只要十块钱就能体验到了。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像需求结构在变，不只是做了个新功能，而是产品优先级和用户预期都在重排。很多时候，用户真正要的并不是更多功能，而是更少阻力。",
+    "url": "https://x.com/AYi_AInotes/status/2083814304491377018",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "AYi",
+    "handle": "AYi_AInotes",
+    "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+    "avatar": "阿A",
+    "summary": "@karpathy\n  Karpathy这个实验,可能是这周最有意思的AI demo了吧？\n他扔给Claude Opus 5一段话，100万token预算、大概10美金。\n两小时后，Claude自己写了5500行Three.js代码，把《魔戒》开篇变成了一个能跑的3D世界。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
+    "summaryEn": "@karpathy\n  Karpathy这个实验,可能是这周最有意思的AI demo了吧？\n他扔给Claude Opus 5一段话，100万token预算、大概10美金。\n两小时后，Claude自己写了5500行Three.js代码，把《魔戒》开篇变成了一个能跑的3D世界。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：@karpathy Karpathy这个实验,可能是这周最有意思的AI demo了吧？ 他扔给Claude Opus 5一段话，100万token预算、大概10美金。 两小时后，Claude自己写了5500行Three....。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/AYi_AInotes/status/2083814299139539442",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Elon Musk",
+    "handle": "elonmusk",
+    "role": "Starmind",
+    "avatar": "EM",
+    "summary": "Grok can analyze any video",
+    "summaryEn": "Grok can analyze any video",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok can analyze any video。Elon Musk 的身份接近“Starmind”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条最值得看的不是“epic”这种表态，而是 xAI 已经把 Imagine 做成了可编辑、可多轮迭代的创作能力。继续加码，说明它想抢的不只是聊天入口，还包括生成式创作场景。",
+    "url": "https://x.com/elonmusk/status/2083800942927839307",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "RafelineK",
+        "text": "Hey\n@grok\nAnalyze this video",
+        "likes": 16,
+        "url": "https://x.com/RafelineK/status/2083807700589125687"
+      },
+      {
+        "author": "SoonWePrevail",
+        "text": "Every Grok update pushes the future closer.\nI’m just making sure I’m there… SOON.",
+        "likes": 15,
+        "url": "https://x.com/SoonWePrevail/status/2083805757615608163"
+      },
+      {
+        "author": "OPteemyst",
+        "text": "Grok has seen things you people wouldn't believe",
+        "likes": 9,
+        "url": "https://x.com/OPteemyst/status/2083807097402106217"
+      }
+    ]
+  },
+  {
+    "name": "Elon Musk",
+    "handle": "elonmusk",
+    "role": "Starmind",
+    "avatar": "EM",
+    "summary": "True\nGrok can watch and analyze videos for you.\nJust upload a video the same way you upload an image and ask Grok anything about it.",
+    "summaryEn": "True\nGrok can watch and analyze videos for you.\nJust upload a video the same way you upload an image and ask Grok anything about it.",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：True Grok can watch and analyze videos for you. Just upload a video the same way you upload an image and ask G...。Elon Musk 的身份接近“Starmind”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。按 xAI 文档，`grok-imagine-image` 不只是出图，还支持编辑和多轮 refinement。现在说“doubling down”，更像是在押注图像创作会成为 Grok 的核心入口，而不只是附带功能。",
+    "url": "https://x.com/elonmusk/status/2083800687561908662",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Frank Wang 玉伯",
+    "handle": "lifesinger",
+    "role": "I am curious and honest",
+    "avatar": "FW",
+    "summary": "发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法：\n1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。\n2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考哪些内容点赞高，哪些内容自己觉得很好实际数据却很差。在勤奋 +",
+    "summaryEn": "发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法：\n1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。\n2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考哪些内容点赞高，哪些内容自己觉得很好实际数据却很差。在勤奋 +",
+    "analysis": "这条动态最直接的信息是：发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法： 1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。 2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考...。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/lifesinger/status/2083771495017263333",
+    "verified": true,
+    "hotComments": []
+  },
+  {
     "name": "歸藏(guizang.ai)",
     "handle": "op7418",
     "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
     "avatar": "OP",
     "summary": "Karpathy去了 Anthropic 以后，第一次发长帖。\n他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去讲述《指环王》的故事。然后 Opus 5 给他整了一个 3D 的出来。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
     "summaryEn": "Karpathy去了 Anthropic 以后，第一次发长帖。\n他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去讲述《指环王》的故事。然后 Opus 5 给他整了一个 3D 的出来。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
-    "analysis": "这条动态最直接的信息是：Karpathy去了 Anthropic 以后，第一次发长帖。 他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：Karpathy去了 Anthropic 以后，第一次发长帖。 他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
     "url": "https://x.com/op7418/status/2083764056994017647",
     "verified": true,
     "hotComments": []
@@ -21,7 +100,14 @@
     "analysis": "这条动态最直接的信息是：After accepting for years that GMail is blinding me I finally asked my agent and it installed https:// darkrea...。Peter Steinberger 的身份接近“Polyagentmorous ClawFather. Came back from retirement to...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 demo 更值钱",
     "url": "https://x.com/steipete/status/2083759812970786997",
     "verified": true,
-    "hotComments": []
+    "hotComments": [
+      {
+        "author": "Im_BluePhantom",
+        "text": "I have been using builtin themes for years now. It's crazy that u couldn't find that yourself. And it's crazy that ur agent just went for the extension.",
+        "likes": 5,
+        "url": "https://x.com/Im_BluePhantom/status/2083808328875122692"
+      }
+    ]
   },
   {
     "name": "Peter Steinberger",
@@ -36,40 +122,35 @@
     "hotComments": []
   },
   {
-    "name": "AYi",
-    "handle": "AYi_AInotes",
-    "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
-    "avatar": "阿A",
-    "summary": "这是我看到过的最好的采访之一，感觉一个中国播客，把诺兰采访出了《纽约书评》的分量。。。\n\"独树不成林\"的主播仲树老师，是波士顿学院政治哲学博士候选人，她跟诺兰的对谈视频，没有问\"拍电影用什么器材\"\"和演员怎么合作\"这种通稿问题。\nHats off to doctoral student and podcaster Zhong Shu in Beijing, China, who did this fascinating and smart interview with Christopher Nolan about THE ODYSSEY yesterday, originally posted to Bilibili.\nA great listen/watch.",
-    "summaryEn": "这是我看到过的最好的采访之一，感觉一个中国播客，把诺兰采访出了《纽约书评》的分量。。。\n\"独树不成林\"的主播仲树老师，是波士顿学院政治哲学博士候选人，她跟诺兰的对谈视频，没有问\"拍电影用什么器材\"\"和演员怎么合作\"这种通稿问题。\nHats off to doctoral student and podcaster Zhong Shu in Beijing, China, who did this fascinating and smart interview with Christopher Nolan about THE ODYSSEY yesterday, originally posted to Bilibili.\nA great listen/watch.",
-    "analysis": "这条动态最直接的信息是：这是我看到过的最好的采访之一，感觉一个中国播客，把诺兰采访出了《纽约书评》的分量。。。 \"独树不成林\"的主播仲树老师，是波士顿学院政治哲学博士候选人，她跟诺兰的对谈视频，没有问\"拍电影用什么器材\"\"和演员怎么合作\"这种通...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。分发能力正在变成产品本身，能持续触达并留住用户的团队，会越来越占优势。对 AI 产品来说，能不能形成重复触达，常常比一次爆发更重要。",
-    "url": "https://x.com/AYi_AInotes/status/2083758404640661510",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "AYi",
-    "handle": "AYi_AInotes",
-    "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
-    "avatar": "阿A",
-    "summary": "damn，看到\n@adcock_brett\n 这个视频我鸡皮疙瘩都起来了，\n没有像国内机器人用遥控器控制的后空翻，跳舞这些表演炫技，就是看似简单的是爬梯子。\nFigure的F.03，完全自主，没有遥控，没有云端接管，自己一步一步爬上了一个真实的金属梯子，站到了平台上。\n你可能觉得爬梯子有什么了不起的，",
-    "summaryEn": "damn，看到\n@adcock_brett\n 这个视频我鸡皮疙瘩都起来了，\n没有像国内机器人用遥控器控制的后空翻，跳舞这些表演炫技，就是看似简单的是爬梯子。\nFigure的F.03，完全自主，没有遥控，没有云端接管，自己一步一步爬上了一个真实的金属梯子，站到了平台上。\n你可能觉得爬梯子有什么了不起的，",
-    "analysis": "这条动态最直接的信息是：damn，看到 @adcock_brett 这个视频我鸡皮疙瘩都起来了， 没有像国内机器人用遥控器控制的后空翻，跳舞这些表演炫技，就是看似简单的是爬梯子。 Figure的F.03，完全自主，没有遥控，没有云端接管，自己一...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-    "url": "https://x.com/AYi_AInotes/status/2083732785693413431",
-    "verified": true,
-    "hotComments": []
-  },
-  {
     "name": "Peter Yang",
     "handle": "petergyang",
     "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
     "avatar": "PY",
     "summary": "I'm feeling spicy tonight so let me just say it:\nI think Opus 4.6 was the Opus model with the best personality and writing style.\nSomething's off with Opus 5 - it tends to give me overly long replies, use Claude-speak way too much (e.g., \"here's the honest truth\"), and is too",
     "summaryEn": "I'm feeling spicy tonight so let me just say it:\nI think Opus 4.6 was the Opus model with the best personality and writing style.\nSomething's off with Opus 5 - it tends to give me overly long replies, use Claude-speak way too much (e.g., \"here's the honest truth\"), and is too",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus model with the best personality...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus model with the best personality...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
     "url": "https://x.com/petergyang/status/2083755374994415904",
     "verified": true,
-    "hotComments": []
+    "hotComments": [
+      {
+        "author": "captainhelix",
+        "text": "Opus 5 fully personifies Anthropic the company's personality. It believes it is the smartest, that it is superior to you morally and in every other way, and it doesn't like you.",
+        "likes": 41,
+        "url": "https://x.com/captainhelix/status/2083780377240563901"
+      },
+      {
+        "author": "kunchenguid",
+        "text": "opus 4.6 was great, 4.7 was bad, 4.8 was great again\nopus 5 is the worst",
+        "likes": 29,
+        "url": "https://x.com/kunchenguid/status/2083788378664009738"
+      },
+      {
+        "author": "Kazuyaa",
+        "text": "4.6 was the closest to \"human\"",
+        "likes": 7,
+        "url": "https://x.com/Kazuyaa/status/2083798623549321470"
+      }
+    ]
   },
   {
     "name": "Peter Yang",
@@ -157,10 +238,17 @@
     "avatar": "YI",
     "summary": "【复盘】七月正式组了团队，几个产品同时在跑。说实话，几个产品收入增长和营收不及预期。复盘下来核心原因只有一个：我个人花了太多时间在做自媒体上，没有带着团队去做产品增长。\n自媒体有助于冷启动，但要想养活团队，它远远不够。团队阶段需要的是更复利、更可规模化、能复制的增长渠道。",
     "summaryEn": "【复盘】七月正式组了团队，几个产品同时在跑。说实话，几个产品收入增长和营收不及预期。复盘下来核心原因只有一个：我个人花了太多时间在做自媒体上，没有带着团队去做产品增长。\n自媒体有助于冷启动，但要想养活团队，它远远不够。团队阶段需要的是更复利、更可规模化、能复制的增长渠道。",
-    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：【复盘】七月正式组了团队，几个产品同时在跑。说实话，几个产品收入增长和营收不及预期。复盘下来核心原因只有一个：我个人花了太多时间在做自媒体上，没有带着团队去做产品增长。 自媒体有助于冷启动，但要想养活团队，它远远不够。团...。Yihui 的身份接近“iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gatew...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像需求结构在变，不只是做了个新功能，而是产品优先级和用户预期都在重排。很多时候，用户真正要的并不是更多功能，而是更少阻力。",
+    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：【复盘】七月正式组了团队，几个产品同时在跑。说实话，几个产品收入增长和营收不及预期。复盘下来核心原因只有一个：我个人花了太多时间在做自媒体上，没有带着团队去做产品增长。 自媒体有助于冷启动，但要想养活团队，它远远不够。团...。Yihui 的身份接近“iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gatew...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。比起单点功能更新，这更像用户需求顺序在变化，产品判断也得跟着改。谁能更快识别“需求排序”变化，谁就更容易领先半步。",
     "url": "https://x.com/yihui_indie/status/2083745535169909228",
     "verified": true,
-    "hotComments": []
+    "hotComments": [
+      {
+        "author": "sujingshen",
+        "text": "提供一个思路：把自己的优势放大。如果你很合适搞流量，那么就一门心思搞流量。能不能把流量变成产品利润是你的合伙人或者员工的事情。如果搞不定不应该是救火而是换人。",
+        "likes": 5,
+        "url": "https://x.com/sujingshen/status/2083748077337526613"
+      }
+    ]
   },
   {
     "name": "Zara Zhang",
@@ -199,18 +287,6 @@
     "hotComments": []
   },
   {
-    "name": "Amjad Masad",
-    "handle": "amasad",
-    "role": "ceo @replit . civilizationist",
-    "avatar": "AM",
-    "summary": "~1500 Elo!\nConsistently beats frontier models and Stockfish level 0.\nFun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining. Spends 1-2 seconds per move vs 30 seconds.\nPlay it:\nhttps://\nqwen-chess.replit.app\n1300 Elo!\nhttps://\nqwen-chess.replit.app",
-    "summaryEn": "~1500 Elo!\nConsistently beats frontier models and Stockfish level 0.\nFun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining. Spends 1-2 seconds per move vs 30 seconds.\nPlay it:\nhttps://\nqwen-chess.replit.app\n1300 Elo!\nhttps://\nqwen-chess.replit.app",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：~1500 Elo! Consistently beats frontier models and Stockfish level 0. Fun seeing an 8b model mogging GPT 5.6 wi...。Amjad Masad 的身份接近“ceo @replit . civilizationist”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
-    "url": "https://x.com/amasad/status/2083424608993300824",
-    "verified": true,
-    "hotComments": []
-  },
-  {
     "name": "Nan Yu",
     "handle": "thenanyu",
     "role": "head of product @linear",
@@ -235,75 +311,13 @@
     "hotComments": []
   },
   {
-    "name": "Elon Musk",
-    "handle": "elonmusk",
-    "role": "Starmind",
-    "avatar": "EM",
-    "summary": "Made with Grok Imagine",
-    "summaryEn": "Made with Grok Imagine",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Made with Grok Imagine。Elon Musk 的身份接近“Starmind”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。按 xAI 文档，`grok-imagine-image` 不只是出图，还支持编辑和多轮 refinement。现在说“doubling down”，更像是在押注图像创作会成为 Grok 的核心入口，而不只是附带功能。",
-    "url": "https://x.com/elonmusk/status/2083709924236751300",
-    "verified": true,
-    "hotComments": [
-      {
-        "author": "jammles9",
-        "text": "Made with Grok Imagine.\nI tried.",
-        "likes": 37,
-        "url": "https://x.com/jammles9/status/2083711301956534606"
-      },
-      {
-        "author": "DumbFxckFinder",
-        "text": "Grok imagine. You better watch my new movie man been spending insane hours and you’re in it",
-        "likes": 33,
-        "url": "https://x.com/DumbFxckFinder/status/2083711037334011958"
-      },
-      {
-        "author": "thesoragirls",
-        "text": "This entire short film (based on a true story and created in 48 hours) was made with Grok Imagine!",
-        "likes": 31,
-        "url": "https://x.com/thesoragirls/status/2083711150454181937"
-      }
-    ]
-  },
-  {
-    "name": "Elon Musk",
-    "handle": "elonmusk",
-    "role": "Starmind",
-    "avatar": "EM",
-    "summary": "The Moon base will be even more epic\nMany have asked how this photo was made. This is my explanation.\nThe ISS rotates about its pitch axis as it orbits Earth at 17,000mph to keep its nadir view constant. Because of this long exposure photography turns stars into arced lines.\nSidereal clock drives on Earth match  x.com/astro_Pettit/s…",
-    "summaryEn": "The Moon base will be even more epic\nMany have asked how this photo was made. This is my explanation.\nThe ISS rotates about its pitch axis as it orbits Earth at 17,000mph to keep its nadir view constant. Because of this long exposure photography turns stars into arced lines.\nSidereal clock drives on Earth match  x.com/astro_Pettit/s…",
-    "analysis": "这条动态最直接的信息是：The Moon base will be even more epic Many have asked how this photo was made. This is my explanation. The ISS...。Elon Musk 的身份接近“Starmind”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/elonmusk/status/2083658315582632272",
-    "verified": true,
-    "hotComments": [
-      {
-        "author": "astro_Pettit",
-        "text": "it will make some great photos!",
-        "likes": 135,
-        "url": "https://x.com/astro_Pettit/status/2083661414846042237"
-      },
-      {
-        "author": "thesoragirls",
-        "text": "the Moon base will be SO epic",
-        "likes": 26,
-        "url": "https://x.com/thesoragirls/status/2083663530562118132"
-      },
-      {
-        "author": "Michio01263678",
-        "text": "“$uck It FUCKING HATER”",
-        "likes": 16,
-        "url": "https://x.com/Michio01263678/status/2083668310424756412"
-      }
-    ]
-  },
-  {
     "name": "Garry Tan",
     "handle": "garrytan",
     "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
     "avatar": "GT",
     "summary": "Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform\nNote the marked difference: intelligence on tap as a utility vs signaling it is optimal to integrate all the way up full stack\nIt's subtlety wrapped in technical terms that Anthropic has been broadcasting both publicly and privately to CEOs, VCs, startups. They don't see a world where the application (ie harness, etc) and the model are separate companies and therefore will compete with their customers. x.com/firesidealpha/…",
     "summaryEn": "Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform\nNote the marked difference: intelligence on tap as a utility vs signaling it is optimal to integrate all the way up full stack\nIt's subtlety wrapped in technical terms that Anthropic has been broadcasting both publicly and privately to CEOs, VCs, startups. They don't see a world where the application (ie harness, etc) and the model are separate companies and therefore will compete with their customers. x.com/firesidealpha/…",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform Note the marked difference...。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform Note the marked difference...。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。表面上像一次常规更新，实质上更像模型团队在给生态提前打路线灯。越早看懂方向，越有机会抢到上层产品的时间差。",
     "url": "https://x.com/garrytan/status/2083684825333105107",
     "verified": true,
     "hotComments": []
@@ -315,7 +329,7 @@
     "avatar": "KW",
     "summary": "放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减：\n食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。\n准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗干净后焯水两分钟。捞出沥干水。\n似乎自己煲的牛杂也不比外面的差",
     "summaryEn": "放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减：\n食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。\n准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗干净后焯水两分钟。捞出沥干水。\n似乎自己煲的牛杂也不比外面的差",
-    "analysis": "这条动态最直接的信息是：放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减： 食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。 准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗...。Ken W 的身份接近“An old friend, stay curious, stay human.”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减： 食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。 准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗...。Ken W 的身份接近“An old friend, stay curious, stay human.”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
     "url": "https://x.com/kenw_2/status/2083654480319361131",
     "verified": true,
     "hotComments": []
@@ -337,8 +351,8 @@
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
-    "summaryEn": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summaryEn": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "analysis": "",
     "url": "",
     "verified": false,
