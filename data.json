@@ -1,5 +1,53 @@
 [
   {
+    "name": "艾略特",
+    "handle": "elliotchen100",
+    "role": "Raven: the deepthinking self-improving agent harness",
+    "avatar": "EL",
+    "summary": "前两周发得 Skills Hub 的帖子小火，推友都来关注了我们的 Skills Hub。\n今天\n@evermind\n 会发一篇新论文，就是讲我们如何验证 Open-source skill ecosystem，且加强对真实场景下 Agent 的使用。\n我也做了一丢丢贡献，所以论文上有我的名字，期待下次可以贡献更多。\n怎么判断一个 Skill 是真的好用，\n而不是只看下载量和主观评分？\n我们在做 Raven  的时候，一直在想这个问题。\n下载量只能说明它被安装过，评分只能说明有人喜欢。它们都回答不了一个更重要的问题：Agent 使用这个 Skill 之后，任务到底完成得更好了吗？\n所以我们做了 EverMind Skill Hub。 x.com/evermind/statu…",
+    "summaryEn": "前两周发得 Skills Hub 的帖子小火，推友都来关注了我们的 Skills Hub。\n今天\n@evermind\n 会发一篇新论文，就是讲我们如何验证 Open-source skill ecosystem，且加强对真实场景下 Agent 的使用。\n我也做了一丢丢贡献，所以论文上有我的名字，期待下次可以贡献更多。\n怎么判断一个 Skill 是真的好用，\n而不是只看下载量和主观评分？\n我们在做 Raven  的时候，一直在想这个问题。\n下载量只能说明它被安装过，评分只能说明有人喜欢。它们都回答不了一个更重要的问题：Agent 使用这个 Skill 之后，任务到底完成得更好了吗？\n所以我们做了 EverMind Skill Hub。 x.com/evermind/statu…",
+    "analysis": "这条动态最直接的信息是：前两周发得 Skills Hub 的帖子小火，推友都来关注了我们的 Skills Hub。 今天 @evermind 会发一篇新论文，就是讲我们如何验证 Open-source skill ecosystem，且加强对真...。艾略特 的身份接近“Raven: the deepthinking self-improving agent harness”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 demo 更值钱。",
+    "url": "https://x.com/elliotchen100/status/2084071913190752659",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "艾略特",
+    "handle": "elliotchen100",
+    "role": "Raven: the deepthinking self-improving agent harness",
+    "avatar": "EL",
+    "summary": "最近 DeepSeek 和 K3 的发布，让大家开始认真看 Agent benchmark 后面的 harness。\nKarpathy 这条正好补上了另一半：harness 并不是换一套 prompt 和工具，就能无限放大模型。前提是环境能够把结果反馈给 Agent。\n写代码有 compiler、tests 和 logs。\n但在动态的 3D 世界里，Opus 5\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
+    "summaryEn": "最近 DeepSeek 和 K3 的发布，让大家开始认真看 Agent benchmark 后面的 harness。\nKarpathy 这条正好补上了另一半：harness 并不是换一套 prompt 和工具，就能无限放大模型。前提是环境能够把结果反馈给 Agent。\n写代码有 compiler、tests 和 logs。\n但在动态的 3D 世界里，Opus 5\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：最近 DeepSeek 和 K3 的发布，让大家开始认真看 Agent benchmark 后面的 harness。 Karpathy 这条正好补上了另一半：harness 并不是换一套 prompt 和工具，就能无限放...。艾略特 的身份接近“Raven: the deepthinking self-improving agent harness”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/elliotchen100/status/2083761260932559112",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Dan Shipper",
+    "handle": "danshipper",
+    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+    "avatar": "DS",
+    "summary": "when you experience a language model doing a task that used to require you at every step and now doesn't, it's a gigantic agency rupture.\nwe tend to equate ourselves with our tasks, our outputs, and a rupture of this kind is akin to the loss of your identity and sense of self.",
+    "summaryEn": "when you experience a language model doing a task that used to require you at every step and now doesn't, it's a gigantic agency rupture.\nwe tend to equate ourselves with our tasks, our outputs, and a rupture of this kind is akin to the loss of your identity and sense of self.",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：when you experience a language model doing a task that used to require you at every step and now doesn't, it's...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "url": "https://x.com/danshipper/status/2084038453831020916",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Dan Shipper",
+    "handle": "danshipper",
+    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+    "avatar": "DS",
+    "summary": "if ought implies can, and technology reshapes the field of human abilities—then technology reshapes oughts.\nwe should expect AI to fundamentally change our moral intuitions at the same time as it changes our abilities",
+    "summaryEn": "if ought implies can, and technology reshapes the field of human abilities—then technology reshapes oughts.\nwe should expect AI to fundamentally change our moral intuitions at the same time as it changes our abilities",
+    "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：if ought implies can, and technology reshapes the field of human abilities—then technology reshapes oughts. we...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。用户未来面对的，可能不再是固定页面，而是按任务实时长出来",
+    "url": "https://x.com/danshipper/status/2084024211539116466",
+    "verified": true,
+    "hotComments": []
+  },
+  {
     "name": "AYi",
     "handle": "AYi_AInotes",
     "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
@@ -18,8 +66,20 @@
     "avatar": "阿A",
     "summary": "@karpathy\n  Karpathy这个实验,可能是这周最有意思的AI demo了吧？\n他扔给Claude Opus 5一段话，100万token预算、大概10美金。\n两小时后，Claude自己写了5500行Three.js代码，把《魔戒》开篇变成了一个能跑的3D世界。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
     "summaryEn": "@karpathy\n  Karpathy这个实验,可能是这周最有意思的AI demo了吧？\n他扔给Claude Opus 5一段话，100万token预算、大概10美金。\n两小时后，Claude自己写了5500行Three.js代码，把《魔戒》开篇变成了一个能跑的3D世界。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：@karpathy Karpathy这个实验,可能是这周最有意思的AI demo了吧？ 他扔给Claude Opus 5一段话，100万token预算、大概10美金。 两小时后，Claude自己写了5500行Three....。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：@karpathy Karpathy这个实验,可能是这周最有意思的AI demo了吧？ 他扔给Claude Opus 5一段话，100万token预算、大概10美金。 两小时后，Claude自己写了5500行Three....。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资， 大厂组织发展专家 × 组织心理...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
     "url": "https://x.com/AYi_AInotes/status/2083814299139539442",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Dave Morin",
+    "handle": "davemorin",
+    "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+    "avatar": "DM",
+    "summary": "Thoughts are with Spokane, Washington. This is a really bad fire.",
+    "summaryEn": "Thoughts are with Spokane, Washington. This is a really bad fire.",
+    "analysis": "这条动态最直接的信息是：Thoughts are with Spokane, Washington. This is a really bad fire.。Dave Morin 的身份接近“Partner @OfflineVentures • Chairman @Esalen • Board @Ope...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/davemorin/status/2083810191204856009",
     "verified": true,
     "hotComments": []
   },
@@ -73,7 +133,7 @@
     "avatar": "FW",
     "summary": "发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法：\n1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。\n2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考哪些内容点赞高，哪些内容自己觉得很好实际数据却很差。在勤奋 +",
     "summaryEn": "发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法：\n1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。\n2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考哪些内容点赞高，哪些内容自己觉得很好实际数据却很差。在勤奋 +",
-    "analysis": "这条动态最直接的信息是：发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法： 1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。 2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考...。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "analysis": "这条动态最直接的信息是：发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法： 1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。 2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考...。Frank Wang 玉伯 的身份接近“I am curious and honest”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
     "url": "https://x.com/lifesinger/status/2083771495017263333",
     "verified": true,
     "hotComments": []
@@ -85,7 +145,7 @@
     "avatar": "OP",
     "summary": "Karpathy去了 Anthropic 以后，第一次发长帖。\n他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去讲述《指环王》的故事。然后 Opus 5 给他整了一个 3D 的出来。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
     "summaryEn": "Karpathy去了 Anthropic 以后，第一次发长帖。\n他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去讲述《指环王》的故事。然后 Opus 5 给他整了一个 3D 的出来。\nWe're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
-    "analysis": "这条动态最直接的信息是：Karpathy去了 Anthropic 以后，第一次发长帖。 他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "analysis": "这条动态最直接的信息是：Karpathy去了 Anthropic 以后，第一次发长帖。 他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
     "url": "https://x.com/op7418/status/2083764056994017647",
     "verified": true,
     "hotComments": []
@@ -97,7 +157,7 @@
     "avatar": "PS",
     "summary": "After accepting for years that GMail is blinding me I finally asked my agent and it installed\nhttps://\ndarkreader.org for me.",
     "summaryEn": "After accepting for years that GMail is blinding me I finally asked my agent and it installed\nhttps://\ndarkreader.org for me.",
-    "analysis": "这条动态最直接的信息是：After accepting for years that GMail is blinding me I finally asked my agent and it installed https:// darkrea...。Peter Steinberger 的身份接近“Polyagentmorous ClawFather. Came back from retirement to...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 demo 更值钱",
+    "analysis": "这条动态最直接的信息是：After accepting for years that GMail is blinding me I finally asked my agent and it installed https:// darkrea...。Peter Steinberger 的身份接近“Polyagentmorous ClawFather. Came back from retirement to...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 现在最值得关注的，不是它能不能惊艳演示，而是能不能长期接管真实任务。只要还需要人频繁接管，它就很难变成真正的生产力。",
     "url": "https://x.com/steipete/status/2083759812970786997",
     "verified": true,
     "hotComments": [
@@ -110,25 +170,13 @@
     ]
   },
   {
-    "name": "Peter Steinberger",
-    "handle": "steipete",
-    "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
-    "avatar": "PS",
-    "summary": "I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel it's stalking me and is constaltly shouting 'HI ESP\" to debug the voice wake command",
-    "summaryEn": "I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel it's stalking me and is constaltly shouting 'HI ESP\" to debug the voice wake command",
-    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel i...。Peter Steinberger 的身份接近“Polyagentmorous ClawFather. Came back from retirement to...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。用户未来面对的，可能不再是固定页",
-    "url": "https://x.com/steipete/status/2083694161933594703",
-    "verified": true,
-    "hotComments": []
-  },
-  {
     "name": "Peter Yang",
     "handle": "petergyang",
     "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
     "avatar": "PY",
     "summary": "I'm feeling spicy tonight so let me just say it:\nI think Opus 4.6 was the Opus model with the best personality and writing style.\nSomething's off with Opus 5 - it tends to give me overly long replies, use Claude-speak way too much (e.g., \"here's the honest truth\"), and is too",
     "summaryEn": "I'm feeling spicy tonight so let me just say it:\nI think Opus 4.6 was the Opus model with the best personality and writing style.\nSomething's off with Opus 5 - it tends to give me overly long replies, use Claude-speak way too much (e.g., \"here's the honest truth\"), and is too",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus model with the best personality...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus model with the best personality...。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
     "url": "https://x.com/petergyang/status/2083755374994415904",
     "verified": true,
     "hotComments": [
@@ -153,37 +201,6 @@
     ]
   },
   {
-    "name": "Peter Yang",
-    "handle": "petergyang",
-    "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
-    "avatar": "PY",
-    "summary": "The number one thing I want AI to fix is to cure cancer once and for all",
-    "summaryEn": "The number one thing I want AI to fix is to cure cancer once and for all",
-    "analysis": "这条动态最直接的信息是：The number one thing I want AI to fix is to cure cancer once and for all。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/petergyang/status/2083637620899184642",
-    "verified": true,
-    "hotComments": [
-      {
-        "author": "EMostaque",
-        "text": "yeah fuck cancer",
-        "likes": 32,
-        "url": "https://x.com/EMostaque/status/2083657719622386147"
-      },
-      {
-        "author": "toddcohen",
-        "text": "1000000%. My mom is battling stage 4 breast cancer and unfortunately lost my pops a few years ago to a rare aggressive form of Lymphoma. FUCK CANCER! Let's kill it with the power of AI",
-        "likes": 8,
-        "url": "https://x.com/toddcohen/status/2083709265169223975"
-      },
-      {
-        "author": "k4cperg",
-        "text": "there is no cancer cure, to cure cancer would mean to disable human evolution.",
-        "likes": 6,
-        "url": "https://x.com/k4cperg/status/2083645649409523816"
-      }
-    ]
-  },
-  {
     "name": "铁锤人",
     "handle": "lxfater",
     "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
@@ -204,30 +221,6 @@
     "summaryEn": "亚马逊给 OpenAI 的 500 亿美元投资！！\nJUST IN: Amazon has officially completed its $50 billion investment in OpenAI",
     "analysis": "这条动态最直接的信息是：亚马逊给 OpenAI 的 500 亿美元投资！！ JUST IN: Amazon has officially completed its $50 billion investment in OpenAI。铁锤人 的身份接近“我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
     "url": "https://x.com/lxfater/status/2083738637859238011",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Dan Shipper",
-    "handle": "danshipper",
-    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
-    "avatar": "DS",
-    "summary": "AI creates more work for human experts\nhttps://\nevery.to/p/after-automa\ntion\n…\nNew Javons paradox: we are running out of mathematicians to review progress in maths",
-    "summaryEn": "AI creates more work for human experts\nhttps://\nevery.to/p/after-automa\ntion\n…\nNew Javons paradox: we are running out of mathematicians to review progress in maths",
-    "analysis": "这条动态最直接的信息是：AI creates more work for human experts https:// every.to/p/after-automa tion … New Javons paradox: we are runn...。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/danshipper/status/2083750803437724016",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Dan Shipper",
-    "handle": "danshipper",
-    "role": "ceo @every | the only subscription you need to stay at the edge of AI",
-    "avatar": "DS",
-    "summary": "this tweet under review as further details emerge\nthis is a very good letter x.com/tbpn/status/20…",
-    "summaryEn": "this tweet under review as further details emerge\nthis is a very good letter x.com/tbpn/status/20…",
-    "analysis": "这条动态最直接的信息是：this tweet under review as further details emerge this is a very good letter x.com/tbpn/status/20…。Dan Shipper 的身份接近“ceo @every | the only subscription you need to stay at t...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
-    "url": "https://x.com/danshipper/status/2083727039048118304",
     "verified": true,
     "hotComments": []
   },
@@ -293,56 +286,8 @@
     "avatar": "NY",
     "summary": "Oh, and pangram issue itself, obviously",
     "summaryEn": "Oh, and pangram issue itself, obviously",
-    "analysis": "这条动态最直接的信息是：Oh, and pangram issue itself, obviously。Nan Yu 的身份接近“head of product @linear”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "analysis": "这条动态最直接的信息是：Oh, and pangram issue itself, obviously。Nan Yu 的身份接近“head of product @linear”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
     "url": "https://x.com/thenanyu/status/2083726824924737971",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Nan Yu",
-    "handle": "thenanyu",
-    "role": "head of product @linear",
-    "avatar": "NY",
-    "summary": "You should be able to pledge tokens for issues that you open and open source repos.\nWrite a spec in the issue with a pledge. If the maintainer accepts, GitHub passes the issue verbatim to a cloud coding agent at the requester’s expense.\nNo more slop PRs",
-    "summaryEn": "You should be able to pledge tokens for issues that you open and open source repos.\nWrite a spec in the issue with a pledge. If the maintainer accepts, GitHub passes the issue verbatim to a cloud coding agent at the requester’s expense.\nNo more slop PRs",
-    "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：You should be able to pledge tokens for issues that you open and open source repos. Write a spec in the issue...。Nan Yu 的身份接近“head of product @linear”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正强的自动化产品，往往都带着明确的个人激励。只有创作者自己也急着把烦人的活干掉，agent 才更可能被打磨成可长期使用的工具，而不是一次性 demo。",
-    "url": "https://x.com/thenanyu/status/2083722999430050281",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Garry Tan",
-    "handle": "garrytan",
-    "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-    "avatar": "GT",
-    "summary": "Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform\nNote the marked difference: intelligence on tap as a utility vs signaling it is optimal to integrate all the way up full stack\nIt's subtlety wrapped in technical terms that Anthropic has been broadcasting both publicly and privately to CEOs, VCs, startups. They don't see a world where the application (ie harness, etc) and the model are separate companies and therefore will compete with their customers. x.com/firesidealpha/…",
-    "summaryEn": "Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform\nNote the marked difference: intelligence on tap as a utility vs signaling it is optimal to integrate all the way up full stack\nIt's subtlety wrapped in technical terms that Anthropic has been broadcasting both publicly and privately to CEOs, VCs, startups. They don't see a world where the application (ie harness, etc) and the model are separate companies and therefore will compete with their customers. x.com/firesidealpha/…",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform Note the marked difference...。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。表面上像一次常规更新，实质上更像模型团队在给生态提前打路线灯。越早看懂方向，越有机会抢到上层产品的时间差。",
-    "url": "https://x.com/garrytan/status/2083684825333105107",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "Ken W",
-    "handle": "kenw_2",
-    "role": "An old friend, stay curious, stay human.",
-    "avatar": "KW",
-    "summary": "放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减：\n食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。\n准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗干净后焯水两分钟。捞出沥干水。\n似乎自己煲的牛杂也不比外面的差",
-    "summaryEn": "放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减：\n食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。\n准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗干净后焯水两分钟。捞出沥干水。\n似乎自己煲的牛杂也不比外面的差",
-    "analysis": "这条动态最直接的信息是：放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减： 食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。 准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗...。Ken W 的身份接近“An old friend, stay curious, stay human.”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-    "url": "https://x.com/kenw_2/status/2083654480319361131",
-    "verified": true,
-    "hotComments": []
-  },
-  {
-    "name": "花叔",
-    "handle": "AlchainHust",
-    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
-    "avatar": "AL",
-    "summary": "已经懒到测评都不想自己出任务和做评估了，全都让agent自己闭环了",
-    "summaryEn": "已经懒到测评都不想自己出任务和做评估了，全都让agent自己闭环了",
-    "analysis": "这条动态最直接的信息是：已经懒到测评都不想自己出任务和做评估了，全都让agent自己闭环了。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。当 Agent 开始进入真实工作流，竞争重点就会从能力展示转向可靠性和接入深度。模型在变强，但产品壁垒会越来越落在流程和系统接入上。",
-    "url": "https://x.com/AlchainHust/status/2083484530883878980",
     "verified": true,
     "hotComments": []
   },
