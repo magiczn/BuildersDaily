@@ -1,0 +1,699 @@
+{
+  "date": "2026-04-25",
+  "builderCount": 10,
+  "postCount": 35,
+  "topTopics": [
+    "design",
+    "business",
+    "model",
+    "agent",
+    "enterprise"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2047670640753156516",
+    "2047862456853430383",
+    "2047892780563702093"
+  ],
+  "posts": [
+    {
+      "id": "2047943417339269154",
+      "date": "2026-04-25",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "Ivan 说在 AI 时代，优秀团队不能只会讨论和分工，而要更贴近用户、更主动、更快行动，同时把话说明白。 • You can just do things • Tend to the garden • Nothing is sacred • No passengers We updated our 4 company values this week to keep up with how the company has chang...",
+      "summaryEn": "Ivan 说在 AI 时代，优秀团队不能只会讨论和分工，而要更贴近用户、更主动、更快行动，同时把话说明白。 • You can just do things • Tend to the garden • Nothing is sacred • No passengers We updated our 4 company values this week to keep up with how the company has chang...",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2047943417339269154",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "enterprise",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047910309466390601",
+      "date": "2026-04-25",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "又掌握了一点高级的 Harness 技巧",
+      "summaryEn": "又掌握了一点高级的 Harness 技巧",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2047910309466390601",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "agent"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047906391978053763",
+      "date": "2026-04-25",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "Gemma 真的不错，适合在飞机上没网的时候，简单问问一些问题",
+      "summaryEn": "Gemma 真的不错，适合在飞机上没网的时候，简单问问一些问题",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2047906391978053763",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047939515671892330",
+      "date": "2026-04-25",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "我每次上线新产品，第三方用户授权登录都有问题，自己做的时候也遇到过问题，用 clerk 也会有问题，真是奇了怪了。",
+      "summaryEn": "我每次上线新产品，第三方用户授权登录都有问题，自己做的时候也遇到过问题，用 clerk 也会有问题，真是奇了怪了。",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2047939515671892330",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047934088729030815",
+      "date": "2026-04-25",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "今天 clerk 似乎出现了外部 OAuth 登录无法转换为用户的 bug，暂时禁用了 GitHub 登录，使用邮箱注册可以正常使用 wanman，登录后，连接 GitHub repo 的代码是 wanman 自己维护的，所以不存在问题。",
+      "summaryEn": "今天 clerk 似乎出现了外部 OAuth 登录无法转换为用户的 bug，暂时禁用了 GitHub 登录，使用邮箱注册可以正常使用 wanman，登录后，连接 GitHub repo 的代码是 wanman 自己维护的，所以不存在问题。",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2047934088729030815",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047860898560373246",
+      "date": "2026-04-25",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "今天非常高兴和大家正式介绍并开源我的第 14 款 vibe 产品 http:// wanman.ai 它的理念很简单，让世界上所有人，都能在 AI agents 团队的帮助下，从零创办或接管任何组织，围绕用户的核心意图，持续自动化地运营一人公司。 为了实践这种理念，wanman 必须设计的尽可能简单，不需部署，不用买",
+      "summaryEn": "今天非常高兴和大家正式介绍并开源我的第 14 款 vibe 产品 http:// wanman.ai 它的理念很简单，让世界上所有人，都能在 AI agents 团队的帮助下，从零创办或接管任何组织，围绕用户的核心意图，持续自动化地运营一人公司。 为了实践这种理念，wanman 必须设计的尽可能简单，不需部署，不用买",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2047860898560373246",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2047939291242705224",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "卧槽,Ling-2.6-flash又给我整不会了， 把整本《红楼梦》直接抽成一张3D知识图谱——人物、关系、关键事件,全部变成可旋转可缩放的星图 贾宝玉、林黛玉、王熙凤、元春省亲、袭人劝谏宝玉...上百个节点用引力关系自动布局,鼠标一拖整个红楼梦的人物宇宙就转起来， 后续来了兄弟们，卧槽真的太炸了，同样的任务，同样的配置，速度比Claude Sonnet 4.6还快 6 倍，成本低约 50 倍， openrouter 和 官方 API...",
+      "summaryEn": "卧槽,Ling-2.6-flash又给我整不会了， 把整本《红楼梦》直接抽成一张3D知识图谱——人物、关系、关键事件,全部变成可旋转可缩放的星图 贾宝玉、林黛玉、王熙凤、元春省亲、袭人劝谏宝玉...上百个节点用引力关系自动布局,鼠标一拖整个红楼梦的人物宇宙就转起来， 后续来了兄弟们，卧槽真的太炸了，同样的任务，同样的配置，速度比Claude Sonnet 4.6还快 6 倍，成本低约 50 倍， openrouter 和 官方 API...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047939291242705224",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047931743684977039",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "忘记放地址了兄弟们：",
+      "summaryEn": "忘记放地址了兄弟们：",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047931743684977039",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2047921939029659781",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "卧槽，这个25秒视频把一个网站的整个设计系统扒得一干二净， 兄弟们看这个演示，把Anthropic的官网扔进去，点一下生成， 16秒就出了完整的颜色字体间距排版，最后9秒直接导出结构化的DESIGN.md，",
+      "summaryEn": "卧槽，这个25秒视频把一个网站的整个设计系统扒得一干二净， 兄弟们看这个演示，把Anthropic的官网扔进去，点一下生成， 16秒就出了完整的颜色字体间距排版，最后9秒直接导出结构化的DESIGN.md，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047921939029659781",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047911181038268603",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "为什么所有大厂都在疯了一样自研芯片？看这篇就够了，Amazon官方的这篇文章把整个AI行业接下来十年的硬件路线讲得明明白白， @amazon 的方案很简单，用ARM架构的CPU核心干调度和逻辑的普通活儿， 用自家定制的Tensor核心干矩阵乘法的重体力活， 两者焊在同一块芯片上，效率直接拉满，",
+      "summaryEn": "为什么所有大厂都在疯了一样自研芯片？看这篇就够了，Amazon官方的这篇文章把整个AI行业接下来十年的硬件路线讲得明明白白， @amazon 的方案很简单，用ARM架构的CPU核心干调度和逻辑的普通活儿， 用自家定制的Tensor核心干矩阵乘法的重体力活， 两者焊在同一块芯片上，效率直接拉满，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047911181038268603",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2047903518204338646",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "ZenMux PK模式： https:// zenmux.ai/chat DeepSeek V4 Pro（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-pro-free … DeepSeek V4 Flash（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-flash-free …",
+      "summaryEn": "ZenMux PK模式： https:// zenmux.ai/chat DeepSeek V4 Pro（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-pro-free … DeepSeek V4 Flash（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-flash-free …",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047903518204338646",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047903515255644316",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "兄弟们，DeepSeek V4 Pro在ZenMux上免费放开了，登录就能跑，实测能替掉你80%的Claude活。视频是我早上实测的和Claude opus 4.7同时跑一个昨SaaS产品网站的任务，效果真的炸裂！",
+      "summaryEn": "兄弟们，DeepSeek V4 Pro在ZenMux上免费放开了，登录就能跑，实测能替掉你80%的Claude活。视频是我早上实测的和Claude opus 4.7同时跑一个昨SaaS产品网站的任务，效果真的炸裂！",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047903515255644316",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047892780563702093",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "很多人说deepseek拉胯，说我在吹，早上刚测的结果，目前开了V4免费窗口，可以自己看，也可以自己测试跑一下 卧槽DeepSeek V4这回真是王者归来，效果太炸了啊啊啊，我用一句提示词，让它和Claude opus 4.7同时跑一个任务，做一个SaaS 产品的定价页面，除了速度比opus慢一些，但效果一点不输，不多说了，省得又有人说我吹，具体大家看视频实操演示。",
+      "summaryEn": "很多人说deepseek拉胯，说我在吹，早上刚测的结果，目前开了V4免费窗口，可以自己看，也可以自己测试跑一下 卧槽DeepSeek V4这回真是王者归来，效果太炸了啊啊啊，我用一句提示词，让它和Claude opus 4.7同时跑一个任务，做一个SaaS 产品的定价页面，除了速度比opus慢一些，但效果一点不输，不多说了，省得又有人说我吹，具体大家看视频实操演示。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047892780563702093",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047891206751805712",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Habitual coffee intake shapes the gut microbiome and modifies host physiology and cognition 期刊：Nature Communications（2026年4月21日发表） 直达链接： https:// nature.com/articles/s4146 7-026-71264-8 … DOI：10.1038/s41467-026-71264-8",
+      "summaryEn": "Habitual coffee intake shapes the gut microbiome and modifies host physiology and cognition 期刊：Nature Communications（2026年4月21日发表） 直达链接： https:// nature.com/articles/s4146 7-026-71264-8 … DOI：10.1038/s41467-026-71264-8",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047891206751805712",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2047891202737897916",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "还有几个所有人都能直接抄的结论， 每天别超过2-3杯，多喝反而伤肠道。 哪怕是decaf，睡前6小时也别喝。 黑咖啡优先，加糖奶会直接废掉多酚的作用。 所以宝子们，别再把咖啡当成提神的兴奋剂了， 不如把它当成给你肠道菌的一日三餐，你喂它们吃什么，它们就会让你变成什么样。",
+      "summaryEn": "还有几个所有人都能直接抄的结论， 每天别超过2-3杯，多喝反而伤肠道。 哪怕是decaf，睡前6小时也别喝。 黑咖啡优先，加糖奶会直接废掉多酚的作用。 所以宝子们，别再把咖啡当成提神的兴奋剂了， 不如把它当成给你肠道菌的一日三餐，你喂它们吃什么，它们就会让你变成什么样。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047891202737897916",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2047891196589101158",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Bryan Johnson今天扔出来的这个咖啡研究结论，可以说颠覆了我喝了十几年咖啡的认知。我看论文已经把家里的咖啡分成两罐了哈哈 我一直以为咖啡是靠咖啡因提神， 其实完全不是。 真正起作用的是咖啡豆里的多酚在养你的肠道菌， 然后这些菌再反过来指挥我们的大脑。 这是4月21号Nature Surprising new findings about coffee: you are drinking coffee for the gut ...",
+      "summaryEn": "Bryan Johnson今天扔出来的这个咖啡研究结论，可以说颠覆了我喝了十几年咖啡的认知。我看论文已经把家里的咖啡分成两罐了哈哈 我一直以为咖啡是靠咖啡因提神， 其实完全不是。 真正起作用的是咖啡豆里的多酚在养你的肠道菌， 然后这些菌再反过来指挥我们的大脑。 这是4月21号Nature Surprising new findings about coffee: you are drinking coffee for the gut ...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047891196589101158",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2047879857011335551",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "ZenMux PK模式： https:// zenmux.ai/chat DeepSeek V4 Pro（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-pro-free … DeepSeek V4 Flash（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-flash-free …",
+      "summaryEn": "ZenMux PK模式： https:// zenmux.ai/chat DeepSeek V4 Pro（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-pro-free … DeepSeek V4 Flash（免费版）： https:// zenmux.ai/deepseek/deeps eek-v4-flash-free …",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047879857011335551",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047879853945372731",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "卧槽DeepSeek V4这回真是王者归来，效果太炸了啊啊啊，我用一句提示词，让它和Claude opus 4.7同时跑一个任务，做一个SaaS 产品的定价页面，除了速度比opus慢一些，但效果一点不输，不多说了，省得又有人说我吹，具体大家看视频实操演示。",
+      "summaryEn": "卧槽DeepSeek V4这回真是王者归来，效果太炸了啊啊啊，我用一句提示词，让它和Claude opus 4.7同时跑一个任务，做一个SaaS 产品的定价页面，除了速度比opus慢一些，但效果一点不输，不多说了，省得又有人说我吹，具体大家看视频实操演示。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047879853945372731",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047670640753156516",
+      "date": "2026-04-25",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "DeepSeek-V4这波发布，可以说是给参数越多越强的时代画上了句号。 真的有点恍惚， AI大模型的更新速度，已经快到你睡一觉起来，昨天的认知就全过期了。 所以闭源巨头可能真的再也追不上开源的脚步了。 1.6T总参数，每次推理只激活49B，就逼平了全球最顶级的闭源模型。 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-...",
+      "summaryEn": "DeepSeek-V4这波发布，可以说是给参数越多越强的时代画上了句号。 真的有点恍惚， AI大模型的更新速度，已经快到你睡一觉起来，昨天的认知就全过期了。 所以闭源巨头可能真的再也追不上开源的脚步了。 1.6T总参数，每次推理只激活49B，就逼平了全球最顶级的闭源模型。 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2047670640753156516",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047935839133700487",
+      "date": "2026-04-25",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "我2月份2599开的即梦高级年度会员，现在要是转手竟然能卖五六千。。。",
+      "summaryEn": "我2月份2599开的即梦高级年度会员，现在要是转手竟然能卖五六千。。。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2047935839133700487",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2047930707784487236",
+      "date": "2026-04-25",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "现在全中推的人都在求Cursor的额度了 炸裂了，Cusor送了我1w美金的额度 睡不着了，要起来发条推 谢谢 @edwinarbus @cursor_ai 兄弟们，你说谁是最好的AI Agent？ x.com/lxfater/status…",
+      "summaryEn": "现在全中推的人都在求Cursor的额度了 炸裂了，Cusor送了我1w美金的额度 睡不着了，要起来发条推 谢谢 @edwinarbus @cursor_ai 兄弟们，你说谁是最好的AI Agent？ x.com/lxfater/status…",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2047930707784487236",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047892472177844641",
+      "date": "2026-04-25",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "嘿嘿，半夜睡不着占了点优势 Cursor官方认证博主 你值得关注 11位晒Cursor $10,000额度博主，按X发帖时间大致排序 铁锤人 (@lxfater) 简介：在用 AI 协助创业，GitHub 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 推文链接： https:// x.com/lxfater/status /2047738439823733097 … 雪踏乌云 (@Pluvio9yte) 简介...",
+      "summaryEn": "嘿嘿，半夜睡不着占了点优势 Cursor官方认证博主 你值得关注 11位晒Cursor $10,000额度博主，按X发帖时间大致排序 铁锤人 (@lxfater) 简介：在用 AI 协助创业，GitHub 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 推文链接： https:// x.com/lxfater/status /2047738439823733097 … 雪踏乌云 (@Pluvio9yte) 简介...",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2047892472177844641",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047922225353728189",
+      "date": "2026-04-25",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Imagine",
+      "summaryEn": "Grok Imagine",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2047922225353728189",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2047881966268117064",
+      "date": "2026-04-25",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "New Grok Imagine model just dropped with much better lip sync & sound. Nothing in this video is real.",
+      "summaryEn": "New Grok Imagine model just dropped with much better lip sync & sound. Nothing in this video is real.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2047881966268117064",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047877294476116184",
+      "date": "2026-04-25",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Incredible return on investment!",
+      "summaryEn": "Incredible return on investment!",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2047877294476116184",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2047883952816632268",
+      "date": "2026-04-25",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "嗯嗯 是得学了",
+      "summaryEn": "嗯嗯 是得学了",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2047883952816632268",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047698553108369436",
+      "date": "2026-04-25",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "没想到能在北京见到每天刷到的其他海外 KOL，太神奇了 But you know what’s even cooler than meeting @hidecloud over dinner? Having dinner with him in a big group. That evening, I was probably sitting at the highest-IQ table I’ve ever been part of...",
+      "summaryEn": "没想到能在北京见到每天刷到的其他海外 KOL，太神奇了 But you know what’s even cooler than meeting @hidecloud over dinner? Having dinner with him in a big group. That evening, I was probably sitting at the highest-IQ table I’ve ever been part of...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2047698553108369436",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047883265516924976",
+      "date": "2026-04-25",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Change the party to murder all capitalists (Piker) and destroy the schools (Bowman), brought to you by a tech centimillionaire who is using his money to buy an election (Chakrabarti) No thanks!",
+      "summaryEn": "Change the party to murder all capitalists (Piker) and destroy the schools (Bowman), brought to you by a tech centimillionaire who is using his money to buy an election (Chakrabarti) No thanks!",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2047883265516924976",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047882580603899915",
+      "date": "2026-04-25",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Check out what else you can make with GPT 5.5 in my video:",
+      "summaryEn": "Check out what else you can make with GPT 5.5 in my video:",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2047882580603899915",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047882568520102226",
+      "date": "2026-04-25",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Asked GPT 5.5 and Codex to make Star Fox. This is after 15 min of prompting Should I ask Codex to make Star Fox next x.com/petergyang/sta…",
+      "summaryEn": "Asked GPT 5.5 and Codex to make Star Fox. This is after 15 min of prompting Should I ask Codex to make Star Fox next x.com/petergyang/sta…",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2047882568520102226",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047880605204144159",
+      "date": "2026-04-25",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "What's brilliant is it's play testing it's own game for fun",
+      "summaryEn": "What's brilliant is it's play testing it's own game for fun",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2047880605204144159",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047880433384460344",
+      "date": "2026-04-25",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "I should probably go watch Netflix but this is too fun",
+      "summaryEn": "I should probably go watch Netflix but this is too fun",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2047880433384460344",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047878559516225846",
+      "date": "2026-04-25",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "wtf it made it...",
+      "summaryEn": "wtf it made it...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2047878559516225846",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047862456853430383",
+      "date": "2026-04-25",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Should I ask Codex to make Star Fox next I've been doing the F-Zero test each time a new model comes out and GPT 5.5 and Codex is the only combo that built a working game so far. Even made a bunch of other bots to race ...",
+      "summaryEn": "Should I ask Codex to make Star Fox next I've been doing the F-Zero test each time a new model comes out and GPT 5.5 and Codex is the only combo that built a working game so far. Even made a bunch of other bots to race ...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2047862456853430383",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047882426102497396",
+      "date": "2026-04-25",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "找个老师 进步很快",
+      "summaryEn": "找个老师 进步很快",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2047882426102497396",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    }
+  ]
+}

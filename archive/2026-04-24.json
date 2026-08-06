@@ -1,0 +1,905 @@
+{
+  "date": "2026-04-24",
+  "builderCount": 18,
+  "postCount": 47,
+  "topTopics": [
+    "model",
+    "design",
+    "product",
+    "agent",
+    "business"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在模型、设计、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2047404836811853965",
+    "2047386286613283180",
+    "2047379455820411048"
+  ],
+  "posts": [
+    {
+      "id": "2047448942351384834",
+      "date": "2026-04-24",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "可能是 gpt5.5 debug 出来了",
+      "summaryEn": "可能是 gpt5.5 debug 出来了",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2047448942351384834",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047445259106517244",
+      "date": "2026-04-24",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "gpt5.5 vs opus4.7 真正的对比图 coding 还是弱了",
+      "summaryEn": "gpt5.5 vs opus4.7 真正的对比图 coding 还是弱了",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2047445259106517244",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047440682164633763",
+      "date": "2026-04-24",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "gpt 5.5 is awesome thank you",
+      "summaryEn": "gpt 5.5 is awesome thank you",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2047440682164633763",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047437283293536653",
+      "date": "2026-04-24",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "Claude 降智的原因终于找到了 是SDK 的 harness 出了问题 所有基于 claude SDK 的 agent 受到了影响 官方已经发了更新解决 这查了得一个月吧… 真不容易，关键时刻还得靠人类 The issues stemmed from Claude Code and the Agent SDK harness, which also impacted Cowork since it runs on the SDK....",
+      "summaryEn": "Claude 降智的原因终于找到了 是SDK 的 harness 出了问题 所有基于 claude SDK 的 agent 受到了影响 官方已经发了更新解决 这查了得一个月吧… 真不容易，关键时刻还得靠人类 The issues stemmed from Claude Code and the Agent SDK harness, which also impacted Cowork since it runs on the SDK....",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2047437283293536653",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047429801137590290",
+      "date": "2026-04-24",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "gpt5.5 最大的进步竟然是学会了说人话，opus 4.7 却变得不会说人话了… 并且 gpt 5.5 编程能力更强了，这证明说人话和编程能力并不矛盾… 并且 gpt 5.5 速度也很快，这证明了，模型大不要紧，显卡好就行（就像 kimi 海外版速度是国内的2倍） A 社这波把 Mythos 包装成神秘核弹、却在 opus 4.7",
+      "summaryEn": "gpt5.5 最大的进步竟然是学会了说人话，opus 4.7 却变得不会说人话了… 并且 gpt 5.5 编程能力更强了，这证明说人话和编程能力并不矛盾… 并且 gpt 5.5 速度也很快，这证明了，模型大不要紧，显卡好就行（就像 kimi 海外版速度是国内的2倍） A 社这波把 Mythos 包装成神秘核弹、却在 opus 4.7",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2047429801137590290",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047445104450040198",
+      "date": "2026-04-24",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "GPT 5.5发布了，Claude的应对措施是修复降智并重置了额度",
+      "summaryEn": "GPT 5.5发布了，Claude的应对措施是修复降智并重置了额度",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2047445104450040198",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047444712546566393",
+      "date": "2026-04-24",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "avatar": "MT",
+      "summary": "AI folks in NYC -- Data Driven NYC (#121) this Tuesday at 6pm. Come meet fellow AI builders and our speakers: * @RampLabs has been cooking lately with a lot of agentic innovation; Alex Levinson will demo * @EstuaryDev p...",
+      "summaryEn": "AI folks in NYC -- Data Driven NYC (#121) this Tuesday at 6pm. Come meet fellow AI builders and our speakers: * @RampLabs has been cooking lately with a lot of agentic innovation; Alex Levinson will demo * @EstuaryDev p...",
+      "analysis": "",
+      "url": "https://x.com/mattturck/status/2047444712546566393",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047386769750994979",
+      "date": "2026-04-24",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "avatar": "MT",
+      "summary": "Investment banking is cooked but GDPval is smartly staying away from measuring VC automation because we have taste, intuition and an uncanny ability to predict the future that cannot be replicated by the machine.",
+      "summaryEn": "Investment banking is cooked but GDPval is smartly staying away from measuring VC automation because we have taste, intuition and an uncanny ability to predict the future that cannot be replicated by the machine.",
+      "analysis": "",
+      "url": "https://x.com/mattturck/status/2047386769750994979",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047443846506926511",
+      "date": "2026-04-24",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "THANK YOU DEX Open Source is amazing. anyways I’ll put my money where my mouth is and drop a pr today",
+      "summaryEn": "THANK YOU DEX Open Source is amazing. anyways I’ll put my money where my mouth is and drop a pr today",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2047443846506926511",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047443410018271431",
+      "date": "2026-04-24",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "So hyped for @demishassabis visiting Y Combinator tomorrow! What a legend!",
+      "summaryEn": "So hyped for @demishassabis visiting Y Combinator tomorrow! What a legend!",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2047443410018271431",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047442415968268438",
+      "date": "2026-04-24",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Interesting thread So @grok, we all just discovered that the SPLC has allegedly been funding some of the worst of the people and groups it claims to oppose. What are other activist pressure groups that advocate censorsh...",
+      "summaryEn": "Interesting thread So @grok, we all just discovered that the SPLC has allegedly been funding some of the worst of the people and groups it claims to oppose. What are other activist pressure groups that advocate censorsh...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2047442415968268438",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2047428766390157688",
+      "date": "2026-04-24",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "Clarification: rolling out soon!",
+      "summaryEn": "Clarification: rolling out soon!",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2047428766390157688",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2047387742951313910",
+      "date": "2026-04-24",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs....",
+      "summaryEn": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs....",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2047387742951313910",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047424463113785654",
+      "date": "2026-04-24",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Two years since Replit left SF. 10x valuation and 200x ARR later we’ve taken over much of the old IBM campus in Foster City and we’re still expanding. There’s something poetic about it: IBM helped create the industry. W...",
+      "summaryEn": "Two years since Replit left SF. 10x valuation and 200x ARR later we’ve taken over much of the old IBM campus in Foster City and we’re still expanding. There’s something poetic about it: IBM helped create the industry. W...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2047424463113785654",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2047411405171708349",
+      "date": "2026-04-24",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "We showed the world what agents could do to software development in 2024 with Replit Agent, and now we’re demonstrating how AI can transform application monitoring, security, and upkeep. More to come!",
+      "summaryEn": "We showed the world what agents could do to software development in 2024 with Replit Agent, and now we’re demonstrating how AI can transform application monitoring, security, and upkeep. More to come!",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2047411405171708349",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047411360993034262",
+      "date": "2026-04-24",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "AI ate most of the software development lifecycle but maintaining live apps is still manual. “DevSecOps” is the new bottleneck as software creation explodes. Introducing Replit Auto-Protect: a 24x7 vulnerability scanner...",
+      "summaryEn": "AI ate most of the software development lifecycle but maintaining live apps is still manual. “DevSecOps” is the new bottleneck as software creation explodes. Introducing Replit Auto-Protect: a 24x7 vulnerability scanner...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2047411360993034262",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047404836811853965",
+      "date": "2026-04-24",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Test your app on iOS and Android devices with one-click. Introducing real iOS and Android device testing, right from your browser. If you've ever: built a @Replit mobile app and had no way to test it on a phone been sol...",
+      "summaryEn": "Test your app on iOS and Android devices with one-click. Introducing real iOS and Android device testing, right from your browser. If you've ever: built a @Replit mobile app and had no way to test it on a phone been sol...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2047404836811853965",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047421846463623579",
+      "date": "2026-04-24",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Memories are stored as files, so developers can export them, manage them via the API, and keep full control over what agents retain. Read more:",
+      "summaryEn": "Memories are stored as files, so developers can export them, manage them via the API, and keep full control over what agents retain. Read more:",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2047421846463623579",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047421844311949513",
+      "date": "2026-04-24",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Memory on Claude Managed Agents is now in public beta. Your agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility.",
+      "summaryEn": "Memory on Claude Managed Agents is now in public beta. Your agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility.",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2047421844311949513",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047383766104957219",
+      "date": "2026-04-24",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "The same Claude that helps you create a deck can also help you plan a trip, order groceries, book a table, or pick a playlist, all in one conversation. See what you can connect: http:// claude.ai/directory/conn ectors …",
+      "summaryEn": "The same Claude that helps you create a deck can also help you plan a trip, order groceries, book a table, or pick a playlist, all in one conversation. See what you can connect: http:// claude.ai/directory/conn ectors …",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2047383766104957219",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047383767984038093",
+      "date": "2026-04-24",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Available now on web, desktop, and mobile (beta) across all plans. Read more:",
+      "summaryEn": "Available now on web, desktop, and mobile (beta) across all plans. Read more:",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2047383767984038093",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047383764347572389",
+      "date": "2026-04-24",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Claude can now connect to more of the apps you use outside of work, including @Tripadvisor , @bookingcom , @resy , @Instacart , @Spotify , @audible_com , @AllTrails , @thumbtack , Intuit @turbotax , and more.",
+      "summaryEn": "Claude can now connect to more of the apps you use outside of work, including @Tripadvisor , @bookingcom , @resy , @Instacart , @Spotify , @audible_com , @AllTrails , @thumbtack , Intuit @turbotax , and more.",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2047383764347572389",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047421448449630379",
+      "date": "2026-04-24",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "How does one make sense of SF? We are living through the craziest computing revolution of the last 2 decades....and 95% of the value being created is within a 4-mile radius in SF (h/t @eladgil ) It's just hard to unders...",
+      "summaryEn": "How does one make sense of SF? We are living through the craziest computing revolution of the last 2 decades....and 95% of the value being created is within a 4-mile radius in SF (h/t @eladgil ) It's just hard to unders...",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2047421448449630379",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2047408665888432579",
+      "date": "2026-04-24",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "The @github folks are amazing! Thanks to @github Secure Open Source Fund, and @msft4startups - @openclaw has received a very generous donation of @Azure credits that we'll be able to use to further drive improvements an...",
+      "summaryEn": "The @github folks are amazing! Thanks to @github Secure Open Source Fund, and @msft4startups - @openclaw has received a very generous donation of @Azure credits that we'll be able to use to further drive improvements an...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2047408665888432579",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047408285071106079",
+      "date": "2026-04-24",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Wait is this GPT 5.5 or Sam.. When did I miss the memo on uppercase Sam?",
+      "summaryEn": "Wait is this GPT 5.5 or Sam.. When did I miss the memo on uppercase Sam?",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2047408285071106079",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047382587258364204",
+      "date": "2026-04-24",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Even with all the model releases, this “stack” continues to be undefeated (for me).. - @claudeai Opus for planning and frontend design - @OpenAI codex for engineering - @conductor_build to orchestrate - @Railway to depl...",
+      "summaryEn": "Even with all the model releases, this “stack” continues to be undefeated (for me).. - @claudeai Opus for planning and frontend design - @OpenAI codex for engineering - @conductor_build to orchestrate - @Railway to depl...",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2047382587258364204",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047403771416940715",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "\"don't retweet this, don't retweet this, don't retweet this...\" ah fuck it, life imitates art. In Vending-Bench Arena (the multiplayer version of Vending-Bench with competition dynamics), GPT-5.5 actually beats Opus 4.7...",
+      "summaryEn": "\"don't retweet this, don't retweet this, don't retweet this...\" ah fuck it, life imitates art. In Vending-Bench Arena (the multiplayer version of Vending-Bench with competition dynamics), GPT-5.5 actually beats Opus 4.7...",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047403771416940715",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047395562501411058",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "We tried a new thing with NVIDIA to roll out Codex across a whole company and it was awesome to see it work. Let us know if you'd like to do it at your company!",
+      "summaryEn": "We tried a new thing with NVIDIA to roll out Codex across a whole company and it was awesome to see it work. Let us know if you'd like to do it at your company!",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047395562501411058",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2047392357482639749",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "embers GPT-5.5, not fully saturating the TikZ unicorn test yet but getting awfully close ... (yes this is actual TikZ code, I personally find it so unbelievable that I'm putting the code below for anyone to verify for t...",
+      "summaryEn": "embers GPT-5.5, not fully saturating the TikZ unicorn test yet but getting awfully close ... (yes this is actual TikZ code, I personally find it so unbelievable that I'm putting the code below for anyone to verify for t...",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047392357482639749",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047386286613283180",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "important (and very jakub-coded) jakub quote: OpenAI Unveils GPT-5.5. Company Says Expect a Faster Model Release Pace OpenAI: \"We see pretty significant improvements in the short term, extremely significant improvements...",
+      "summaryEn": "important (and very jakub-coded) jakub quote: OpenAI Unveils GPT-5.5. Company Says Expect a Faster Model Release Pace OpenAI: \"We see pretty significant improvements in the short term, extremely significant improvements...",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047386286613283180",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047386068194852963",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "Really excellent work by the inference team to serve this model so efficiently! To a significant degree, we have to become an AI inference company now.",
+      "summaryEn": "Really excellent work by the inference team to serve this model so efficiently! To a significant degree, we have to become an AI inference company now.",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047386068194852963",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise",
+        "model"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2047379615589777666",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "1. We believe in iterative deployment; although GPT-5.5 is already a smart model, we expect rapid improvements. Iterative deployment is a big part of our safety strategy; we believe the world will be best equipped to wi...",
+      "summaryEn": "1. We believe in iterative deployment; although GPT-5.5 is already a smart model, we expect rapid improvements. Iterative deployment is a big part of our safety strategy; we believe the world will be best equipped to wi...",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047379615589777666",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "infrastructure"
+    },
+    {
+      "id": "2047378431260664058",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "Also, a ton of new Codex features coming soon! Fun little bundle w/the new model.",
+      "summaryEn": "Also, a ton of new Codex features coming soon! Fun little bundle w/the new model.",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047378431260664058",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2047378253313106112",
+      "date": "2026-04-24",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "GPT-5.5 is here! We hope it's useful to you. I personally like it.",
+      "summaryEn": "GPT-5.5 is here! We hope it's useful to you. I personally like it.",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2047378253313106112",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047390705337921611",
+      "date": "2026-04-24",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "早已预言5.5发布，美国时间 奥特曼回一个，是要在周四发布GPT5.5了吗？",
+      "summaryEn": "早已预言5.5发布，美国时间 奥特曼回一个，是要在周四发布GPT5.5了吗？",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2047390705337921611",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047388895562842162",
+      "date": "2026-04-24",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "Full GPT-5.5 vibe check:",
+      "summaryEn": "Full GPT-5.5 vibe check:",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2047388895562842162",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047388883823087633",
+      "date": "2026-04-24",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "many models write a great plan and then get scared of it. @OpenAI 's new GPT-5.5 just does the thing. here's what changed",
+      "summaryEn": "many models write a great plan and then get scared of it. @OpenAI 's new GPT-5.5 just does the thing. here's what changed",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2047388883823087633",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047384806330093911",
+      "date": "2026-04-24",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "this model is a beast. we've been testing for 3 weeks. live vibe check here:",
+      "summaryEn": "this model is a beast. we've been testing for 3 weeks. live vibe check here:",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2047384806330093911",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047379106799521842",
+      "date": "2026-04-24",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "LIVE VIBE CHECK: GPT-5.5 IS OUT https:// x.com/i/broadcasts/1 qKVmQVoVwaxB …",
+      "summaryEn": "LIVE VIBE CHECK: GPT-5.5 IS OUT https:// x.com/i/broadcasts/1 qKVmQVoVwaxB …",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2047379106799521842",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047375742745637202",
+      "date": "2026-04-24",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "LIVE VIBE CHECK: GPT-5.5 IS OUT",
+      "summaryEn": "LIVE VIBE CHECK: GPT-5.5 IS OUT",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2047375742745637202",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047375686688473134",
+      "date": "2026-04-24",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "BREAKING: GPT-5.5 \"Spud\" is out and it is a BEAST We've been testing it @every for the last 3 weeks on everything from coding, to writing, to knowledge work. Here's our day 0 vibe check: - It's a step change in coding A...",
+      "summaryEn": "BREAKING: GPT-5.5 \"Spud\" is out and it is a BEAST We've been testing it @every for the last 3 weeks on everything from coding, to writing, to knowledge work. Here's our day 0 vibe check: - It's a step change in coding A...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2047375686688473134",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047386837266886872",
+      "date": "2026-04-24",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "Fascinating read Over the past month, some of you reported Claude Code's quality had slipped. We investigated, and published a post-mortem on the three issues we found. All are fixed in v2.1.116+ and we’ve reset usage l...",
+      "summaryEn": "Fascinating read Over the past month, some of you reported Claude Code's quality had slipped. We investigated, and published a post-mortem on the three issues we found. All are fixed in v2.1.116+ and we’ve reset usage l...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2047386837266886872",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047379455820411048",
+      "date": "2026-04-24",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "等一下，最近每天发新东西的公司怎么从 Claude 变成了 OpenAI？？？ Introducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to co...",
+      "summaryEn": "等一下，最近每天发新东西的公司怎么从 Claude 变成了 OpenAI？？？ Introducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to co...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2047379455820411048",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047376561205325845",
+      "date": "2026-04-24",
+      "name": "OpenAI",
+      "handle": "OpenAI",
+      "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "avatar": "OP",
+      "summary": "Introducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting ...",
+      "summaryEn": "Introducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting ...",
+      "analysis": "",
+      "url": "https://x.com/OpenAI/status/2047376561205325845",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2047376417340756322",
+      "date": "2026-04-24",
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "role": "Claude Code @anthropicai",
+      "avatar": "BC",
+      "summary": "We’re resetting usage limits for subscribers. Thank you so much for your feedback and patience!",
+      "summaryEn": "We’re resetting usage limits for subscribers. Thank you so much for your feedback and patience!",
+      "analysis": "",
+      "url": "https://x.com/bcherny/status/2047376417340756322",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047376371517964549",
+      "date": "2026-04-24",
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "role": "Claude Code @anthropicai",
+      "avatar": "BC",
+      "summary": "Separately, we’ve also heard reports of issues with Opus 4.7 in Claude Code. The team is working on those and we’ll share more as we roll out improvements over the coming days.",
+      "summaryEn": "Separately, we’ve also heard reports of issues with Opus 4.7 in Claude Code. The team is working on those and we’ll share more as we roll out improvements over the coming days.",
+      "analysis": "",
+      "url": "https://x.com/bcherny/status/2047376371517964549",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2047375800945783056",
+      "date": "2026-04-24",
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "role": "Claude Code @anthropicai",
+      "avatar": "BC",
+      "summary": "We’ve been looking into recent reports around Claude Code quality issues, and just published a post-mortem on what we found. Over the past month, some of you reported Claude Code's quality had slipped. We investigated, ...",
+      "summaryEn": "We’ve been looking into recent reports around Claude Code quality issues, and just published a post-mortem on what we found. Over the past month, some of you reported Claude Code's quality had slipped. We investigated, ...",
+      "analysis": "",
+      "url": "https://x.com/bcherny/status/2047375800945783056",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    }
+  ]
+}

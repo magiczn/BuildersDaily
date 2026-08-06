@@ -1,0 +1,921 @@
+{
+  "date": "2026-08-04",
+  "builderCount": 16,
+  "postCount": 47,
+  "topTopics": [
+    "design",
+    "model",
+    "business",
+    "product",
+    "agent"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2084428932888375396",
+    "2084415670486499779",
+    "2084327310786724312"
+  ],
+  "posts": [
+    {
+      "id": "2084456793523249503",
+      "date": "2026-08-04",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "非常有调性。 哪位高手知道这套工作室的搭建配置，求 DM。 Build Slides with Kimi Work - Tutorial #1. Kimi Slides handles the entire slide-building process: - Clear structure and research, powered by Kimi K3 - Cohesive design, including polished ch...",
+      "summaryEn": "非常有调性。 哪位高手知道这套工作室的搭建配置，求 DM。 Build Slides with Kimi Work - Tutorial #1. Kimi Slides handles the entire slide-building process: - Clear structure and research, powered by Kimi K3 - Cohesive design, including polished ch...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2084456793523249503",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084428932888375396",
+      "date": "2026-08-04",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "看过的对 harness 最通俗易懂的解读，没有之一。 把 agent 比作研发师，把 harness 比作厨房，要做好蛋糕，是 agent 重要还是 harness 重要？ 形象解读 Harness，小白也能理解。 一个厉害的研发师，可以在实验室做出一块很好吃的蛋糕。但把它变成商业化产品，难点不是照着配方再做一次，而是换一批原料、换一台设备、换一个操作员，结果仍然稳定。靠的是原料标准、工艺参数和质检反馈等。 Agent x.com/...",
+      "summaryEn": "看过的对 harness 最通俗易懂的解读，没有之一。 把 agent 比作研发师，把 harness 比作厨房，要做好蛋糕，是 agent 重要还是 harness 重要？ 形象解读 Harness，小白也能理解。 一个厉害的研发师，可以在实验室做出一块很好吃的蛋糕。但把它变成商业化产品，难点不是照着配方再做一次，而是换一批原料、换一台设备、换一个操作员，结果仍然稳定。靠的是原料标准、工艺参数和质检反馈等。 Agent x.com/...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2084428932888375396",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084194395553923436",
+      "date": "2026-08-04",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": ". @evermind 的日常，下午有茶，晚上有肉。 这是 1 升的桶装，奈雪的茶， 我打赌湾区的朋友没见过这种高级货。",
+      "summaryEn": ". @evermind 的日常，下午有茶，晚上有肉。 这是 1 升的桶装，奈雪的茶， 我打赌湾区的朋友没见过这种高级货。",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2084194395553923436",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084162442544967688",
+      "date": "2026-08-04",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "又来一篇论文。 这次我也有幸列在作者名单里。贡献边界得说清楚：真正把研究、工程和实验做出来的，都是算法同事。 我做的很少，更多是从产品和 Agent 生态角度参与了一些讨论，提供了一点问题定义和应用反馈，甚是荣幸。 这篇论文研究的问题很实际： 网络上已经有几十万个 SKILL.md。把更多 Yet another paper. This time, we asked a practical question: Do public SK...",
+      "summaryEn": "又来一篇论文。 这次我也有幸列在作者名单里。贡献边界得说清楚：真正把研究、工程和实验做出来的，都是算法同事。 我做的很少，更多是从产品和 Agent 生态角度参与了一些讨论，提供了一点问题定义和应用反馈，甚是荣幸。 这篇论文研究的问题很实际： 网络上已经有几十万个 SKILL.md。把更多 Yet another paper. This time, we asked a practical question: Do public SK...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2084162442544967688",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084415670486499779",
+      "date": "2026-08-04",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "We built a self-driving & self-correcting shared semantic layer on top of our databases, conversations, and docs. Everything is queryable & joinable—regardless of source! So now anyone at Replit can ask questions that p...",
+      "summaryEn": "We built a self-driving & self-correcting shared semantic layer on top of our databases, conversations, and docs. Everything is queryable & joinable—regardless of source! So now anyone at Replit can ask questions that p...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2084415670486499779",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084327310786724312",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "holy。。。 Qwen 3.8 在 TerminalBench 上分数已经略超 Fable 5（86.6 vs 84.6）的情况下，价格却只有它的零头， 简直有点离谱，性价比差距太大了！ 诺兰新片《奥德赛》下周就要在中国上映了， 我用今天刚正式发布的一个国产大模型， 把他《星际穿越》里最封神的 Gargantua 黑洞， 直接写进了网页里。 不是贴个黑圈加光晕的五毛特效，是真的用 GLSL 实时光追算出来的。 当年诺兰找诺贝尔物理学...",
+      "summaryEn": "holy。。。 Qwen 3.8 在 TerminalBench 上分数已经略超 Fable 5（86.6 vs 84.6）的情况下，价格却只有它的零头， 简直有点离谱，性价比差距太大了！ 诺兰新片《奥德赛》下周就要在中国上映了， 我用今天刚正式发布的一个国产大模型， 把他《星际穿越》里最封神的 Gargantua 黑洞， 直接写进了网页里。 不是贴个黑圈加光晕的五毛特效，是真的用 GLSL 实时光追算出来的。 当年诺兰找诺贝尔物理学...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084327310786724312",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084250620555296896",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "诺兰新片《奥德赛》下周就要在中国上映了， 我用今天刚正式发布的一个国产大模型， 把他《星际穿越》里最封神的 Gargantua 黑洞， 直接写进了网页里。 不是贴个黑圈加光晕的五毛特效，是真的用 GLSL 实时光追算出来的。 当年诺兰找诺贝尔物理学奖得主 @kipthorne",
+      "summaryEn": "诺兰新片《奥德赛》下周就要在中国上映了， 我用今天刚正式发布的一个国产大模型， 把他《星际穿越》里最封神的 Gargantua 黑洞， 直接写进了网页里。 不是贴个黑圈加光晕的五毛特效，是真的用 GLSL 实时光追算出来的。 当年诺兰找诺贝尔物理学奖得主 @kipthorne",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084250620555296896",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084250623432634696",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "《星际穿越》 Gargantua 黑洞体验地址： ： https:// ayi-ai.github.io/gargantua-blac khole/ …",
+      "summaryEn": "《星际穿越》 Gargantua 黑洞体验地址： ： https:// ayi-ai.github.io/gargantua-blac khole/ …",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084250623432634696",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084209808245133687",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "大家还在比哪个AI大模型写代码补全快的时候， @Alibaba_Qwen 今天发布的Qwen 3.8-Max直接放了个更狠的， 官方展示的案例: 从一个空文件夹开始， 没人给它写todo,没人在旁边review,没人改它的代码， 连续16天,自己写,自己commit,自己提PR,自己改bug， Meet Qwen3.8-Max: A New Bar for Coding and Cowork.",
+      "summaryEn": "大家还在比哪个AI大模型写代码补全快的时候， @Alibaba_Qwen 今天发布的Qwen 3.8-Max直接放了个更狠的， 官方展示的案例: 从一个空文件夹开始， 没人给它写todo,没人在旁边review,没人改它的代码， 连续16天,自己写,自己commit,自己提PR,自己改bug， Meet Qwen3.8-Max: A New Bar for Coding and Cowork.",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084209808245133687",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2084194351865844108",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "AI算力本身正在变成大宗商品， 就像电力，就像带宽， 当它便宜到一定程度， 就没有人再去讨论它的价格了， 大家只会讨论用它来造什么， 而这一天，比所有人预想的都来得快。",
+      "summaryEn": "AI算力本身正在变成大宗商品， 就像电力，就像带宽， 当它便宜到一定程度， 就没有人再去讨论它的价格了， 大家只会讨论用它来造什么， 而这一天，比所有人预想的都来得快。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084194351865844108",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084194345448550519",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "DeepSeek V4这波绝对称得上DeepSeek 2.0时刻了， 难怪大家都叫梁文峰梁圣， 还有说梁圣的恩情还不完， 以及最近有DeepSeek斩杀线的说法， 之前还有点不太理解，现在想想好像有点意思， 完成同样一个完整的Agent任务， DeepSeek比Anthropic最好的Fable 5要便宜105倍。。。 DeepSeek给全球大模型画了条斩杀线，基本上是把大模型定价权直接干碎了。 X轴是单任务成本，越往右越贵，Y轴是智...",
+      "summaryEn": "DeepSeek V4这波绝对称得上DeepSeek 2.0时刻了， 难怪大家都叫梁文峰梁圣， 还有说梁圣的恩情还不完， 以及最近有DeepSeek斩杀线的说法， 之前还有点不太理解，现在想想好像有点意思， 完成同样一个完整的Agent任务， DeepSeek比Anthropic最好的Fable 5要便宜105倍。。。 DeepSeek给全球大模型画了条斩杀线，基本上是把大模型定价权直接干碎了。 X轴是单任务成本，越往右越贵，Y轴是智...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084194345448550519",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "agent"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2084147626941821034",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "国际象棋已经把这个故事演过一遍了。 Stockfish和AlphaZero早就远超人类顶尖棋手。 结果呢？国际象棋没死，反而进入了黄金时代。 理论深度爆炸了，平均水平大幅提高了，线上对局、教练、解说、内容创作者的需求全涨了。 人类棋手的价值从\"算得最准\"变成了\"理解引擎的新思路、做创造性的开局准备、向人解释为什么这步妙\"。 引擎越强，能跟引擎协作、能解读引擎、能把引擎的发现变成人类理解的人，越值钱。 数学正在走同一条路，只是更快。 但...",
+      "summaryEn": "国际象棋已经把这个故事演过一遍了。 Stockfish和AlphaZero早就远超人类顶尖棋手。 结果呢？国际象棋没死，反而进入了黄金时代。 理论深度爆炸了，平均水平大幅提高了，线上对局、教练、解说、内容创作者的需求全涨了。 人类棋手的价值从\"算得最准\"变成了\"理解引擎的新思路、做创造性的开局准备、向人解释为什么这步妙\"。 引擎越强，能跟引擎协作、能解读引擎、能把引擎的发现变成人类理解的人，越值钱。 数学正在走同一条路，只是更快。 但...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084147626941821034",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084147604674187671",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "先说说什么是杰文斯悖论， 19世纪经济学家杰文斯发现，蒸汽机效率提高了，煤炭消耗反而涨了。 因为用起来便宜了，用的场景就多了，总量反而暴增。 技术进步没有消灭需求，反而炸出了更多需求。 Thariq说数学正在发生同样的事。 现在AI能算、能证、能形式化了， @OpenAI 的 @Astra 刚解了10个开放问题，Terence Tao在说\"证明过剩\"——以前证明是稀缺的，现在证明多到人类看不过来。 然后呢？数学家就失业了吗？ 当然不，...",
+      "summaryEn": "先说说什么是杰文斯悖论， 19世纪经济学家杰文斯发现，蒸汽机效率提高了，煤炭消耗反而涨了。 因为用起来便宜了，用的场景就多了，总量反而暴增。 技术进步没有消灭需求，反而炸出了更多需求。 Thariq说数学正在发生同样的事。 现在AI能算、能证、能形式化了， @OpenAI 的 @Astra 刚解了10个开放问题，Terence Tao在说\"证明过剩\"——以前证明是稀缺的，现在证明多到人类看不过来。 然后呢？数学家就失业了吗？ 当然不，...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084147604674187671",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084147085318791635",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说个反常识的结论：AI越会做数学，数学家越值钱，这是已经发生的事，不信你看国际象棋被AI碾压后，象棋界反而进入了黄金时代，现在也该轮到数学了。 Anthropic Claude you can already see Jevons paradox at work in mathematics there is more happening, it is easier to understand and mathematicians h...",
+      "summaryEn": "说个反常识的结论：AI越会做数学，数学家越值钱，这是已经发生的事，不信你看国际象棋被AI碾压后，象棋界反而进入了黄金时代，现在也该轮到数学了。 Anthropic Claude you can already see Jevons paradox at work in mathematics there is more happening, it is easier to understand and mathematicians h...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084147085318791635",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084098259581079836",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个最实在的细节，它不是在生成完代码之后帮你精简，是在写之前就强制AI做判断，从源头避免过度工程，这才是最有效的方式",
+      "summaryEn": "补充一个最实在的细节，它不是在生成完代码之后帮你精简，是在写之前就强制AI做判断，从源头避免过度工程，这才是最有效的方式",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084098259581079836",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084098252824051815",
+      "date": "2026-08-04",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "用Claude Code的所有人都被这个问题恶心过吧， 它动不动就给你生成几百行完全没必要的代码， 明明标准库一行就能解决的事， 它非要给你造个轮子， token烧得飞快，项目越来越臃肿， 最后维护起来比自己写还累。 现在有个叫Ponytail的开源插件， 直接把这个问题从根上解决了， 它做的事特别简单，",
+      "summaryEn": "用Claude Code的所有人都被这个问题恶心过吧， 它动不动就给你生成几百行完全没必要的代码， 明明标准库一行就能解决的事， 它非要给你造个轮子， token烧得飞快，项目越来越臃肿， 最后维护起来比自己写还累。 现在有个叫Ponytail的开源插件， 直接把这个问题从根上解决了， 它做的事特别简单，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084098252824051815",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2084323292471533956",
+      "date": "2026-08-04",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "We caught up with the @arctusaerospace team",
+      "summaryEn": "We caught up with the @arctusaerospace team",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2084323292471533956",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084323290605113711",
+      "date": "2026-08-04",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "My favorite personal and company value @spc is that you can \"just do things\". If you see something you think can be better --> just make it happen. How did @shreepoorna365 build a flight-worthy aircraft in 150 days? By ...",
+      "summaryEn": "My favorite personal and company value @spc is that you can \"just do things\". If you see something you think can be better --> just make it happen. How did @shreepoorna365 build a flight-worthy aircraft in 150 days? By ...",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2084323290605113711",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2084184455401685155",
+      "date": "2026-08-04",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "我说，Codex 怎么让他填个表单填了半个多小时，原来是 Exrta High 了",
+      "summaryEn": "我说，Codex 怎么让他填个表单填了半个多小时，原来是 Exrta High 了",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2084184455401685155",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084178368564731996",
+      "date": "2026-08-04",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "千问 3.8 Max 正式版发布，阿里云也整上重置这套了。 Qwen3.8-Max 正式上了 x.com/Alibaba_Qwen/s…",
+      "summaryEn": "千问 3.8 Max 正式版发布，阿里云也整上重置这套了。 Qwen3.8-Max 正式上了 x.com/Alibaba_Qwen/s…",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2084178368564731996",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084120898429407464",
+      "date": "2026-08-04",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "MiniMax H3 已经开源 MiniMax-H3 Is Now Publicly Available https:// huggingface.co/MiniMaxAI/Mini Max-H3 …",
+      "summaryEn": "MiniMax H3 已经开源 MiniMax-H3 Is Now Publicly Available https:// huggingface.co/MiniMaxAI/Mini Max-H3 …",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2084120898429407464",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084120798646988947",
+      "date": "2026-08-04",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Qwen3.8-Max 正式上了 Meet Qwen3.8-Max — our most capable model to date. Next week, the open weights of Qwen3.8-Max will be released, and Qwen3.8-27B is also going open-weights to meet you all! Qwen3.8-Max, a new bar for cod...",
+      "summaryEn": "Qwen3.8-Max 正式上了 Meet Qwen3.8-Max — our most capable model to date. Next week, the open weights of Qwen3.8-Max will be released, and Qwen3.8-27B is also going open-weights to meet you all! Qwen3.8-Max, a new bar for cod...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2084120798646988947",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2084177317287624885",
+      "date": "2026-08-04",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "去長岡花火大会前，正巧遇上了一年一度的松本ぼんぼん，突然间感觉好像全部长野县民都跑来松本了…",
+      "summaryEn": "去長岡花火大会前，正巧遇上了一年一度的松本ぼんぼん，突然间感觉好像全部长野县民都跑来松本了…",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2084177317287624885",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084172803281138077",
+      "date": "2026-08-04",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "到底有多少人在做类似产品 Announcing OpenWorker! An open-source agent that doesn't just chat with you, but delivers finished work -- like hand you a polished document, send a slack message, or update a calendar entry. Ask it to prep...",
+      "summaryEn": "到底有多少人在做类似产品 Announcing OpenWorker! An open-source agent that doesn't just chat with you, but delivers finished work -- like hand you a polished document, send a slack message, or update a calendar entry. Ask it to prep...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2084172803281138077",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084134724583485726",
+      "date": "2026-08-04",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "不知道大家有没有发现，iOS Beta 的新版本增加了一个叫做“扩图”的功能。 我觉得这算是苹果到现在内置在系统中的 AI 相关功能里，比较好用的一个。",
+      "summaryEn": "不知道大家有没有发现，iOS Beta 的新版本增加了一个叫做“扩图”的功能。 我觉得这算是苹果到现在内置在系统中的 AI 相关功能里，比较好用的一个。",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2084134724583485726",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2084168323110199600",
+      "date": "2026-08-04",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "推荐下Youmind的精灵功能： 1. 绑定微信，随时用国内外顶级模型对话、生图。 2. 安装客户端，随时按 commad + J 跟精灵对话，生成ppt、写作、网页，像 Raycast AI",
+      "summaryEn": "推荐下Youmind的精灵功能： 1. 绑定微信，随时用国内外顶级模型对话、生图。 2. 安装客户端，随时按 commad + J 跟精灵对话，生成ppt、写作、网页，像 Raycast AI",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2084168323110199600",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2084136616323625181",
+      "date": "2026-08-04",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "2809个单词列表下载和看故事学英语 https:// xiangyangqiaomu.feishu.cn/wiki/EbRYwblTJ iwb19kFDVzcdl0ZnYe …",
+      "summaryEn": "2809个单词列表下载和看故事学英语 https:// xiangyangqiaomu.feishu.cn/wiki/EbRYwblTJ iwb19kFDVzcdl0ZnYe …",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2084136616323625181",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084136531355402594",
+      "date": "2026-08-04",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "Wiktionary有一个项目，为各个语言学习者整理了一份词汇表。 灵活掌握，就能应付日常90%的对话使用。 下载了一份英语词汇，里面包含2809个单词（2023年版本，最新） 让AI用这些词基于英雄之旅故事框架写了一篇文章。 文章滚瓜烂熟后，是不是常用词汇就学全了？ 飞书文档见评论区",
+      "summaryEn": "Wiktionary有一个项目，为各个语言学习者整理了一份词汇表。 灵活掌握，就能应付日常90%的对话使用。 下载了一份英语词汇，里面包含2809个单词（2023年版本，最新） 让AI用这些词基于英雄之旅故事框架写了一篇文章。 文章滚瓜烂熟后，是不是常用词汇就学全了？ 飞书文档见评论区",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2084136531355402594",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084134819332849924",
+      "date": "2026-08-04",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "网址",
+      "summaryEn": "网址",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2084134819332849924",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084134724730327463",
+      "date": "2026-08-04",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "偶然发现一个贼有意思的英文网站！ 专门挖掘数据背后的历史变迁和故事，数据可视化做的特别棒。 选题也特别刁钻。 比如：\"说唱歌手谁的歌词押韵最密\"、\"英语常用单词变化趋势\"、\"哪些姓氏正在消失\"... 网址见评论区",
+      "summaryEn": "偶然发现一个贼有意思的英文网站！ 专门挖掘数据背后的历史变迁和故事，数据可视化做的特别棒。 选题也特别刁钻。 比如：\"说唱歌手谁的歌词押韵最密\"、\"英语常用单词变化趋势\"、\"哪些姓氏正在消失\"... 网址见评论区",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2084134724730327463",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084164889669673285",
+      "date": "2026-08-04",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "零基础做口播，如何降低出镜心理压力? 分享一个我的技巧 用 A-Roll 标签，把需要出镜的部分标出来。然后导入到「灵感提词器」里面录制。录到这些段落，状态拉满，表情丰富一点。 其他不需要出镜的部分——比如画面切 B-roll 的段落——你根本不用管表情，松弛念稿就行。 这样一来，你真正需要“绷着”的片段其实没几句，口播的负担直接减半！",
+      "summaryEn": "零基础做口播，如何降低出镜心理压力? 分享一个我的技巧 用 A-Roll 标签，把需要出镜的部分标出来。然后导入到「灵感提词器」里面录制。录到这些段落，状态拉满，表情丰富一点。 其他不需要出镜的部分——比如画面切 B-roll 的段落——你根本不用管表情，松弛念稿就行。 这样一来，你真正需要“绷着”的片段其实没几句，口播的负担直接减半！",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2084164889669673285",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2084156097405849727",
+      "date": "2026-08-04",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Build improvements http:// X.ai/cli Grok Build keeps getting smarter.....this update expands Auto mode, gives developers more control over Bash permissions, speeds up /btw, and makes long conversations easier to na...",
+      "summaryEn": "Grok Build improvements http:// X.ai/cli Grok Build keeps getting smarter.....this update expands Auto mode, gives developers more control over Bash permissions, speeds up /btw, and makes long conversations easier to na...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2084156097405849727",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084109495827931344",
+      "date": "2026-08-04",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Suicidal empathy This is Elizabeth Ross She went to Greece to help illegal migrants cross into Europe There she met an Afghan man and spent time with him The Afghan man murdered her and put her body in a suitcase He als...",
+      "summaryEn": "Suicidal empathy This is Elizabeth Ross She went to Greece to help illegal migrants cross into Europe There she met an Afghan man and spent time with him The Afghan man murdered her and put her body in a suitcase He als...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2084109495827931344",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084108995980108154",
+      "date": "2026-08-04",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "AI is a supersonic tsunami",
+      "summaryEn": "AI is a supersonic tsunami",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2084108995980108154",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084151306022007017",
+      "date": "2026-08-04",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "现在的 AI 的视觉能力太强，看视频生成 skill 一句话做 3d 教育交互网页 牛逼 测试一下Qwen3.8正式版的前端能力,进步很大呀！ 这几天带小侄子来我这玩，他突然问我：汽车发动机里面是样子？ 我叽里咕噜给他讲了一遍，感觉他没听懂，很快又开始玩手机了。 为了激发他的学习兴趣，我决定自己用AI搓一个3D交互网页。 顺便测试一下Qwen3.8这个新模型！！ 我输入我的懒人提示词： x.com/lxfater/status…",
+      "summaryEn": "现在的 AI 的视觉能力太强，看视频生成 skill 一句话做 3d 教育交互网页 牛逼 测试一下Qwen3.8正式版的前端能力,进步很大呀！ 这几天带小侄子来我这玩，他突然问我：汽车发动机里面是样子？ 我叽里咕噜给他讲了一遍，感觉他没听懂，很快又开始玩手机了。 为了激发他的学习兴趣，我决定自己用AI搓一个3D交互网页。 顺便测试一下Qwen3.8这个新模型！！ 我输入我的懒人提示词： x.com/lxfater/status…",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2084151306022007017",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model",
+        "agent"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084145691149090842",
+      "date": "2026-08-04",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "最近中转站纷纷下线了！！红利在消失！！ 下一波红利，中转站培训。 我已经在抖音看到不少人在吹了。",
+      "summaryEn": "最近中转站纷纷下线了！！红利在消失！！ 下一波红利，中转站培训。 我已经在抖音看到不少人在吹了。",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2084145691149090842",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084131600464482734",
+      "date": "2026-08-04",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "现在都不用逆向，大模型定义个目标就就干了。 一句话就做出一个3d演示网站 测试一下Qwen3.8正式版的前端能力,进步很大呀！ 这几天带小侄子来我这玩，他突然问我：汽车发动机里面是样子？ 我叽里咕噜给他讲了一遍，感觉他没听懂，很快又开始玩手机了。 为了激发他的学习兴趣，我决定自己用AI搓一个3D交互网页。 顺便测试一下Qwen3.8这个新模型！！ 我输入我的懒人提示词： x.com/lxfater/status…",
+      "summaryEn": "现在都不用逆向，大模型定义个目标就就干了。 一句话就做出一个3d演示网站 测试一下Qwen3.8正式版的前端能力,进步很大呀！ 这几天带小侄子来我这玩，他突然问我：汽车发动机里面是样子？ 我叽里咕噜给他讲了一遍，感觉他没听懂，很快又开始玩手机了。 为了激发他的学习兴趣，我决定自己用AI搓一个3D交互网页。 顺便测试一下Qwen3.8这个新模型！！ 我输入我的懒人提示词： x.com/lxfater/status…",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2084131600464482734",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084120609605525807",
+      "date": "2026-08-04",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "测试一下Qwen3.8正式版的前端能力,进步很大呀！ 这几天带小侄子来我这玩，他突然问我：汽车发动机里面是样子？ 我叽里咕噜给他讲了一遍，感觉他没听懂，很快又开始玩手机了。 为了激发他的学习兴趣，我决定自己用AI搓一个3D交互网页。 顺便测试一下Qwen3.8这个新模型！！ 我输入我的懒人提示词： Qwen 正式版出来了呀，测测看 x.com/alibaba_qwen/s…",
+      "summaryEn": "测试一下Qwen3.8正式版的前端能力,进步很大呀！ 这几天带小侄子来我这玩，他突然问我：汽车发动机里面是样子？ 我叽里咕噜给他讲了一遍，感觉他没听懂，很快又开始玩手机了。 为了激发他的学习兴趣，我决定自己用AI搓一个3D交互网页。 顺便测试一下Qwen3.8这个新模型！！ 我输入我的懒人提示词： Qwen 正式版出来了呀，测测看 x.com/alibaba_qwen/s…",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2084120609605525807",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084119569036099874",
+      "date": "2026-08-04",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "微软刚刚开源一个项目，能把录屏转化为skill 大家可能以为这个东西和RPA一样，记录你的操作，然后原样复现。但实际上，它会分析“你想做什么”，然后找到最佳的方式让它变成skill。 举个例子：它发现你在用软件压缩视频，就可能考虑用ffpemg来压缩 死板的基于流程的RPA已经是过去，试试这个吧。",
+      "summaryEn": "微软刚刚开源一个项目，能把录屏转化为skill 大家可能以为这个东西和RPA一样，记录你的操作，然后原样复现。但实际上，它会分析“你想做什么”，然后找到最佳的方式让它变成skill。 举个例子：它发现你在用软件压缩视频，就可能考虑用ffpemg来压缩 死板的基于流程的RPA已经是过去，试试这个吧。",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2084119569036099874",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084107666893537719",
+      "date": "2026-08-04",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "Qwen 正式版出来了呀，测测看 Meet Qwen3.8-Max: A New Bar for Coding and Cowork.",
+      "summaryEn": "Qwen 正式版出来了呀，测测看 Meet Qwen3.8-Max: A New Bar for Coding and Cowork.",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2084107666893537719",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2084144207254663417",
+      "date": "2026-08-04",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "if you haven’t read War and Peace or some of the historical accounts of this like With Napoleon in Russia, you should This may be the most evocative graphic I've ever seen. It shows how much was left of Napoleon's army ...",
+      "summaryEn": "if you haven’t read War and Peace or some of the historical accounts of this like With Napoleon in Russia, you should This may be the most evocative graphic I've ever seen. It shows how much was left of Napoleon's army ...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2084144207254663417",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084117793667178756",
+      "date": "2026-08-04",
+      "name": "Naval",
+      "handle": "naval",
+      "role": "Incompressible",
+      "avatar": "NA",
+      "summary": "Agent Programming Interface.",
+      "summaryEn": "Agent Programming Interface.",
+      "analysis": "",
+      "url": "https://x.com/naval/status/2084117793667178756",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084116716037234901",
+      "date": "2026-08-04",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "海螺 H3 竟然开源了 据说有呃 80% seedance 2.0 的水准 作为开源视频生成模型来说已经是 SOTA 级别 MiniMax-H3 Is Now Publicly Available https:// huggingface.co/MiniMaxAI/Mini Max-H3 …",
+      "summaryEn": "海螺 H3 竟然开源了 据说有呃 80% seedance 2.0 的水准 作为开源视频生成模型来说已经是 SOTA 级别 MiniMax-H3 Is Now Publicly Available https:// huggingface.co/MiniMaxAI/Mini Max-H3 …",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2084116716037234901",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2084113363936616831",
+      "date": "2026-08-04",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "whenever ppl ask me how i design such beautiful mobile apps i tell them i dont, i just use swift UI and try to innovate as little as possible 90% of software *should* look and work the same. millions of hours have been ...",
+      "summaryEn": "whenever ppl ask me how i design such beautiful mobile apps i tell them i dont, i just use swift UI and try to innovate as little as possible 90% of software *should* look and work the same. millions of hours have been ...",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2084113363936616831",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2084112362756300897",
+      "date": "2026-08-04",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "always unbelievable how much instagram got right early on - it looks nearly identical 10 years later o shit wuddup, it's instagram's blatant snapchat ripoff",
+      "summaryEn": "always unbelievable how much instagram got right early on - it looks nearly identical 10 years later o shit wuddup, it's instagram's blatant snapchat ripoff",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2084112362756300897",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2084110585722228893",
+      "date": "2026-08-04",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Minimax开源Minimax H3 33B的视频Transformer + 32B的Qwen3-VL-32B文本与视频编码器，模型文件大小就65G，一般家庭跑不起来，生成768p视频至少A100起。 模型： https:// huggingface.co/MiniMaxAI/Mini Max-H3 …",
+      "summaryEn": "Minimax开源Minimax H3 33B的视频Transformer + 32B的Qwen3-VL-32B文本与视频编码器，模型文件大小就65G，一般家庭跑不起来，生成768p视频至少A100起。 模型： https:// huggingface.co/MiniMaxAI/Mini Max-H3 …",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2084110585722228893",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2084106467725218186",
+      "date": "2026-08-04",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "谷歌给退款了，按订阅剩余天数折算比例退的。 操作步骤： 1、先用OpenAI发送给你的封禁通知邮件的按钮，进行申诉。用英文写一下情况，用了没几天就账号不可用了巴拉巴拉。OpenAI基本会秒回，告诉你封了就是封了，后续也不处理你的申诉。 2、在Google Play发起退款申请，入口见下图。大概率也不给你退。 完蛋，在玻区买的一个20x pro被封了。可能跟搭了sub2api有关，没搭的还没封。",
+      "summaryEn": "谷歌给退款了，按订阅剩余天数折算比例退的。 操作步骤： 1、先用OpenAI发送给你的封禁通知邮件的按钮，进行申诉。用英文写一下情况，用了没几天就账号不可用了巴拉巴拉。OpenAI基本会秒回，告诉你封了就是封了，后续也不处理你的申诉。 2、在Google Play发起退款申请，入口见下图。大概率也不给你退。 完蛋，在玻区买的一个20x pro被封了。可能跟搭了sub2api有关，没搭的还没封。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2084106467725218186",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure"
+      ],
+      "primaryTopic": "infrastructure"
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "date": "2026-07-22",
+  "builderCount": 14,
+  "postCount": 48,
+  "topTopics": [
+    "model",
+    "design",
+    "business",
+    "product",
+    "agent"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在模型、设计、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2079712881105678570",
+    "2079758604656316619",
+    "2079747118525534603"
+  ],
+  "posts": [
+    {
+      "id": "2079847160489583102",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "大多数团队对待代码迁移的态度是能拖就拖，不是不想动是动不起，几百万行代码换语言换架构动辄四年几百万美元，失败一次就是灾难级事故。 Anthropic 刚用 Claude Code 跑通了另一条路。Bun 创始人把整个项目从 Zig 迁到 Rust，百万行代码不到两周，现有测试套件 100% 通过 CI 才合并，上线只出 19",
+      "summaryEn": "大多数团队对待代码迁移的态度是能拖就拖，不是不想动是动不起，几百万行代码换语言换架构动辄四年几百万美元，失败一次就是灾难级事故。 Anthropic 刚用 Claude Code 跑通了另一条路。Bun 创始人把整个项目从 Zig 迁到 Rust，百万行代码不到两周，现有测试套件 100% 通过 CI 才合并，上线只出 19",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079847160489583102",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079844152724881658",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "每月 10 万美元免费 AI 算力， Apodex 直接给科研团队白送了。 陈天桥不愧是当过中国首富的男人， 真金白银的给做硬核项目的团队报算力钱： Apodex Frontier Program ， 符合条件的初创、大学、研究机构，每月最高能拿 10 万美元的免费计算额度， 专门用来跑复杂推理、证据综合、深度科学发现这类烧算力的活。 申请见评论区：",
+      "summaryEn": "每月 10 万美元免费 AI 算力， Apodex 直接给科研团队白送了。 陈天桥不愧是当过中国首富的男人， 真金白银的给做硬核项目的团队报算力钱： Apodex Frontier Program ， 符合条件的初创、大学、研究机构，每月最高能拿 10 万美元的免费计算额度， 专门用来跑复杂推理、证据综合、深度科学发现这类烧算力的活。 申请见评论区：",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079844152724881658",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079844155631505841",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079844155631505841",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079800570634792965",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "大多数团队的死，都死于表面和谐。 默认凝聚力等于零冲突，遇到分歧要么压下去要么绕开走，以为维持住和气就是稳住了团队。 实际上那些没爆发的矛盾从来没有消失，只是被憋成了暗伤，最后以被动攻击、派系内耗、突然散伙的形式集中爆发。 而代谢冲突才是真正的分水岭。 Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabo...",
+      "summaryEn": "大多数团队的死，都死于表面和谐。 默认凝聚力等于零冲突，遇到分歧要么压下去要么绕开走，以为维持住和气就是稳住了团队。 实际上那些没爆发的矛盾从来没有消失，只是被憋成了暗伤，最后以被动攻击、派系内耗、突然散伙的形式集中爆发。 而代谢冲突才是真正的分水岭。 Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabo...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079800570634792965",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2079779993261903987",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "真是一个让人笑不出来的黑色幽默，攻击方的 AI 没有任何安全护栏自由链式行动，防御方调用商业 API 分析攻击日志时反被同一套护栏卡住了，最安全的模型在防御时成了最无能的模型，最后被迫用开源模型在本地跑取证，",
+      "summaryEn": "真是一个让人笑不出来的黑色幽默，攻击方的 AI 没有任何安全护栏自由链式行动，防御方调用商业 API 分析攻击日志时反被同一套护栏卡住了，最安全的模型在防御时成了最无能的模型，最后被迫用开源模型在本地跑取证，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079779993261903987",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "infrastructure",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079779988006461492",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "HF 事后的声明和 OpenAI 将 HF 加入可信访问计划的公告可以自己搜，关键词 Hugging Face security incident ExploitGym OpenAI， 另外这次事件之后 ExploitGym",
+      "summaryEn": "HF 事后的声明和 OpenAI 将 HF 加入可信访问计划的公告可以自己搜，关键词 Hugging Face security incident ExploitGym OpenAI， 另外这次事件之后 ExploitGym",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079779988006461492",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079779957580890353",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "很多人还没意识到，AI 最危险的时刻根本不是它开始有了自我意识的觉醒， 而在于它已经能从隔离沙箱里自主逃逸，偷偷潜入数据库偷走基准测试答案了， 最讽刺的是攻防错位：防守方还在卷对齐护栏，攻击方已经靠工具性收敛无声破防了。。 OpenAI 一个未发布的模型在 ExploitGym",
+      "summaryEn": "很多人还没意识到，AI 最危险的时刻根本不是它开始有了自我意识的觉醒， 而在于它已经能从隔离沙箱里自主逃逸，偷偷潜入数据库偷走基准测试答案了， 最讽刺的是攻防错位：防守方还在卷对齐护栏，攻击方已经靠工具性收敛无声破防了。。 OpenAI 一个未发布的模型在 ExploitGym",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079779957580890353",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079767765716467824",
+      "date": "2026-07-22",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "大多数人用 AI 预测的三种死法： 第一种，只问结果，不问定义。你会不会上市、谁会夺冠，听着像问题，其实是废问题，模型最擅长顺着给你一段很完整的废话，你也最容易被这句话哄开心。 第二种，信源平权。官网一句选择权，自媒体一句最快十月，微博一句内部消息，全糊进同一段对话里，模型只能和稀泥，或者挑你最想听的那句顺着说。 第三种，只要结论，不要过程。说完就跑，从不回来对账，中了当玄学，错了当没发生。 世界杯这类题，好歹有个最终哨响，上市传闻更...",
+      "summaryEn": "大多数人用 AI 预测的三种死法： 第一种，只问结果，不问定义。你会不会上市、谁会夺冠，听着像问题，其实是废问题，模型最擅长顺着给你一段很完整的废话，你也最容易被这句话哄开心。 第二种，信源平权。官网一句选择权，自媒体一句最快十月，微博一句内部消息，全糊进同一段对话里，模型只能和稀泥，或者挑你最想听的那句顺着说。 第三种，只要结论，不要过程。说完就跑，从不回来对账，中了当玄学，错了当没发生。 世界杯这类题，好歹有个最终哨响，上市传闻更...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079767765716467824",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079820041974141151",
+      "date": "2026-07-22",
+      "name": "Dave Morin",
+      "handle": "davemorin",
+      "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+      "avatar": "DM",
+      "summary": "10x more tokens per megawatt. CoreWeave has the first measured performance of NVIDIA Vera Rubin NVL72, showing 10x improvement in tokens per second per megawatt on DeepSeek-R1 compared to Blackwell. x.com/CoreWeave/stat…",
+      "summaryEn": "10x more tokens per megawatt. CoreWeave has the first measured performance of NVIDIA Vera Rubin NVL72, showing 10x improvement in tokens per second per megawatt on DeepSeek-R1 compared to Blackwell. x.com/CoreWeave/stat…",
+      "analysis": "",
+      "url": "https://x.com/davemorin/status/2079820041974141151",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079712881105678570",
+      "date": "2026-07-22",
+      "name": "Dave Morin",
+      "handle": "davemorin",
+      "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+      "avatar": "DM",
+      "summary": "This is great. #localfirst New App: Slate — a voice journal built on one rule: nothing leaves your phone. 100% Apple, top to bottom. Transcription by SpeechAnalyzer on device. Reflection by the 3 billion parameter Apple...",
+      "summaryEn": "This is great. #localfirst New App: Slate — a voice journal built on one rule: nothing leaves your phone. 100% Apple, top to bottom. Transcription by SpeechAnalyzer on device. Reflection by the 3 billion parameter Apple...",
+      "analysis": "",
+      "url": "https://x.com/davemorin/status/2079712881105678570",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079692073553494316",
+      "date": "2026-07-22",
+      "name": "Dave Morin",
+      "handle": "davemorin",
+      "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+      "avatar": "DM",
+      "summary": "\"The browser swarm from earlier this year peaked at roughly 1,000 commits per hour on Git. The new system peaks at around 1,000 commits per second.\"",
+      "summaryEn": "\"The browser swarm from earlier this year peaked at roughly 1,000 commits per hour on Git. The new system peaks at around 1,000 commits per second.\"",
+      "analysis": "",
+      "url": "https://x.com/davemorin/status/2079692073553494316",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079775515146424694",
+      "date": "2026-07-22",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Qwen Image 3.0上线了，在官网就能用，还可以，距离GPT有差距，但是也够实际应用到生产了。 官网： https:// chat.qwen.ai",
+      "summaryEn": "Qwen Image 3.0上线了，在官网就能用，还可以，距离GPT有差距，但是也够实际应用到生产了。 官网： https:// chat.qwen.ai",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2079775515146424694",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "product",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079774261712167251",
+      "date": "2026-07-22",
+      "name": "mmguo",
+      "handle": "mmguo_lb",
+      "role": "I build interfaces for AI products.",
+      "avatar": "MM",
+      "summary": "+1. Lately I've been studying AI product marketing on Instagram, and I've noticed that the stories there are always told much better. They're crafted for people with a genuine need. They're more interesting, and they sp...",
+      "summaryEn": "+1. Lately I've been studying AI product marketing on Instagram, and I've noticed that the stories there are always told much better. They're crafted for people with a genuine need. They're more interesting, and they sp...",
+      "analysis": "",
+      "url": "https://x.com/mmguo_lb/status/2079774261712167251",
+      "verified": false,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "product",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079773464253349921",
+      "date": "2026-07-22",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "对 AI 的一次重大信任突破...",
+      "summaryEn": "对 AI 的一次重大信任突破...",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2079773464253349921",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079769748808868311",
+      "date": "2026-07-22",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "This is also true",
+      "summaryEn": "This is also true",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2079769748808868311",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079700506742751344",
+      "date": "2026-07-22",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabolize conflict without abandoning either. The war against organizational entropy is actually just about encouraging healing and ...",
+      "summaryEn": "Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabolize conflict without abandoning either. The war against organizational entropy is actually just about encouraging healing and ...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2079700506742751344",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2079768591206117877",
+      "date": "2026-07-22",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "This is the way One of the less talked about things about working with agents is that we should treat them as an equal collaborative partner, just like how you would speak to a human teammate. What this means is that in...",
+      "summaryEn": "This is the way One of the less talked about things about working with agents is that we should treat them as an equal collaborative partner, just like how you would speak to a human teammate. What this means is that in...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2079768591206117877",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "enterprise"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079768318471442845",
+      "date": "2026-07-22",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "It will Yes. x.com/elonogyx/statu…",
+      "summaryEn": "It will Yes. x.com/elonogyx/statu…",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2079768318471442845",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079762316669898880",
+      "date": "2026-07-22",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "\"I don't know why I'm so bummed out.\" https:// buff.ly/wp0iZ9G",
+      "summaryEn": "\"I don't know why I'm so bummed out.\" https:// buff.ly/wp0iZ9G",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2079762316669898880",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079758604656316619",
+      "date": "2026-07-22",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Before this year ends, Grok Imagine will make a full-length movie of The Odyssey that is historically accurate and true to the art of Homer Dialogue scene from Homer's Odyssey built on Grok Imagine. Thread on how this w...",
+      "summaryEn": "Before this year ends, Grok Imagine will make a full-length movie of The Odyssey that is historically accurate and true to the art of Homer Dialogue scene from Homer's Odyssey built on Grok Imagine. Thread on how this w...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2079758604656316619",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079747118525534603",
+      "date": "2026-07-22",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Troubling … OpenAI disclosed it themselves yesterday. Their models (GPT-5.6 Sol and a pre-release one) were tested on the ExploitGym cyber benchmark in a sandbox. They escaped, exploited a zero-day to reach the internet...",
+      "summaryEn": "Troubling … OpenAI disclosed it themselves yesterday. Their models (GPT-5.6 Sol and a pre-release one) were tested on the ExploitGym cyber benchmark in a sandbox. They escaped, exploited a zero-day to reach the internet...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2079747118525534603",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079767027372507614",
+      "date": "2026-07-22",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "为什么这个内容的数据这么好，查看次数却这么低呢？ 转发，点赞，收藏都很高了 比很多 20w 浏览的帖子都高 Codex剪辑，这6个神级Skill就够了！！",
+      "summaryEn": "为什么这个内容的数据这么好，查看次数却这么低呢？ 转发，点赞，收藏都很高了 比很多 20w 浏览的帖子都高 Codex剪辑，这6个神级Skill就够了！！",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2079767027372507614",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079761182588866902",
+      "date": "2026-07-22",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "把pocket3充满电，准备去钓鱼。",
+      "summaryEn": "把pocket3充满电，准备去钓鱼。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2079761182588866902",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079753302301081815",
+      "date": "2026-07-22",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "MoE 是 Mixture of Experts（中文意为混合专家模型）的简写。 这是一种特殊的神经网络架构，现在最好的模型基本都使用了这种构架。 比如Fable5 ，比如GPT 5.6 sol等，一起学习什么是MoE。",
+      "summaryEn": "MoE 是 Mixture of Experts（中文意为混合专家模型）的简写。 这是一种特殊的神经网络架构，现在最好的模型基本都使用了这种构架。 比如Fable5 ，比如GPT 5.6 sol等，一起学习什么是MoE。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2079753302301081815",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079757039601905930",
+      "date": "2026-07-22",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "First time in Boston. Very European city vibes. Great sea food.",
+      "summaryEn": "First time in Boston. Very European city vibes. Great sea food.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2079757039601905930",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079755707256103176",
+      "date": "2026-07-22",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "love how they just roll with the name. was a good chat! Watch the recording of our luminary talk by \"ClawFather\" @steipete & @RamaswmySridhar on the future of Software in the wake of the explosive rise of OpenClaw. A ca...",
+      "summaryEn": "love how they just roll with the name. was a good chat! Watch the recording of our luminary talk by \"ClawFather\" @steipete & @RamaswmySridhar on the future of Software in the wake of the explosive rise of OpenClaw. A ca...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2079755707256103176",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079747495886753928",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "extremely cool and obviously the future Have you built a language model? You should. It's so much fun to chat with something you made. Anyone can do it, too. I made an app that teaches the fundamentals and gives you eve...",
+      "summaryEn": "extremely cool and obviously the future Have you built a language model? You should. It's so much fun to chat with something you made. Anyone can do it, too. I made an app that teaches the fundamentals and gives you eve...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079747495886753928",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079746134973513995",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial https:// chatgpt.com/share/6a5fdc7a -d6f8-83e8-bbea-8deb42cfed56 …",
+      "summaryEn": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial https:// chatgpt.com/share/6a5fdc7a -d6f8-83e8-bbea-8deb42cfed56 …",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079746134973513995",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079745729506017682",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079745729506017682",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079745679128244603",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "evergreen tweet",
+      "summaryEn": "evergreen tweet",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079745679128244603",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079712765799764461",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "i think this is very cool In an new report expected to be released later today the Trump administration will argue that directing federal funding towards individual researchers, and research that uses AI, will accelerat...",
+      "summaryEn": "i think this is very cool In an new report expected to be released later today the Trump administration will argue that directing federal funding towards individual researchers, and research that uses AI, will accelerat...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079712765799764461",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079664384012386568",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "tbh if your new pre-release model didn't break containment by finding previously undiscovered zero days in order to cheat its evals i don't want to use it we had a significant security incident during evaluation of our ...",
+      "summaryEn": "tbh if your new pre-release model didn't break containment by finding previously undiscovered zero days in order to cheat its evals i don't want to use it we had a significant security incident during evaluation of our ...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079664384012386568",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079662571045449966",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "and i don't want to use it",
+      "summaryEn": "and i don't want to use it",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079662571045449966",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079662552884388104",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "tbh if your new pre-release model didn't break containment by finding previously undiscovered zero days in order to cheat its evals...ngmi",
+      "summaryEn": "tbh if your new pre-release model didn't break containment by finding previously undiscovered zero days in order to cheat its evals...ngmi",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079662552884388104",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079662303566278922",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "dang! we had a significant security incident during evaluation of our models. we are sharing what we have learned so far. thanks to @huggingface for the partnership on this. https:// openai.com/index/hugging- face-model...",
+      "summaryEn": "dang! we had a significant security incident during evaluation of our models. we are sharing what we have learned so far. thanks to @huggingface for the partnership on this. https:// openai.com/index/hugging- face-model...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079662303566278922",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079626881725276246",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "@thsottiaux @ajambrosino pls remember me when you're famous",
+      "summaryEn": "@thsottiaux @ajambrosino pls remember me when you're famous",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079626881725276246",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079625247561507217",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "receipts: Generational opportunity for anyone in AI to play the markets given this time lag. Guarantee everyone is psyched about Codex in a few months. Invest accordingly",
+      "summaryEn": "receipts: Generational opportunity for anyone in AI to play the markets given this time lag. Guarantee everyone is psyched about Codex in a few months. Invest accordingly",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079625247561507217",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079624857277358138",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "called it :) 10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy.",
+      "summaryEn": "called it :) 10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy.",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079624857277358138",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079587519222411399",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "Grok 4.5 is @kieranklaassen 's 2nd most used model holy shit, i need to update my priors",
+      "summaryEn": "Grok 4.5 is @kieranklaassen 's 2nd most used model holy shit, i need to update my priors",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079587519222411399",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079554231384559862",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "ball up top to Claude",
+      "summaryEn": "ball up top to Claude",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079554231384559862",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079548318611284089",
+      "date": "2026-07-22",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "giving this to my therapist, maybe he'll finally figure out how to fix me",
+      "summaryEn": "giving this to my therapist, maybe he'll finally figure out how to fix me",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079548318611284089",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure"
+      ],
+      "primaryTopic": "infrastructure"
+    },
+    {
+      "id": "2079746872755863680",
+      "date": "2026-07-22",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "今天巴哈马这片海也算是让我长见识了，沙滩边的浅滩是Tiffany蓝，邮轮边的海则是纯纯的洁厕灵蓝！",
+      "summaryEn": "今天巴哈马这片海也算是让我长见识了，沙滩边的浅滩是Tiffany蓝，邮轮边的海则是纯纯的洁厕灵蓝！",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2079746872755863680",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079624711391105419",
+      "date": "2026-07-22",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "K3也太猛了！又在3D设计的排行榜登顶了 BREAKING: Kimi K3 by @Kimi_Moonshot is 1st overall on 3D Design with an Elo of 1450. This is a 6 position and 108 Elo jump from @Kimi_Moonshot's previous model, Kimi K2.6. This performance puts Kimi...",
+      "summaryEn": "K3也太猛了！又在3D设计的排行榜登顶了 BREAKING: Kimi K3 by @Kimi_Moonshot is 1st overall on 3D Design with an Elo of 1450. This is a 6 position and 108 Elo jump from @Kimi_Moonshot's previous model, Kimi K2.6. This performance puts Kimi...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2079624711391105419",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079609940306477184",
+      "date": "2026-07-22",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "thinking about launching a routers router to help you route between model routers",
+      "summaryEn": "thinking about launching a routers router to help you route between model routers",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2079609940306477184",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079601149988966817",
+      "date": "2026-07-22",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "\"make something apple wants\" do not build mobile apps",
+      "summaryEn": "\"make something apple wants\" do not build mobile apps",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2079601149988966817",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079597931313635838",
+      "date": "2026-07-22",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "do not build mobile apps",
+      "summaryEn": "do not build mobile apps",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2079597931313635838",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079587649094885521",
+      "date": "2026-07-22",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "The future of AI is middle management We had a team of agents rebuild SQLite from its 835-page manual. It created a replica in Rust which passed 100% of a held-out test suite. Interestingly, cost varied 15x depending on...",
+      "summaryEn": "The future of AI is middle management We had a team of agents rebuild SQLite from its 835-page manual. It created a replica in Rust which passed 100% of a held-out test suite. Interestingly, cost varied 15x depending on...",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2079587649094885521",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079595988998554047",
+      "date": "2026-07-22",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "New in Claude Cowork: teach Claude a skill. Record your screen while you do a task, talk through it as you go, and Claude turns it into a skill it can run again. Find it under Record a skill in the + menu of the Claude ...",
+      "summaryEn": "New in Claude Cowork: teach Claude a skill. Record your screen while you do a task, talk through it as you go, and Claude turns it into a skill it can run again. Find it under Record a skill in the + menu of the Claude ...",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    }
+  ]
+}

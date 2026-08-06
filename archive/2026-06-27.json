@@ -1,0 +1,354 @@
+{
+  "date": "2026-06-27",
+  "builderCount": 5,
+  "postCount": 17,
+  "topTopics": [
+    "business",
+    "design",
+    "model",
+    "enterprise",
+    "product"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在商业、设计、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2070699350217592974",
+    "2070738404245942442",
+    "2070720877038035117"
+  ],
+  "posts": [
+    {
+      "id": "2070780139458142572",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这条机器人推文刷爆了， 但我敢说 90% 转发的人都没意识到， 物理 AI 的门槛已经被砸到脚面了。 不是什么AI做出来的动画演示， 是正儿八经的 SO-ARM101 ACT 控制策略， 直接在浏览器里跑仿真， 连半毛钱硬件都不用买， 以前想碰物理 AI 少说要几千块的机械臂入门， 现在点开网页就能上手调参看效果，",
+      "summaryEn": "这条机器人推文刷爆了， 但我敢说 90% 转发的人都没意识到， 物理 AI 的门槛已经被砸到脚面了。 不是什么AI做出来的动画演示， 是正儿八经的 SO-ARM101 ACT 控制策略， 直接在浏览器里跑仿真， 连半毛钱硬件都不用买， 以前想碰物理 AI 少说要几千块的机械臂入门， 现在点开网页就能上手调参看效果，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070780139458142572",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070738404245942442",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。 普通人能用的Fable 5，还在等政府审批，遥遥无期。 以前是花钱订阅就能摸到人类最顶尖的模型能力， 现在是最强的能力，只对特定身份和机构开放， 也就是说分层的墙...",
+      "summaryEn": "所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。 普通人能用的Fable 5，还在等政府审批，遥遥无期。 以前是花钱订阅就能摸到人类最顶尖的模型能力， 现在是最强的能力，只对特定身份和机构开放， 也就是说分层的墙...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070738404245942442",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070720877038035117",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "我们90%的人用Obsidian做知识管理，从根上就用错了。 存了一堆摘录PDF和高亮片段，手动加标签连双链，时间一长全是信息孤岛，图谱越铺越乱，最后要么彻底闲置，要么推倒重来。 Karpathy刚放出的这套LLM-WIKI思路，直接把整个逻辑反过来了。 人只负责筛选高质量原始资料，做最终判断。 剩下所有整理结构化，建链接，补更新，查矛盾的脏活，全交给AI。 核心是三层架构， 原始层只增不改永远保留真相， 知识层交给AI生成维护互相链...",
+      "summaryEn": "我们90%的人用Obsidian做知识管理，从根上就用错了。 存了一堆摘录PDF和高亮片段，手动加标签连双链，时间一长全是信息孤岛，图谱越铺越乱，最后要么彻底闲置，要么推倒重来。 Karpathy刚放出的这套LLM-WIKI思路，直接把整个逻辑反过来了。 人只负责筛选高质量原始资料，做最终判断。 剩下所有整理结构化，建链接，补更新，查矛盾的脏活，全交给AI。 核心是三层架构， 原始层只增不改永远保留真相， 知识层交给AI生成维护互相链...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070720877038035117",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070700165040595040",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "关键是一个 19 岁的人用几行代码把这个限制拆掉了哈哈， 我觉得他证明了一件事：Token 的使用范围不是技术限制，是商业限制，这才是 OpenAI 真正不想看到的。 因为一旦用户开始问——\"我买的额度到底是不是我的？\"——答案不管怎么给，都不太好看。 目前这东西还是个实验，不建议现在就用。账号封禁风险是真实的。 但它已经暴露了一条裂缝。",
+      "summaryEn": "关键是一个 19 岁的人用几行代码把这个限制拆掉了哈哈， 我觉得他证明了一件事：Token 的使用范围不是技术限制，是商业限制，这才是 OpenAI 真正不想看到的。 因为一旦用户开始问——\"我买的额度到底是不是我的？\"——答案不管怎么给，都不太好看。 目前这东西还是个实验，不建议现在就用。账号封禁风险是真实的。 但它已经暴露了一条裂缝。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070700165040595040",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070700158656856325",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "作者说这是逆向工程了 OpenAI 的内部登录方式。类似 Codex CLI 那条路。他自己也在等 OpenAI 官方回复，目前不建议大规模用。 但这件事真正的分量不在这。 这还不是最值得说的。 最厉害的是它问了一个 OpenAI 不想被问到的问题。 你每个月付 20 美元买 ChatGPT Plus。你觉得自己买的是\"Token 的使用权\"。但实际上，你买的是\"在 OpenAI 界面上使用 Token 的权利\"。换一个界面，同一个 ...",
+      "summaryEn": "作者说这是逆向工程了 OpenAI 的内部登录方式。类似 Codex CLI 那条路。他自己也在等 OpenAI 官方回复，目前不建议大规模用。 但这件事真正的分量不在这。 这还不是最值得说的。 最厉害的是它问了一个 OpenAI 不想被问到的问题。 你每个月付 20 美元买 ChatGPT Plus。你觉得自己买的是\"Token 的使用权\"。但实际上，你买的是\"在 OpenAI 界面上使用 Token 的权利\"。换一个界面，同一个 ...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070700158656856325",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2070700140898214191",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这哥们真是个天才， 直接把大模型 API 的商业模式干穿了，OpenAI 大概率不喜欢这个项目",
+      "summaryEn": "这哥们真是个天才， 直接把大模型 API 的商业模式干穿了，OpenAI 大概率不喜欢这个项目",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070700140898214191",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070562011558154722",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "想啃的可以直接从这个播放列表开始： • YouTube: https:// youtube.com/watch?v=JuoVZk PBiKk&list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV … • Assignment 1:",
+      "summaryEn": "想啃的可以直接从这个播放列表开始： • YouTube: https:// youtube.com/watch?v=JuoVZk PBiKk&list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV … • Assignment 1:",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070562011558154722",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070562003970666738",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说句很扎心的，大部分人口中的学LLM，本质上只是在学怎么用别人做好的工具，连发动机的盖子都没掀开过。 斯坦福CS336这门课最狠的地方，就是直接把盖子掀了，让你从零手搓一整套完整的LLM流水线，从分词、Transformer架构、GPU优化，到数据清洗、scaling",
+      "summaryEn": "说句很扎心的，大部分人口中的学LLM，本质上只是在学怎么用别人做好的工具，连发动机的盖子都没掀开过。 斯坦福CS336这门课最狠的地方，就是直接把盖子掀了，让你从零手搓一整套完整的LLM流水线，从分词、Transformer架构、GPU优化，到数据清洗、scaling",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070562003970666738",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070557225127424124",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "来兄弟们看下什么才是普通人最容易复制的信息差生意，而且赚钱最暴利的信息差，真的是藏在你看不起的地方啊 我刚刷到这个视频，就顺手去闲鱼搜了下，结果真的忍不住一声卧槽， 官方免费就能装的Codex， 闲鱼上代装服务¥32块钱一单， 悄无声息卖了五十多单， 更离谱的是标¥788卖正版授权的， 居然还有17个人默默下单， 几乎没啥成本啊，这不比炒A股香吗， 所以新工具刚爆发的窗口期， 最先赚到钱的永远不是技术最好的， 是嗅觉敏锐最会把复杂操作...",
+      "summaryEn": "来兄弟们看下什么才是普通人最容易复制的信息差生意，而且赚钱最暴利的信息差，真的是藏在你看不起的地方啊 我刚刷到这个视频，就顺手去闲鱼搜了下，结果真的忍不住一声卧槽， 官方免费就能装的Codex， 闲鱼上代装服务¥32块钱一单， 悄无声息卖了五十多单， 更离谱的是标¥788卖正版授权的， 居然还有17个人默默下单， 几乎没啥成本啊，这不比炒A股香吗， 所以新工具刚爆发的窗口期， 最先赚到钱的永远不是技术最好的， 是嗅觉敏锐最会把复杂操作...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070557225127424124",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070543156169302241",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Seedance 2.5 这效果， 说是恐怖如斯真的不夸张， 就这十五秒的雪豹镜头， 根根立起的绒毛， 沾在毛尖的细碎雪粒， 瞳孔里的冷光都带着呼吸的起伏， 4K的画质， 写实度已经把市面上绝大多数AI视频碾成了渣。 现在回头看OpenAI停掉Sora， 只能说决策清醒得可怕， 不是说做不下去了， 关键再往下挤牙膏已经挤不出代际差， Seedance这波是实打实的跨代领先， 放眼全球，找不到第二个能打的对手。 这波算是把AI视频的行业...",
+      "summaryEn": "Seedance 2.5 这效果， 说是恐怖如斯真的不夸张， 就这十五秒的雪豹镜头， 根根立起的绒毛， 沾在毛尖的细碎雪粒， 瞳孔里的冷光都带着呼吸的起伏， 4K的画质， 写实度已经把市面上绝大多数AI视频碾成了渣。 现在回头看OpenAI停掉Sora， 只能说决策清醒得可怕， 不是说做不下去了， 关键再往下挤牙膏已经挤不出代际差， Seedance这波是实打实的跨代领先， 放眼全球，找不到第二个能打的对手。 这波算是把AI视频的行业...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070543156169302241",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070431563897004140",
+      "date": "2026-06-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070431563897004140",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070699350217592974",
+      "date": "2026-06-27",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "也许市场根本不给 6 个月，我们也是学术，研发，产品，设计，运营多管旗下。 但这个节奏下，要保证学术成绩，代码质量，产品体验甚至是设计品味会很难，万幸的是团队氛围很好，大家都想把这事儿落地做成。 也可以期待下我们马上要发布的 Raven，一个 Memory-first 超强自进化 Agent。 今天giac，特意看了EverOS，之前只觉得是做长期记忆的，今天他们coo说从天桥总从脑科学延伸出这项目，这个思路就合理。 - 做的早，保护...",
+      "summaryEn": "也许市场根本不给 6 个月，我们也是学术，研发，产品，设计，运营多管旗下。 但这个节奏下，要保证学术成绩，代码质量，产品体验甚至是设计品味会很难，万幸的是团队氛围很好，大家都想把这事儿落地做成。 也可以期待下我们马上要发布的 Raven，一个 Memory-first 超强自进化 Agent。 今天giac，特意看了EverOS，之前只觉得是做长期记忆的，今天他们coo说从天桥总从脑科学延伸出这项目，这个思路就合理。 - 做的早，保护...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2070699350217592974",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2070686829649825888",
+      "date": "2026-06-27",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "yc companies: What the fuck man",
+      "summaryEn": "yc companies: What the fuck man",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2070686829649825888",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2070593292052423155",
+      "date": "2026-06-27",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "zohran is a generational speaker/presenter, which exactly why hes so dangerous say what you want about the policy, which is extremely bad, but his presentation & communication skills are genuinely next level. the ad is ...",
+      "summaryEn": "zohran is a generational speaker/presenter, which exactly why hes so dangerous say what you want about the policy, which is extremely bad, but his presentation & communication skills are genuinely next level. the ad is ...",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2070593292052423155",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2070554247301591163",
+      "date": "2026-06-27",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "full blog post here:",
+      "summaryEn": "full blog post here:",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2070554247301591163",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2070554118146412979",
+      "date": "2026-06-27",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "BREAKING: OpenAI announced GPT-5.6 Sol! As of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and @every is not on the list. This appears to be a temporary situation while the g...",
+      "summaryEn": "BREAKING: OpenAI announced GPT-5.6 Sol! As of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and @every is not on the list. This appears to be a temporary situation while the g...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2070554118146412979",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2070536397384204503",
+      "date": "2026-06-27",
+      "name": "Dave Morin",
+      "handle": "davemorin",
+      "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+      "avatar": "DM",
+      "summary": "“Stay true to who you are.” - @Om",
+      "summaryEn": "“Stay true to who you are.” - @Om",
+      "analysis": "",
+      "url": "https://x.com/davemorin/status/2070536397384204503",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    }
+  ]
+}

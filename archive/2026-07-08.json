@@ -1,0 +1,1128 @@
+{
+  "date": "2026-07-08",
+  "builderCount": 19,
+  "postCount": 58,
+  "topTopics": [
+    "model",
+    "design",
+    "agent",
+    "product",
+    "business"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在模型、设计、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2074736781858390368",
+    "2074638582418231495",
+    "2074493311046607113"
+  ],
+  "posts": [
+    {
+      "id": "2074758348264833131",
+      "date": "2026-07-08",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "开源一个非常漂亮的文章配图 Skill。 昨天给 Claude 用我的社交媒体卡片生成的时候，Codex 生成了一个配图，我觉得很漂亮、挺有意思。 发出来后大家也都很喜欢，所以顺便就把它做成了一个配图 Skill。 目前只适配了 GPT-Image-2.0 模型。",
+      "summaryEn": "开源一个非常漂亮的文章配图 Skill。 昨天给 Claude 用我的社交媒体卡片生成的时候，Codex 生成了一个配图，我觉得很漂亮、挺有意思。 发出来后大家也都很喜欢，所以顺便就把它做成了一个配图 Skill。 目前只适配了 GPT-Image-2.0 模型。",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2074758348264833131",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074730378666168629",
+      "date": "2026-07-08",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "GPT-5.6 终于要来了！ 周四的话大概是我们这边明天半夜周五凌晨一点左右 GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "summaryEn": "GPT-5.6 终于要来了！ 周四的话大概是我们这边明天半夜周五凌晨一点左右 GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2074730378666168629",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074728162018152817",
+      "date": "2026-07-08",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2074728162018152817",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074753826394173491",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Claude推出云端Cowork 之前Claude Cowork必须开着电脑才能工作，现在变成云端Agent了，电脑关了也可以继续任务。在手机APP或者网页里都能下达和操控任务。云端的Cowork不能操作你电脑里的文件，但是搜索资料、连接Gmail/Notion等功能都能正常用，应该也是基于Claude Managed",
+      "summaryEn": "Claude推出云端Cowork 之前Claude Cowork必须开着电脑才能工作，现在变成云端Agent了，电脑关了也可以继续任务。在手机APP或者网页里都能下达和操控任务。云端的Cowork不能操作你电脑里的文件，但是搜索资料、连接Gmail/Notion等功能都能正常用，应该也是基于Claude Managed",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074753826394173491",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2074743030771548375",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "原公告地址： https:// nvdb.org.cn/publicAnnounce ment/2074681830578630657 …",
+      "summaryEn": "原公告地址： https:// nvdb.org.cn/publicAnnounce ment/2074681830578630657 …",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074743030771548375",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2074742987247296624",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "工信部发布“关于防范AI编程工具Claude Code安全后门隐患的风险提示”",
+      "summaryEn": "工信部发布“关于防范AI编程工具Claude Code安全后门隐患的风险提示”",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074742987247296624",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074714578324484415",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "GPT 5.6周四上线，来对比下Fable 5 GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "summaryEn": "GPT 5.6周四上线，来对比下Fable 5 GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074714578324484415",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074697777448403155",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "PPT Skill都可以扔了，没有使用Skill，没有使用图片生成，Fable 5生成PPT的效果。 提示词： 不要使用任何技能，做一个16：9比例的PPTX文档，内容为SpaceX的发展历程，5页。要求内容丰富、排版复杂豪华精美，有装饰图片和图标，有配图。图片可以联网获取，图片应该尽量使用透明底的图片。",
+      "summaryEn": "PPT Skill都可以扔了，没有使用Skill，没有使用图片生成，Fable 5生成PPT的效果。 提示词： 不要使用任何技能，做一个16：9比例的PPTX文档，内容为SpaceX的发展历程，5页。要求内容丰富、排版复杂豪华精美，有装饰图片和图标，有配图。图片可以联网获取，图片应该尽量使用透明底的图片。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074697777448403155",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074689708505124896",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Meta发布了Muse Image和Muse Video Muse Image是图片生成模型，生成的图片看起来还不错，但是现在还测不到，我估计会弱于GPT Image 2和Banana Pro。 Muse Video是视频生成模型，中规中矩，肯定比不上Seedance 2.0，更不用说马上要上线的2.5，不过Meta有Instagram，视频模型有用武之地，比Sora有PMF。",
+      "summaryEn": "Meta发布了Muse Image和Muse Video Muse Image是图片生成模型，生成的图片看起来还不错，但是现在还测不到，我估计会弱于GPT Image 2和Banana Pro。 Muse Video是视频生成模型，中规中矩，肯定比不上Seedance 2.0，更不用说马上要上线的2.5，不过Meta有Instagram，视频模型有用武之地，比Sora有PMF。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074689708505124896",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media",
+        "model"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2074689711831216241",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "官方介绍： https:// ai.meta.com/blog/introduci ng-muse-image-muse-video-msl/ … 另外有没有人知道Meta AI怎么才能用上，我Claude稳定用，Meta一直提示地区不支持。",
+      "summaryEn": "官方介绍： https:// ai.meta.com/blog/introduci ng-muse-image-muse-video-msl/ … 另外有没有人知道Meta AI怎么才能用上，我Claude稳定用，Meta一直提示地区不支持。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074689711831216241",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media",
+        "model"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2074677250176520683",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "V2上2020年一篇关于GPT-3写代码的帖子，作者被程序员们狂喷，6年过去了，现在谁是小丑 原贴地址： https:// v2ex.com/t/694359?p=1",
+      "summaryEn": "V2上2020年一篇关于GPT-3写代码的帖子，作者被程序员们狂喷，6年过去了，现在谁是小丑 原贴地址： https:// v2ex.com/t/694359?p=1",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074677250176520683",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074675186008547393",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "实际上任何问题，Layer 2/3/4里都会出现类似的词，应该是模型训练的问题，证明不了什么。 Ask Qwen about its favorite sport and this where its mind immediately goes x.com/AnthropicAI/st…",
+      "summaryEn": "实际上任何问题，Layer 2/3/4里都会出现类似的词，应该是模型训练的问题，证明不了什么。 Ask Qwen about its favorite sport and this where its mind immediately goes x.com/AnthropicAI/st…",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074675186008547393",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074661423184306373",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Fable 5再续5天，接着奏乐接着舞 We're extending access to Claude Fable 5 on all paid plans through July 12.",
+      "summaryEn": "Fable 5再续5天，接着奏乐接着舞 We're extending access to Claude Fable 5 on all paid plans through July 12.",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074661423184306373",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074656681905274929",
+      "date": "2026-07-08",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Cloudflare推出Monetization Gateway（变现网关）：你的资源可以对Agent收费 网络存续30年的商业模式(广告、订阅)建立在人类注意力上，而AI爬虫抓取内容的频率可达人类访问者的百倍到万倍，agent用完即走，不看广告也不订阅。软件的自然计费单位正从 按座位/按月 转向 按请求、按token、按结果",
+      "summaryEn": "Cloudflare推出Monetization Gateway（变现网关）：你的资源可以对Agent收费 网络存续30年的商业模式(广告、订阅)建立在人类注意力上，而AI爬虫抓取内容的频率可达人类访问者的百倍到万倍，agent用完即走，不看广告也不订阅。软件的自然计费单位正从 按座位/按月 转向 按请求、按token、按结果",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2074656681905274929",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074750229044502663",
+      "date": "2026-07-08",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Dirty smear politics is alive and well in SF, and it's high time we made sure the playbook backfires from here A few dishonest groups invent a smear and the local legacy media rubber stamps it out of abdication of duty ...",
+      "summaryEn": "Dirty smear politics is alive and well in SF, and it's high time we made sure the playbook backfires from here A few dishonest groups invent a smear and the local legacy media rubber stamps it out of abdication of duty ...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2074750229044502663",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074744830492868764",
+      "date": "2026-07-08",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history I shared this message tonight with a group I frequently talk to and that is active with CSF. @ConnectedSF is the ce...",
+      "summaryEn": "Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history I shared this message tonight with a group I frequently talk to and that is active with CSF. @ConnectedSF is the ce...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2074744830492868764",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074741445945114845",
+      "date": "2026-07-08",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "国内平台的流量都是按需分配制的 推流时间很明显，突然间就一下子涨个几千，然后就不推流了 x 的感觉一推就一直推，推到 2 天出流量池为止 不知道为啥设计这么不同",
+      "summaryEn": "国内平台的流量都是按需分配制的 推流时间很明显，突然间就一下子涨个几千，然后就不推流了 x 的感觉一推就一直推，推到 2 天出流量池为止 不知道为啥设计这么不同",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2074741445945114845",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074736790066630739",
+      "date": "2026-07-08",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "接下来就是生成对应语言的语音了 1. 打开在线应用： https:// confucius4-tts.youdao.com/gradio 2. 上传参考音频：这个人说原语言的原声片段（几秒即可），用来提取音色和说话节奏。 3. 输入目标语言文本：这句话的译文（中文/英语/日语/韩语都行）。 4. 点生成 → 得到「同一个嗓音说目标语言」的语音，下载保存。 5. 逐句重复，把每段生成的语音按时间轴放回剪辑器 具体看下面图片：",
+      "summaryEn": "接下来就是生成对应语言的语音了 1. 打开在线应用： https:// confucius4-tts.youdao.com/gradio 2. 上传参考音频：这个人说原语言的原声片段（几秒即可），用来提取音色和说话节奏。 3. 输入目标语言文本：这句话的译文（中文/英语/日语/韩语都行）。 4. 点生成 → 得到「同一个嗓音说目标语言」的语音，下载保存。 5. 逐句重复，把每段生成的语音按时间轴放回剪辑器 具体看下面图片：",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2074736790066630739",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2074736793564676177",
+      "date": "2026-07-08",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "按照下个步骤来对齐音频，实现语音翻译： 1. 将原来的视频去除掉人声，仅仅保留背景音 2. 将对齐视频声音开始和结束的时间 3. 适当加速或者减速语音适合原视频片段的时长 4. 假如相差很多，适当改变TTS文本的句子，适配原视频片段的时长 好了，根据上面步骤就能做出合适的语音翻译视频了",
+      "summaryEn": "按照下个步骤来对齐音频，实现语音翻译： 1. 将原来的视频去除掉人声，仅仅保留背景音 2. 将对齐视频声音开始和结束的时间 3. 适当加速或者减速语音适合原视频片段的时长 4. 假如相差很多，适当改变TTS文本的句子，适配原视频片段的时长 好了，根据上面步骤就能做出合适的语音翻译视频了",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2074736793564676177",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074736781858390368",
+      "date": "2026-07-08",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "如何给自己喜欢的电影，解说进行语音翻译，而不失去原来的音调和节奏呢？ 下面的线程里面我教你0元就能实现语音翻译！！生成下面的视频： 1. 准备素材 2. 使用开源项目生成TTS语音 3. 在剪映中对齐他们 最近看了很多世界杯的切片，我那是看得激情澎湃 特别是佛得角的40岁门将7次扑救逼平西班牙！！ 我心血来潮专门找了他的赛后采访，还给采访做了个多语种的翻译。 做翻译的过程中我觉得最大的痛点是如果有一种原样保留语气，节奏，情绪的语音翻译...",
+      "summaryEn": "如何给自己喜欢的电影，解说进行语音翻译，而不失去原来的音调和节奏呢？ 下面的线程里面我教你0元就能实现语音翻译！！生成下面的视频： 1. 准备素材 2. 使用开源项目生成TTS语音 3. 在剪映中对齐他们 最近看了很多世界杯的切片，我那是看得激情澎湃 特别是佛得角的40岁门将7次扑救逼平西班牙！！ 我心血来潮专门找了他的赛后采访，还给采访做了个多语种的翻译。 做翻译的过程中我觉得最大的痛点是如果有一种原样保留语气，节奏，情绪的语音翻译...",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2074736781858390368",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074672710446362865",
+      "date": "2026-07-08",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "半年用了 400+skill，我只下面推荐这11个",
+      "summaryEn": "半年用了 400+skill，我只下面推荐这11个",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2074672710446362865",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074740539874775163",
+      "date": "2026-07-08",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Based on strong positive feedback from customers in our beta test program, @SpaceXAI will make Grok 4.5 available to the public tomorrow. It is an Opus-class model, but faster, more token-efficient and lower cost.",
+      "summaryEn": "Based on strong positive feedback from customers in our beta test program, @SpaceXAI will make Grok 4.5 available to the public tomorrow. It is an Opus-class model, but faster, more token-efficient and lower cost.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2074740539874775163",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074739056697610504",
+      "date": "2026-07-08",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "America, the Beautiful Elon Musk just said the one thing about America they made sure you’d never learn. The one thing that should’ve made you proud, not ashamed. Musk: “After World War 2, the US could have basically ta...",
+      "summaryEn": "America, the Beautiful Elon Musk just said the one thing about America they made sure you’d never learn. The one thing that should’ve made you proud, not ashamed. Musk: “After World War 2, the US could have basically ta...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2074739056697610504",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2074738585727590547",
+      "date": "2026-07-08",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2074738585727590547",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2074739318103629979",
+      "date": "2026-07-08",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our “partner.” \"",
+      "summaryEn": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our “partner.” \"",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2074739318103629979",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074638582418231495",
+      "date": "2026-07-08",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "If you run this workflow, ask Fable to make codex the workhorse. https:// github.com/steipete/agent -scripts/blob/main/skills/codex-first/SKILL.md … A few patterns we frequently use with Fable 5: Use Fable 5 as an \"advi...",
+      "summaryEn": "If you run this workflow, ask Fable to make codex the workhorse. https:// github.com/steipete/agent -scripts/blob/main/skills/codex-first/SKILL.md … A few patterns we frequently use with Fable 5: Use Fable 5 as an \"advi...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2074638582418231495",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074624388301987947",
+      "date": "2026-07-08",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Bonus: Comes with a skill to show a big alert when agents need your help for additional context, instead of (e.g.) just a no-context 1Password dialog.",
+      "summaryEn": "Bonus: Comes with a skill to show a big alert when agents need your help for additional context, instead of (e.g.) just a no-context 1Password dialog.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2074624388301987947",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074624148215939151",
+      "date": "2026-07-08",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "I often work in multiple machines at the same time and started to mix up the screen shares, so built nameplate to make things very obvious.",
+      "summaryEn": "I often work in multiple machines at the same time and started to mix up the screen shares, so built nameplate to make things very obvious.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2074624148215939151",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074733842230108672",
+      "date": "2026-07-08",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "So what is the qualification criteria for folks to get early access to this model? GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "summaryEn": "So what is the qualification criteria for folks to get early access to this model? GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2074733842230108672",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074705840284815678",
+      "date": "2026-07-08",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process. Who's the best person to talk to?",
+      "summaryEn": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process. Who's the best person to talk to?",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2074705840284815678",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "agent"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074616982197174515",
+      "date": "2026-07-08",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Dumb question: I’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use. But should I run these jobs in the cloud instead with these...",
+      "summaryEn": "Dumb question: I’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use. But should I run these jobs in the cloud instead with these...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2074616982197174515",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074730365823201530",
+      "date": "2026-07-08",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "GPT 5.6 明天要来了 从海外内测的风评来看，GPT5.6 是 GPT 5.5 的全面升级版本，价格也一样，预计会是个很成功的模型 但是，大多数内测者都说 GPT5.6和 Fable 这种质变的感觉不太一样，在各方面都会差一点点 2倍高价的 Fable 依然是智能的巅峰",
+      "summaryEn": "GPT 5.6 明天要来了 从海外内测的风评来看，GPT5.6 是 GPT 5.5 的全面升级版本，价格也一样，预计会是个很成功的模型 但是，大多数内测者都说 GPT5.6和 Fable 这种质变的感觉不太一样，在各方面都会差一点点 2倍高价的 Fable 依然是智能的巅峰",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2074730365823201530",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074654631163306117",
+      "date": "2026-07-08",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "AI 降低了很多事情的门槛 但并未降低赚钱的门槛 它甚至还更花钱了",
+      "summaryEn": "AI 降低了很多事情的门槛 但并未降低赚钱的门槛 它甚至还更花钱了",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2074654631163306117",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2074722187819336056",
+      "date": "2026-07-08",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "人麻了 阿里把Token消耗纳入绩效考核了， 低于团队平均值直接扣分 本以为AI是来减负的 结果先成了打工人新KPI",
+      "summaryEn": "人麻了 阿里把Token消耗纳入绩效考核了， 低于团队平均值直接扣分 本以为AI是来减负的 结果先成了打工人新KPI",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2074722187819336056",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2074670417285951889",
+      "date": "2026-07-08",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这才是AI Agent该有的样子嘛， 人负责提目标和做决策，AI负责执行和兜底，工作不再被设备绑定，也不再被在线状态限制， 感兴趣的可以去刷一遍官方演示，Max用户可以蹲一蹲最近的推送hh A few patterns we frequently use with Fable 5: Use Fable 5 as an \"advisor.\" An executor (Sonnet 5) calls Fable 5 for guidanc...",
+      "summaryEn": "这才是AI Agent该有的样子嘛， 人负责提目标和做决策，AI负责执行和兜底，工作不再被设备绑定，也不再被在线状态限制， 感兴趣的可以去刷一遍官方演示，Max用户可以蹲一蹲最近的推送hh A few patterns we frequently use with Fable 5: Use Fable 5 as an \"advisor.\" An executor (Sonnet 5) calls Fable 5 for guidanc...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2074670417285951889",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2074719479377109312",
+      "date": "2026-07-08",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common themes that stand out: * Lots of conversation that you have to solve an operating model challenge ...",
+      "summaryEn": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common themes that stand out: * Lots of conversation that you have to solve an operating model challenge ...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2074719479377109312",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074709023807664454",
+      "date": "2026-07-08",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "GPT-5.6 sol launches thursday! happy building",
+      "summaryEn": "GPT-5.6 sol launches thursday! happy building",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2074709023807664454",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2074706130933305648",
+      "date": "2026-07-08",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "是的 Git 过时了 定制一个 GitHub 然后再 Hack 一下 Git 让 Git 更加 AI Native 让 Git 更加能够适应 Loop Engineering 的范式。 it_happening.gif x.com/ttaylorr_b/sta…",
+      "summaryEn": "是的 Git 过时了 定制一个 GitHub 然后再 Hack 一下 Git 让 Git 更加 AI Native 让 Git 更加能够适应 Loop Engineering 的范式。 it_happening.gif x.com/ttaylorr_b/sta…",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2074706130933305648",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074699494403543162",
+      "date": "2026-07-08",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "Superset 太能 烧 烧了，建议不差钱的用户多试试 还是太克制了，我这随手蹬过 $25000 了 我昨天已经开始求着借 PM 小姐姐 @vivianvkong 的电脑跑我的 prompt 来接着飞 Fable 了 x.com/calicastle/sta…",
+      "summaryEn": "Superset 太能 烧 烧了，建议不差钱的用户多试试 还是太克制了，我这随手蹬过 $25000 了 我昨天已经开始求着借 PM 小姐姐 @vivianvkong 的电脑跑我的 prompt 来接着飞 Fable 了 x.com/calicastle/sta…",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2074699494403543162",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074704958419792299",
+      "date": "2026-07-08",
+      "name": "OpenAI",
+      "handle": "OpenAI",
+      "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "avatar": "OP",
+      "summary": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "summaryEn": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
+      "analysis": "",
+      "url": "https://x.com/OpenAI/status/2074704958419792299",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074679911613436416",
+      "date": "2026-07-08",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "说实话我觉得最后所有的学校和老师都不可避免地会往这个方向发展… Hedge fund managers, venture capitalists, and tech executives are pulling their kids from public and private schools to enroll them in AI-tutoring startups that pay staff to stop calling ...",
+      "summaryEn": "说实话我觉得最后所有的学校和老师都不可避免地会往这个方向发展… Hedge fund managers, venture capitalists, and tech executives are pulling their kids from public and private schools to enroll them in AI-tutoring startups that pay staff to stop calling ...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2074679911613436416",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2074679333919371474",
+      "date": "2026-07-08",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "看到这东西我第一反应是对听说障碍者或者聋哑人这不就是他们的 typeless？ This is me talking to my computer without making a sound. After just a month of collecting data, our model is already approaching dictation in accuracy. We were surprised to see t...",
+      "summaryEn": "看到这东西我第一反应是对听说障碍者或者聋哑人这不就是他们的 typeless？ This is me talking to my computer without making a sound. After just a month of collecting data, our model is already approaching dictation in accuracy. We were surprised to see t...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2074679333919371474",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2074676901457866789",
+      "date": "2026-07-08",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "xAI 改名 SpaceXAI 名字不会太长了吗，按老马的性格应该缩写为 SXAI 或者 SexAI 才对",
+      "summaryEn": "xAI 改名 SpaceXAI 名字不会太长了吗，按老马的性格应该缩写为 SXAI 或者 SexAI 才对",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2074676901457866789",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2074675934108733868",
+      "date": "2026-07-08",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "本月在銀座单向街书店的 AI 分享时间确定啦，7.12号周日下午和大家见面！这期话题会比较特别，会和大家介绍一个 AI 语音嘉宾进行三人实时对谈，会有相当多的开放式问题，并介绍我在开发 intentware 时遇到的问题和思路！欢迎各位报名",
+      "summaryEn": "本月在銀座单向街书店的 AI 分享时间确定啦，7.12号周日下午和大家见面！这期话题会比较特别，会和大家介绍一个 AI 语音嘉宾进行三人实时对谈，会有相当多的开放式问题，并介绍我在开发 intentware 时遇到的问题和思路！欢迎各位报名",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2074675934108733868",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2074661564964307153",
+      "date": "2026-07-08",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "How to learn in the age of AI",
+      "summaryEn": "How to learn in the age of AI",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2074661564964307153",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2074659876887023919",
+      "date": "2026-07-08",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "一起参观了北京日报的创刊号。 比较有意思的是北京日报报头，社长范瑾觉得第一版不好，让主席再写一份，哈哈哈。 昨天给北京日报社内部，分享了一次GEO 我觉得他们的反应很敏锐，在国内权威媒体里，认知、布局、执行力也相对超前 对于权威传统媒体，最核心的优势就是：大量高质量的权威内容 这种权威内容，如果用好GEO，有很多的价值，比如：",
+      "summaryEn": "一起参观了北京日报的创刊号。 比较有意思的是北京日报报头，社长范瑾觉得第一版不好，让主席再写一份，哈哈哈。 昨天给北京日报社内部，分享了一次GEO 我觉得他们的反应很敏锐，在国内权威媒体里，认知、布局、执行力也相对超前 对于权威传统媒体，最核心的优势就是：大量高质量的权威内容 这种权威内容，如果用好GEO，有很多的价值，比如：",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2074659876887023919",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2074646616422982011",
+      "date": "2026-07-08",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "这两天，Codex 5.5 extra high + fast speed， 速度很快啊，体感比前两周快了有两倍了吧。",
+      "summaryEn": "这两天，Codex 5.5 extra high + fast speed， 速度很快啊，体感比前两周快了有两倍了吧。",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2074646616422982011",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074641415066525901",
+      "date": "2026-07-08",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "推荐一个语音包，挺好玩的，开源，免费。 配置给你的 Codex/CC/其他 Agents，完成状态的时候会有音效。 截图是「魔兽争霸」兽族经典的 work work。 也支持其他语言和游戏的音效提示，「王者荣耀」也有。 支持 brew 一键安装。 https:// github.com/PeonPing/peon- ping …",
+      "summaryEn": "推荐一个语音包，挺好玩的，开源，免费。 配置给你的 Codex/CC/其他 Agents，完成状态的时候会有音效。 截图是「魔兽争霸」兽族经典的 work work。 也支持其他语言和游戏的音效提示，「王者荣耀」也有。 支持 brew 一键安装。 https:// github.com/PeonPing/peon- ping …",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2074641415066525901",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074493311046607113",
+      "date": "2026-07-08",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "EverOS 1.1.1 发布了。 这版主要是评测质量的 release。 我们之前跑 LoCoMo 测评是直接 93.05% 的 SOTA。 后来发现不少朋友在跑的时候，不容易出现 93.05%，经常是在 90% 上下。 这版本经过我们反复测试，能稳定复现 93%。 欢迎测试哈，测不到，寄礼物给你。 EverOS v1.1.1 is live. A small release focused on measurable memory...",
+      "summaryEn": "EverOS 1.1.1 发布了。 这版主要是评测质量的 release。 我们之前跑 LoCoMo 测评是直接 93.05% 的 SOTA。 后来发现不少朋友在跑的时候，不容易出现 93.05%，经常是在 90% 上下。 这版本经过我们反复测试，能稳定复现 93%。 欢迎测试哈，测不到，寄礼物给你。 EverOS v1.1.1 is live. A small release focused on measurable memory...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2074493311046607113",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074486274925490308",
+      "date": "2026-07-08",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "这篇很值得讲，强推荐。 最近 recursive 这个词又出来了，所以 recursive self-improvement 就火了。 它不太会先表现为模型直接改自己的权重，而更可能发生在 harness 这一层，也就是模型外面的运行时系统：工具调用、上下文管理、文件系统记忆、子代理、工作流、评估、权限控制等。 AI new post on harness engineering for AI self-improvement: ht...",
+      "summaryEn": "这篇很值得讲，强推荐。 最近 recursive 这个词又出来了，所以 recursive self-improvement 就火了。 它不太会先表现为模型直接改自己的权重，而更可能发生在 harness 这一层，也就是模型外面的运行时系统：工具调用、上下文管理、文件系统记忆、子代理、工作流、评估、权限控制等。 AI new post on harness engineering for AI self-improvement: ht...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2074486274925490308",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074437064775393634",
+      "date": "2026-07-08",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "发现一个有意思的设计， @HuggingFace 上 datasets 的下载量，展示的是「过去 30 天」，且页面没有入口可以看全量下载数。 其实，「过去 30 天」 才是更接近现实的信号。 全量下载数算「虚荣指标」：只增不减，容易被拿来做营销，却不代表当前真实活跃度。 「过去 30 天」才是更接近现实的信号。 当然，也有办法拿到全量下载数： curl -sS ' https:// huggingface.co/api/datase...",
+      "summaryEn": "发现一个有意思的设计， @HuggingFace 上 datasets 的下载量，展示的是「过去 30 天」，且页面没有入口可以看全量下载数。 其实，「过去 30 天」 才是更接近现实的信号。 全量下载数算「虚荣指标」：只增不减，容易被拿来做营销，却不代表当前真实活跃度。 「过去 30 天」才是更接近现实的信号。 当然，也有办法拿到全量下载数： curl -sS ' https:// huggingface.co/api/datase...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2074437064775393634",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074437066688192895",
+      "date": "2026-07-08",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2074437066688192895",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074623177846857996",
+      "date": "2026-07-08",
+      "name": "Dave Morin",
+      "handle": "davemorin",
+      "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+      "avatar": "DM",
+      "summary": "We may have finally created the bicycle for the mind. \"When intelligence is plentiful, volition is valuable. The people who are going to make a difference are not the ones who seek relaxation and passively use AI to wor...",
+      "summaryEn": "We may have finally created the bicycle for the mind. \"When intelligence is plentiful, volition is valuable. The people who are going to make a difference are not the ones who seek relaxation and passively use AI to wor...",
+      "analysis": "",
+      "url": "https://x.com/davemorin/status/2074623177846857996",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2074548243971604641",
+      "date": "2026-07-08",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "As before, you can use up to 50% of your weekly usage limit on Claude Fable 5. After that, you can keep using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. Read mor...",
+      "summaryEn": "As before, you can use up to 50% of your weekly usage limit on Claude Fable 5. After that, you can keep using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. Read mor...",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2074548243971604641",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2074548242386178258",
+      "date": "2026-07-08",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+      "summaryEn": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2074548242386178258",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2074525821755101458",
+      "date": "2026-07-08",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "We're extending doubled Cowork usage limits through August 5, so you can delegate bigger work to Claude. Read more:",
+      "summaryEn": "We're extending doubled Cowork usage limits through August 5, so you can delegate bigger work to Claude. Read more:",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2074525821755101458",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2074525819414647044",
+      "date": "2026-07-08",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Chat and Cowork are moving into one home on web and desktop, with one place for your projects and artifacts across both. Handing Claude a task starts the same way a conversation does.",
+      "summaryEn": "Chat and Cowork are moving into one home on web and desktop, with one place for your projects and artifacts across both. Handing Claude a task starts the same way a conversation does.",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2074525819414647044",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2074525815820169320",
+      "date": "2026-07-08",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Claude Cowork is coming to mobile and web. Hand Claude a task at your desk and pick up the finished work from your phone. Close the laptop and Claude keeps going. Beta is rolling out over the next several weeks starting...",
+      "summaryEn": "Claude Cowork is coming to mobile and web. Hand Claude a task at your desk and pick up the finished work from your phone. Close the laptop and Claude keeps going. Beta is rolling out over the next several weeks starting...",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2074525815820169320",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    }
+  ]
+}

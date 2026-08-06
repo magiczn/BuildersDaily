@@ -1,0 +1,490 @@
+{
+  "date": "2026-05-06",
+  "builderCount": 7,
+  "postCount": 24,
+  "topTopics": [
+    "business",
+    "design",
+    "model",
+    "enterprise",
+    "agent"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在商业、设计、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2051703943936315590",
+    "2051770969660989893",
+    "2051706784562446463"
+  ],
+  "posts": [
+    {
+      "id": "2051847991125049569",
+      "date": "2026-05-06",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "A cybersecurity firm, “Red Access,” contacted us less than 24 hours before going to the media with vague claims about Replit. This is not how responsible security research works. The standard practice in terms of disclo...",
+      "summaryEn": "A cybersecurity firm, “Red Access,” contacted us less than 24 hours before going to the media with vague claims about Replit. This is not how responsible security research works. The standard practice in terms of disclo...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2051847991125049569",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure"
+      ],
+      "primaryTopic": "infrastructure"
+    },
+    {
+      "id": "2051771141388407187",
+      "date": "2026-05-06",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Half a million projects in a single day. One user used up $10k in agent workloads while another explored hundreds of business ideas. Hundreds of thousands of you unleashed your creativity on Replit Agent this weekend --...",
+      "summaryEn": "Half a million projects in a single day. One user used up $10k in agent workloads while another explored hundreds of business ideas. Hundreds of thousands of you unleashed your creativity on Replit Agent this weekend --...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2051771141388407187",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2051825103420166636",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Mythos原本计划4月发布，但因安全和算力问题推迟，不过Boris确认弱化版很快就会来，下一次Claude大更新能力又会跳一个台阶",
+      "summaryEn": "Mythos原本计划4月发布，但因安全和算力问题推迟，不过Boris确认弱化版很快就会来，下一次Claude大更新能力又会跳一个台阶",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051825103420166636",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "infrastructure",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051825098919649345",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Boris说dogfooding对他们最重要，开发者用的就是内部团队用的模型。这意味着我们现在用的Opus 4.7，实际上也已经足够搭建出同样的AI工作流了",
+      "summaryEn": "Boris说dogfooding对他们最重要，开发者用的就是内部团队用的模型。这意味着我们现在用的Opus 4.7，实际上也已经足够搭建出同样的AI工作流了",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051825098919649345",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2051825089478373572",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Anthropic的Claude为什么能52天推出50个重大功能？神秘武器Mythos要发布了？ 他们的基础设施负责人、Claude code之父Boris刚说出了2026年AI行业最令人震惊的真相。 Boris Cherny亲口承认： 我们公司现在，已经没有任何一行手动写的代码了。",
+      "summaryEn": "Anthropic的Claude为什么能52天推出50个重大功能？神秘武器Mythos要发布了？ 他们的基础设施负责人、Claude code之父Boris刚说出了2026年AI行业最令人震惊的真相。 Boris Cherny亲口承认： 我们公司现在，已经没有任何一行手动写的代码了。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051825089478373572",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "product"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051703955889991799",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "所有代码和模板都在GitHub开源：anthropics/financial-services，直接fork就能改成自己公司的版本，连部署脚本都给你写好了",
+      "summaryEn": "所有代码和模板都在GitHub开源：anthropics/financial-services，直接fork就能改成自己公司的版本，连部署脚本都给你写好了",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051703955889991799",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051703950303240638",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个最爽的用法，独立PE和FA现在可以用Pitch Builder+Market Researcher，一个人就能跑完以前一个团队的尽调和pitch准备，成本直接降90%",
+      "summaryEn": "补充一个最爽的用法，独立PE和FA现在可以用Pitch Builder+Market Researcher，一个人就能跑完以前一个团队的尽调和pitch准备，成本直接降90%",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051703950303240638",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051703943936315590",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "holy shit Anthropic今天这个更新直接把华尔街初级分析师给炒了的节奏啊 他们不是发了个新模型，也不是优化了什么算法， 是一次性扔出10个现成的金融Agent，直接把投行、资管、基金最耗时的10个核心工作，全部产品化了，damn！ 以前初级分析师花3天做的估值复核，现在Valuation Reviewer New for financial services: ready-to-run Claude agent temp...",
+      "summaryEn": "holy shit Anthropic今天这个更新直接把华尔街初级分析师给炒了的节奏啊 他们不是发了个新模型，也不是优化了什么算法， 是一次性扔出10个现成的金融Agent，直接把投行、资管、基金最耗时的10个核心工作，全部产品化了，damn！ 以前初级分析师花3天做的估值复核，现在Valuation Reviewer New for financial services: ready-to-run Claude agent temp...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051703943936315590",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "agent"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2051634018316153072",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "兄弟们，我再补充一个扎心细节，一个AI账号可以同时服务500个付费用户，每个用户都觉得自己是她的唯一 真人主播一天最多聊20个，这压根不是一个量级的竞争啊，这样搞下去那些网红小姐姐都要失业了吧",
+      "summaryEn": "兄弟们，我再补充一个扎心细节，一个AI账号可以同时服务500个付费用户，每个用户都觉得自己是她的唯一 真人主播一天最多聊20个，这压根不是一个量级的竞争啊，这样搞下去那些网红小姐姐都要失业了吧",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051634018316153072",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051634013324845429",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Damn，这条14秒的视频，撕碎了所有男人的幻想，撕烂了所有榜一大哥们的遮羞布 左边是你在OnlyFans上刷到的完美女孩， 金发，大长腿，对着你比心，wink，说甜言蜜语， 记得你两周前说过的每一句话，永远秒回。 右边是一个戴着白帽子的普通男生， 他做什么动作， 左边的女孩就同步做什么动作，",
+      "summaryEn": "Damn，这条14秒的视频，撕碎了所有男人的幻想，撕烂了所有榜一大哥们的遮羞布 左边是你在OnlyFans上刷到的完美女孩， 金发，大长腿，对着你比心，wink，说甜言蜜语， 记得你两周前说过的每一句话，永远秒回。 右边是一个戴着白帽子的普通男生， 他做什么动作， 左边的女孩就同步做什么动作，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051634013324845429",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051624001613517079",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "20个NotebookLM提示词 学得更快，想得更深，研究更聪明 1快速总结 将冗长文档转化为易消化的要点 提示词： “用通俗语言，将这则资料总结为10个最重要的观点、核心论点及实用建议。” 2新手解释 让复杂话题一听就懂 提示词：",
+      "summaryEn": "20个NotebookLM提示词 学得更快，想得更深，研究更聪明 1快速总结 将冗长文档转化为易消化的要点 提示词： “用通俗语言，将这则资料总结为10个最重要的观点、核心论点及实用建议。” 2新手解释 让复杂话题一听就懂 提示词：",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051624001613517079",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051597349412016410",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "我知道有人可能会说我走路的时候脑子更乱，那是因为你还在忍不住想看手机哈哈，不要带手机，不要到手机，前几次会难受，习惯了之后，你会发现走路是一天中最清醒的时刻！",
+      "summaryEn": "我知道有人可能会说我走路的时候脑子更乱，那是因为你还在忍不住想看手机哈哈，不要带手机，不要到手机，前几次会难受，习惯了之后，你会发现走路是一天中最清醒的时刻！",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051597349412016410",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051597333196906668",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个亲测最有效的用法：带着一个具体的问题去走，比如“这个视频的脚本怎么写”，不要刻意去想，就让脑子随便飘，90%的情况下，答案会自己冒出来的",
+      "summaryEn": "补充一个亲测最有效的用法：带着一个具体的问题去走，比如“这个视频的脚本怎么写”，不要刻意去想，就让脑子随便飘，90%的情况下，答案会自己冒出来的",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051597333196906668",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051597326657982813",
+      "date": "2026-05-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "涨知识还是要多看名校论文啊， 斯坦福研究证明：走8分钟，创意提升60%。这是全世界最便宜的脑力兴奋剂 。 斯坦福大学用4个实验、近200人测出来的结论： 只要走8分钟，你的创意输出平均提升60%。 81%的人发散性思维会变好，脑暴、写文案、想方案的能力直接上一个台阶。",
+      "summaryEn": "涨知识还是要多看名校论文啊， 斯坦福研究证明：走8分钟，创意提升60%。这是全世界最便宜的脑力兴奋剂 。 斯坦福大学用4个实验、近200人测出来的结论： 只要走8分钟，你的创意输出平均提升60%。 81%的人发散性思维会变好，脑暴、写文案、想方案的能力直接上一个台阶。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2051597326657982813",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2051820383326855443",
+      "date": "2026-05-06",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Claude Code does sometimes make me laugh out loud",
+      "summaryEn": "Claude Code does sometimes make me laugh out loud",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2051820383326855443",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2051770969660989893",
+      "date": "2026-05-06",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Come to the GStack GBrain Hackathon at YC We're hosting a GStack × GBrain Hackathon on May 16, with @TheHogAi, @transposevc, @askjoai, and @gbrainio! Build and ship something real in 12 hours. Win a YC interview and a 1...",
+      "summaryEn": "Come to the GStack GBrain Hackathon at YC We're hosting a GStack × GBrain Hackathon on May 16, with @TheHogAi, @transposevc, @askjoai, and @gbrainio! Build and ship something real in 12 hours. Win a YC interview and a 1...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2051770969660989893",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2051671746781335787",
+      "date": "2026-05-06",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "OpenClaw is giving me the craziest zombie worker problem Has anyone solved this properly? Is tini the correct solution?",
+      "summaryEn": "OpenClaw is giving me the craziest zombie worker problem Has anyone solved this properly? Is tini the correct solution?",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2051671746781335787",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2051747828201066783",
+      "date": "2026-05-06",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok 4.3 Grok 4.3 is now live on the xAI API. It’s our fastest, most intelligent model to date. It tops the @ArtificialAnlys leaderboards in agentic tool calling and instruction following, and ranks #1 in @ValsAI enterp...",
+      "summaryEn": "Grok 4.3 Grok 4.3 is now live on the xAI API. It’s our fastest, most intelligent model to date. It tops the @ArtificialAnlys leaderboards in agentic tool calling and instruction following, and ranks #1 in @ValsAI enterp...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2051747828201066783",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2051706784562446463",
+      "date": "2026-05-06",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "Codex-native apps are here: Steal this Codex-native email workflow from @danshipper: 1. Write a one-page operating manual for your inbox Include: - VIPs - what to auto-archive - what to summarize - scheduling rules - es...",
+      "summaryEn": "Codex-native apps are here: Steal this Codex-native email workflow from @danshipper: 1. Write a one-page operating manual for your inbox Include: - VIPs - what to auto-archive - what to summarize - scheduling rules - es...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2051706784562446463",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2051698999619690814",
+      "date": "2026-05-06",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "it’s fairly trivial to 0 a model on any benchmark by changing the frame few understand this The creators of SWE-Bench just dropped a really simple new benchmark every LLM gets 0% on. ProgramBench asks: can models recrea...",
+      "summaryEn": "it’s fairly trivial to 0 a model on any benchmark by changing the frame few understand this The creators of SWE-Bench just dropped a really simple new benchmark every LLM gets 0% on. ProgramBench asks: can models recrea...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2051698999619690814",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2051673749657940132",
+      "date": "2026-05-06",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "2025: this meeting could’ve been an email 2026: this meeting could’ve been an email that my Codex responds to while I do other things",
+      "summaryEn": "2025: this meeting could’ve been an email 2026: this meeting could’ve been an email that my Codex responds to while I do other things",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2051673749657940132",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2051694367174512873",
+      "date": "2026-05-06",
+      "name": "Google Labs",
+      "handle": "GoogleLabs",
+      "role": "Google’s home for our latest AI tools and experiments.",
+      "avatar": "GL",
+      "summary": "Exciting Pomelli Updates! New account! Go drop a follow and say hello to @PomelliByGoogle , your new home for all things Pomelli news and community! New feature! With Pomelli Catalog, you can sync your product or servic...",
+      "summaryEn": "Exciting Pomelli Updates! New account! Go drop a follow and say hello to @PomelliByGoogle , your new home for all things Pomelli news and community! New feature! With Pomelli Catalog, you can sync your product or servic...",
+      "analysis": "",
+      "url": "https://x.com/GoogleLabs/status/2051694367174512873",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2051679630856249406",
+      "date": "2026-05-06",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Each agent ships with the connectors, skills, and subagents the task needs, ready to use as-is or adapt to your firm's own standards. Read more:",
+      "summaryEn": "Each agent ships with the connectors, skills, and subagents the task needs, ready to use as-is or adapt to your firm's own standards. Read more:",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2051679630856249406",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2051679629488865498",
+      "date": "2026-05-06",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "New for financial services: ready-to-run Claude agent templates for building pitches, conducting valuation reviews, closing the books at month-end, and more. Install them as plugins in Cowork and Claude Code, or use our...",
+      "summaryEn": "New for financial services: ready-to-run Claude agent templates for building pitches, conducting valuation reviews, closing the books at month-end, and more. Install them as plugins in Cowork and Claude Code, or use our...",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2051679629488865498",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    }
+  ]
+}

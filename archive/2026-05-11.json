@@ -1,0 +1,1203 @@
+{
+  "date": "2026-05-11",
+  "builderCount": 27,
+  "postCount": 62,
+  "topTopics": [
+    "design",
+    "agent",
+    "product",
+    "business",
+    "model"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2053699216464294251",
+    "2053734431051940007",
+    "2053709074466824688"
+  ],
+  "posts": [
+    {
+      "id": "2053747052946051166",
+      "date": "2026-05-11",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "因为 Apple 最近才 ban 了一批类似 Anything 那种，在 iOS 做 Vibe，然后跑一个 app 出来的产品。 需要很详细的回复审核，App 没有在移动端运行 Runtime 动态修改的代码，没有类似在移动端做另一个「App Store」... ref",
+      "summaryEn": "因为 Apple 最近才 ban 了一批类似 Anything 那种，在 iOS 做 Vibe，然后跑一个 app 出来的产品。 需要很详细的回复审核，App 没有在移动端运行 Runtime 动态修改的代码，没有类似在移动端做另一个「App Store」... ref",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2053747052946051166",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2053695961415962678",
+      "date": "2026-05-11",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "Linear 也变成 Cursor 了？ The important bits. Choosing your code theme in @linear Diffs",
+      "summaryEn": "Linear 也变成 Cursor 了？ The important bits. Choosing your code theme in @linear Diffs",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2053695961415962678",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053695848085885065",
+      "date": "2026-05-11",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "昨天做了一个梦，梦到回家养动物，养各种奇奇怪怪的动物：有巨大的乌龟，有很多鱼，还有鸡鸭。 然后突然有一天，来了两条很大很大的蛇把我捆走了，捆到了一个地下室。里面有很多宝箱，打开来全是黄金。",
+      "summaryEn": "昨天做了一个梦，梦到回家养动物，养各种奇奇怪怪的动物：有巨大的乌龟，有很多鱼，还有鸡鸭。 然后突然有一天，来了两条很大很大的蛇把我捆走了，捆到了一个地下室。里面有很多宝箱，打开来全是黄金。",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2053695848085885065",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053671636159844464",
+      "date": "2026-05-11",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "名字中带 vibe 可能会被审核卡很久",
+      "summaryEn": "名字中带 vibe 可能会被审核卡很久",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2053671636159844464",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053671380064014707",
+      "date": "2026-05-11",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "有意思",
+      "summaryEn": "有意思",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2053671380064014707",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053746548987793733",
+      "date": "2026-05-11",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "看到这个推，突然有个想法。 是不是可以买个几百年的云服务器使用权，配置个agent持续在最新的社交媒体上发布内容。这样死后还真能继续更新内容的。 刚睡醒，突然多了好多人关注 话说这个号的原主已经似了，早就转生去异世界了呢……",
+      "summaryEn": "看到这个推，突然有个想法。 是不是可以买个几百年的云服务器使用权，配置个agent持续在最新的社交媒体上发布内容。这样死后还真能继续更新内容的。 刚睡醒，突然多了好多人关注 话说这个号的原主已经似了，早就转生去异世界了呢……",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2053746548987793733",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053744754618503500",
+      "date": "2026-05-11",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "前天去看话剧，旁边男的一坐下，我和女朋友就感受到浓烈的酸臭味，往后排看了看，还有空座，赶紧起身撤退。 昨天又遇见了隔着座位就能被熏晕的男性。 只能说，生而为男，还是挺简单的，好好洗澡好好刷牙洗脸就能轻松战胜50%+男性了...",
+      "summaryEn": "前天去看话剧，旁边男的一坐下，我和女朋友就感受到浓烈的酸臭味，往后排看了看，还有空座，赶紧起身撤退。 昨天又遇见了隔着座位就能被熏晕的男性。 只能说，生而为男，还是挺简单的，好好洗澡好好刷牙洗脸就能轻松战胜50%+男性了...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2053744754618503500",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2053739079762878917",
+      "date": "2026-05-11",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "对大多数人来说，钱不够用、时间不够用，没有实现所谓的财务自由似乎是个巨大的困扰。 但，其实这也是个解放。 因为你去追求赚更多钱，去找有更多闲暇的工作就好了。并且没有做到的话也没事，这种痛苦太常见了，你面临着所有人都面临的问题。并且可以有一个明确的对抗对象：公司，抑或是社会制度。 等你真的有充分可支配的时间，可支配的金钱之后，难题才真正降临。你会必然的遁入要如何更好利用这些时间和金钱，你必须真的去思考你的生活的意义。 很幸运的是，很多人...",
+      "summaryEn": "对大多数人来说，钱不够用、时间不够用，没有实现所谓的财务自由似乎是个巨大的困扰。 但，其实这也是个解放。 因为你去追求赚更多钱，去找有更多闲暇的工作就好了。并且没有做到的话也没事，这种痛苦太常见了，你面临着所有人都面临的问题。并且可以有一个明确的对抗对象：公司，抑或是社会制度。 等你真的有充分可支配的时间，可支配的金钱之后，难题才真正降临。你会必然的遁入要如何更好利用这些时间和金钱，你必须真的去思考你的生活的意义。 很幸运的是，很多人...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2053739079762878917",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2053734236117754201",
+      "date": "2026-05-11",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "这张图里我的短裤和洞洞鞋似乎确实有点突兀... 不过我现在确实对于上台讲话，参与什么大会圆桌之类的事都很随性了，这算是最近一两年逐渐长出来的处事方式。 大致原因是： 1、我发现我真不需要证明自己应该、值得被纳入某个群体，所以我不用刻意去遵守某个群体和某个场合的默认规范了； 2、看了很多所谓「大佬」在台上的发言后，我觉得我靠，我简直太强了，随便讲没事的； 3、我能接受、允许自己搞砸任何事了，都不是事儿...",
+      "summaryEn": "这张图里我的短裤和洞洞鞋似乎确实有点突兀... 不过我现在确实对于上台讲话，参与什么大会圆桌之类的事都很随性了，这算是最近一两年逐渐长出来的处事方式。 大致原因是： 1、我发现我真不需要证明自己应该、值得被纳入某个群体，所以我不用刻意去遵守某个群体和某个场合的默认规范了； 2、看了很多所谓「大佬」在台上的发言后，我觉得我靠，我简直太强了，随便讲没事的； 3、我能接受、允许自己搞砸任何事了，都不是事儿...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2053734236117754201",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2053699216464294251",
+      "date": "2026-05-11",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "早上，合作品牌A让我做完内容后去报名下他们的大赛，我把表达和要提交的zip内容要求丢给Claude Code，我的cc直接帮我写完了所有内容，甚至调用huashu design帮我把提交的agent产品的宣传动画做完打包进了zip压缩包。 合作品牌C问我有没有能合适的skill能提交到他们的平台，我把他们的文档丢给cc，让cc给我选了两个我已经做的skill，再按照他们文档的规范要求重新加工一个版本打包提供给了对方。 这算是我非常享受...",
+      "summaryEn": "早上，合作品牌A让我做完内容后去报名下他们的大赛，我把表达和要提交的zip内容要求丢给Claude Code，我的cc直接帮我写完了所有内容，甚至调用huashu design帮我把提交的agent产品的宣传动画做完打包进了zip压缩包。 合作品牌C问我有没有能合适的skill能提交到他们的平台，我把他们的文档丢给cc，让cc给我选了两个我已经做的skill，再按照他们文档的规范要求重新加工一个版本打包提供给了对方。 这算是我非常享受...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2053699216464294251",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053746105813528745",
+      "date": "2026-05-11",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "不是吧妈耶",
+      "summaryEn": "不是吧妈耶",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2053746105813528745",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2053741913686335834",
+      "date": "2026-05-11",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "今夏我必将爆买无比滴…！",
+      "summaryEn": "今夏我必将爆买无比滴…！",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2053741913686335834",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2053657910526587143",
+      "date": "2026-05-11",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "一晚上发了三个 testflight app 踩了好多坑，移动端开发真麻烦啊",
+      "summaryEn": "一晚上发了三个 testflight app 踩了好多坑，移动端开发真麻烦啊",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2053657910526587143",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2053745270035239392",
+      "date": "2026-05-11",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "今年九月将要发布的iPhone Ultra/Fold 折叠屏，应该就长这样，机身一边圆弧另一边直角，属于今年流行的宽版折叠设计。 视频展示来自国内的一家第三方苹果配件厂商制作的打样模型。（博主：柏然的书房） 顶配上两万元应该无悬念。",
+      "summaryEn": "今年九月将要发布的iPhone Ultra/Fold 折叠屏，应该就长这样，机身一边圆弧另一边直角，属于今年流行的宽版折叠设计。 视频展示来自国内的一家第三方苹果配件厂商制作的打样模型。（博主：柏然的书房） 顶配上两万元应该无悬念。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2053745270035239392",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2053734431051940007",
+      "date": "2026-05-11",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "汉坦病毒邮轮的一位美国乘客，经病毒测试后呈阳性，但是没有任何症状。 无症状感染者回归了 BREAKING: One of the 17 American passengers evacuated from a cruise ship in the Canary Islands has tested positive for the hantavirus but is not showing any symptoms, U.S. hea...",
+      "summaryEn": "汉坦病毒邮轮的一位美国乘客，经病毒测试后呈阳性，但是没有任何症状。 无症状感染者回归了 BREAKING: One of the 17 American passengers evacuated from a cruise ship in the Canary Islands has tested positive for the hantavirus but is not showing any symptoms, U.S. hea...",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2053734431051940007",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053744332675408151",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "challenged codex to e2e test improvements to the OpenClaw chat completion endpoint WITH openclaw. Used /side to ask more question while it works.",
+      "summaryEn": "challenged codex to e2e test improvements to the OpenClaw chat completion endpoint WITH openclaw. Used /side to ask more question while it works.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053744332675408151",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053737275268177980",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Birdclaw has my complete twitter archive, so I can ask Codex for any old weird tweet I ever favorited or bookmarked. https:// birdclaw.sh",
+      "summaryEn": "Birdclaw has my complete twitter archive, so I can ask Codex for any old weird tweet I ever favorited or bookmarked. https:// birdclaw.sh",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053737275268177980",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053717468623872230",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Built a browser into RepoBar when I select issues/PRs/shas/workflows to have context when I work. http:// repo.bar Still a bit vibey but gets the job done. You gotta build yourself the tools to work more efficient.",
+      "summaryEn": "Built a browser into RepoBar when I select issues/PRs/shas/workflows to have context when I work. http:// repo.bar Still a bit vibey but gets the job done. You gotta build yourself the tools to work more efficient.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053717468623872230",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053699206519435682",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "All I want is codex automatically entering /review mode after it's done and just looping until it stops finding booboos. (Yah I'm gonna build that)",
+      "summaryEn": "All I want is codex automatically entering /review mode after it's done and just looping until it stops finding booboos. (Yah I'm gonna build that)",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053699206519435682",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053691503759798573",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Crabbox 0.11.0 is live Google Cloud provider Repo-local job workflows AWS Windows WSL2 hydration Blacksmith sync-stall guard This tool is essential in our org and helped level up QA.",
+      "summaryEn": "Crabbox 0.11.0 is live Google Cloud provider Repo-local job workflows AWS Windows WSL2 hydration Blacksmith sync-stall guard This tool is essential in our org and helped level up QA.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053691503759798573",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053685618001993760",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "jk, I love the GitHub folks and I know they work hard to prevent their servers from completely melting.",
+      "summaryEn": "jk, I love the GitHub folks and I know they work hard to prevent their servers from completely melting.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053685618001993760",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053683890196201621",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "I built a whole distributed caching layer over gh. Still run into limits.",
+      "summaryEn": "I built a whole distributed caching layer over gh. Still run into limits.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053683890196201621",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053672506599358684",
+      "date": "2026-05-11",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Looks like I have to add antispam features to clawsweeper next.",
+      "summaryEn": "Looks like I have to add antispam features to clawsweeper next.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2053672506599358684",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053743942097911952",
+      "date": "2026-05-11",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "来了！藏师傅的 PPT Skill 更新了第二套主题 新主题更加简洁美观，适合讲一些数据和事实性的内容 而且支持 4 种颜色、20 多个版式。 支持用 Codex 内置的 GPT-2.0 帮你生成配图和美化截图。 还能让它帮你生成各种平台的封面，以及公众号配图。 文章里详细讲了一下怎么用，还有一些小技巧。",
+      "summaryEn": "来了！藏师傅的 PPT Skill 更新了第二套主题 新主题更加简洁美观，适合讲一些数据和事实性的内容 而且支持 4 种颜色、20 多个版式。 支持用 Codex 内置的 GPT-2.0 帮你生成配图和美化截图。 还能让它帮你生成各种平台的封面，以及公众号配图。 文章里详细讲了一下怎么用，还有一些小技巧。",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2053743942097911952",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media",
+        "design",
+        "agent"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2053665398063784332",
+      "date": "2026-05-11",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "更新新版本了：",
+      "summaryEn": "更新新版本了：",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2053665398063784332",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053657747057758423",
+      "date": "2026-05-11",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "发布了：",
+      "summaryEn": "发布了：",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2053657747057758423",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053657711892668844",
+      "date": "2026-05-11",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "发布了：",
+      "summaryEn": "发布了：",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2053657711892668844",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053733194311319905",
+      "date": "2026-05-11",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "你对数字员工是用的错误理解，将会让你在AI竞争中落后 传统的使用数字员工的方式是你协调这堆Agent工作，Agent不仅仅蠢，还不断打扰你，需要你的指令。 一天搞下来，Token倒是花了不少，没啥像样的产出。 为什么就这样？ 根本原因是，你没有放权让Agent他们去自己干，看似你在协调效果会变好，反而你是这个数字员工团队最大的瓶颈。 那么什么才是新的指挥数字员工干活的方式呢？ 那就是给他们设定规则，配置好环境，然后放手去干。 这样会出...",
+      "summaryEn": "你对数字员工是用的错误理解，将会让你在AI竞争中落后 传统的使用数字员工的方式是你协调这堆Agent工作，Agent不仅仅蠢，还不断打扰你，需要你的指令。 一天搞下来，Token倒是花了不少，没啥像样的产出。 为什么就这样？ 根本原因是，你没有放权让Agent他们去自己干，看似你在协调效果会变好，反而你是这个数字员工团队最大的瓶颈。 那么什么才是新的指挥数字员工干活的方式呢？ 那就是给他们设定规则，配置好环境，然后放手去干。 这样会出...",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2053733194311319905",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053722920883732616",
+      "date": "2026-05-11",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2053722920883732616",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053708076197486733",
+      "date": "2026-05-11",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "Damn，我说过个暴论，你听完一定后背发凉 那就是马斯克分享99%的人都忽略的顶级邪修赚钱方法。 下面我将用这个方法，撕开这些大公司的遮羞布。 看完后你就会像第一次见到原子弹一样，瘫痪坐地。",
+      "summaryEn": "Damn，我说过个暴论，你听完一定后背发凉 那就是马斯克分享99%的人都忽略的顶级邪修赚钱方法。 下面我将用这个方法，撕开这些大公司的遮羞布。 看完后你就会像第一次见到原子弹一样，瘫痪坐地。",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2053708076197486733",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053720108820832424",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "所有AI公司都在烧钱拼模型，但未来真正的印钞机是AI的管道银行，谁掌握了AI花钱的管道，谁就是AI时代的美联储",
+      "summaryEn": "所有AI公司都在烧钱拼模型，但未来真正的印钞机是AI的管道银行，谁掌握了AI花钱的管道，谁就是AI时代的美联储",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053720108820832424",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2053720100990075218",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "小特朗普或者说特朗普家族为什么下场做中转站？ 我去他们官网看了下，首屏那行字吸引到我了， Run hundreds of AI agents in one unified token hub。 兄弟们细品，他们压根儿就没想在中转站这个红海里跟人卷价格，",
+      "summaryEn": "小特朗普或者说特朗普家族为什么下场做中转站？ 我去他们官网看了下，首屏那行字吸引到我了， Run hundreds of AI agents in one unified token hub。 兄弟们细品，他们压根儿就没想在中转站这个红海里跟人卷价格，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053720100990075218",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2053709080338800750",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053709080338800750",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2053709074466824688",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "卧槽，有大神直接用Claude Code，复刻出一整套完整游戏开发工作室。 GitHub 1.8万stars，免费开源，项目名叫Claude Code Game Studios， 48个AI智能体1:1还原线下工作室全岗位，从创意总监到关卡设计师全覆盖。 36条斜杠指令一键启动全流程，适配Godot Unity Unreal三大游戏引擎。 自带自动化校验钩子、分路径编码规则、28套行业标准文档模板，架构拉满。 所有AI只做梳理方案不擅...",
+      "summaryEn": "卧槽，有大神直接用Claude Code，复刻出一整套完整游戏开发工作室。 GitHub 1.8万stars，免费开源，项目名叫Claude Code Game Studios， 48个AI智能体1:1还原线下工作室全岗位，从创意总监到关卡设计师全覆盖。 36条斜杠指令一键启动全流程，适配Godot Unity Unreal三大游戏引擎。 自带自动化校验钩子、分路径编码规则、28套行业标准文档模板，架构拉满。 所有AI只做梳理方案不擅...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053709074466824688",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "agent"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053699900727075150",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "喵个咪，这就是国家队的含金量啊， 中国移动这个老登做个中转站，央视直接给你打广告， 入口在移动云官网搜\"MoMA\"就能找到，据说现在还有万亿级Token体验包可以领， 建议先拿自己常用的任务测一下速度和效果，再决定要不要转，要是跟中国移动一样坑的话那就没必要 说个暴论，AI 行业的天，今天真的要变了， 前几天刚写了几篇推文分析过孙哥和特朗普家族为啥下场做AI 中转站，底层逻辑是中转站本质是AI水电煤的生意。 结果今天就看到央视新闻，中...",
+      "summaryEn": "喵个咪，这就是国家队的含金量啊， 中国移动这个老登做个中转站，央视直接给你打广告， 入口在移动云官网搜\"MoMA\"就能找到，据说现在还有万亿级Token体验包可以领， 建议先拿自己常用的任务测一下速度和效果，再决定要不要转，要是跟中国移动一样坑的话那就没必要 说个暴论，AI 行业的天，今天真的要变了， 前几天刚写了几篇推文分析过孙哥和特朗普家族为啥下场做AI 中转站，底层逻辑是中转站本质是AI水电煤的生意。 结果今天就看到央视新闻，中...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053699900727075150",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2053689432826351701",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这种国企平台会不会还跟中国移动中国联通一样不好用，我也比较存疑哈哈",
+      "summaryEn": "这种国企平台会不会还跟中国移动中国联通一样不好用，我也比较存疑哈哈",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053689432826351701",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2053689430146191443",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说个暴论，AI 行业的天，今天真的要变了， 前几天刚写了几篇推文分析过孙哥和特朗普家族为啥下场做AI 中转站，底层逻辑是中转站本质是AI水电煤的生意。 结果今天就看到央视新闻，中国移动上线了AI中转站！ 各大社区里很多人都以为中国移动发的 MoMA， 又是一个凑数的模型平台，其实根本不是一回事， 这是 AI 国家队正式跑步进场了， 而且直接把中转站做成了国家级得AI基础设施。 它现在已经接入了 300 + 主流模型， DeepSeek...",
+      "summaryEn": "说个暴论，AI 行业的天，今天真的要变了， 前几天刚写了几篇推文分析过孙哥和特朗普家族为啥下场做AI 中转站，底层逻辑是中转站本质是AI水电煤的生意。 结果今天就看到央视新闻，中国移动上线了AI中转站！ 各大社区里很多人都以为中国移动发的 MoMA， 又是一个凑数的模型平台，其实根本不是一回事， 这是 AI 国家队正式跑步进场了， 而且直接把中转站做成了国家级得AI基础设施。 它现在已经接入了 300 + 主流模型， DeepSeek...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053689430146191443",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2053667838661964074",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "等我试试把家里的旧M1 Mac mini改成全家的AI大脑，所有设备连上去自动开搜索，OpenClaw和Claude Code都能读写，体验和本地应该是没啥差别",
+      "summaryEn": "等我试试把家里的旧M1 Mac mini改成全家的AI大脑，所有设备连上去自动开搜索，OpenClaw和Claude Code都能读写，体验和本地应该是没啥差别",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053667838661964074",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2053667833033224503",
+      "date": "2026-05-11",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "MCP协议真的要成为AI时代的HTTP了，现在所有的本地AI工具都在往MCP靠，未来的Agent和工具都能无缝互联了吧 YC CEO亲自下场打磨的GBrain，今天发布了v0.31.1版本。 这不是一个小补丁，属意真正的架构级升级： 一个家庭服务器跑中央大脑，所有电脑、手机、所有AI Agent，全部通过MCP协议远程连接。 体验和本地运行一模一样，再也没有同步问题，再也没有记忆割裂。 之前最蠢的bug终于被彻底修好了： 以前的瘦客户...",
+      "summaryEn": "MCP协议真的要成为AI时代的HTTP了，现在所有的本地AI工具都在往MCP靠，未来的Agent和工具都能无缝互联了吧 YC CEO亲自下场打磨的GBrain，今天发布了v0.31.1版本。 这不是一个小补丁，属意真正的架构级升级： 一个家庭服务器跑中央大脑，所有电脑、手机、所有AI Agent，全部通过MCP协议远程连接。 体验和本地运行一模一样，再也没有同步问题，再也没有记忆割裂。 之前最蠢的bug终于被彻底修好了： 以前的瘦客户...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2053667833033224503",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053719083666034867",
+      "date": "2026-05-11",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "他们说工程师要失业了，可现实却完全相反。 上周我们做了一个给行业带来困惑的决定。当别的公司都在\"优化人员结构\"的时候，我们却在逆势招人。 原因是 AI 让每个人的产出都提高了十倍，这意味着我们需要更多的人来承载十倍的野心。 Indeed 数据显示，软件开发岗位从 2025 年中触底后连涨 10 个月，比最低点高了 15%。LinkedIn 上 AI 工程师岗位同比涨了 143%。a16z 专门写了一篇文章论证\"AI 就业末日是彻头彻尾...",
+      "summaryEn": "他们说工程师要失业了，可现实却完全相反。 上周我们做了一个给行业带来困惑的决定。当别的公司都在\"优化人员结构\"的时候，我们却在逆势招人。 原因是 AI 让每个人的产出都提高了十倍，这意味着我们需要更多的人来承载十倍的野心。 Indeed 数据显示，软件开发岗位从 2025 年中触底后连涨 10 个月，比最低点高了 15%。LinkedIn 上 AI 工程师岗位同比涨了 143%。a16z 专门写了一篇文章论证\"AI 就业末日是彻头彻尾...",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2053719083666034867",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2053715173848776941",
+      "date": "2026-05-11",
+      "name": "Slava",
+      "handle": "slavakornilov",
+      "role": "Worked with: Time, Cnn, Aston Martin, Lincoln, Awwwards, Dribbble, Booking, Fantasy, Majid Al Futtaim, Office...",
+      "avatar": "SL",
+      "summary": "About a year ago I started working on this style If you also have a design in this style or have seen something similar on the Internet. You Can share in the comments!",
+      "summaryEn": "About a year ago I started working on this style If you also have a design in this style or have seen something similar on the Internet. You Can share in the comments!",
+      "analysis": "",
+      "url": "https://x.com/slavakornilov/status/2053715173848776941",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053712403888853173",
+      "date": "2026-05-11",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "预判未来企业级的 API 网关产品会越来越多。 经常听到有公司头疼如何管理、分配员工的各种 AI API模型。 另外对企业来说，数据安全也很重要，应该不会直接用普通中转站。 虽然有Azure 和 亚马逊云，但公司规模和需要不同，市场空间还是有的。 图中是一个海外的此类产品，不知道国产的有没有",
+      "summaryEn": "预判未来企业级的 API 网关产品会越来越多。 经常听到有公司头疼如何管理、分配员工的各种 AI API模型。 另外对企业来说，数据安全也很重要，应该不会直接用普通中转站。 虽然有Azure 和 亚马逊云，但公司规模和需要不同，市场空间还是有的。 图中是一个海外的此类产品，不知道国产的有没有",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2053712403888853173",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure",
+        "enterprise",
+        "product"
+      ],
+      "primaryTopic": "infrastructure"
+    },
+    {
+      "id": "2053699722540712152",
+      "date": "2026-05-11",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "当下AI写代码最难的 benchmark 叫 ProgramBench。 Claude Opus 4.7 最好，也只在\"接近完成\"这个指标上拿到了 3%，GPT-5、Gemini 系列，全是零。 这个测试是 Meta、Stanford、Harvard 的研究团队搞的： 给 AI 一个编译好的二进制文件和它的文档，让 AI 从零把这个程序重新写出来。 没有源代码，不能反编译，不能上网查资料。 从小工具到大项目都有，有jq、ripgrep...",
+      "summaryEn": "当下AI写代码最难的 benchmark 叫 ProgramBench。 Claude Opus 4.7 最好，也只在\"接近完成\"这个指标上拿到了 3%，GPT-5、Gemini 系列，全是零。 这个测试是 Meta、Stanford、Harvard 的研究团队搞的： 给 AI 一个编译好的二进制文件和它的文档，让 AI 从零把这个程序重新写出来。 没有源代码，不能反编译，不能上网查资料。 从小工具到大项目都有，有jq、ripgrep...",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2053699722540712152",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2053484686840881158",
+      "date": "2026-05-11",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "读到篇跟AI关联不高，但有趣的文章。 有人用Claude Opus 4.7 分析了历史上的一百多个发明， 看最早可以在什么时候发明。 让AI总结了几条知识 1. 大多数发明，出现得恰到好处 人们总觉得历史上错过了很多发明机会。 但数据显示，90%的重大发明，在技术条件成熟后50年内就出现了。 一旦条件到位，人类其实不怎么拖延。 2. 卡住发明的，通常不是科学，是工程 飞机不是在等空气动力学理论，是在等一台够轻的发动机。 喷气发动机不是...",
+      "summaryEn": "读到篇跟AI关联不高，但有趣的文章。 有人用Claude Opus 4.7 分析了历史上的一百多个发明， 看最早可以在什么时候发明。 让AI总结了几条知识 1. 大多数发明，出现得恰到好处 人们总觉得历史上错过了很多发明机会。 但数据显示，90%的重大发明，在技术条件成熟后50年内就出现了。 一旦条件到位，人类其实不怎么拖延。 2. 卡住发明的，通常不是科学，是工程 飞机不是在等空气动力学理论，是在等一台够轻的发动机。 喷气发动机不是...",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2053484686840881158",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2053706882452435232",
+      "date": "2026-05-11",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "太强了，见证一个人 + AI 到底能走多远",
+      "summaryEn": "太强了，见证一个人 + AI 到底能走多远",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2053706882452435232",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2053689459032379860",
+      "date": "2026-05-11",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "The highest and most important form of design is actually pure transmutation of human pain and suffering.",
+      "summaryEn": "The highest and most important form of design is actually pure transmutation of human pain and suffering.",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2053689459032379860",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053685737716089020",
+      "date": "2026-05-11",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "pre-kids: red eyes are the worst - why would anyone take them?? post-kids: red eyes are honestly the best. i can tuck my kids in bed and wake up in a new city and get going right away. (typing this from a red eye headed...",
+      "summaryEn": "pre-kids: red eyes are the worst - why would anyone take them?? post-kids: red eyes are honestly the best. i can tuck my kids in bed and wake up in a new city and get going right away. (typing this from a red eye headed...",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2053685737716089020",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2053680515082015095",
+      "date": "2026-05-11",
+      "name": "Shaun Maguire",
+      "handle": "shaunmmaguire",
+      "role": "Partner @sequoia // @caltech physics PhD // Views are my own",
+      "avatar": "SM",
+      "summary": "I know this sounds insane I read \"Extraordinary Popular Delusions: And the Madness of Crowds\" as a teenager I thought AI would likely have a bubble phase 18 months ago But now I think this is 1000x bigger than the Indus...",
+      "summaryEn": "I know this sounds insane I read \"Extraordinary Popular Delusions: And the Madness of Crowds\" as a teenager I thought AI would likely have a bubble phase 18 months ago But now I think this is 1000x bigger than the Indus...",
+      "analysis": "",
+      "url": "https://x.com/shaunmmaguire/status/2053680515082015095",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2053672965125140915",
+      "date": "2026-05-11",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "As advanced agents move from coding to the rest of knowledge work, it takes a real amount of work and know-how to get right. You need to ensure agents have the right context and data to work with, wire up systems to age...",
+      "summaryEn": "As advanced agents move from coding to the rest of knowledge work, it takes a real amount of work and know-how to get right. You need to ensure agents have the right context and data to work with, wire up systems to age...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2053672965125140915",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053672364681134511",
+      "date": "2026-05-11",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "You know what would be a good AI automation: When I receive those 10 page weekly newsletters from my kid's school I want AI to tell me if there's early dismissal or anything I should pay attention to.",
+      "summaryEn": "You know what would be a good AI automation: When I receive those 10 page weekly newsletters from my kid's school I want AI to tell me if there's early dismissal or anything I should pay attention to.",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2053672364681134511",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053535647819047167",
+      "date": "2026-05-11",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "The best AI builders set up systems to help them ship faster. Here's @moritzkremb 's system to create short videos that saves him 10 hours a week: 1. Cron jobs scrape ideas from X and YouTube 2. AI generates rough notes...",
+      "summaryEn": "The best AI builders set up systems to help them ship faster. Here's @moritzkremb 's system to create short videos that saves him 10 hours a week: 1. Cron jobs scrape ideas from X and YouTube 2. AI generates rough notes...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2053535647819047167",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053482816567201825",
+      "date": "2026-05-11",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "This is the most complete setup I've seen yet to turn Claude Code into your personal OS. Here's my new episode with @moritzkremb where he shared the system that runs his email, content, and even grocery shopping. We tal...",
+      "summaryEn": "This is the most complete setup I've seen yet to turn Claude Code into your personal OS. Here's my new episode with @moritzkremb where he shared the system that runs his email, content, and even grocery shopping. We tal...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2053482816567201825",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053661791377605026",
+      "date": "2026-05-11",
+      "name": "Ryan Olson",
+      "handle": "ryanolsonk",
+      "role": "Fighting brainrot & misaligned AI feeds Cofounder @retrodotapp Former Director of Engineering @instagram",
+      "avatar": "RO",
+      "summary": "One of these things is not like the others",
+      "summaryEn": "One of these things is not like the others",
+      "analysis": "",
+      "url": "https://x.com/ryanolsonk/status/2053661791377605026",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2053653931935609155",
+      "date": "2026-05-11",
+      "name": "jingbo",
+      "handle": "j1ngb0",
+      "role": "I never fully understand what I’m building, and that’s totally fine.",
+      "avatar": "J1",
+      "summary": "'go into debt if you have to'",
+      "summaryEn": "'go into debt if you have to'",
+      "analysis": "",
+      "url": "https://x.com/j1ngb0/status/2053653931935609155",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2053641487674720668",
+      "date": "2026-05-11",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "老板急得亲自发帖招人了，伙计们可以接着投递哈 1. 技术型产品经理，Agent 产品经理，C 端 B 端都看看 2. Agent 开发工程师，解决方案架构师，前后端，全栈 3. 运营，增长，开发者关系都需要 现在也考虑招兼职和各种实习 EverMind is Hiring: Technical PM (Agent OS & Memory) Based in Silicon Valley | Shanghai | Beijing Wha...",
+      "summaryEn": "老板急得亲自发帖招人了，伙计们可以接着投递哈 1. 技术型产品经理，Agent 产品经理，C 端 B 端都看看 2. Agent 开发工程师，解决方案架构师，前后端，全栈 3. 运营，增长，开发者关系都需要 现在也考虑招兼职和各种实习 EverMind is Hiring: Technical PM (Agent OS & Memory) Based in Silicon Valley | Shanghai | Beijing Wha...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2053641487674720668",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053640083157491997",
+      "date": "2026-05-11",
+      "name": "Aaron Makelky",
+      "handle": "theaaron",
+      "role": "Wyoming teacher → SF tech. I test AI tools so you don’t have to.",
+      "avatar": "AM",
+      "summary": "the new job perk you want",
+      "summaryEn": "the new job perk you want",
+      "analysis": "",
+      "url": "https://x.com/theaaron/status/2053640083157491997",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2053609672008233015",
+      "date": "2026-05-11",
+      "name": "Dave Morin",
+      "handle": "davemorin",
+      "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+      "avatar": "DM",
+      "summary": "supacrawl 0.1 is out. Supabase/Postgres → Local SQLite. Full text search everything. Offline. Your agent can read your database now. Schema, rows, RLS, triggers, storage Age encrypted backup shards My owl needed a passw...",
+      "summaryEn": "supacrawl 0.1 is out. Supabase/Postgres → Local SQLite. Full text search everything. Offline. Your agent can read your database now. Schema, rows, RLS, triggers, storage Age encrypted backup shards My owl needed a passw...",
+      "analysis": "",
+      "url": "https://x.com/davemorin/status/2053609672008233015",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2053576399945072830",
+      "date": "2026-05-11",
+      "name": "Ti Morse",
+      "handle": "ti_morse",
+      "role": "Interviewing the greats @Relentless | Forward Deployed Podcaster",
+      "avatar": "TM",
+      "summary": "“People have an overwhelming bias to just do the thing they feel like they’re supposed to do.” “[As a founder], it’s your job to look inside your mental dictionary of language and identify 500 to 1000 words in the right...",
+      "summaryEn": "“People have an overwhelming bias to just do the thing they feel like they’re supposed to do.” “[As a founder], it’s your job to look inside your mental dictionary of language and identify 500 to 1000 words in the right...",
+      "analysis": "",
+      "url": "https://x.com/ti_morse/status/2053576399945072830",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2053565085352894499",
+      "date": "2026-05-11",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "disagree but it's pretty good",
+      "summaryEn": "disagree but it's pretty good",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2053565085352894499",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2053544759336284277",
+      "date": "2026-05-11",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "Some personal news: I’ve started a company. It’s called Pops, and I’m excited to share that it’s backed by YC and part of the P26 batch. Pops is what I believe to be the future of entertainment: AI-native, playful, soci...",
+      "summaryEn": "Some personal news: I’ve started a company. It’s called Pops, and I’m excited to share that it’s backed by YC and part of the P26 batch. Pops is what I believe to be the future of entertainment: AI-native, playful, soci...",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2053544759336284277",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2053506947186594139",
+      "date": "2026-05-11",
+      "name": "Sterling Crispin",
+      "handle": "sterlingcrispin",
+      "role": "Artist + Software Developer / Married to @Helen_Crispin_ / Previously AR-VR and Neurotech",
+      "avatar": "SC",
+      "summary": "The source of the myth is @_KarenHao she wrote a book called Empire of AI claiming a data center would use over 1,000x more water than a nearby city because she misunderstood the units of measurement. It made internatio...",
+      "summaryEn": "The source of the myth is @_KarenHao she wrote a book called Empire of AI claiming a data center would use over 1,000x more water than a nearby city because she misunderstood the units of measurement. It made internatio...",
+      "analysis": "",
+      "url": "https://x.com/sterlingcrispin/status/2053506947186594139",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2053479525275648216",
+      "date": "2026-05-11",
+      "name": "upwild 上野原",
+      "handle": "nordwild",
+      "role": "",
+      "avatar": "U上",
+      "summary": "我的移民基本失败了。 回瑞典才一个多月，我就想广州了。北欧清净，但太冷寂。这种冷寂浸入内心，让人怀念熙熙攘攘的广州，即使有更多人间臭。 其实很久之前，我在瑞典就清楚感受到这种冷寂，但总是逃避，总是安慰自己：你只是没习惯而已，这一切都是值得忍受的。 我以前是疯了吗，觉得自己能嵌入？ 回到斯德隔热摩了，温度比广州低二十多度，一瞬从初夏转入冬末了。 我们的移民之路可能要走到头了。刚走出机场，进入这个清冷、萧索的世界，我们就开始自问： 我为什...",
+      "summaryEn": "我的移民基本失败了。 回瑞典才一个多月，我就想广州了。北欧清净，但太冷寂。这种冷寂浸入内心，让人怀念熙熙攘攘的广州，即使有更多人间臭。 其实很久之前，我在瑞典就清楚感受到这种冷寂，但总是逃避，总是安慰自己：你只是没习惯而已，这一切都是值得忍受的。 我以前是疯了吗，觉得自己能嵌入？ 回到斯德隔热摩了，温度比广州低二十多度，一瞬从初夏转入冬末了。 我们的移民之路可能要走到头了。刚走出机场，进入这个清冷、萧索的世界，我们就开始自问： 我为什...",
+      "analysis": "",
+      "url": "https://x.com/nordwild/status/2053479525275648216",
+      "verified": false,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    }
+  ]
+}

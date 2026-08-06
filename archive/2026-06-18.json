@@ -1,0 +1,914 @@
+{
+  "date": "2026-06-18",
+  "builderCount": 16,
+  "postCount": 47,
+  "topTopics": [
+    "design",
+    "model",
+    "other",
+    "product",
+    "business"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2067517304838226411",
+    "2067462254119776436",
+    "2067513484364140994"
+  ],
+  "posts": [
+    {
+      "id": "2067517733428720000",
+      "date": "2026-06-18",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "还记得这位墨西哥吴镇宇么？时光飞逝啊 Mexico legendary GK Memo Ochoa will retire from professional football after this World Cup.",
+      "summaryEn": "还记得这位墨西哥吴镇宇么？时光飞逝啊 Mexico legendary GK Memo Ochoa will retire from professional football after this World Cup.",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2067517733428720000",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067516525032996956",
+      "date": "2026-06-18",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "谁会真的把父亲节当回事？广州。",
+      "summaryEn": "谁会真的把父亲节当回事？广州。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2067516525032996956",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067508394110390492",
+      "date": "2026-06-18",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "这小歌唱得人心里慌慌的",
+      "summaryEn": "这小歌唱得人心里慌慌的",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2067508394110390492",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067507155712782452",
+      "date": "2026-06-18",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "说实话，越是老的品牌就越需要新鲜感，让年轻人来试试吧。比如这位卖酱油的。",
+      "summaryEn": "说实话，越是老的品牌就越需要新鲜感，让年轻人来试试吧。比如这位卖酱油的。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2067507155712782452",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067517304838226411",
+      "date": "2026-06-18",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "有道开源Confucius4-TTS 1.3B大小的TTS模型，支持多语言，支持语音克隆，效果不错，速度特别快。 Github： https:// github.com/netease-youdao /Confucius4-TTS … 在线使用： https:// confucius4-tts.youdao.com/gradio/ Just released: Youdao Confucius4-TTS An open-weight ...",
+      "summaryEn": "有道开源Confucius4-TTS 1.3B大小的TTS模型，支持多语言，支持语音克隆，效果不错，速度特别快。 Github： https:// github.com/netease-youdao /Confucius4-TTS … 在线使用： https:// confucius4-tts.youdao.com/gradio/ Just released: Youdao Confucius4-TTS An open-weight ...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2067517304838226411",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2067501035242041804",
+      "date": "2026-06-18",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "DeepSeek识图模式全量上线 速度非常快，准确率也非常高。下一步就是等API了。",
+      "summaryEn": "DeepSeek识图模式全量上线 速度非常快，准确率也非常高。下一步就是等API了。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2067501035242041804",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2067500845445595395",
+      "date": "2026-06-18",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Midjourney要开洗浴中心了 Midjourney发布了一款硬件设备“Midjourney Scanner”，跟AI绘画没任何关系，是一个医疗用途的全身扫描仪。 效果类似MRI，但比MRI更便捷：没有辐射；速度快，1分钟即可完成；部分成像效果优于MRI； 跟洗浴中心有什么关系？",
+      "summaryEn": "Midjourney要开洗浴中心了 Midjourney发布了一款硬件设备“Midjourney Scanner”，跟AI绘画没任何关系，是一个医疗用途的全身扫描仪。 效果类似MRI，但比MRI更便捷：没有辐射；速度快，1分钟即可完成；部分成像效果优于MRI； 跟洗浴中心有什么关系？",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2067500845445595395",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067493023169249514",
+      "date": "2026-06-18",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "又做了一个Skill，asciivideo：生成ASCII码风格、命令行风格的视频 内置了一些形象库，也支持模型自主发挥，可以同时生成一个视频和一个Html文件。好玩但是我也不知道有什么用，也许可以用在一些宣传视频的合成上。 Github： https:// github.com/GordenSun/asci ivideo …",
+      "summaryEn": "又做了一个Skill，asciivideo：生成ASCII码风格、命令行风格的视频 内置了一些形象库，也支持模型自主发挥，可以同时生成一个视频和一个Html文件。好玩但是我也不知道有什么用，也许可以用在一些宣传视频的合成上。 Github： https:// github.com/GordenSun/asci ivideo …",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2067493023169249514",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2067455539630714970",
+      "date": "2026-06-18",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Claude里新增了Claude Design，可以直接在客户端里使用，不需要再在浏览器里使用了。生成的设计文件，也更方便导入Claude Code。 Claude Design好用，不止能做前端，也能做html形式的PPT，审美在线。",
+      "summaryEn": "Claude里新增了Claude Design，可以直接在客户端里使用，不需要再在浏览器里使用了。生成的设计文件，也更方便导入Claude Code。 Claude Design好用，不止能做前端，也能做html形式的PPT，审美在线。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2067455539630714970",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2067453424426536967",
+      "date": "2026-06-18",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2067453424426536967",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067513565175845336",
+      "date": "2026-06-18",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "乔木画布 Github：",
+      "summaryEn": "乔木画布 Github：",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2067513565175845336",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067513484364140994",
+      "date": "2026-06-18",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "免费开源乔木画布，一键部署Vercel为网站，简化版 PS。 支持Seedream生图、GPT-image-2，图片模版存储分享。 支持一键抠图、2w图标和常见Emoji，甚至都能画PRD了。 随时创建不同尺寸画布（3:4/16:9/21:9）。 原想做些高级功能收费，庆祝端午节，现全免费开源。 在线体验： https:// ps.qiaomu.ai",
+      "summaryEn": "免费开源乔木画布，一键部署Vercel为网站，简化版 PS。 支持Seedream生图、GPT-image-2，图片模版存储分享。 支持一键抠图、2w图标和常见Emoji，甚至都能画PRD了。 随时创建不同尺寸画布（3:4/16:9/21:9）。 原想做些高级功能收费，庆祝端午节，现全免费开源。 在线体验： https:// ps.qiaomu.ai",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2067513484364140994",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067496301244338461",
+      "date": "2026-06-18",
+      "name": "Naval",
+      "handle": "naval",
+      "role": "Incompressible",
+      "avatar": "NA",
+      "summary": "It's the Age of Builders. (sorry financiers and talkers)",
+      "summaryEn": "It's the Age of Builders. (sorry financiers and talkers)",
+      "analysis": "",
+      "url": "https://x.com/naval/status/2067496301244338461",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2067489212992196878",
+      "date": "2026-06-18",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "这个领TOKEN的活动，该不会我第一名吧！！ Cursor送1w刀Token没赶上的，现在有机会 只要花几十秒提交下面三个信息： 登录这个地址： https:// evomap.ai/zh/api-grant?i nvite=6YFHYH6U … Github用户名，仓库角色，公开仓库链接 就能及时获得Token（御三家的，不是垃圾Token），star＞1 就有得拿，而且仓库Star越高白嫖到的越多。 我已经弄好了！！",
+      "summaryEn": "这个领TOKEN的活动，该不会我第一名吧！！ Cursor送1w刀Token没赶上的，现在有机会 只要花几十秒提交下面三个信息： 登录这个地址： https:// evomap.ai/zh/api-grant?i nvite=6YFHYH6U … Github用户名，仓库角色，公开仓库链接 就能及时获得Token（御三家的，不是垃圾Token），star＞1 就有得拿，而且仓库Star越高白嫖到的越多。 我已经弄好了！！",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2067489212992196878",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067483367420080251",
+      "date": "2026-06-18",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "Cursor送1w刀Token没赶上的，现在有机会 只要花几十秒提交下面三个信息： 登录这个地址： https:// evomap.ai/zh/api-grant?i nvite=6YFHYH6U … Github用户名，仓库角色，公开仓库链接 就能及时获得Token（御三家的，不是垃圾Token），star＞1 就有得拿，而且仓库Star越高白嫖到的越多。 我已经弄好了！！",
+      "summaryEn": "Cursor送1w刀Token没赶上的，现在有机会 只要花几十秒提交下面三个信息： 登录这个地址： https:// evomap.ai/zh/api-grant?i nvite=6YFHYH6U … Github用户名，仓库角色，公开仓库链接 就能及时获得Token（御三家的，不是垃圾Token），star＞1 就有得拿，而且仓库Star越高白嫖到的越多。 我已经弄好了！！",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2067483367420080251",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067474606148268367",
+      "date": "2026-06-18",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "不管bug了，准备去疯狂星期四vibe launch！欢迎在北京的朋友来原点学堂玩： https:// vibecafe.ai/thursday",
+      "summaryEn": "不管bug了，准备去疯狂星期四vibe launch！欢迎在北京的朋友来原点学堂玩： https:// vibecafe.ai/thursday",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2067474606148268367",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067469655061770423",
+      "date": "2026-06-18",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "2026最低折扣中，购买地址：",
+      "summaryEn": "2026最低折扣中，购买地址：",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2067469655061770423",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067469164659568645",
+      "date": "2026-06-18",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "被官方@了才发现今天是618了！我的AI编程课程，B站课堂限时优惠活动倒计时3天，大家快去学起来！",
+      "summaryEn": "被官方@了才发现今天是618了！我的AI编程课程，B站课堂限时优惠活动倒计时3天，大家快去学起来！",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2067469164659568645",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067472851444420715",
+      "date": "2026-06-18",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Watched Mortal Kombat 2 and it was terrible. The Furious has set the bar too high for action movies.",
+      "summaryEn": "Watched Mortal Kombat 2 and it was terrible. The Furious has set the bar too high for action movies.",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2067472851444420715",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2067441631100596436",
+      "date": "2026-06-18",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Guys are you telling me that /goal build me an amazing game doesn’t work?",
+      "summaryEn": "Guys are you telling me that /goal build me an amazing game doesn’t work?",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2067441631100596436",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2067395275774373930",
+      "date": "2026-06-18",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "So I have Codex running on a /goal and it's been working for 2 hours but the problem is it's making alot of wrong assumptions so I have to monitor and steer it constantly. Is this expected? Perhaps I should've had it ma...",
+      "summaryEn": "So I have Codex running on a /goal and it's been working for 2 hours but the problem is it's making alot of wrong assumptions so I have to monitor and steer it constantly. Is this expected? Perhaps I should've had it ma...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2067395275774373930",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2067467142539489474",
+      "date": "2026-06-18",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Operate between the decisions or dollars. Ideally both.",
+      "summaryEn": "Operate between the decisions or dollars. Ideally both.",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2067467142539489474",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067462254119776436",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "官方链接： • 开发者 Beta 安装指南（含 visionOS）： https:// developer.apple.com/support/instal l-beta/#visionos-beta … • visionOS 27 Release Notes（功能详情）： https:// developer.apple.com/documentation/ visionos-release-notes/visionos-27-re...",
+      "summaryEn": "官方链接： • 开发者 Beta 安装指南（含 visionOS）： https:// developer.apple.com/support/instal l-beta/#visionos-beta … • visionOS 27 Release Notes（功能详情）： https:// developer.apple.com/documentation/ visionos-release-notes/visionos-27-re...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067462254119776436",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067462248608518619",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "苹果牛逼，visionOS 27竟然藏了个真正的空间计算杀招，普通全景照点一下，直接变成你能走进去的专属沉浸环境，跟现场没有啥区别的那种。 视频里就是这个效果，比如一张海滩全景照，点一下沉浸按钮，整个视野被拉到潮间带上，远处是城市天际线，脚下是浪退下去的湿沙，转头能看到山， 以前 Vision Pro 也能看全景照片，有一定包裹感，但这次的关键升级是把你的全景照直接设成自定义 Environment——和苹果内置那些自然景观环境平级，...",
+      "summaryEn": "苹果牛逼，visionOS 27竟然藏了个真正的空间计算杀招，普通全景照点一下，直接变成你能走进去的专属沉浸环境，跟现场没有啥区别的那种。 视频里就是这个效果，比如一张海滩全景照，点一下沉浸按钮，整个视野被拉到潮间带上，远处是城市天际线，脚下是浪退下去的湿沙，转头能看到山， 以前 Vision Pro 也能看全景照片，有一定包裹感，但这次的关键升级是把你的全景照直接设成自定义 Environment——和苹果内置那些自然景观环境平级，...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067462248608518619",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067419296712524251",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "人类到今天都写不出一颗煎蛋的物理方程， 一颗鸡蛋打进热油锅,它怎么凝固、怎么摊开、边缘怎么变焦, 没有任何一个公式能描述清楚,这种例子在物理世界里多到数不过来。 而这恰恰是当下通用 AI 范式的天花板,视频生成、VLA 学的都是像素层面的统计相关性, 它能生成一颗煎蛋的样子,却不知道当把油温调低、锅换小,蛋会变成什么样,因为它从没碰到背后真正的因果。 UCSD 的 @huang_biwei 黄碧薇教授在做的, 就是让AI模型从普通视频...",
+      "summaryEn": "人类到今天都写不出一颗煎蛋的物理方程， 一颗鸡蛋打进热油锅,它怎么凝固、怎么摊开、边缘怎么变焦, 没有任何一个公式能描述清楚,这种例子在物理世界里多到数不过来。 而这恰恰是当下通用 AI 范式的天花板,视频生成、VLA 学的都是像素层面的统计相关性, 它能生成一颗煎蛋的样子,却不知道当把油温调低、锅换小,蛋会变成什么样,因为它从没碰到背后真正的因果。 UCSD 的 @huang_biwei 黄碧薇教授在做的, 就是让AI模型从普通视频...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067419296712524251",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067411743563718805",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "试玩版大概半小时左右的内容量，正式版会有更多街区，玩法简单，不喜欢的会觉得\"就这？\"，但喜欢的人会反复走同一条路就为颠出不同的节奏，另外手柄手感比键鼠好一个档次，建议用手柄。",
+      "summaryEn": "试玩版大概半小时左右的内容量，正式版会有更多街区，玩法简单，不喜欢的会觉得\"就这？\"，但喜欢的人会反复走同一条路就为颠出不同的节奏，另外手柄手感比键鼠好一个档次，建议用手柄。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067411743563718805",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067411738694189485",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "颠着球去上学，第一次在游戏里找回那种小时候的感觉。 没有分数，没有任务，就背个书包从家门口出发。 路上要躲买菜的大妈，绕过电线杆，算好角度把球踢过工地围墙，每一步都在还原小时候把整条街当球场的肌肉记忆。 最妙的是它没做起跳键，你只能颠、趟、推，球离脚远了就是丢了。 但就这个限制，反而把童年那种笨拙又认真的身体感做出来了， 手绘街景像翻开旧相册，光影打在水泥地上那种暖灰色调，看一眼就知道是放学后的太阳。 有些游戏教你变强，有些游戏只是把...",
+      "summaryEn": "颠着球去上学，第一次在游戏里找回那种小时候的感觉。 没有分数，没有任务，就背个书包从家门口出发。 路上要躲买菜的大妈，绕过电线杆，算好角度把球踢过工地围墙，每一步都在还原小时候把整条街当球场的肌肉记忆。 最妙的是它没做起跳键，你只能颠、趟、推，球离脚远了就是丢了。 但就这个限制，反而把童年那种笨拙又认真的身体感做出来了， 手绘街景像翻开旧相册，光影打在水泥地上那种暖灰色调，看一眼就知道是放学后的太阳。 有些游戏教你变强，有些游戏只是把...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067411738694189485",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067327028735390133",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067327028735390133",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067327021005656135",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "被 vibe coding 反噬过的AI玩家和开发者们看过来，这个工具包把 Token 消耗砍掉了 63%，注意可不是单纯的砍功能，主要是砍废话。 @mattpocockuk Pocock（Total TypeScript 作者，前 Vercel）把资深工程师开工前的肌肉记忆拆成了可触发的技能——/ask-matt，就好像他本人站你身后一样，你扔任务进去，它先推荐该用哪个技能，再让 AI 按流程走，需求拷问、领域建模、TDD 红绿，每...",
+      "summaryEn": "被 vibe coding 反噬过的AI玩家和开发者们看过来，这个工具包把 Token 消耗砍掉了 63%，注意可不是单纯的砍功能，主要是砍废话。 @mattpocockuk Pocock（Total TypeScript 作者，前 Vercel）把资深工程师开工前的肌肉记忆拆成了可触发的技能——/ask-matt，就好像他本人站你身后一样，你扔任务进去，它先推荐该用哪个技能，再让 AI 按流程走，需求拷问、领域建模、TDD 红绿，每...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067327021005656135",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067296958608257345",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "要是我的话可能会把 AAOI 和 Sivers 当观测标而不是重仓标的，盯着两个信号——德州扩产的环评时间线出不出意外 + 下一个签长约的是微软还是亚马逊，CPO 这个方向我信，之前赚过不少，但 2026 年才开席，现在上桌太早容易被人当菜",
+      "summaryEn": "要是我的话可能会把 AAOI 和 Sivers 当观测标而不是重仓标的，盯着两个信号——德州扩产的环评时间线出不出意外 + 下一个签长约的是微软还是亚马逊，CPO 这个方向我信，之前赚过不少，但 2026 年才开席，现在上桌太早容易被人当菜",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067296958608257345",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067296469598499035",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "NVIDIA锁 → AMD抢 → 独立产能稀缺 → 定价权/订单改善，类似之前GPU、电源或HBM的某些阶段， 我觉得这条逻辑链值钱就值钱在它清晰——英伟达锁产能、AMD 下场抢、独立产能快见底、谁有货谁定价，但还是希望大家明白，清晰不等于现在就该冲进去。 先讲积极的那一半：如果 CPO 采用加速、AMD Trendforce reports that $AMD is actively trying to secure CW lase...",
+      "summaryEn": "NVIDIA锁 → AMD抢 → 独立产能稀缺 → 定价权/订单改善，类似之前GPU、电源或HBM的某些阶段， 我觉得这条逻辑链值钱就值钱在它清晰——英伟达锁产能、AMD 下场抢、独立产能快见底、谁有货谁定价，但还是希望大家明白，清晰不等于现在就该冲进去。 先讲积极的那一半：如果 CPO 采用加速、AMD Trendforce reports that $AMD is actively trying to secure CW lase...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067296469598499035",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067241822796013901",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Grok做的《黑客帝国》经典的Neo躲子弹，完美复刻！ Prompt: 《黑客帝国》Neo躲子弹， Bullet Time 躲子弹瞬间，Neo 在雨中 hallway 或 rooftop，子弹以极慢速度飞来，他做出标志性后仰躲避动作，镜头围绕他旋转/扫过，同时保持 The Matrix 标志性的绿色调、雨、皮风衣、墨镜。 Grok Imagine Video 1.5真的要吹爆，这么便宜还这么好用，一键复刻权力的游戏！ 我刚充的6000...",
+      "summaryEn": "Grok做的《黑客帝国》经典的Neo躲子弹，完美复刻！ Prompt: 《黑客帝国》Neo躲子弹， Bullet Time 躲子弹瞬间，Neo 在雨中 hallway 或 rooftop，子弹以极慢速度飞来，他做出标志性后仰躲避动作，镜头围绕他旋转/扫过，同时保持 The Matrix 标志性的绿色调、雨、皮风衣、墨镜。 Grok Imagine Video 1.5真的要吹爆，这么便宜还这么好用，一键复刻权力的游戏！ 我刚充的6000...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067241822796013901",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067227900399562775",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Grok Imagine Video 1.5真的要吹爆，这么便宜还这么好用，一键复刻权力的游戏！ 我刚充的6000多块的seedance会员算什么 Prompt: Faithfully animate this reference image into a breathtaking cinematic 10-12 second video in the exact visual style of HBO Game of Thrones...",
+      "summaryEn": "Grok Imagine Video 1.5真的要吹爆，这么便宜还这么好用，一键复刻权力的游戏！ 我刚充的6000多块的seedance会员算什么 Prompt: Faithfully animate this reference image into a breathtaking cinematic 10-12 second video in the exact visual style of HBO Game of Thrones...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067227900399562775",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067163932435906729",
+      "date": "2026-06-18",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Anthropic居然放下身段了，Claude主动适配了苹果的接口标准！ 以前全行业都要适配它的API标准， 现在主动给苹果做了Swift包，老老实实穿上了人家的接口衣服 全网都在调侃Anthropic终于向苹果低头了，",
+      "summaryEn": "Anthropic居然放下身段了，Claude主动适配了苹果的接口标准！ 以前全行业都要适配它的API标准， 现在主动给苹果做了Swift包，老老实实穿上了人家的接口衣服 全网都在调侃Anthropic终于向苹果低头了，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2067163932435906729",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2067455756795039957",
+      "date": "2026-06-18",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "The past couple months we may be witnessing what the Applied AI layer will look like at scale. Despite some of the initial critique that this would just be a thin layer on the LLM, it’s turning out that actually driving...",
+      "summaryEn": "The past couple months we may be witnessing what the Applied AI layer will look like at scale. Despite some of the initial critique that this would just be a thin layer on the LLM, it’s turning out that actually driving...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2067455756795039957",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2067444461987049704",
+      "date": "2026-06-18",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "FanBox是一个开源的Coding agent的驾驶舱：",
+      "summaryEn": "FanBox是一个开源的Coding agent的驾驶舱：",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2067444461987049704",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2067444173502890145",
+      "date": "2026-06-18",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "FanBox 2.0发布！做了几个大更新： 1、你可以直接通过微信操控电脑里的Claude Code和Codex了，并且能一键切换... 2、提供了Mac合盖不待机的能力，你不需要半开着Mac走在路上了...也不用因为agent还在跑着而晚下班；",
+      "summaryEn": "FanBox 2.0发布！做了几个大更新： 1、你可以直接通过微信操控电脑里的Claude Code和Codex了，并且能一键切换... 2、提供了Mac合盖不待机的能力，你不需要半开着Mac走在路上了...也不用因为agent还在跑着而晚下班；",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2067444173502890145",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2067438979667140620",
+      "date": "2026-06-18",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2067438979667140620",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067432573836652699",
+      "date": "2026-06-18",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Progress Try Grok Build 0.1 on code review x.com/kilocode/statu…",
+      "summaryEn": "Progress Try Grok Build 0.1 on code review x.com/kilocode/statu…",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2067432573836652699",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2067432296127557888",
+      "date": "2026-06-18",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Character AI 的前 CEO，transformer 论文的作者之一，MoE 架构的提出者 Noam Shazeer，加入了 OpenAI，进行模型架构研究。 谷歌之前用 27 亿美元收购了 Character 换他加入谷歌，结果这呆了没多久就跑到Open AI 了 I’m excited to share that I’ll be joining OpenAI and look forward to working wit...",
+      "summaryEn": "Character AI 的前 CEO，transformer 论文的作者之一，MoE 架构的提出者 Noam Shazeer，加入了 OpenAI，进行模型架构研究。 谷歌之前用 27 亿美元收购了 Character 换他加入谷歌，结果这呆了没多久就跑到Open AI 了 I’m excited to share that I’ll be joining OpenAI and look forward to working wit...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2067432296127557888",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2067431311317352809",
+      "date": "2026-06-18",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "sci-fi vibes intensify Announcing a new division of Midjourney called \"Midjourney Medical\"",
+      "summaryEn": "sci-fi vibes intensify Announcing a new division of Midjourney called \"Midjourney Medical\"",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2067431311317352809",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2067386053980266542",
+      "date": "2026-06-18",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Was so fun interviewing Spike Jones! Closing out Day 1 of @Replit Vibecon with @amasad and Spike Jonze on the main stage",
+      "summaryEn": "Was so fun interviewing Spike Jones! Closing out Day 1 of @Replit Vibecon with @amasad and Spike Jonze on the main stage",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2067386053980266542",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067363904183783833",
+      "date": "2026-06-18",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Design with Claude, Ship with Replit Design in Claude. Build in Replit You can now send your design from Claude Design to Replit to turn it into a working app",
+      "summaryEn": "Design with Claude, Ship with Replit Design in Claude. Build in Replit You can now send your design from Claude Design to Replit to turn it into a working app",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2067363904183783833",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2067363597110391230",
+      "date": "2026-06-18",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Vibecon",
+      "summaryEn": "Vibecon",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2067363597110391230",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067307342459232702",
+      "date": "2026-06-18",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Talk your ideas to life Now you can talk to @replit Agent using your voice. It's the most natural way to collaborate. Now available everywhere: mobile app, mobile web, and desktop web.",
+      "summaryEn": "Talk your ideas to life Now you can talk to @replit Agent using your voice. It's the most natural way to collaborate. Now available everywhere: mobile app, mobile web, and desktop web.",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2067307342459232702",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2067291031062655244",
+      "date": "2026-06-18",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Vibecon open doors Vibecon is beyond the coolest conference ever. Well done @Replit @amasad @pirroh @Franciscocrz !!",
+      "summaryEn": "Vibecon open doors Vibecon is beyond the coolest conference ever. Well done @Replit @amasad @pirroh @Franciscocrz !!",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2067291031062655244",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2067381581317099939",
+      "date": "2026-06-18",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": ">alignment",
+      "summaryEn": ">alignment",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2067381581317099939",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    }
+  ]
+}

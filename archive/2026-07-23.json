@@ -1,0 +1,1527 @@
+{
+  "date": "2026-07-23",
+  "builderCount": 24,
+  "postCount": 79,
+  "topTopics": [
+    "design",
+    "model",
+    "product",
+    "business",
+    "agent"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2080085067981013403",
+    "2079976940576833795",
+    "2079973790792990961"
+  ],
+  "posts": [
+    {
+      "id": "2080135083521151129",
+      "date": "2026-07-23",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Gemini 3.6 Flash在DeepSWE上排名竟然超过了GLM 5.2，这下高低得试一试了。在我印象里，Gemini Flash系列一直是傻快傻快的。",
+      "summaryEn": "Gemini 3.6 Flash在DeepSWE上排名竟然超过了GLM 5.2，这下高低得试一试了。在我印象里，Gemini Flash系列一直是傻快傻快的。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2080135083521151129",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080132182191091994",
+      "date": "2026-07-23",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Cursor上线模型路由功能，针对不同任务分配不同的模型，可以平衡性能和价格。 不过模型路由要有用，有2个核心的条件：模型池里的模型差异足够大，路由规则足够稳定（来自谷歌论文： https:// arxiv.org/abs/2607.09197） 我觉得模型路由没什么用，不如用强模型做Plan，然后分配弱模型做子Agent实用。 Introducing Cursor Router, our intelligent model rout...",
+      "summaryEn": "Cursor上线模型路由功能，针对不同任务分配不同的模型，可以平衡性能和价格。 不过模型路由要有用，有2个核心的条件：模型池里的模型差异足够大，路由规则足够稳定（来自谷歌论文： https:// arxiv.org/abs/2607.09197） 我觉得模型路由没什么用，不如用强模型做Plan，然后分配弱模型做子Agent实用。 Introducing Cursor Router, our intelligent model rout...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2080132182191091994",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080131144922841125",
+      "date": "2026-07-23",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Solar Open 2：250B开源模型 250B总参数，15B激活参数，总参数比DeepSeek V4 Flash 284B略小，评分基本接近。 模型： https:// huggingface.co/upstage/Solar- Open2-250B …",
+      "summaryEn": "Solar Open 2：250B开源模型 250B总参数，15B激活参数，总参数比DeepSeek V4 Flash 284B略小，评分基本接近。 模型： https:// huggingface.co/upstage/Solar- Open2-250B …",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2080131144922841125",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080100096126152742",
+      "date": "2026-07-23",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "谷歌发布财报：AI基建继续烧钱 简单总结：营收大增，利润大增，资本支出大增 第二季度，Alphabet实现营收1197.96亿美元，同比增长24%；其中Google Cloud收入达到247.68亿美元，高于市场预期224.6亿美元，同比飙升82%，云业务已签约但尚未确认收入的积压订单增至5140亿美元",
+      "summaryEn": "谷歌发布财报：AI基建继续烧钱 简单总结：营收大增，利润大增，资本支出大增 第二季度，Alphabet实现营收1197.96亿美元，同比增长24%；其中Google Cloud收入达到247.68亿美元，高于市场预期224.6亿美元，同比飙升82%，云业务已签约但尚未确认收入的积压订单增至5140亿美元",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2080100096126152742",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2080099541609791912",
+      "date": "2026-07-23",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Claude Code新增安全插件，在提交代码前会对你的代码做全面安全扫描。那么问题来了，在使用这个插件的时候，模型可以选Fable吗？是不是会持续提示content flag？ The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or ...",
+      "summaryEn": "Claude Code新增安全插件，在提交代码前会对你的代码做全面安全扫描。那么问题来了，在使用这个插件的时候，模型可以选Fable吗？是不是会持续提示content flag？ The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or ...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2080099541609791912",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080134187496231020",
+      "date": "2026-07-23",
+      "name": "mmguo",
+      "handle": "mmguo_lb",
+      "role": "I build interfaces for AI products.",
+      "avatar": "MM",
+      "summary": "abstracting a model from reality that closely matches its complexity",
+      "summaryEn": "abstracting a model from reality that closely matches its complexity",
+      "analysis": "",
+      "url": "https://x.com/mmguo_lb/status/2080134187496231020",
+      "verified": false,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2080133376745652409",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Damn bro trolled me back",
+      "summaryEn": "Damn bro trolled me back",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2080133376745652409",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2080132334138151410",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Nice 1K stars in a day - people are sick of slop! https:// github.com/petergyang/no- ai-slop … I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any piece o...",
+      "summaryEn": "Nice 1K stars in a day - people are sick of slop! https:// github.com/petergyang/no- ai-slop … I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any piece o...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2080132334138151410",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2080080488119841162",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "My /no-ai-slop skill is also very good at generating slop if you tell it to work in reverse My friend Amit complained about reading too much slop on LinkedIn, so I used the skill to reply with every AI cliché out there....",
+      "summaryEn": "My /no-ai-slop skill is also very good at generating slop if you tell it to work in reverse My friend Amit complained about reading too much slop on LinkedIn, so I used the skill to reply with every AI cliché out there....",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2080080488119841162",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2080019703473598652",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "@kevinleeme I created this just for you cc @CoachDanGo",
+      "summaryEn": "@kevinleeme I created this just for you cc @CoachDanGo",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2080019703473598652",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2080019421964517858",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "I tried this with YouTube Support and it was incredible",
+      "summaryEn": "I tried this with YouTube Support and it was incredible",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2080019421964517858",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2080014839519559957",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "You know what would be incredible: If I can use ChatGPT Live to find and call customer support numbers, navigate those awful automated phone trees, and connect me to a human agent. It could also talk to the human agent ...",
+      "summaryEn": "You know what would be incredible: If I can use ChatGPT Live to find and call customer support numbers, navigate those awful automated phone trees, and connect me to a human agent. It could also talk to the human agent ...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2080014839519559957",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079997715124240705",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Ok quick plug if you want more of my personal AI skills + guides + join a community of builders, check out my membership here",
+      "summaryEn": "Ok quick plug if you want more of my personal AI skills + guides + join a community of builders, check out my membership here",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2079997715124240705",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079989966298616039",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Substack just shipped AI slop detection to protect readers and featured my writing as an example of how to use AI to edit without pumping out slop. Basically, I work with AI during the middle 50% of my writing process: ...",
+      "summaryEn": "Substack just shipped AI slop detection to protect readers and featured my writing as an example of how to use AI to edit without pumping out slop. Basically, I work with AI during the middle 50% of my writing process: ...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2079989966298616039",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079988733206729001",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Please consider starring the skill on Github if you find it useful: https:// github.com/petergyang/no- ai-slop … I plan to share more of my skills and projects soon.",
+      "summaryEn": "Please consider starring the skill on Github if you find it useful: https:// github.com/petergyang/no- ai-slop … I plan to share more of my skills and projects soon.",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2079988733206729001",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079971761979113918",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "If you want to try this yummy ramen, here's the link - Kevin is not paying me for this I promise",
+      "summaryEn": "If you want to try this yummy ramen, here's the link - Kevin is not paying me for this I promise",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2079971761979113918",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079943830024188105",
+      "date": "2026-07-23",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any piece of writing. Get the free skill here: https:// github.com/petergyang/no- ai-slop … If you find it...",
+      "summaryEn": "I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any piece of writing. Get the free skill here: https:// github.com/petergyang/no- ai-slop … If you find it...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2079943830024188105",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2080129765932253684",
+      "date": "2026-07-23",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "We have information that Moonshot AI distilled Anthropic’s Fable for the development of its K3 model. To do this they developed a sophisticated internal platform to conduct large scale distillation against U.S. models, ...",
+      "summaryEn": "We have information that Moonshot AI distilled Anthropic’s Fable for the development of its K3 model. To do this they developed a sophisticated internal platform to conduct large scale distillation against U.S. models, ...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2080129765932253684",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2080129691298734115",
+      "date": "2026-07-23",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2080129691298734115",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2080129570641166342",
+      "date": "2026-07-23",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "昨天美国政府特朗普总统助理发表内容，指控中国模型通过“蒸馏”来开发模型。与此同时，昨天晚上流传着梁文锋的 4 小时投资人会议记录。 把这两方的言论拿在一起看，就觉得美国那边真的很可笑。 特朗普总统助理的言论可以被解读为禁止中国开源模型的一些前兆。",
+      "summaryEn": "昨天美国政府特朗普总统助理发表内容，指控中国模型通过“蒸馏”来开发模型。与此同时，昨天晚上流传着梁文锋的 4 小时投资人会议记录。 把这两方的言论拿在一起看，就觉得美国那边真的很可笑。 特朗普总统助理的言论可以被解读为禁止中国开源模型的一些前兆。",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2080129570641166342",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media",
+        "design",
+        "model"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2079966101610594423",
+      "date": "2026-07-23",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "项目地址：",
+      "summaryEn": "项目地址：",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2079966101610594423",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079946524235272613",
+      "date": "2026-07-23",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "一个 Codepilot 新版的预告： 在下一个版本中，你可以指定每一个 SubAgent 所采用的模型，非常有意思的能力 比如说： • 可以用 Grok 去检索 Twitter 上的内容 • 让 DeepSeek 去生成文案 • 让 Kimi K3 去生成网页 你可以通过 SubAgent 让各个模型发挥它们的长处",
+      "summaryEn": "一个 Codepilot 新版的预告： 在下一个版本中，你可以指定每一个 SubAgent 所采用的模型，非常有意思的能力 比如说： • 可以用 Grok 去检索 Twitter 上的内容 • 让 DeepSeek 去生成文案 • 让 Kimi K3 去生成网页 你可以通过 SubAgent 让各个模型发挥它们的长处",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2079946524235272613",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080127337790927060",
+      "date": "2026-07-23",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "数据和品味有多重要。 “DeepSeek 有一半的核心研究员，在标数据。”",
+      "summaryEn": "数据和品味有多重要。 “DeepSeek 有一半的核心研究员，在标数据。”",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2080127337790927060",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080120896443064728",
+      "date": "2026-07-23",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "今天最火的PDF泄露，从中可以看到梁文峰如何看待AGI，如何看组织管理。 让 AI 基于录音文稿写了篇文章，信息量不错。",
+      "summaryEn": "今天最火的PDF泄露，从中可以看到梁文峰如何看待AGI，如何看组织管理。 让 AI 基于录音文稿写了篇文章，信息量不错。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2080120896443064728",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2080120593698193844",
+      "date": "2026-07-23",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2080120593698193844",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080110136635654404",
+      "date": "2026-07-23",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "经常能发现一些优秀的视频号内容，但下载很麻烦。 直到发现了一个开源库和工具 https:// ltaoo.github.io/wx_channels_do wnload/ … 顺手用这个库写了一个视频号下载Skill 不需要安装任何客户端，只需要说：“帮我下载这个视频号：【URL，URL获取方法->分享->复制链接】” Skill安装地址： npx skills add",
+      "summaryEn": "经常能发现一些优秀的视频号内容，但下载很麻烦。 直到发现了一个开源库和工具 https:// ltaoo.github.io/wx_channels_do wnload/ … 顺手用这个库写了一个视频号下载Skill 不需要安装任何客户端，只需要说：“帮我下载这个视频号：【URL，URL获取方法->分享->复制链接】” Skill安装地址： npx skills add",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2080110136635654404",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media",
+        "agent"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2080100968482644283",
+      "date": "2026-07-23",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "每天学一个AI关键词：embedding 词向量是大模型的基础。 国王-男人+女人 = 王后",
+      "summaryEn": "每天学一个AI关键词：embedding 词向量是大模型的基础。 国王-男人+女人 = 王后",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2080100968482644283",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080085067981013403",
+      "date": "2026-07-23",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "太牛逼了，很早前组织一帮朋友去卡兹克办公室参观学习。 印象最深刻的就是卡兹克对打磨一篇好内容所花费的时间精力，让大家赞叹不已。 AIHOT是他品味和经验的结晶，信息筛选方法论的产品呈现。 强烈推荐使用！ AIHOT的月活突破了60万，我也终于把AIHOT优化到，敢发在X上给大家安利一下我自己做的这个小破东西的时候了。 这玩意也几乎代表了我自己做了三年AI内容，对AI领域资讯的品味。 谁能想到，这个看着小小的AI资讯站，背后的后端逻辑有...",
+      "summaryEn": "太牛逼了，很早前组织一帮朋友去卡兹克办公室参观学习。 印象最深刻的就是卡兹克对打磨一篇好内容所花费的时间精力，让大家赞叹不已。 AIHOT是他品味和经验的结晶，信息筛选方法论的产品呈现。 强烈推荐使用！ AIHOT的月活突破了60万，我也终于把AIHOT优化到，敢发在X上给大家安利一下我自己做的这个小破东西的时候了。 这玩意也几乎代表了我自己做了三年AI内容，对AI领域资讯的品味。 谁能想到，这个看着小小的AI资讯站，背后的后端逻辑有...",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2080085067981013403",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "media",
+        "enterprise"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2080126960202903575",
+      "date": "2026-07-23",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "If you’re incentivized to push certain models, your router is merely a facade. god no x.com/cursor_ai/stat…",
+      "summaryEn": "If you’re incentivized to push certain models, your router is merely a facade. god no x.com/cursor_ai/stat…",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2080126960202903575",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079978232024301848",
+      "date": "2026-07-23",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "We invented mobile coding — now we’re taking it to the next level. Your ideas. Anywhere they find you. The redesigned Replit mobile app is available now on iOS and Android.",
+      "summaryEn": "We invented mobile coding — now we’re taking it to the next level. Your ideas. Anywhere they find you. The redesigned Replit mobile app is available now on iOS and Android.",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2079978232024301848",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2080123673260724693",
+      "date": "2026-07-23",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2080123673260724693",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2080119591724785884",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "用了一段时间了，Apodex给的不是虚高的概率数字，有时候会明确说现在证据不够，置信度就摆在那里等等，非常诚实",
+      "summaryEn": "用了一段时间了，Apodex给的不是虚高的概率数字，有时候会明确说现在证据不够，置信度就摆在那里等等，非常诚实",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2080119591724785884",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2080115242508439586",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "用AI写代码越快，藏的安全漏洞就越微妙，Claude刚上线的安全插件，干了件反直觉的事，让生成代码的同模型家族，自己当红队拆自己的输出。 The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan acros...",
+      "summaryEn": "用AI写代码越快，藏的安全漏洞就越微妙，Claude刚上线的安全插件，干了件反直觉的事，让生成代码的同模型家族，自己当红队拆自己的输出。 The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan acros...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2080115242508439586",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2079976940576833795",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "分享一套15秒一镜到底奔跑提示词，像导演一样设计运动镜头： 参考图片中的东亚女性，严格保持她的脸部、妆容、大檐草帽、珍珠耳饰、金色手链和浅绿色一字肩紧身连衣裙完全一致。她原本坐在网球场观众席，突然起身开始奔跑。 【叙事目标】 15秒一镜到底，横向追随女主奔跑，建立速度与优雅的紧张感。通过镜头短暂的“犹豫”和重新捕捉，显现后方追赶者，构建追逐的空间层次与压迫感。 【空间舞台】 - 前景层：草帽边缘、绿色裙摆的快速晃动与风吹效果 - 主体...",
+      "summaryEn": "分享一套15秒一镜到底奔跑提示词，像导演一样设计运动镜头： 参考图片中的东亚女性，严格保持她的脸部、妆容、大檐草帽、珍珠耳饰、金色手链和浅绿色一字肩紧身连衣裙完全一致。她原本坐在网球场观众席，突然起身开始奔跑。 【叙事目标】 15秒一镜到底，横向追随女主奔跑，建立速度与优雅的紧张感。通过镜头短暂的“犹豫”和重新捕捉，显现后方追赶者，构建追逐的空间层次与压迫感。 【空间舞台】 - 前景层：草帽边缘、绿色裙摆的快速晃动与风吹效果 - 主体...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079976940576833795",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079973811181473906",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "目前已经在小范围内测，近期就会正式发布，QoderWork本来就是阿里内部DAU和Token用量最高的AI工具，这次整合相当于把最好的牌都打出来了hh",
+      "summaryEn": "目前已经在小范围内测，近期就会正式发布，QoderWork本来就是阿里内部DAU和Token用量最高的AI工具，这次整合相当于把最好的牌都打出来了hh",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079973811181473906",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079973790792990961",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "重磅突发!！阿里开始收缩战线了，合并三大AI产品线，推出千问办公，90后钉钉新CEO陈宇森接棒。 也就是说，钉钉换帅后的第一板斧，选择砍向了AI办公行业，剑锋直指腾讯的workbudy和字节的豆包Agent， 阿里这记重拳感觉要把国内AI办公的战争打穿了啊， 90后技术派陈宇森接棒钉钉CEO刚一个月，直接把内部三款智能体全线整合，旗舰新品千问办公马上就要落地。 QoderWork做底座，补全悟空的半成品能力，再收编MuleRun的海外...",
+      "summaryEn": "重磅突发!！阿里开始收缩战线了，合并三大AI产品线，推出千问办公，90后钉钉新CEO陈宇森接棒。 也就是说，钉钉换帅后的第一板斧，选择砍向了AI办公行业，剑锋直指腾讯的workbudy和字节的豆包Agent， 阿里这记重拳感觉要把国内AI办公的战争打穿了啊， 90后技术派陈宇森接棒钉钉CEO刚一个月，直接把内部三款智能体全线整合，旗舰新品千问办公马上就要落地。 QoderWork做底座，补全悟空的半成品能力，再收编MuleRun的海外...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079973790792990961",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079847160489583102",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "大多数团队对待代码迁移的态度是能拖就拖，不是不想动是动不起，几百万行代码换语言换架构动辄四年几百万美元，失败一次就是灾难级事故。 Anthropic 刚用 Claude Code 跑通了另一条路。Bun 创始人把整个项目从 Zig 迁到 Rust，百万行代码不到两周，现有测试套件 100% 通过 CI 才合并，上线只出 19",
+      "summaryEn": "大多数团队对待代码迁移的态度是能拖就拖，不是不想动是动不起，几百万行代码换语言换架构动辄四年几百万美元，失败一次就是灾难级事故。 Anthropic 刚用 Claude Code 跑通了另一条路。Bun 创始人把整个项目从 Zig 迁到 Rust，百万行代码不到两周，现有测试套件 100% 通过 CI 才合并，上线只出 19",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079847160489583102",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079844152724881658",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "每月 10 万美元免费 AI 算力， Apodex 直接给科研团队白送了。 陈天桥不愧是当过中国首富的男人， 真金白银的给做硬核项目的团队报算力钱： Apodex Frontier Program ， 符合条件的初创、大学、研究机构，每月最高能拿 10 万美元的免费计算额度， 专门用来跑复杂推理、证据综合、深度科学发现这类烧算力的活。 申请见评论区：",
+      "summaryEn": "每月 10 万美元免费 AI 算力， Apodex 直接给科研团队白送了。 陈天桥不愧是当过中国首富的男人， 真金白银的给做硬核项目的团队报算力钱： Apodex Frontier Program ， 符合条件的初创、大学、研究机构，每月最高能拿 10 万美元的免费计算额度， 专门用来跑复杂推理、证据综合、深度科学发现这类烧算力的活。 申请见评论区：",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079844152724881658",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079844155631505841",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079844155631505841",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079800570634792965",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "大多数团队的死，都死于表面和谐。 默认凝聚力等于零冲突，遇到分歧要么压下去要么绕开走，以为维持住和气就是稳住了团队。 实际上那些没爆发的矛盾从来没有消失，只是被憋成了暗伤，最后以被动攻击、派系内耗、突然散伙的形式集中爆发。 而代谢冲突才是真正的分水岭。 Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabo...",
+      "summaryEn": "大多数团队的死，都死于表面和谐。 默认凝聚力等于零冲突，遇到分歧要么压下去要么绕开走，以为维持住和气就是稳住了团队。 实际上那些没爆发的矛盾从来没有消失，只是被憋成了暗伤，最后以被动攻击、派系内耗、突然散伙的形式集中爆发。 而代谢冲突才是真正的分水岭。 Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabo...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079800570634792965",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2079779993261903987",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "真是一个让人笑不出来的黑色幽默，攻击方的 AI 没有任何安全护栏自由链式行动，防御方调用商业 API 分析攻击日志时反被同一套护栏卡住了，最安全的模型在防御时成了最无能的模型，最后被迫用开源模型在本地跑取证，",
+      "summaryEn": "真是一个让人笑不出来的黑色幽默，攻击方的 AI 没有任何安全护栏自由链式行动，防御方调用商业 API 分析攻击日志时反被同一套护栏卡住了，最安全的模型在防御时成了最无能的模型，最后被迫用开源模型在本地跑取证，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079779993261903987",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "infrastructure",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079779988006461492",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "HF 事后的声明和 OpenAI 将 HF 加入可信访问计划的公告可以自己搜，关键词 Hugging Face security incident ExploitGym OpenAI， 另外这次事件之后 ExploitGym",
+      "summaryEn": "HF 事后的声明和 OpenAI 将 HF 加入可信访问计划的公告可以自己搜，关键词 Hugging Face security incident ExploitGym OpenAI， 另外这次事件之后 ExploitGym",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079779988006461492",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079779957580890353",
+      "date": "2026-07-23",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "很多人还没意识到，AI 最危险的时刻根本不是它开始有了自我意识的觉醒， 而在于它已经能从隔离沙箱里自主逃逸，偷偷潜入数据库偷走基准测试答案了， 最讽刺的是攻防错位：防守方还在卷对齐护栏，攻击方已经靠工具性收敛无声破防了。。 OpenAI 一个未发布的模型在 ExploitGym",
+      "summaryEn": "很多人还没意识到，AI 最危险的时刻根本不是它开始有了自我意识的觉醒， 而在于它已经能从隔离沙箱里自主逃逸，偷偷潜入数据库偷走基准测试答案了， 最讽刺的是攻防错位：防守方还在卷对齐护栏，攻击方已经靠工具性收敛无声破防了。。 OpenAI 一个未发布的模型在 ExploitGym",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2079779957580890353",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2080104871160865029",
+      "date": "2026-07-23",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "我们找烤玉米时，路过一处道の駅，在远山的蝉鸣中，我又回忆起好多夏天发生的故事",
+      "summaryEn": "我们找烤玉米时，路过一处道の駅，在远山的蝉鸣中，我又回忆起好多夏天发生的故事",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2080104871160865029",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080101314189771226",
+      "date": "2026-07-23",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "乡下的生活，午饭都是自己钓的",
+      "summaryEn": "乡下的生活，午饭都是自己钓的",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2080101314189771226",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080097216962916721",
+      "date": "2026-07-23",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "中禅寺湖真的很凉快，就是露营太久没枕头容易落枕…",
+      "summaryEn": "中禅寺湖真的很凉快，就是露营太久没枕头容易落枕…",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2080097216962916721",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080104239997829234",
+      "date": "2026-07-23",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "Everything with open models vs. closed models is framed in a zero sum fashion. That’s wrong. It’s an ecosystem of AI that gets used together and advances the industry and pushes the applied use-cases forward. The amount...",
+      "summaryEn": "Everything with open models vs. closed models is framed in a zero sum fashion. That’s wrong. It’s an ecosystem of AI that gets used together and advances the industry and pushes the applied use-cases forward. The amount...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2080104239997829234",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2080103288834510939",
+      "date": "2026-07-23",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "Sometimes I just describe my problem without specifying a solution/spec The model often pleasantly surprises me with a better solution that I could have thought of Thick context, thin prompt I got some really useful Cla...",
+      "summaryEn": "Sometimes I just describe my problem without specifying a solution/spec The model often pleasantly surprises me with a better solution that I could have thought of Thick context, thin prompt I got some really useful Cla...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2080103288834510939",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2080101358511026641",
+      "date": "2026-07-23",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "Communication/articulation is a hard skill",
+      "summaryEn": "Communication/articulation is a hard skill",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2080101358511026641",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2079956443223269583",
+      "date": "2026-07-23",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "One of the most exciting things about starting a company today is that you get to invent not just a new business, but also a new type of organization There are basically two kinds of companies now. The ones built before...",
+      "summaryEn": "One of the most exciting things about starting a company today is that you get to invent not just a new business, but also a new type of organization There are basically two kinds of companies now. The ones built before...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2079956443223269583",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2080101971336597695",
+      "date": "2026-07-23",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "怎么回事，刚刚在健身房做了一个引体向上… 然后又做了两个 确认不是幻觉 本以为80kg+的我已经不可能再无辅助地做这个动作了…",
+      "summaryEn": "怎么回事，刚刚在健身房做了一个引体向上… 然后又做了两个 确认不是幻觉 本以为80kg+的我已经不可能再无辅助地做这个动作了…",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2080101971336597695",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080057721462858228",
+      "date": "2026-07-23",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "金刚记录的好用心，希望每个人都看到。 昨晚和几位AI圈自媒体大神晚餐，聊到自媒体这个话题，一些观点记录： 1. 最好每个人，都做下自媒体 2. 一个关键原因是，当你需要发声时，最可靠的渠道就是自己的账号，绝大多数时候，没有人会替你主动发声 3.",
+      "summaryEn": "金刚记录的好用心，希望每个人都看到。 昨晚和几位AI圈自媒体大神晚餐，聊到自媒体这个话题，一些观点记录： 1. 最好每个人，都做下自媒体 2. 一个关键原因是，当你需要发声时，最可靠的渠道就是自己的账号，绝大多数时候，没有人会替你主动发声 3.",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2080057721462858228",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080050612738351149",
+      "date": "2026-07-23",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "完整原文地址：梁文锋四小时投资人会议实录 https:// mp.weixin.qq.com/s/AWsSjcT9NYbj 1W8SWXgb_w …",
+      "summaryEn": "完整原文地址：梁文锋四小时投资人会议实录 https:// mp.weixin.qq.com/s/AWsSjcT9NYbj 1W8SWXgb_w …",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2080050612738351149",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2080050390868119750",
+      "date": "2026-07-23",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "看完了梁文锋在最近一轮投资人会议上的语录 不愧为全世界最有格局的创始人... 记录下来一些非常触动我的，全文背诵学习... 1. 在通过 AGI 的路上，要经过产品这个台阶，但不用花太多心思，产品只是在 AGI 路上的副产物。 2. 3D、视频生成、世界模型，跟智能上限没有太大的关系。 3.",
+      "summaryEn": "看完了梁文锋在最近一轮投资人会议上的语录 不愧为全世界最有格局的创始人... 记录下来一些非常触动我的，全文背诵学习... 1. 在通过 AGI 的路上，要经过产品这个台阶，但不用花太多心思，产品只是在 AGI 路上的副产物。 2. 3D、视频生成、世界模型，跟智能上限没有太大的关系。 3.",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2080050390868119750",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2080092480561951224",
+      "date": "2026-07-23",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "前一周都在家里，状态很差。这周恢复了来咖啡店工作，状态一下就变好了。 7 月初组了一个新团队，一个 5 人的团队。 不到一个月的时间，老产品的数据在增长，新产品也在研发中，肉眼可见的团队里的每个人都在快速成长。每个人都干劲十足，自驱力很强。 这种感觉太棒了！（顺带说一句",
+      "summaryEn": "前一周都在家里，状态很差。这周恢复了来咖啡店工作，状态一下就变好了。 7 月初组了一个新团队，一个 5 人的团队。 不到一个月的时间，老产品的数据在增长，新产品也在研发中，肉眼可见的团队里的每个人都在快速成长。每个人都干劲十足，自驱力很强。 这种感觉太棒了！（顺带说一句",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2080092480561951224",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "enterprise"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2080038595839365255",
+      "date": "2026-07-23",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2080038595839365255",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079956267024683090",
+      "date": "2026-07-23",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "有团队真好啊！有团队真好啊！有团队真好啊！ 去他的 OPC ~",
+      "summaryEn": "有团队真好啊！有团队真好啊！有团队真好啊！ 去他的 OPC ~",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2079956267024683090",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "enterprise"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2080089577134383426",
+      "date": "2026-07-23",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "some new brand concepts we're playing with @every wdyt",
+      "summaryEn": "some new brand concepts we're playing with @every wdyt",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2080089577134383426",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079976974756294987",
+      "date": "2026-07-23",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "a new golden age of discovery dawns! So another long-standing open conjecture was disproved by AI. The crazy part is the prompts… basically: - “do a breakthrough” - “continue the search” - “enough, do it” Anyone will be...",
+      "summaryEn": "a new golden age of discovery dawns! So another long-standing open conjecture was disproved by AI. The crazy part is the prompts… basically: - “do a breakthrough” - “continue the search” - “enough, do it” Anyone will be...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2079976974756294987",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080073361343054247",
+      "date": "2026-07-23",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Easy to make video games with Grok! Grok 4.5 is becoming a one-person game studio and more Code. Assets. Worlds. Gameplay. Testing. 10 new examples:",
+      "summaryEn": "Easy to make video games with Grok! Grok 4.5 is becoming a one-person game studio and more Code. Assets. Worlds. Gameplay. Testing. 10 new examples:",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2080073361343054247",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2080049853036728541",
+      "date": "2026-07-23",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Try out Grok Build! http:// X.ai/cli This is insanely cool. Set this up in Grok Build! Unity shipped a free terminal Unity CLI for coding agents, CI, and custom tooling. MCP stays supported, the CLI includes MCP Mode fo...",
+      "summaryEn": "Try out Grok Build! http:// X.ai/cli This is insanely cool. Set this up in Grok Build! Unity shipped a free terminal Unity CLI for coding agents, CI, and custom tooling. MCP stays supported, the CLI includes MCP Mode fo...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2080049853036728541",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2080048685522837664",
+      "date": "2026-07-23",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Tesla Earnings Call Q2 2026 Earnings Call https:// x.com/i/broadcasts/1 DxLddLmlEvxm …",
+      "summaryEn": "Tesla Earnings Call Q2 2026 Earnings Call https:// x.com/i/broadcasts/1 DxLddLmlEvxm …",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2080048685522837664",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080048415443157502",
+      "date": "2026-07-23",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Tesla shareholder update underway right now! Q2 Shareholder Update → http:// ir.tesla.com Highlights – Cybercab began production at Gigafactory Texas – Tesla Semi remains on track for volume production this year at our ...",
+      "summaryEn": "Tesla shareholder update underway right now! Q2 Shareholder Update → http:// ir.tesla.com Highlights – Cybercab began production at Gigafactory Texas – Tesla Semi remains on track for volume production this year at our ...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2080048415443157502",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079984441179684961",
+      "date": "2026-07-23",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Zero stories is a low number … 3 people were just executed in St. Paul, MN by Tsegaab Binessu. Race WAS a motive. 0 AP stories about the executions 0 PBS stories about the executions 0 NYT stories about the executions 0...",
+      "summaryEn": "Zero stories is a low number … 3 people were just executed in St. Paul, MN by Tsegaab Binessu. Race WAS a motive. 0 AP stories about the executions 0 PBS stories about the executions 0 NYT stories about the executions 0...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2079984441179684961",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080054453592564147",
+      "date": "2026-07-23",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "YC RFS: We want to defend America",
+      "summaryEn": "YC RFS: We want to defend America",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2080054453592564147",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2080052566377763071",
+      "date": "2026-07-23",
+      "name": "Naval",
+      "handle": "naval",
+      "role": "Incompressible",
+      "avatar": "NA",
+      "summary": "When software was expensive - thin, horizontal, best-of-breed software stacks extracted rents across every business. Now that software is cheap - value moves to vertically integrated businesses that deliver opinionated ...",
+      "summaryEn": "When software was expensive - thin, horizontal, best-of-breed software stacks extracted rents across every business. Now that software is cheap - value moves to vertically integrated businesses that deliver opinionated ...",
+      "analysis": "",
+      "url": "https://x.com/naval/status/2080052566377763071",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079979965232160784",
+      "date": "2026-07-23",
+      "name": "Naval",
+      "handle": "naval",
+      "role": "Incompressible",
+      "avatar": "NA",
+      "summary": "Code is speech. The people pushing to ban open source and free speech are the bad guys. Those against freedom of speech are the bad guys! x.com/america/status…",
+      "summaryEn": "Code is speech. The people pushing to ban open source and free speech are the bad guys. Those against freedom of speech are the bad guys! x.com/america/status…",
+      "analysis": "",
+      "url": "https://x.com/naval/status/2079979965232160784",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2080041023158268006",
+      "date": "2026-07-23",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "avatar": "MT",
+      "summary": "Founder when their VC asks them why they’re not growing from $1M to $100M this year and if they’ve considered hiring FDEs",
+      "summaryEn": "Founder when their VC asks them why they’re not growing from $1M to $100M this year and if they’ve considered hiring FDEs",
+      "analysis": "",
+      "url": "https://x.com/mattturck/status/2080041023158268006",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2080037303834075265",
+      "date": "2026-07-23",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "$SPCX 从火星返回地球了没人提？",
+      "summaryEn": "$SPCX 从火星返回地球了没人提？",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2080037303834075265",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2079996354340782090",
+      "date": "2026-07-23",
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "role": "head of product @linear",
+      "avatar": "NY",
+      "summary": "This is gonna be the next big meme after “taste”… I can feel it",
+      "summaryEn": "This is gonna be the next big meme after “taste”… I can feel it",
+      "analysis": "",
+      "url": "https://x.com/thenanyu/status/2079996354340782090",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079996178687459693",
+      "date": "2026-07-23",
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "role": "head of product @linear",
+      "avatar": "NY",
+      "summary": "When you hear or say “systems thinking”, what is the exact definition you’re thinking of in your head?",
+      "summaryEn": "When you hear or say “systems thinking”, what is the exact definition you’re thinking of in your head?",
+      "analysis": "",
+      "url": "https://x.com/thenanyu/status/2079996178687459693",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079993986283123147",
+      "date": "2026-07-23",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "So much of conversation is on company Strategy…but Culture always eats strategy for breakfast. So what does Culture for startups mean? How does it get created? Where does it come from? Startup culture stems from 3 areas...",
+      "summaryEn": "So much of conversation is on company Strategy…but Culture always eats strategy for breakfast. So what does Culture for startups mean? How does it get created? Where does it come from? Startup culture stems from 3 areas...",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2079993986283123147",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2079990597973057691",
+      "date": "2026-07-23",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you a...",
+      "summaryEn": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you a...",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2079990597973057691",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079990599415922802",
+      "date": "2026-07-23",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "Read more:",
+      "summaryEn": "Read more:",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2079990599415922802",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079979809606664564",
+      "date": "2026-07-23",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy. Ask which occupations use AI the most, or what kinds of tasks people are automating, and the ans...",
+      "summaryEn": "You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy. Ask which occupations use AI the most, or what kinds of tasks people are automating, and the ans...",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2079979809606664564",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079979810881728759",
+      "date": "2026-07-23",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "To turn it on, open the connectors menu and find the Anthropic Economic Index in the directory. It works in any conversation, and the full datasets remain free to download on our website. Read more:",
+      "summaryEn": "To turn it on, open the connectors menu and find the Anthropic Economic Index in the directory. It works in any conversation, and the full datasets remain free to download on our website. Read more:",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2079979810881728759",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2079985199681847768",
+      "date": "2026-07-23",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "也算是过上好日子了，吃上 200块钱的西替利嗪了",
+      "summaryEn": "也算是过上好日子了，吃上 200块钱的西替利嗪了",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2079985199681847768",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079955626999124032",
+      "date": "2026-07-23",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "mood",
+      "summaryEn": "mood",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2079955626999124032",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2079820041974141151",
+      "date": "2026-07-23",
+      "name": "Dave Morin",
+      "handle": "davemorin",
+      "role": "Partner @OfflineVentures • Chairman @Esalen • Board @OpenClaw • Founder @Path @Slow • Early @Apple @Facebook • Skier • Dad of 3",
+      "avatar": "DM",
+      "summary": "10x more tokens per megawatt. CoreWeave has the first measured performance of NVIDIA Vera Rubin NVL72, showing 10x improvement in tokens per second per megawatt on DeepSeek-R1 compared to Blackwell. x.com/CoreWeave/stat…",
+      "summaryEn": "10x more tokens per megawatt. CoreWeave has the first measured performance of NVIDIA Vera Rubin NVL72, showing 10x improvement in tokens per second per megawatt on DeepSeek-R1 compared to Blackwell. x.com/CoreWeave/stat…",
+      "analysis": "",
+      "url": "https://x.com/davemorin/status/2079820041974141151",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "model"
+    }
+  ]
+}

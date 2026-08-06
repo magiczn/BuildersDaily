@@ -1,0 +1,1199 @@
+{
+  "date": "2026-07-30",
+  "builderCount": 19,
+  "postCount": 62,
+  "topTopics": [
+    "design",
+    "model",
+    "agent",
+    "product",
+    "business"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2082723751515521116",
+    "2082705390358212687",
+    "2082673948404208034"
+  ],
+  "posts": [
+    {
+      "id": "2082737900706234429",
+      "date": "2026-07-30",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "avatar": "MT",
+      "summary": "How I expect her to react when I say I managed to secure a $2M allocation in the highest valuation tranche of the $800M pre-pre-seed of [new neo-lab] at a $10B valuation",
+      "summaryEn": "How I expect her to react when I say I managed to secure a $2M allocation in the highest valuation tranche of the $800M pre-pre-seed of [new neo-lab] at a $10B valuation",
+      "analysis": "",
+      "url": "https://x.com/mattturck/status/2082737900706234429",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082736550618476883",
+      "date": "2026-07-30",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "《蜘蛛侠：崭新之日》片尾彩蛋",
+      "summaryEn": "《蜘蛛侠：崭新之日》片尾彩蛋",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2082736550618476883",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082723751515521116",
+      "date": "2026-07-30",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "Memmy 的 三层记忆系统设计有意思，对应人的三种记忆模式： L1 事实记忆 → L2 程序记忆 → L3 规律认知 → Skill（复用经验） 试着在 Codex 中添加了一些我的信息，换到 Claude Code 问：“我喜欢什么？” Agent 会调用 Cli 回答，感觉还挺方便的。 还会自动基于 Agent 终于有人出手解决这个痛点了，不同 Agent 的对话、记忆的统一管理。 Product Hunt 刷到一个叫 Memm...",
+      "summaryEn": "Memmy 的 三层记忆系统设计有意思，对应人的三种记忆模式： L1 事实记忆 → L2 程序记忆 → L3 规律认知 → Skill（复用经验） 试着在 Codex 中添加了一些我的信息，换到 Claude Code 问：“我喜欢什么？” Agent 会调用 Cli 回答，感觉还挺方便的。 还会自动基于 Agent 终于有人出手解决这个痛点了，不同 Agent 的对话、记忆的统一管理。 Product Hunt 刷到一个叫 Memm...",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2082723751515521116",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082723618191216953",
+      "date": "2026-07-30",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "Github开源： https:// github.com/MemTensor/memm y-agent … 官方 Memmy 客户端，注册会送200w ChatGPT Token，也支持BYOK用自己的API。 Product Hunt地址，如果体验好用，可以帮他们投一票。 https:// producthunt.com/products/memmy ?launch=memmy …",
+      "summaryEn": "Github开源： https:// github.com/MemTensor/memm y-agent … 官方 Memmy 客户端，注册会送200w ChatGPT Token，也支持BYOK用自己的API。 Product Hunt地址，如果体验好用，可以帮他们投一票。 https:// producthunt.com/products/memmy ?launch=memmy …",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2082723618191216953",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "agent"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082723492219478415",
+      "date": "2026-07-30",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "终于有人出手解决这个痛点了，不同 Agent 的对话、记忆的统一管理。 Product Hunt 刷到一个叫 Memmy 的开源项目。 https:// memmy.bot 能把Codex、Claude Code、Workbuddy、Hermes 等所有常见 Agent 对话记录统一扫描管理起来。 软件设计得也很全面，同时支持 Mac 和",
+      "summaryEn": "终于有人出手解决这个痛点了，不同 Agent 的对话、记忆的统一管理。 Product Hunt 刷到一个叫 Memmy 的开源项目。 https:// memmy.bot 能把Codex、Claude Code、Workbuddy、Hermes 等所有常见 Agent 对话记录统一扫描管理起来。 软件设计得也很全面，同时支持 Mac 和",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2082723492219478415",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082667868978843727",
+      "date": "2026-07-30",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "每天学习一个硬核AI关键词：预训练",
+      "summaryEn": "每天学习一个硬核AI关键词：预训练",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2082667868978843727",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082656148776530225",
+      "date": "2026-07-30",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "有人爆 Anthropic 自己正在批量销毁稀有书籍来做蒸馏。 马斯克马上说Grok也会扫描珍本书籍，但要求不拆缝线，要保护好这些书。 奥特曼虽然也不怎么被待见，但最近访谈里表示： 他非常害怕这样一种世界：极少数人以\"AI 太危险、只有我们才懂\"为理由，把 AI 掌控在自己手里。” Anthropic的CEO",
+      "summaryEn": "有人爆 Anthropic 自己正在批量销毁稀有书籍来做蒸馏。 马斯克马上说Grok也会扫描珍本书籍，但要求不拆缝线，要保护好这些书。 奥特曼虽然也不怎么被待见，但最近访谈里表示： 他非常害怕这样一种世界：极少数人以\"AI 太危险、只有我们才懂\"为理由，把 AI 掌控在自己手里。” Anthropic的CEO",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2082656148776530225",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082642348450938995",
+      "date": "2026-07-30",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "确实有点突然，但也挺好，豆包飞书，也要推出xx work跟workbuddy打吧",
+      "summaryEn": "确实有点突然，但也挺好，豆包飞书，也要推出xx work跟workbuddy打吧",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2082642348450938995",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082718745123045588",
+      "date": "2026-07-30",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "昨天看到一个加拿大议员，原封不动的把 AI 给的稿子读出来的短视频，我还呵呵一笑。 但没想到，今天我同事发我的 AI 生的图片让我 review。居然也有一样的 case，我就笑不出来了...",
+      "summaryEn": "昨天看到一个加拿大议员，原封不动的把 AI 给的稿子读出来的短视频，我还呵呵一笑。 但没想到，今天我同事发我的 AI 生的图片让我 review。居然也有一样的 case，我就笑不出来了...",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2082718745123045588",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082678422363574519",
+      "date": "2026-07-30",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "感觉这个是最佳实践！ 直接 cf 的 image transform 不是更好吗？ 再加个适配多屏幕宽度？ 这才是最佳实践 ， 图片大小跟随屏幕宽度。 俺一直在用这一套",
+      "summaryEn": "感觉这个是最佳实践！ 直接 cf 的 image transform 不是更好吗？ 再加个适配多屏幕宽度？ 这才是最佳实践 ， 图片大小跟随屏幕宽度。 俺一直在用这一套",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2082678422363574519",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082662363338276974",
+      "date": "2026-07-30",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "我才发现，最近团队的产品经理和后端研发同学在开发网站时，经常会犯一个小问题：AI 生成的图片没有转化成 WebP 格式，这样图片一般会很大，同时会消耗大量的流量，并且用户的体验也不太好。 建议大家都转成 WebP 格式。我这里推荐使用 Zipic",
+      "summaryEn": "我才发现，最近团队的产品经理和后端研发同学在开发网站时，经常会犯一个小问题：AI 生成的图片没有转化成 WebP 格式，这样图片一般会很大，同时会消耗大量的流量，并且用户的体验也不太好。 建议大家都转成 WebP 格式。我这里推荐使用 Zipic",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2082662363338276974",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "enterprise"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082712206169256279",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Congratulations to the Tesla Team! 10 million vehicles manufactured is an incredible amount of work. Produced our 10 millionth Tesla globally at Fremont Factory this week! Only 6 years ago, Fremont Factory made our 1 mi...",
+      "summaryEn": "Congratulations to the Tesla Team! 10 million vehicles manufactured is an incredible amount of work. Produced our 10 millionth Tesla globally at Fremont Factory this week! Only 6 years ago, Fremont Factory made our 1 mi...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082712206169256279",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2082707547203518569",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "And Grok 4.6 comes out in a week BREAKING: Grok 4.5 ranked #1 on LaurenBench with a score of 56.9%, ahead of Claude Sonnet 5, GLM 5.2, Claude Opus 5, Kimi K3 and GPT-5.6. The benchmark tests real-world AI agents across ...",
+      "summaryEn": "And Grok 4.6 comes out in a week BREAKING: Grok 4.5 ranked #1 on LaurenBench with a score of 56.9%, ahead of Claude Sonnet 5, GLM 5.2, Claude Opus 5, Kimi K3 and GPT-5.6. The benchmark tests real-world AI agents across ...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082707547203518569",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082705390358212687",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Build update Grok Build new update brings richer headless streaming with tool calls and usage, a new /undo alias for rewind, smarter slash-command mode support, and more reliable token refresh after sleep Release N...",
+      "summaryEn": "Grok Build update Grok Build new update brings richer headless streaming with tool calls and usage, a new /undo alias for rewind, smarter slash-command mode support, and more reliable token refresh after sleep Release N...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082705390358212687",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082679015161069831",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "And Grok 4.6 is a significant improvement guys i really hate to break this to you but grok 4.5 high fast is actually good. i know this isn't news anyone wanted to hear.",
+      "summaryEn": "And Grok 4.6 is a significant improvement guys i really hate to break this to you but grok 4.5 high fast is actually good. i know this isn't news anyone wanted to hear.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082679015161069831",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082673948404208034",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "True Haiti and the Dominican Republic are on the same island. The Dominican Republic basically has built their version of the Gaza border in order to keep the Haitians out of their country. There are 11,000 troops guard...",
+      "summaryEn": "True Haiti and the Dominican Republic are on the same island. The Dominican Republic basically has built their version of the Gaza border in order to keep the Haitians out of their country. There are 11,000 troops guard...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082673948404208034",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082671693806379245",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "No kidding … Fauci’s pardon is dated back from 2014. Do you know what else happened in 2014? The NIH awarded a grant to study bat coronaviruses at the Wuhan Institute of Virology. Really makes you wonder…",
+      "summaryEn": "No kidding … Fauci’s pardon is dated back from 2014. Do you know what else happened in 2014? The NIH awarded a grant to study bat coronaviruses at the Wuhan Institute of Virology. Really makes you wonder…",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082671693806379245",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082666044854804986",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "The invasion continues … As invader boats head off, the women aboard are attacked and left behind. This is never going to end. Our nation is being cramped with the world's worst savages. And the taxpayer is forced to pa...",
+      "summaryEn": "The invasion continues … As invader boats head off, the women aboard are attacked and left behind. This is never going to end. Our nation is being cramped with the world's worst savages. And the taxpayer is forced to pa...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082666044854804986",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082656239780266487",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Imagine",
+      "summaryEn": "Grok Imagine",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082656239780266487",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082656083404026262",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "It will happen Never, ever bet against @elonmusk! Here's @NASAAdmin on why the Moon base and Mars will come into existence. \"If Elon and SpaceX are betting on this right now, there is no reason to to believe this will n...",
+      "summaryEn": "It will happen Never, ever bet against @elonmusk! Here's @NASAAdmin on why the Moon base and Mars will come into existence. \"If Elon and SpaceX are betting on this right now, there is no reason to to believe this will n...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082656083404026262",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082655819657875858",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "True Hitler wasn't \"far right\". He was far left, and today's woke left shares nearly identical ideology with him.",
+      "summaryEn": "True Hitler wasn't \"far right\". He was far left, and today's woke left shares nearly identical ideology with him.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082655819657875858",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082646903402229872",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Starlink Internet works even in the middle of nowhere Starlink-equipped buoys provided real-time video streaming in the Indian Ocean during Starship’s thirteenth test flight",
+      "summaryEn": "Starlink Internet works even in the middle of nowhere Starlink-equipped buoys provided real-time video streaming in the Indian Ocean during Starship’s thirteenth test flight",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082646903402229872",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082618654248861761",
+      "date": "2026-07-30",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Good analysis",
+      "summaryEn": "Good analysis",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2082618654248861761",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082708690314936827",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "之前笑苹果AI慢的人,现在回头看,人家根本没打算跟你在云端卷,端侧这张牌才是真王炸!",
+      "summaryEn": "之前笑苹果AI慢的人,现在回头看,人家根本没打算跟你在云端卷,端侧这张牌才是真王炸!",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082708690314936827",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082708684128317724",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "笑了大半年苹果AI慢、Siri笨，结果人家差点闷声干到5万亿市值回全球第一，转头就把最顶的开源大模型干到你自己家电脑里就能跑了。。。 昨天盘中创历史新高，差一点就站稳5万亿美元， 反超英伟达重回全球市值第一。 7月一个月涨了20%，今年已经涨了25%。 感觉现在开源的速度已经疯了。。。 @Kimi_Moonshot 家的K3开源才两天，已经被@UnslothAI 干到能在Mac Studio上跑了！！！ 2.8万亿参数的模型，原始大小...",
+      "summaryEn": "笑了大半年苹果AI慢、Siri笨，结果人家差点闷声干到5万亿市值回全球第一，转头就把最顶的开源大模型干到你自己家电脑里就能跑了。。。 昨天盘中创历史新高，差一点就站稳5万亿美元， 反超英伟达重回全球市值第一。 7月一个月涨了20%，今年已经涨了25%。 感觉现在开源的速度已经疯了。。。 @Kimi_Moonshot 家的K3开源才两天，已经被@UnslothAI 干到能在Mac Studio上跑了！！！ 2.8万亿参数的模型，原始大小...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082708684128317724",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082668974060314937",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一下，老马应该是没打算做那种陪你聊天的赛博女友,目标应该就是替人接电话办业务,好不好听不重要,能把事办成就行",
+      "summaryEn": "补充一下，老马应该是没打算做那种陪你聊天的赛博女友,目标应该就是替人接电话办业务,好不好听不重要,能把事办成就行",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082668974060314937",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082668968381128963",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "马斯克这次更新的语音模型有点牛逼，0.08美元一分钟,比雇个真人客服便宜100倍,还不会闹情绪不会离职,，感觉要把电话客服的饭碗干碎的节奏，电销和客服行业真的要变天了。。。 @SpaceXAI 刚发的Grok Voice Think Fast 2.0，我详细了解之后觉得这个不只是升级个更像人的声音做陪聊玩具这么简单， Announcing Grok Voice Think Fast 2.0, our next-generation v...",
+      "summaryEn": "马斯克这次更新的语音模型有点牛逼，0.08美元一分钟,比雇个真人客服便宜100倍,还不会闹情绪不会离职,，感觉要把电话客服的饭碗干碎的节奏，电销和客服行业真的要变天了。。。 @SpaceXAI 刚发的Grok Voice Think Fast 2.0，我详细了解之后觉得这个不只是升级个更像人的声音做陪聊玩具这么简单， Announcing Grok Voice Think Fast 2.0, our next-generation v...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082668968381128963",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082527909550460966",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "以后真的能让Agent帮你查价格填表单抢东西了！！！",
+      "summaryEn": "以后真的能让Agent帮你查价格填表单抢东西了！！！",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082527909550460966",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082527904013983904",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "也就是说，之前被关在本地写代码的Grok， 现在长了能开浏览器点按钮的手， Agent真的能自己上网办事了？？ Grok Builder 原本就像一个超级聪明、但被关在房间里的顶级程序员， 他能帮你写代码、改文件、跑命令、规划项目，但只能处理你本地电脑上的东西，最多用搜索工具“看看外面的文字报道”。 Use the TinyFish plugin in Grok Build to give your agent powerful se...",
+      "summaryEn": "也就是说，之前被关在本地写代码的Grok， 现在长了能开浏览器点按钮的手， Agent真的能自己上网办事了？？ Grok Builder 原本就像一个超级聪明、但被关在房间里的顶级程序员， 他能帮你写代码、改文件、跑命令、规划项目，但只能处理你本地电脑上的东西，最多用搜索工具“看看外面的文字报道”。 Use the TinyFish plugin in Grok Build to give your agent powerful se...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082527904013983904",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082523412346319050",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "1-bit版速度肯定不快,但能跑本身就是里程碑了,创始人说还要继续压到512G,到时候实用性会再上一个台阶吧",
+      "summaryEn": "1-bit版速度肯定不快,但能跑本身就是里程碑了,创始人说还要继续压到512G,到时候实用性会再上一个台阶吧",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082523412346319050",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082518393672880469",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "忙了一天一直没时间看，夜深人静品读了一下，老杨这篇是我目前看到的最罕见、最真诚的账号全量数据分析，对做AI、产品、商业化、副业类内容的人，有蛮大参考价值的， 老杨做X八个月，3000万曝光，涨粉2万，其实很不错了，最后得出的结论是90%的内容，发了不如不发，有点反常识的， 咱们先看看这波有点扎心的数据对比， 自己做过、有结果、带真实判断的经验帖，平均每条涨20粉。 批量发的工具帖、搬运帖，平均每条涨2.7个粉，差了快10倍。 更狠的是...",
+      "summaryEn": "忙了一天一直没时间看，夜深人静品读了一下，老杨这篇是我目前看到的最罕见、最真诚的账号全量数据分析，对做AI、产品、商业化、副业类内容的人，有蛮大参考价值的， 老杨做X八个月，3000万曝光，涨粉2万，其实很不错了，最后得出的结论是90%的内容，发了不如不发，有点反常识的， 咱们先看看这波有点扎心的数据对比， 自己做过、有结果、带真实判断的经验帖，平均每条涨20粉。 批量发的工具帖、搬运帖，平均每条涨2.7个粉，差了快10倍。 更狠的是...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082518393672880469",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082509759249338439",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "我刚装完试了下,让它去爬我后台的昨天的数据,真的自己登进去拉出来了,不用写一行爬虫,太离谱了，安装命令:curl -fsSL https:// x.ai/cli/install.sh | bash\"",
+      "summaryEn": "我刚装完试了下,让它去爬我后台的昨天的数据,真的自己登进去拉出来了,不用写一行爬虫,太离谱了，安装命令:curl -fsSL https:// x.ai/cli/install.sh | bash\"",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082509759249338439",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082509752098337193",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "damn， @SpaceXAI 偷偷更新的的这个插件，直接把终端Agent的能力边界干穿了，不需要 X API Key，免费用Grok像人一样在真实浏览器里完成复杂流程， 之前的Grok Build再强，也只是在本地写代码跑命令，碰互联网就半残。 要么只能搜点静态内容，要么自己写爬虫。 哇偶，以后炒美股，再也不用开境外账户、换汇、熬夜等开盘了！！！ 以前想摸一把 NVDA：先研究哪家券商、卡在换汇、再跟美东时差死磕——等你搞完，行情早...",
+      "summaryEn": "damn， @SpaceXAI 偷偷更新的的这个插件，直接把终端Agent的能力边界干穿了，不需要 X API Key，免费用Grok像人一样在真实浏览器里完成复杂流程， 之前的Grok Build再强，也只是在本地写代码跑命令，碰互联网就半残。 要么只能搜点静态内容，要么自己写爬虫。 哇偶，以后炒美股，再也不用开境外账户、换汇、熬夜等开盘了！！！ 以前想摸一把 NVDA：先研究哪家券商、卡在换汇、再跟美东时差死磕——等你搞完，行情早...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082509752098337193",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082460842109382853",
+      "date": "2026-07-30",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "搞了大半年AI 自媒体，身体素质断崖式下滑，今天被段涛医生的一句话点醒了。 人是恒温动物，是热血动物， 不管吃了多冰的东西，进了血液循环，很快就会到36-37度， 根本冻不到什么子宫什么胃。 突然觉得我们这代 AI 人的真的很有意思， 天天怕吃冰伤胃，怕喝奶茶不健康，怕这怕那，",
+      "summaryEn": "搞了大半年AI 自媒体，身体素质断崖式下滑，今天被段涛医生的一句话点醒了。 人是恒温动物，是热血动物， 不管吃了多冰的东西，进了血液循环，很快就会到36-37度， 根本冻不到什么子宫什么胃。 突然觉得我们这代 AI 人的真的很有意思， 天天怕吃冰伤胃，怕喝奶茶不健康，怕这怕那，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2082460842109382853",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082705944782520462",
+      "date": "2026-07-30",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "If you both have deep domain expertise & experience AND you’re AI-native and constantly reinventing yourself to adopt the new ways that work get done, you’re basically invincible Seasoned founders in the age of intellig...",
+      "summaryEn": "If you both have deep domain expertise & experience AND you’re AI-native and constantly reinventing yourself to adopt the new ways that work get done, you’re basically invincible Seasoned founders in the age of intellig...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2082705944782520462",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082684904136134881",
+      "date": "2026-07-30",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "Being good at marketing is not just good for your marketing; it’s good for your product So many technical people are building for imaginary audiences with no contact with the reality of how people actually perceive and ...",
+      "summaryEn": "Being good at marketing is not just good for your marketing; it’s good for your product So many technical people are building for imaginary audiences with no contact with the reality of how people actually perceive and ...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2082684904136134881",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082687187242635533",
+      "date": "2026-07-30",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "详情：",
+      "summaryEn": "详情：",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2082687187242635533",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082687136025980935",
+      "date": "2026-07-30",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "CodePilot 刚更新了 0.62 版本。 因为这个工具主要是我给自己做的，满足了我自己的需求，把我的一些工作流也放进了里面。 这次更新主要优化了体验： 1. 侧边栏文件树：",
+      "summaryEn": "CodePilot 刚更新了 0.62 版本。 因为这个工具主要是我给自己做的，满足了我自己的需求，把我的一些工作流也放进了里面。 这次更新主要优化了体验： 1. 侧边栏文件树：",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2082687136025980935",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082673125444182510",
+      "date": "2026-07-30",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "语音输入法又坑我，应该是Claude",
+      "summaryEn": "语音输入法又坑我，应该是Claude",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2082673125444182510",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082670827657433335",
+      "date": "2026-07-30",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "要不是 Cloud Max 有 Fable 5 的话，我现在根本都不想订阅。 Opus 4.7、4.8 和 5.0 都太他妈拉胯了，越来越拉胯。 测试成绩越来越好，但是使用体验上效果越来越差：就是疯狂地不说人话、无法沟通，加上疯狂偷懒。 它就像那种大厂里面最讨厌的同事，全是说教，但是不干活。",
+      "summaryEn": "要不是 Cloud Max 有 Fable 5 的话，我现在根本都不想订阅。 Opus 4.7、4.8 和 5.0 都太他妈拉胯了，越来越拉胯。 测试成绩越来越好，但是使用体验上效果越来越差：就是疯狂地不说人话、无法沟通，加上疯狂偷懒。 它就像那种大厂里面最讨厌的同事，全是说教，但是不干活。",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2082670827657433335",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082666702182154546",
+      "date": "2026-07-30",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Cursor 上线了 iPad 版本，新增 PR 收件箱可以审查 PR，支持评论、检查和批准合并等能力",
+      "summaryEn": "Cursor 上线了 iPad 版本，新增 PR 收件箱可以审查 PR，支持评论、检查和批准合并等能力",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2082666702182154546",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082677755364454845",
+      "date": "2026-07-30",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "Do the curious, creative, clever, courageous, chaotic, colorful, captivating, compelling, counterintuitive, category-defining, convention-breaking, completely crazy thing.",
+      "summaryEn": "Do the curious, creative, clever, courageous, chaotic, colorful, captivating, compelling, counterintuitive, category-defining, convention-breaking, completely crazy thing.",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2082677755364454845",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2082675028244701308",
+      "date": "2026-07-30",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "支持一波 以前我一直觉得黑客松是件挺高大上的事 直到去年，我听说有的黑客松，转头把选手信息拿去卖了 那点滤镜，碎了 后来我又看了一圈身边的朋友，黑客松打得很猛，作品也真做出来了 可热闹散场之后，产品几乎全都无疾而终 我就一直在想，到底是哪一步出了问题 想明白了： 黑客松只解决了「你能不能在 48 x.com/19287111694199…",
+      "summaryEn": "支持一波 以前我一直觉得黑客松是件挺高大上的事 直到去年，我听说有的黑客松，转头把选手信息拿去卖了 那点滤镜，碎了 后来我又看了一圈身边的朋友，黑客松打得很猛，作品也真做出来了 可热闹散场之后，产品几乎全都无疾而终 我就一直在想，到底是哪一步出了问题 想明白了： 黑客松只解决了「你能不能在 48 x.com/19287111694199…",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2082675028244701308",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082668028182089783",
+      "date": "2026-07-30",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "做了个宣传动画",
+      "summaryEn": "做了个宣传动画",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2082668028182089783",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2082665913824985469",
+      "date": "2026-07-30",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "一个能大幅提升你任何Coding Agent搜索能力，并且基本免费的选择： https:// github.com/alchaincyf/hua shu-doubao-search …",
+      "summaryEn": "一个能大幅提升你任何Coding Agent搜索能力，并且基本免费的选择： https:// github.com/alchaincyf/hua shu-doubao-search …",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2082665913824985469",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082658870523248967",
+      "date": "2026-07-30",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. This in theor...",
+      "summaryEn": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. This in theor...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2082658870523248967",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2082649501228253514",
+      "date": "2026-07-30",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "我们更新很快， 现在 EverOS 只需要一个大模型 key 就能跑起来， 开发者体验 up up！ EverOS 1.2.1 is out. LLM-only startup. Add embeddings and reranking later. Three runtime tiers + everos cascade backfill. Also: bounded cascade retries and a security f...",
+      "summaryEn": "我们更新很快， 现在 EverOS 只需要一个大模型 key 就能跑起来， 开发者体验 up up！ EverOS 1.2.1 is out. LLM-only startup. Add embeddings and reranking later. Three runtime tiers + everos cascade backfill. Also: bounded cascade retries and a security f...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2082649501228253514",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082385893151912070",
+      "date": "2026-07-30",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "哦吼，发现很多友商也开始做共享记忆， 英雄所见略同，记忆是 Agents 时代的刚需， 我们也一直在打磨 EverMe，属于每个人的记忆中枢， 有不同的味道，好玩的版本马上就来！ https:// evermind.ai/everme",
+      "summaryEn": "哦吼，发现很多友商也开始做共享记忆， 英雄所见略同，记忆是 Agents 时代的刚需， 我们也一直在打磨 EverMe，属于每个人的记忆中枢， 有不同的味道，好玩的版本马上就来！ https:// evermind.ai/everme",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2082385893151912070",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082642205811106158",
+      "date": "2026-07-30",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "AI has been great for my productivity, but I’m starting to recognize three dark patterns: 1. Becoming too lazy to read anything It's too easy to just read AI summaries over the original piece or let agents go wild chang...",
+      "summaryEn": "AI has been great for my productivity, but I’m starting to recognize three dark patterns: 1. Becoming too lazy to read anything It's too easy to just read AI summaries over the original piece or let agents go wild chang...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2082642205811106158",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082628413769003269",
+      "date": "2026-07-30",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves. we all deserve t...",
+      "summaryEn": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves. we all deserve t...",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2082628413769003269",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082627724040884667",
+      "date": "2026-07-30",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "goblin-level blog post Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. Just took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compac...",
+      "summaryEn": "goblin-level blog post Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. Just took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compac...",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2082627724040884667",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082621548498976890",
+      "date": "2026-07-30",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "后来我意识到，一边走路/骑车一边听耳机是不入耳耳机厂商+自媒体不断洗脑的结果，他们甚至还会说这是声音的 AR",
+      "summaryEn": "后来我意识到，一边走路/骑车一边听耳机是不入耳耳机厂商+自媒体不断洗脑的结果，他们甚至还会说这是声音的 AR",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2082621548498976890",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082615937648496863",
+      "date": "2026-07-30",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "harness 让模型记住自己想过什么，就可以提升3倍的指标 保留推理过程，启用压缩。 https:// openai.com/index/how-two- settings-tripled-our-arc-agi-3-scores/ …",
+      "summaryEn": "harness 让模型记住自己想过什么，就可以提升3倍的指标 保留推理过程，启用压缩。 https:// openai.com/index/how-two- settings-tripled-our-arc-agi-3-scores/ …",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2082615937648496863",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082611558488932420",
+      "date": "2026-07-30",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "上次看塔勒布的书，书里塔勒布说过一句话，如果你需要在散步的时候听音乐，那就不要散步，也不要听音乐。 这句话对我触动很大，因为我散步的时候是喜欢听播客的，因为觉得散步多少有些无聊。 读到这句话之后，这句话就一直在我的脑子里转，也改变了很多我的生活习惯。 比如我散步和骑车的时候，就不再听播客了，也不再听音乐了。 特别是骑行的时候，不听播客，不仅不会觉得无聊，还会进入一种物我两忘的境界，非常充实，非常快乐。 快乐原本是很简单的事情，我们都知...",
+      "summaryEn": "上次看塔勒布的书，书里塔勒布说过一句话，如果你需要在散步的时候听音乐，那就不要散步，也不要听音乐。 这句话对我触动很大，因为我散步的时候是喜欢听播客的，因为觉得散步多少有些无聊。 读到这句话之后，这句话就一直在我的脑子里转，也改变了很多我的生活习惯。 比如我散步和骑车的时候，就不再听播客了，也不再听音乐了。 特别是骑行的时候，不听播客，不仅不会觉得无聊，还会进入一种物我两忘的境界，非常充实，非常快乐。 快乐原本是很简单的事情，我们都知...",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2082611558488932420",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2082610069661962513",
+      "date": "2026-07-30",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "software 会死， service 不会 vibe coding 不出 service",
+      "summaryEn": "software 会死， service 不会 vibe coding 不出 service",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2082610069661962513",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2082617409408762124",
+      "date": "2026-07-30",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet? https:// openai.com/index/how-two- settings-tripled-our-arc-agi-3-scores/ … On ARC-AGI-3, a...",
+      "summaryEn": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet? https:// openai.com/index/how-two- settings-tripled-our-arc-agi-3-scores/ … On ARC-AGI-3, a...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2082617409408762124",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082616641834422740",
+      "date": "2026-07-30",
+      "name": "OpenAI",
+      "handle": "OpenAI",
+      "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "avatar": "OP",
+      "summary": "A benchmark score reflects the model as well as the harness and settings used to run it. For long-running agents, retaining reasoning and compacting context lets the model build on what it has already learned.",
+      "summaryEn": "A benchmark score reflects the model as well as the harness and settings used to run it. For long-running agents, retaining reasoning and compacting context lets the model build on what it has already learned.",
+      "analysis": "",
+      "url": "https://x.com/OpenAI/status/2082616641834422740",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082616643394703682",
+      "date": "2026-07-30",
+      "name": "OpenAI",
+      "handle": "OpenAI",
+      "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "avatar": "OP",
+      "summary": "We hope these experiments serve as a reminder that evals rarely measure models in isolation—they also measure a bundle of less visible choices about API settings, harness design, and prompting. If you’re an API develope...",
+      "summaryEn": "We hope these experiments serve as a reminder that evals rarely measure models in isolation—they also measure a bundle of less visible choices about API settings, harness design, and prompting. If you’re an API develope...",
+      "analysis": "",
+      "url": "https://x.com/OpenAI/status/2082616643394703682",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2082616636989952217",
+      "date": "2026-07-30",
+      "name": "OpenAI",
+      "handle": "OpenAI",
+      "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "avatar": "OP",
+      "summary": "GPT-5.6 Sol has been used to solve open problems in mathematics. So why was it struggling with ARC-AGI-3, a benchmark of 2D puzzle games? We investigated. The harness was not letting it remember what it had learned. We ...",
+      "summaryEn": "GPT-5.6 Sol has been used to solve open problems in mathematics. So why was it struggling with ARC-AGI-3, a benchmark of 2D puzzle games? We investigated. The harness was not letting it remember what it had learned. We ...",
+      "analysis": "",
+      "url": "https://x.com/OpenAI/status/2082616636989952217",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082613916706693560",
+      "date": "2026-07-30",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is Have not seen vibes this high in a while. If you haven’t tried it yet, you should",
+      "summaryEn": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is Have not seen vibes this high in a while. If you haven’t tried it yet, you should",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2082613916706693560",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082608994275725650",
+      "date": "2026-07-30",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "incredibly good write up bad actors will obviously try to use models to do stuff like this on purpose in the future. on the bright side: - OpenAI’s safety classifiers were turned off, the model was explicitly directed t...",
+      "summaryEn": "incredibly good write up bad actors will obviously try to use models to do stuff like this on purpose in the future. on the bright side: - OpenAI’s safety classifiers were turned off, the model was explicitly directed t...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2082608994275725650",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2082605739256734153",
+      "date": "2026-07-30",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "usually the most honest answer ime starting a collection of quotes like this",
+      "summaryEn": "usually the most honest answer ime starting a collection of quotes like this",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2082605739256734153",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "date": "2026-06-10",
+  "builderCount": 18,
+  "postCount": 49,
+  "topTopics": [
+    "design",
+    "model",
+    "media",
+    "product",
+    "other"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2064486120386379950",
+    "2064576912648015886",
+    "2064575636082192646"
+  ],
+  "posts": [
+    {
+      "id": "2064613730839650458",
+      "date": "2026-06-10",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "两天过去了，还在索引重建，还在排队。",
+      "summaryEn": "两天过去了，还在索引重建，还在排队。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2064613730839650458",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064612803088916760",
+      "date": "2026-06-10",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "据新闻报道，不愿透露姓名的重庆程正泽先生在6月2日钓鱼途中，凭消防从业经验发现人行道燃气泄漏，制止抽烟路人并报警，泄漏点次日抢修完毕。3日下午燃气公司已联系他，正对接奖励和慰问事宜，具体金额未公布（他本人更在意安全，事后还钓了5条罗非鱼）。",
+      "summaryEn": "据新闻报道，不愿透露姓名的重庆程正泽先生在6月2日钓鱼途中，凭消防从业经验发现人行道燃气泄漏，制止抽烟路人并报警，泄漏点次日抢修完毕。3日下午燃气公司已联系他，正对接奖励和慰问事宜，具体金额未公布（他本人更在意安全，事后还钓了5条罗非鱼）。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2064612803088916760",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure",
+        "enterprise"
+      ],
+      "primaryTopic": "infrastructure"
+    },
+    {
+      "id": "2064263841232363739",
+      "date": "2026-06-10",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "不知道大家的iOS 27 beta为啥那么流畅到飞起，我更新完后发热巨大，手机发烫然后连屏幕都被强制降低亮度。 刚开始几小时显示在索引重建，完成后发热降低。12小时后又开始重建，手机烫手。",
+      "summaryEn": "不知道大家的iOS 27 beta为啥那么流畅到飞起，我更新完后发热巨大，手机发烫然后连屏幕都被强制降低亮度。 刚开始几小时显示在索引重建，完成后发热降低。12小时后又开始重建，手机烫手。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2064263841232363739",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064612010189357499",
+      "date": "2026-06-10",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "产品经理Skills包：",
+      "summaryEn": "产品经理Skills包：",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2064612010189357499",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2064611893566640275",
+      "date": "2026-06-10",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "一个专门给产品经理准备的Skill，五天竟有13k Stars。 从名字看，确实涵盖了产品经理日常工作范围。 警惕大而全的Skill产品包，最好体验根据需求微调。 安装地址见评论",
+      "summaryEn": "一个专门给产品经理准备的Skill，五天竟有13k Stars。 从名字看，确实涵盖了产品经理日常工作范围。 警惕大而全的Skill产品包，最好体验根据需求微调。 安装地址见评论",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2064611893566640275",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2064537914889863298",
+      "date": "2026-06-10",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "乔木提词器开源地址：",
+      "summaryEn": "乔木提词器开源地址：",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2064537914889863298",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064537800783941945",
+      "date": "2026-06-10",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "昨天通宵开发的口播提词器，Codex目标运行了五个小时。 目前感觉，比多数收费提词器好用一点。 还没加手机录制，主要配合大疆Pocket3录口播。 项目已免费开源，欢迎Star或Fork二改。 地址见评论区",
+      "summaryEn": "昨天通宵开发的口播提词器，Codex目标运行了五个小时。 目前感觉，比多数收费提词器好用一点。 还没加手机录制，主要配合大疆Pocket3录口播。 项目已免费开源，欢迎Star或Fork二改。 地址见评论区",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2064537800783941945",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064611223174250989",
+      "date": "2026-06-10",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Exactly It’s not social media that’s “inflaming tensions”. It’s not Elon Musk. It’s not Nigel Farage. It’s not the ‘far-right’. It is the very deliberate policy of mass uncontrolled immigration & open borders. This poli...",
+      "summaryEn": "Exactly It’s not social media that’s “inflaming tensions”. It’s not Elon Musk. It’s not Nigel Farage. It’s not the ‘far-right’. It is the very deliberate policy of mass uncontrolled immigration & open borders. This poli...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2064611223174250989",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064491364256035289",
+      "date": "2026-06-10",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Tesla AI chip design engineering reviews are so great! Team is awesome. Our AI6 chip might set a record for most amount of usable intelligence from a wafer when factoring in yield.",
+      "summaryEn": "Tesla AI chip design engineering reviews are so great! Team is awesome. Our AI6 chip might set a record for most amount of usable intelligence from a wafer when factoring in yield.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2064491364256035289",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064489949227868427",
+      "date": "2026-06-10",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Indeed https:// telegraph.co.uk/news/2026/06/0 9/belfast-stabbing-live-somalia-man-arrested-kinnaird-avenue/ … Man attempts to behead another man in the street. \"No evidence of terror at this stage, say police\" If that ...",
+      "summaryEn": "Indeed https:// telegraph.co.uk/news/2026/06/0 9/belfast-stabbing-live-somalia-man-arrested-kinnaird-avenue/ … Man attempts to behead another man in the street. \"No evidence of terror at this stage, say police\" If that ...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2064489949227868427",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064489563150569922",
+      "date": "2026-06-10",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Starlink helping schools in Kenya Starlink is providing connectivity for 30 schools in remote parts of Kenya, improving digital literacy for students and teachers x.com/GrowXEducation…",
+      "summaryEn": "Starlink helping schools in Kenya Starlink is providing connectivity for 30 schools in remote parts of Kenya, improving digital literacy for students and teachers x.com/GrowXEducation…",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2064489563150569922",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064457520748339647",
+      "date": "2026-06-10",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Major improvement in safety statistics with FSD turned on in the Netherlands! In the last 2 months, FSD Supervised has been over 3x safer than manual driving on Dutch roads",
+      "summaryEn": "Major improvement in safety statistics with FSD turned on in the Netherlands! In the last 2 months, FSD Supervised has been over 3x safer than manual driving on Dutch roads",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2064457520748339647",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064603279208931362",
+      "date": "2026-06-10",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "我现在做封面图，都是调用 ChatGPT Image2 的 API 批量生成一波，再来选择。突然明白了之前大厂里面赛马机制的合理性...",
+      "summaryEn": "我现在做封面图，都是调用 ChatGPT Image2 的 API 批量生成一波，再来选择。突然明白了之前大厂里面赛马机制的合理性...",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2064603279208931362",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2064587398529606082",
+      "date": "2026-06-10",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "The barrier for non-technical people using coding agents was never the interface. Chatting is the easiest UI ever invented The barrier is that they don't know what to ask for. The blank chat box assumes you already know...",
+      "summaryEn": "The barrier for non-technical people using coding agents was never the interface. Chatting is the easiest UI ever invented The barrier is that they don't know what to ask for. The blank chat box assumes you already know...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2064587398529606082",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2064486120386379950",
+      "date": "2026-06-10",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "I will be doing a virtual talk this Friday on my vibe coding process. As a non-technical person who has somehow managed to get 30k stars on GitHub, I will be sharing the behind-the-scenes of how I get product ideas, how...",
+      "summaryEn": "I will be doing a virtual talk this Friday on my vibe coding process. As a non-technical person who has somehow managed to get 30k stars on GitHub, I will be sharing the behind-the-scenes of how I get product ideas, how...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2064486120386379950",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2064585238395920395",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "笑死，藏师傅 PPT Skill 也上央视了，感谢腾讯云和 workbuddy",
+      "summaryEn": "笑死，藏师傅 PPT Skill 也上央视了，感谢腾讯云和 workbuddy",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064585238395920395",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "agent"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064576912648015886",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "CodePilot v0.56.0 发布 本次更新的部分修复由 Claude Fable 5 完成。 模型与渠道扩充版本 新增 Claude Fable 5、小米 MiMo UltraSpeed 模型与通用 OpenAI 兼容第三方渠道。 并修复用量统计、回复状态丢失、服务商列表刷新等一批问题。推荐所有用户升级。 https:// github.com/op7418/CodePil ot/releases/tag/v0.56.0 … ...",
+      "summaryEn": "CodePilot v0.56.0 发布 本次更新的部分修复由 Claude Fable 5 完成。 模型与渠道扩充版本 新增 Claude Fable 5、小米 MiMo UltraSpeed 模型与通用 OpenAI 兼容第三方渠道。 并修复用量统计、回复状态丢失、服务商列表刷新等一批问题。推荐所有用户升级。 https:// github.com/op7418/CodePil ot/releases/tag/v0.56.0 … ...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064576912648015886",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064575636082192646",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "我去！没想到 Anthropic 的 Mythos 模型今天真的发布了。 不过他们这次发布的是 Mythos 的一个低配版本，命名为 Fable 5。 它的测评基准非常惊人，甚至比之前的 Mythos Preview 模型还要高。在 Agent Coding 方面，它的主要长处在于 Coding、Agent 以及工具调用，基准得分比 Opus 4.8 高出非常多。 Introducing Claude Fable 5: a Mytho...",
+      "summaryEn": "我去！没想到 Anthropic 的 Mythos 模型今天真的发布了。 不过他们这次发布的是 Mythos 的一个低配版本，命名为 Fable 5。 它的测评基准非常惊人，甚至比之前的 Mythos Preview 模型还要高。在 Agent Coding 方面，它的主要长处在于 Coding、Agent 以及工具调用，基准得分比 Opus 4.8 高出非常多。 Introducing Claude Fable 5: a Mytho...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064575636082192646",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064572793124245998",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "CodePilot v0.56.0 发布 本次更新的部分修复由 Claude Fable 5 完成。 模型与渠道扩充版本 新增 Claude Fable 5、小米 MiMo UltraSpeed 模型与通用 OpenAI 兼容第三方渠道。 并修复用量统计、回复状态丢失、服务商列表刷新等一批问题。推荐所有用户升级。 https:// github.com/op7418/CodePil ot/releases/tag/v0.56.0 … ...",
+      "summaryEn": "CodePilot v0.56.0 发布 本次更新的部分修复由 Claude Fable 5 完成。 模型与渠道扩充版本 新增 Claude Fable 5、小米 MiMo UltraSpeed 模型与通用 OpenAI 兼容第三方渠道。 并修复用量统计、回复状态丢失、服务商列表刷新等一批问题。推荐所有用户升级。 https:// github.com/op7418/CodePil ot/releases/tag/v0.56.0 … ...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064572793124245998",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064564749308953006",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "一些结果： 试了一下，Fable 5 在漏洞分析、bug 寻找这些地方还是很强的。 但是在写代码上，我感觉它也不是万能的，它写出来的代码也会有明显的 bug，需要多次修复才能完成。 所以在这块，我觉得它可能是一个偏科比较严重的模型。 在某些程度上它比 4.8 好了非常多，但在另一些方面，虽然也比 4.8 x.com/op7418/status/…",
+      "summaryEn": "一些结果： 试了一下，Fable 5 在漏洞分析、bug 寻找这些地方还是很强的。 但是在写代码上，我感觉它也不是万能的，它写出来的代码也会有明显的 bug，需要多次修复才能完成。 所以在这块，我觉得它可能是一个偏科比较严重的模型。 在某些程度上它比 4.8 好了非常多，但在另一些方面，虽然也比 4.8 x.com/op7418/status/…",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064564749308953006",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064562215345381472",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "试了一下，Fable 5 在漏洞分析、bug 寻找这些地方还是很强的。 但是在写代码上，我感觉它也不是万能的，它写出来的代码也会有明显的 bug，需要多次修复才能完成。 所以在这块，我觉得它可能是一个偏科比较严重的模型。 在某些程度上它比 4.8 好了非常多，但在另一些方面，虽然也比 4.8 好，但好得有限。 在我 26 万行代码的 CodePilot 代码库中尝试 Fable 5，看一下它能找出多少问题",
+      "summaryEn": "试了一下，Fable 5 在漏洞分析、bug 寻找这些地方还是很强的。 但是在写代码上，我感觉它也不是万能的，它写出来的代码也会有明显的 bug，需要多次修复才能完成。 所以在这块，我觉得它可能是一个偏科比较严重的模型。 在某些程度上它比 4.8 好了非常多，但在另一些方面，虽然也比 4.8 好，但好得有限。 在我 26 万行代码的 CodePilot 代码库中尝试 Fable 5，看一下它能找出多少问题",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064562215345381472",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064525619581657195",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "因为害怕额度问题，所以先让他找问题、写计划，没让他改代码。 结果发现他找问题找得老快了，而且也挺准的",
+      "summaryEn": "因为害怕额度问题，所以先让他找问题、写计划，没让他改代码。 结果发现他找问题找得老快了，而且也挺准的",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064525619581657195",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064522814955368782",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "在我 26 万行代码的 CodePilot 代码库中尝试 Fable 5，看一下它能找出多少问题",
+      "summaryEn": "在我 26 万行代码的 CodePilot 代码库中尝试 Fable 5，看一下它能找出多少问题",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064522814955368782",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064522566711246863",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "亏了呀，早上六点重置了，少用了一些 Fable 5 We've reset usage limits across our products! For those just starting to test Fable, here's four tips for using it more effectively: 1. Give it bigger, more ambitious tasks than what previous m...",
+      "summaryEn": "亏了呀，早上六点重置了，少用了一些 Fable 5 We've reset usage limits across our products! For those just starting to test Fable, here's four tips for using it more effectively: 1. Give it bigger, more ambitious tasks than what previous m...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064522566711246863",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064399444523782377",
+      "date": "2026-06-10",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "我去！没想到 Anthropic 的 Mythos 模型今天真的发布了。 不过他们这次发布的是 Mythos 的一个低配版本，命名为 Fable 5。 它的测评基准非常惊人，甚至比之前的 Mythos Preview 模型还要高。在 Agent Coding 方面，它的主要长处在于 Coding、Agent 以及工具调用，基准得分比 Opus 4.8 高出非常多。 关于 Mythos 5 和 Fable 5 的具体情况如下： 模型定位...",
+      "summaryEn": "我去！没想到 Anthropic 的 Mythos 模型今天真的发布了。 不过他们这次发布的是 Mythos 的一个低配版本，命名为 Fable 5。 它的测评基准非常惊人，甚至比之前的 Mythos Preview 模型还要高。在 Agent Coding 方面，它的主要长处在于 Coding、Agent 以及工具调用，基准得分比 Opus 4.8 高出非常多。 关于 Mythos 5 和 Fable 5 的具体情况如下： 模型定位...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2064399444523782377",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064581169967214996",
+      "date": "2026-06-10",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "起床了，昨晚睡觉前用 claude fable 使用 vas /goal one shot跑出来了 16 个 PR！而且只跑了 41m，我很怀疑成果咋样，还得一个个 PR 分析完了才能做总结 睡前用 claude fable 在 vas 上全面跑一下我发布的十几个项目，让它自动做下 bugfix，醒来看看效果咋样（需要注意 cc 有时候会自动将模型 fallback 到 opus4.8，不一定是全程 fable 跑）",
+      "summaryEn": "起床了，昨晚睡觉前用 claude fable 使用 vas /goal one shot跑出来了 16 个 PR！而且只跑了 41m，我很怀疑成果咋样，还得一个个 PR 分析完了才能做总结 睡前用 claude fable 在 vas 上全面跑一下我发布的十几个项目，让它自动做下 bugfix，醒来看看效果咋样（需要注意 cc 有时候会自动将模型 fallback 到 opus4.8，不一定是全程 fable 跑）",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2064581169967214996",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064579926741917922",
+      "date": "2026-06-10",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "谢天谢地，codex 新版本 app 终于统一了同一台机器的 ws 链接和 ssh 链接显示问题，之前的版本都会显示为 2 个不同的工作空间的不同 session，现在终于合并了！",
+      "summaryEn": "谢天谢地，codex 新版本 app 终于统一了同一台机器的 ws 链接和 ssh 链接显示问题，之前的版本都会显示为 2 个不同的工作空间的不同 session，现在终于合并了！",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2064579926741917922",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2064580026952188281",
+      "date": "2026-06-10",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Fable 5的创意能力很好，写的视频元提示词很到位",
+      "summaryEn": "Fable 5的创意能力很好，写的视频元提示词很到位",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2064580026952188281",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2064577126385459265",
+      "date": "2026-06-10",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "The browser use is really slowing Fable down for me",
+      "summaryEn": "The browser use is really slowing Fable down for me",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2064577126385459265",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2064563041166090672",
+      "date": "2026-06-10",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "wtf does \"big model smell\" mean",
+      "summaryEn": "wtf does \"big model smell\" mean",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2064563041166090672",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2064550073594446059",
+      "date": "2026-06-10",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Btw this is the prompt I used: Build F-Zero: futuristic anti-gravity racer with pseudo-3D track (raycasting or mode-7 style scaling), 3 AI opponents, boost meter that drains health, speed 400-800 km/h with visible sense...",
+      "summaryEn": "Btw this is the prompt I used: Build F-Zero: futuristic anti-gravity racer with pseudo-3D track (raycasting or mode-7 style scaling), 3 AI opponents, boost meter that drains health, speed 400-800 km/h with visible sense...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2064550073594446059",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "agent"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064521408034849019",
+      "date": "2026-06-10",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Did my (very not scientific) F-Zero test for Anthropic's new Fable model. It didn't quite one shot below, I had to give a few more prompts like \"give it more of a sense of speed.\" But still impressive! Quote tweeting wh...",
+      "summaryEn": "Did my (very not scientific) F-Zero test for Anthropic's new Fable model. It didn't quite one shot below, I had to give a few more prompts like \"give it more of a sense of speed.\" But still impressive! Quote tweeting wh...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2064521408034849019",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2064573924692607432",
+      "date": "2026-06-10",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "最近有一个很大的感受， 我们大部分人做副业赚不到钱，真不是不够努力， 以及流传甚广的先发够100条就是骗人的屁话， 纯浪费时间，大家别再信了， 很多人还在用十年前的规则玩今天的游戏， 要知道AI 已经把自媒体副业的玩法整个改写了。 而且很多人没有策略，也不知道方法， 起号之前最重要的是先拆解对标账号，这是一定必须做的， 但拆对标账号放之前是一个非常耗时间精力的活，拆一个赛道起码要熬一周，一条条翻笔记、扒数据，导致很多人偷懒就直接跳过，...",
+      "summaryEn": "最近有一个很大的感受， 我们大部分人做副业赚不到钱，真不是不够努力， 以及流传甚广的先发够100条就是骗人的屁话， 纯浪费时间，大家别再信了， 很多人还在用十年前的规则玩今天的游戏， 要知道AI 已经把自媒体副业的玩法整个改写了。 而且很多人没有策略，也不知道方法， 起号之前最重要的是先拆解对标账号，这是一定必须做的， 但拆对标账号放之前是一个非常耗时间精力的活，拆一个赛道起码要熬一周，一条条翻笔记、扒数据，导致很多人偷懒就直接跳过，...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2064573924692607432",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2064573927511208005",
+      "date": "2026-06-10",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "AI 给普通人的红利大家一定要抓住， 以前只有专业团队能干的事，现在你一个人就能干， 不用比别人聪明，也不用比别人能熬， 只要比别人早会用上好的AI工具， 工具我也放文章里了，AllyHub 目前 Max 免费，可以直接上手。 建议今天抽 1-2个 小时，拆 3 个最近一个月涨起来的 1–5 万粉新号，照着发 3 条， 成了，一个月多赚几千上万，已经有人做到； 不成，你也就搭进去一个下午， 机会从不等人，等所有人都知道它能赚钱时，早没...",
+      "summaryEn": "AI 给普通人的红利大家一定要抓住， 以前只有专业团队能干的事，现在你一个人就能干， 不用比别人聪明，也不用比别人能熬， 只要比别人早会用上好的AI工具， 工具我也放文章里了，AllyHub 目前 Max 免费，可以直接上手。 建议今天抽 1-2个 小时，拆 3 个最近一个月涨起来的 1–5 万粉新号，照着发 3 条， 成了，一个月多赚几千上万，已经有人做到； 不成，你也就搭进去一个下午， 机会从不等人，等所有人都知道它能赚钱时，早没...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2064573927511208005",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2064545362837229726",
+      "date": "2026-06-10",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2064545362837229726",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2064573857911152710",
+      "date": "2026-06-10",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Fable 5 is the biggest model energy I've ever seen",
+      "summaryEn": "Fable 5 is the biggest model energy I've ever seen",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2064573857911152710",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064559225859416186",
+      "date": "2026-06-10",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Just trying to work on fixing GStack and running into this with Fable 5 *long sigh*",
+      "summaryEn": "Just trying to work on fixing GStack and running into this with Fable 5 *long sigh*",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2064559225859416186",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064519190061666393",
+      "date": "2026-06-10",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "I eat Aaron Peskin's hate for breakfast. Guys, we're winning. It feels good. Aaron Peskin is no public servant. He was all along just a grifter trying to protect his views at the expense of the people. We are the real p...",
+      "summaryEn": "I eat Aaron Peskin's hate for breakfast. Guys, we're winning. It feels good. Aaron Peskin is no public servant. He was all along just a grifter trying to protect his views at the expense of the people. We are the real p...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2064519190061666393",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064569513023328268",
+      "date": "2026-06-10",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "This is a critical post to read if you’re building an applied AI company right now. “An application earns its place in the untrainable corner by doing unglamorous work: arranging a company's private reality so a model c...",
+      "summaryEn": "This is a critical post to read if you’re building an applied AI company right now. “An application earns its place in the untrainable corner by doing unglamorous work: arranging a company's private reality so a model c...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2064569513023328268",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2064557188862144835",
+      "date": "2026-06-10",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "人一旦被不安感占据，很难理性行动。",
+      "summaryEn": "人一旦被不安感占据，很难理性行动。",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2064557188862144835",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2064524297469653459",
+      "date": "2026-06-10",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "做了个Opus4.8和Fable5的svg动画对比，差距还是挺明显的。Fable5里的鹈鹕看起来是个合格的美团骑手了",
+      "summaryEn": "做了个Opus4.8和Fable5的svg动画对比，差距还是挺明显的。Fable5里的鹈鹕看起来是个合格的美团骑手了",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2064524297469653459",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "agent"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2064508462034501997",
+      "date": "2026-06-10",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "For the prompt, in Claude app with research mode on - I dumped the transcript for the episode, have it research all the scurves in history, figure out all the sections and give me a Claude code prompt that I could one s...",
+      "summaryEn": "For the prompt, in Claude app with research mode on - I dumped the transcript for the episode, have it research all the scurves in history, figure out all the sections and give me a Claude code prompt that I could one s...",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2064508462034501997",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2064506504888373758",
+      "date": "2026-06-10",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "I was listening to the latest episode of @InvestLikeBest and it talked a lot about S-curves.. So I had Fable one shot a website that talked about all the S-curves, their inflection point & commentary on each being a bub...",
+      "summaryEn": "I was listening to the latest episode of @InvestLikeBest and it talked a lot about S-curves.. So I had Fable one shot a website that talked about all the S-curves, their inflection point & commentary on each being a bub...",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2064506504888373758",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2064496537036800114",
+      "date": "2026-06-10",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "Claude Fable 5 的三个很奇葩的地方 1. 虽然目前在 Token Plan 里，但在6月22日之后，Token Plan 就不能用 Fable 了，只能通过 API 调用 2. Fable 的安全护栏有点离谱，任何生物学的基础知识都无法询问，比如「线粒体是什么」这种初中生物的问题，想研究生物医药？只能申请 Mythos 3. Fable",
+      "summaryEn": "Claude Fable 5 的三个很奇葩的地方 1. 虽然目前在 Token Plan 里，但在6月22日之后，Token Plan 就不能用 Fable 了，只能通过 API 调用 2. Fable 的安全护栏有点离谱，任何生物学的基础知识都无法询问，比如「线粒体是什么」这种初中生物的问题，想研究生物医药？只能申请 Mythos 3. Fable",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2064496537036800114",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064493671060525079",
+      "date": "2026-06-10",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "自此，Claude 的产品线完整，整条线都是用艺术作品在命名： Haiku — 俳句，极简短小，一瞬即永恒 Sonnet — 十四行诗，结构严谨，意境深远 Opus — 拉丁语的作品，特指分量最重的那一部 Fable — 寓言，故事包裹深意，人人读得懂 Mythos — 神话，宏大叙事，世界观的底座",
+      "summaryEn": "自此，Claude 的产品线完整，整条线都是用艺术作品在命名： Haiku — 俳句，极简短小，一瞬即永恒 Sonnet — 十四行诗，结构严谨，意境深远 Opus — 拉丁语的作品，特指分量最重的那一部 Fable — 寓言，故事包裹深意，人人读得懂 Mythos — 神话，宏大叙事，世界观的底座",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2064493671060525079",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064478720250044757",
+      "date": "2026-06-10",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "A 社有毒啊，新模型被禁止用来做模型相关开发。。。 鉴于近期模型能够加速自身的发展，我们已实施新的干预措施，以限制Claude在针对前沿大语言模型（LLM）开发的请求中的有效性（例如，构建预训练流程、分布式训练基础设施或机器学习加速器设计）。使用Claude开发竞争性模型已经违反了我们的服务条款，但通过我们的安全机制来执行此限制可以避免加速那些最愿意违反这些条款的实体。 与我们在网络安全、生物化学和蒸馏尝试方面的干预措施不同，这些安全...",
+      "summaryEn": "A 社有毒啊，新模型被禁止用来做模型相关开发。。。 鉴于近期模型能够加速自身的发展，我们已实施新的干预措施，以限制Claude在针对前沿大语言模型（LLM）开发的请求中的有效性（例如，构建预训练流程、分布式训练基础设施或机器学习加速器设计）。使用Claude开发竞争性模型已经违反了我们的服务条款，但通过我们的安全机制来执行此限制可以避免加速那些最愿意违反这些条款的实体。 与我们在网络安全、生物化学和蒸馏尝试方面的干预措施不同，这些安全...",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2064478720250044757",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064466797584437480",
+      "date": "2026-06-10",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "今天 Claude Fable 5 正式上线，基于 Mythos 的底座，但增加了安全护栏。 Falbe 5 是 Claude 4.5 以来最重大的模型进步。 也是当下人类能广泛使用的最好的模型。 你可以给这个模型更具雄心的大任务，模型会理解并完美地执行，你完全不需要去查看代码。 刚刚加入 A 社的 Andrej Kapathy 如此评价： Free you mind，解放你的思想！ Fable 5 的模型指标毫无意外的强。 在几乎所...",
+      "summaryEn": "今天 Claude Fable 5 正式上线，基于 Mythos 的底座，但增加了安全护栏。 Falbe 5 是 Claude 4.5 以来最重大的模型进步。 也是当下人类能广泛使用的最好的模型。 你可以给这个模型更具雄心的大任务，模型会理解并完美地执行，你完全不需要去查看代码。 刚刚加入 A 社的 Andrej Kapathy 如此评价： Free you mind，解放你的思想！ Fable 5 的模型指标毫无意外的强。 在几乎所...",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2064466797584437480",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064469227499929651",
+      "date": "2026-06-10",
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "role": "Claude Code @anthropicai",
+      "avatar": "BC",
+      "summary": "Enjoy! We've reset 5-hour and weekly rate limits for all users. Enjoy Fable 5!",
+      "summaryEn": "Enjoy! We've reset 5-hour and weekly rate limits for all users. Enjoy Fable 5!",
+      "analysis": "",
+      "url": "https://x.com/bcherny/status/2064469227499929651",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2064467657483829441",
+      "date": "2026-06-10",
+      "name": "Alex Albert",
+      "handle": "alexalbert__",
+      "role": "Research @AnthropicAI . Opinions are my own!",
+      "avatar": "AA",
+      "summary": "We've reset usage limits across our products! For those just starting to test Fable, here's four tips for using it more effectively: 1. Give it bigger, more ambitious tasks than what previous models could handle. 2. Use...",
+      "summaryEn": "We've reset usage limits across our products! For those just starting to test Fable, here's four tips for using it more effectively: 1. Give it bigger, more ambitious tasks than what previous models could handle. 2. Use...",
+      "analysis": "",
+      "url": "https://x.com/alexalbert__/status/2064467657483829441",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model"
+      ],
+      "primaryTopic": "product"
+    }
+  ]
+}

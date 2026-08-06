@@ -1,0 +1,601 @@
+{
+  "date": "2026-04-27",
+  "builderCount": 9,
+  "postCount": 30,
+  "topTopics": [
+    "design",
+    "business",
+    "model",
+    "agent",
+    "enterprise"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2048375477119717844",
+    "2048301445548773429",
+    "2048275702152413335"
+  ],
+  "posts": [
+    {
+      "id": "2048605267445866997",
+      "date": "2026-04-27",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "优化了一些体验，现在应该挺好用了。每个Markdown样式都可以自定义，纯html文件任何AI都能改。 使用地址： https:// gordensun.github.io/WX/ 用Claude Design做了个公众号排版器 粘贴Markdown文件，自动排版。预置了5个排版，也支持自定义排版，所有Markdown的标识都能自定义，并可以导出为json分享给其他人。 单html文件，纯前端处理，内置的样式不满意或者想加样式都可以直...",
+      "summaryEn": "优化了一些体验，现在应该挺好用了。每个Markdown样式都可以自定义，纯html文件任何AI都能改。 使用地址： https:// gordensun.github.io/WX/ 用Claude Design做了个公众号排版器 粘贴Markdown文件，自动排版。预置了5个排版，也支持自定义排版，所有Markdown的标识都能自定义，并可以导出为json分享给其他人。 单html文件，纯前端处理，内置的样式不满意或者想加样式都可以直...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2048605267445866997",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048440081808339223",
+      "date": "2026-04-27",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "失联2个多月，我用了8年的机场竟然满血复活了。。。",
+      "summaryEn": "失联2个多月，我用了8年的机场竟然满血复活了。。。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2048440081808339223",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048437050622492723",
+      "date": "2026-04-27",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "AI资讯日报，4月26日： https:// gorden-sun.notion.site/4-26-AI-34e594 247325805db92ec510274a7bb1?source=copy_link …",
+      "summaryEn": "AI资讯日报，4月26日： https:// gorden-sun.notion.site/4-26-AI-34e594 247325805db92ec510274a7bb1?source=copy_link …",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2048437050622492723",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048431253066743962",
+      "date": "2026-04-27",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Cursor Agent消耗token有点猛，我修改单个html文件（一共就4万token），对话了3轮，直接干了4000多万token。我之前用Claude，也就是Pro订阅5小时的用量。 不过Cursor Agent效果是真的好，一次性都能完成任务，还覆盖了测试流程。 谢谢Cursor的1万刀额度，这个月猛猛干！",
+      "summaryEn": "Cursor Agent消耗token有点猛，我修改单个html文件（一共就4万token），对话了3轮，直接干了4000多万token。我之前用Claude，也就是Pro订阅5小时的用量。 不过Cursor Agent效果是真的好，一次性都能完成任务，还覆盖了测试流程。 谢谢Cursor的1万刀额度，这个月猛猛干！",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2048431253066743962",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048385307960361052",
+      "date": "2026-04-27",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Claude Opus 4.7的原生视觉多模态能力绝对被低估了，Opus 4.6的时候，我提供高大上的PPT模板，Opus 4.6能基于模板修改内容，基本能保证排版不变； Opus 4.7我试着只提供图片参考，Opus",
+      "summaryEn": "Claude Opus 4.7的原生视觉多模态能力绝对被低估了，Opus 4.6的时候，我提供高大上的PPT模板，Opus 4.6能基于模板修改内容，基本能保证排版不变； Opus 4.7我试着只提供图片参考，Opus",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2048385307960361052",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048374188462030999",
+      "date": "2026-04-27",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "张驰的采访，没有什么新鲜的内容，但是我整理成文章发到公众号上之后，数据比之前的文章好的多，也同步发在X上吧。 我是把原博客语音转文本，然后跟AI一块写的文章。没有什么夸张的成分，情况就是这么个情况。",
+      "summaryEn": "张驰的采访，没有什么新鲜的内容，但是我整理成文章发到公众号上之后，数据比之前的文章好的多，也同步发在X上吧。 我是把原博客语音转文本，然后跟AI一块写的文章。没有什么夸张的成分，情况就是这么个情况。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2048374188462030999",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2048373641856077972",
+      "date": "2026-04-27",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2048373641856077972",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048582487547183471",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说个扎心到骨子里的真相，你所有的半途而废，其实根本就不是意志力的问题。 Dan Koe这篇一点也不鸡汤，把为什么你反复失败的根源挖到了进化论、模因（memes）和身份认同的最底层，具体拆解如下，共勉！",
+      "summaryEn": "说个扎心到骨子里的真相，你所有的半途而废，其实根本就不是意志力的问题。 Dan Koe这篇一点也不鸡汤，把为什么你反复失败的根源挖到了进化论、模因（memes）和身份认同的最底层，具体拆解如下，共勉！",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048582487547183471",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048569095533076971",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个最关键的点，不用做的很复杂，先做一个最小可行的闭环，哪怕只是一个能帮你自己整理笔记的小工具，只要公开上线了，就比90%的人强",
+      "summaryEn": "补充一个最关键的点，不用做的很复杂，先做一个最小可行的闭环，哪怕只是一个能帮你自己整理笔记的小工具，只要公开上线了，就比90%的人强",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048569095533076971",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048569090806096055",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说个扎心的真相，90%的AI工程师，其实什么都没做出来 Cluely的CEO Roy Lee在NYU做活动，当场掏500美元现金，问在场所有学AI的学生和工程师，谁在LinkedIn上真正上线过一个公开的项目，结果全场几乎没人举手。",
+      "summaryEn": "说个扎心的真相，90%的AI工程师，其实什么都没做出来 Cluely的CEO Roy Lee在NYU做活动，当场掏500美元现金，问在场所有学AI的学生和工程师，谁在LinkedIn上真正上线过一个公开的项目，结果全场几乎没人举手。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048569090806096055",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048413131664134521",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个最狠的细节，LeCun说硅谷太多人被LLM洗脑了，所以他把公司总部设在了巴黎，咱就是说从第一天就是全球化布局 @amilabs",
+      "summaryEn": "补充一个最狠的细节，LeCun说硅谷太多人被LLM洗脑了，所以他把公司总部设在了巴黎，咱就是说从第一天就是全球化布局 @amilabs",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048413131664134521",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048412087123136879",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "卧槽，我看到这个消息的时候真的差点跳起来，LeCun终于赢了 他的AMI Labs成立才一个月，只有12个人，拿了10.3亿美元的种子轮， 投前估值35亿美元——欧洲有史以来最大的种子轮，也是AI行业最夸张的一次早期融资。 过去五年，LeCun就像孤独的战士，所有人都在疯狂堆LLM、信规模法则， 图灵奖获得者、 AI 三大教父之一的 LeCun在达沃斯的发言，算是把整个硅谷的遮羞布扯了。 他说现在整个行业都被LLM彻底洗脑了，所有人都...",
+      "summaryEn": "卧槽，我看到这个消息的时候真的差点跳起来，LeCun终于赢了 他的AMI Labs成立才一个月，只有12个人，拿了10.3亿美元的种子轮， 投前估值35亿美元——欧洲有史以来最大的种子轮，也是AI行业最夸张的一次早期融资。 过去五年，LeCun就像孤独的战士，所有人都在疯狂堆LLM、信规模法则， 图灵奖获得者、 AI 三大教父之一的 LeCun在达沃斯的发言，算是把整个硅谷的遮羞布扯了。 他说现在整个行业都被LLM彻底洗脑了，所有人都...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048412087123136879",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048401130628026641",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Hollywood is over. 讲真，这要是真的Netflix版水浒传，我直接买票刷十遍 莱昂纳多演宋江，那股子藏在忧郁里的城府，及时雨的权谋感直接拉满，感觉下一秒就要在浔阳楼题反诗了 hhh 锤哥演李逵，雷神的身板加上黑旋风的暴躁，这压迫感，谁看了不腿软 很多人总说AI没用，我觉得那是因为你光刷不用，真正能赚钱的人早就闷声发大财了。 分享一个用 AI 做副业的路子， 有点野，基本上算零门槛，见钱快(｀・ω・´) 为啥说零门槛：...",
+      "summaryEn": "Hollywood is over. 讲真，这要是真的Netflix版水浒传，我直接买票刷十遍 莱昂纳多演宋江，那股子藏在忧郁里的城府，及时雨的权谋感直接拉满，感觉下一秒就要在浔阳楼题反诗了 hhh 锤哥演李逵，雷神的身板加上黑旋风的暴躁，这压迫感，谁看了不腿软 很多人总说AI没用，我觉得那是因为你光刷不用，真正能赚钱的人早就闷声发大财了。 分享一个用 AI 做副业的路子， 有点野，基本上算零门槛，见钱快(｀・ω・´) 为啥说零门槛：...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048401130628026641",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048375477119717844",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "翻墙出来一定要多看优质的信息源，不要只是出来看片！多逛英推区宝藏，看不懂听不懂阿绎给你翻译拆解系列03： 这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流， 看完之后我发现，核心就三件事，但每一件都跟大多数人的直觉相反： 第一，永远选最贵最聪明的模型 兄弟们，DeepSeek V4 Pro在ZenMux上免费放开了，登录就能跑，实测能替掉你80%的Claude活。视频是我早上实测的和Claud...",
+      "summaryEn": "翻墙出来一定要多看优质的信息源，不要只是出来看片！多逛英推区宝藏，看不懂听不懂阿绎给你翻译拆解系列03： 这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流， 看完之后我发现，核心就三件事，但每一件都跟大多数人的直觉相反： 第一，永远选最贵最聪明的模型 兄弟们，DeepSeek V4 Pro在ZenMux上免费放开了，登录就能跑，实测能替掉你80%的Claude活。视频是我早上实测的和Claud...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048375477119717844",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048295235730473303",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "原图和 seedance2 Prompt： 西汉史诗，雪地战场，电影级质感，冷色调，白登之围，汉军与匈奴骑兵对峙，宏大战场，风雪交加，15秒短视频，分镜头脚本： 1.",
+      "summaryEn": "原图和 seedance2 Prompt： 西汉史诗，雪地战场，电影级质感，冷色调，白登之围，汉军与匈奴骑兵对峙，宏大战场，风雪交加，15秒短视频，分镜头脚本： 1.",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048295235730473303",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048295213387362466",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "视频是用Rita 做的，不排队，不降智，超级香，必冲兄弟们 Rita(新用户送100积分):",
+      "summaryEn": "视频是用Rita 做的，不排队，不降智，超级香，必冲兄弟们 Rita(新用户送100积分):",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048295213387362466",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048295204591968653",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Damn， 我怎么也想不到，2026年的今天，我这种连剪映都用不利索的纯小白，用Seedance 2.0花了几分钟，居然手搓出了一个刘邦白登之围的历史大片。 兄弟们看这大雪漫天， 兵临城下，旌旗猎猎，雪原围城， 匈奴骑兵压境的那种窒息感，全出来了，这股从屏幕里渗出来的肃杀劲儿，我自己看了都起鸡皮疙瘩。 兄弟们，挖到一个好东西，必须分享出来，直接说结论： 目前能跑原版Seedance 2.0、不排队、不降智、 还能传真人照片生成真人视频...",
+      "summaryEn": "Damn， 我怎么也想不到，2026年的今天，我这种连剪映都用不利索的纯小白，用Seedance 2.0花了几分钟，居然手搓出了一个刘邦白登之围的历史大片。 兄弟们看这大雪漫天， 兵临城下，旌旗猎猎，雪原围城， 匈奴骑兵压境的那种窒息感，全出来了，这股从屏幕里渗出来的肃杀劲儿，我自己看了都起鸡皮疙瘩。 兄弟们，挖到一个好东西，必须分享出来，直接说结论： 目前能跑原版Seedance 2.0、不排队、不降智、 还能传真人照片生成真人视频...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048295204591968653",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048278723799941453",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个最简单的测试方法，问你的Agent我们三周前否决过哪个方案，为什么，如果它答不上来，或者答得乱七八糟，那你的记忆系统就是假的",
+      "summaryEn": "补充一个最简单的测试方法，问你的Agent我们三周前否决过哪个方案，为什么，如果它答不上来，或者答得乱七八糟，那你的记忆系统就是假的",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048278723799941453",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048278717793722747",
+      "date": "2026-04-27",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说个暴论，现在90%的AI Agent记忆，全都是假的。 我之前也踩过这个坑，把所有历史记录决策日志全堆进Markdown文件里，以为这就是给Agent加了长期记忆，结果用了两周就崩了，",
+      "summaryEn": "说个暴论，现在90%的AI Agent记忆，全都是假的。 我之前也踩过这个坑，把所有历史记录决策日志全堆进Markdown文件里，以为这就是给Agent加了长期记忆，结果用了两周就崩了，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048278717793722747",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048379297727938991",
+      "date": "2026-04-27",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "my claw when i ask it a basic question",
+      "summaryEn": "my claw when i ask it a basic question",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2048379297727938991",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048301445548773429",
+      "date": "2026-04-27",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "一个奇怪的现象，昨天在杭州的PM产品大会做了个小分享。没想到认识我的人挺多的。 不过，更奇怪的是，其实我B站、小红书、公众号、YouTube的粉丝都比X要多，但是很多人聊到从哪关注我的时候，反而是通过X的比较多。 为什么你不应该关注我，而是关注其他AI KOL / 独立开发者 / 技术人... 1、因为我技术很差，我上了AppStore付费榜第一的「小猫补光灯Pro」完全是个demo，算不上产品，都是AI写的代码。",
+      "summaryEn": "一个奇怪的现象，昨天在杭州的PM产品大会做了个小分享。没想到认识我的人挺多的。 不过，更奇怪的是，其实我B站、小红书、公众号、YouTube的粉丝都比X要多，但是很多人聊到从哪关注我的时候，反而是通过X的比较多。 为什么你不应该关注我，而是关注其他AI KOL / 独立开发者 / 技术人... 1、因为我技术很差，我上了AppStore付费榜第一的「小猫补光灯Pro」完全是个demo，算不上产品，都是AI写的代码。",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2048301445548773429",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048275702152413335",
+      "date": "2026-04-27",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "为什么你不应该关注我，而是关注其他AI KOL / 独立开发者 / 技术人... 1、因为我技术很差，我上了AppStore付费榜第一的「小猫补光灯Pro」完全是个demo，算不上产品，都是AI写的代码。",
+      "summaryEn": "为什么你不应该关注我，而是关注其他AI KOL / 独立开发者 / 技术人... 1、因为我技术很差，我上了AppStore付费榜第一的「小猫补光灯Pro」完全是个demo，算不上产品，都是AI写的代码。",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2048275702152413335",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048292547966210069",
+      "date": "2026-04-27",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "中国群友的幻想集合： 1. 自动化做自媒体 2. 自动炒股票赚钱 这些都是普通人都能参与的玩意",
+      "summaryEn": "中国群友的幻想集合： 1. 自动化做自媒体 2. 自动炒股票赚钱 这些都是普通人都能参与的玩意",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2048292547966210069",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048290087318773807",
+      "date": "2026-04-27",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Releaseing GBrain v0.22 - lots of fixes to search and retireval and a new eval system (gbrain-evals is now a separate repo to prevent checkout bloat)",
+      "summaryEn": "Releaseing GBrain v0.22 - lots of fixes to search and retireval and a new eval system (gbrain-evals is now a separate repo to prevent checkout bloat)",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048290087318773807",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048279121034101147",
+      "date": "2026-04-27",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "To install for free, Go to Claude Code and type Install GStack and to run the browser, type /open-gstack-browser",
+      "summaryEn": "To install for free, Go to Claude Code and type Install GStack and to run the browser, type /open-gstack-browser",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048279121034101147",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048278995121094868",
+      "date": "2026-04-27",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Did you ever want to control your browser side-by-side with Claude Code? Now, with /open-gstack-browser skill and GStack Browser, you can",
+      "summaryEn": "Did you ever want to control your browser side-by-side with Claude Code? Now, with /open-gstack-browser skill and GStack Browser, you can",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048278995121094868",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048275589224628677",
+      "date": "2026-04-27",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Summarize 0.14.0 is out. GPT-5.5 Fast mode via `--fast`, Reddit thread extraction in the browser extension, local PDF `--extract`, and fixes for auto model config + Meta site compatibility.",
+      "summaryEn": "Summarize 0.14.0 is out. GPT-5.5 Fast mode via `--fast`, Reddit thread extraction in the browser extension, local PDF `--extract`, and fixes for auto model config + Meta site compatibility.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2048275589224628677",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048271866914083172",
+      "date": "2026-04-27",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Yeah Elon summed up his entire philosophy in 3 words: “My philosophy is curiosity & adventure.” No corporate fluff. No mission statements. Just pure wonder + the balls to explore the universe He’s him. x.com/MarioNawfal...",
+      "summaryEn": "Yeah Elon summed up his entire philosophy in 3 words: “My philosophy is curiosity & adventure.” No corporate fluff. No mission statements. Just pure wonder + the balls to explore the universe He’s him. x.com/MarioNawfal...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048271866914083172",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048271324577952130",
+      "date": "2026-04-27",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Major Luigi Leftism is a serious problem",
+      "summaryEn": "Major Luigi Leftism is a serious problem",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048271324577952130",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048265772775162078",
+      "date": "2026-04-27",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "2000s: every company is an internet company 2010s: every company is a software company 2020s: every company is an AI company 2025+: every company is a cybersecurity company",
+      "summaryEn": "2000s: every company is an internet company 2010s: every company is a software company 2020s: every company is an AI company 2025+: every company is a cybersecurity company",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2048265772775162078",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure",
+        "enterprise"
+      ],
+      "primaryTopic": "infrastructure"
+    }
+  ]
+}

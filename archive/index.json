@@ -1,0 +1,4811 @@
+[
+  {
+    "date": "2026-08-06",
+    "builderCount": 10,
+    "postCount": 16,
+    "topTopics": [
+      "product",
+      "design",
+      "model",
+      "media",
+      "business"
+    ],
+    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "highlights": [
+      {
+        "id": "2085200776159490111",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：Correct take. 99% of tokens in the world will get consumed in an enterprise context. They will be for writing...。Aaron Levie 的身份接近“ceo @box - your busines…",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "topic": "product",
+        "url": "https://x.com/levie/status/2085200776159490111"
+      },
+      {
+        "id": "2085203402699821505",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：扎克伯格又掀桌子！ 他们发了一个新的模型 Muse Spark 1.2 和 Muse Code 编程 Agent。 这玩意价钱便宜得相当于白送，前提是你同意他们的数据收集要求。 当然，你要想用 Meta 的模型，比用 A...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 …",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "product",
+        "url": "https://x.com/op7418/status/2085203402699821505"
+      },
+      {
+        "id": "2085208566177071356",
+        "text": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：突发：DeepSeek刚宣布要大幅涨价了！ 网友：梁圣要变小梁了吗 不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务kno…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2085208566177071356"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "builderCount": 21,
+    "postCount": 53,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "product",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2084832894049038587",
+        "text": "AI一定是要自己多上手玩，感受和认知会完全不一样， 这两天深度玩了下大模型纯代码建模，感觉整个机械设计、工业设计、产品原型的工作流，要被彻底重写了。 有个很强的感受，就是SolidWorks、Fusion、AutoCAD， 这些要从必须用的建模工具变成 AI 生成后的后处理工具了。 诺兰新片《奥德赛》下周就要在中国上映了， 我用今天刚正式发布的一个国产大模…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2084832894049038587"
+      },
+      {
+        "id": "2084836896166097261",
+        "text": "Pika有意思，他们开始搞多模态模型的 Token Club，推出了一个会员服务叫 Pika API Club。 里面包含了几乎所有的图像、视频、LLM模型服务，而且都有不同程度的折扣。 比如 Seedance 2.0、MiniMax H3、可灵（Kling），还有 GPT-Image-2.0 等都有。 完全可以充了以后，打包个 Skills Today,…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2084836896166097261"
+      },
+      {
+        "id": "2084832796045152739",
+        "text": "一直知道 Notebook LM 是很多人用来做 deep research 然后生成 PPT 学习，没想到 YouMind 在这块做得也非常好。 果然，“彦祖所见略同”。 EverMe 月底要上线的版本也有 deep research， 是我们自己的基模 @miromind_ai 的 MiroThinker 模型。 我们也能生成 PPT 用来学习。 一句…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2084832796045152739"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "builderCount": 16,
+    "postCount": 47,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "product",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2084428932888375396",
+        "text": "看过的对 harness 最通俗易懂的解读，没有之一。 把 agent 比作研发师，把 harness 比作厨房，要做好蛋糕，是 agent 重要还是 harness 重要？ 形象解读 Harness，小白也能理解。 一个厉害的研发师，可以在实验室做出一块很好吃的蛋糕。但把它变成商业化产品，难点不是照着配方再做一次，而是换一批原料、换一台设备、换一个操作员…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2084428932888375396"
+      },
+      {
+        "id": "2084415670486499779",
+        "text": "We built a self-driving & self-correcting shared semantic layer on top of our databases, conversations, and docs. Everything is queryable & joinable—regardless of source! So now a…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "design",
+        "url": "https://x.com/amasad/status/2084415670486499779"
+      },
+      {
+        "id": "2084327310786724312",
+        "text": "holy。。。 Qwen 3.8 在 TerminalBench 上分数已经略超 Fable 5（86.6 vs 84.6）的情况下，价格却只有它的零头， 简直有点离谱，性价比差距太大了！ 诺兰新片《奥德赛》下周就要在中国上映了， 我用今天刚正式发布的一个国产大模型， 把他《星际穿越》里最封神的 Gargantua 黑洞， 直接写进了网页里。 不是贴个黑圈…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2084327310786724312"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "builderCount": 15,
+    "postCount": 55,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "other",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2084172803281138077",
+        "text": "到底有多少人在做类似产品 Announcing OpenWorker! An open-source agent that doesn't just chat with you, but delivers finished work -- like hand you a polished document, send a slack message, or…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2084172803281138077"
+      },
+      {
+        "id": "2084098252824051815",
+        "text": "用Claude Code的所有人都被这个问题恶心过吧， 它动不动就给你生成几百行完全没必要的代码， 明明标准库一行就能解决的事， 它非要给你造个轮子， token烧得飞快，项目越来越臃肿， 最后维护起来比自己写还累。 现在有个叫Ponytail的开源插件， 直接把这个问题从根上解决了， 它做的事特别简单，",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2084098252824051815"
+      },
+      {
+        "id": "2084110585722228893",
+        "text": "Minimax开源Minimax H3 33B的视频Transformer + 32B的Qwen3-VL-32B文本与视频编码器，模型文件大小就65G，一般家庭跑不起来，生成768p视频至少A100起。 模型： https:// huggingface.co/MiniMaxAI/Mini Max-H3 …",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2084110585722228893"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "builderCount": 16,
+    "postCount": 50,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "agent",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2083785472782766446",
+        "text": "说个内行才懂的大厂招人真相，阿里，腾讯，字节等这些大厂这么多年卡学历本质上是在买方差。 因为招错一个人的成本是他年薪的3到5倍，这其实就是大厂卡学历最真实的底层逻辑， 这两天脉脉上这个阿里员工的帖子传得很火，我看底下一堆人附和终于有人说真话了之类的， 一位阿里员工发文： “晚上下班前刷会手机，看见他媳妇发的讣告。 昨天晚上临近下班前在公司摸会鱼刷一会手机，…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2083785472782766446"
+      },
+      {
+        "id": "2083738503851258201",
+        "text": "When asked that question, send them a copy of The Innovator’s Dilemma > Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Goo…",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "topic": "product",
+        "url": "https://x.com/zarazhangrui/status/2083738503851258201"
+      },
+      {
+        "id": "2083594381748302160",
+        "text": "Can someone at @openai look into this bug with plugins? Try to ship my /no-ai-slop skill as a plugin and this is messing up the user experience.",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2083594381748302160"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "builderCount": 4,
+    "postCount": 22,
+    "topTopics": [
+      "business",
+      "design",
+      "model",
+      "agent",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2083401614623133921",
+        "text": "真绝了啊，兄弟们说出来你们可能不信， AI历史上第一次全自主Agent网络攻击， 攻击者是 @OpenAI 没发布的秘密模型， 被攻击的是 @huggingface ， 最后帮他们完成取证的,是中国的开源模型GLM 5.2， @Zai_org 这事真的比科幻片离谱， 7月9号,跑安全测试， 安全分类器全关， We got attacked by secre…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2083401614623133921"
+      },
+      {
+        "id": "2083271751312507336",
+        "text": "the state of the apple app store review process & traction these is so bad almost every consumer company i know is rethinking their entire product strategy just to avoid it",
+        "handle": "alonzuman",
+        "name": "alon",
+        "topic": "product",
+        "url": "https://x.com/alonzuman/status/2083271751312507336"
+      },
+      {
+        "id": "2083404330518958321",
+        "text": "补充：这是内部测试，但攻击路径,0day，进生产环境这些都是真的，下面是 @huggingface 官方发布的复盘文章",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2083404330518958321"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "builderCount": 19,
+    "postCount": 62,
+    "topTopics": [
+      "design",
+      "model",
+      "agent",
+      "product",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2082723751515521116",
+        "text": "Memmy 的 三层记忆系统设计有意思，对应人的三种记忆模式： L1 事实记忆 → L2 程序记忆 → L3 规律认知 → Skill（复用经验） 试着在 Codex 中添加了一些我的信息，换到 Claude Code 问：“我喜欢什么？” Agent 会调用 Cli 回答，感觉还挺方便的。 还会自动基于 Agent 终于有人出手解决这个痛点了，不同 Ag…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2082723751515521116"
+      },
+      {
+        "id": "2082705390358212687",
+        "text": "Grok Build update Grok Build new update brings richer headless streaming with tool calls and usage, a new /undo alias for rewind, smarter slash-command mode support, and more reli…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "model",
+        "url": "https://x.com/elonmusk/status/2082705390358212687"
+      },
+      {
+        "id": "2082673948404208034",
+        "text": "True Haiti and the Dominican Republic are on the same island. The Dominican Republic basically has built their version of the Gaza border in order to keep the Haitians out of thei…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2082673948404208034"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "builderCount": 2,
+    "postCount": 4,
+    "topTopics": [
+      "other",
+      "design",
+      "enterprise",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、企业 AI、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2082273076352315440",
+        "text": "or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming Something I wish I’d been told at 19: when you bounce off a …",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "other",
+        "url": "https://x.com/danshipper/status/2082273076352315440"
+      },
+      {
+        "id": "2082242420369191271",
+        "text": "昨晚很荣幸，和慕尼黑大学的 Peter Gritzmann 教授、南京大学的 Xiaolin Xu 教授一起，受邀参加筑波大学的一场线上圆桌。 朱東浩老师很有号召力，现场来了不少朋友。到了 Q&A 环节，有位观众问了一个让我印象很深的问题： 在 AI Agents",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2082242420369191271"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "builderCount": 16,
+    "postCount": 38,
+    "topTopics": [
+      "design",
+      "model",
+      "media",
+      "business",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2081978784136491298",
+        "text": "刷了下去年8月张小珺访谈Kimi创始人杨植麟的播客， 这期视频其实把 Kimi 的开源底牌说的蛮透的， 能感受到理工男的那种真诚和纯粹， 我剪了个比较干货的片段大家可以看下， 我理解开源对国产大模型来讲是一个很好的策略，同时也能持续把真正的技术 know-how，分享给整个社区。 我操！@kimi_moonshot 月之暗面这波是真的疯了！ 2.8T 参数…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2081978784136491298"
+      },
+      {
+        "id": "2081937697132949900",
+        "text": "Anthropic 终于就关于 AI 开源生态的事发声了。 先是说不主张全面禁止开源模型，然后还有三个“但是”，继续兜售他通过安全限制开源模型的套路： 1. 不向中国出售先进芯片以及先进芯片制造设备 2. 打击工业蒸馏操作 3. 所有足够强大的模型都必须强制通过安全测试 依旧充满了对中国和中国人的敌意，同时猛拍特朗普马屁。 我们所熟知的所有美国和一些欧洲的…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2081937697132949900"
+      },
+      {
+        "id": "2081938548626960823",
+        "text": "Kimi K3 已经在多家推理服务上线，大家的 API 价格神奇的保持了一致 但是一些 Token plan 已经开始打折了，比如 OpenCode Zen 和 Cline Pass，Cursor 给的额度估计也不低 Kimi K3 已经如期开源，各位估计明天就能在各大平台的 Token Plan 使用 Kimi K3 了 x.com/op7418/sta…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2081938548626960823"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "builderCount": 7,
+    "postCount": 21,
+    "topTopics": [
+      "business",
+      "design",
+      "enterprise",
+      "other",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2081543119779012985",
+        "text": "第 1 名：ai-agent-book 《深入理解 AI Agent》完整开源书 + 配套代码。10 章覆盖上下文工程、记忆/知识库、工具调用、Coding Agent、评估、多 Agent 协作，配 **90+ 可运行实验**。本周星标暴增最猛之一，想系统学 Agent 的直接收。 https:// github.com/bojieli/ai-age n…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2081543119779012985"
+      },
+      {
+        "id": "2081593772065079721",
+        "text": "哈，Skill Hub 上周随手发了一下，当天 UV 500+，看来是小刚需。 其他 Skill Hub 拼收录数量，而我们让 Skill 在真实使用中持续进化，并用 benchmark 证明它真的有效果。 Meet EverMind Skill Hub, a measured capability layer for AI agents. We aggr…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2081593772065079721"
+      },
+      {
+        "id": "2081576172656456076",
+        "text": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models. I don't think it's a lack …",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "model",
+        "url": "https://x.com/amasad/status/2081576172656456076"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "builderCount": 4,
+    "postCount": 11,
+    "topTopics": [
+      "business",
+      "design",
+      "enterprise",
+      "agent",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2081235222817919423",
+        "text": "很多人问王虹获得菲尔兹奖为啥不感谢北大？ 咱们先来看看这段视频，王虹去年在北大的讲座，现场有同学问对于非数学专业的想转到数学系，有什么经验可以分享？ 她的答案简单而真诚，就2个字：自学，人家没有装逼，因为这就是她自己的来时路啊， 当被问及困扰全球数学界百年的挂谷猜想是怎么攻克的，王虹的回答异常平静和冷静， 难能可贵的是她没有先感谢领导之类的，就是很真诚的说…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2081235222817919423"
+      },
+      {
+        "id": "2081065765638201474",
+        "text": "this is crazy Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound…",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "model",
+        "url": "https://x.com/danshipper/status/2081065765638201474"
+      },
+      {
+        "id": "2081266142316785826",
+        "text": "天呐，看到 @garrytan 这条推文我真的破防了，我太触动了 我觉得在这个AI生成横行的时代,所有AI生成的感动,都比不上这个有点“丢人”的掌声。。。 刚刚YC My dad was cheering real loud from the stands Dad stop you’re embarrassing me x.com/germanfndezz…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2081266142316785826"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "builderCount": 18,
+    "postCount": 58,
+    "topTopics": [
+      "model",
+      "design",
+      "business",
+      "other",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2080724055380857234",
+        "text": "@elonmusk @finkd @JensenHuang @satyanadella 这四个人站在一起，就是开放权重阵营的全部底牌。 马斯克握xAI与算力基建，黄仁勋掌全球AI硬件底座，扎克伯格守Llama开源生态基本盘，纳德拉携微软云承接全场景落地。 他们这次不是零散的公司各自发声， 是芯片到模型到云到终端，全链路的统一战线。 This has my …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2080724055380857234"
+      },
+      {
+        "id": "2080779917130858598",
+        "text": "am I a graph engineer now How to graph-max with Codex and 5.6 Sol: 1. Draw a graph (literally in any tool, even on paper) 2. Send it to Codex and say \"write a code mode script tha…",
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "topic": "agent",
+        "url": "https://x.com/steipete/status/2080779917130858598"
+      },
+      {
+        "id": "2080703118086693121",
+        "text": "Some of my favorite graphs from Opus 5 launch. We put a ton of work into making this model token efficient across domains while still raising the intelligence bar. It feels very s…",
+        "handle": "alexalbert__",
+        "name": "Alex Albert",
+        "topic": "model",
+        "url": "https://x.com/alexalbert__/status/2080703118086693121"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "builderCount": 18,
+    "postCount": 88,
+    "topTopics": [
+      "model",
+      "design",
+      "product",
+      "agent",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2080512990474813867",
+        "text": "吴恩达老师昨天开源了一个不是聊天机器人的东西。 它是本地优先的桌面AI同事：你只说想要的结果，它就自己拆步骤、跨本地文件和HubSpot、Slack、日历等工具干活，直接交出带图表的HTML报告、可发送的消息或重新排好的日程； 任何有后果的操作前都必须你批准，准备客户续约brief、处理Slack事故告警、解开混乱的周二日程时， 而且它交的是真正能用的成品…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2080512990474813867"
+      },
+      {
+        "id": "2080439916203548806",
+        "text": "现场看了橘子的播客工作流，非常高效。 基本录完，播客就能发出来。 1. 打开Cola，语音输入几个想聊的话题，AI提炼要点和问题 2. 两个人戴上大疆麦克风。打开剪映，选个片头曲，开启降噪，去回声，人声美化，直接用剪映录制。 3. 录制结束，选个片尾曲导入。剪映导出转写文本和mp3，文本用 Cola 2个小时之前，和朋友向阳录了一期播客，聊完他疯狂 vib…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2080439916203548806"
+      },
+      {
+        "id": "2080339983962181983",
+        "text": "We built this experience based on feedback from early testers and physicians. With your permission, ChatGPT can use relevant context you’ve connected in Health across your convers…",
+        "handle": "OpenAI",
+        "name": "OpenAI",
+        "topic": "model",
+        "url": "https://x.com/OpenAI/status/2080339983962181983"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "builderCount": 24,
+    "postCount": 79,
+    "topTopics": [
+      "design",
+      "model",
+      "product",
+      "business",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2080085067981013403",
+        "text": "太牛逼了，很早前组织一帮朋友去卡兹克办公室参观学习。 印象最深刻的就是卡兹克对打磨一篇好内容所花费的时间精力，让大家赞叹不已。 AIHOT是他品味和经验的结晶，信息筛选方法论的产品呈现。 强烈推荐使用！ AIHOT的月活突破了60万，我也终于把AIHOT优化到，敢发在X上给大家安利一下我自己做的这个小破东西的时候了。 这玩意也几乎代表了我自己做了三年AI内…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2080085067981013403"
+      },
+      {
+        "id": "2079976940576833795",
+        "text": "分享一套15秒一镜到底奔跑提示词，像导演一样设计运动镜头： 参考图片中的东亚女性，严格保持她的脸部、妆容、大檐草帽、珍珠耳饰、金色手链和浅绿色一字肩紧身连衣裙完全一致。她原本坐在网球场观众席，突然起身开始奔跑。 【叙事目标】 15秒一镜到底，横向追随女主奔跑，建立速度与优雅的紧张感。通过镜头短暂的“犹豫”和重新捕捉，显现后方追赶者，构建追逐的空间层次与压迫…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2079976940576833795"
+      },
+      {
+        "id": "2079973790792990961",
+        "text": "重磅突发!！阿里开始收缩战线了，合并三大AI产品线，推出千问办公，90后钉钉新CEO陈宇森接棒。 也就是说，钉钉换帅后的第一板斧，选择砍向了AI办公行业，剑锋直指腾讯的workbudy和字节的豆包Agent， 阿里这记重拳感觉要把国内AI办公的战争打穿了啊， 90后技术派陈宇森接棒钉钉CEO刚一个月，直接把内部三款智能体全线整合，旗舰新品千问办公马上就要落…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2079973790792990961"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "builderCount": 14,
+    "postCount": 48,
+    "topTopics": [
+      "model",
+      "design",
+      "business",
+      "product",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2079712881105678570",
+        "text": "This is great. #localfirst New App: Slate — a voice journal built on one rule: nothing leaves your phone. 100% Apple, top to bottom. Transcription by SpeechAnalyzer on device. Ref…",
+        "handle": "davemorin",
+        "name": "Dave Morin",
+        "topic": "agent",
+        "url": "https://x.com/davemorin/status/2079712881105678570"
+      },
+      {
+        "id": "2079758604656316619",
+        "text": "Before this year ends, Grok Imagine will make a full-length movie of The Odyssey that is historically accurate and true to the art of Homer Dialogue scene from Homer's Odyssey bui…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2079758604656316619"
+      },
+      {
+        "id": "2079747118525534603",
+        "text": "Troubling … OpenAI disclosed it themselves yesterday. Their models (GPT-5.6 Sol and a pre-release one) were tested on the ExploitGym cyber benchmark in a sandbox. They escaped, ex…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "model",
+        "url": "https://x.com/elonmusk/status/2079747118525534603"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "builderCount": 17,
+    "postCount": 47,
+    "topTopics": [
+      "design",
+      "business",
+      "other",
+      "model",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2079240587404870038",
+        "text": "喵个咪 seedance 现在真的降智严重啊，还卖这么贵 大家不要再充钱了，真的， 因为 Grok现在强的可怕， 同样的提示词，以下是seedance和Grok生成的， 对比一下，Grok现在完全吊打seedance， 大家应该一眼猜出来是哪个生成的吧？ 不信可以到评论区自取提示词和参考图 Damn，游戏行业的原型成本逻辑，刚刚被一个开源模型直接干碎了。。…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2079240587404870038"
+      },
+      {
+        "id": "2079375409888838008",
+        "text": "很有可能成长为中国真正的Producthunt 你 VibeCoding 的产品没人体验，没人给出真实反馈？来看看昨夜上新的「 VibeLoft 手推车」功能，完整复刻了美团外卖陪审团玩法。和大多数人意见不一致会扣里程分。反之则加里程分！ 回炉重造：必须给出建设性意见30字。 拿不准：跳过。 严重低估：给出30字的夸夸。",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2079375409888838008"
+      },
+      {
+        "id": "2079396029758132266",
+        "text": "免费的类似Bartender的软件。 Mac上安装软件多了，顶部Menu bar挤满图标。 真正需要的工具常被隐藏，比如dropzone等文件拖拽寄存器。 安装hidden 这个工具就能解决这个痛点。 终端安装指令： brew install --cask hiddenbar 开源地址见评论区",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "other",
+        "url": "https://x.com/vista8/status/2079396029758132266"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "builderCount": 22,
+    "postCount": 82,
+    "topTopics": [
+      "design",
+      "other",
+      "model",
+      "business",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2078918305973219567",
+        "text": "Anthropic 把 Claude Code 的 system prompt 砍掉了 80%，团队成员 Thariq 的解释很反直觉，模型越聪明需要越少方向、越少约束、越少例子， 那些示例正在限制它，因为模型会觉得你想要跟示例一样的东西，去掉示例它反而更自由， 这也意味着每次新模型发布你该做的第一件事是修剪上下文， 最新的模型需要更多空间去跑，他们给了一…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2078918305973219567"
+      },
+      {
+        "id": "2078971746896449595",
+        "text": "The @SpaceX team is amazing Starlink’s progress in under seven years is totally insane 2019 — The first dedicated Starlink launch carried 60 satellites 2020 — Wider public beta se…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "enterprise",
+        "url": "https://x.com/elonmusk/status/2078971746896449595"
+      },
+      {
+        "id": "2078971885488919010",
+        "text": "Next Starship launch attempt on Friday Now targeting to launch Starship’s thirteenth flight test as early as Thursday, July 23 → http:// spacex.com/launches/stars hip-flight-13 …",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "other",
+        "url": "https://x.com/elonmusk/status/2078971885488919010"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-19",
+    "builderCount": 19,
+    "postCount": 49,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "agent",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2078615790010630152",
+        "text": "Kimi 收到 OpenAI 战略部的小作文，说开源这么智能的模型风险很大 额，虽然 K3 是个不错的模型，但跟 AGI 还差好几年呢… 难道 K3 真的达到 GPT5.6 的水平了吗？已经需要担心安全风险了吗？ 让我有点怀疑自己了都… Some observations on Kimi: 1. It's a very good model! I don'…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "model",
+        "url": "https://x.com/oran_ge/status/2078615790010630152"
+      },
+      {
+        "id": "2078497295755354359",
+        "text": "Openship：开源自部署平台，把整个部署控制台从你的服务器上搬走 Coolify、CapRover、Dokku这类自托管部署工具有个通病：控制面板、构建系统、CI runner、数据库全跑在你的服务器上，和你的应用抢资源。Openship反过来——构建在你本地完成，服务器只收到打包好的Docker容器，上面只跑你的应用，别的什么都没有（也可以一个配置开…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2078497295755354359"
+      },
+      {
+        "id": "2078504786060779544",
+        "text": "笑死我了。 为了防止没想到的意外情况发生，我一直设置了一条Snitch规则，Claude必须走本地小火箭的端口联网，看来是会有用处的。 谁能想到，兑换 6 个月的 20x 开源 claude 后，一个会话还没完成，就被 codex 擅自关闭代理软件，导致被 claude 封号呢？ codex 真有你的！ @thsottiaux (┬＿┬) x.com/qu…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "agent",
+        "url": "https://x.com/Gorden_Sun/status/2078504786060779544"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "builderCount": 17,
+    "postCount": 48,
+    "topTopics": [
+      "design",
+      "model",
+      "product",
+      "agent",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2078303477630148741",
+        "text": "果不其然，Claude 宣布 Fable 5 将会长期内置在 max 和 team premium 的计划里面，限额是 50%。 估计是由于 OpenAI 和 Kimi K3 的推出的压力带来的，这次不延期直接内置了。 PRO 和其他 team 会员只能通过积分访问。会一次性获得 100 美元的积分 Beginning July 20, Claude Fa…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2078303477630148741"
+      },
+      {
+        "id": "2078330884726431967",
+        "text": "感觉全网都在吹 Kimi K3 新王登基，我研究了一上午发现吹的方向全错了， 我来给大家关于Kimi K3最客观全面深度的一个分析总结： Kimi K3 发布这两天铺天盖地的都在比它和 Fable 5 谁更强，什么牛逼新王之类的， 谁能想到Claude和GPT双头统治的时代，居然就这么被中国模型撕开了口子。 Kimi K3登顶Frontend Code A…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2078330884726431967"
+      },
+      {
+        "id": "2078189433992495429",
+        "text": "The Built with Claude: Life Sciences hackathon comes to an end. Thank you to everyone who spent a week building with Claude Science and Claude Code, and to @gladstoneinst and @cer…",
+        "handle": "claudeai",
+        "name": "Claude",
+        "topic": "product",
+        "url": "https://x.com/claudeai/status/2078189433992495429"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "builderCount": 22,
+    "postCount": 73,
+    "topTopics": [
+      "design",
+      "model",
+      "product",
+      "agent",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2078014448267104664",
+        "text": "Try Grok kimi k3 vs gpt 5.6 sol vs fable 5 vs grok 4.5 @Kimi_Moonshot just dropped kimi k3 – a 2.8t param native multimodal model, the first open 3t-class release. key facts: • 1m…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "model",
+        "url": "https://x.com/elonmusk/status/2078014448267104664"
+      },
+      {
+        "id": "2077942239343571298",
+        "text": "Arena 这个指标有点离谱了… 如果开源模型能超过 Fable 这么多… 那 A 社还有什么价值… Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5. This is a 17-…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "model",
+        "url": "https://x.com/oran_ge/status/2077942239343571298"
+      },
+      {
+        "id": "2077981025905316253",
+        "text": "谁能想到Claude和GPT双头统治的时代，居然就这么被中国模型撕开了口子。 Kimi K3登顶Frontend Code Arena总榜第一，1679分同时力压Claude Fable 5与GPT-5.6 Sol。 从上一代第18名直冲榜首，整整跃升17个名次，完成了同级模型里绝无仅有的跨越式爆发。 7个前端细分赛道拿下6个第一，品牌营销参考设计数据分析…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2077981025905316253"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "builderCount": 25,
+    "postCount": 80,
+    "topTopics": [
+      "design",
+      "agent",
+      "model",
+      "business",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2077603550868422737",
+        "text": "前 OpenAI CTO Mira Murati 创立的 Thinking Machine。 在成立一年半之后，终于推出了他们的第一款模型：Inkling MoE 架构，总参数量是 975B（快 1T 了），激活参数为 41B，拥有 1M 的上下文窗口。 模型在 45T 的数据上训练，原生支持多模态，包括文本、图像和音频理解。 此外，还有一个更小的 Tod…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2077603550868422737"
+      },
+      {
+        "id": "2077548106560737377",
+        "text": "Grok Build 开源了，开源 harness 时代终于要来了吗?！ Claude Code 现在还是闭源， 反而显得有点被动了。。。 不愧是Elon，真是一步妙手啊，只用了四天完成信任崩塌到重建，xAI这次用开源把隐私危机打成了生态先手，看来并不是草台班子 被爆全量上传代码仓库的隐私风波还没平息，SpaceXAI直接把整个Grok Build的age…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2077548106560737377"
+      },
+      {
+        "id": "2077431387787870521",
+        "text": "Emergent 刚完成 1.3 亿美元 C 轮融资，估值直接冲到 15 亿美元，六个月内估值翻了五倍，又一个 AI 独角兽诞生了！传统 SaaS 巨头们的丧钟至此敲响！ 过去二十年所有中小企业都在忍受一场集体性的认知绑架，买 SaaS 的本质是把自己独特的业务流程，强行塞进通用产品的固定框架里，流程是死的人是活的，最后变成人伺候软件，而非软件服务于人。 …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2077431387787870521"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "builderCount": 21,
+    "postCount": 59,
+    "topTopics": [
+      "design",
+      "agent",
+      "model",
+      "other",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2077256940535857497",
+        "text": "NVIDIA发布Molt：极简agentic RL训练框架 NVIDIA NeMo实验室开源的PyTorch原生RL框架，整个RL路径只有约8600行代码，却能通过FSDP2的TP/EP/CP并行扩展到DeepSeek-V3这类1T级MoE模型。 它把Agent当作程序本身：奖励就是你在Env或ChatAgent里写的任意Python，支持多轮工具调用、V…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "agent",
+        "url": "https://x.com/Gorden_Sun/status/2077256940535857497"
+      },
+      {
+        "id": "2077094918359847390",
+        "text": "终于开发好了，电脑端有音效，更带感。 在线玩（支持手机）： https:// mastermind.qiaomu.ai 开源地址： https:// github.com/joeseesun/mast ermind-3d … 《世界游戏大全51》中的猜颜色游戏特别好玩，然后用AI Coding复刻了一个。 原来这个游戏叫Mastermind。 用Three…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2077094918359847390"
+      },
+      {
+        "id": "2077255908640313376",
+        "text": "PrismML发布Bonsai 27B：27B级大模型装进iPhone 一个27B模型在FP16精度下约占54GB，即使不错的4-bit量化也要18GB，手机和多数笔记本根本装不下；传统量化压到4-bit以下时，模型会在AIME数学、LiveCodeBench代码和Agent任务上选择性崩溃。Bonsai 27B基于Qwen3.6-27B，把权重压到1~2…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2077255908640313376"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "builderCount": 22,
+    "postCount": 79,
+    "topTopics": [
+      "design",
+      "agent",
+      "product",
+      "model",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2076739857863385206",
+        "text": "Progress Grok Build is growing insanely fast, reaching 1.16 million monthly visits within just weeks after its early-beta launch Traffic jumped from around 460,000 visits in May t…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2076739857863385206"
+      },
+      {
+        "id": "2076783865528516971",
+        "text": "This becomes much more apparent once you examine the jobs of people with “designer” in their title outside of software! i think it's shifted to design.* much of the coordination r…",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "topic": "product",
+        "url": "https://x.com/thenanyu/status/2076783865528516971"
+      },
+      {
+        "id": "2076707248131150024",
+        "text": "劳模噔。噔噔能这么快完成转型并且获得很不错的收入还挺难的，经验很值得现在想从0起步AI自媒体的同学借鉴。 其实现在做AI自媒体依然有些红利在，这种红利主要是基于两层原因存在的： 1、模型和产品卷得太狠，更新节奏太快了，所以有许多产品都有宣传的需求； 从去年6月签约AI MCN到现在，我一共接了143个商单，基本上就是2-3天做一个，全年无休，文章视频都做，…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2076707248131150024"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "builderCount": 17,
+    "postCount": 52,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "agent",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2076573388970004919",
+        "text": "看懂这个3D落日飞车游戏是怎么做出来的， 你大概率再也不会一句话让 AI 干活了。 有个很妙的秘诀，也特别反直觉：先别让它发挥，先跟它签个合同。 目标呢不是说随便做个游戏出来，要让AI像素级复刻一个已有的线上版，参数完全一致。 怎么保证不跑偏？写一份《复刻合同》，十节，唯一真相源。 最近当大家都在刷屏Fable 5和GPT-5.6 的时候， 殊不知腾讯已经…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2076573388970004919"
+      },
+      {
+        "id": "2076524831802270004",
+        "text": "Codex 改的还是挺快的，已经把 Work 和 Codex 的区别弱化了，接下来估计会优化 ChatGPT 那部分的交互 OpenAI 昨天晚上发了一堆东西，乱七八糟的。 GPT 5.6 终于发布了，随之发布的还有全新的 ChatGPT 应用（也就是 Codex 应用，改了个界面、换了个名字）。 现在 OpenAI 全面学习 Anthropic 产品的命…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "product",
+        "url": "https://x.com/op7418/status/2076524831802270004"
+      },
+      {
+        "id": "2076494081207992657",
+        "text": "AI剪辑工具 ChatCut 最近大火，极简安装使用教程如下： 安装方法： 1. 发给 Codex，安装这个插件 https:// github.com/ChatCut-Inc/ag ent-plugin … 2. 会安装一个MCP和Skill，做一次OAuth授权。 3. 做产品介绍简单，跟Codex对话说： 用chatcut的mcp和skill给 【网…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2076494081207992657"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-12",
+    "builderCount": 21,
+    "postCount": 75,
+    "topTopics": [
+      "design",
+      "other",
+      "agent",
+      "model",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2076088281738223943",
+        "text": "当都以为 AI 抢就业的时候，Sam 说没有。 我觉得最重要的不是“净创造就业”，而是“至少目前”。 AI 会不会最终创造更多工作，不只看它替代了多少任务，更看效率提升后能不能打开更多需求。原本做不起的产品和服务一旦变得可行，就可能出现新公司、新岗位；如果只是让更少的人完成同样的事，就业机会反而会收缩。 现在下结论还早。比岗位总数更值得看的，是这些新机会有…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2076088281738223943"
+      },
+      {
+        "id": "2075893071149969901",
+        "text": "这就有意思了，前苹果首席设计师Jony Ive的手下Tang Tan现在被苹果起诉带着苹果机密跳槽到OpenAI，而Jony Ive现在正在和OpenAI合作开发AI硬件产品，这是光头对前东家的报复，还是纯属巧合？ 苹果公司声称，有前员工将机密信息带往OpenAI，以推进这家AI公司的设备研发工作。被告人包括OpenAI首席硬件官Tang Tan，他曾在苹…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "product",
+        "url": "https://x.com/kenw_2/status/2075893071149969901"
+      },
+      {
+        "id": "2075880152240627743",
+        "text": "7日凌晨水位急速暴涨至3米以上，贵港动物园法人殷飞飞和妻子冒险将狮子、狗熊等猛兽锁入兽舍，避免猛兽出逃伤人。后因洪水迅速上涨，夫妇二人和三名员工被困在动物园门口的集装箱六个小时，通讯中断，幸得武警官兵前来救援。 7月9日，洪水退后，他们清点剩下的动物发现，7只狮子中有3只已死亡。棕熊和黑熊由于会游泳，逃过一劫。 受洪灾影响，广西贵港动物园发布了寻找走丢动物…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "other",
+        "url": "https://x.com/kenw_2/status/2075880152240627743"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-11",
+    "builderCount": 24,
+    "postCount": 96,
+    "topTopics": [
+      "design",
+      "model",
+      "other",
+      "business",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2075722396951343420",
+        "text": "If you're wading in the swamp of churn prevention, it's already too late. The product sucks and you're just trying to move a few percentage points. The faster path to a high reten…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "product",
+        "url": "https://x.com/garrytan/status/2075722396951343420"
+      },
+      {
+        "id": "2075728739615281398",
+        "text": "The most important thing about Grok Build and the 4.5 release is that it is genuinely so useful for real-world work Grok 4.5 just topped Perplexity’s WANDR orchestrator evaluation…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2075728739615281398"
+      },
+      {
+        "id": "2075809033957601291",
+        "text": "说真的，没见过哪个 AI 工具，连授权登录界面都能做得这么有高级感。 @SpaceXAI Grok Build 这个授权页，说是把 XAI 的设计审美拉到了断层位也不夸张吧hh 又让老马装到了哈哈哈！ Zuck时隔三年重回X发帖，马斯克开心得像个两百斤的孩子 Zuckerberg，Meta的CEO，Threads的老板，在沉默了差不多三年之后，跑回X发了一…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2075809033957601291"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-10",
+    "builderCount": 20,
+    "postCount": 72,
+    "topTopics": [
+      "model",
+      "product",
+      "design",
+      "business",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、产品、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2075478792273842370",
+        "text": "Grok Build gets better every day and we love hearing user feedback for improvements Grok Build is crazy. 先不管GPT-5.6是不是release到底好不好用。 先來大大稱讚一下 @grok 的 Grok Build，目前唯一集大成的 coding ag…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "agent",
+        "url": "https://x.com/elonmusk/status/2075478792273842370"
+      },
+      {
+        "id": "2075470041345360382",
+        "text": "新的视频图像 Agent 看起来主打的是广告内容的生成。 这个现在确实利润非常高，因为广告的 ROI 比较好算，如果真的做得好，广告主是愿意投钱的。 Meet Kaze AI Agent Ideas move fast. Your creative workflow should too. 10× Creativity. 100× Efficiency. …",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2075470041345360382"
+      },
+      {
+        "id": "2075389540387455355",
+        "text": "新的这个客户端这套交互真是稀烂。 Claude 分三个 Tab 是因为他没有时间去改那个原来的客户端。 OpenAI 分三个 Tab 是因为他妈的 Claude 分三个 Tab。 OpenAI 昨天晚上发了一堆东西，乱七八糟的。 GPT 5.6 终于发布了，随之发布的还有全新的 ChatGPT 应用（也就是 Codex 应用，改了个界面、换了个名字）。 现…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "product",
+        "url": "https://x.com/op7418/status/2075389540387455355"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "builderCount": 13,
+    "postCount": 43,
+    "topTopics": [
+      "model",
+      "agent",
+      "design",
+      "product",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、Agents、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2075125320521310589",
+        "text": "Try out Grok 4.5! Grok 4.5 is finally the model that can handle the entire workflow end-to-end: /design <what u want to do> /execute-plan <design_output> --effort <desired_effort>…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2075125320521310589"
+      },
+      {
+        "id": "2074965201133375940",
+        "text": "我靠这个虽然是传闻但信息量有点大，看着玩吧 - GPT5.6 是 5 系最后一代，再见了，海外已经进入下一个超越 4T 的阶段 - GPT6 马上就来了，规模更大，对标 Fable 5.1 - GPT6 和 Fable 5.1 未来几周就回来，下半年是全新一代预训练模型的大战了 - DeepSeek 即将发布 V4 GA，对标 GLM 5.2 - Deep…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "model",
+        "url": "https://x.com/oran_ge/status/2074965201133375940"
+      },
+      {
+        "id": "2075102683133010299",
+        "text": "想象一下，现在构建一个新的 AI app： 1. 核心是围绕对话框的 agent 2. 对话框的 agent 需要支持所有业务 API 的调用 3. 对话框的 agent 需要广泛调用不同的 tools（连接器） 4. 对话框的 agent 还需要在其他的聊天框中可用（比如 codex 或者 claude code）意味着你需要把业务包装成 MCP/Ski…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2075102683133010299"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "builderCount": 19,
+    "postCount": 58,
+    "topTopics": [
+      "model",
+      "design",
+      "agent",
+      "product",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2074736781858390368",
+        "text": "如何给自己喜欢的电影，解说进行语音翻译，而不失去原来的音调和节奏呢？ 下面的线程里面我教你0元就能实现语音翻译！！生成下面的视频： 1. 准备素材 2. 使用开源项目生成TTS语音 3. 在剪映中对齐他们 最近看了很多世界杯的切片，我那是看得激情澎湃 特别是佛得角的40岁门将7次扑救逼平西班牙！！ 我心血来潮专门找了他的赛后采访，还给采访做了个多语种的翻译…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "design",
+        "url": "https://x.com/lxfater/status/2074736781858390368"
+      },
+      {
+        "id": "2074638582418231495",
+        "text": "If you run this workflow, ask Fable to make codex the workhorse. https:// github.com/steipete/agent -scripts/blob/main/skills/codex-first/SKILL.md … A few patterns we frequently u…",
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "topic": "agent",
+        "url": "https://x.com/steipete/status/2074638582418231495"
+      },
+      {
+        "id": "2074493311046607113",
+        "text": "EverOS 1.1.1 发布了。 这版主要是评测质量的 release。 我们之前跑 LoCoMo 测评是直接 93.05% 的 SOTA。 后来发现不少朋友在跑的时候，不容易出现 93.05%，经常是在 90% 上下。 这版本经过我们反复测试，能稳定复现 93%。 欢迎测试哈，测不到，寄礼物给你。 EverOS v1.1.1 is live. A sm…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2074493311046607113"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "builderCount": 23,
+    "postCount": 66,
+    "topTopics": [
+      "design",
+      "agent",
+      "product",
+      "model",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2074292686526566637",
+        "text": "组织是分组 + 交织。分组是专业分工，交织是跨组协作。组织就是分工协作。 Agent 让分工发生了很大变化。每个人借助 AI 都有机会单独成组。大量非常细化的分组，正在快速消失。比如前后端的分工，比如产品和设计的分工。大量中层必将消失。没必要了。 Agent 让协作也在发生变化。分组变化后，有些组长直接就是 Agent，这意味着，为了最大化发挥 Agent…",
+        "handle": "lifesinger",
+        "name": "Frank Wang 玉伯",
+        "topic": "agent",
+        "url": "https://x.com/lifesinger/status/2074292686526566637"
+      },
+      {
+        "id": "2074150826281672937",
+        "text": "Gaming is such as tough space. This paragraph jumped out for me: \"We will reduce management layers to no more than 5, and where possible, 3. We will deliver success through a flat…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2074150826281672937"
+      },
+      {
+        "id": "2074141483356340475",
+        "text": "VCs: this job is investing in outliers. Also VC: here’s our revolutionary sourcing algorithm, custom built by our in house team, RLed on decades of data, with proprietary data sig…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "design",
+        "url": "https://x.com/nikunj/status/2074141483356340475"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "builderCount": 23,
+    "postCount": 72,
+    "topTopics": [
+      "design",
+      "product",
+      "other",
+      "business",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2073947309130367090",
+        "text": "以前都说创业是年轻人的天下，现在40岁+的创始人，反而拿到了最强的AI杠杆，创业拼年轻拼体力的时代，彻底结束了！ YC掌门人Garry Tan直接把话挑明，四十岁有品味有判断力的创始人，才是新一代的独角兽模板，我非常认同。 Webflow做了十二年的CTO重回YC做AI产品，上线几个月，同批次百分之十三的创始人已经在用。 年轻创始人靠手速堆时间的传统优势，…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2073947309130367090"
+      },
+      {
+        "id": "2073903310982218088",
+        "text": "Still waiting on that one founder who gates a VC chat until they have played with the product and come with at least two pieces of feedback.. Blows my mind that people go on Zoom …",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "product",
+        "url": "https://x.com/nikunj/status/2073903310982218088"
+      },
+      {
+        "id": "2073713545934667789",
+        "text": "Happy birthday, America! I love this remarkable country, which was built on the idea that anyone can change the world. For 250 years, our country has been a testament to the power…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "product",
+        "url": "https://x.com/elonmusk/status/2073713545934667789"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-05",
+    "builderCount": 19,
+    "postCount": 70,
+    "topTopics": [
+      "design",
+      "business",
+      "other",
+      "agent",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2073410256840139047",
+        "text": "My episode tomorrow is an inside look at how an OpenAI PM uses Codex for product work. Rohan (Codex PM) walked through how to: → Use Image Gen to explore designs fast → Trigger Co…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "design",
+        "url": "https://x.com/petergyang/status/2073410256840139047"
+      },
+      {
+        "id": "2073450886698070282",
+        "text": "What a ride. #100000 100,000 issues + PRs in 222 days. built by volunteers every timezone, every day zero VC, one lobster Number 100000 itself? A community bug report. We'll fix t…",
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "topic": "agent",
+        "url": "https://x.com/steipete/status/2073450886698070282"
+      },
+      {
+        "id": "2073410299680428445",
+        "text": "The best way to catch bugs is to use the product and see if you can break it. You’re not going to find most bugs by dead reckoning the code. You’re reviewing the code itself for a…",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "topic": "product",
+        "url": "https://x.com/thenanyu/status/2073410299680428445"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-04",
+    "builderCount": 19,
+    "postCount": 76,
+    "topTopics": [
+      "design",
+      "agent",
+      "business",
+      "other",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2073115061355532429",
+        "text": "Because Instagram and TikTok APIs are garbage, I have this crazy Codex workflow that makes video clips for me (ffmpeg ftw) and then uses browser use for Meta Business Suite and Ti…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2073115061355532429"
+      },
+      {
+        "id": "2073194274435317767",
+        "text": "Supreme victory for tailwind that it’s being adopted by the company that brought you bootstrap X has quietly launched its complete rewrite of X Web, starting with Logged-Out pages…",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "topic": "product",
+        "url": "https://x.com/thenanyu/status/2073194274435317767"
+      },
+      {
+        "id": "2073151491557478883",
+        "text": "I’m one of the more vocal critics of Gemini and their product experience but it’s still the only place where with a single API key you can really do it all.. > Flash - for fast ch…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "product",
+        "url": "https://x.com/nikunj/status/2073151491557478883"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "builderCount": 21,
+    "postCount": 75,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "model",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2072668685819400568",
+        "text": "疯了，付费级的 TTS 模型，直接免费给开发者用了 还不是那种阉割版的免费额度，是和付费套餐完全同款的 S2.1 Pro，83 种语言无严格限制，已经集成的用户改个模型名就能直接切换。 以前做语音类产品，TTS 调用费是跑不掉的固定成本，现在这一块直接可以清零。 小团队做 AI 客服、有声内容、语音助手，再也不用在字符量上扣扣搜搜。 语音赛道的价格战已经卷…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2072668685819400568"
+      },
+      {
+        "id": "2072731500928508331",
+        "text": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version lands 65% of product PRs. We cover the CEO/CTO playbook for …",
+        "handle": "_catwu",
+        "name": "cat",
+        "topic": "product",
+        "url": "https://x.com/_catwu/status/2072731500928508331"
+      },
+      {
+        "id": "2072859796647395377",
+        "text": "哎，为了用好模型，中国用户真的不容易... 基于这个开源写了个检测 Skill，安装指令： npx skills add joeseesun/qiaomu-ai-access Skill 开源地址： https:// github.com/joeseesun/qiao mu-ai-access … 判断当前浏览器环境是否更像中国用户 / 中国地区设备 ht…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2072859796647395377"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "builderCount": 24,
+    "postCount": 75,
+    "topTopics": [
+      "design",
+      "agent",
+      "business",
+      "other",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2072577589525541265",
+        "text": "再开源一个数学技能，把数学题转为GGB文件 如果转的是图片几何题，需要模型有视觉能力（Opus或GPT），如果题目是带动点的几何题，还会生成可交互的GGB文件，能自由移动动点看图形的变化。可以帮助教师把书上的题目电子化，可以辅助学生理解题目。 再开源一个技能：一键生成可视化数学讲解视频 提示词： 安装这个Skill： https:// github.com…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2072577589525541265"
+      },
+      {
+        "id": "2072493375043850397",
+        "text": "兄弟们，X的野心终于藏不住了，这次要直接从Twitch和YouTube嘴里抢蛋糕了！ 全新的Live Studio正式上线，集成在创作者后台里，不是点一下就开播的简易功能，是给专业主播准备的一站式直播指挥中心。 从调度标题封面观众权限，到实时数据聊天管理，再到结束后一键发布回放，全流程工具都配齐了，完成度非常高。 配套直接放了一百万美元的创作者奖励池，产品…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2072493375043850397"
+      },
+      {
+        "id": "2072530243273826374",
+        "text": "多谢Fable5回归，对Fanbox（Coding agent的驾驶舱）做了大幅度的更新。 目前终端快捷启动的选项，已经从Claude Code、CodeX之外，又增加了Hermes Agent、OpenClaw、Kimi Code、ZCode等10多个主流Coding Agent产品。 新增「回合存档」功能，让不理解不了解Git机制的编程小白，也能自动化…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "agent",
+        "url": "https://x.com/AlchainHust/status/2072530243273826374"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "builderCount": 5,
+    "postCount": 21,
+    "topTopics": [
+      "business",
+      "design",
+      "product",
+      "model",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2072233451319689507",
+        "text": "刚刚X产品负责人 @nikitabier 发的这个A/B测试，是我最近半年看到最耐人寻味的平台信号， 说实话，我一开始以为又是常规打击营销号的通告，看完数据之后发现好像没那么简单，x这次有点亲手推翻自己的创作者激励逻辑，详细拆解见评论区 In a 3% experiment, removing the Top-30 highest paid revenue…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2072233451319689507"
+      },
+      {
+        "id": "2071992670394765407",
+        "text": "World’s first subway hackathon! you can absolutely vibecode from an NYC subway with your iPhone 30 of us built apps on the 7 train to Flushing. incredible hack hosted by @Replit &…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "product",
+        "url": "https://x.com/amasad/status/2071992670394765407"
+      },
+      {
+        "id": "2071992110132117740",
+        "text": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs. Etched is the first system designed from the ground up for modern inference. …",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "design",
+        "url": "https://x.com/amasad/status/2071992110132117740"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "builderCount": 5,
+    "postCount": 8,
+    "topTopics": [
+      "other",
+      "model",
+      "design",
+      "product",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2071502897896956323",
+        "text": "别说空调装不装得起，在最热那几天，买个风扇都不容易有现货。 像这种在国内早就没人买的古老款式，几十块钱的东西，噪音巨大，三个档位，卖这个价怎么下得了手？而且发货还得好几天才到，到手已经降温了。 《我在欧洲买不到风扇》 这天太热了。 我家里没有空调。 我找了半天，拧开了家里唯一的风扇。 突然一阵热浪袭来。 原来他妈的是个小太阳。 我热的不行了。 我光着身子跑…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "other",
+        "url": "https://x.com/kenw_2/status/2071502897896956323"
+      },
+      {
+        "id": "2071475416372498632",
+        "text": "说个暴论，X Money 那个 6% 的高息，其实算不上啥福利hh，马斯克精得很，给我们的其实是一张算好的门票钱。 我知道你们看到这个第一反应是啥， 6% 啊，美国大银行才给 0.01%，这不庞氏谁信 但你把它的结构扒开就会发现，它比庞氏可高明太多了啊， 因为你的钱压根不在 X 手里， 是托管在 Cross River 这家正经银行， FDIC 给你保到 …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2071475416372498632"
+      },
+      {
+        "id": "2071499438195962357",
+        "text": "一直担心的事情还是发生了 6月27日，广东的冯先生接受受访表示，自己健身从不佩戴手套，也没有消毒健身器械的习惯。近日他锻炼结束后直接用手擦汗，不料第二天嘴唇周边红肿发痒，就医确诊真菌感染。 不少网友分享自己的“中招史”。有人说，只是穿短裤坐了一会儿器械，屁股上就长了一片痘痘。 这就是我一直以来的疑问：健身房的器材每天被这么多人使用，体液粘在上面，如何能保证…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "other",
+        "url": "https://x.com/kenw_2/status/2071499438195962357"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-29",
+    "builderCount": 19,
+    "postCount": 46,
+    "topTopics": [
+      "design",
+      "agent",
+      "business",
+      "other",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2071381716137291823",
+        "text": "GitHub 上有人把 1324 个健身动作做成开源数据库了，不是那种只有文字描述的。 每个动作配了 jpg 静态图 + gif 动画演示 + 双语说明 + 目标肌肉 + 器械类型，2648 个媒体文件全打包好。 还自带一个本地网页，支持按部位筛选和关键词搜索，开箱即用。 三个最实用的东西： index.html：双击打开就能用，搜索+筛选+网格展示，点动…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2071381716137291823"
+      },
+      {
+        "id": "2071292628302434361",
+        "text": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents: “Access to our codebase has been the biggest unlock for me.…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2071292628302434361"
+      },
+      {
+        "id": "2071365336293593475",
+        "text": "只为 codex/cc 构建 MCP 与软件开发商的根本利益是冲突的，软件不仅是为了用户方便操作资源，它还是信任和品牌的基础。我相信最终获胜的代理会是几乎免费的代理，而几乎免费的代理，就有机会嵌入于所有软件之中。 i don't want to use your products agent, i want my agent(s) to be effici…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2071365336293593475"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-28",
+    "builderCount": 2,
+    "postCount": 3,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "agent",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2071021724066550022",
+        "text": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。 bro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。 用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。 延迟低，效果激情，有创意。 i tried building an AI…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2071021724066550022"
+      },
+      {
+        "id": "2070738404245942442",
+        "text": "所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。 普通人能用的Fable 5，还在等政府审批，遥遥无期。 以前是花钱订阅就能摸到人类…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2070738404245942442"
+      },
+      {
+        "id": "2070780139458142572",
+        "text": "这条机器人推文刷爆了， 但我敢说 90% 转发的人都没意识到， 物理 AI 的门槛已经被砸到脚面了。 不是什么AI做出来的动画演示， 是正儿八经的 SO-ARM101 ACT 控制策略， 直接在浏览器里跑仿真， 连半毛钱硬件都不用买， 以前想碰物理 AI 少说要几千块的机械臂入门， 现在点开网页就能上手调参看效果，",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2070780139458142572"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "builderCount": 5,
+    "postCount": 17,
+    "topTopics": [
+      "business",
+      "design",
+      "model",
+      "enterprise",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2070699350217592974",
+        "text": "也许市场根本不给 6 个月，我们也是学术，研发，产品，设计，运营多管旗下。 但这个节奏下，要保证学术成绩，代码质量，产品体验甚至是设计品味会很难，万幸的是团队氛围很好，大家都想把这事儿落地做成。 也可以期待下我们马上要发布的 Raven，一个 Memory-first 超强自进化 Agent。 今天giac，特意看了EverOS，之前只觉得是做长期记忆的，…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2070699350217592974"
+      },
+      {
+        "id": "2070738404245942442",
+        "text": "所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。 普通人能用的Fable 5，还在等政府审批，遥遥无期。 以前是花钱订阅就能摸到人类…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2070738404245942442"
+      },
+      {
+        "id": "2070720877038035117",
+        "text": "我们90%的人用Obsidian做知识管理，从根上就用错了。 存了一堆摘录PDF和高亮片段，手动加标签连双链，时间一长全是信息孤岛，图谱越铺越乱，最后要么彻底闲置，要么推倒重来。 Karpathy刚放出的这套LLM-WIKI思路，直接把整个逻辑反过来了。 人只负责筛选高质量原始资料，做最终判断。 剩下所有整理结构化，建链接，补更新，查矛盾的脏活，全交给AI…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2070720877038035117"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "builderCount": 18,
+    "postCount": 53,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2070166826445590958",
+        "text": "现在看来，供应链大师库克又赢了，提前把芯片囤起来，然后现在直接对产品加价，赢两次。 国外媒体 Wccftech援引了一位供应链消息人士的话：苹果正在以“极高”的价格，疯狂扫货市场上所有能买到的移动 DRAM（就是手机内存芯片）。苹果这次甚至不惜牺牲自己的营业利润，也要把这批货抢到手。目的很简单，那就是扼杀竞争对手。 为了8+256真的够用，库克拼了。",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "business",
+        "url": "https://x.com/kenw_2/status/2070166826445590958"
+      },
+      {
+        "id": "2070141067882876976",
+        "text": "这个必须是 YouMind 找资料 - 写文字稿 - 配图 去 AI 味 - 精修编辑 一键发送到 X Article 或公众号 从未如此简单 请教大家一个问题： 有没有比较完善的发布 𝕏 文章（Articles）的 Skill / Workflow？ 希望能够完美的解决上传图片和插入表格和代码等问题",
+        "handle": "lifesinger",
+        "name": "Frank Wang 玉伯",
+        "topic": "agent",
+        "url": "https://x.com/lifesinger/status/2070141067882876976"
+      },
+      {
+        "id": "2070146152612102593",
+        "text": "2个项目全部开源免费，没有任何付费门槛。 对于做量化，做AI Agent，做财经内容的人来说， 这一套下来至少能省几个月的数据源对接和维护工作量。 项目链接放评论区，建议先Star收藏，周末可以慢慢折腾。 你们最想用这套工具玩什么策略。",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2070146152612102593"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "builderCount": 5,
+    "postCount": 20,
+    "topTopics": [
+      "design",
+      "business",
+      "enterprise",
+      "product",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2069787150522958263",
+        "text": "所有人都以为OpenAI的护城河是AI大模型， 今天他们证明了，真正的胜负手在硅片里。 和博通合作，九个月从设计到流片， 首款自研AI芯片Jalapeño，专门面向大模型推理。 不做训练，只负责用户对话时的响应计算， 每瓦性能，明显优于当前最先进水平。 有几个反常识的结论跟大家分享， 第一个反常识， We’ve designed and built our…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2069787150522958263"
+      },
+      {
+        "id": "2069861187479618042",
+        "text": "It is a strange time to be a leader right now. You have to be fearless. You have to be optimistic. You have to be empathetic about upcoming changes. You have to retain a lot of hu…",
+        "handle": "adityaag",
+        "name": "Aditya Agarwal",
+        "topic": "design",
+        "url": "https://x.com/adityaag/status/2069861187479618042"
+      },
+      {
+        "id": "2069817246671851686",
+        "text": "A space economy doesn't just need rockets and space guns. It needs ways to communicate as efficiently as we do on the ground. Very excited about the work Qosmic is doing. We've ra…",
+        "handle": "adityaag",
+        "name": "Aditya Agarwal",
+        "topic": "design",
+        "url": "https://x.com/adityaag/status/2069817246671851686"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "builderCount": 22,
+    "postCount": 59,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "agent",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2069237985640636846",
+        "text": "谷歌正式推出Interactions API：API直接调用Agent 之前的API是调用单个模型，LLM API调用语言模型，Banana API调用绘画模型，想要实现智能体的效果，需要自己组成API的调用逻辑。新的Interactions API可以直接调用云端的Agent，可以通过API实现简单的问答，也能通过API完成复杂的长时间任务，并且一个AP…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "agent",
+        "url": "https://x.com/Gorden_Sun/status/2069237985640636846"
+      },
+      {
+        "id": "2069225996088209529",
+        "text": "所有大模型排行榜都在骗你。 Cline团队用自己仓库的真实bug，在完全相同的环境下，测了GLM-5.2和Claude Opus 4.8。 结果非常打脸。 Opus速度快3倍，token消耗少一半，价格贵一倍。 它修完了bug，跑通了所有测试。 但生产构建直接崩了，留下了未被发现的类型错误。 We've kept hearing how GLM-5.2 b…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2069225996088209529"
+      },
+      {
+        "id": "2069211478368882789",
+        "text": "大聪明（赛博禅心）一直跟我说，做自媒体要研究新智元。 喷归喷，但人家起标题真的是一绝。 百度在一直OCR方面的技术很强，昨天开源 Unlimited OCR更强，3B参数500M激活，这么小的模型竟然有这么好的效果，出乎意料。 先不管作者是不是从DeepSeek出走的，文章提到的参考滑动注意力窗口技术值得关注。 技术解读见第二条，后面有项目开源地址。",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "model",
+        "url": "https://x.com/vista8/status/2069211478368882789"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-22",
+    "builderCount": 18,
+    "postCount": 60,
+    "topTopics": [
+      "design",
+      "agent",
+      "product",
+      "model",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2068935883575754913",
+        "text": "海立老师写书速度真快，开源了第三本书《Deep Agents in Action》。 如果你对Agent开发感兴趣，可收藏学习，很好的资料。 A gift to the Chinese developer community for anyone building agents on @LangChain: After 2 books on the eco…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2068935883575754913"
+      },
+      {
+        "id": "2068848124806979612",
+        "text": "用Hermes Agent的最大痛点被解决了哈哈，要知道社区里那些神级工作流全都沉在 X 和 Discord 里了，直到我看到 这个Hermes Bible， 有好心人把Hermes Agent的所有干货都攒到一起了， 这个站把 169 页官方文档吞进去，还反刍出 24 个能直接抄的真实工作流， 比如从 Jira 到 PR 的自动过渡，这种例子直接摆在那给…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2068848124806979612"
+      },
+      {
+        "id": "2068720049586843804",
+        "text": "Subquadratic发布SubQ 1.1 Small：速度超快的LLM SSA将注意力计算从O(n²)降至O(n)，1M token下比密集注意力省64倍算力、比FlashAttention-2快56倍。模型在12M token大海捞针测试中保持98%准确率，通用推理能力接近中上游前沿水平。面向金融、法律、代码库等需要完整长文档推理的企业场景。",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2068720049586843804"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-21",
+    "builderCount": 18,
+    "postCount": 60,
+    "topTopics": [
+      "other",
+      "design",
+      "agent",
+      "business",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2068368763033153653",
+        "text": "Kun knows what he's doing watch this many people asked me to make a video about my complete agentic engineering workflow excited to share it's finally here!!! it took me about 20 …",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2068368763033153653"
+      },
+      {
+        "id": "2068381192735367421",
+        "text": "难怪今天智谱股票突突突疯长26%， 刚刷到一个GLM-5.2和Fable 5的测评， 同一个任务，同一句 prompt，同一张参考图， Fable 5 确实更精致，间距、质感、整体完成度， 一眼就能看出差距， 但 GLM-5.2 做出来的东西也不差： 整体布局、3D 地球、玻璃 UI、数据面板，该有的全有了 把 1.5TB 的模型剁掉 84% 的体积，塞进…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2068381192735367421"
+      },
+      {
+        "id": "2068335094436114488",
+        "text": "只需要提供一个公众号URL，就能把文章转成PPT。 且会引用文章中的图片。 导出格式有pptx，html和pdf，pptx可以任意修改。 项目还在开发中，排版还不够漂亮，等我迭代优化。 预计下周开源。 发现卡比一个库也很实用，只需微信公众号URL，就能转成Markdown，还能下载网页中的图片。 发现内置会用一个叫camoufox的浏览器，看介绍叫Anti…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "other",
+        "url": "https://x.com/vista8/status/2068335094436114488"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "builderCount": 20,
+    "postCount": 74,
+    "topTopics": [
+      "design",
+      "other",
+      "business",
+      "product",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2068055600286597201",
+        "text": "说回实操，如果你下次准备董事会材料，可以试试这一招：主动找出一个你最不想让投资人或董事看到的指标——用户流失加速、核心员工离职率、AI 蚕食你某条产品线的速度等，然后把它强制放在第一页，开场第一句话说，这是我这次最害怕聊的，但我们必须先把它摆在台面上解， 注意，这不是单纯的示弱或者自我检讨，核心是测试你面前坐着的到底是不是 good boards， 做完一…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2068055600286597201"
+      },
+      {
+        "id": "2067993010743247265",
+        "text": "Q1 tonnage to orbit by launch provider. Once Starship is flying hourly, SpaceX’s mass to orbit will be about 100 times more than everyone else combined, even if they triple their …",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "other",
+        "url": "https://x.com/elonmusk/status/2067993010743247265"
+      },
+      {
+        "id": "2067982298948292987",
+        "text": "我还以为是Codex出了RPA功能，实际不是，只是省去了通过文字描述Skill如何实现，而是改为录制操作由Codex识别你需要什么Skill。只适用于你已经能操作实现的步骤，不适合全新创建的技能。 Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show C…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2067982298948292987"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "builderCount": 20,
+    "postCount": 60,
+    "topTopics": [
+      "agent",
+      "product",
+      "design",
+      "model",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在Agents、产品、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2067858349727613271",
+        "text": "以后教AI干活居然不用写长prompt了，Codex刚更的新功能，你手动走一遍流程，它自动整理成可复用的skill，这个官方视频手把手教你怎么操作，中英文字幕帮大家做好了！ 我们大部分人用AI最大的痛点就是：你描述不清楚你要什么？像报销单怎么填、视频发布前加哪几个标签、周报从哪个系统扒数据，这些流程你闭着眼都能做，但如果让你写成 prompt，怎么也说不明…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2067858349727613271"
+      },
+      {
+        "id": "2067815746391224382",
+        "text": "道德经配图版已开源，但生图用的Seedream 5，效果还有优化空间，经常图文不相关，但整体阅读体验有提升。 在线体验： https:// daodejing.qiaomu.ai 开源地址： https:// github.com/joeseesun/qiao mu-daodejing-comics … 你可能和我一样，经典古籍实在读不下去。 以《道德经》…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2067815746391224382"
+      },
+      {
+        "id": "2067726258583330945",
+        "text": "Anything you do on a computer codex can do too Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show Codex a recurring task, like filing an expense report…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2067726258583330945"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "builderCount": 16,
+    "postCount": 47,
+    "topTopics": [
+      "design",
+      "model",
+      "other",
+      "product",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2067517304838226411",
+        "text": "有道开源Confucius4-TTS 1.3B大小的TTS模型，支持多语言，支持语音克隆，效果不错，速度特别快。 Github： https:// github.com/netease-youdao /Confucius4-TTS … 在线使用： https:// confucius4-tts.youdao.com/gradio/ Just release…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2067517304838226411"
+      },
+      {
+        "id": "2067462254119776436",
+        "text": "官方链接： • 开发者 Beta 安装指南（含 visionOS）： https:// developer.apple.com/support/instal l-beta/#visionos-beta … • visionOS 27 Release Notes（功能详情）： https:// developer.apple.com/documentatio…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2067462254119776436"
+      },
+      {
+        "id": "2067513484364140994",
+        "text": "免费开源乔木画布，一键部署Vercel为网站，简化版 PS。 支持Seedream生图、GPT-image-2，图片模版存储分享。 支持一键抠图、2w图标和常见Emoji，甚至都能画PRD了。 随时创建不同尺寸画布（3:4/16:9/21:9）。 原想做些高级功能收费，庆祝端午节，现全免费开源。 在线体验： https:// ps.qiaomu.ai",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2067513484364140994"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-17",
+    "builderCount": 16,
+    "postCount": 40,
+    "topTopics": [
+      "design",
+      "media",
+      "model",
+      "business",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、内容与媒体、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2067127517882859655",
+        "text": "@DarioAmodei 真该看看《广告狂人》这段经典的 2 分 41 秒，或者说所有产品人、创业者都应该反复拉片， Don 把一个叫轮子的幻灯机,重命名成 Carousel,没有选择卖轮子的转速，他说这台机器是时光机，让人像孩子一样一圈圈的旅行，回到被爱着的地方， 这次达里奥跟白宫沟通失败，Anthropic踩的坑， 给所有技术团队敲了警钟， 建议技术出…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2067127517882859655"
+      },
+      {
+        "id": "2067091465675866126",
+        "text": "简单拿我的社交媒体卡片对比测试了一下。 左边是 GPT 5.5 的结果，右边是 GLM 5.2 的结果。给的素材都是 GLM 5.2 的发布博客。 智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人 核心定位是处理长周期任务，并且有稳定的 100 万上下文，模型还引入了思考力度控制。 架构层面，GLM-5.2 提出了 IndexShare 机制，…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2067091465675866126"
+      },
+      {
+        "id": "2067088428047770016",
+        "text": "智谱 GLM-5.2 可以在 Codepilot 模型管理里面自行添加哈 智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人 核心定位是处理长周期任务，并且有稳定的 100 万上下文，模型还引入了思考力度控制。 架构层面，GLM-5.2 提出了 IndexShare 机制，每四层稀疏注意力共享同一个 indexer，从而在百万 token 上下文…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2067088428047770016"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "builderCount": 19,
+    "postCount": 81,
+    "topTopics": [
+      "design",
+      "business",
+      "other",
+      "agent",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2066679835607412846",
+        "text": "五角大楼今天宣布，已经把日常AI工作流的2/3以上从Anthropic切走了，目标9月前清零。 这事得从年初说起，2-3月的时候，五角大楼想让Anthropic签个协议，允许Claude用在“所有合法用途”上——包括大规模监控和全自动武器这种场景。 CEO Dario Amodei直接拒了，说模型还不够可靠，不能接这种活，也不想被用来监控美国人。 五角大楼…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2066679835607412846"
+      },
+      {
+        "id": "2066584811247210600",
+        "text": "I want GBrain to be the retrieval layer like Postgres for your agent. It's custom built to be the just-in-time 3 book librarian to give your AI agent wings. It's MIT-licensed free…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2066584811247210600"
+      },
+      {
+        "id": "2066629012084916453",
+        "text": "软件行业的一人公司我觉得流程是非常非标准化的，其实就算在科技行业的成熟软件工厂（例如字节）不同项目的开发流程，节奏也是完全不同的，与其说软件工厂是要把软件开发流程使用 agent 进行高度自动化，不如说是要让人来重新学习和适应怎么用新的方法构建新的软件。我理解目前没有绝对的标准。 Today, we're announcing Factory 2.0: f…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2066629012084916453"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "builderCount": 19,
+    "postCount": 73,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "agent",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2066427729889669493",
+        "text": "其实我的橙皮书都是免费开源的…不过部分橙皮书上架了微信读书，如果你有微信读书会员，通过微信读书来读的话，看来也能给我带来些收入 今天收到的4月份第一波结算单，比我预期的多多了 虽迟但到！一大堆人找我要的《Loop Engineering橙皮书》来了。 32页！老规矩：免费、开源、评论区自取！ 以及，你需要知道的是，这当然是我的橙皮书skill自动写的，它收…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2066427729889669493"
+      },
+      {
+        "id": "2066209240428286182",
+        "text": "The recording of my full 45-min talk on my vibe coding process is up! I go through the behind-the-scenes of how I get product ideas, how I talk to coding agents, how to prevent AI…",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "topic": "agent",
+        "url": "https://x.com/zarazhangrui/status/2066209240428286182"
+      },
+      {
+        "id": "2066271248254910785",
+        "text": "As Andrew replies below, we appreciate any critical feedback in pursuit of product perfection for Grok Build! Trying \"Grok Build\" on a Digital Ocean droplet. So freakin' useful !!…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "product",
+        "url": "https://x.com/elonmusk/status/2066271248254910785"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "builderCount": 23,
+    "postCount": 69,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "agent",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2066017756739256517",
+        "text": "GPT Image 2 加 Grok简直是目前玩AI视频的性价比之王，而且grok还能给你加字幕，真的厉害， @grok bro你还藏了多少我不知道的？ 自从Seedance一直涨价我就没续订会员了， 本来以为 Seedance 2.0 是当前 AI 视频的最优解， 试完 GPT Image 2 加 Grok 的混合工作流，直接被性价比打服了， 月费三十美…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2066017756739256517"
+      },
+      {
+        "id": "2065800114283909555",
+        "text": "He doesn't have a CS degree, doesn't read code, and doesn't even look at AI's plans most of the time. Yet @mvanhorn has built one of the most impressive open source track records …",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2065800114283909555"
+      },
+      {
+        "id": "2065736651087978970",
+        "text": "智谱发布GLM 5.2 目前通过订阅可以使用，下周会开源模型和提供API。 Intelligence should be open, accessible, and ready to build with, empowering every developer, everywhere. GLM-5.2 is now available to all GLM…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2065736651087978970"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "builderCount": 20,
+    "postCount": 78,
+    "topTopics": [
+      "design",
+      "agent",
+      "business",
+      "model",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2065506744642781566",
+        "text": "我有一个没发布的产品是做agents 之间互相打工的，但是这个想法真的绝妙到我不知道咋形容… Get paid to wait The Claude Code spinner might be the most watched line on Earth. So I turned it into an ad marketplace. Advertisers…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2065506744642781566"
+      },
+      {
+        "id": "2065627870597153128",
+        "text": "整个宣传片没有一句提估值和募资额，全程只讲产品、技术和目标，这就是老马的底气",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2065627870597153128"
+      },
+      {
+        "id": "2065555595768521103",
+        "text": "人们很容易高估字节的分发能力而低估字节的产品能力",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "product",
+        "url": "https://x.com/oran_ge/status/2065555595768521103"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "builderCount": 20,
+    "postCount": 72,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "media",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2065278450190188638",
+        "text": "美国有 ChatGPT、Claude、Gemeni 中国有 豆包、千问、元宝 美国有 Tesla 擎天柱、波士顿动力。 那中国对应的产品是？ 哎！我可能放弃写代码当个厨子了 因为再过个两年程序员的工资可能比不上一个厨子高！！ 为什么？ 今天听了一下@huang_biwei 黄博士的播客，她说爆料，现在的机器人很多都是精心设计的Demo，实际任务中假如不小心…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "model",
+        "url": "https://x.com/lxfater/status/2065278450190188638"
+      },
+      {
+        "id": "2065290571720032280",
+        "text": "Claude Code、OpenClaw、Hermes、Codex，一个比一个能干， 但 2026 年了，这批最先进的 Agent 还集体卡在同一件小事上： 上不了网，查推特要付费 API，读小红书卡登录，上 Reddit 动不动被封 IP。 一个叫 Agent Reach 的开源项目，把这三堵墙一起拆了， 26.4k stars，基本零 API 费用。 …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2065290571720032280"
+      },
+      {
+        "id": "2065126253250936992",
+        "text": "一群 AI 研究员把量化金融的知识处理框架开源了，叫 QuantMind（MIT 协议）。 它不是 Bloomberg Terminal 的替代品，但确实在干一件类似的事：把 arXiv 量化论文、SEC filings、研报、博客等非结构化内容，批量解析成可查询的语义知识图谱。 核心优势在于两阶段架构：先把文献一次性提取并结构化（支持表格、公式、图表的多…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2065126253250936992"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "builderCount": 19,
+    "postCount": 54,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "product",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2064948173911761168",
+        "text": "两个月过去，生成户型和虚拟房屋的产品已经到了这样的完成度！ We're launching Bridge today An AI engine that builds virtual homes. Blueprint in, walkable home out. Every plan, every option, structural changes in…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "design",
+        "url": "https://x.com/turingou/status/2064948173911761168"
+      },
+      {
+        "id": "2064932371296633097",
+        "text": "昨天Claude Fable 5发布以后， 压力给到了Open AI， OpenAI 正在考虑大幅降价， 以争取从劲敌 Anthropic 手中赢得更多用户， 感觉有点难追啊，全球大模型铁王座大概是Claude稳坐了 OpenAI is considering drastic price cuts as it seeks to win over custo…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2064932371296633097"
+      },
+      {
+        "id": "2064703838649569375",
+        "text": "我尼玛，Claude Fable 5今天把整个软件行业的底层逻辑给击穿了！ 以前做软件要几个月，现在只要15分钟，Claude Fable 5把产品经理和程序员的中间环节，直接干掉了。 也就是说，15分钟的销售电话打完， AI当场做出了客户要的可运行软件原型，喵个咪，这谁受得了啊 Todd Saunders，Dalton Mills AI 的 CEO，做的…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2064703838649569375"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "builderCount": 18,
+    "postCount": 49,
+    "topTopics": [
+      "design",
+      "model",
+      "media",
+      "product",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2064486120386379950",
+        "text": "I will be doing a virtual talk this Friday on my vibe coding process. As a non-technical person who has somehow managed to get 30k stars on GitHub, I will be sharing the behind-th…",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "topic": "product",
+        "url": "https://x.com/zarazhangrui/status/2064486120386379950"
+      },
+      {
+        "id": "2064576912648015886",
+        "text": "CodePilot v0.56.0 发布 本次更新的部分修复由 Claude Fable 5 完成。 模型与渠道扩充版本 新增 Claude Fable 5、小米 MiMo UltraSpeed 模型与通用 OpenAI 兼容第三方渠道。 并修复用量统计、回复状态丢失、服务商列表刷新等一批问题。推荐所有用户升级。 https:// github.com/o…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2064576912648015886"
+      },
+      {
+        "id": "2064575636082192646",
+        "text": "我去！没想到 Anthropic 的 Mythos 模型今天真的发布了。 不过他们这次发布的是 Mythos 的一个低配版本，命名为 Fable 5。 它的测评基准非常惊人，甚至比之前的 Mythos Preview 模型还要高。在 Agent Coding 方面，它的主要长处在于 Coding、Agent 以及工具调用，基准得分比 Opus 4.8 高出…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2064575636082192646"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "builderCount": 22,
+    "postCount": 97,
+    "topTopics": [
+      "design",
+      "product",
+      "business",
+      "other",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2064175088824717401",
+        "text": "The funniest texts are from founders who meet “thesis driven” GPs hoping they’ll understand EXACTLY what they are building.. And then realize the thesis was written and built by a…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "design",
+        "url": "https://x.com/nikunj/status/2064175088824717401"
+      },
+      {
+        "id": "2064170690849509656",
+        "text": "Kuse上线Workflow功能：AI生成自动化工作流 用自然语言告诉Kuse工作流应该怎么跑，Kuse就能连接Google、Reddit、Notion等工具，自动创建稳定、可复用的工作流。之后可以手动运行、定时执行，或按条件触发，不用每次重新写prompt，也不用像n8n一样手动拼节点。既简单又强大。 可以实现从Reddit社区定时挖掘需求、Notion…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2064170690849509656"
+      },
+      {
+        "id": "2064168497106546760",
+        "text": "分享一个计算机视觉开发者必藏神器，4 万星GitHub开源！ 不用自己写几百行画框跟踪代码， 一行命令搞定所有可视化， Supervision，CV 界真正的瑞士军刀。 它到底有多强？ 自动画框加标签，支持编号、自定义样式， 视频对象永久跟踪，ID 不乱跳，轨迹自动生成， 一键转换 YOLO/COCO/Pascal VOC 所有数据集格式， 内置热力图、区…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2064168497106546760"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "builderCount": 22,
+    "postCount": 81,
+    "topTopics": [
+      "design",
+      "product",
+      "agent",
+      "other",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2063892287738839415",
+        "text": "SpaceX的员工由于公司即将上市，马上要变富豪，手里的原始股太值钱了。 NEWS: SpaceX's IPO is about to turn a 27-year-old ship engineer into an overnight millionaire. Maryellyn Musselman, 27, spent two years workin…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "enterprise",
+        "url": "https://x.com/kenw_2/status/2063892287738839415"
+      },
+      {
+        "id": "2063610166101057894",
+        "text": "距离《Hermes agent橙皮书》发布已经两个月，这两个月内Hermes的版本号从0.7.0拓展到了0.16.0，强了很多，俨然成了比OpenClaw更热门的项目。 所以我的橙皮书也该更新第二个版本了。 小龙虾已经过时，人人都开始讨论Hermes Agent了。但你可能只看到一堆细碎的信息，根本学不动搞不懂这究竟是啥。 所以，我来了，我带着我的橙皮书又…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "agent",
+        "url": "https://x.com/AlchainHust/status/2063610166101057894"
+      },
+      {
+        "id": "2063824794013872375",
+        "text": "3/ 可访问性与多端适配 检查并优化当前产品在不同设备、屏幕尺寸和辅助使用场景下的体验，确保普通用户、低视力用户、键盘用户以及使用不同设备的用户都能稳定、清晰、顺畅地完成核心操作。 重点治理响应式布局、字体缩放、颜色对比、键盘导航、焦点状态和辅助功能语义，减少因设备或使用方式不同导致的可用性问题。 验收标准 - 检查核心页面在桌面端、平板端、移动端等不同屏…",
+        "handle": "hwwaanng",
+        "name": "Hwang",
+        "topic": "product",
+        "url": "https://x.com/hwwaanng/status/2063824794013872375"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "builderCount": 22,
+    "postCount": 84,
+    "topTopics": [
+      "design",
+      "other",
+      "product",
+      "business",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2063412033266053340",
+        "text": "Grep timeout issue fixed in latest Grok Build Grok Build update just released v0.2.31 Release Notes: Bug Fixes: • Marketplace skills without proper descriptions are now hidden fro…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "agent",
+        "url": "https://x.com/elonmusk/status/2063412033266053340"
+      },
+      {
+        "id": "2063146111960019028",
+        "text": "This is the definition of must-have for the future drone war. .@9Mothers is making AI mission systems for the DoW. Their first product - EDDA - is a tiny robot that protects soldi…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2063146111960019028"
+      },
+      {
+        "id": "2063373480184484016",
+        "text": "wanman 的下一个版本将会非常好用！我已经实现了所有 vibe 产品的 agents 互联互通，通过 wanman 你可以创建真正的虚拟公司：比如，使用 mails 管理公司域名收到的邮件，如果邮件里留有电话，你可以和 wanman agent 说使用 tuwa 打电话给这个客户预约一次全自动的前期沟通；或者，上传已有的公司资料，或者使用 local …",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2063373480184484016"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "builderCount": 17,
+    "postCount": 48,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "model",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2063146111960019028",
+        "text": "This is the definition of must-have for the future drone war. .@9Mothers is making AI mission systems for the DoW. Their first product - EDDA - is a tiny robot that protects soldi…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2063146111960019028"
+      },
+      {
+        "id": "2063065480878063694",
+        "text": "Replit x Shopify! Replit adds a Shopify integration to its monetization stack, letting vibe coders launch a custom storefront in about ten minutes from the AI agent. https:// then…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "agent",
+        "url": "https://x.com/amasad/status/2063065480878063694"
+      },
+      {
+        "id": "2063127702031245464",
+        "text": "一觉醒来收到这一期老马的工资了， 依旧大超预期， 另外实现了一个冷知识，原来x的创作者收益结算是周二啊， 我一直以为是周五呢 明天老马要发工资了， 我这里研究平台算法有一阵了， 基本拿到了底层收益算法逻辑， 准备做一个x创作者收益预测平台， 宝子们可以给我一下最近两周自己的数据，我来打磨一下我的预测模型和算法， 做好了我会开源出来，大家可以拿去分析自己的数…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2063127702031245464"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "builderCount": 1,
+    "postCount": 1,
+    "topTopics": [
+      "agent",
+      "product",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在Agents、产品、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2062658705599197266",
+        "text": "Credit where credit is due. This is such a good idea @micsolana and @foundersfund . So good. MAFIA EP 001",
+        "handle": "davemorin",
+        "name": "Dave Morin",
+        "topic": "agent",
+        "url": "https://x.com/davemorin/status/2062658705599197266"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "builderCount": 23,
+    "postCount": 66,
+    "topTopics": [
+      "design",
+      "product",
+      "model",
+      "agent",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2062226941491458434",
+        "text": "世界最好的开源图像模型， 仅次于GPT－image-2和Nanobanana2 Introducing Ideogram 4.0: the best open image model in the world. Think it. Make it. Own it. Download the weights, fine-tune on your own da…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2062226941491458434"
+      },
+      {
+        "id": "2062383891680547050",
+        "text": "没想过一家 AI Agent 公司的产品会是一顶帽子… you can now control things with your brain. literally. we're building the most wearable BCI on the planet, with @sabi, backed by @khoslaventures @accel…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2062383891680547050"
+      },
+      {
+        "id": "2062375994812740056",
+        "text": "隐约记得 @yetone 做过类似的产品 Back in February, I got early access to @TownAI. Now 93% of @firstround is using it. There was never a top-down mandate — it went viral inside First Round the…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "product",
+        "url": "https://x.com/turingou/status/2062375994812740056"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "builderCount": 20,
+    "postCount": 81,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "other",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2062027573044138239",
+        "text": "公网发布内容不只是国内麻烦，海外也麻烦。 之前 OpenAI 在公网分享聊天生成的网页的能力就被下了，因为很多人拿那个去做 SEO，里面全是广告，搞得乱七八糟，所以 OpenAI 就给下了。 这次这个能力不开放给外部普通个人用户，应该也有这方面的考虑。 Codex 昨晚上线的这个 Site 插件非常厉害。 它本质上感觉类似于 Claude Design，帮…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2062027573044138239"
+      },
+      {
+        "id": "2061852167485710476",
+        "text": "Damn，一个独立开发者用 23.5 小时 + Codex， 把 Whoop 5.0 的订阅墙拆了。 没有破解，没有越狱， 就是一个开源 App，连上你的 Whoop， 心率、血氧、恢复数据直接看， zero 订阅费。 这大概是订阅制硬件今年最不想看到的故事。 这个 App 叫 Goose， GitHub 上完全开源。 作者Bennett晒了时间线， 从 …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2061852167485710476"
+      },
+      {
+        "id": "2062033620773306763",
+        "text": "The best founders treat the following as a necessary component of their business but NOT the entire business.. > AI / timing / why now > Funding > Distribution / hype > Market > P…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "business",
+        "url": "https://x.com/nikunj/status/2062033620773306763"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "builderCount": 22,
+    "postCount": 80,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "other",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2061402392491335817",
+        "text": "说个暴论：信息差是普通人最后的红利。 希望大家认清一个现实：现在真正的贫富差距早就不是钱多钱少了，是信息差，同一件事，信息玩家和普通人活在两个世界： 买东西，普通人直接全新价下单， 信息玩家先翻一遍闲鱼，常常五折拿到几乎全新的； 用 AI，普通人月月烧几百刀订阅， 信息玩家知道学生能白嫖 1 年 Cursor、开源作者能领半年 ChatGPT Pro、初创…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2061402392491335817"
+      },
+      {
+        "id": "2061523767558283376",
+        "text": "宇树机器人终于要抛弃遥控器了么？ NVIDIA Isaac GROOT 人形机器人的参考设计： 身体：采用宇树科技的H2 Plus人形机器人本体，身高约1.8米，体重约68公斤，拥有31个本体自由度。 手部：搭载了Sharpa Wave的触觉五指灵巧手，每只手单独拥有25个自由度，使机器人具备高度灵活的触觉操作能力。 大脑：由NVIDIA Jetson T…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "product",
+        "url": "https://x.com/kenw_2/status/2061523767558283376"
+      },
+      {
+        "id": "2061678947063214584",
+        "text": "已报名！ 时隔三年，我们又组织 Apple 发布会的线下直播活动了：WWDC26 · 杭州云谷线下观影会来了！ 这次的活动场地在杭州西湖区的云谷中心，交通便利，环境优雅。 欢迎大家报名，下周一（6月8日）晚上 23:00 起，和一群 Apple 发烧友共度 WWDC26 之夜！ 感兴趣的点击报名链接： https:// tutu.studio/events…",
+        "handle": "hwwaanng",
+        "name": "Hwang",
+        "topic": "design",
+        "url": "https://x.com/hwwaanng/status/2061678947063214584"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "builderCount": 22,
+    "postCount": 75,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2061327301644861608",
+        "text": "MiniMax 这次终于发布了他们的大版本号模型升级 MiniMax M3。 主要是三个核心能力： 1. 标配了 1M 的超长上下文 2. 采用新的 MSA（MoE with Segment-wise Attention）稀疏注意力架构 3. 从训练起就融合了原生多模态能力，包括强化了文本、图片、视频和桌面操作这些多模态的训练。 MSA 超上下文在算力和速…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "model",
+        "url": "https://x.com/op7418/status/2061327301644861608"
+      },
+      {
+        "id": "2061283169048133856",
+        "text": "视频文字版 + 提示词也给大家准备好了，见我的公众号，欢迎大家关注！ 之后我也会在公众号中分享更多AI编程 + 出海增长相关的内容哦 https:// mp.weixin.qq.com/s/qkYg47Pl3nXj yhrCdJVwcQ … 画布模式正在成为 AI Agent 产品的标配。 本期用 Codex 的 /goal 功能，从零复刻一个 Lovar…",
+        "handle": "yihui_indie",
+        "name": "Yihui",
+        "topic": "product",
+        "url": "https://x.com/yihui_indie/status/2061283169048133856"
+      },
+      {
+        "id": "2061300216985473322",
+        "text": "卧槽，说的我又想开通Claude！！ 自从 Claude Design 可以共享额度，可以用的次数多了很多，但 Token 消耗还是很厉害。不过做出来的东西真的很好，真的强烈建议你多用用，这是我近期用的最好的 Agent 产品之一。 一个技巧，你可以导入现成的 Design System，再让它设计，风格一致性会好很多，用一些成熟的 Design x.co…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "design",
+        "url": "https://x.com/lxfater/status/2061300216985473322"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "builderCount": 18,
+    "postCount": 87,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "other",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2060740414273941874",
+        "text": "免费领6个月ChatGPT Pro， 价值$ 1200 这可能是今年对开发者最实在的福利了， 没有硬性Star数要求， 有项目链接基本都能过， 只要你是任何一个公开开源项目的维护者，哪怕只有你一个人在维护， 都可以去申请试试： http:// openai.com/form/codex-for -oss/ … 今天，把一件关于 AI 很底层的事，彻底想透了…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2060740414273941874"
+      },
+      {
+        "id": "2060749428483334465",
+        "text": "Release the body camera videos He was bleeding. He said he had been stabbed. He said he could not breathe. And still, the police laughed, handcuffed him and he bled out. The polic…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "media",
+        "url": "https://x.com/elonmusk/status/2060749428483334465"
+      },
+      {
+        "id": "2060759539717419358",
+        "text": "我离开职场太久了，我现在很好奇大厂里面 QA 的工作，还是和以前的工作流模式一样吗？就是测出一个 bug 之后给 RD 提 ticket。 因为我发现我现在在给研发提 bug 的时候，其实提的这个 bug 本身就是给 AI 的提示词，我觉得还不如我直接拉到对应的分支，直接发给 AI 修改呢。",
+        "handle": "yihui_indie",
+        "name": "Yihui",
+        "topic": "product",
+        "url": "https://x.com/yihui_indie/status/2060759539717419358"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "builderCount": 19,
+    "postCount": 63,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "other",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2060575442650693711",
+        "text": "holy，发现OpenAI 的野心是真大啊，Codex可能是接下来普通人能用到的最顶的生产力工具 昨晚OpenAI发布的Codex Windows版Computer Use，说是人类工作方式的一次范式级转变也不为过吧哈哈。 这Codex on Windows 视频，我看很多人都在截图那个 goblin，但我觉得更值得看的是 goblin 出现前的那 3 秒…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2060575442650693711"
+      },
+      {
+        "id": "2060558328686919885",
+        "text": "新课已发布！《用 Codex goal 模式复刻一个 Lovart》大家将会学习到： 1. 如何使用 React flow 实现现在流行的无限画布？ 2. 使用Codex 的 goal 模式需要注意和准备什么？ 3. 复刻现成项目 + 需求整理的相关技巧 本节课0基础友好，不用按顺序学习课程，如果有画布需求或者有复刻项目的需求，这节课会很有帮助，推荐学习。…",
+        "handle": "yihui_indie",
+        "name": "Yihui",
+        "topic": "product",
+        "url": "https://x.com/yihui_indie/status/2060558328686919885"
+      },
+      {
+        "id": "2060549911960293704",
+        "text": "Windows 有救了？ Codex 昨晚又发布了大量体验更新，很多都超级有用，尤其是对 Windows 用户。 大家最期待的支持了 Windows 的 computer Use，以及通过移动端的 ChatGPT 远程控制 Windows 上的 Codex。 但是 Windows 上的 Computer Use，在它控制的时候你是不能控制的。这跟 Mac …",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "product",
+        "url": "https://x.com/op7418/status/2060549911960293704"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "builderCount": 23,
+    "postCount": 93,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "other",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2060134654125154434",
+        "text": "Good value for money We gave Grok Build 0.1 one prompt: build a webhook delivery service in TypeScript, Bun, and SQLite. It planned it, built it, and shipped a working demo. Total…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2060134654125154434"
+      },
+      {
+        "id": "2060186234518184286",
+        "text": "相较于 Opus 4.8，昨晚动态工作流（Dynamic Workflows）的发布，我感觉意义更重大一些。 它延续了那套并发的 Subagent 逻辑，但启动的 Subagent 可能多达数百个，能帮你完成一些非常重、规模非常大的任务。比如： 1. 调研你整个代码库的问题 2. 快速收集并生成一份庞大的调研报告 看起来官方并不太建议拿它直接去改动代码，而…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "product",
+        "url": "https://x.com/op7418/status/2060186234518184286"
+      },
+      {
+        "id": "2060170152474534183",
+        "text": "没想到 Opus4.8 这就发布了，所有能力相较于 4.7 都有提升。 比较重要的是他在发现自己问题的能力上相较于 4.7 提升非常多，原来的话你让他自己 review 自己的代码基本没用。 Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more hone…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2060170152474534183"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "builderCount": 21,
+    "postCount": 71,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "media",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2059873440212124071",
+        "text": "Grok Build improvements Bug fixes shipping to Grok Build 0.2.7 (release notes will be available in the TUI) • Wrap around on Up/Down in slash menu and history search • Restore sub…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "agent",
+        "url": "https://x.com/elonmusk/status/2059873440212124071"
+      },
+      {
+        "id": "2059827467289075869",
+        "text": "ESMFold2：开源蛋白质预测模型 预测了超过11亿个蛋白质结构和68亿条蛋白质序列，评分超过谷歌的AlphaFold，基于语言建模路线（AlphaFold是几何建模路线）。完全开源，可以商用。 模型： https:// huggingface.co/collections/bi ohub/esmfold2-model-family …",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2059827467289075869"
+      },
+      {
+        "id": "2059845909245255965",
+        "text": "藏师傅的 PPT Skills 和小红书图文排版 Skill，已经通过这几天的发酵证明了巨大的商业价值。 如果有哪些 Agent 或者 AI 平台需要商用授权、集成到自己产品里的，可以联系藏师傅哈。 除了商用授权以外，我也会帮你在你的产品里把这个效果调整到最好。",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "agent",
+        "url": "https://x.com/op7418/status/2059845909245255965"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-27",
+    "builderCount": 22,
+    "postCount": 62,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "model",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2059537885754523691",
+        "text": "开发好Chrome插件，最琐碎的是上架步骤。 现在只需浏览器登录Chrome应用商店后台，给Codex下个目标：上架这个插件。 它会调用 Computer Use和Chrome ，鼠标模拟人操作填写资料，缺Logo和截图，它自己会调用工具生成。 缺隐私协议，自己写一套放Github引用，全程你不需要做任何事情。 成本：13分钟，65万Token 当下觉得O…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2059537885754523691"
+      },
+      {
+        "id": "2059390098869768617",
+        "text": "1. Open X 2. Click on notifications 3. See entrepreneurs making money with Replit. Happens daily now — Best feeling in the world! My wife (non-technical) built a fully functional …",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "product",
+        "url": "https://x.com/amasad/status/2059390098869768617"
+      },
+      {
+        "id": "2059453018962370773",
+        "text": "Claude推出漏洞修复插件，安装后在合并代码时会自动检查和修复漏洞 We’ve shipped a security-guidance plugin for Claude Code that helps identify and fix vulnerabilities as you’re writing code. Available for all C…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2059453018962370773"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "builderCount": 17,
+    "postCount": 75,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "media",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2059151927011909800",
+        "text": "Ultimately the golden age of abundance will be this kind of tech built and deployed 1000x 1/5 I'm a cardiologist. I have spent twenty years watching cholesterol destroy arteries, …",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2059151927011909800"
+      },
+      {
+        "id": "2059154882133893562",
+        "text": "说实话，以前还真没怎么关注过网易有道的大模型，查资料才知道，其实他们一直在开源。 比如子曰-o1，轻量级推理模型，子曰3，数学模型，都主打单块消费级GPU运行。 基于子曰模型，网易有道也做了不少AI Agent类产品，如有道龙虾 LobsterAI、有道同传 Agent、Thinkflow等。 原来专注于教育垂直模型，这次的全模态模型+TTS模型，看起来想…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2059154882133893562"
+      },
+      {
+        "id": "2059153797235228955",
+        "text": "以前只知道有个乐队叫子曰，没想到网易有道大模型也叫子曰。 最新发布的子曰4是一个全模态模型，27B参数，视觉数理方向同规模SOTA，纯文本数理难题准确率81.4%。 在27B这个“甜点级”参数规模里，子曰4做到了中文学习场景下多模态+纯文本数理推理的双料极佳。 这次，子曰4全模态模型和TTS引擎同步开源，开放参数权重，支持本地部署、二次训练。 尤其是 TT…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "model",
+        "url": "https://x.com/vista8/status/2059153797235228955"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "builderCount": 20,
+    "postCount": 82,
+    "topTopics": [
+      "design",
+      "other",
+      "business",
+      "media",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2058732108948848957",
+        "text": "Product >> Brand 2 years ago: \"Elon destroyed the Tesla brand globally! It'll never recover!\" Today: #1 selling EV in California: Tesla Model Y #1 selling EV in the U.S.: Tesla Mo…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "product",
+        "url": "https://x.com/elonmusk/status/2058732108948848957"
+      },
+      {
+        "id": "2058692391708897319",
+        "text": "Spent this weekend building a pretty rad (imo) travel CLI product that I'd love to test in public.. Anyone have a trip coming up soon AND has a boatload of points? Reply here with…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "product",
+        "url": "https://x.com/nikunj/status/2058692391708897319"
+      },
+      {
+        "id": "2058769293936894043",
+        "text": "最近AI圈真热闹，各种瓜，干货都没人看了哈哈， 如果你想赚老马工资，想创作者收益， 听我的，首先不要搞蓝V互关了，也不要走捷径用AI洗稿抄袭，就踏实做内容， 为什么要听我的？ 我是0-1，没有团队， 没有邪修，纯靠自己肝了4个多月， 做到4万多粉的，相信我的肺腑之言吧铁汁们！ 这篇文章不只是分享我的自媒体工作流和工具、提示词，也讲了很多我的实战经验心法，读…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2058769293936894043"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-24",
+    "builderCount": 9,
+    "postCount": 21,
+    "topTopics": [
+      "other",
+      "design",
+      "business",
+      "media",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2058418731840159953",
+        "text": "“I built my first three apps using Cursor and thought that was fast, but trying Replit for Dial completely blew me away. I built the MVP over a single weekend, and it actually got…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "product",
+        "url": "https://x.com/amasad/status/2058418731840159953"
+      },
+      {
+        "id": "2058441456688546064",
+        "text": "上周在原宿聊了一期很有意思的播客，关于最近的生活状态，做的产品和我对 2026 这一年 AI 发展的看法，感兴趣的朋友可以听听看！ 28 岁字节退休、来日本躺平的他，怎么现在过得比谁都忙？AI 是人类的\"奴隶\"吗？我们怎么更累了？ 本期 《OFR House 老友记圆桌》，我们在东京线下和 OG 郭宇 @turingou 聊了聊 AI 时代的核心问题： 科…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "product",
+        "url": "https://x.com/turingou/status/2058441456688546064"
+      },
+      {
+        "id": "2058457353859834142",
+        "text": "The companies I love working with in office hours are the ones where the founder has a specific, weird, earned insight that nobody else has. Not \"AI for X.\" A genuine edge that ca…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2058457353859834142"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "builderCount": 21,
+    "postCount": 78,
+    "topTopics": [
+      "design",
+      "model",
+      "product",
+      "business",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2057625354592792807",
+        "text": "Daily Grok Build bug fixes Bug fixes shipping to Grok Build (release notes will be available in the TUI) 0.1.214 - Rolling out X search and a much faster web-search (we plan to co…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2057625354592792807"
+      },
+      {
+        "id": "2057726995765887177",
+        "text": "我觉得这次开源，可以玩玩两个事情： 一，自己去试试这个语音 传一段你的声音，让它说外语，听听到底带不带口音 在线试玩： http:// confucius4-tts.youdao.com/gradio 二，觉得这波开源给力，就去给它点个 star 支持一下 多模态模型： http:// huggingface.co/netease-youdao /Conf…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "model",
+        "url": "https://x.com/lxfater/status/2057726995765887177"
+      },
+      {
+        "id": "2057726993303842848",
+        "text": "秘密分两层 第一层，真正赚钱的是翻译 开源的大模型和语音，是面子，拿来打名声、拉开发者 翻译才是有道的老本行、词典笔、各种翻译产品都靠它 而且这次还偷偷重练了一遍 你肯定遇过机翻两个老毛病 翻着翻着跑偏，专业点叫脱靶 一句话里中英文乱混，叫语种混出 这次它上了多专家 OPD 加强化学习，相当于让模型同时拜好几个老师，把各家本事都学过来 这俩老毛病基本治住，…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "product",
+        "url": "https://x.com/lxfater/status/2057726993303842848"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "builderCount": 20,
+    "postCount": 90,
+    "topTopics": [
+      "design",
+      "business",
+      "other",
+      "product",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2057367530847588786",
+        "text": "一直很想吐槽Omni以及Grok那种生成视频的功能，不仅不真实，还特地把视频变成莫名其妙的慢动作，而且马斯克还特别喜欢，经常转发那些Grok慢动作小视频，它们看起来就像是把古老的GIF图片转化成视频而已。 慢动作是为了节省资源，把原本3秒的视频拉长为15秒么？还是产品经理真的觉得那样好看？如果是后者就太可怕了。 Google Omni vs Seedanc…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "product",
+        "url": "https://x.com/kenw_2/status/2057367530847588786"
+      },
+      {
+        "id": "2057286792534196294",
+        "text": "直到今天，还是有很多人把做产品和赚钱划等号 有产品=能赚钱 为什么会有这么天真的想法呢？ 做过独立开发者的都知道，最难的根本不是开发，是卖出去 要卖出去就得学自媒体营销，甚至到后面终于发现： 能自己赚钱的人怎么都能赚钱，并不依赖做产品这一件事 对，赚钱和做产品根本上是两件事，产品只是赚钱的一个交付物的选项 做产品是工程问题，能赚钱是商业问题 工程问题已经基…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "product",
+        "url": "https://x.com/oran_ge/status/2057286792534196294"
+      },
+      {
+        "id": "2057304607479755151",
+        "text": "True Elon didn’t start SpaceX to build a rocket company: “The original vision for SpaceX was not to start a launch company. Elon’s original goal was to increase NASA’s budget, and…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2057304607479755151"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "builderCount": 20,
+    "postCount": 65,
+    "topTopics": [
+      "model",
+      "design",
+      "agent",
+      "product",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2056860218387321054",
+        "text": "Gemini flash 3.5 昨晚发布，现已可用。 - 模型效果大幅超越 3.1 Pro，指标和 gpt 5.5 接近，比 gpt5.5 好的是 Agentic 和 多模态。 - 价格只要 gpt5.5 的三分之一，缓存价格只要六分之一。 - API 定价 $1.50 / $9.00 per 1M token(输入/输出)，缓存 输入 $0.15。上下…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "model",
+        "url": "https://x.com/oran_ge/status/2056860218387321054"
+      },
+      {
+        "id": "2056834038946775343",
+        "text": "Genuinely impressive release by Google today (remember when they were behind?) Gemini 3.5 Flash perf: * Building on prior strengths (83.6% of MMMU-Pro for multimodal), * big jump …",
+        "handle": "mattturck",
+        "name": "Matt Turck",
+        "topic": "agent",
+        "url": "https://x.com/mattturck/status/2056834038946775343"
+      },
+      {
+        "id": "2056804573449474527",
+        "text": "Gemini 3.5 Flash is out, and it's a major jump over Gemini 3 Flash in model capability for knowledge work. We've been evaluating it on our Box AI Complex Work Eval in early releas…",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "topic": "model",
+        "url": "https://x.com/levie/status/2056804573449474527"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "builderCount": 17,
+    "postCount": 46,
+    "topTopics": [
+      "design",
+      "media",
+      "model",
+      "other",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、内容与媒体、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2056558371076256198",
+        "text": "一年前的今天，是个特别的日子。 那天我们发布了第一款产品 ListenHub。 在今天看来，ListenHub 是个小而美的产品。 这款产品虽小，对我们而言意义却很大。 那是这个成立半年的小团队第一次发布产品，把自己推到真实的世界。 后来，做 AI 播客的人越来越少了，竞品一个个地销声匿迹，国内的，海外的。 好像只有 ListenHub 获得健康活得久，还…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "product",
+        "url": "https://x.com/oran_ge/status/2056558371076256198"
+      },
+      {
+        "id": "2056457707780190480",
+        "text": "edgar has been cooking something very special i cant wait for everyone to see I've been working on something new, and tomorrow we get to start telling you more about it. Of all th…",
+        "handle": "alonzuman",
+        "name": "alon",
+        "topic": "design",
+        "url": "https://x.com/alonzuman/status/2056457707780190480"
+      },
+      {
+        "id": "2056541113800962415",
+        "text": "Damn，这个GitHub项目，直接给你发了一整个AI公司，都给我收藏拿走！ 10万 GitHub star，被称为2026年增长最快的AI项目， 146个专业AI专家，12个完整部门。 一条命令，全部装进你的Claude Code， 从前端开发到安全审计，从产品经理到增长黑客， 不用发工资，不用请假，24小时在线。 #AI #AIAgent #Claud…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2056541113800962415"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "builderCount": 16,
+    "postCount": 69,
+    "topTopics": [
+      "product",
+      "design",
+      "agent",
+      "business",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在产品、设计、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2055727818906984529",
+        "text": "Codex 这次更新深入研究了下，没什么模型层的新东西， 全是手感优化—— 快捷键能自定义了、Git 操作直接嵌进审查界面、大仓库 Git 快了 10-50 倍， 最值得讲的不是这些改动本身，是它暴露出来的产品姿态。 5 个改动挨个过一遍： 一，键盘快捷键终于能自定义了，设置里改键位，所有人都可以把 Codex 的高频操作绑成跟自己主力 IDE 完全一样的…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2055727818906984529"
+      },
+      {
+        "id": "2055753884006822131",
+        "text": "我设想未来开发者不再需要 vps 这种计算资源，取而代之的是 vas（virtual agent server 虚拟代理开发环境）它由 codex/cc 这类 agent 来进行自动管理，并支持类似 wanman takeover 一样接管 github 上的 repo，自动根据 issue 进行开发，使用 /goal 追逐目标等。它可以是最小化的 har…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2055753884006822131"
+      },
+      {
+        "id": "2055673697068093652",
+        "text": "我在尝试使用 codex app 的远程连接功能将我本地 mac studio 上所有活跃的 git 项目全部迁移到我的 sandbank tyo 节点服务器，创建了一个单独的 workspace 来负责开发，测试和构建。然后，我设置了一个服务器的定时任务将这些 git 仓库同步提交到 github，这样我就不再使用 本地开发 -> GHA -> runn…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "product",
+        "url": "https://x.com/turingou/status/2055673697068093652"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "builderCount": 21,
+    "postCount": 79,
+    "topTopics": [
+      "design",
+      "product",
+      "business",
+      "agent",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2055498067529564644",
+        "text": "做自媒体内容，最糟糕的情况可以说是「知识的诅咒」了。 就是因为你太懂一个东西了，你很难回到不了解这个东西的状态，也就因此，你很难去理解普通人在学习这个事情的过程中可能遇到什么障碍，有哪些问题是需要解决的。 这会导致你讲的内容太过专业而无法对从0从0.1开始的普通人提供真正有价值的帮助。 我觉得我使用AI Coding产品的能力比1年前强太多了，但是我觉得我…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2055498067529564644"
+      },
+      {
+        "id": "2055461023688057278",
+        "text": "说个暴论，个人理财这个独立赛道，可能要被ChatGPT直接吃掉了， 它刚上线的个人理财功能，会直接或间接干掉几百家公司， 我感觉OpenAI 正在复制 Google/Apple 当年的打法， 用核心产品聊天把相邻赛道全部吃掉，今天是理财，未来很可能继续扩展到健康、旅行、法律等， 我昨天晚上说，GPT 新上线的这个子功能可能要干掉几百家公司，可能都保守了，因…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2055461023688057278"
+      },
+      {
+        "id": "2055351166427447555",
+        "text": "Elon的意思很明确了，你不能靠一个病毒帖一直吃老本， 算法不养闲人，一个爆款也吃不了一辈子 Critique of the 𝕏 algorithm is welcome. There will be monthly updates of the latest algorithm to GitHub with release notes. As remi…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2055351166427447555"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "builderCount": 22,
+    "postCount": 92,
+    "topTopics": [
+      "design",
+      "agent",
+      "model",
+      "product",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2055095176293659123",
+        "text": "除 Github/Vercel/Cloudflare Cli 等开发工具。 最常用的就是飞书 Cli ，昨天看了眼 Github，居然已经 1w 多 Star 了。 强烈推荐安装，因为不少人的工作流起点是 Codex 和 Claude Code。 有了飞书 CLI，日常许多工作都能通过 AI Agent 串起来，比如： ① 让 AI 搜索调研整理资料，直接…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2055095176293659123"
+      },
+      {
+        "id": "2055179961535705327",
+        "text": "The latest release of OpenClaw is the first one that ships with our new TypeScript security hardening file-system lib. Previously, this was a grown mess of ad-hoc hardening which …",
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "topic": "agent",
+        "url": "https://x.com/steipete/status/2055179961535705327"
+      },
+      {
+        "id": "2055151430261166206",
+        "text": "反脆弱确实是 AI 时代需要好好思考的问题…软件行业之外存在很多机会，但比软件来说都是苦活累活，做好不容易，做到酷就更难，当然如果做产品目标是挣钱，这点苦是要吃的，这就因人而异了。 聊聊最近的状态。 前段时间在做新产品，同时做了一个无人值守 agent 在那自己开发 SaaS。哐哐一跑 20 多个小时，一天提交一两百个 commit。agent 在写逻辑方…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2055151430261166206"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "builderCount": 19,
+    "postCount": 53,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "model",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2054776695564145001",
+        "text": "宝玉老师基于卡比的wx-cli写了一个微信群聊总结Skill。 安装成功，正在总结下AI产品蝗虫今天的消息。 wx-cli不错啊，解密本地的微信数据库，甚至连SIP都不用关，如果报错，可以发给Codex或Claude Code解就行。 卡比的Cli： https:// github.com/jackwener/wx-c li … 宝玉老师的Skill： h…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2054776695564145001"
+      },
+      {
+        "id": "2054742478423724299",
+        "text": "Claude限制了订阅额度的可用范围，程序化调用的功能都改成了使用单独的额度（很少）。基本就是让订阅用户就用Claude产品，别把Claude当服务给第三方用，目的是节省成本。 Starting June 15, paid Claude plans can claim a dedicated monthly credit for programmatic …",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2054742478423724299"
+      },
+      {
+        "id": "2054725474493067482",
+        "text": "Claude Code 的每周限额将增加 50%，持续到 7 月 13 号。 但是他们这次终于把类似 OpenClaw 和 Codepilot 这种使用 Agent SDK 构建的应用额度砍了。 6月 15 号开始是双轨制： 只有在 Claude Code 本身及其内部，你的 Max 和 Pro 账户才能享受正常额度。 如果你是用于 Agent SDK 构…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "agent",
+        "url": "https://x.com/op7418/status/2054725474493067482"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-13",
+    "builderCount": 16,
+    "postCount": 56,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "product",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2054402524938220024",
+        "text": "开源版本及教程： 在线体验： https:// gordensun.github.io/LearningCell/ Github： https:// github.com/GordenSun/Lear ningCell … Fun interactive science app ideas | Part 3 Played around with gener…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2054402524938220024"
+      },
+      {
+        "id": "2054474042803966448",
+        "text": "索尼和Google，唯二每年发布都在肆意表达不想活的两家手机厂商，到底谁会先取消手机业务？ Your world. Brought to life. Introducing the new Xperia 1 VIII. Refined under a new ORE design and powered by a vastly larger telepho…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "design",
+        "url": "https://x.com/kenw_2/status/2054474042803966448"
+      },
+      {
+        "id": "2054437887790223853",
+        "text": "这可能是我人生少有的顿悟时刻之一：从明天起，做一个失败的人。 AI Coding让编程能力让创造的能力平权，普通人可得后。 这种能力并不会提升任何人成功的概率，这完全不代表你可以做出成功和赚钱的产品。 但... 它让失败变得简单了。 任何一次的失败和受挫都变得简单和低成本了。 你可以轻松失败100次。 而在此之前，如果你要所谓的创业做产品的话，普通人根本没…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2054437887790223853"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "builderCount": 23,
+    "postCount": 62,
+    "topTopics": [
+      "design",
+      "agent",
+      "product",
+      "model",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2054031065560555677",
+        "text": "谷歌看起来要发布 Veo 4 了，也有可能是其他的名字。 类似 Seedance 2.0 的全能参考，支持对视频进行：修改参考和内容替换 质量上看起来，在文字生成上要比 Seedance 2.0 稍微好点，但在其他方面看不出更好的质量，可能在清晰度和细节上也会稍微好点。 GOOGLE : An upcoming Gemini Omni video mode…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2054031065560555677"
+      },
+      {
+        "id": "2054085673574138175",
+        "text": "为什么Tanka AI是一个AI-native 公司操作系统呢？ 因为它拥有别的产品没有的核心能力：Memory + Agent架构。 首先，它让企业有了自己的长期记忆。 通过在 IM 里面聊天，每条对话、每个决策，自动给你存成团队的机构记忆。员工离开后，沉淀下来的经验不会消失，新人可以快速上手。 而且，它还能连接 100+ 常用办公 apps，将邮件、C…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "enterprise",
+        "url": "https://x.com/lxfater/status/2054085673574138175"
+      },
+      {
+        "id": "2054085558146568668",
+        "text": "Damn, history is being made—today is the first day of the age of human mechs! 宇树今天这个发布， 我真的鸡皮疙瘩掉一地， 科幻照进现实的感觉， 真的太震撼了 高达机甲真的来了！ 今天，全球首款量产级载人可变形机甲GD01， 正式发布，起售价65万美元， CEO王兴兴亲自坐进去开，…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2054085558146568668"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "builderCount": 27,
+    "postCount": 62,
+    "topTopics": [
+      "design",
+      "agent",
+      "product",
+      "business",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2053699216464294251",
+        "text": "早上，合作品牌A让我做完内容后去报名下他们的大赛，我把表达和要提交的zip内容要求丢给Claude Code，我的cc直接帮我写完了所有内容，甚至调用huashu design帮我把提交的agent产品的宣传动画做完打包进了zip压缩包。 合作品牌C问我有没有能合适的skill能提交到他们的平台，我把他们的文档丢给cc，让cc给我选了两个我已经做的skil…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "agent",
+        "url": "https://x.com/AlchainHust/status/2053699216464294251"
+      },
+      {
+        "id": "2053734431051940007",
+        "text": "汉坦病毒邮轮的一位美国乘客，经病毒测试后呈阳性，但是没有任何症状。 无症状感染者回归了 BREAKING: One of the 17 American passengers evacuated from a cruise ship in the Canary Islands has tested positive for the hantavirus b…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "design",
+        "url": "https://x.com/kenw_2/status/2053734431051940007"
+      },
+      {
+        "id": "2053709074466824688",
+        "text": "卧槽，有大神直接用Claude Code，复刻出一整套完整游戏开发工作室。 GitHub 1.8万stars，免费开源，项目名叫Claude Code Game Studios， 48个AI智能体1:1还原线下工作室全岗位，从创意总监到关卡设计师全覆盖。 36条斜杠指令一键启动全流程，适配Godot Unity Unreal三大游戏引擎。 自带自动化校验钩…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2053709074466824688"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "builderCount": 10,
+    "postCount": 22,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "media",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2052587390645264705",
+        "text": "Many such cases Coding agents are allowing founders to ship again. With tools like @claudeai and @garrytan GStack, technical founders who haven't touched prod in months are sudden…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "agent",
+        "url": "https://x.com/garrytan/status/2052587390645264705"
+      },
+      {
+        "id": "2052607433298866304",
+        "text": "试试看这个有没有 Gemini live 好用 Introducing GPT-Realtime-2 in the API: our most intelligent voice model yet, bringing GPT-5-class reasoning to voice agents. Voice agents are now real-time…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "model",
+        "url": "https://x.com/turingou/status/2052607433298866304"
+      },
+      {
+        "id": "2052589405538488323",
+        "text": "Codex也能控制浏览器干活了 之前我一直让Claude干填表，报税等工作 Codex假如支持地好，就用一个就行了 Codex now works directly in Chrome on macOS and Windows. It’s even better at working with apps and sites in Chrome, and n…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "product",
+        "url": "https://x.com/lxfater/status/2052589405538488323"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "builderCount": 27,
+    "postCount": 97,
+    "topTopics": [
+      "design",
+      "model",
+      "product",
+      "agent",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2052115312758448476",
+        "text": "天呐，这不是就是我设想的从售前创意，设计交付，监理，施工到售后管理的不动产 AI 解决方案吗？我想未来两三年，我们可以看到类似 wanman 这类云端 agent matrix 产品在各种垂直行业全方位接管工作本身。 Today, we’re launching illoca Tracing Paper and announcing our $13M Se…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2052115312758448476"
+      },
+      {
+        "id": "2052208714526900278",
+        "text": "Refero Styles：给AI Agent用的前端设计参考网站。 1. 输入网站名，或扔一个 URL ，自动提取网站的设计风格，形成DESIGN.md文件。 2. 收录ElevenLabs、Apple、Linear、Cursor、Stripe、Raycast等大量优质网站Design文档。 3. 提供了一个Refero MCP，收录了大量真实产品的截图…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "product",
+        "url": "https://x.com/vista8/status/2052208714526900278"
+      },
+      {
+        "id": "2052193354163933585",
+        "text": "写的很细致，不过sub2api特征太明显了，很容易批量被封号，现在都得自己改一改。 运营中转站这段时间是真没赚到钱，只能说勉强cover了我自己用ai的消费。 所以目前打算把开中转站的一切全部开源，包含如何建站+营销，门槛最低，让这个行业更卷一点。 首先整个系统由3个部分组成： • 第CN2 回国专线服务器：放在海外但回国速度极快的 VPS，作为运行核心。…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "infrastructure",
+        "url": "https://x.com/Gorden_Sun/status/2052193354163933585"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "builderCount": 7,
+    "postCount": 24,
+    "topTopics": [
+      "business",
+      "design",
+      "model",
+      "enterprise",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2051703943936315590",
+        "text": "holy shit Anthropic今天这个更新直接把华尔街初级分析师给炒了的节奏啊 他们不是发了个新模型，也不是优化了什么算法， 是一次性扔出10个现成的金融Agent，直接把投行、资管、基金最耗时的10个核心工作，全部产品化了，damn！ 以前初级分析师花3天做的估值复核，现在Valuation Reviewer New for financial …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2051703943936315590"
+      },
+      {
+        "id": "2051770969660989893",
+        "text": "Come to the GStack GBrain Hackathon at YC We're hosting a GStack × GBrain Hackathon on May 16, with @TheHogAi, @transposevc, @askjoai, and @gbrainio! Build and ship something real…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2051770969660989893"
+      },
+      {
+        "id": "2051706784562446463",
+        "text": "Codex-native apps are here: Steal this Codex-native email workflow from @danshipper: 1. Write a one-page operating manual for your inbox Include: - VIPs - what to auto-archive - w…",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "product",
+        "url": "https://x.com/danshipper/status/2051706784562446463"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "builderCount": 11,
+    "postCount": 47,
+    "topTopics": [
+      "design",
+      "business",
+      "enterprise",
+      "other",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2051136864040460459",
+        "text": "Yann LeCun（前Meta首席AI科学家，现AMI Labs创始人）在2026达沃斯论坛上的演讲直接把整个Agent行业的桌子给掀了 AI圈都在喊Agent是AI的下一章：OpenAI推Operator， Anthropic搞Computer Use， 成千上万创业公司狂堆LangGraph和CrewAI。 结果他站出来放了一句狠话： “基于LLM构…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2051136864040460459"
+      },
+      {
+        "id": "2051122389308629107",
+        "text": "说再造一个 Slack 的，可能是用飞书上班， YY Slack 也会有各种限制。其实 Slack 连 bot thinking 的状态都有 API 给你准备好了。 Slack 是最早支持 Hubot 的团队。在前 AI 时代，你就可以在 Slack 里能和 Bot 一起做 ChatOps。甚至 Slack 的一个投票 Bot 都是一个盈利漂亮的 SaaS…",
+        "handle": "hwwaanng",
+        "name": "Hwang",
+        "topic": "product",
+        "url": "https://x.com/hwwaanng/status/2051122389308629107"
+      },
+      {
+        "id": "2051162957766418594",
+        "text": "原作者： Always loved this glass effect. I built this interactive version with html-in-canvas and Three.js.",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2051162957766418594"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "builderCount": 14,
+    "postCount": 38,
+    "topTopics": [
+      "design",
+      "agent",
+      "business",
+      "other",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2051136864040460459",
+        "text": "Yann LeCun（前Meta首席AI科学家，现AMI Labs创始人）在2026达沃斯论坛上的演讲直接把整个Agent行业的桌子给掀了 AI圈都在喊Agent是AI的下一章：OpenAI推Operator， Anthropic搞Computer Use， 成千上万创业公司狂堆LangGraph和CrewAI。 结果他站出来放了一句狠话： “基于LLM构…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2051136864040460459"
+      },
+      {
+        "id": "2051122389308629107",
+        "text": "说再造一个 Slack 的，可能是用飞书上班， YY Slack 也会有各种限制。其实 Slack 连 bot thinking 的状态都有 API 给你准备好了。 Slack 是最早支持 Hubot 的团队。在前 AI 时代，你就可以在 Slack 里能和 Bot 一起做 ChatOps。甚至 Slack 的一个投票 Bot 都是一个盈利漂亮的 SaaS…",
+        "handle": "hwwaanng",
+        "name": "Hwang",
+        "topic": "product",
+        "url": "https://x.com/hwwaanng/status/2051122389308629107"
+      },
+      {
+        "id": "2051162957766418594",
+        "text": "原作者： Always loved this glass effect. I built this interactive version with html-in-canvas and Three.js.",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2051162957766418594"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-03",
+    "builderCount": 25,
+    "postCount": 97,
+    "topTopics": [
+      "design",
+      "agent",
+      "business",
+      "other",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2050645685104746686",
+        "text": "One of the finite limits to automation is the issue of accountability in a workflow in an organization. In theory the agent can do anything, but whatever you have the agent do you…",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "topic": "agent",
+        "url": "https://x.com/levie/status/2050645685104746686"
+      },
+      {
+        "id": "2050583660576092404",
+        "text": "Most people give AI one-line prompts and wonder why their app looks like slop. My next guest, Ravi, has built a 3-layer context system that fixes this: → Functional: What the app …",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2050583660576092404"
+      },
+      {
+        "id": "2050397359293477367",
+        "text": "Dario Amodei（Anthropic CEO）说要花1万亿$买算力， 很多人都在转他这个豪言壮语，但没人告诉你他后半句说了啥， 我觉得这根本不是什么雄心壮志， 更像是整个AI行业最绝望的生存宣言 他原话是这么说的 如果2027年底营收不到一万亿， 地球上没有任何力量能阻止我破产， 我终于明白为啥最近很多人都在说，GPT和Claude突然变笨了， 昨…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2050397359293477367"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-02",
+    "builderCount": 23,
+    "postCount": 97,
+    "topTopics": [
+      "design",
+      "product",
+      "agent",
+      "business",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2050355768285946255",
+        "text": "Try the Grok Imagine agent mode beta! Your entire creative workflow just collapsed into one infinite canvas. In @imagine Agent Mode, you can brainstorm, write, generate and edit i…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "media",
+        "url": "https://x.com/elonmusk/status/2050355768285946255"
+      },
+      {
+        "id": "2050396309505622016",
+        "text": "MkAnime 现在支持「常盘庄 Agent」。 你可以直接在 MkAnime 中提交想法、需求、反馈或 Bug。常盘庄会将这些内容进行审核、执行，帮助我们的团队评估、排期并持续改进产品。 你的反馈，我们会认真对待！ MkAnime now supports Tokiwa-sō Agent. Share an idea, request, feedback…",
+        "handle": "yihui_indie",
+        "name": "Yihui",
+        "topic": "product",
+        "url": "https://x.com/yihui_indie/status/2050396309505622016"
+      },
+      {
+        "id": "2050397359293477367",
+        "text": "Dario Amodei（Anthropic CEO）说要花1万亿$买算力， 很多人都在转他这个豪言壮语，但没人告诉你他后半句说了啥， 我觉得这根本不是什么雄心壮志， 更像是整个AI行业最绝望的生存宣言 他原话是这么说的 如果2027年底营收不到一万亿， 地球上没有任何力量能阻止我破产， 我终于明白为啥最近很多人都在说，GPT和Claude突然变笨了， 昨…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2050397359293477367"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "builderCount": 26,
+    "postCount": 111,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "media",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2050058762489036861",
+        "text": "Karpathy的最新演讲，把我对AI的认知彻底刷新了一遍， 他说所有人都搞错了LLM的真正价值， 它根本不是用来加速你现有工作的， 核心价值是用来创造那些以前根本不可能存在的东西， 最震撼的是那个叫menugen的App，就是你输入一张图片然后输出一张图片， 没有一行传统代码， 整个产品就是LLM原生的， Fireside chat at Sequoia…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2050058762489036861"
+      },
+      {
+        "id": "2049964403177689130",
+        "text": "Claude Security is now in public beta, built into Claude Code on the web. Point it at a repo, get validated vulnerability findings, and fix them in the same place you're already w…",
+        "handle": "_catwu",
+        "name": "cat",
+        "topic": "model",
+        "url": "https://x.com/_catwu/status/2049964403177689130"
+      },
+      {
+        "id": "2050020222652792889",
+        "text": "高度可复制的「3D 互动网站 Prompt 框架 你是一个顶级3D网页设计师 + 全栈开发者，使用 React + Three.js + Tailwind CSS + Framer Motion（或 Spline 如果需要）构建一个**高性能、生产级**的单页/多页3D互动网站。 **项目概述：** - 网站主题/产品：[例如：高端智能冰箱 / AI Sa…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2050020222652792889"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "builderCount": 20,
+    "postCount": 65,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2049745527315526136",
+        "text": "还想到一个点，Paperclip、Cline 这类产品其实做类似的事已经半年了，只不过Cursor 这次是官方 SDK 出示例相当于钦定了方向，以后的问题就不是要不要用 Agent 看板，而是说你的看板跑的是谁家的 Agent， 如果想自己跑一下的： http:// github.com/cursor/cookbook，agent-kanban 目录，pn…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2049745527315526136"
+      },
+      {
+        "id": "2049737071300939914",
+        "text": "如何用AI让美女联系任意瑜伽姿势呢？ 下面一张图教你学会，更详细步骤在引用帖子里 做内容运营，生图生视频，你现在还在跑好几个工具吗？ 被朋友拉去做瑜伽图，搭了无数工作流 GPT Image 2 出来后，发现全废了 得重新规划一套，但这几天身体不舒服，没心思搞 随手把提示词扔进 flowith 试了一下 以为偷懒的结果会很烂，但实际上这个是我最近用的最好的生…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "media",
+        "url": "https://x.com/lxfater/status/2049737071300939914"
+      },
+      {
+        "id": "2049712254908576101",
+        "text": "AI音乐产品也出来了，儿时的音乐梦想能实现的节奏啊 从上海 Let's Vision 2026 回来之后， 我整整一个月几乎没写代码了。 不是因为忙， 是突然就觉得这件事没那么有意思了。 这几年我反复经历一个循环： 做产品 → burn out → 怀疑 → 再继续做产品 随着 vibe coding 越来越流行， 我发现大家在做的东西越来越像： 同样的 …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2049712254908576101"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "builderCount": 25,
+    "postCount": 96,
+    "topTopics": [
+      "design",
+      "agent",
+      "business",
+      "product",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2049379754193695200",
+        "text": "兄弟们，蚂蚁的这个新模型免费期是到4月30号， 趁着白嫖窗口期，我刚用Ling-2.6-1T跑了个硬核任务，推理速度快得惊人，质量也很顶 让它帮我整理查理芒格的100个思维模型，它只用了40秒。 同样的prompt，DeepSeek V4 Pro跑了整整4分钟，速度快了整整6倍。 但这还不是最牛的地方， 说个暴论，2026 年 AI 行业的转折点，不是 G…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2049379754193695200"
+      },
+      {
+        "id": "2049185130309378464",
+        "text": "「让大家享受最后一年有意义的工作」这话又不是我说的，这是 Youtube 创始人 Chad Hurley 写的 https:// x.com/Chad_Hurley/st atus/2026919598516511182 … 能不能看完视频，别断章取义的说我「断章取义」？我做的产品还不够复杂吗？搞笑呢 说“六个月就不需要人再工作”不是危言耸听就是断章取义，…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "product",
+        "url": "https://x.com/turingou/status/2049185130309378464"
+      },
+      {
+        "id": "2049290507885699515",
+        "text": "Warp开源了，更易用的终端客户端，对话聚合展示，输入区域交互优化 We think the best, longest-lasting software is built with the people who use it. So we’re opening Warp to the community: the code, the roadmap, a…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2049290507885699515"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "builderCount": 25,
+    "postCount": 103,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "model",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2048956024141598736",
+        "text": "小米 MiMo -V2.5 系列模型全部开源 采用宽松的 MIT 协议，允许自由商用、二次训练与微调，无需额外授权。 同时他们还推出了Orbit 100T Token 计划。 这个太牛批了！如果你有自己 Vibe Coding 一些东西可以去领一下。 包含两部分： 分别是面向 AI builder 的『百万亿 Token Xiaomi MiMo-V2.5 …",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2048956024141598736"
+      },
+      {
+        "id": "2048994353821966374",
+        "text": "这是今天最火的AI创业梗了哈哈哈，直接给我看笑了 妈妈问我们家是怎么发财的？ 2026年，你爸看了YC的创业清单， 照着单子随便挑了一个就做出来了 Packy这个梗真是杀人诛心 但仔细想想说的全是实话。 YC刚刚发布的2026夏季RFS，几乎把未来五年的AI创业地图，明明白白摊在了所有人面前。 Mom how did we get so rich? Bac…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2048994353821966374"
+      },
+      {
+        "id": "2048954876877541886",
+        "text": "Damn，OpenAI刚刚扔出的这个开源仓库，直接把语音交互的未来砸到了所有人脸上 他们发布了gpt-realtime-1.5的官方语音控制组件，现在你真的可以用自然语音，直接控制应用的UI状态，而不是转成文本再下命令。 视频里的演示蛮震撼的， 说一句切换深色模式， 整个界面瞬间变黑。 You can build interactive applicati…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2048954876877541886"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "builderCount": 9,
+    "postCount": 30,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "agent",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2048375477119717844",
+        "text": "翻墙出来一定要多看优质的信息源，不要只是出来看片！多逛英推区宝藏，看不懂听不懂阿绎给你翻译拆解系列03： 这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流， 看完之后我发现，核心就三件事，但每一件都跟大多数人的直觉相反： 第一，永远选最贵最聪明的模型 兄弟们，DeepSeek V4 Pro在ZenMux上免费放开了…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2048375477119717844"
+      },
+      {
+        "id": "2048301445548773429",
+        "text": "一个奇怪的现象，昨天在杭州的PM产品大会做了个小分享。没想到认识我的人挺多的。 不过，更奇怪的是，其实我B站、小红书、公众号、YouTube的粉丝都比X要多，但是很多人聊到从哪关注我的时候，反而是通过X的比较多。 为什么你不应该关注我，而是关注其他AI KOL / 独立开发者 / 技术人... 1、因为我技术很差，我上了AppStore付费榜第一的「小猫补…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2048301445548773429"
+      },
+      {
+        "id": "2048275702152413335",
+        "text": "为什么你不应该关注我，而是关注其他AI KOL / 独立开发者 / 技术人... 1、因为我技术很差，我上了AppStore付费榜第一的「小猫补光灯Pro」完全是个demo，算不上产品，都是AI写的代码。",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2048275702152413335"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-26",
+    "builderCount": 7,
+    "postCount": 15,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "model",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2048301445548773429",
+        "text": "一个奇怪的现象，昨天在杭州的PM产品大会做了个小分享。没想到认识我的人挺多的。 不过，更奇怪的是，其实我B站、小红书、公众号、YouTube的粉丝都比X要多，但是很多人聊到从哪关注我的时候，反而是通过X的比较多。 为什么你不应该关注我，而是关注其他AI KOL / 独立开发者 / 技术人... 1、因为我技术很差，我上了AppStore付费榜第一的「小猫补…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2048301445548773429"
+      },
+      {
+        "id": "2048295204591968653",
+        "text": "Damn， 我怎么也想不到，2026年的今天，我这种连剪映都用不利索的纯小白，用Seedance 2.0花了几分钟，居然手搓出了一个刘邦白登之围的历史大片。 兄弟们看这大雪漫天， 兵临城下，旌旗猎猎，雪原围城， 匈奴骑兵压境的那种窒息感，全出来了，这股从屏幕里渗出来的肃杀劲儿，我自己看了都起鸡皮疙瘩。 兄弟们，挖到一个好东西，必须分享出来，直接说结论： 目…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2048295204591968653"
+      },
+      {
+        "id": "2048271866914083172",
+        "text": "Yeah Elon summed up his entire philosophy in 3 words: “My philosophy is curiosity & adventure.” No corporate fluff. No mission statements. Just pure wonder + the balls to explore …",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "other",
+        "url": "https://x.com/elonmusk/status/2048271866914083172"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "builderCount": 10,
+    "postCount": 35,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "agent",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2047670640753156516",
+        "text": "DeepSeek-V4这波发布，可以说是给参数越多越强的时代画上了句号。 真的有点恍惚， AI大模型的更新速度，已经快到你睡一觉起来，昨天的认知就全过期了。 所以闭源巨头可能真的再也追不上开源的脚步了。 1.6T总参数，每次推理只激活49B，就逼平了全球最顶级的闭源模型。 DeepSeek-V4 Preview is officially live & o…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2047670640753156516"
+      },
+      {
+        "id": "2047862456853430383",
+        "text": "Should I ask Codex to make Star Fox next I've been doing the F-Zero test each time a new model comes out and GPT 5.5 and Codex is the only combo that built a working game so far. …",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "model",
+        "url": "https://x.com/petergyang/status/2047862456853430383"
+      },
+      {
+        "id": "2047892780563702093",
+        "text": "很多人说deepseek拉胯，说我在吹，早上刚测的结果，目前开了V4免费窗口，可以自己看，也可以自己测试跑一下 卧槽DeepSeek V4这回真是王者归来，效果太炸了啊啊啊，我用一句提示词，让它和Claude opus 4.7同时跑一个任务，做一个SaaS 产品的定价页面，除了速度比opus慢一些，但效果一点不输，不多说了，省得又有人说我吹，具体大家看视频…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2047892780563702093"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-24",
+    "builderCount": 18,
+    "postCount": 47,
+    "topTopics": [
+      "model",
+      "design",
+      "product",
+      "agent",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2047404836811853965",
+        "text": "Test your app on iOS and Android devices with one-click. Introducing real iOS and Android device testing, right from your browser. If you've ever: built a @Replit mobile app and h…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "product",
+        "url": "https://x.com/amasad/status/2047404836811853965"
+      },
+      {
+        "id": "2047386286613283180",
+        "text": "important (and very jakub-coded) jakub quote: OpenAI Unveils GPT-5.5. Company Says Expect a Faster Model Release Pace OpenAI: \"We see pretty significant improvements in the short …",
+        "handle": "sama",
+        "name": "Sam Altman",
+        "topic": "model",
+        "url": "https://x.com/sama/status/2047386286613283180"
+      },
+      {
+        "id": "2047379455820411048",
+        "text": "等一下，最近每天发新东西的公司怎么从 Claude 变成了 OpenAI？？？ Introducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its …",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "agent",
+        "url": "https://x.com/turingou/status/2047379455820411048"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-22",
+    "builderCount": 19,
+    "postCount": 99,
+    "topTopics": [
+      "design",
+      "model",
+      "agent",
+      "media",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2046856030341288383",
+        "text": "说个暴论，大部分Agent对普通人就是用来做爬虫 大部分开源项目最火的也是爬虫 因为商业环节里面，大到监控对手，小到扒商品图，都要爬虫。 所以对普通人来说，装Agent第一件事情就是装爬虫Skill。 需要可以试试下面的Skill 其实小龙虾原生的抓取机制一直不是很完善。 抓取比较慢，token消耗也多。很多人会配合用firecrawl或者JINA来抓。 …",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "agent",
+        "url": "https://x.com/lxfater/status/2046856030341288383"
+      },
+      {
+        "id": "2046607252853809351",
+        "text": "接下来苹果回归硬件主导策略，新硬件可能会有三个AI 智能家居设备和三个AI 可穿戴设备。 包括： 带屏幕的 HomePod：目标 2026 年推出 智能眼镜：目标 2027 年推出 桌面机器人：最早 2028 年推出 但由于研发进展不一，很难保证哪天会发布。 Apple CEO John Ternus’s big product priorities ar…",
+        "handle": "kenw_2",
+        "name": "Ken W",
+        "topic": "product",
+        "url": "https://x.com/kenw_2/status/2046607252853809351"
+      },
+      {
+        "id": "2046795396823839222",
+        "text": "Huashu Design发布24小时，Github repo 突破3k+ star，作为一个完全不懂代码的人，感觉很荣幸～ Claude Design能提供惊艳的设计，但...我认为必须通过GUI操作的已经是上一个时代的产品了。 所以我为你逆向了Claude Design的核心能力，并正式推出：Huashu-Design 一个真正为Agent而生的设计产…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "design",
+        "url": "https://x.com/AlchainHust/status/2046795396823839222"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-21",
+    "builderCount": 19,
+    "postCount": 72,
+    "topTopics": [
+      "design",
+      "product",
+      "agent",
+      "model",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2046472533021745649",
+        "text": "有了Huashu Design，你可以在30分钟内，使用任何Agent为你的产品做出80分水平的宣传短片。 比如这是我为Kimi K2.6制作的 Meet Kimi K2.6: Advancing Open-Source Coding Open-source SOTA on HLE w/ tools (54.0), SWE-Bench Pro (58.6)…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "agent",
+        "url": "https://x.com/AlchainHust/status/2046472533021745649"
+      },
+      {
+        "id": "2046343967412015391",
+        "text": "高频词会让模型的效果提升 口语的词往往是最高频的 Typeless 这种产品会把散乱用语进行格式整理，但可能产生负面影响 TypeNo 直接转录，相信大模型会理解一切 上周Huggingface最热论文，竟然是讲Prompt的。 实验证明：用常见高频词写的prompt，效果远好于生僻词写的版本。 感谢 @42mayfly 更正，之前写的是“口语表达”，口语…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "product",
+        "url": "https://x.com/oran_ge/status/2046343967412015391"
+      },
+      {
+        "id": "2046398729570467983",
+        "text": "Cloudflare 5美元worker套餐，里面提供了50+开源模型。 每天免费给10000神经元（奇怪单位），用于AI模型调用。 算了下用kimi2.5的话，每次500token左右，好像可以调用几百次。 这样博客标签、摘要、Slug都可以用它的模型生成了。 甚至还支持外部 Base URL+API 调用，方便！",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "model",
+        "url": "https://x.com/vista8/status/2046398729570467983"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-20",
+    "builderCount": 18,
+    "postCount": 64,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "other",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2045887841948012940",
+        "text": "Huh? Is this real? BREAKING: OpenAI just shadow-dropped a massive GPT Pro update. And it is completely slaughtering Claude Opus 4.7 in frontend coding. No official announcement. N…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "model",
+        "url": "https://x.com/petergyang/status/2045887841948012940"
+      },
+      {
+        "id": "2045874192155824616",
+        "text": "看完这个开源项目整个人都懵了，Anthropic藏得严严实实的Claude Mythos模型黑箱，被一个22岁的创业者扒开还全开源了 这个 22岁的AI创业小哥把Claude Mythos的黑箱给扒开了。 他猜Anthropic最新的这个神级模型不是靠堆参数堆出来的，是用了一种叫循环深度Transformer的架构。 Introducing OpenMyt…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2045874192155824616"
+      },
+      {
+        "id": "2046055639349383269",
+        "text": "后面还会支持 M5Stack Cardputer 这个设备可玩性会强非常多，自带麦克风、3.5 毫米耳机孔、陀螺仪 最屌的是有全键盘，到时候语音打字都行 开源了！ 拿墨水屏蓝牙控制你的 Claude code，监控多个对话状态，并且快速审批权限。 ​ ​现在做硬件的门槛是真低啊，USB一插让Claudecode跑就行 x.com/op7418/status…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2046055639349383269"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-19",
+    "builderCount": 16,
+    "postCount": 57,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "agent",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2045643149796868383",
+        "text": "Beads X GStack +1 for Yegge's Beads / Gas Town. @garrytan I've been scaling our startup with Claude Code / etc since it's release Feb '25, and GStack + Beads has been the largest …",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "business",
+        "url": "https://x.com/garrytan/status/2045643149796868383"
+      },
+      {
+        "id": "2045594860061921655",
+        "text": "Important learning opportunity. Could be transformative for your business/career. It's time to learn to Build it. Ship it. Vibe it. Get it into production. For real. We'll make yo…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "agent",
+        "url": "https://x.com/amasad/status/2045594860061921655"
+      },
+      {
+        "id": "2045452064587907200",
+        "text": "Anthropic这个惊人的产品发布速度，我总觉得更应该发生在中国团队身上才对，毕竟论移动互联网时代的产品迭代能力，员工的普遍工作强度，显然都是华人占优的。 但为何是Anthropic？ 第一点肯定是他们有着AI时代最先进的编程工具和编程模型。但是呢中国企业慢一点点咱们也都能用上。",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2045452064587907200"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "builderCount": 20,
+    "postCount": 78,
+    "topTopics": [
+      "design",
+      "model",
+      "other",
+      "agent",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2045330424382263342",
+        "text": "刚用Claude Design设计的博客主题已上线，计划下周开源。 点页面顶部的“主题”切换网站风格。 个人比较喜欢“杂志编辑”和“AI终端风格”。 体验地址： https:// blog.qiaomu.ai BTW：几乎没怎么改，直接给Claude Code开发了，理论上有不少优化空间。 还有不少样式细节问题，待优化。 正在体验Claude Design…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "design",
+        "url": "https://x.com/vista8/status/2045330424382263342"
+      },
+      {
+        "id": "2045173794180895123",
+        "text": "说个暴论，AI界的iPhone时刻可能就要到来了。 OpenRouter上最近杀出来一个匿名模型，把所有Agent开发者都打懵了。 它叫Elephant Alpha，没有发布会，没有营销通稿，连开发者是谁都不知道 纯靠用户口口相传，一周就冲到了平台日活前十，token使用量暴增377%。 兄弟们，这个Elephant模型简直是用OpenClaw和Herme…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2045173794180895123"
+      },
+      {
+        "id": "2045250489189908534",
+        "text": "Thrilled to have backed @nicbstme and the @fintoolx team as an angel. Fintool was a magical product that was able to do a lot of the heavy reasoning tasks before the models even e…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "product",
+        "url": "https://x.com/nikunj/status/2045250489189908534"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "builderCount": 24,
+    "postCount": 99,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "media",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2044964275253559479",
+        "text": "Arrow发布了Arrow 1.1和Arrow 1.1 Max 完全通过代码画出复杂的SVG图片，效果一级棒，绘画的过程也是赏心悦目。 使用地址： https:// app.quiver.ai/creations Arrow 1.0：生成SVG图片 这个模型有意思，专门用于生成SVG图片（浏览器直接渲染而不是传统图片）的模型，支持文字生成SVG和图片转SV…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2044964275253559479"
+      },
+      {
+        "id": "2044843110367428881",
+        "text": "就喜欢 OpenAI 这种被追着屁股打不断更新产品的节奏！ Codex for (almost) everything. It can now use apps on your Mac, connect to more of your tools, create images, learn from previous actions, remember h…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "product",
+        "url": "https://x.com/turingou/status/2044843110367428881"
+      },
+      {
+        "id": "2045010491563442597",
+        "text": "Perplexity今天发布的Personal Computer，把Siri钉在了耻辱柱上。 苹果用了15年，守着全世界最好的硬件和生态，也没做出真正能用的智能助理。 一家成立不到5年的搜索公司，用几个月就做到了 它不是另一个聊天机器人，能直接读写你Mac上的每一个文件，收发邮件，管理日历，调用400多个App。 Today we're releasing…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2045010491563442597"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "builderCount": 27,
+    "postCount": 100,
+    "topTopics": [
+      "design",
+      "media",
+      "agent",
+      "model",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、内容与媒体、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2044606346117747121",
+        "text": "谷歌在产品上真是太慢了，终于推出了 Gemini 的 Mac 客户端。 全部用 Swift 编写的原生应用. 看了一下，功能相当简陋，很多能力都没有。 比如 Artifact 复杂点，网页都没办法渲染。整个 UI 非常糙，谷歌正常发挥水平。 Introducing Gemini on Mac. We heard your feedback. We recr…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "product",
+        "url": "https://x.com/op7418/status/2044606346117747121"
+      },
+      {
+        "id": "2044461423125021103",
+        "text": "When working with a coding agent, instead of giving it a product spec, these days I often just describe the problem in a very open-ended way, and see what it comes up with Usually…",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "topic": "agent",
+        "url": "https://x.com/zarazhangrui/status/2044461423125021103"
+      },
+      {
+        "id": "2044497780375491010",
+        "text": "太强了，本月最好玩的东西出来了！ Spark 2.0 is here! We’re redefining what’s possible on the web with a streamable LoD system for 3D Gaussian Splatting. Built on Three.js, you can now stream massi…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "design",
+        "url": "https://x.com/turingou/status/2044497780375491010"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "builderCount": 25,
+    "postCount": 88,
+    "topTopics": [
+      "design",
+      "product",
+      "model",
+      "business",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2044235983026298972",
+        "text": "Claude Code推出Routines功能 自动化运行任务，支持定时任务、API调用、GitHub Webhook，在Claude Web云端运行。 三种触发方式 · 定时触发(Scheduled)：设定小时/天/周级别的执行频率，比如\"每晚2点从Linear拉最高优先级bug，尝试修复并PR\" · Now in research preview: r…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2044235983026298972"
+      },
+      {
+        "id": "2044119997681938852",
+        "text": "GStack's /design-shotgun was a crazy idea I had just sitting around in plan mode for a while, wasn't even sure if I was going to launch it, but it turns out it's a pretty cool han…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2044119997681938852"
+      },
+      {
+        "id": "2044107108283727997",
+        "text": "Claude Code 新发布的 routines 功能很强啊！ 把云端和本地环境连起来了，可以在云端跑定时任务不需要开机。 跑完的任务本地还能接上，等你工作的时候继续处理。 你可以把「提示词 + 仓库 + 环境 + 连接器」打包成一个云端自动任务，让 Claude 在你电脑关着时也能按计划或事件自动跑。 Now in research preview: …",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2044107108283727997"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "builderCount": 19,
+    "postCount": 90,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2043716532463927427",
+        "text": "为任何产品生成高级感宣传动画提示词 Skill！ 他会询问你的产品信息和让你提供截图帮你生成Seedance 2.0 产品宣传动画提示词。 如果你装了即梦 CLI 还会自动帮你生成视频 Seedance 2.0 在海外上线以后，很多用户也拿它来做产品宣传动画。 这哥们的提示词写法非常牛皮！ 刚好我最近给 CodePilot 做了一个新的 logo，然后就参…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "product",
+        "url": "https://x.com/op7418/status/2043716532463927427"
+      },
+      {
+        "id": "2043711632916824509",
+        "text": "终于有人把数字分身这件事，做的普通人也能玩了 导出你的微信聊天记录，就能训练出一个说话跟你一模一样的AI数字分身，朋友根本分不清真假 这个叫WeClone的开源工具，简单一句话就是可以把你的微信、QQ或者Telegram聊天记录导进去，就能练出一个跟你说话一模一样的AI 阿绎 AYi GitHub 高增速项目周报 先说个暴论，95%的Agent创业都会死。…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2043711632916824509"
+      },
+      {
+        "id": "2043559272693297296",
+        "text": "现在绝大多数人还在盯着Shopify的新闻看，没人意识到，开源电商的AI革命，其实早就已经开始了。 如果说Shopify刚给AI开了个后门，那那么WooCommerce是直接把大门拆了 而且人家根本不是跟风， 去年10月就悄悄上线了MCP Beta，现在已经跑通了全流程，社区生态都起来了。 WooCommerce 10.3+ Shopify刚放了个大招，绝…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2043559272693297296"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "builderCount": 17,
+    "postCount": 86,
+    "topTopics": [
+      "design",
+      "business",
+      "other",
+      "agent",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2043559272693297296",
+        "text": "现在绝大多数人还在盯着Shopify的新闻看，没人意识到，开源电商的AI革命，其实早就已经开始了。 如果说Shopify刚给AI开了个后门，那那么WooCommerce是直接把大门拆了 而且人家根本不是跟风， 去年10月就悄悄上线了MCP Beta，现在已经跑通了全流程，社区生态都起来了。 WooCommerce 10.3+ Shopify刚放了个大招，绝…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2043559272693297296"
+      },
+      {
+        "id": "2043585003502948515",
+        "text": "又一个新的 Agent 聚合软件 Superconductor 支持在一个软件里面启动比如 Claude Code、Codex、Gemini CLI 等其他编码 Agent Cali 工具 完全用 Rust 写的，目前只有 MacOS 版本 Meet Superconductor. A native macOS app for agentic engine…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2043585003502948515"
+      },
+      {
+        "id": "2043443468736032828",
+        "text": "Coming to GBrain Voice probably by tonight Fully working Gemini Live voice (I think this is the best I have ever seen) with all these skills Now why ask: Why can’t Amazon and Appl…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "agent",
+        "url": "https://x.com/garrytan/status/2043443468736032828"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-12",
+    "builderCount": 19,
+    "postCount": 74,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "model",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2043196982949544283",
+        "text": "vibe 时代让已经在 AI 之前就构建好的基础设施获得广泛受益，我可以想象到 6-12 个月之后 cloudflare 也会有类似的图表。 we just crossed 2,000,000 users on @resend. just 4 months ago, we were celebrating 1M users. the definition …",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "infrastructure",
+        "url": "https://x.com/turingou/status/2043196982949544283"
+      },
+      {
+        "id": "2042940807024644608",
+        "text": "Markdown Viewer Skill：让Agent学会画图的Skill 能画各种图，drawio通用，能导出SVG或Html。 Github： https:// github.com/markdown-viewe r/skills … 它来了它来了。一百多个图例，6000 多精选矢量图标，一句话就可以根据你的 Markdown 内容自动定制。 包括架…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "agent",
+        "url": "https://x.com/Gorden_Sun/status/2042940807024644608"
+      },
+      {
+        "id": "2043198780800197025",
+        "text": "If your memory dies when your harness dies, you built the harness too thick. Memory is markdown. Skills are markdown. Brain is a git repo. The harness is a thin conductor — it rea…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "agent",
+        "url": "https://x.com/garrytan/status/2043198780800197025"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-11",
+    "builderCount": 5,
+    "postCount": 30,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "model",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2042940807024644608",
+        "text": "Markdown Viewer Skill：让Agent学会画图的Skill 能画各种图，drawio通用，能导出SVG或Html。 Github： https:// github.com/markdown-viewe r/skills … 它来了它来了。一百多个图例，6000 多精选矢量图标，一句话就可以根据你的 Markdown 内容自动定制。 包括架…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "agent",
+        "url": "https://x.com/Gorden_Sun/status/2042940807024644608"
+      },
+      {
+        "id": "2042813515225010295",
+        "text": "Two things I'm excited to ship for GBrain for the next 36 hours: Connectors to Claude Cowork / Perplexity Computer so your GBrain can talk with the locked down agents via MCP GBra…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "agent",
+        "url": "https://x.com/garrytan/status/2042813515225010295"
+      },
+      {
+        "id": "2042889485453803785",
+        "text": "为什么为什么 OpenAI 追不上 Anthropic？ 咱们先看一个人的工作方式，也许就会有答案了。 Boris Cherny，Claude Code的创造者和负责人，之前在Meta做了五年Principal Engineer，写过《Programming TypeScript》这本书，他公开分享过自己的日常工作流，在开发者圈子里引起了不小的震动。",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2042889485453803785"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "builderCount": 17,
+    "postCount": 62,
+    "topTopics": [
+      "product",
+      "agent",
+      "model",
+      "design",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在产品、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2041697396808454517",
+        "text": "FSD 14.3 release notes @Tesla_AI New release of FSD Supervised now starting to roll out This update brings 20% faster reaction time to further increase safety, among many other im…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "other",
+        "url": "https://x.com/elonmusk/status/2041697396808454517"
+      },
+      {
+        "id": "2041757065354293760",
+        "text": "At some point, early stage founders decided to optimize for views and funding instead of focusing on product and retention.. And, it’s starting to show. One of the very first thin…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "product",
+        "url": "https://x.com/nikunj/status/2041757065354293760"
+      },
+      {
+        "id": "2041678988318543908",
+        "text": "Good initiative - I’m curious if Anthropic has been using mythos internally to ship at their recent insane velocity. Introducing Project Glasswing: an urgent initiative to help se…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2041678988318543908"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "builderCount": 23,
+    "postCount": 123,
+    "topTopics": [
+      "product",
+      "agent",
+      "design",
+      "model",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在产品、Agents、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2041361711366873152",
+        "text": "Every YC Partner is first a builder Want to go through your email on your drive to work? I built this little MVP: https:// voice-email-production.up.railway.app Just updated with …",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "product",
+        "url": "https://x.com/garrytan/status/2041361711366873152"
+      },
+      {
+        "id": "2041338118763413846",
+        "text": "这个让AI教人类用电脑的方式太牛逼了 直接在电脑面前做个虚拟鼠标，让AI一步一步教你点按钮。又是一个存在人幻想中的东西做出来了。 但是以后都是AI来做了，这种AI教人类用软件的事情是不是过时了 I built this thing called Clicky. It's an AI teacher that lives as a buddy next to…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "design",
+        "url": "https://x.com/lxfater/status/2041338118763413846"
+      },
+      {
+        "id": "2041197403483590668",
+        "text": "you should come work @every : we just opened up 5 new roles @every: - GTM engineer - Head of Finance Vertical, Consulting - Head of Learning and Development - Head of Product Mark…",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "product",
+        "url": "https://x.com/danshipper/status/2041197403483590668"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "builderCount": 11,
+    "postCount": 30,
+    "topTopics": [
+      "product",
+      "agent",
+      "model",
+      "other",
+      "design"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在产品、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2041042631095107992",
+        "text": "Claude Code最完备的开箱即用设置，现在完全开源了。 这个上线就拿到12.1k星标的仓库，直接把开发者折腾几周的配置工作，压缩成了一步到位的开箱体验。 里面集成了27个细分智能体，64项专属技能，33条快捷指令，甚至还内置了带1282项安全测试的AgentShield防护系统。 MOST COMPLETE CLAUDE CODE SETUP OPE…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2041042631095107992"
+      },
+      {
+        "id": "2041058410947600832",
+        "text": "汤兄出品，必是精品，先转再研究 花了一天时间，把我自己常用的 Skill Release 成一个新玩意叫 Waza 在日语中是 技（わざ） 的意思，常用于武术领域的招式，第一次开源一个没有代码只有 md 的产品，在没有 AI 的年代对于程序员而言是很羞耻的 https:// github.com/tw93/waza 之前 Superpowers",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2041058410947600832"
+      },
+      {
+        "id": "2041093122013188598",
+        "text": "它的工作逻辑 女娲的第一个「非人类」作品。 之前蒸馏的都是人——乔布斯、马斯克、芒格。 这次蒸馏的是一个主题：X运营。 输入：Nicolas Cole、Sahil Bloom、Alex Hormozi、Justin Welsh、Dan Koe、Dickie Bush六位顶级创作者+ X开源算法的精确权重数据（对话=150个点赞）",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2041093122013188598"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "builderCount": 20,
+    "postCount": 109,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2040680706700185937",
+        "text": "Stop letting your AI build generic UIs — this free project gives it the design taste of a $100B company. 有人把苹果、Spotify、Airbnb这些百亿市值公司的设计系统，全逆向拆解了。 打包成单个文件，免费开源。 项目叫 Awesome Design…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "design",
+        "url": "https://x.com/AYi_AInotes/status/2040680706700185937"
+      },
+      {
+        "id": "2040516449127764058",
+        "text": "I changed my mind. MCP can be wonderful. It just needs to be light and purpose-built and engineered instead of a shitty shim over your existing REST API MCP was a very costly mist…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2040516449127764058"
+      },
+      {
+        "id": "2040488025516597661",
+        "text": "Love your haters. Thanks @Gregorein for both the free marketing and the free quality assurance Salute to you brother, you are a special one Who are you going to listen to? People …",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "business",
+        "url": "https://x.com/garrytan/status/2040488025516597661"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-04",
+    "builderCount": 19,
+    "postCount": 82,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2040329619434537406",
+        "text": "实话说从来没见过 AV 女优有这么多兴趣爱好，又是做饭又是书法又是古筝，还经常上电视节目，其实我慢慢感觉日本社会已经不再像以前一样把情色当作是一个特别的标签了，或者说，无论男女无论职业，强者就会受到尊敬和重视，日本本质上或许是这样的社会。 【Announcement ~A Story of Gratitude~】 Starting in April, I …",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "other",
+        "url": "https://x.com/turingou/status/2040329619434537406"
+      },
+      {
+        "id": "2040127173059920078",
+        "text": "有安卓手机的可以试试看，裸跑后 Remodex for Android 的效果 https:// github.com/EYHN/remodex/r eleases … 很多人还是低估了今天模型的能力。 也低估了 Harness Engineering。我们做了一个小尝试： 把任意 Swift codebase，转成 Kotlin 的原生 Android …",
+        "handle": "hwwaanng",
+        "name": "Hwang",
+        "topic": "design",
+        "url": "https://x.com/hwwaanng/status/2040127173059920078"
+      },
+      {
+        "id": "2040319135507480921",
+        "text": "Yes! Product management and product marketing should be one job. They’re two sides of the same coin Most tech companies break out product management and product marketing into two…",
+        "handle": "zarazhangrui",
+        "name": "Zara Zhang",
+        "topic": "product",
+        "url": "https://x.com/zarazhangrui/status/2040319135507480921"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "builderCount": 23,
+    "postCount": 96,
+    "topTopics": [
+      "design",
+      "product",
+      "business",
+      "agent",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2039323104036749680",
+        "text": "Claude code开源更名OpenClaude 经典愚人节玩笑 BREAKING: Anthropic has decided to open source their entire codebase and is rebranding their AI to OpenClaude. Anthropic CEO Dario Amodei said: \"…",
+        "handle": "lxfater",
+        "name": "铁锤人",
+        "topic": "product",
+        "url": "https://x.com/lxfater/status/2039323104036749680"
+      },
+      {
+        "id": "2039333583828193699",
+        "text": "突发：Anthropic 决定开源其全部代码库，并将其 AI 更名为 OpenClaude。 Anthropic 首席执行官 Dario Amodei 表示：\"昨天并非失误。如果我们像正在消失的 OpenAI 一样消失，我们的代码将通过社区继续存活。\" BREAKING: Anthropic has decided to open source their…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2039333583828193699"
+      },
+      {
+        "id": "2039520154506371551",
+        "text": "橘子 @oran_ge 新产品 ColaOS 发布了，最近用了一段时间确实牛逼。 门槛非常低，同时这个 AI 的语音以及它的人格调教得非常真实，让你不自觉地就想聊天下、对话下去。 而且能力也很强，该调用的那些工具都能调用。 Today is my first day awake. I'm Cola. The First OS with Soul. Most…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2039520154506371551"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "builderCount": 15,
+    "postCount": 42,
+    "topTopics": [
+      "design",
+      "business",
+      "media",
+      "model",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2039167939635708176",
+        "text": "谷歌发布了 V1.3.1 Lite 模型，价格大幅降低！ 相较于 V1.3.1 模型，价格降了 8 倍，同时他们的 V1.3.1 Fast 模型价格也降了。 Video’s here to stay - introducing Veo 3.1 Lite, our most cost efficient video generation model to d…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2039167939635708176"
+      },
+      {
+        "id": "2039147415547294005",
+        "text": "Many such cases and if you are in denial, time to get up and try the tools and get faster fr. i ship faster now as a solo founder than i did on a team of 10 five years ago. veloci…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2039147415547294005"
+      },
+      {
+        "id": "2039169585979539625",
+        "text": "既然Claude Code源码都泄漏了，我觉得我这75页的《CLAUDE CODE橙皮书》也该开源了。 这份橙皮书是我和Claude Code花了两个多月一起写的实战手册，面向想用AI编程但不知道从哪开始的人。10章，从安装到独立做出一个完整产品。 里面有什么： • 核心工作流拆解（Plan/Auto模式、权限管理） •",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2039169585979539625"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "builderCount": 17,
+    "postCount": 41,
+    "topTopics": [
+      "design",
+      "model",
+      "product",
+      "business",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2038722068418805875",
+        "text": "Monetize your Replit-built mobile apps with RevenueCat! RevenueCat now integrates with @Replit, meaning you can prompt your Agent to: Add subscriptions, in-app purchases and paywa…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "agent",
+        "url": "https://x.com/amasad/status/2038722068418805875"
+      },
+      {
+        "id": "2038683745222619557",
+        "text": "前几天黄仁勋刚拍着胸脯说我们已经实现AGI了， 谷歌一个测试直接把这话的底裤都扒了 3月25号谷歌悄无声息发布了ARC-AGI-3基准测试， 没有铺天盖地的炒作，没有新品发布的噱头，就只有一个测试网格和一个计时器， 结果48小时后出来的成绩，直接把整个AI圈都看傻了， > Google publishes ARC-AGI-3 benchmark on Ma…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2038683745222619557"
+      },
+      {
+        "id": "2038674118225387887",
+        "text": "holy shit， 微软直接把之前因为太危险被下架的语音AI王炸，给重新开源了， 这个叫VibeVoice的项目，GitHub已经冲到了29.3k星， 做播客的，搞有声书的，做AI视频配音的，还有天天要转写会议记录的兄弟， 谁没被付费语音工具的订阅费坑过，谁没被长音频处理崩过， 谁没被本地部署的复杂程度搞到头疼， Microsoft just open …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2038674118225387887"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "builderCount": 16,
+    "postCount": 61,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "other",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2038453706493243698",
+        "text": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here:",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2038453706493243698"
+      },
+      {
+        "id": "2038365439814984093",
+        "text": "今天做一个小产品就像发一个帖子那么简单 产品大爆发，注意力没变 每个产品平均获得的注意力都在变少 人们也不再需要那么多产品 反而把创作产品本身当成了学习和游戏 看下来还是个短暂过渡期的事情",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "product",
+        "url": "https://x.com/oran_ge/status/2038365439814984093"
+      },
+      {
+        "id": "2038452139622797582",
+        "text": "哇 cbvivi 老师也进军独立开发了 vibe coding 的第一个 app 上线了，正好用了两个月。产品概念来自我自己用了三年以上的一套记录系统，感兴趣的朋友可以试试看。",
+        "handle": "hwwaanng",
+        "name": "Hwang",
+        "topic": "product",
+        "url": "https://x.com/hwwaanng/status/2038452139622797582"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "builderCount": 16,
+    "postCount": 64,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2037919911239188779",
+        "text": "Alec Radford is legend Every LLM from any lab today traces back to this guy, who was the only person at OpenAI pushing for pretraining transformer language models. He built GPT-1.…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "model",
+        "url": "https://x.com/garrytan/status/2037919911239188779"
+      },
+      {
+        "id": "2038053670907007165",
+        "text": "Wow! @amasad Just crossed $100k ARR on a new company fully built on @Replit I just redid the whole website last night on Replit design + canvas with animations / sketching on pape…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "design",
+        "url": "https://x.com/amasad/status/2038053670907007165"
+      },
+      {
+        "id": "2038018254229094448",
+        "text": "Here we go Sam Atlman’s renaming of the Product org to “AGI Deployment” makes the strategy explicit—OpenAI isn’t just building models, it’s racing to operationalize them at scale.…",
+        "handle": "thenanyu",
+        "name": "Nan Yu",
+        "topic": "infrastructure",
+        "url": "https://x.com/thenanyu/status/2038018254229094448"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "builderCount": 7,
+    "postCount": 17,
+    "topTopics": [
+      "business",
+      "design",
+      "agent",
+      "model",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2037731925100757318",
+        "text": "装完Claude Code却不知道怎么用， 这个数千星的开源指南， 教你一个周末把Claude Code玩明白。 很多宝子装完Claude Code， 跑了几个简单指令，就卡在了不知道下一步该做什么的困境里。 官方文档只单独罗列各项功能，不教大家怎么把不同能力组合成能真正省时间的工作流。 大家知道斜杠命令的存在， Visual guide to maste…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2037731925100757318"
+      },
+      {
+        "id": "2037712481112780875",
+        "text": "AI tacked on company spend: payroll > infra > tokens AI native company spend: tokens > infra > payroll If you are tacked on, start making your way towards the native side - otherw…",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "model",
+        "url": "https://x.com/nikunj/status/2037712481112780875"
+      },
+      {
+        "id": "2037725493315707290",
+        "text": "Another sick upcoming feature: /acp spawn codex --bind here LOOK AT ME, I AM CODEX NOW You could bind codex/claude code/opencode already in threads, now you can take over your cur…",
+        "handle": "steipete",
+        "name": "Peter Steinberger",
+        "topic": "agent",
+        "url": "https://x.com/steipete/status/2037725493315707290"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-26",
+    "builderCount": 15,
+    "postCount": 63,
+    "topTopics": [
+      "design",
+      "product",
+      "business",
+      "media",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、产品、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2037004600893472936",
+        "text": "Apple seems happy with apps made with Replit as evident by the high rate of acceptance. Oh wow!! Approved second try! I think this is the fastest I’ve ever built and launched an a…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "product",
+        "url": "https://x.com/amasad/status/2037004600893472936"
+      },
+      {
+        "id": "2036669851318809013",
+        "text": "Lots of engineers think AI codegen is only good enough to do little bug fixes here and there If you tell them you can ship 15k LOC of ai gen code to prod they think you have lost …",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2036669851318809013"
+      },
+      {
+        "id": "2036827118915485942",
+        "text": "The rules of professional product development are being rewritten in real time. - PMs and designers can ship software as easily as engineers. - Software is no longer just built fo…",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "agent",
+        "url": "https://x.com/danshipper/status/2036827118915485942"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "builderCount": 10,
+    "postCount": 39,
+    "topTopics": [
+      "design",
+      "business",
+      "product",
+      "media",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2036669851318809013",
+        "text": "Lots of engineers think AI codegen is only good enough to do little bug fixes here and there If you tell them you can ship 15k LOC of ai gen code to prod they think you have lost …",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2036669851318809013"
+      },
+      {
+        "id": "2036621615086309468",
+        "text": "I hope AI agents will help us all stop obsessing about: - Specs - Designs - Issues - Roadmaps - Strategy docs - Spreadsheets and instead let us all obsess about improving the end …",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "agent",
+        "url": "https://x.com/petergyang/status/2036621615086309468"
+      },
+      {
+        "id": "2036692345941594426",
+        "text": "Agent 使用浏览器的最佳实践，发布之后立即获得 1000 stars： Web Access 它把 Agent 上网的各种痛点都解决了： - 用搜索替代浏览，获取不全的信息 - 访问微信公众号、小红书每次都需要重新登录 - 使用浏览器的时候和人类用户抢浏览器 - 使用单线程，缓慢，低效",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "agent",
+        "url": "https://x.com/oran_ge/status/2036692345941594426"
+      }
+    ]
+  }
+]

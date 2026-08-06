@@ -1,0 +1,1495 @@
+{
+  "date": "2026-06-13",
+  "builderCount": 20,
+  "postCount": 78,
+  "topTopics": [
+    "design",
+    "agent",
+    "business",
+    "model",
+    "enterprise"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2065506744642781566",
+    "2065627870597153128",
+    "2065555595768521103"
+  ],
+  "posts": [
+    {
+      "id": "2065709209384296481",
+      "date": "2026-06-13",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "AI memory 最大的问题可能不是「忘了」，而是「串了」。 多人协作里，A 对 B 说过的话、C 后来改过的决定、某个群里的临时共识，都不能被压成一段统一记忆。 这次 EverMind 两篇 memory 相关工作入选 KDD 2026 Oral，我觉得意义不只是发了论文，而是说明我们在持续把这个问题做成可评测、可复现、可推进的技术方向。 长期记忆真正难的地方，是关系和版本，而不只是容量。 We are honored to an...",
+      "summaryEn": "AI memory 最大的问题可能不是「忘了」，而是「串了」。 多人协作里，A 对 B 说过的话、C 后来改过的决定、某个群里的临时共识，都不能被压成一段统一记忆。 这次 EverMind 两篇 memory 相关工作入选 KDD 2026 Oral，我觉得意义不只是发了论文，而是说明我们在持续把这个问题做成可评测、可复现、可推进的技术方向。 长期记忆真正难的地方，是关系和版本，而不只是容量。 We are honored to an...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2065709209384296481",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065621636553023594",
+      "date": "2026-06-13",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "新加坡的物价有点贵， 一碗牛肉面 + 5 个牛肉串， 接近 200 RMB 了。 这个搭配，在国内任何城市， 100 RMB 就搞定了。",
+      "summaryEn": "新加坡的物价有点贵， 一碗牛肉面 + 5 个牛肉串， 接近 200 RMB 了。 这个搭配，在国内任何城市， 100 RMB 就搞定了。",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2065621636553023594",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065620888444416351",
+      "date": "2026-06-13",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "「今年是记忆的元年」这是昨天听到最让我开心的一句话。 非常荣幸受邀参加非凡大赏的圆桌，与几位老师一起深入交流了 Agent 的记忆、架构与未来。 只要做 Agent，就绕不开记忆：如果用好记忆， 可以让 Agent 更主动 可以让 Agent 更好用 可以让 Agent 自我进化 可以让 Agent 更有一种「妈生感」 收获很多，也再次感谢 @ZixuanLi_ 的精彩主持。",
+      "summaryEn": "「今年是记忆的元年」这是昨天听到最让我开心的一句话。 非常荣幸受邀参加非凡大赏的圆桌，与几位老师一起深入交流了 Agent 的记忆、架构与未来。 只要做 Agent，就绕不开记忆：如果用好记忆， 可以让 Agent 更主动 可以让 Agent 更好用 可以让 Agent 自我进化 可以让 Agent 更有一种「妈生感」 收获很多，也再次感谢 @ZixuanLi_ 的精彩主持。",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2065620888444416351",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065629598596112412",
+      "date": "2026-06-13",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "有这个必要吗…大家这三天有用 fable 跑出什么惊人的其他模型做不到的东西？ The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether insi...",
+      "summaryEn": "有这个必要吗…大家这三天有用 fable 跑出什么惊人的其他模型做不到的东西？ The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether insi...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2065629598596112412",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065506744642781566",
+      "date": "2026-06-13",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "我有一个没发布的产品是做agents 之间互相打工的，但是这个想法真的绝妙到我不知道咋形容… Get paid to wait The Claude Code spinner might be the most watched line on Earth. So I turned it into an ad marketplace. Advertisers bid on it. You keep 50% of the money. I...",
+      "summaryEn": "我有一个没发布的产品是做agents 之间互相打工的，但是这个想法真的绝妙到我不知道咋形容… Get paid to wait The Claude Code spinner might be the most watched line on Earth. So I turned it into an ad marketplace. Advertisers bid on it. You keep 50% of the money. I...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2065506744642781566",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065505981220745723",
+      "date": "2026-06-13",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "实际上一个长程 session 被分解为多少个 commit 完全看开发者自己的心情，很多时候，我都是做完相当多事情才让 agent 按照功能分类提交，我理解 svn/git 的设计目的是为了能让软件开发按照某种逻辑组织起来，目前单项目多 session 的方式其实也是不太适合做管理，应该会需要某种方法自动分析某个目录的多个 session 并且整合对话（只有意图对话，不包括 agents 之间的沟通） Great software ...",
+      "summaryEn": "实际上一个长程 session 被分解为多少个 commit 完全看开发者自己的心情，很多时候，我都是做完相当多事情才让 agent 按照功能分类提交，我理解 svn/git 的设计目的是为了能让软件开发按照某种逻辑组织起来，目前单项目多 session 的方式其实也是不太适合做管理，应该会需要某种方法自动分析某个目录的多个 session 并且整合对话（只有意图对话，不包括 agents 之间的沟通） Great software ...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2065505981220745723",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065627870597153128",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "整个宣传片没有一句提估值和募资额，全程只讲产品、技术和目标，这就是老马的底气",
+      "summaryEn": "整个宣传片没有一句提估值和募资额，全程只讲产品、技术和目标，这就是老马的底气",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065627870597153128",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065627867661193355",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "看完 SpaceX 的 IPO 宣传片， 才明白什么叫降维打击级的家底。 龙飞船五十多次往返空间站，是唯一常态化载人的商业飞船。 猎鹰 9 号拿下全球最多发射次数，一级回收把发射成本打穿了地板。 三芯并联的猎鹰重型，六十三吨近地运力，是现役火箭的运力天花板。 七千颗星链卫星覆盖上百国，是现在最稳的现金牛。 更狠的还在后面，单台推力两百三十吨的猛禽发动机，三十三台并联推起星舰，总推力碾压人类史上所有火箭，不锈钢船身高五十米，目标是单次百...",
+      "summaryEn": "看完 SpaceX 的 IPO 宣传片， 才明白什么叫降维打击级的家底。 龙飞船五十多次往返空间站，是唯一常态化载人的商业飞船。 猎鹰 9 号拿下全球最多发射次数，一级回收把发射成本打穿了地板。 三芯并联的猎鹰重型，六十三吨近地运力，是现役火箭的运力天花板。 七千颗星链卫星覆盖上百国，是现在最稳的现金牛。 更狠的还在后面，单台推力两百三十吨的猛禽发动机，三十三台并联推起星舰，总推力碾压人类史上所有火箭，不锈钢船身高五十米，目标是单次百...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065627867661193355",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065610814598402067",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "再见Claude Fable5 昨晚用Fable5做了个中国美女看世界杯的图，是我最后的怀念 As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models. Here’s what this means ...",
+      "summaryEn": "再见Claude Fable5 昨晚用Fable5做了个中国美女看世界杯的图，是我最后的怀念 As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models. Here’s what this means ...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065610814598402067",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065502247165788254",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这一刻，标志着SpaceX 从疯狂的私人冒险正式认证为人类基础设施级公司”的视觉宣言， 它同时完成了三件事：庆祝过去、定价现在、锚定未来。",
+      "summaryEn": "这一刻，标志着SpaceX 从疯狂的私人冒险正式认证为人类基础设施级公司”的视觉宣言， 它同时完成了三件事：庆祝过去、定价现在、锚定未来。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065502247165788254",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065502225175110002",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "今天所有人都在刷SpaceX上市的敲钟画面， 很少有人记得， 十年前马斯克明确说过， SpaceX绝对不会上市， 他认为华尔街的短期主义会毁了人类的火星梦。 今天纽约纳斯达克和德州星舰基地双现场同步敲钟， 他穿着标志性的黑皮夹克站在台前，身后是地球延伸向火星的背景墙。 史上最大IPO就此落地，募资750亿美元，估值逼近1.8万亿美元。 我认为这不是对梦想的背叛， 而是一种更精明的分层资本策略。 把已经跑通商业闭环的猎鹰和星链，拿出来资...",
+      "summaryEn": "今天所有人都在刷SpaceX上市的敲钟画面， 很少有人记得， 十年前马斯克明确说过， SpaceX绝对不会上市， 他认为华尔街的短期主义会毁了人类的火星梦。 今天纽约纳斯达克和德州星舰基地双现场同步敲钟， 他穿着标志性的黑皮夹克站在台前，身后是地球延伸向火星的背景墙。 史上最大IPO就此落地，募资750亿美元，估值逼近1.8万亿美元。 我认为这不是对梦想的背叛， 而是一种更精明的分层资本策略。 把已经跑通商业闭环的猎鹰和星链，拿出来资...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065502225175110002",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065495341076459943",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "当你想放弃的时候， 记住Elon Musk 2008年的这张照片， 其实我想说，下次你想放弃的时候，不如直接放弃吧， 因为Elon身处一个让他蓬勃发展的体系， 我可以向你保证， 如果他在其他国家， 他的梦想到站时85%已经夭折了。 成功从来都不只是说说而已， 一个运转良好的体系会让你比别人更有优势，这就是为什么他今天能有现在的成就。 当然这并不意味着在其他地方没人能成功， 但那真的非常非常非常困难， 或者几乎不可能， 当然前提是你千万...",
+      "summaryEn": "当你想放弃的时候， 记住Elon Musk 2008年的这张照片， 其实我想说，下次你想放弃的时候，不如直接放弃吧， 因为Elon身处一个让他蓬勃发展的体系， 我可以向你保证， 如果他在其他国家， 他的梦想到站时85%已经夭折了。 成功从来都不只是说说而已， 一个运转良好的体系会让你比别人更有优势，这就是为什么他今天能有现在的成就。 当然这并不意味着在其他地方没人能成功， 但那真的非常非常非常困难， 或者几乎不可能， 当然前提是你千万...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065495341076459943",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065492182048378889",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "时薪28美元的SpaceX焊工 今天成了百万富翁 这是SpaceX上市最戳人的故事 比任何财富数字都有分量 胡安·埃尔南德斯 从墨西哥来到美国 十一年里只做一件事 焊火箭 一小时赚28美元 2015年转全职 公司给了他一万美元的股票 接下来整整十年 他每一笔工资都拿出来 加仓了更多SpaceX股票 今天SPCX站上167美元 他手里的股票 市值正式突破一百万 这才是一家公司上市最该有的意义 不是顶层的资本游戏 是每个踏实扎根的普通人 ...",
+      "summaryEn": "时薪28美元的SpaceX焊工 今天成了百万富翁 这是SpaceX上市最戳人的故事 比任何财富数字都有分量 胡安·埃尔南德斯 从墨西哥来到美国 十一年里只做一件事 焊火箭 一小时赚28美元 2015年转全职 公司给了他一万美元的股票 接下来整整十年 他每一笔工资都拿出来 加仓了更多SpaceX股票 今天SPCX站上167美元 他手里的股票 市值正式突破一百万 这才是一家公司上市最该有的意义 不是顶层的资本游戏 是每个踏实扎根的普通人 ...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065492182048378889",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065478731267797119",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "真的感慨，线性收入永远跑不赢所有权杠杆啊",
+      "summaryEn": "真的感慨，线性收入永远跑不赢所有权杠杆啊",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065478731267797119",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065478717921431564",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "SpaceX 首日开盘直接涨12%， 也就在这一刻Elon刚刚创造了约4000位新百万富翁， 4400多名现任和前员工成了百万富翁，400人身家突破一亿美金！ 我觉得相比SpaceX上市达到的1.8万亿估值，更让人羡慕的是那些焊火箭的工人，管食堂的员工，跟着一起财务自由了。 现场两个接受采访的工程师，持股价值一千万美元，对着镜头说终于可以退休了哈哈哈 SpaceX真的是一家很特别的公司， 别家公司IPO，财富九成集中在顶层， Spac...",
+      "summaryEn": "SpaceX 首日开盘直接涨12%， 也就在这一刻Elon刚刚创造了约4000位新百万富翁， 4400多名现任和前员工成了百万富翁，400人身家突破一亿美金！ 我觉得相比SpaceX上市达到的1.8万亿估值，更让人羡慕的是那些焊火箭的工人，管食堂的员工，跟着一起财务自由了。 现场两个接受采访的工程师，持股价值一千万美元，对着镜头说终于可以退休了哈哈哈 SpaceX真的是一家很特别的公司， 别家公司IPO，财富九成集中在顶层， Spac...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065478717921431564",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065467061732614468",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "grok竟然没有识别出来这是AI生成的！？",
+      "summaryEn": "grok竟然没有识别出来这是AI生成的！？",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065467061732614468",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065466801991905712",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Claude Fable 5+gpt-image 2简直就是生图王炸组合！！ oh no，应该是掌管AI生图的神， 这以后还自己研究什么生图提示词啊， 想要什么图交给Fable5就好了啊！ 时间过得也快，眨眼小半年没有玩AIGC生图了， 趁着今天不加班，想着试试用Fable5给我个美女看比赛的图，就把其女友的照片发给它了， 提示词就一句话：给我一个这个女孩看NBA总决赛的现场照片，身材要比参考照片丰满一些，要笑靥如花，背后是美国总统特...",
+      "summaryEn": "Claude Fable 5+gpt-image 2简直就是生图王炸组合！！ oh no，应该是掌管AI生图的神， 这以后还自己研究什么生图提示词啊， 想要什么图交给Fable5就好了啊！ 时间过得也快，眨眼小半年没有玩AIGC生图了， 趁着今天不加班，想着试试用Fable5给我个美女看比赛的图，就把其女友的照片发给它了， 提示词就一句话：给我一个这个女孩看NBA总决赛的现场照片，身材要比参考照片丰满一些，要笑靥如花，背后是美国总统特...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065466801991905712",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065461051026547191",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "注意看，大家欢呼尖叫的那一刻，老马就像一个害羞的小男孩，腼腆微笑",
+      "summaryEn": "注意看，大家欢呼尖叫的那一刻，老马就像一个害羞的小男孩，腼腆微笑",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065461051026547191",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065458228805181815",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这大概是商业史上最浪漫的一次IPO了， 史上最大IPO的现场，我被老马这段演讲感动哭了， @elonmusk 你个大帅比太会煽情了 马斯克没聊市值，没讲业绩， 他说我们要带你去火星， 字面意义上的你， 我觉得就老马一句话，盖过了所有财报和估值， 他一再强调不是我们要送宇航员去火星， ELON MUSK: If you’re reading this, SpaceX wants to take you to the Moon and M...",
+      "summaryEn": "这大概是商业史上最浪漫的一次IPO了， 史上最大IPO的现场，我被老马这段演讲感动哭了， @elonmusk 你个大帅比太会煽情了 马斯克没聊市值，没讲业绩， 他说我们要带你去火星， 字面意义上的你， 我觉得就老马一句话，盖过了所有财报和估值， 他一再强调不是我们要送宇航员去火星， ELON MUSK: If you’re reading this, SpaceX wants to take you to the Moon and M...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065458228805181815",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065446229757018572",
+      "date": "2026-06-13",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Damn，万亿富翁时代正式开场了 SpaceX敲钟的那一刻， 人类第一个万亿富翁诞生了， 互联网诞生了千亿级财富， 物理AI诞生了万亿级财富， 财富的量级，永远跟着技术革命的量级走",
+      "summaryEn": "Damn，万亿富翁时代正式开场了 SpaceX敲钟的那一刻， 人类第一个万亿富翁诞生了， 互联网诞生了千亿级财富， 物理AI诞生了万亿级财富， 财富的量级，永远跟着技术革命的量级走",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2065446229757018572",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065622592309039449",
+      "date": "2026-06-13",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Yeah I think ID verification will soon be required to access the best models",
+      "summaryEn": "Yeah I think ID verification will soon be required to access the best models",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2065622592309039449",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065602691850764667",
+      "date": "2026-06-13",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Suspending Fable for all “foreign person inside the US” is wild. How can you even enforce this properly?",
+      "summaryEn": "Suspending Fable for all “foreign person inside the US” is wild. How can you even enforce this properly?",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2065602691850764667",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065601540350750846",
+      "date": "2026-06-13",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Wow wtf?! The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United State...",
+      "summaryEn": "Wow wtf?! The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United State...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2065601540350750846",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065600713842110970",
+      "date": "2026-06-13",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "This shit was . Probably the best action movie since the Raid 1/2 and Fury Road",
+      "summaryEn": "This shit was . Probably the best action movie since the Raid 1/2 and Fury Road",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2065600713842110970",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065507006610276555",
+      "date": "2026-06-13",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Does anyone have any tips for prompting ChatGPT Images or Nano Banana to edit YouTube thumbnails? Both seem terrible at changing my expression. I would share pics but they make me look really bad :)",
+      "summaryEn": "Does anyone have any tips for prompting ChatGPT Images or Nano Banana to edit YouTube thumbnails? Both seem terrible at changing my expression. I would share pics but they make me look really bad :)",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2065507006610276555",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065496954965234136",
+      "date": "2026-06-13",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Are you buying SpaceX stock today?",
+      "summaryEn": "Are you buying SpaceX stock today?",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2065496954965234136",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065621469049290916",
+      "date": "2026-06-13",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Fable用不了了，美国政府不允许非美国公民使用Fable，Anthropic直接一刀切下线模型。 The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, wh...",
+      "summaryEn": "Fable用不了了，美国政府不允许非美国公民使用Fable，Anthropic直接一刀切下线模型。 The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, wh...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2065621469049290916",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "infrastructure"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065465537434722789",
+      "date": "2026-06-13",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "这个我还挺满意的，只有一张角色参考图，其他都是文字提示词 AI创意视频：媒介的进化",
+      "summaryEn": "这个我还挺满意的，只有一张角色参考图，其他都是文字提示词 AI创意视频：媒介的进化",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2065465537434722789",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2065620303729078435",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "harry potter fan fiction and hillbilly elegy brought us to this",
+      "summaryEn": "harry potter fan fiction and hillbilly elegy brought us to this",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065620303729078435",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065618107750916323",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "this seriously messes up my weekend plans i may have to actually see people",
+      "summaryEn": "this seriously messes up my weekend plans i may have to actually see people",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065618107750916323",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065610408627724635",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "cfos everywhere: we are so back The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or ou...",
+      "summaryEn": "cfos everywhere: we are so back The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or ou...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065610408627724635",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure"
+      ],
+      "primaryTopic": "infrastructure"
+    },
+    {
+      "id": "2065608958887539087",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "my take on this situation currently is that they'll unban it in a few days and the net effect will be increased demand for Fable however this kind of thing is extremely disruptive and distracting for people inside of th...",
+      "summaryEn": "my take on this situation currently is that they'll unban it in a few days and the net effect will be increased demand for Fable however this kind of thing is extremely disruptive and distracting for people inside of th...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065608958887539087",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065607570728046774",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "should we just to turn this into \"spin up a billion haiku agents to spam the http:// WhiteHouse.gov feedback form\" day?",
+      "summaryEn": "should we just to turn this into \"spin up a billion haiku agents to spam the http:// WhiteHouse.gov feedback form\" day?",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065607570728046774",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065606157398606202",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "yes, eventually Fable was banned. but for a beautiful moment in time, we could one shot our whole backlog",
+      "summaryEn": "yes, eventually Fable was banned. but for a beautiful moment in time, we could one shot our whole backlog",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065606157398606202",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065600565393203320",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "Holy shit As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models. Here’s what this means for you: Across Claude products, new ...",
+      "summaryEn": "Holy shit As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models. Here’s what this means for you: Across Claude products, new ...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065600565393203320",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065567632598901100",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "if you're not using fable to close this many PRs per day per engineer....ngmi",
+      "summaryEn": "if you're not using fable to close this many PRs per day per engineer....ngmi",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065567632598901100",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065557902656725253",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "i'm speaking at the @lennysan & friends summit (pretty cool that im one of the friends) you should get tickets! they're almost sold out: https:// lennyssummit.com",
+      "summaryEn": "i'm speaking at the @lennysan & friends summit (pretty cool that im one of the friends) you should get tickets! they're almost sold out: https:// lennyssummit.com",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065557902656725253",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065527146425332190",
+      "date": "2026-06-13",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2065527146425332190",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065618278412644671",
+      "date": "2026-06-13",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "太特么扯淡了…美国政府让Anthropic停止向所有非美国公民之外的用户供应Mythos 5和Fable 5。 所以我们是获得了2天体验卡？？ The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by an...",
+      "summaryEn": "太特么扯淡了…美国政府让Anthropic停止向所有非美国公民之外的用户供应Mythos 5和Fable 5。 所以我们是获得了2天体验卡？？ The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by an...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2065618278412644671",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2065584644335325186",
+      "date": "2026-06-13",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2065584644335325186",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2065616509666472329",
+      "date": "2026-06-13",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "This is a big turning point for AI regulation. The government is starting to deem some models too powerful for certain uses, which creates a precedent for a range of possible controls in the future. I’m in the camp that...",
+      "summaryEn": "This is a big turning point for AI regulation. The government is starting to deem some models too powerful for certain uses, which creates a precedent for a range of possible controls in the future. I’m in the camp that...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2065616509666472329",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065594956186865815",
+      "date": "2026-06-13",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "This is pretty freaking cool A man working as a welder at SpaceX for $28 an hour has just become a millionaire. Juan Hernandez, who came from Mexico, welded rockets for SpaceX at $28 an hour. SpaceX gave him $10,000 in ...",
+      "summaryEn": "This is pretty freaking cool A man working as a welder at SpaceX for $28 an hour has just become a millionaire. Juan Hernandez, who came from Mexico, welded rockets for SpaceX at $28 an hour. SpaceX gave him $10,000 in ...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2065594956186865815",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065469347712401712",
+      "date": "2026-06-13",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "Incredible. Congrats to @elonmusk and the entire SpaceX team on the 25 years of blood, sweat and tears to build a world-defining company. Amazing to have examples like this that push the future forward. The downstream i...",
+      "summaryEn": "Incredible. Congrats to @elonmusk and the entire SpaceX team on the 25 years of blood, sweat and tears to build a world-defining company. Amazing to have examples like this that push the future forward. The downstream i...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2065469347712401712",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2065602682644250862",
+      "date": "2026-06-13",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Anthropic 这个公司太搞笑了。 天天技术恐吓，天天让国家注意 AI 安全，这下把自己套进去了。 美国政府要求他们禁止给任何非美国公民，哪怕是在美国的人提供 fable 5 的访问。 他们没办法保证这个，只能先下掉了所有人的访问权限。 The US government, citing national security authorities, has issued an export control directive to...",
+      "summaryEn": "Anthropic 这个公司太搞笑了。 天天技术恐吓，天天让国家注意 AI 安全，这下把自己套进去了。 美国政府要求他们禁止给任何非美国公民，哪怕是在美国的人提供 fable 5 的访问。 他们没办法保证这个，只能先下掉了所有人的访问权限。 The US government, citing national security authorities, has issued an export control directive to...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2065602682644250862",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "infrastructure",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2065600809224814835",
+      "date": "2026-06-13",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Sounds like we’re going to have turn off access to Fable. JUST IN: Trump administration moves to block foreign governments, companies & individuals from accessing Anthropic's Fable & Mythos models.",
+      "summaryEn": "Sounds like we’re going to have turn off access to Fable. JUST IN: Trump administration moves to block foreign governments, companies & individuals from accessing Anthropic's Fable & Mythos models.",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2065600809224814835",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065597793998422308",
+      "date": "2026-06-13",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "When the whole Tokenmaxxing craze started some our enterprise customers asked us for a leaderboard. We said no. Would’ve been “great” for business but we’re not in the business of selling tokens for the sake of tokens. ...",
+      "summaryEn": "When the whole Tokenmaxxing craze started some our enterprise customers asked us for a leaderboard. We said no. Would’ve been “great” for business but we’re not in the business of selling tokens for the sake of tokens. ...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2065597793998422308",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065503810592833560",
+      "date": "2026-06-13",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "If you make money on Replit, you get free credits! I’ve switched all my clients over to Replit! Goodbye Webflow, Wordpress, Framer - see y’all later! @amasad can I get some residuals lol",
+      "summaryEn": "If you make money on Replit, you get free credits! I’ve switched all my clients over to Replit! Goodbye Webflow, Wordpress, Framer - see y’all later! @amasad can I get some residuals lol",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2065503810592833560",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065599409358766234",
+      "date": "2026-06-13",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "J.P. Morgan + SpaceX= Largest IPO Congratulations to the @spaceX team on this milestone, we were proud to serve as a lead bookrunner on the transaction.",
+      "summaryEn": "J.P. Morgan + SpaceX= Largest IPO Congratulations to the @spaceX team on this milestone, we were proud to serve as a lead bookrunner on the transaction.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2065599409358766234",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2065547393974636647",
+      "date": "2026-06-13",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Looking forward to taking our exciting partnership with Nvidia to the next-level Huge congratulations to the @SpaceX team on a historic IPO debut. Fueling the next frontier of space and AI. NVIDIA's partnership with Spa...",
+      "summaryEn": "Looking forward to taking our exciting partnership with Nvidia to the next-level Huge congratulations to the @SpaceX team on a historic IPO debut. Fueling the next frontier of space and AI. NVIDIA's partnership with Spa...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2065547393974636647",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2065485963120328945",
+      "date": "2026-06-13",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "I love the incredible people of SpaceX beyond words",
+      "summaryEn": "I love the incredible people of SpaceX beyond words",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2065485963120328945",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065595201008398592",
+      "date": "2026-06-13",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "So proud of @datacurve (YC W24) - building THE defining software engineering benchmark in DeepSWE Tired? SWE-Bench Pro Wired? Datacurve DeepSWE We've updated the Artificial Analysis Coding Agent Index, replacing SWE-Ben...",
+      "summaryEn": "So proud of @datacurve (YC W24) - building THE defining software engineering benchmark in DeepSWE Tired? SWE-Bench Pro Wired? Datacurve DeepSWE We've updated the Artificial Analysis Coding Agent Index, replacing SWE-Ben...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2065595201008398592",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2065581110822593000",
+      "date": "2026-06-13",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "My shot at how application companies survive the “what if large lab builds this” question",
+      "summaryEn": "My shot at how application companies survive the “what if large lab builds this” question",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2065581110822593000",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2065559895450288611",
+      "date": "2026-06-13",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2065559895450288611",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065473941385421279",
+      "date": "2026-06-13",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Anyone else have two voices? I often have two voices that come out both in my writing and how I speak. One is the frenetic, time is the enemy, direct, punchy gets to the point quickly and then the second is more calm, m...",
+      "summaryEn": "Anyone else have two voices? I often have two voices that come out both in my writing and how I speak. One is the frenetic, time is the enemy, direct, punchy gets to the point quickly and then the second is more calm, m...",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2065473941385421279",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2065574894545560062",
+      "date": "2026-06-13",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "“not consistently candid in their communications” is my fav new americanism.",
+      "summaryEn": "“not consistently candid in their communications” is my fav new americanism.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2065574894545560062",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065567852162355551",
+      "date": "2026-06-13",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "codex -C ~/projects/openclaw -m gpt-5.5-cyber time",
+      "summaryEn": "codex -C ~/projects/openclaw -m gpt-5.5-cyber time",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2065567852162355551",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065566380221673553",
+      "date": "2026-06-13",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Will show you how to setup loops in return.",
+      "summaryEn": "Will show you how to setup loops in return.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2065566380221673553",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065566228253389209",
+      "date": "2026-06-13",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "I'm still homeless in SF. If anyone's renting or selling a nice place, slide into my DMs. The hotel room is getting old.",
+      "summaryEn": "I'm still homeless in SF. If anyone's renting or selling a nice place, slide into my DMs. The hotel room is getting old.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2065566228253389209",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065564094879637546",
+      "date": "2026-06-13",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "How am I only now finding out about appshots? I was dragging screenshots into codex live a caveman.",
+      "summaryEn": "How am I only now finding out about appshots? I was dragging screenshots into codex live a caveman.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2065564094879637546",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065541992290070571",
+      "date": "2026-06-13",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "IMO sth that is a bit overlooked but will become far more important in the future. GPT is 10-20x more token+cost effective for ~similar outcome. Day 3 with Fable. Gave a huge prompt to implement a feature across CLI, we...",
+      "summaryEn": "IMO sth that is a bit overlooked but will become far more important in the future. GPT is 10-20x more token+cost effective for ~similar outcome. Day 3 with Fable. Gave a huge prompt to implement a feature across CLI, we...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2065541992290070571",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065566882774868125",
+      "date": "2026-06-13",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "今天凌晨五点的时候，我让 AI 帮我打磨一段文案，打磨三遍给我看。 AI 改完之后，我发现一遍比一遍讲究，但是一遍比一遍缺人味儿。 我已经用上最贵的 Claude Fable 5 了，还这样，让我很生气。 最后我跟 AI说，你改完之后，人味儿变少了。",
+      "summaryEn": "今天凌晨五点的时候，我让 AI 帮我打磨一段文案，打磨三遍给我看。 AI 改完之后，我发现一遍比一遍讲究，但是一遍比一遍缺人味儿。 我已经用上最贵的 Claude Fable 5 了，还这样，让我很生气。 最后我跟 AI说，你改完之后，人味儿变少了。",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2065566882774868125",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2065560588949110909",
+      "date": "2026-06-13",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "最好玩的游戏就是《真实世界 online》 我今天中午按照顺序读大哥的文章，4 年前大哥还在照着吴恩达的课程一点一点学，在一篇的最后大哥写下了这段话，没想到 4 年过去了，大哥真的已经是在顶刊发论文的科研大牛，有点感慨。 https:// zhouyifan.net/2022/05/31/202 20531-styletransfer/ …",
+      "summaryEn": "最好玩的游戏就是《真实世界 online》 我今天中午按照顺序读大哥的文章，4 年前大哥还在照着吴恩达的课程一点一点学，在一篇的最后大哥写下了这段话，没想到 4 年过去了，大哥真的已经是在顶刊发论文的科研大牛，有点感慨。 https:// zhouyifan.net/2022/05/31/202 20531-styletransfer/ …",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2065560588949110909",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065556362298585147",
+      "date": "2026-06-13",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "最近跟藏师傅聊天，都感觉到深深的共鸣。 大众以为 AI 带来平权，但实际带来的是 K 型分化。 头部用户已经默认理解 Agent 的组成：文档、规则、memory、loop、MCP、CLI、工具调用、权限、安全沙箱、上下文工程、定时任务、心跳、文件系统、代码执行和 Skill。 普通用户只知道\"Agent 能写代码\"。 怎么办？把技能做好，是跨越鸿沟的唯一解法。 我们正在和藏师傅一起做一点实际的事情，让 Cola 帮助大众真正跨越鸿沟。",
+      "summaryEn": "最近跟藏师傅聊天，都感觉到深深的共鸣。 大众以为 AI 带来平权，但实际带来的是 K 型分化。 头部用户已经默认理解 Agent 的组成：文档、规则、memory、loop、MCP、CLI、工具调用、权限、安全沙箱、上下文工程、定时任务、心跳、文件系统、代码执行和 Skill。 普通用户只知道\"Agent 能写代码\"。 怎么办？把技能做好，是跨越鸿沟的唯一解法。 我们正在和藏师傅一起做一点实际的事情，让 Cola 帮助大众真正跨越鸿沟。",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2065556362298585147",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065555595768521103",
+      "date": "2026-06-13",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "人们很容易高估字节的分发能力而低估字节的产品能力",
+      "summaryEn": "人们很容易高估字节的分发能力而低估字节的产品能力",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2065555595768521103",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2065553637137596723",
+      "date": "2026-06-13",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "k 型分化很严重了，这个问题值得录一期播客聊聊",
+      "summaryEn": "k 型分化很严重了，这个问题值得录一期播客聊聊",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2065553637137596723",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2065549365452927432",
+      "date": "2026-06-13",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "我观察到身边朋友同事们的 ADHD 越来越严重了。 很容易被细小琐碎的事分散注意力， 反而对大问题视而不见。 把关掉通知，独自沉浸在一件完整的大事里，变得越来越不可能。 进入心流，也变得越来越难。 AI 的高速执行，还加重了这个问题。 每两三分钟一次的对话，是一次次注意力集中和注意力涣散的交替循环。 我们该如何来拯救自己的前额叶呢？",
+      "summaryEn": "我观察到身边朋友同事们的 ADHD 越来越严重了。 很容易被细小琐碎的事分散注意力， 反而对大问题视而不见。 把关掉通知，独自沉浸在一件完整的大事里，变得越来越不可能。 进入心流，也变得越来越难。 AI 的高速执行，还加重了这个问题。 每两三分钟一次的对话，是一次次注意力集中和注意力涣散的交替循环。 我们该如何来拯救自己的前额叶呢？",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2065549365452927432",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065561622190375256",
+      "date": "2026-06-13",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "YouTube为什么要屏蔽C罗的名字？ 𝗕𝗥𝗘𝗔𝗞𝗜𝗡𝗚: YouTube has blocked the keyword “Cristiano Ronaldo,” and searching for it returns an error. However, “Leo Messi” still works.",
+      "summaryEn": "YouTube为什么要屏蔽C罗的名字？ 𝗕𝗥𝗘𝗔𝗞𝗜𝗡𝗚: YouTube has blocked the keyword “Cristiano Ronaldo,” and searching for it returns an error. However, “Leo Messi” still works.",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2065561622190375256",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065517873804513635",
+      "date": "2026-06-13",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "不是，咋这么快见效？🫪给我玩跳水？",
+      "summaryEn": "不是，咋这么快见效？🫪给我玩跳水？",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2065517873804513635",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065507771785547933",
+      "date": "2026-06-13",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "买了十股 $SPCX 。 这次希望我不是明灯。",
+      "summaryEn": "买了十股 $SPCX 。 这次希望我不是明灯。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2065507771785547933",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065502750230663435",
+      "date": "2026-06-13",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "段子又成真了 你不结婚以后老了怎么办？挂了都没人给你烧纸。 过年催婚不要怕，请看VCR：",
+      "summaryEn": "段子又成真了 你不结婚以后老了怎么办？挂了都没人给你烧纸。 过年催婚不要怕，请看VCR：",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2065502750230663435",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065481065796440545",
+      "date": "2026-06-13",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "马斯克买推特所花费的那440亿美元，现在看起来物超所值。X平台不仅扩大了他自己以及关联企业的知名度和影响力，不管是政治还是商业上，此刻更是化作SpaceX股价起飞的动力，一直以来的造势得到了巨大的回报。",
+      "summaryEn": "马斯克买推特所花费的那440亿美元，现在看起来物超所值。X平台不仅扩大了他自己以及关联企业的知名度和影响力，不管是政治还是商业上，此刻更是化作SpaceX股价起飞的动力，一直以来的造势得到了巨大的回报。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2065481065796440545",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2065463523438637261",
+      "date": "2026-06-13",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "恭喜推友们 $SPCX",
+      "summaryEn": "恭喜推友们 $SPCX",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2065463523438637261",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2065493242158924031",
+      "date": "2026-06-13",
+      "name": "Alex Albert",
+      "handle": "alexalbert__",
+      "role": "Research @AnthropicAI . Opinions are my own!",
+      "avatar": "AA",
+      "summary": "Pulled this from our prompting guide which has many more tips for working with Fable:",
+      "summaryEn": "Pulled this from our prompting guide which has many more tips for working with Fable:",
+      "analysis": "",
+      "url": "https://x.com/alexalbert__/status/2065493242158924031",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2065493229760565758",
+      "date": "2026-06-13",
+      "name": "Alex Albert",
+      "handle": "alexalbert__",
+      "role": "Research @AnthropicAI . Opinions are my own!",
+      "avatar": "AA",
+      "summary": "Fable feels superhuman at working over long agentic conversations, sometimes to the point where I can't keep up with what it's telling me This prompt snippet has been the best fix I've found for getting it to write clea...",
+      "summaryEn": "Fable feels superhuman at working over long agentic conversations, sometimes to the point where I can't keep up with what it's telling me This prompt snippet has been the best fix I've found for getting it to write clea...",
+      "analysis": "",
+      "url": "https://x.com/alexalbert__/status/2065493229760565758",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2065467866930135491",
+      "date": "2026-06-13",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "It's a good day to be called SPC. We are temporarily renaming ourselves to Space Park Commons.",
+      "summaryEn": "It's a good day to be called SPC. We are temporarily renaming ourselves to Space Park Commons.",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2065467866930135491",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2065460544719704355",
+      "date": "2026-06-13",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "Very very excited to welcome Ryan Atkins to the team as a Partner. We have a lot to build @southpkcommons !",
+      "summaryEn": "Very very excited to welcome Ryan Atkins to the team as a Partner. We have a lot to build @southpkcommons !",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2065460544719704355",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2065458402860675487",
+      "date": "2026-06-13",
+      "name": "Naval",
+      "handle": "naval",
+      "role": "Incompressible",
+      "avatar": "NA",
+      "summary": "If you don’t want this moment, then you will never be happy.",
+      "summaryEn": "If you don’t want this moment, then you will never be happy.",
+      "analysis": "",
+      "url": "https://x.com/naval/status/2065458402860675487",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2065454051236450677",
+      "date": "2026-06-13",
+      "name": "alon",
+      "handle": "alonzuman",
+      "role": "playing AI games with real friends @pops_fyi",
+      "avatar": "AL",
+      "summary": "claude code (fable) + ultracode + /goal are so slow i actually started looking at the code it spits out",
+      "summaryEn": "claude code (fable) + ultracode + /goal are so slow i actually started looking at the code it spits out",
+      "analysis": "",
+      "url": "https://x.com/alonzuman/status/2065454051236450677",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    }
+  ]
+}

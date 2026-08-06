@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-28",
+  "builderCount": 2,
+  "postCount": 3,
+  "topTopics": [
+    "design",
+    "model",
+    "business",
+    "agent",
+    "enterprise"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2071021724066550022",
+    "2070738404245942442",
+    "2070780139458142572"
+  ],
+  "posts": [
+    {
+      "id": "2071021724066550022",
+      "date": "2026-06-28",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。 bro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。 用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。 延迟低，效果激情，有创意。 i tried building an AI commentator for the World Cup it watche...",
+      "summaryEn": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。 bro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。 用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。 延迟低，效果激情，有创意。 i tried building an AI commentator for the World Cup it watche...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2071021724066550022",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2070780139458142572",
+      "date": "2026-06-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这条机器人推文刷爆了， 但我敢说 90% 转发的人都没意识到， 物理 AI 的门槛已经被砸到脚面了。 不是什么AI做出来的动画演示， 是正儿八经的 SO-ARM101 ACT 控制策略， 直接在浏览器里跑仿真， 连半毛钱硬件都不用买， 以前想碰物理 AI 少说要几千块的机械臂入门， 现在点开网页就能上手调参看效果，",
+      "summaryEn": "这条机器人推文刷爆了， 但我敢说 90% 转发的人都没意识到， 物理 AI 的门槛已经被砸到脚面了。 不是什么AI做出来的动画演示， 是正儿八经的 SO-ARM101 ACT 控制策略， 直接在浏览器里跑仿真， 连半毛钱硬件都不用买， 以前想碰物理 AI 少说要几千块的机械臂入门， 现在点开网页就能上手调参看效果，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070780139458142572",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2070738404245942442",
+      "date": "2026-06-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。 普通人能用的Fable 5，还在等政府审批，遥遥无期。 以前是花钱订阅就能摸到人类最顶尖的模型能力， 现在是最强的能力，只对特定身份和机构开放， 也就是说分层的墙...",
+      "summaryEn": "所以科技平权从Fable 5开始转折了吗？ 以后我们普通人还能用到顶级AI大模型的机会吗？ 感觉Anthropic这条公告官宣的不是模型要恢复，更像是传递一个信号，就是顶级AI全民可用的时代正式结束了 最强的网络安全模型Mythos 5，只开放给美国本土的关键基础设施组织。 普通人能用的Fable 5，还在等政府审批，遥遥无期。 以前是花钱订阅就能摸到人类最顶尖的模型能力， 现在是最强的能力，只对特定身份和机构开放， 也就是说分层的墙...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2070738404245942442",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    }
+  ]
+}

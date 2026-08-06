@@ -1,0 +1,1442 @@
+{
+  "date": "2026-07-02",
+  "builderCount": 24,
+  "postCount": 75,
+  "topTopics": [
+    "design",
+    "agent",
+    "business",
+    "other",
+    "model"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2072577589525541265",
+    "2072493375043850397",
+    "2072530243273826374"
+  ],
+  "posts": [
+    {
+      "id": "2072590573505073515",
+      "date": "2026-07-02",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "怎么感觉娃去游泳回来长胖了？",
+      "summaryEn": "怎么感觉娃去游泳回来长胖了？",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2072590573505073515",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072579591584047246",
+      "date": "2026-07-02",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "网友6GHZ探访贾跃亭的洛杉矶法拉第未来造车工厂，发现工厂早已人去楼空、为梦想而窒息？",
+      "summaryEn": "网友6GHZ探访贾跃亭的洛杉矶法拉第未来造车工厂，发现工厂早已人去楼空、为梦想而窒息？",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2072579591584047246",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072388721467371738",
+      "date": "2026-07-02",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2072388721467371738",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072588432682217701",
+      "date": "2026-07-02",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Sonnet 5也太爱校验了，我就是写篇文章，Skill里要求不超过800字，但也不至于单独调用Python来校验字数吧。",
+      "summaryEn": "Sonnet 5也太爱校验了，我就是写篇文章，Skill里要求不超过800字，但也不至于单独调用Python来校验字数吧。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2072588432682217701",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072577589525541265",
+      "date": "2026-07-02",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "再开源一个数学技能，把数学题转为GGB文件 如果转的是图片几何题，需要模型有视觉能力（Opus或GPT），如果题目是带动点的几何题，还会生成可交互的GGB文件，能自由移动动点看图形的变化。可以帮助教师把书上的题目电子化，可以辅助学生理解题目。 再开源一个技能：一键生成可视化数学讲解视频 提示词： 安装这个Skill： https:// github.com/GordenSun/math VideoMaker … 然后使用这个Skill...",
+      "summaryEn": "再开源一个数学技能，把数学题转为GGB文件 如果转的是图片几何题，需要模型有视觉能力（Opus或GPT），如果题目是带动点的几何题，还会生成可交互的GGB文件，能自由移动动点看图形的变化。可以帮助教师把书上的题目电子化，可以辅助学生理解题目。 再开源一个技能：一键生成可视化数学讲解视频 提示词： 安装这个Skill： https:// github.com/GordenSun/math VideoMaker … 然后使用这个Skill...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2072577589525541265",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media",
+        "agent"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2072570013668524205",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "A screenshot from a live HD broadcast of a major Formula racing Grand Prix, outdoor circuit, packed main grandstand, afternoon session. Broadcast camera sweeps the VIP grandstand section and locks onto a woman seated in...",
+      "summaryEn": "A screenshot from a live HD broadcast of a major Formula racing Grand Prix, outdoor circuit, packed main grandstand, afternoon session. Broadcast camera sweeps the VIP grandstand section and locks onto a woman seated in...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072570013668524205",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072570009935606164",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "prompt： A screenshot from a live HD broadcast of a major Formula racing Grand Prix, packed outdoor grandstand, afternoon session. Broadcast camera in the grandstand zooms in on a woman seated in the front row of the ele...",
+      "summaryEn": "prompt： A screenshot from a live HD broadcast of a major Formula racing Grand Prix, packed outdoor grandstand, afternoon session. Broadcast camera in the grandstand zooms in on a woman seated in the front row of the ele...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072570009935606164",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072569996606136466",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Claude Fable 5今天回归上线啦，ZenMux上限时免费使用真的太香了！ 怎么用Fable 5输出高质量的「不会塑料 + 顶级人像提示词方法论以及户外美女人像prompt方法论大家收好！ 说真的，我以为上次的Fable 5总结的AI生图焚决要绝版了，趁着现在能免费用，赶紧让Fable 5给我写了又写了一套： 怎么输出输出高质量的「不会塑料 + 顶级人像提示词方法论， 真的很炸，它对光影、材质、瞬间感的拆解细度，写出来的提示词...",
+      "summaryEn": "Claude Fable 5今天回归上线啦，ZenMux上限时免费使用真的太香了！ 怎么用Fable 5输出高质量的「不会塑料 + 顶级人像提示词方法论以及户外美女人像prompt方法论大家收好！ 说真的，我以为上次的Fable 5总结的AI生图焚决要绝版了，趁着现在能免费用，赶紧让Fable 5给我写了又写了一套： 怎么输出输出高质量的「不会塑料 + 顶级人像提示词方法论， 真的很炸，它对光影、材质、瞬间感的拆解细度，写出来的提示词...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072569996606136466",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072538987894304918",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "又让老马装到了，科幻照进现实了！",
+      "summaryEn": "又让老马装到了，科幻照进现实了！",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072538987894304918",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072493381368844486",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个判断，按照Nikita的产品节奏，接下来很快会叠订阅打赏这些变现功能，现在进场攒粉丝刚好踩在变现放开的节点上",
+      "summaryEn": "补充一个判断，按照Nikita的产品节奏，接下来很快会叠订阅打赏这些变现功能，现在进场攒粉丝刚好踩在变现放开的节点上",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072493381368844486",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2072493375043850397",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "兄弟们，X的野心终于藏不住了，这次要直接从Twitch和YouTube嘴里抢蛋糕了！ 全新的Live Studio正式上线，集成在创作者后台里，不是点一下就开播的简易功能，是给专业主播准备的一站式直播指挥中心。 从调度标题封面观众权限，到实时数据聊天管理，再到结束后一键发布回放，全流程工具都配齐了，完成度非常高。 配套直接放了一百万美元的创作者奖励池，产品负责人亲自下场喊话，让大家现在就开始积累直播观众。 很多人只看到了一个新功能，没...",
+      "summaryEn": "兄弟们，X的野心终于藏不住了，这次要直接从Twitch和YouTube嘴里抢蛋糕了！ 全新的Live Studio正式上线，集成在创作者后台里，不是点一下就开播的简易功能，是给专业主播准备的一站式直播指挥中心。 从调度标题封面观众权限，到实时数据聊天管理，再到结束后一键发布回放，全流程工具都配齐了，完成度非常高。 配套直接放了一百万美元的创作者奖励池，产品负责人亲自下场喊话，让大家现在就开始积累直播观众。 很多人只看到了一个新功能，没...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072493375043850397",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2072468362467082719",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这个真的不像AI生成的，太逼真了！！ Seedance 2.0 Prompt：",
+      "summaryEn": "这个真的不像AI生成的，太逼真了！！ Seedance 2.0 Prompt：",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072468362467082719",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072378404947550411",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "我的天呐，Figma Motion就能实现这样的动画效果了？？？",
+      "summaryEn": "我的天呐，Figma Motion就能实现这样的动画效果了？？？",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072378404947550411",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072373620941238395",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "damn！语音AI圈的天，一夜之间就变了，感觉以前所有的缝合怪方案，突然全成了过渡品 之前市面上的语音智能体，全是靠三四家不同厂商的API硬拼出来的，语音转文字加大模型再加文字转语音，每一层跳转都多一分延迟多一块成本多一个故障点，对话经常卡顿断片跑题，听起来永远像机器人念稿。 @xai Introducing Voice Agent Builder: a no-code platform to create human-like vo...",
+      "summaryEn": "damn！语音AI圈的天，一夜之间就变了，感觉以前所有的缝合怪方案，突然全成了过渡品 之前市面上的语音智能体，全是靠三四家不同厂商的API硬拼出来的，语音转文字加大模型再加文字转语音，每一层跳转都多一分延迟多一块成本多一个故障点，对话经常卡顿断片跑题，听起来永远像机器人念稿。 @xai Introducing Voice Agent Builder: a no-code platform to create human-like vo...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072373620941238395",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072360115626193091",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "补充一个新手提示，先从Short短视频起步，时长控制在一分钟以内，起号速度比长视频快得多 ShortGPT https:// github.com/RayVentura/Sho rtGPT … AI 动画工具: https:// github.com/Wan-Video/Wan2 .1 …",
+      "summaryEn": "补充一个新手提示，先从Short短视频起步，时长控制在一分钟以内，起号速度比长视频快得多 ShortGPT https:// github.com/RayVentura/Sho rtGPT … AI 动画工具: https:// github.com/Wan-Video/Wan2 .1 …",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072360115626193091",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072360109515169902",
+      "date": "2026-07-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说个没人愿意说的零成本AI副业，不用露脸不用出镜，靠做动画片单月能赚$5000， 赛道选YouTube儿童早教领域，全套流程靠AI就能单人跑完，前期投入为零，靠免费算力就能起步，日更一到两条，第一个月就能看到播放量收益，做得好月入能到$10000以上， 一共五步，照着做就能跑通， 真的有点兴奋，终于等来营销圈的 Codex 了，不管你是独立开发还是OPC一人公司，找客户扒联系方式写破冰信这些破事，直接给你干得明明白白！ 甚至你用来做副...",
+      "summaryEn": "说个没人愿意说的零成本AI副业，不用露脸不用出镜，靠做动画片单月能赚$5000， 赛道选YouTube儿童早教领域，全套流程靠AI就能单人跑完，前期投入为零，靠免费算力就能起步，日更一到两条，第一个月就能看到播放量收益，做得好月入能到$10000以上， 一共五步，照着做就能跑通， 真的有点兴奋，终于等来营销圈的 Codex 了，不管你是独立开发还是OPC一人公司，找客户扒联系方式写破冰信这些破事，直接给你干得明明白白！ 甚至你用来做副...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2072360109515169902",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072561340825354728",
+      "date": "2026-07-02",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "AI博主必备的提词器来了！v3.0版本上线了口播录制功能——上传海报，点击录制，提词内容和人物画面在同一画面里，录完直接出片。 做知识人设类口播的朋友，不用再盯稿念或脱稿断片了。欢迎大家体验，产品名: 灵感提词器！",
+      "summaryEn": "AI博主必备的提词器来了！v3.0版本上线了口播录制功能——上传海报，点击录制，提词内容和人物画面在同一画面里，录完直接出片。 做知识人设类口播的朋友，不用再盯稿念或脱稿断片了。欢迎大家体验，产品名: 灵感提词器！",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2072561340825354728",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2072545656905011354",
+      "date": "2026-07-02",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "这居然是充电宝，字节汽水音乐团队的周边真棒",
+      "summaryEn": "这居然是充电宝，字节汽水音乐团队的周边真棒",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2072545656905011354",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2072537564763111813",
+      "date": "2026-07-02",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "下载地址",
+      "summaryEn": "下载地址",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2072537564763111813",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072537436631286096",
+      "date": "2026-07-02",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "Raycast 新开发的 Glaze 终于面向所有人，不再需要邀请内测。 Glaze 可以一句话开发桌面软件，这是要跟 AppStore 对抗啊。 下载地址见评论区",
+      "summaryEn": "Raycast 新开发的 Glaze 终于面向所有人，不再需要邀请内测。 Glaze 可以一句话开发桌面软件，这是要跟 AppStore 对抗啊。 下载地址见评论区",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2072537436631286096",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2072545380437569915",
+      "date": "2026-07-02",
+      "name": "Frank Wang 玉伯",
+      "handle": "lifesinger",
+      "role": "I am curious and honest",
+      "avatar": "FW",
+      "summary": "创业者分三种： 1、为发财而创业，比如大量未发财的创业者 2、为创业而创业，比如中量已发财的创业者 3、为执念而创业，比如极少量神经病创业者 你是哪一种 或想成为哪一种",
+      "summaryEn": "创业者分三种： 1、为发财而创业，比如大量未发财的创业者 2、为创业而创业，比如中量已发财的创业者 3、为执念而创业，比如极少量神经病创业者 你是哪一种 或想成为哪一种",
+      "analysis": "",
+      "url": "https://x.com/lifesinger/status/2072545380437569915",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2072544208309870815",
+      "date": "2026-07-02",
+      "name": "Frank Wang 玉伯",
+      "handle": "lifesinger",
+      "role": "I am curious and honest",
+      "avatar": "FW",
+      "summary": "YouMind macOS 桌面端开始公测 欢迎下载安装 可以读取本地文件 几乎啥都能干 欢迎试用 & 反馈交流 Get ready to have YouMind alive on your desktop? Meet YouMind macOS. Come to https:// youmind.com/overview, scroll down to the bottom and download it NOW.",
+      "summaryEn": "YouMind macOS 桌面端开始公测 欢迎下载安装 可以读取本地文件 几乎啥都能干 欢迎试用 & 反馈交流 Get ready to have YouMind alive on your desktop? Meet YouMind macOS. Come to https:// youmind.com/overview, scroll down to the bottom and download it NOW.",
+      "analysis": "",
+      "url": "https://x.com/lifesinger/status/2072544208309870815",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072540949113397407",
+      "date": "2026-07-02",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "最近开始做视频了，不知道为啥看起啦像数字人 可能是我每一句话都很认真用了在讲，没有啥松弛感 最近看了很多世界杯的切片，我那是看得激情澎湃 特别是佛得角的40岁门将7次扑救逼平西班牙！！ 我心血来潮专门找了他的赛后采访，还给采访做了个多语种的翻译。 做翻译的过程中我觉得最大的痛点是如果有一种原样保留语气，节奏，情绪的语音翻译就好了。",
+      "summaryEn": "最近开始做视频了，不知道为啥看起啦像数字人 可能是我每一句话都很认真用了在讲，没有啥松弛感 最近看了很多世界杯的切片，我那是看得激情澎湃 特别是佛得角的40岁门将7次扑救逼平西班牙！！ 我心血来潮专门找了他的赛后采访，还给采访做了个多语种的翻译。 做翻译的过程中我觉得最大的痛点是如果有一种原样保留语气，节奏，情绪的语音翻译就好了。",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2072540949113397407",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072429345470300348",
+      "date": "2026-07-02",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "半夜醒来了，用上Fable5 High",
+      "summaryEn": "半夜醒来了，用上Fable5 High",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2072429345470300348",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072428805239787672",
+      "date": "2026-07-02",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "Cursor赢麻了，K2.7和Fable都能用 Claude Fable 5 is available again in Cursor. It leads all models on CursorBench, but is the most expensive per task.",
+      "summaryEn": "Cursor赢麻了，K2.7和Fable都能用 Claude Fable 5 is available again in Cursor. It leads all models on CursorBench, but is the most expensive per task.",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2072428805239787672",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2072532278476148881",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Never thought I give @Steve_Yegge a shoutout. He was just early, like most visionaries. Now everyone is building factories.",
+      "summaryEn": "Never thought I give @Steve_Yegge a shoutout. He was just early, like most visionaries. Now everyone is building factories.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072532278476148881",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072475858435276840",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "I’m looking for a semi-private hack space for a few days in SF for me and some of the OpenClaw maintainers. We need to cook. DM leads my way",
+      "summaryEn": "I’m looking for a semi-private hack space for a few days in SF for me and some of the OpenClaw maintainers. We need to cook. DM leads my way",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072475858435276840",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072447453622882338",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "How did I ever function without AI? cc chefcook @theo",
+      "summaryEn": "How did I ever function without AI? cc chefcook @theo",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072447453622882338",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072439279520039380",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Pointed codex at some Twitter feedback on the OpenClaw iOS app and it did a first improvement pass. It's still not good, but for two prompts it aint bad. Especially cool how it uses computer use to add before/after scre...",
+      "summaryEn": "Pointed codex at some Twitter feedback on the OpenClaw iOS app and it did a first improvement pass. It's still not good, but for two prompts it aint bad. Especially cool how it uses computer use to add before/after scre...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072439279520039380",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072433245598396581",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Speaker segmentation and transcripts are all done by",
+      "summaryEn": "Speaker segmentation and transcripts are all done by",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072433245598396581",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072433013624033282",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Asked codex to download+transcribe all sessions from @aiDotEngineer and tailor them to my interests.",
+      "summaryEn": "Asked codex to download+transcribe all sessions from @aiDotEngineer and tailor them to my interests.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072433013624033282",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072381145044644200",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Update on this as it's hilarious. This was escalated to the office of the president. It took many more calls and my line is approved. BUT. It's one line. If I behave well, be a good phone caller, they might approve my A...",
+      "summaryEn": "Update on this as it's hilarious. This was escalated to the office of the president. It took many more calls and my line is approved. BUT. It's one line. If I behave well, be a good phone caller, they might approve my A...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072381145044644200",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072373527970562495",
+      "date": "2026-07-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Will be talking about the \"app situation\" and roadmap plans with @hrudolph live TODAY at 11:30 AM PST on the official OpenClaw podcast, live on Discord. https:// discord.com/invite/clawd?e vent=1518848653291163728 …",
+      "summaryEn": "Will be talking about the \"app situation\" and roadmap plans with @hrudolph live TODAY at 11:30 AM PST on the official OpenClaw podcast, live on Discord. https:// discord.com/invite/clawd?e vent=1518848653291163728 …",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2072373527970562495",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072530292435194283",
+      "date": "2026-07-02",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "项目仓库：",
+      "summaryEn": "项目仓库：",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2072530292435194283",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2072530243273826374",
+      "date": "2026-07-02",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "多谢Fable5回归，对Fanbox（Coding agent的驾驶舱）做了大幅度的更新。 目前终端快捷启动的选项，已经从Claude Code、CodeX之外，又增加了Hermes Agent、OpenClaw、Kimi Code、ZCode等10多个主流Coding Agent产品。 新增「回合存档」功能，让不理解不了解Git机制的编程小白，也能自动化快速回到之前的项目状态，避免项目被搞坏的问题。 优化「项目记忆」功能，你可以根据...",
+      "summaryEn": "多谢Fable5回归，对Fanbox（Coding agent的驾驶舱）做了大幅度的更新。 目前终端快捷启动的选项，已经从Claude Code、CodeX之外，又增加了Hermes Agent、OpenClaw、Kimi Code、ZCode等10多个主流Coding Agent产品。 新增「回合存档」功能，让不理解不了解Git机制的编程小白，也能自动化快速回到之前的项目状态，避免项目被搞坏的问题。 优化「项目记忆」功能，你可以根据...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2072530243273826374",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072416733495746675",
+      "date": "2026-07-02",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "终于回来了！！！趁着这一周还能用套餐额度，赶紧用吧！！ Fable 5 is back.",
+      "summaryEn": "终于回来了！！！趁着这一周还能用套餐额度，赶紧用吧！！ Fable 5 is back.",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2072416733495746675",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2072525669704384612",
+      "date": "2026-07-02",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "As someone still trying to learn how to read code this is great! Installing the explain-diff skill asap Hot take: I think it's still important to understand the code that our agents write! In this mega thread (based on ...",
+      "summaryEn": "As someone still trying to learn how to read code this is great! Installing the explain-diff skill asap Hot take: I think it's still important to understand the code that our agents write! In this mega thread (based on ...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2072525669704384612",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072470191511113732",
+      "date": "2026-07-02",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Here's my Fable 5 vibe check: It's still really ****ing good. This is a step function above any other model. Hope GPT 5.6 can match. Claude Fable 5 is finally back, but you only have until July 7 to use it on your Claud...",
+      "summaryEn": "Here's my Fable 5 vibe check: It's still really ****ing good. This is a step function above any other model. Hope GPT 5.6 can match. Claude Fable 5 is finally back, but you only have until July 7 to use it on your Claud...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2072470191511113732",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2072458983886205333",
+      "date": "2026-07-02",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Claude Fable 5 is finally back, but you only have until July 7 to use it on your Claude subscription. I made a new tutorial walking through 5 use cases worth trying Fable on: → Find Fable-worthy work → Get life and busi...",
+      "summaryEn": "Claude Fable 5 is finally back, but you only have until July 7 to use it on your Claude subscription. I made a new tutorial walking through 5 use cases worth trying Fable on: → Find Fable-worthy work → Get life and busi...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2072458983886205333",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072403528975528377",
+      "date": "2026-07-02",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "We are so back (for just a little bit)",
+      "summaryEn": "We are so back (for just a little bit)",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2072403528975528377",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072522778327371819",
+      "date": "2026-07-02",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Murica",
+      "summaryEn": "Murica",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2072522778327371819",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072453780223000923",
+      "date": "2026-07-02",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "They like to sound smart and gloat when they’re right",
+      "summaryEn": "They like to sound smart and gloat when they’re right",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2072453780223000923",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072406317617262753",
+      "date": "2026-07-02",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Fable is back",
+      "summaryEn": "Fable is back",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2072406317617262753",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072519377371459836",
+      "date": "2026-07-02",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "If you’ve ever wondered why we will need 100X more AI inference in the future, and what it’s going to be driven by, this is another good example. Devin pushes forward an idea of agentic mapreduce, which means we’ll now ...",
+      "summaryEn": "If you’ve ever wondered why we will need 100X more AI inference in the future, and what it’s going to be driven by, this is another good example. Devin pushes forward an idea of agentic mapreduce, which means we’ll now ...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2072519377371459836",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072370527113748485",
+      "date": "2026-07-02",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "The thing that you quickly realize the deeper you go into using AI is how much more technical work there will now be in the world because of agents. The most powerful capabilities of AI agents are being able to write co...",
+      "summaryEn": "The thing that you quickly realize the deeper you go into using AI is how much more technical work there will now be in the world because of agents. The most powerful capabilities of AI agents are being able to write co...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2072370527113748485",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2072510943742001568",
+      "date": "2026-07-02",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "感觉今天都没什么动静，是不是都在蹬 Fable 5 啊？ 我早上起来第一件事，就是找了一个巨大的任务直接塞给他，让他自己跑了",
+      "summaryEn": "感觉今天都没什么动静，是不是都在蹬 Fable 5 啊？ 我早上起来第一件事，就是找了一个巨大的任务直接塞给他，让他自己跑了",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2072510943742001568",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072510211626336740",
+      "date": "2026-07-02",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "终于上了！ 藏师傅现在这个 Skills 可以帮你做 Live Photo。 我过去一段时间用下来，发现这个能力非常有用。它比做成视频的难度要低得非常非常多 又可以帮你展示一些需要动态展示的东西，比如： 1. 步骤说明 2. 不同角度的产品细节 3. 带动效的网页展示等等 这个 Skills 基本上把做 Live Photo",
+      "summaryEn": "终于上了！ 藏师傅现在这个 Skills 可以帮你做 Live Photo。 我过去一段时间用下来，发现这个能力非常有用。它比做成视频的难度要低得非常非常多 又可以帮你展示一些需要动态展示的东西，比如： 1. 步骤说明 2. 不同角度的产品细节 3. 带动效的网页展示等等 这个 Skills 基本上把做 Live Photo",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2072510211626336740",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "agent"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072509798026006965",
+      "date": "2026-07-02",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2072509798026006965",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072495124513456371",
+      "date": "2026-07-02",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "而且居然还重置了 Fable 5 重新上线了 x.com/claudeai/statu…",
+      "summaryEn": "而且居然还重置了 Fable 5 重新上线了 x.com/claudeai/statu…",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2072495124513456371",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072492875842252858",
+      "date": "2026-07-02",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Fable 5 重新上线了 Fable 5 is back.",
+      "summaryEn": "Fable 5 重新上线了 Fable 5 is back.",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2072492875842252858",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072501421648589106",
+      "date": "2026-07-02",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "大宝贝回归，开蹬！！",
+      "summaryEn": "大宝贝回归，开蹬！！",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2072501421648589106",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072462125474181623",
+      "date": "2026-07-02",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "avatar": "MT",
+      "summary": "The year is 2026 and the hot IPO brands right now are AOL, Evernote, Vimeo and Lime scooters",
+      "summaryEn": "The year is 2026 and the hot IPO brands right now are AOL, Evernote, Vimeo and Lime scooters",
+      "analysis": "",
+      "url": "https://x.com/mattturck/status/2072462125474181623",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072419592354529712",
+      "date": "2026-07-02",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "avatar": "MT",
+      "summary": "Fascinated by Lime going public - in an age where AI gets all the attention, how does a scooter company with $1B in debt pull off a successful IPO literally after expressing \"substantial doubt\" that they might not even ...",
+      "summaryEn": "Fascinated by Lime going public - in an age where AI gets all the attention, how does a scooter company with $1B in debt pull off a successful IPO literally after expressing \"substantial doubt\" that they might not even ...",
+      "analysis": "",
+      "url": "https://x.com/mattturck/status/2072419592354529712",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2072461457195950446",
+      "date": "2026-07-02",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "The Party for Socialism and Liberation (PSL), whose leadership is drawn directly from executives of Singham's nonprofits, ran 21 campaigns across 14 states that delayed, scaled back, or blocked $23.6 billion in AI infra...",
+      "summaryEn": "The Party for Socialism and Liberation (PSL), whose leadership is drawn directly from executives of Singham's nonprofits, ran 21 campaigns across 14 states that delayed, scaled back, or blocked $23.6 billion in AI infra...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2072461457195950446",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072402517397573717",
+      "date": "2026-07-02",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Most underreported story in all of tech Two reports from @SamLyman33 and @bitcoinpolicy document a coordinated foreign influence campaign against American AI — running through CCP state media, a Shanghai-based Marxist's...",
+      "summaryEn": "Most underreported story in all of tech Two reports from @SamLyman33 and @bitcoinpolicy document a coordinated foreign influence campaign against American AI — running through CCP state media, a Shanghai-based Marxist's...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2072402517397573717",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072459191101624802",
+      "date": "2026-07-02",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "Seriously. The gloating is so dumb.",
+      "summaryEn": "Seriously. The gloating is so dumb.",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2072459191101624802",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072449611550380526",
+      "date": "2026-07-02",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "Every once in a while, I meet a very very smart but default-pessimistic person in SF. They are often from the growthy/wall-street part of the world. And my first thought is: \"Why would you want to be in this city? We ru...",
+      "summaryEn": "Every once in a while, I meet a very very smart but default-pessimistic person in SF. They are often from the growthy/wall-street part of the world. And my first thought is: \"Why would you want to be in this city? We ru...",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2072449611550380526",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072450156801446239",
+      "date": "2026-07-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Free money, housing, etc acts as a massive financial forcing function to draw illegals to America and Europe I think ending welfare for immigrants would solve most of our immigrant problem",
+      "summaryEn": "Free money, housing, etc acts as a massive financial forcing function to draw illegals to America and Europe I think ending welfare for immigrants would solve most of our immigrant problem",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2072450156801446239",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072445332315902174",
+      "date": "2026-07-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2072445332315902174",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072379307461423161",
+      "date": "2026-07-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Orwell was a genius Animal Farm by George Orwell, in short: 1. Old Major, the fattest pig on the farm, delivers a sermon about \"liberation.\" He has never missed a meal in his life – but he is the most envious of the Man...",
+      "summaryEn": "Orwell was a genius Animal Farm by George Orwell, in short: 1. Old Major, the fattest pig on the farm, delivers a sermon about \"liberation.\" He has never missed a meal in his life – but he is the most envious of the Man...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2072379307461423161",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072436587665797518",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "IVE BEEN MEANING TO DO THIS SO COOL surprised more people aren't doing something like this Codex now creates a \"newspaper\" for me every morning Unread messages, calendar, surf report, news Anything I can do to stay off ...",
+      "summaryEn": "IVE BEEN MEANING TO DO THIS SO COOL surprised more people aren't doing something like this Codex now creates a \"newspaper\" for me every morning Unread messages, calendar, surf report, news Anything I can do to stay off ...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072436587665797518",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072402843819212906",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "LET'S RIP FABLE TOKENS FROM THE JACUZZI",
+      "summaryEn": "LET'S RIP FABLE TOKENS FROM THE JACUZZI",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072402843819212906",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2072402230041272669",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "FABLE IS BACK!!!",
+      "summaryEn": "FABLE IS BACK!!!",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072402230041272669",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072401988046770466",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "Notion gets it New block in Notion: HTML. Build interactive HTML right on your Notion page. Ask AI to turn your content into interactive explainers, prototypes, or diagrams. Share with your team to use and tinker togeth...",
+      "summaryEn": "Notion gets it New block in Notion: HTML. Build interactive HTML right on your Notion page. Ask AI to turn your content into interactive explainers, prototypes, or diagrams. Share with your team to use and tinker togeth...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072401988046770466",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072399514661720100",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "whenever fable comes back im gonna be ripping tokens live from the jacuzzi stay tuned for the livestream",
+      "summaryEn": "whenever fable comes back im gonna be ripping tokens live from the jacuzzi stay tuned for the livestream",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072399514661720100",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2072397367517548639",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "the big question when Fable comes back is going to be: how strict are the guardrails? Tbh I tripped the original guardrails a LOT on innocuous requests from the original launch I have a feeling Fable: Lutnick’s Version ...",
+      "summaryEn": "the big question when Fable comes back is going to be: how strict are the guardrails? Tbh I tripped the original guardrails a LOT on innocuous requests from the original launch I have a feeling Fable: Lutnick’s Version ...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072397367517548639",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072391275073228923",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "Fable is being rereleased today. Any incremental work you’re doing now is basically a waste. Might as well be on the beach until The Beast is back",
+      "summaryEn": "Fable is being rereleased today. Any incremental work you’re doing now is basically a waste. Might as well be on the beach until The Beast is back",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072391275073228923",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072348874006810753",
+      "date": "2026-07-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": ". @NataliaZarina rode so hard for Claude Code we devoted an episode to how she was using it to automate her job running @every ’s consulting practice. Fast forward to five months later, and she rides just as hard for Co...",
+      "summaryEn": ". @NataliaZarina rode so hard for Claude Code we devoted an episode to how she was using it to automate her job running @every ’s consulting practice. Fast forward to five months later, and she rides just as hard for Co...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2072348874006810753",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2072417759279845506",
+      "date": "2026-07-02",
+      "name": "Slava",
+      "handle": "slavakornilov",
+      "role": "Worked with: Time, Cnn, Aston Martin, Lincoln, Awwwards, Dribbble, Booking, Fantasy, Majid Al Futtaim, Office...",
+      "avatar": "SL",
+      "summary": "Music AI Generation Video",
+      "summaryEn": "Music AI Generation Video",
+      "analysis": "",
+      "url": "https://x.com/slavakornilov/status/2072417759279845506",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2072417166952136789",
+      "date": "2026-07-02",
+      "name": "Google Labs",
+      "handle": "GoogleLabs",
+      "role": "Google’s home for our latest AI tools and experiments.",
+      "avatar": "GL",
+      "summary": "Every good chord progression needs a resolution. To focus on building @GoogleFlowMusic - our tool for creating, sharing, and remixing original music - we will be saying a fond farewell to MusicFX and MusicFX DJ on July ...",
+      "summaryEn": "Every good chord progression needs a resolution. To focus on building @GoogleFlowMusic - our tool for creating, sharing, and remixing original music - we will be saying a fond farewell to MusicFX and MusicFX DJ on July ...",
+      "analysis": "",
+      "url": "https://x.com/GoogleLabs/status/2072417166952136789",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072404717490360727",
+      "date": "2026-07-02",
+      "name": "Alex Albert",
+      "handle": "alexalbert__",
+      "role": "Research @AnthropicAI . Opinions are my own!",
+      "avatar": "AA",
+      "summary": "Welcome back to the world Fable!! Fable 5 is back.",
+      "summaryEn": "Welcome back to the world Fable!! Fable 5 is back.",
+      "analysis": "",
+      "url": "https://x.com/alexalbert__/status/2072404717490360727",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2072391971721884073",
+      "date": "2026-07-02",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "PSA: You can change Codex's model to GLM Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models. https:// developers.openai.com/codex/config-a dvanced#oss-mode-local...",
+      "summaryEn": "PSA: You can change Codex's model to GLM Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models. https:// developers.openai.com/codex/config-a dvanced#oss-mode-local...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2072391971721884073",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2072384777785888875",
+      "date": "2026-07-02",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "Full video on YouTube:",
+      "summaryEn": "Full video on YouTube:",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2072384777785888875",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "infrastructure",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072381929366987087",
+      "date": "2026-07-02",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "HOW TO BUILD A SKILL You don't START with a skill. You END with a skill. Building the skill is the last step of your workflow, not the first step I created a complete walkthrough of my Frontend Slides skill (22k+ stars ...",
+      "summaryEn": "HOW TO BUILD A SKILL You don't START with a skill. You END with a skill. Building the skill is the last step of your workflow, not the first step I created a complete walkthrough of my Frontend Slides skill (22k+ stars ...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2072381929366987087",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2072385092824260748",
+      "date": "2026-07-02",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Now that building is easy, we’ve been increasingly focused on getting entrepreneurs to market, helping them reach their first customer and first dollar. Whop is one of the best places on the internet to monetize your cr...",
+      "summaryEn": "Now that building is easy, we’ve been increasingly focused on getting entrepreneurs to market, helping them reach their first customer and first dollar. Whop is one of the best places on the internet to monetize your cr...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2072385092824260748",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    }
+  ]
+}

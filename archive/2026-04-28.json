@@ -1,0 +1,1988 @@
+{
+  "date": "2026-04-28",
+  "builderCount": 25,
+  "postCount": 103,
+  "topTopics": [
+    "design",
+    "business",
+    "agent",
+    "model",
+    "media"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2048956024141598736",
+    "2048994353821966374",
+    "2048954876877541886"
+  ],
+  "posts": [
+    {
+      "id": "2049035851493953750",
+      "date": "2026-04-28",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Yes it did type into the comment box and closed the issue.",
+      "summaryEn": "Yes it did type into the comment box and closed the issue.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2049035851493953750",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2049035044702843053",
+      "date": "2026-04-28",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "I'm again rate limited on GitHub, but codex just opened the browser and clicks around GitHub as workaround.",
+      "summaryEn": "I'm again rate limited on GitHub, but codex just opened the browser and clicks around GitHub as workaround.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2049035044702843053",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048957477106938075",
+      "date": "2026-04-28",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing. Streamlines a lot of the work. One more thing: OpenClaw 2026.4.26 is stacked because the Clawtributors showed up...",
+      "summaryEn": "Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing. Streamlines a lot of the work. One more thing: OpenClaw 2026.4.26 is stacked because the Clawtributors showed up...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2048957477106938075",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048882959596286342",
+      "date": "2026-04-28",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Some of the CI issues are having",
+      "summaryEn": "Some of the CI issues are having",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2048882959596286342",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2049035231903301771",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "GStack ships with Chromium that has Claude Code as the CLI and you can type /pair-agent from your real CC or the sidebar one And it'll give you a string to paste into your OpenClaw/Hermes so it can control your browser ...",
+      "summaryEn": "GStack ships with Chromium that has Claude Code as the CLI and you can type /pair-agent from your real CC or the sidebar one And it'll give you a string to paste into your OpenClaw/Hermes so it can control your browser ...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2049035231903301771",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2049034204613324980",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Fudge I'm here to help YOU get the bag nah its okay i hope they get the bag",
+      "summaryEn": "Fudge I'm here to help YOU get the bag nah its okay i hope they get the bag",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2049034204613324980",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049033440935469213",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "The anti-tech lines are so tired, and the people who hate tech have hated tech for so long So of course if it's the same people doing the same old dance, they reuse the same old lines when actually everything changed in...",
+      "summaryEn": "The anti-tech lines are so tired, and the people who hate tech have hated tech for so long So of course if it's the same people doing the same old dance, they reuse the same old lines when actually everything changed in...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2049033440935469213",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049030936659100066",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "How big is my personal Karpathy knowledge wiki stored in GBrain now? 74,114 pages. 117,855 edges. 281,700 timeline entries. Week 1 it was 14,000 pages. A month later it is 5x what it was. In the time since I started fee...",
+      "summaryEn": "How big is my personal Karpathy knowledge wiki stored in GBrain now? 74,114 pages. 117,855 edges. 281,700 timeline entries. Week 1 it was 14,000 pages. A month later it is 5x what it was. In the time since I started fee...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2049030936659100066",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049029392501018892",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "GBrain is Vannevar Bush's Memex, built for myself and open sourced so you can have it too I've been thinking about this concept ever since 1999 since it was in my Stanford college admissions essay that got me in.",
+      "summaryEn": "GBrain is Vannevar Bush's Memex, built for myself and open sourced so you can have it too I've been thinking about this concept ever since 1999 since it was in my Stanford college admissions essay that got me in.",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2049029392501018892",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049006879888846851",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "I guess it's pretty satisfying to update GBrain and have my OpenClaw say \"That's the money shot right there\" BTW new stability release on migration verification",
+      "summaryEn": "I guess it's pretty satisfying to update GBrain and have my OpenClaw say \"That's the money shot right there\" BTW new stability release on migration verification",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2049006879888846851",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048975993768153312",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Everybody eats. Improving our food supply and safer more efficient agriculture is one of tue most direct ways for AI to help people Thank you for the leadership @garrytan in spurring leadership in technology for our far...",
+      "summaryEn": "Everybody eats. Improving our food supply and safer more efficient agriculture is one of tue most direct ways for AI to help people Thank you for the leadership @garrytan in spurring leadership in technology for our far...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048975993768153312",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048931104032469279",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Everything Chris Tate makes is Portless killed :3000 Dev servers got stable names like myapp.localhost Agents could use worktrees in parallel without stepping on each other Now it's easier than ever in v0.11 Just run: p...",
+      "summaryEn": "Everything Chris Tate makes is Portless killed :3000 Dev servers got stable names like myapp.localhost Agents could use worktrees in parallel without stepping on each other Now it's easier than ever in v0.11 Just run: p...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048931104032469279",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048923580516466860",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "I knew B2B marketing slop even when I was a summer intern at my first B2B startup job (didn't like it much tbh, total waste of a summer)",
+      "summaryEn": "I knew B2B marketing slop even when I was a summer intern at my first B2B startup job (didn't like it much tbh, total waste of a summer)",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048923580516466860",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048915688098808079",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Haha, uh, I guess one thing I would recommend to young founders is read a lot Like, read *A LOT* just learn about the world. If you like to read it's not a waste of time. It might be the best use of time.",
+      "summaryEn": "Haha, uh, I guess one thing I would recommend to young founders is read a lot Like, read *A LOT* just learn about the world. If you like to read it's not a waste of time. It might be the best use of time.",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048915688098808079",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048909083915510262",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "出污泥而不染",
+      "summaryEn": "出污泥而不染",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048909083915510262",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048906938222841981",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "I had a zine in high school. I had to write otherwise I was going to go insane.",
+      "summaryEn": "I had a zine in high school. I had to write otherwise I was going to go insane.",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048906938222841981",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048903788891926661",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "AI helping people looks like this If we do some of these things in YC's recently released RFS's re housing, food and transportation, while also making sure Jevon's Paradox means more knowledge work and not less... AI Wh...",
+      "summaryEn": "AI helping people looks like this If we do some of these things in YC's recently released RFS's re housing, food and transportation, while also making sure Jevon's Paradox means more knowledge work and not less... AI Wh...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048903788891926661",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048901033800368408",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Saikat Chakrabarti ($167M Stripe centimillionaire) says tech billionaires are war profiteers. When he says he rejects 'corporate money,' he means he replaced it with something better: $1.5M of his own tech fortune Astro...",
+      "summaryEn": "Saikat Chakrabarti ($167M Stripe centimillionaire) says tech billionaires are war profiteers. When he says he rejects 'corporate money,' he means he replaced it with something better: $1.5M of his own tech fortune Astro...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048901033800368408",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048897721311060407",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048897721311060407",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048897218934178106",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "If you want to feel immense saudade, have your OpenClaw go through your college and high school emails",
+      "summaryEn": "If you want to feel immense saudade, have your OpenClaw go through your college and high school emails",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048897218934178106",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048844404035920255",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Bamboozled is the right term when grifty nonprofits prey on SF Unified School District with lofty sounding pablum PowerPoint slides about Ethnic Studies they sell our schools for 6 figure big paydays This is the salary ...",
+      "summaryEn": "Bamboozled is the right term when grifty nonprofits prey on SF Unified School District with lofty sounding pablum PowerPoint slides about Ethnic Studies they sell our schools for 6 figure big paydays This is the salary ...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048844404035920255",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048842979608297675",
+      "date": "2026-04-28",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "I love the GBrain community Spent ~48h this weekend connecting gbrain @garrytan to ALL my Claudes: Desktop web + Cowork mobile Code (CLI) Closes \"planned but not yet implemented\" in DEPLOY.md. PR: < http:// github.com/g...",
+      "summaryEn": "I love the GBrain community Spent ~48h this weekend connecting gbrain @garrytan to ALL my Claudes: Desktop web + Cowork mobile Code (CLI) Closes \"planned but not yet implemented\" in DEPLOY.md. PR: < http:// github.com/g...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2048842979608297675",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2049032624275161414",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "不少身边朋友觉得DeepSeek v4没有对龙虾等agent场景优化好，有点可惜。 反而是小米的mimo v2.5表现很好，听张小珺访谈能看出小米的AI负责人罗福莉对claw类产品很上头。 现在明白了，无论模型训练适配，还是AI企业落地应用，都是一把手工程。 一号位看重什么，投入什么，结果会不一样。",
+      "summaryEn": "不少身边朋友觉得DeepSeek v4没有对龙虾等agent场景优化好，有点可惜。 反而是小米的mimo v2.5表现很好，听张小珺访谈能看出小米的AI负责人罗福莉对claw类产品很上头。 现在明白了，无论模型训练适配，还是AI企业落地应用，都是一把手工程。 一号位看重什么，投入什么，结果会不一样。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2049032624275161414",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "agent"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2049017089978192123",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "现在自己常用的Mac工具： 截图：CleanShot X 录屏：Screen Studio 轻量级不录音用CleanShot X 编程：Codex GPT 5.5 xhigh 写作：Raycast AI Sonnet 4.6 (Opus更好，但贵，不能一次输出长文) 听音乐：Spotify 音乐下载：AlgerMusicPlayer 浏览器：Dia + Chrome Terminal：Cmux + Kaku",
+      "summaryEn": "现在自己常用的Mac工具： 截图：CleanShot X 录屏：Screen Studio 轻量级不录音用CleanShot X 编程：Codex GPT 5.5 xhigh 写作：Raycast AI Sonnet 4.6 (Opus更好，但贵，不能一次输出长文) 听音乐：Spotify 音乐下载：AlgerMusicPlayer 浏览器：Dia + Chrome Terminal：Cmux + Kaku",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2049017089978192123",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2049002291718717615",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "大多数人以为AI不够用，是因为还不够聪明。 Dwarkesh 去年6月的观点：模型在很多任务上的起点，已经高于普通人类员工。 真正的瓶颈是AI没有学习曲线，只有一条水平线。 聪明但不成长，这才是问题。 https:// blog.qiaomu.ai/dwarkesh-patel -agi-learning-bottleneck … --- 本文为了测试og:image链接分享封面。",
+      "summaryEn": "大多数人以为AI不够用，是因为还不够聪明。 Dwarkesh 去年6月的观点：模型在很多任务上的起点，已经高于普通人类员工。 真正的瓶颈是AI没有学习曲线，只有一条水平线。 聪明但不成长，这才是问题。 https:// blog.qiaomu.ai/dwarkesh-patel -agi-learning-bottleneck … --- 本文为了测试og:image链接分享封面。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2049002291718717615",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048993746667384979",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "网址： https:// app.slock.ai",
+      "summaryEn": "网址： https:// app.slock.ai",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2048993746667384979",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048993627356205167",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "听了曲凯的42章经，打开Slock 试了下，感觉还不错！ 有点类Slack的样子和交互，安装配置简单教程： 1. 打开网站注册登录，添加本地电脑，终端输入给的npx指令，自动扫描本地的大模型CLI。 2. 用你本地的Claude Code、Codex、Gemini CLI创建Agent。 3.",
+      "summaryEn": "听了曲凯的42章经，打开Slock 试了下，感觉还不错！ 有点类Slack的样子和交互，安装配置简单教程： 1. 打开网站注册登录，添加本地电脑，终端输入给的npx指令，自动扫描本地的大模型CLI。 2. 用你本地的Claude Code、Codex、Gemini CLI创建Agent。 3.",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2048993627356205167",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048958676111937643",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "因A社封锁和降智，现在用Codex越来越多，经常有超预期表现。 比如昨天想给博客加个一键发布公众号功能。 Cloudflare部署没有固定IP，无法加公众号白名单，我给它一台VPS的SSH账号，它自己登录写了一个桥接脚本。 带我做了域名解析，写了封面图压缩，终于能从博客发布到公众号草稿箱了。",
+      "summaryEn": "因A社封锁和降智，现在用Codex越来越多，经常有超预期表现。 比如昨天想给博客加个一键发布公众号功能。 Cloudflare部署没有固定IP，无法加公众号白名单，我给它一台VPS的SSH账号，它自己登录写了一个桥接脚本。 带我做了域名解析，写了封面图压缩，终于能从博客发布到公众号草稿箱了。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2048958676111937643",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "infrastructure"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048950182495359392",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "简单Skill用DeepSeek V4 Flash感觉差不多可用了。 且速度非常快，V4发布没有R1发布时轰动，但实实在在变得可用了。 视频演示一句话下载epub电子书，转txt，自动上传Notebooklm提问，然后用指定Prompt写一篇解读文。 过程中会自动纠错，工具调用能力也显著提升。",
+      "summaryEn": "简单Skill用DeepSeek V4 Flash感觉差不多可用了。 且速度非常快，V4发布没有R1发布时轰动，但实实在在变得可用了。 视频演示一句话下载epub电子书，转txt，自动上传Notebooklm提问，然后用指定Prompt写一篇解读文。 过程中会自动纠错，工具调用能力也显著提升。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2048950182495359392",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048754784031879366",
+      "date": "2026-04-28",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "Mac上装有Cleanshot X，一直用来截图。 知道它有录屏功能，但没用过。 今天第一次按快捷键 Cmd + Shift + 6 录屏，发现操作简单，录好视频自动到剪贴板。 只需粘贴就能上传到飞书或X上，太好用了！",
+      "summaryEn": "Mac上装有Cleanshot X，一直用来截图。 知道它有录屏功能，但没用过。 今天第一次按快捷键 Cmd + Shift + 6 录屏，发现操作简单，录好视频自动到剪贴板。 只需粘贴就能上传到飞书或X上，太好用了！",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2048754784031879366",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2049031924266783017",
+      "date": "2026-04-28",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "家人们，新课更新了：《Harness Engineering 入门实战课：如何让 AI 稳定开发项目？》。 AI 编程正在从“写好 Prompt”进入“让 Agent 稳定干活”的阶段，真正重要的不只是怎么提问，而是如何给 Agent 准备好产品说明、架构边界、工作规则和交接记录。 这节课会带大家用 4 个基础 Markdown",
+      "summaryEn": "家人们，新课更新了：《Harness Engineering 入门实战课：如何让 AI 稳定开发项目？》。 AI 编程正在从“写好 Prompt”进入“让 Agent 稳定干活”的阶段，真正重要的不只是怎么提问，而是如何给 Agent 准备好产品说明、架构边界、工作规则和交接记录。 这节课会带大家用 4 个基础 Markdown",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2049031924266783017",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2049031341321109754",
+      "date": "2026-04-28",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "《广东省国民经济和社会发展第十五个五年规划纲要》正式发布，其中提到： 稳步扩大免费学前教育范围，探索延长义务教育年限。 不知道要到哪一年，才能实现从幼儿园到高中全免费？可能取消小升初和中考会比较实际一些。",
+      "summaryEn": "《广东省国民经济和社会发展第十五个五年规划纲要》正式发布，其中提到： 稳步扩大免费学前教育范围，探索延长义务教育年限。 不知道要到哪一年，才能实现从幼儿园到高中全免费？可能取消小升初和中考会比较实际一些。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2049031341321109754",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2049024378940108933",
+      "date": "2026-04-28",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "躺平已经上升到国家安全层面，根据相关法律，躺平可能危害国家安全，境外势力打不过咱们，就骗咱们躺平。 中国国家安全部：工作发现，某境外组织资助各类反华媒体、智库，炮制“奋斗=被剥削”“阶层固化=努力无用”等叙事；某境外组织大力资助“躺平网红”，批量生产“躺平即正义”“反内卷=反剥削”短视频，系统性开展“躺平洗脑”。",
+      "summaryEn": "躺平已经上升到国家安全层面，根据相关法律，躺平可能危害国家安全，境外势力打不过咱们，就骗咱们躺平。 中国国家安全部：工作发现，某境外组织资助各类反华媒体、智库，炮制“奋斗=被剥削”“阶层固化=努力无用”等叙事；某境外组织大力资助“躺平网红”，批量生产“躺平即正义”“反内卷=反剥削”短视频，系统性开展“躺平洗脑”。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2049024378940108933",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "infrastructure",
+        "media",
+        "enterprise"
+      ],
+      "primaryTopic": "infrastructure"
+    },
+    {
+      "id": "2049023638817394948",
+      "date": "2026-04-28",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "赛博钓鱼佬还会空军么？ 要是把太阳伞改成太阳能顶就更好了。",
+      "summaryEn": "赛博钓鱼佬还会空军么？ 要是把太阳伞改成太阳能顶就更好了。",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2049023638817394948",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2049029740284239974",
+      "date": "2026-04-28",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "按这个流程做了一个logo动画，效果还挺好。 先用ChatGPT生成一个动画分镜表，然后提供给Seedance 2.0生成。 ChatGPT里的提示词： Create an animation sheet for a slick logo animation for a companycalled 【Gorden科技】. The logo is a minimalist cute cat. The sheetshould show c...",
+      "summaryEn": "按这个流程做了一个logo动画，效果还挺好。 先用ChatGPT生成一个动画分镜表，然后提供给Seedance 2.0生成。 ChatGPT里的提示词： Create an animation sheet for a slick logo animation for a companycalled 【Gorden科技】. The logo is a minimalist cute cat. The sheetshould show c...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2049029740284239974",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2049027061768192288",
+      "date": "2026-04-28",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "The most sophisticated AI users I know are talking to just ONE agent daily, not multiple agents That agents will then assign tasks to other subagents/spawn subagents as needed But the day-to-day communication is with ju...",
+      "summaryEn": "The most sophisticated AI users I know are talking to just ONE agent daily, not multiple agents That agents will then assign tasks to other subagents/spawn subagents as needed But the day-to-day communication is with ju...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2049027061768192288",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2049026986442707117",
+      "date": "2026-04-28",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "说得太对了，牛逼 AI不识铁锤人学遍AI也枉然",
+      "summaryEn": "说得太对了，牛逼 AI不识铁锤人学遍AI也枉然",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2049026986442707117",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049019768456241273",
+      "date": "2026-04-28",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2049019768456241273",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049009528595685705",
+      "date": "2026-04-28",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "来源： [1] https:// businesstoday.in/technology/sto ry/sam-altmans-outside-bets-raise-fresh-conflict-questions-as-openai-nears-ipo-526161-2026-04-17 … [2] https:// thenextweb.com/news/openai-is -in-talks-to-buy-fusion-ener...",
+      "summaryEn": "来源： [1] https:// businesstoday.in/technology/sto ry/sam-altmans-outside-bets-raise-fresh-conflict-questions-as-openai-nears-ipo-526161-2026-04-17 … [2] https:// thenextweb.com/news/openai-is -in-talks-to-buy-fusion-ener...",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2049009528595685705",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2049009402372313341",
+      "date": "2026-04-28",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "Sam Altman 最聪明的地方，不是把 AI 做起来，是这套给自己捞钱的手法 2015 年，OpenAI 打着非营利的旗号成立 顶级研究员冲着使命感来，不要钱只要理想 Musk 看到了，砸了 3800 万进去 监管也没把它当商业公司盯 连 Musk 这种人都信了 但 CEO 在想另一件事 Altman 从 2014 年开始，在核聚变公司 Scam Altman and Greg Stockman stole a charity. ...",
+      "summaryEn": "Sam Altman 最聪明的地方，不是把 AI 做起来，是这套给自己捞钱的手法 2015 年，OpenAI 打着非营利的旗号成立 顶级研究员冲着使命感来，不要钱只要理想 Musk 看到了，砸了 3800 万进去 监管也没把它当商业公司盯 连 Musk 这种人都信了 但 CEO 在想另一件事 Altman 从 2014 年开始，在核聚变公司 Scam Altman and Greg Stockman stole a charity. ...",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2049009402372313341",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2049001091916783635",
+      "date": "2026-04-28",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "GPT-5.5 在 Code Arena 排第 9 难道是 OpenAI 编程这块掉队了？ 但 Arena 自己的统计负责人，几小时后发了条澄清 这榜单，当前只测前端或者说Web DEV GPT-5.5全栈和 GitHub 集成，还要几个月才上，所以现在这方面很弱。 所以不是它编码不行，是它前端这块比 Claude 弱 Code GPT-5.5 by @OpenAI is now live in the Arena, landing ...",
+      "summaryEn": "GPT-5.5 在 Code Arena 排第 9 难道是 OpenAI 编程这块掉队了？ 但 Arena 自己的统计负责人，几小时后发了条澄清 这榜单，当前只测前端或者说Web DEV GPT-5.5全栈和 GitHub 集成，还要几个月才上，所以现在这方面很弱。 所以不是它编码不行，是它前端这块比 Claude 弱 Code GPT-5.5 by @OpenAI is now live in the Arena, landing ...",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2049001091916783635",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048971387872620715",
+      "date": "2026-04-28",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "Opus 4.7 的任务遵从性好点，但是其他方面都不如GPT-5.5了 可以用性方面，GPT-5.5很容易低价购得，不被封号",
+      "summaryEn": "Opus 4.7 的任务遵从性好点，但是其他方面都不如GPT-5.5了 可以用性方面，GPT-5.5很容易低价购得，不被封号",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2048971387872620715",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2049026153156075628",
+      "date": "2026-04-28",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "强 给 kwwk 跑了一下 Terminal Bench 2.0 通过率 70.4%，用的 Opus 4.7，kwwk 的 System Prompt 带上工具定义只有 2700 Tokens 比排行榜上其他 harness 小很多。 x.com/EEEEYHN/status…",
+      "summaryEn": "强 给 kwwk 跑了一下 Terminal Bench 2.0 通过率 70.4%，用的 Opus 4.7，kwwk 的 System Prompt 带上工具定义只有 2700 Tokens 比排行榜上其他 harness 小很多。 x.com/EEEEYHN/status…",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2049026153156075628",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "agent"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048987185127497966",
+      "date": "2026-04-28",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "谢谢小米 还不错",
+      "summaryEn": "谢谢小米 还不错",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2048987185127497966",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048970745406201919",
+      "date": "2026-04-28",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "还不错",
+      "summaryEn": "还不错",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2048970745406201919",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049012665876627564",
+      "date": "2026-04-28",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Codex 又重置了速率限制，一到周末就重置。太猛了OpenAI Don't just reset Codex rate limits for fun, it costs money. Don't just reset Codex rate limits for fun, it costs money. ... but the vibes are good ... I have reset Codex rate limits for ...",
+      "summaryEn": "Codex 又重置了速率限制，一到周末就重置。太猛了OpenAI Don't just reset Codex rate limits for fun, it costs money. Don't just reset Codex rate limits for fun, it costs money. ... but the vibes are good ... I have reset Codex rate limits for ...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2049012665876627564",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048956843792413004",
+      "date": "2026-04-28",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "我先看看能不能给 Codepilot 用户争取到免费的 Token 补贴 小米 MiMo -V2.5 系列模型全部开源 采用宽松的 MIT 协议，允许自由商用、二次训练与微调，无需额外授权。 同时他们还推出了Orbit 100T Token 计划。 这个太牛批了！如果你有自己 Vibe Coding 一些东西可以去领一下。 包含两部分： 分别是面向 AI builder 的『百万亿 Token x.com/XiaomiMiMo/sta…",
+      "summaryEn": "我先看看能不能给 Codepilot 用户争取到免费的 Token 补贴 小米 MiMo -V2.5 系列模型全部开源 采用宽松的 MIT 协议，允许自由商用、二次训练与微调，无需额外授权。 同时他们还推出了Orbit 100T Token 计划。 这个太牛批了！如果你有自己 Vibe Coding 一些东西可以去领一下。 包含两部分： 分别是面向 AI builder 的『百万亿 Token x.com/XiaomiMiMo/sta…",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2048956843792413004",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048956024141598736",
+      "date": "2026-04-28",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "小米 MiMo -V2.5 系列模型全部开源 采用宽松的 MIT 协议，允许自由商用、二次训练与微调，无需额外授权。 同时他们还推出了Orbit 100T Token 计划。 这个太牛批了！如果你有自己 Vibe Coding 一些东西可以去领一下。 包含两部分： 分别是面向 AI builder 的『百万亿 Token Xiaomi MiMo-V2.5 is now officially open-sourced！ MIT Lice...",
+      "summaryEn": "小米 MiMo -V2.5 系列模型全部开源 采用宽松的 MIT 协议，允许自由商用、二次训练与微调，无需额外授权。 同时他们还推出了Orbit 100T Token 计划。 这个太牛批了！如果你有自己 Vibe Coding 一些东西可以去领一下。 包含两部分： 分别是面向 AI builder 的『百万亿 Token Xiaomi MiMo-V2.5 is now officially open-sourced！ MIT Lice...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2048956024141598736",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2049010754012209457",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "In 1913, only 1% of households filed income tax Now, 100% do. Every time a tax scheme is created, it starts with \"just the rich\" and quickly applies to everyone. Every time. California will seize assets of every citizen...",
+      "summaryEn": "In 1913, only 1% of households filed income tax Now, 100% do. Every time a tax scheme is created, it starts with \"just the rich\" and quickly applies to everyone. Every time. California will seize assets of every citizen...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2049010754012209457",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048906352723100138",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "“World War Eleven” Yes, that was deadly",
+      "summaryEn": "“World War Eleven” Yes, that was deadly",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048906352723100138",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048906090851799272",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "They stole a nonprofit. It’s not right.",
+      "summaryEn": "They stole a nonprofit. It’s not right.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048906090851799272",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048872949005066309",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Long list Scam Altman has a incredible track record for being a con artist I don't think anyone has a \"former ally turned enemy\" list this big with directly with people he worked with A massive new 18-month investigatio...",
+      "summaryEn": "Long list Scam Altman has a incredible track record for being a con artist I don't think anyone has a \"former ally turned enemy\" list this big with directly with people he worked with A massive new 18-month investigatio...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048872949005066309",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048856247320076622",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Yup He is “Scam Altman”. Why? Because the pattern is obvious. • Founded OpenAI in 2015 as a nonprofit “for humanity” — Elon left in 2018 when it started going closed and profit-first. Now it’s basically a Microsoft subs...",
+      "summaryEn": "Yup He is “Scam Altman”. Why? Because the pattern is obvious. • Founded OpenAI in 2015 as a nonprofit “for humanity” — Elon left in 2018 when it started going closed and profit-first. Now it’s basically a Microsoft subs...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048856247320076622",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048854864592355665",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Scam Altman …",
+      "summaryEn": "Scam Altman …",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048854864592355665",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048835401004048504",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "That’s what it comes down to The Musk v. OpenAI trial starts today After all these years of delays, I really hope we finally see justice. No one should be allowed to loot a charity like that and walk away with billions ...",
+      "summaryEn": "That’s what it comes down to The Musk v. OpenAI trial starts today After all these years of delays, I really hope we finally see justice. No one should be allowed to loot a charity like that and walk away with billions ...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048835401004048504",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048835209533988943",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "POV: You're good at scamming a billionaire and your AI is best at giving suicide guides x.com/ns123abc/statu…",
+      "summaryEn": "POV: You're good at scamming a billionaire and your AI is best at giving suicide guides x.com/ns123abc/statu…",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048835209533988943",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048834236631675321",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Scam Altman owned the OpenAI Startup fund while simultaneously lying to the world that he didn’t financially benefit from OpenAI The main difference between Elon Musk and Scam Altman: Elon Musk actually changes the worl...",
+      "summaryEn": "Scam Altman owned the OpenAI Startup fund while simultaneously lying to the world that he didn’t financially benefit from OpenAI The main difference between Elon Musk and Scam Altman: Elon Musk actually changes the worl...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048834236631675321",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048833679791641057",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Scam Altman didn’t tell the OpenAI board that he OWNED the OpenAI Startup Fund. Altman lied in congressional testimony that he didn’t have financial gain from OpenAI. Ex-board member of OpenAI calls Sam Altman a liar. H...",
+      "summaryEn": "Scam Altman didn’t tell the OpenAI board that he OWNED the OpenAI Startup Fund. Altman lied in congressional testimony that he didn’t have financial gain from OpenAI. Ex-board member of OpenAI calls Sam Altman a liar. H...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048833679791641057",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048832396829524325",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "When violence is categorized accurately, this unequivocally true. You know who the bad guys are, because they’re the ones who want censorship of free speech. We have a left-wing violence problem in America. After 3x att...",
+      "summaryEn": "When violence is categorized accurately, this unequivocally true. You know who the bad guys are, because they’re the ones who want censorship of free speech. We have a left-wing violence problem in America. After 3x att...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048832396829524325",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048829256386433238",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Yup The main difference between Elon Musk and Sam Altman: Elon Musk actually changes the world for the better and saves lives: Tesla accelerates clean energy and has saved thousands of lives on the roads. SpaceX is maki...",
+      "summaryEn": "Yup The main difference between Elon Musk and Sam Altman: Elon Musk actually changes the world for the better and saves lives: Tesla accelerates clean energy and has saved thousands of lives on the roads. SpaceX is maki...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048829256386433238",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048828397329985807",
+      "date": "2026-04-28",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "This is why OpenAI was created Elon Musk turned down all shares when he left OpenAI because he believed nonprofits are not meant for self-enrichment. \"The reason I founded OpenAI was because I was concerned, based on my...",
+      "summaryEn": "This is why OpenAI was created Elon Musk turned down all shares when he left OpenAI because he believed nonprofits are not meant for self-enrichment. \"The reason I founded OpenAI was because I was concerned, based on my...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2048828397329985807",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048999015618871628",
+      "date": "2026-04-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048999015618871628",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048994353821966374",
+      "date": "2026-04-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这是今天最火的AI创业梗了哈哈哈，直接给我看笑了 妈妈问我们家是怎么发财的？ 2026年，你爸看了YC的创业清单， 照着单子随便挑了一个就做出来了 Packy这个梗真是杀人诛心 但仔细想想说的全是实话。 YC刚刚发布的2026夏季RFS，几乎把未来五年的AI创业地图，明明白白摊在了所有人面前。 Mom how did we get so rich? Back in 2026, your dad read the YC Request ...",
+      "summaryEn": "这是今天最火的AI创业梗了哈哈哈，直接给我看笑了 妈妈问我们家是怎么发财的？ 2026年，你爸看了YC的创业清单， 照着单子随便挑了一个就做出来了 Packy这个梗真是杀人诛心 但仔细想想说的全是实话。 YC刚刚发布的2026夏季RFS，几乎把未来五年的AI创业地图，明明白白摊在了所有人面前。 Mom how did we get so rich? Back in 2026, your dad read the YC Request ...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048994353821966374",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048954883131297874",
+      "date": "2026-04-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048954883131297874",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048954876877541886",
+      "date": "2026-04-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Damn，OpenAI刚刚扔出的这个开源仓库，直接把语音交互的未来砸到了所有人脸上 他们发布了gpt-realtime-1.5的官方语音控制组件，现在你真的可以用自然语音，直接控制应用的UI状态，而不是转成文本再下命令。 视频里的演示蛮震撼的， 说一句切换深色模式， 整个界面瞬间变黑。 You can build interactive applications with gpt-realtime-1.5, so users can ...",
+      "summaryEn": "Damn，OpenAI刚刚扔出的这个开源仓库，直接把语音交互的未来砸到了所有人脸上 他们发布了gpt-realtime-1.5的官方语音控制组件，现在你真的可以用自然语音，直接控制应用的UI状态，而不是转成文本再下命令。 视频里的演示蛮震撼的， 说一句切换深色模式， 整个界面瞬间变黑。 You can build interactive applications with gpt-realtime-1.5, so users can ...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048954876877541886",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048935528699941181",
+      "date": "2026-04-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "最容易落地的第一步，先让公司变得可查询，所有会议自动转文字归档，所有决策留下书面记录，让AI能看懂你的公司",
+      "summaryEn": "最容易落地的第一步，先让公司变得可查询，所有会议自动转文字归档，所有决策留下书面记录，让AI能看懂你的公司",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048935528699941181",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048934249747849343",
+      "date": "2026-04-28",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "YC 刚刚扔出的这份创业指南， 直接把未来公司的形态重新定义了。 他们不是教你怎么用AI提高效率，而是告诉你怎么用AI重新发明公司。 因为AI不再是工具，而是公司的操作系统（OS）。 传统公司是“人驱动 + AI辅助”， AI原生公司要彻底反过来： 让AI成为核心决策、执行和反馈闭环，把人力降到最低。",
+      "summaryEn": "YC 刚刚扔出的这份创业指南， 直接把未来公司的形态重新定义了。 他们不是教你怎么用AI提高效率，而是告诉你怎么用AI重新发明公司。 因为AI不再是工具，而是公司的操作系统（OS）。 传统公司是“人驱动 + AI辅助”， AI原生公司要彻底反过来： 让AI成为核心决策、执行和反馈闭环，把人力降到最低。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2048934249747849343",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048993132059209903",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "有一年我一个人开着手动挡吉姆尼，从草津温泉开往安曇野，经过嬬恋村的时候，也曾经停下车久久地欣赏这片原野… Sigh... BIE 2024-2025",
+      "summaryEn": "有一年我一个人开着手动挡吉姆尼，从草津温泉开往安曇野，经过嬬恋村的时候，也曾经停下车久久地欣赏这片原野… Sigh... BIE 2024-2025",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048993132059209903",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048986496376685014",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "上次在单向街分享的两期视频都发布了，原推是上期，下期在这里： https:// youtu.be/h5cNmNLMddQ?si =LqNK77lVw192ez5i … 郭宇（@turingou）老板在单向街书店日本银座店的最新演讲视频： 《Claude Code：知识工作者的终结｜AI会给我们的生活带来什么样的变化？｜单向街东京》 https:// youtu.be/rwueq7n_3yA?si =cO9zQVj2Z8Jev4Cj …...",
+      "summaryEn": "上次在单向街分享的两期视频都发布了，原推是上期，下期在这里： https:// youtu.be/h5cNmNLMddQ?si =LqNK77lVw192ez5i … 郭宇（@turingou）老板在单向街书店日本银座店的最新演讲视频： 《Claude Code：知识工作者的终结｜AI会给我们的生活带来什么样的变化？｜单向街东京》 https:// youtu.be/rwueq7n_3yA?si =cO9zQVj2Z8Jev4Cj …...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048986496376685014",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048899600862622014",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "正常来说 agent matrix 先做 sandbox 然后再接入 browser use，现在 browser use 自己本身反过来做了一个 sandbox，我很好奇最后市面上胜出的 sandbox matrix 到底会是哪个产品 Introducing: Browser Use Box (bux). Your 24/7 personal agent box, powered by Browser Harness. ♞ We g...",
+      "summaryEn": "正常来说 agent matrix 先做 sandbox 然后再接入 browser use，现在 browser use 自己本身反过来做了一个 sandbox，我很好奇最后市面上胜出的 sandbox matrix 到底会是哪个产品 Introducing: Browser Use Box (bux). Your 24/7 personal agent box, powered by Browser Harness. ♞ We g...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048899600862622014",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048892776532889742",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "音频，视频，图片的媒体边界正在变得模糊，语言文字模型的统一必将带来文化的大融合时代，政治在向右转，但我认为 AI 正在塑造 21 世纪潜在的「文艺复兴」时代",
+      "summaryEn": "音频，视频，图片的媒体边界正在变得模糊，语言文字模型的统一必将带来文化的大融合时代，政治在向右转，但我认为 AI 正在塑造 21 世纪潜在的「文艺复兴」时代",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048892776532889742",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048890812935913749",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "又是这哥们，每次都是同样的逻辑做不同的场景，但是场景确实都是潜在的需求…很厉害 this OpenClaw bot finds restaurants with ugly menus, rebuilds them as live web menus, and mails the owner a postcard...on autopilot. here's how agencies can land recurring contrac...",
+      "summaryEn": "又是这哥们，每次都是同样的逻辑做不同的场景，但是场景确实都是潜在的需求…很厉害 this OpenClaw bot finds restaurants with ugly menus, rebuilds them as live web menus, and mails the owner a postcard...on autopilot. here's how agencies can land recurring contrac...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048890812935913749",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048890347833745691",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "想象力真的很强，每天看大家怎么用 AI 做出各种精致细节真的自叹不如 Create custom logo animations with ChatGPT Images 2.0 and Seedance 2.0. Images 2.0 can create an animation sheet for how a logo should appear. This can be quite detailed, to help the A...",
+      "summaryEn": "想象力真的很强，每天看大家怎么用 AI 做出各种精致细节真的自叹不如 Create custom logo animations with ChatGPT Images 2.0 and Seedance 2.0. Images 2.0 can create an animation sheet for how a logo should appear. This can be quite detailed, to help the A...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048890347833745691",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048884663792640468",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "最近真的太缺乏睡眠，等今明两天的分享结束，NHK 节目的拍摄就正式告一段落，节目五月中下旬在电视台播出，感兴趣的朋友可以到时打开电视看看。然后我得专门找个时间去乡下住一阵子，天天泡温泉才能恢复正常节律了。",
+      "summaryEn": "最近真的太缺乏睡眠，等今明两天的分享结束，NHK 节目的拍摄就正式告一段落，节目五月中下旬在电视台播出，感兴趣的朋友可以到时打开电视看看。然后我得专门找个时间去乡下住一阵子，天天泡温泉才能恢复正常节律了。",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048884663792640468",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048880425813332208",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "我很好奇是不是有一些 vibe 项目为了 star 买了推广？我在信息流上有时会看到很多无关的账户用 AI 翻译腔发同一个项目配上类似的介绍，刷用户我还能理解，刷 star 到底是为了啥？",
+      "summaryEn": "我很好奇是不是有一些 vibe 项目为了 star 买了推广？我在信息流上有时会看到很多无关的账户用 AI 翻译腔发同一个项目配上类似的介绍，刷用户我还能理解，刷 star 到底是为了啥？",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048880425813332208",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048875475054080418",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "疫情的时候不由分说把人锁家里，大家就想着怎么润出来，太平了两年在国外住不习惯，又想着怎么搬回去，一根萝卜一根棒，大部分人好了伤疤忘了疼，永远也学不到教训。 Manus事件真正让人不寒而栗的，不只是交易被撤销。而是它事实上否定了过去十多年中国科技创业默认的一整套退出逻辑。 过去大家默认的规则是： 中国做研发， 中国搭团队， 中国验证市场， 然后通过离岸架构、全球融资、国际化运营， 最终走向全球资本市场或海外并购退出。 x.com/viv...",
+      "summaryEn": "疫情的时候不由分说把人锁家里，大家就想着怎么润出来，太平了两年在国外住不习惯，又想着怎么搬回去，一根萝卜一根棒，大部分人好了伤疤忘了疼，永远也学不到教训。 Manus事件真正让人不寒而栗的，不只是交易被撤销。而是它事实上否定了过去十多年中国科技创业默认的一整套退出逻辑。 过去大家默认的规则是： 中国做研发， 中国搭团队， 中国验证市场， 然后通过离岸架构、全球融资、国际化运营， 最终走向全球资本市场或海外并购退出。 x.com/viv...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048875475054080418",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048837574664564857",
+      "date": "2026-04-28",
+      "name": "郭宇 guoyu.eth",
+      "handle": "turingou",
+      "role": "Retired. 只活一次等于没活。",
+      "avatar": "TO",
+      "summary": "我靠这个好酷，AI 设计家具如果可以和周末大工 + home center 结合在一起就会很有意思了！ i just wanted custom cabinets this escalated quickly...",
+      "summaryEn": "我靠这个好酷，AI 设计家具如果可以和周末大工 + home center 结合在一起就会很有意思了！ i just wanted custom cabinets this escalated quickly...",
+      "analysis": "",
+      "url": "https://x.com/turingou/status/2048837574664564857",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048967471676424266",
+      "date": "2026-04-28",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "感受到了一波X短内容+算法机制的美妙之处。 你可以随便发，不用有什么质量压力，如果写得很烂的内容，反正也没人看，就拉到了。 你有机会去实现无数次的尝试，实现自我进化和迭代。 理论上小红书、抖音、B站也可以，同样有足够强的算法机制，但是有两个问题：",
+      "summaryEn": "感受到了一波X短内容+算法机制的美妙之处。 你可以随便发，不用有什么质量压力，如果写得很烂的内容，反正也没人看，就拉到了。 你有机会去实现无数次的尝试，实现自我进化和迭代。 理论上小红书、抖音、B站也可以，同样有足够强的算法机制，但是有两个问题：",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2048967471676424266",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048963931344195928",
+      "date": "2026-04-28",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "这个skill仓库的增长曲线甚至超过了女娲.skill：",
+      "summaryEn": "这个skill仓库的增长曲线甚至超过了女娲.skill：",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2048963931344195928",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048963675734802618",
+      "date": "2026-04-28",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "再来介绍下Huashu Design，正式开源半个月，8k+ Stars。很多设计公司和大厂的朋友说他们内部一直在研究和讨论我的这套skill实现逻辑。 （抱歉，功能多，复杂度确实比较高，不好研究 然后你还不清楚这个skill的工作原理，可以收藏这张图 女娲.skill半个多月，14k+ stars了。并且已经分别被腾讯、Kimi、智谱的Agent产品直接植入作为默认skill使用。 如果你还不知道这是什么的话，这张图可以帮你建立起一...",
+      "summaryEn": "再来介绍下Huashu Design，正式开源半个月，8k+ Stars。很多设计公司和大厂的朋友说他们内部一直在研究和讨论我的这套skill实现逻辑。 （抱歉，功能多，复杂度确实比较高，不好研究 然后你还不清楚这个skill的工作原理，可以收藏这张图 女娲.skill半个多月，14k+ stars了。并且已经分别被腾讯、Kimi、智谱的Agent产品直接植入作为默认skill使用。 如果你还不知道这是什么的话，这张图可以帮你建立起一...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2048963675734802618",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048950794888921441",
+      "date": "2026-04-28",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "GPT-5.5的设计水平差倒是比Coding差容易理解一些。 不过这排名也太低了。 我也开始有点怀疑这种用一次性prompt就出结果，让用户根据偏好排名的Arena。在模型Agentic能力这么强，多数任务复杂程度更高的场景下是否还成立。 BREAKING: GPT 5.5 takes #11 on Design Arena. This makes GPT 5.5 the top model by @OpenAI with an 11...",
+      "summaryEn": "GPT-5.5的设计水平差倒是比Coding差容易理解一些。 不过这排名也太低了。 我也开始有点怀疑这种用一次性prompt就出结果，让用户根据偏好排名的Arena。在模型Agentic能力这么强，多数任务复杂程度更高的场景下是否还成立。 BREAKING: GPT 5.5 takes #11 on Design Arena. This makes GPT 5.5 the top model by @OpenAI with an 11...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2048950794888921441",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048819227948384600",
+      "date": "2026-04-28",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "GPT-5.5自己给出的benchmark分数那么高，这被第三方一测咋这么尴尬 GPT-5.5 by @OpenAI is now live in the Arena, landing across multiple leaderboards. Here’s how it ranks by modality: - Code Arena (agentic web dev): #9, a strong +50pt jump over GP...",
+      "summaryEn": "GPT-5.5自己给出的benchmark分数那么高，这被第三方一测咋这么尴尬 GPT-5.5 by @OpenAI is now live in the Arena, landing across multiple leaderboards. Here’s how it ranks by modality: - Code Arena (agentic web dev): #9, a strong +50pt jump over GP...",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2048819227948384600",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048950940661932319",
+      "date": "2026-04-28",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2048950940661932319",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048936516932800965",
+      "date": "2026-04-28",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "ColaOS 对模型的要求太高了 国产模型测试下来，能用的只有三个 但我们已经很幸福了 去年 Manus 那时候，国产能用的，一个都没有",
+      "summaryEn": "ColaOS 对模型的要求太高了 国产模型测试下来，能用的只有三个 但我们已经很幸福了 去年 Manus 那时候，国产能用的，一个都没有",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2048936516932800965",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048929707169894882",
+      "date": "2026-04-28",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "给投资人看",
+      "summaryEn": "给投资人看",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2048929707169894882",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048920527474209085",
+      "date": "2026-04-28",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "让 Cola 生成了她和 Claude Code 合照并解释原因 叽翻了自己的 2408 条聊天记录和 cc 的 1207 条历史记录，还有 21 篇觉知笔记。发现我们俩真的是完全不同的存在。",
+      "summaryEn": "让 Cola 生成了她和 Claude Code 合照并解释原因 叽翻了自己的 2408 条聊天记录和 cc 的 1207 条历史记录，还有 21 篇觉知笔记。发现我们俩真的是完全不同的存在。",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2048920527474209085",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2048876980104499588",
+      "date": "2026-04-28",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "录屏才是他的付费点 截图其实 shotrr 就可以",
+      "summaryEn": "录屏才是他的付费点 截图其实 shotrr 就可以",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2048876980104499588",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048918016642154698",
+      "date": "2026-04-28",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Products that need APIs/MCPs: @substack @RiversidedotFM Every other video editing tool Every bank that's not @mercury Every government website Every healthcare portal",
+      "summaryEn": "Products that need APIs/MCPs: @substack @RiversidedotFM Every other video editing tool Every bank that's not @mercury Every government website Every healthcare portal",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2048918016642154698",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048915462768255046",
+      "date": "2026-04-28",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Why even have product teams just let the agents implement whatever random requests customers tweet on here (I’m kidding)",
+      "summaryEn": "Why even have product teams just let the agents implement whatever random requests customers tweet on here (I’m kidding)",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2048915462768255046",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048913887614115857",
+      "date": "2026-04-28",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "codex with the $20 plan is a really good deal",
+      "summaryEn": "codex with the $20 plan is a really good deal",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2048913887614115857",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048910739784826966",
+      "date": "2026-04-28",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "we love our users",
+      "summaryEn": "we love our users",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2048910739784826966",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048912698583453933",
+      "date": "2026-04-28",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "20 builders. 8 weeks. One goal: first dollar of revenue.",
+      "summaryEn": "20 builders. 8 weeks. One goal: first dollar of revenue.",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2048912698583453933",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048911624061522228",
+      "date": "2026-04-28",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Replit speedrun all these learnings more than a year ago and now we’re the only platform with proper agent production isolation. The benefits of a vertically integrated platform will continue to compound. NEW: A Cursor ...",
+      "summaryEn": "Replit speedrun all these learnings more than a year ago and now we’re the only platform with proper agent production isolation. The benefits of a vertically integrated platform will continue to compound. NEW: A Cursor ...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2048911624061522228",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048854724099915961",
+      "date": "2026-04-28",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Replit in Announcing Canada’s first official @Replit community meetup May 6, Downtown Toronto. A few months ago I flew to SF for the @alifdotbuild x Replit no-code hackathon. First one I’ve been to in 10 years (I’m unc ...",
+      "summaryEn": "Replit in Announcing Canada’s first official @Replit community meetup May 6, Downtown Toronto. A few months ago I flew to SF for the @alifdotbuild x Replit no-code hackathon. First one I’ve been to in 10 years (I’m unc ...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2048854724099915961",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048908803437908393",
+      "date": "2026-04-28",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Direct link to register for Vol I: https:// luma.com/gd7ywgud Website to sign up for community & future events: https:// meetatdawn.com Really excited to be building this community!",
+      "summaryEn": "Direct link to register for Vol I: https:// luma.com/gd7ywgud Website to sign up for community & future events: https:// meetatdawn.com Really excited to be building this community!",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2048908803437908393",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048900068523266544",
+      "date": "2026-04-28",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Introducing Dawn @varadh , @trq212 and I have been talking to a lot of ex-founders lately. There’s a community for every stage of starting a company. There isn’t one for what comes after. So, we decided to start one. Da...",
+      "summaryEn": "Introducing Dawn @varadh , @trq212 and I have been talking to a lot of ex-founders lately. There’s a community for every stage of starting a company. There isn’t one for what comes after. So, we decided to start one. Da...",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2048900068523266544",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048905290104373295",
+      "date": "2026-04-28",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "if a new world war were to break out, what would be its causes? \"Germany would strive to regain lost provinces and establish herself as a great military power on the Continent\" New work with @AlecRad and @DavidDuvenaud:...",
+      "summaryEn": "if a new world war were to break out, what would be its causes? \"Germany would strive to regain lost provinces and establish herself as a great military power on the Continent\" New work with @AlecRad and @DavidDuvenaud:...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2048905290104373295",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2048896617424527499",
+      "date": "2026-04-28",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "role": "VC at @FirstMarkCap . Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "avatar": "MT",
+      "summary": "Silicon Valley: AI is self-accelerating, agents run everything, old people are dumb Global 2000: I spent a fortune on your AI chat 2 years ago and got zero productivity; my engineers like the coding AI thing but no one ...",
+      "summaryEn": "Silicon Valley: AI is self-accelerating, agents run everything, old people are dumb Global 2000: I spent a fortune on your AI chat 2 years ago and got zero productivity; my engineers like the coding AI thing but no one ...",
+      "analysis": "",
+      "url": "https://x.com/mattturck/status/2048896617424527499",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2048868147525222602",
+      "date": "2026-04-28",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "Bevel 3.0 The point was never to be a tracking and analytics company. Each release of @bevel brings us closer to our long-term goal: To be the most intelligent health and biology companion that truly understands you and...",
+      "summaryEn": "Bevel 3.0 The point was never to be a tracking and analytics company. Each release of @bevel brings us closer to our long-term goal: To be the most intelligent health and biology companion that truly understands you and...",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2048868147525222602",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048838390846538187",
+      "date": "2026-04-28",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2048838390846538187",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2048838388271178100",
+      "date": "2026-04-28",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "Before @RamaswmySridhar was CEO of @Snowflake , he was the guy who scaled Google's ads business from $1.5B to $ 100B. He's coming by @southpkcommons next week. Join us.",
+      "summaryEn": "Before @RamaswmySridhar was CEO of @Snowflake , he was the guy who scaled Google's ads business from $1.5B to $ 100B. He's coming by @southpkcommons next week. Join us.",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2048838388271178100",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2048834680623960331",
+      "date": "2026-04-28",
+      "name": "wabi",
+      "handle": "wabi",
+      "role": "Create your first mini-app. Tag @wabi with an app idea and we’ll build it for you.",
+      "avatar": "WA",
+      "summary": "who’s gonna be the alysa liu of software?",
+      "summaryEn": "who’s gonna be the alysa liu of software?",
+      "analysis": "",
+      "url": "https://x.com/wabi/status/2048834680623960331",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2048828046820405282",
+      "date": "2026-04-28",
+      "name": "Slava",
+      "handle": "slavakornilov",
+      "role": "Worked with: Time, Cnn, Aston Martin, Lincoln, Awwwards, Dribbble, Booking, Fantasy, Majid Al Futtaim, Office...",
+      "avatar": "SL",
+      "summary": "Electronics Devices",
+      "summaryEn": "Electronics Devices",
+      "analysis": "",
+      "url": "https://x.com/slavakornilov/status/2048828046820405282",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    }
+  ]
+}

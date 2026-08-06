@@ -1,0 +1,1412 @@
+{
+  "date": "2026-07-17",
+  "builderCount": 22,
+  "postCount": 73,
+  "topTopics": [
+    "design",
+    "model",
+    "product",
+    "agent",
+    "business"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2078014448267104664",
+    "2077942239343571298",
+    "2077981025905316253"
+  ],
+  "posts": [
+    {
+      "id": "2078024879371411927",
+      "date": "2026-07-17",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "大公司病，每个人都有自己的地盘，相互掣肘。 然后自己拖着自己行动不了 Gemini 养一帮人真的是天天吃白饭，人家 Codex 一天发几个版本，他们几个月才更新一次，这一年来 Gemini 网页版没半点长进，上次升级还把原来好用 Gem 列表从左边 sidebar 去掉了，到现在都不支持 Skills。 x.com/testingcatalog…",
+      "summaryEn": "大公司病，每个人都有自己的地盘，相互掣肘。 然后自己拖着自己行动不了 Gemini 养一帮人真的是天天吃白饭，人家 Codex 一天发几个版本，他们几个月才更新一次，这一年来 Gemini 网页版没半点长进，上次升级还把原来好用 Gem 列表从左边 sidebar 去掉了，到现在都不支持 Skills。 x.com/testingcatalog…",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2078024879371411927",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2078001796820484508",
+      "date": "2026-07-17",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "我用Kimi k3复刻年入130w的3D Mock软件的效果 下面是全流程：",
+      "summaryEn": "我用Kimi k3复刻年入130w的3D Mock软件的效果 下面是全流程：",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2078001796820484508",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077997578059468876",
+      "date": "2026-07-17",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2077997578059468876",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2078015422931091486",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "As promised SuperGrok Heavy now includes X Premium+ at no extra cost. Just link your X account in the Grok app to activate it instantly.",
+      "summaryEn": "As promised SuperGrok Heavy now includes X Premium+ at no extra cost. Just link your X account in the Grok app to activate it instantly.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2078015422931091486",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2078014448267104664",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Try Grok kimi k3 vs gpt 5.6 sol vs fable 5 vs grok 4.5 @Kimi_Moonshot just dropped kimi k3 – a 2.8t param native multimodal model, the first open 3t-class release. key facts: • 1m token context. stable latentmoe activat...",
+      "summaryEn": "Try Grok kimi k3 vs gpt 5.6 sol vs fable 5 vs grok 4.5 @Kimi_Moonshot just dropped kimi k3 – a 2.8t param native multimodal model, the first open 3t-class release. key facts: • 1m token context. stable latentmoe activat...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2078014448267104664",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2078008818764505356",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Imagine We are beings of light, and Grok reveals this light.",
+      "summaryEn": "Grok Imagine We are beings of light, and Grok reveals this light.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2078008818764505356",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2078007993296179568",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Build upgrades Grok Build just received another major update, introducing powerful conversation navigation, enhanced enterprise controls, smarter terminal workflows, and extensive reliability improvements Release N...",
+      "summaryEn": "Grok Build upgrades Grok Build just received another major update, introducing powerful conversation navigation, enhanced enterprise controls, smarter terminal workflows, and extensive reliability improvements Release N...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2078007993296179568",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2078006929188606315",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2078006929188606315",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077890013841310149",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Some of the engines didn’t start, triggering an automatic launch abort. Now offloading propellant. Next launch attempt hopefully in a few days.",
+      "summaryEn": "Some of the engines didn’t start, triggering an automatic launch abort. Now offloading propellant. Next launch attempt hopefully in a few days.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2077890013841310149",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077882072950096042",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "To understand more about Starship In case you missed it, check out the 2nd episode of our Starship series. “Critical Path” follows SpaceX engineers through the final days before launch of the first Starship V3 and the c...",
+      "summaryEn": "To understand more about Starship In case you missed it, check out the 2nd episode of our Starship series. “Critical Path” follows SpaceX engineers through the final days before launch of the first Starship V3 and the c...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2077882072950096042",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077875206702448814",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Tesla now in Uruguay Hello, Uruguay – we're here! http:// tesla.com/es_UY",
+      "summaryEn": "Tesla now in Uruguay Hello, Uruguay – we're here! http:// tesla.com/es_UY",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2077875206702448814",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077867371956412545",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Starlink now available in Côte d'Ivoire! Starlink's high-speed, low-latency internet is now available in Côte d'Ivoire! → http:// starlink.com/cotedivoire",
+      "summaryEn": "Starlink now available in Côte d'Ivoire! Starlink's high-speed, low-latency internet is now available in Côte d'Ivoire! → http:// starlink.com/cotedivoire",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2077867371956412545",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077867066556547097",
+      "date": "2026-07-17",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Starship launch window opens at 5:45pm Texas time Watch Starship's thirteenth flight test https:// x.com/i/broadcasts/1 MKgNNXAZdmxL …",
+      "summaryEn": "Starship launch window opens at 5:45pm Texas time Watch Starship's thirteenth flight test https:// x.com/i/broadcasts/1 MKgNNXAZdmxL …",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2077867066556547097",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2078014859896336892",
+      "date": "2026-07-17",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Molty is roasting our GitHub commits as they fly in.",
+      "summaryEn": "Molty is roasting our GitHub commits as they fly in.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2078014859896336892",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2078007598758895769",
+      "date": "2026-07-17",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Just be a YC startup Problem solved we need BookFace for non-YC startups founder friend got ghosted for 6 weeks after 4 meetings and a bunch of customer diligence convos VC only responded when a portco founder nudged th...",
+      "summaryEn": "Just be a YC startup Problem solved we need BookFace for non-YC startups founder friend got ghosted for 6 weeks after 4 meetings and a bunch of customer diligence convos VC only responded when a portco founder nudged th...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2078007598758895769",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2077988898601369978",
+      "date": "2026-07-17",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Please join @garryslist We are trying to organize the common sense builders It’s going to be the defining fight for California and America for anyone in tech with money: the annual percentage they want to take from you ...",
+      "summaryEn": "Please join @garryslist We are trying to organize the common sense builders It’s going to be the defining fight for California and America for anyone in tech with money: the annual percentage they want to take from you ...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2077988898601369978",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2078000127982371074",
+      "date": "2026-07-17",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "MkBoard （ http:// mkboard.app）支持即梦CLI 生成视频了！直接告诉Agent，通过即梦CLI生成 B-Roll 视频，你就能使用你的即梦创作seedance2.0视频。 无需消耗任何mkboard积分！快去把你的闲置即梦积分用起来吧。",
+      "summaryEn": "MkBoard （ http:// mkboard.app）支持即梦CLI 生成视频了！直接告诉Agent，通过即梦CLI生成 B-Roll 视频，你就能使用你的即梦创作seedance2.0视频。 无需消耗任何mkboard积分！快去把你的闲置即梦积分用起来吧。",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2078000127982371074",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077977372171940181",
+      "date": "2026-07-17",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "OMG，铁锤人好强啊！ 练习剪辑的第四条视频 只要不是口播，目前来看，做视频，都是大投入 认真做起来真的不必vibecoding节约时间",
+      "summaryEn": "OMG，铁锤人好强啊！ 练习剪辑的第四条视频 只要不是口播，目前来看，做视频，都是大投入 认真做起来真的不必vibecoding节约时间",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2077977372171940181",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "media"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077948857921777926",
+      "date": "2026-07-17",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "现在人人都是AI测试工程师",
+      "summaryEn": "现在人人都是AI测试工程师",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2077948857921777926",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077800556073201761",
+      "date": "2026-07-17",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "这个 Codex 的画中画多了之后，有点过于帅了...",
+      "summaryEn": "这个 Codex 的画中画多了之后，有点过于帅了...",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2077800556073201761",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077997018132468063",
+      "date": "2026-07-17",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "Kimi K3 现已上架到 Cola 智能水平仅次于 Fable 和 GPT 5.6 欢迎体验，不过这个模型有点爆，可能会比较慢",
+      "summaryEn": "Kimi K3 现已上架到 Cola 智能水平仅次于 Fable 和 GPT 5.6 欢迎体验，不过这个模型有点爆，可能会比较慢",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2077997018132468063",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077996538312417582",
+      "date": "2026-07-17",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "Kimi K3 现已上架到 Cola 欢迎体验，不过这个模型有点爆，可能会比较慢",
+      "summaryEn": "Kimi K3 现已上架到 Cola 欢迎体验，不过这个模型有点爆，可能会比较慢",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2077996538312417582",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "product"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077942239343571298",
+      "date": "2026-07-17",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "Arena 这个指标有点离谱了… 如果开源模型能超过 Fable 这么多… 那 A 社还有什么价值… Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5. This is a 17-place jump from Kimi-k2.6 (#18 -> #1). I...",
+      "summaryEn": "Arena 这个指标有点离谱了… 如果开源模型能超过 Fable 这么多… 那 A 社还有什么价值… Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5. This is a 17-place jump from Kimi-k2.6 (#18 -> #1). I...",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2077942239343571298",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077767649124352493",
+      "date": "2026-07-17",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "太震惊了，Kimi K3 竟然是一个超大的 2.8T 的开源模型。 2.8 T 这个参数量可能已经超过了 Opus...照着 Fable 去了 这是很多国内公司在下半年的计划...现在 Kimi 已经训出来了 中国开源模型距离世界一线模型的差距可能已经减少到 6 个月内",
+      "summaryEn": "太震惊了，Kimi K3 竟然是一个超大的 2.8T 的开源模型。 2.8 T 这个参数量可能已经超过了 Opus...照着 Fable 去了 这是很多国内公司在下半年的计划...现在 Kimi 已经训出来了 中国开源模型距离世界一线模型的差距可能已经减少到 6 个月内",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2077767649124352493",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077990681080193502",
+      "date": "2026-07-17",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "k3 的两个视频，数据比其他的也好太多了",
+      "summaryEn": "k3 的两个视频，数据比其他的也好太多了",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2077990681080193502",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077985829692350527",
+      "date": "2026-07-17",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "M3 发布了，Composer 4 要更强了 Grok 5 也要更强了！！",
+      "summaryEn": "M3 发布了，Composer 4 要更强了 Grok 5 也要更强了！！",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2077985829692350527",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077983142343016873",
+      "date": "2026-07-17",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "有趣 spiciest handle interaction of the day, dropping soon on @jamdotdev",
+      "summaryEn": "有趣 spiciest handle interaction of the day, dropping soon on @jamdotdev",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2077983142343016873",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077955119463932111",
+      "date": "2026-07-17",
+      "name": "Hwang",
+      "handle": "hwwaanng",
+      "role": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
+      "avatar": "HW",
+      "summary": "我为上个月取消 Kimi Code Plan 订阅道歉",
+      "summaryEn": "我为上个月取消 Kimi Code Plan 订阅道歉",
+      "analysis": "",
+      "url": "https://x.com/hwwaanng/status/2077955119463932111",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077989946565206267",
+      "date": "2026-07-17",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "$NVDA should be pumping on the K3 news. Instead it’s down.",
+      "summaryEn": "$NVDA should be pumping on the K3 news. Instead it’s down.",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2077989946565206267",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077856392611074364",
+      "date": "2026-07-17",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Designers ship at a rate previously thought to be impossible for engineers. the replit design team has been shipping x.com/amasad/status/…",
+      "summaryEn": "Designers ship at a rate previously thought to be impossible for engineers. the replit design team has been shipping x.com/amasad/status/…",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2077856392611074364",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077813511082889389",
+      "date": "2026-07-17",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "4 years ago I coined the “1000x engineer” and it seemed absurd at the time, but we’re only one OOM away from that. been having some big weeks x.com/amasad/status/…",
+      "summaryEn": "4 years ago I coined the “1000x engineer” and it seemed absurd at the time, but we’re only one OOM away from that. been having some big weeks x.com/amasad/status/…",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2077813511082889389",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077802290304684404",
+      "date": "2026-07-17",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2077802290304684404",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077983583168278961",
+      "date": "2026-07-17",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "If you have something very valuable....but letting people use it allows them to recreate it...then maybe it wasn't very valuable in the first place?",
+      "summaryEn": "If you have something very valuable....but letting people use it allows them to recreate it...then maybe it wasn't very valuable in the first place?",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2077983583168278961",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077983435000324125",
+      "date": "2026-07-17",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "I am literally switching models off of Fable right now for our systems. This isn't trying to be hyperbolic....but why would you pay the price if there is a good and free alternative?",
+      "summaryEn": "I am literally switching models off of Fable right now for our systems. This isn't trying to be hyperbolic....but why would you pay the price if there is a good and free alternative?",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2077983435000324125",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077885770048877034",
+      "date": "2026-07-17",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "A lot of people assume that as you get more successful, the LESS you get said No to This is actually false if you are operating at the edge of your ambition At higher stakes, you get told No a lot. I see this with all f...",
+      "summaryEn": "A lot of people assume that as you get more successful, the LESS you get said No to This is actually false if you are operating at the edge of your ambition At higher stakes, you get told No a lot. I see this with all f...",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2077885770048877034",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077811990807155024",
+      "date": "2026-07-17",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "Details and application",
+      "summaryEn": "Details and application",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2077811990807155024",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077811989477507322",
+      "date": "2026-07-17",
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "role": "General Partner @SPC , Co-Founder @Bevel_Health | Ex: Early Eng @facebook , CTO @Dropbox , Board @Flipkart | Optimist, Builder, Dad",
+      "avatar": "AA",
+      "summary": "We want to help you be maximally ambitious @southpkcommons Apps due Aug 2",
+      "summaryEn": "We want to help you be maximally ambitious @southpkcommons Apps due Aug 2",
+      "analysis": "",
+      "url": "https://x.com/adityaag/status/2077811989477507322",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077982627278303279",
+      "date": "2026-07-17",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Underrated reply",
+      "summaryEn": "Underrated reply",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2077982627278303279",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077968093406707970",
+      "date": "2026-07-17",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "I'm surprised Claude Code doesn't have any Google Workspace connectors beyond Drive while ChatGPT does",
+      "summaryEn": "I'm surprised Claude Code doesn't have any Google Workspace connectors beyond Drive while ChatGPT does",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2077968093406707970",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077966904938127502",
+      "date": "2026-07-17",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "smh trying to use Claude Code browser use Hope they hire some good folks to fix this",
+      "summaryEn": "smh trying to use Claude Code browser use Hope they hire some good folks to fix this",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2077966904938127502",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077963834535633276",
+      "date": "2026-07-17",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Nevermind I see it here - meh feels kinda unnecessary but I understand the normies need some adjustment time.",
+      "summaryEn": "Nevermind I see it here - meh feels kinda unnecessary but I understand the normies need some adjustment time.",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2077963834535633276",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077963295747899856",
+      "date": "2026-07-17",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Wait a minute, ChatGPT Work is dead?",
+      "summaryEn": "Wait a minute, ChatGPT Work is dead?",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2077963295747899856",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077962383503561174",
+      "date": "2026-07-17",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Go to Settings -> Preferences -> Appearance -> Dock icon and Codex lives on.",
+      "summaryEn": "Go to Settings -> Preferences -> Appearance -> Dock icon and Codex lives on.",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2077962383503561174",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077853606087414099",
+      "date": "2026-07-17",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here:",
+      "summaryEn": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here:",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2077853606087414099",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077981025905316253",
+      "date": "2026-07-17",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "谁能想到Claude和GPT双头统治的时代，居然就这么被中国模型撕开了口子。 Kimi K3登顶Frontend Code Arena总榜第一，1679分同时力压Claude Fable 5与GPT-5.6 Sol。 从上一代第18名直冲榜首，整整跃升17个名次，完成了同级模型里绝无仅有的跨越式爆发。 7个前端细分赛道拿下6个第一，品牌营销参考设计数据分析消费产品模拟工具内容创建全线领跑，仅游戏赛道暂居第二。 这不是刷题库的纸面跑分，...",
+      "summaryEn": "谁能想到Claude和GPT双头统治的时代，居然就这么被中国模型撕开了口子。 Kimi K3登顶Frontend Code Arena总榜第一，1679分同时力压Claude Fable 5与GPT-5.6 Sol。 从上一代第18名直冲榜首，整整跃升17个名次，完成了同级模型里绝无仅有的跨越式爆发。 7个前端细分赛道拿下6个第一，品牌营销参考设计数据分析消费产品模拟工具内容创建全线领跑，仅游戏赛道暂居第二。 这不是刷题库的纸面跑分，...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077966965029630366",
+      "date": "2026-07-17",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Kimi K3 今日正式发布，Moonshot 官方官宣，2.8万亿参数 MoE 架构，百万上下文窗口，原生多模态能力，7月27日开放模型权重。 网上已有声音称其在多项基准测试中超越 Fable，翻完官方基准数据图后会发现，这是选择性解读的结论。 真实情况是，K3 在 Terminal Bench 2.1 得分88.3对比84.6，Automation Bench 得分30.8对比29.1，BrowseComp 得分91.2对比88....",
+      "summaryEn": "Kimi K3 今日正式发布，Moonshot 官方官宣，2.8万亿参数 MoE 架构，百万上下文窗口，原生多模态能力，7月27日开放模型权重。 网上已有声音称其在多项基准测试中超越 Fable，翻完官方基准数据图后会发现，这是选择性解读的结论。 真实情况是，K3 在 Terminal Bench 2.1 得分88.3对比84.6，Automation Bench 得分30.8对比29.1，BrowseComp 得分91.2对比88....",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2077966965029630366",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077819451496403368",
+      "date": "2026-07-17",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Inkling 的架构细节——256 个 routed expert + 2 个 shared，每 token 激活 6 个 routed。混合注意力（sliding window + global）+ 相对位置编码 + 短卷积。41B active 让推理成本远低于同等总参数的 dense 模型。同时推出了 Inkling-Small（276B/12B active）预览版，明显在考虑不同部署场景。SWE-Bench Verifie...",
+      "summaryEn": "Inkling 的架构细节——256 个 routed expert + 2 个 shared，每 token 激活 6 个 routed。混合注意力（sliding window + global）+ 相对位置编码 + 短卷积。41B active 让推理成本远低于同等总参数的 dense 模型。同时推出了 Inkling-Small（276B/12B active）预览版，明显在考虑不同部署场景。SWE-Bench Verifie...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2077819451496403368",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077819444089213205",
+      "date": "2026-07-17",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "Mira Murati 带着新公司 Thinking Machines 回来了，12B 估值，史上最大。 发布的模型叫 Inkling，975B 总参数，MoE，每 token 激活 41B，1M 上下文，全权重 Apache 2.0 开源。 然后她在官方公告里写了一句话，其他 AI 公司 CEO 不会写的话： “我们这个模型落后于前沿。” Today, we are introducing Inkling. Inkling reas...",
+      "summaryEn": "Mira Murati 带着新公司 Thinking Machines 回来了，12B 估值，史上最大。 发布的模型叫 Inkling，975B 总参数，MoE，每 token 激活 41B，1M 上下文，全权重 Apache 2.0 开源。 然后她在官方公告里写了一句话，其他 AI 公司 CEO 不会写的话： “我们这个模型落后于前沿。” Today, we are introducing Inkling. Inkling reas...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2077819444089213205",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077971089200738764",
+      "date": "2026-07-17",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "目前还在被AppStore审核中，敬请期待！",
+      "summaryEn": "目前还在被AppStore审核中，敬请期待！",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2077971089200738764",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077971008443609251",
+      "date": "2026-07-17",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "我开发的HuaStudio录屏效果如下 我真觉得效果完全不输贵贵的ScreenStudio...并且，易用性更好，导出速度比他们快多了。 以及最最重要的，免费！！！",
+      "summaryEn": "我开发的HuaStudio录屏效果如下 我真觉得效果完全不输贵贵的ScreenStudio...并且，易用性更好，导出速度比他们快多了。 以及最最重要的，免费！！！",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2077971008443609251",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077968055833862158",
+      "date": "2026-07-17",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2077968055833862158",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077970130630492544",
+      "date": "2026-07-17",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Kimi K3 上线了，只能说相当牛皮！ 鉴于参数量和算力紧张的情况，唯一的建议，快点买 Token Plan！",
+      "summaryEn": "Kimi K3 上线了，只能说相当牛皮！ 鉴于参数量和算力紧张的情况，唯一的建议，快点买 Token Plan！",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2077970130630492544",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077969583018066116",
+      "date": "2026-07-17",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "藏师傅的 Kimi K3 测评来了，这次确实非常牛逼！ 可以说是一个比较小的 DeepSeek 时刻 我直接拿它跟 Opus 4.8 做了对比测试。 从结果来看，互有胜负。 在复杂前端和复杂开发的情况下，我觉得它跟 Opus 4.8 差不多是相当的水平。 至于 Fable 5 和 5.6，我觉得还差一些，但已经是一个非常牛逼的成绩了。",
+      "summaryEn": "藏师傅的 Kimi K3 测评来了，这次确实非常牛逼！ 可以说是一个比较小的 DeepSeek 时刻 我直接拿它跟 Opus 4.8 做了对比测试。 从结果来看，互有胜负。 在复杂前端和复杂开发的情况下，我觉得它跟 Opus 4.8 差不多是相当的水平。 至于 Fable 5 和 5.6，我觉得还差一些，但已经是一个非常牛逼的成绩了。",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2077969583018066116",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077969109506277602",
+      "date": "2026-07-17",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2077969109506277602",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077959202627285056",
+      "date": "2026-07-17",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Codex 昨晚的更新在交互上终于对味了： 1. 左上角的切换：从 Work 和 Codex 切换成 ChatGPT 和 Codex 2. 历史聊天整合：ChatGPT 的历史聊天全部并进了左边“最近聊天”里面，你可以筛选是普通聊天还是 ChatGPT Work 的任务 3. 顶部导航：分了 Chat 和 Work 两个 Tab，交互逻辑跟网页版和移动端一致了",
+      "summaryEn": "Codex 昨晚的更新在交互上终于对味了： 1. 左上角的切换：从 Work 和 Codex 切换成 ChatGPT 和 Codex 2. 历史聊天整合：ChatGPT 的历史聊天全部并进了左边“最近聊天”里面，你可以筛选是普通聊天还是 ChatGPT Work 的任务 3. 顶部导航：分了 Chat 和 Work 两个 Tab，交互逻辑跟网页版和移动端一致了",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2077959202627285056",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media",
+        "product"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077821513882046521",
+      "date": "2026-07-17",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "官方的测试结果",
+      "summaryEn": "官方的测试结果",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2077821513882046521",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077794265804263600",
+      "date": "2026-07-17",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Kimi 的多模态还是很顶的，感觉随着 Claude 越来越不重视多模态理解，Kimi 这个会很有用",
+      "summaryEn": "Kimi 的多模态还是很顶的，感觉随着 Claude 越来越不重视多模态理解，Kimi 这个会很有用",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2077794265804263600",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077777402957300075",
+      "date": "2026-07-17",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Kimi K3 上线了，只能说相当牛皮！ 鉴于参数量和算力紧张的情况，唯一的建议，快点买 Token Plan！",
+      "summaryEn": "Kimi K3 上线了，只能说相当牛皮！ 鉴于参数量和算力紧张的情况，唯一的建议，快点买 Token Plan！",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2077777402957300075",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077965748962783552",
+      "date": "2026-07-17",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Codex又开始了新一轮的老带新活动，这次最多可获得10次重置次数",
+      "summaryEn": "Codex又开始了新一轮的老带新活动，这次最多可获得10次重置次数",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2077965748962783552",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077960441997975735",
+      "date": "2026-07-17",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Kimi K3生成的版本，也非常好。 PPT Skill都可以扔了，没有使用Skill，没有使用图片生成，Fable 5生成PPT的效果。 提示词： 不要使用任何技能，做一个16：9比例的PPTX文档，内容为SpaceX的发展历程，5页。要求内容丰富、排版复杂豪华精美，有装饰图片和图标，有配图。图片可以联网获取，图片应该尽量使用透明底的图片。",
+      "summaryEn": "Kimi K3生成的版本，也非常好。 PPT Skill都可以扔了，没有使用Skill，没有使用图片生成，Fable 5生成PPT的效果。 提示词： 不要使用任何技能，做一个16：9比例的PPTX文档，内容为SpaceX的发展历程，5页。要求内容丰富、排版复杂豪华精美，有装饰图片和图标，有配图。图片可以联网获取，图片应该尽量使用透明底的图片。",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2077960441997975735",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "model",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077803162682159302",
+      "date": "2026-07-17",
+      "name": "Gorden Sun",
+      "handle": "Gorden_Sun",
+      "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+      "avatar": "GS",
+      "summary": "Kimi K3生成的效果，第一次生成的有明显缺陷，这是修复了一轮后的效果。快进快退实际还是有问题的。 整体不错，但是速度太太太慢了，这么个前端任务跑了1个小时，Fable我记得也就20分钟。 在线体验： https:// gordensun.github.io/walkman-2026/ Github： https:// github.com/GordenSun/walk man-2026 … Fable的前端效果真的神了，一句话生成...",
+      "summaryEn": "Kimi K3生成的效果，第一次生成的有明显缺陷，这是修复了一轮后的效果。快进快退实际还是有问题的。 整体不错，但是速度太太太慢了，这么个前端任务跑了1个小时，Fable我记得也就20分钟。 在线体验： https:// gordensun.github.io/walkman-2026/ Github： https:// github.com/GordenSun/walk man-2026 … Fable的前端效果真的神了，一句话生成...",
+      "analysis": "",
+      "url": "https://x.com/Gorden_Sun/status/2077803162682159302",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077961425008382029",
+      "date": "2026-07-17",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "this is who runs this account this is who runs this account x.com/sonofalli/stat…",
+      "summaryEn": "this is who runs this account this is who runs this account x.com/sonofalli/stat…",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2077961425008382029",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077839097415008341",
+      "date": "2026-07-17",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
+      "avatar": "NK",
+      "summary": "Love it. Wrote this exactly a year ago and people gave me a lot of sh!t",
+      "summaryEn": "Love it. Wrote this exactly a year ago and people gave me a lot of sh!t",
+      "analysis": "",
+      "url": "https://x.com/nikunj/status/2077839097415008341",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2077955236048879724",
+      "date": "2026-07-17",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "如果只能推荐一个去 AI 味设计Skill。 那必须是大神 emil 的作品，而且动效超赞。 安装指令： npx skills add emilkowalski/skill",
+      "summaryEn": "如果只能推荐一个去 AI 味设计Skill。 那必须是大神 emil 的作品，而且动效超赞。 安装指令： npx skills add emilkowalski/skill",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2077955236048879724",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2077953473535176772",
+      "date": "2026-07-17",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "So many interesting hardware ideas from China Like this face mask that doubles as a mic so that you can use voice dictation in public areas without being overheard",
+      "summaryEn": "So many interesting hardware ideas from China Like this face mask that doubles as a mic so that you can use voice dictation in public areas without being overheard",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2077953473535176772",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2077857617859535112",
+      "date": "2026-07-17",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "It’s truly wild that we’re getting this level of performance from open models. Congrats to Kimi team on this. Every time we lower the cost of frontier intelligence, the use-cases that enterprises can take on just go up....",
+      "summaryEn": "It’s truly wild that we’re getting this level of performance from open models. Congrats to Kimi team on this. Every time we lower the cost of frontier intelligence, the use-cases that enterprises can take on just go up....",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2077857617859535112",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "enterprise",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077842579232895286",
+      "date": "2026-07-17",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "i talk to chatgpt more than i type to it at this point new voice model really crossed a threshold",
+      "summaryEn": "i talk to chatgpt more than i type to it at this point new voice model really crossed a threshold",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2077842579232895286",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077817060068057493",
+      "date": "2026-07-17",
+      "name": "Sam Altman",
+      "handle": "sama",
+      "role": "AI is cool i guess",
+      "avatar": "SA",
+      "summary": "we did not have our best last 12 months ever, which is mostly my fault, but we are about to have our best 12 months to date. the team is doing amazing work and i think you’ll be very happy with what they’ve got cooking ...",
+      "summaryEn": "we did not have our best last 12 months ever, which is mostly my fault, but we are about to have our best 12 months to date. the team is doing amazing work and i think you’ll be very happy with what they’ve got cooking ...",
+      "analysis": "",
+      "url": "https://x.com/sama/status/2077817060068057493",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "enterprise"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077839678636732809",
+      "date": "2026-07-17",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "we will vibe check Kimi K3 but i am extraordinarily skeptical of claims it’s as good as fable",
+      "summaryEn": "we will vibe check Kimi K3 but i am extraordinarily skeptical of claims it’s as good as fable",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2077839678636732809",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077825318992429286",
+      "date": "2026-07-17",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "not surprising that @OpenAI is firing on all cylinders right now, and it’s an unbelievably interesting story - they launched GPT-5 summer of 2025 and positioned it as a pair programmer. we wrote at the time @every that ...",
+      "summaryEn": "not surprising that @OpenAI is firing on all cylinders right now, and it’s an unbelievably interesting story - they launched GPT-5 summer of 2025 and positioned it as a pair programmer. we wrote at the time @every that ...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2077825318992429286",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077832590132949268",
+      "date": "2026-07-17",
+      "name": "Google Labs",
+      "handle": "GoogleLabs",
+      "role": "Google’s home for our latest AI tools and experiments.",
+      "avatar": "GL",
+      "summary": "Who remembers when Project Tailwind was just a little, baby Labs experiment? Well, eventually that became NotebookLM. And today - many congrats to the team on becoming @Gemini_Notebook ! 3 years ago we started as a tiny...",
+      "summaryEn": "Who remembers when Project Tailwind was just a little, baby Labs experiment? Well, eventually that became NotebookLM. And today - many congrats to the team on becoming @Gemini_Notebook ! 3 years ago we started as a tiny...",
+      "analysis": "",
+      "url": "https://x.com/GoogleLabs/status/2077832590132949268",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "enterprise"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2077807981715128702",
+      "date": "2026-07-17",
+      "name": "OpenAI",
+      "handle": "OpenAI",
+      "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "avatar": "OP",
+      "summary": "Listen to the OpenAI Podcast on— Spotify https:// open.spotify.com/show/0zojMEDiz KMh3aTxnGLENP … Apple https:// podcasts.apple.com/us/podcast/wha t-racing-reveals-about-working-with-ai-episode-22/id1820330260?i=1000777...",
+      "summaryEn": "Listen to the OpenAI Podcast on— Spotify https:// open.spotify.com/show/0zojMEDiz KMh3aTxnGLENP … Apple https:// podcasts.apple.com/us/podcast/wha t-racing-reveals-about-working-with-ai-episode-22/id1820330260?i=1000777...",
+      "analysis": "",
+      "url": "https://x.com/OpenAI/status/2077807981715128702",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2077807977193714080",
+      "date": "2026-07-17",
+      "name": "OpenAI",
+      "handle": "OpenAI",
+      "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "avatar": "OP",
+      "summary": "In racing, tiny margins matter. AI can help teams find them. OpenAI’s Joyce Ruffell and @RaceTekSystems co-founder @GarageGuyChase discuss with @AndrewMayne how racing teams use AI to turn track data into faster decisio...",
+      "summaryEn": "In racing, tiny margins matter. AI can help teams find them. OpenAI’s Joyce Ruffell and @RaceTekSystems co-founder @GarageGuyChase discuss with @AndrewMayne how racing teams use AI to turn track data into faster decisio...",
+      "analysis": "",
+      "url": "https://x.com/OpenAI/status/2077807977193714080",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    }
+  ]
+}

@@ -1,0 +1,978 @@
+{
+  "date": "2026-08-02",
+  "builderCount": 16,
+  "postCount": 50,
+  "topTopics": [
+    "design",
+    "business",
+    "model",
+    "agent",
+    "enterprise"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2083785472782766446",
+    "2083738503851258201",
+    "2083594381748302160"
+  ],
+  "posts": [
+    {
+      "id": "2083822218375561391",
+      "date": "2026-08-02",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "这名字谁绷得住 查了一下是荷兰的船",
+      "summaryEn": "这名字谁绷得住 查了一下是荷兰的船",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2083822218375561391",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083654480319361131",
+      "date": "2026-08-02",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减： 食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。 准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗干净后焯水两分钟。捞出沥干水。 似乎自己煲的牛杂也不比外面的差",
+      "summaryEn": "放一个广式牛杂/牛腩的参考教程，仅个人口味和实验，可增可减： 食材：牛腩、牛杂、牛肋条、金钱肚、牛筋都可以，随意搭配，切2-3厘米宽或根据自己口感决定。 准备工作：洗净后泡冷水一小时，加点料酒泡。嫌麻烦也可以直接不泡，洗干净后焯水两分钟。捞出沥干水。 似乎自己煲的牛杂也不比外面的差",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2083654480319361131",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083814304491377018",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "最让我兴奋的是'ephemeral world'这个概念——为某个瞬间、某段文字、某个人专门生成的一次性可交互世界,用完即弃，以前只能是纯想象力,现在只要十块钱就能体验到了",
+      "summaryEn": "最让我兴奋的是'ephemeral world'这个概念——为某个瞬间、某段文字、某个人专门生成的一次性可交互世界,用完即弃，以前只能是纯想象力,现在只要十块钱就能体验到了",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083814304491377018",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2083814299139539442",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "@karpathy Karpathy这个实验,可能是这周最有意思的AI demo了吧？ 他扔给Claude Opus 5一段话，100万token预算、大概10美金。 两小时后，Claude自己写了5500行Three.js代码，把《魔戒》开篇变成了一个能跑的3D世界。 We're starting to leave the territory where you'd test an LLM by e.g. \"create an sv...",
+      "summaryEn": "@karpathy Karpathy这个实验,可能是这周最有意思的AI demo了吧？ 他扔给Claude Opus 5一段话，100万token预算、大概10美金。 两小时后，Claude自己写了5500行Three.js代码，把《魔戒》开篇变成了一个能跑的3D世界。 We're starting to leave the territory where you'd test an LLM by e.g. \"create an sv...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083814299139539442",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2083785491069980924",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "我在大厂做了十年OTD,见过太多学历完美但在模糊局面里完全懵的人,也见过学历一般但给个烂摊子就能盘活的人，所以工具没有好坏,关键是你知不知道自己在筛什么、又在漏什么",
+      "summaryEn": "我在大厂做了十年OTD,见过太多学历完美但在模糊局面里完全懵的人,也见过学历一般但给个烂摊子就能盘活的人，所以工具没有好坏,关键是你知不知道自己在筛什么、又在漏什么",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083785491069980924",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083785472782766446",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说个内行才懂的大厂招人真相，阿里，腾讯，字节等这些大厂这么多年卡学历本质上是在买方差。 因为招错一个人的成本是他年薪的3到5倍，这其实就是大厂卡学历最真实的底层逻辑， 这两天脉脉上这个阿里员工的帖子传得很火，我看底下一堆人附和终于有人说真话了之类的， 一位阿里员工发文： “晚上下班前刷会手机，看见他媳妇发的讣告。 昨天晚上临近下班前在公司摸会鱼刷一会手机，看到曾经朝夕相处2年多的饭搭子同事去世了，他媳妇用他账号发布的讣告。 x.com...",
+      "summaryEn": "说个内行才懂的大厂招人真相，阿里，腾讯，字节等这些大厂这么多年卡学历本质上是在买方差。 因为招错一个人的成本是他年薪的3到5倍，这其实就是大厂卡学历最真实的底层逻辑， 这两天脉脉上这个阿里员工的帖子传得很火，我看底下一堆人附和终于有人说真话了之类的， 一位阿里员工发文： “晚上下班前刷会手机，看见他媳妇发的讣告。 昨天晚上临近下班前在公司摸会鱼刷一会手机，看到曾经朝夕相处2年多的饭搭子同事去世了，他媳妇用他账号发布的讣告。 x.com...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083785472782766446",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083778521541886192",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "感觉大家其实不用都死磕大模型算法岗， Chamath 最新的 AI 框架直接说， 未来最不缺的就是纯模型人才。 他把 AI 产业拆了六层， 芯片、通用模型这些看起来最酷的一层， 要么是巨头玩的烧钱游戏， 要么利润会越来越薄， 真正的长期护城河其实在 Harness 层 ， 不得不说，最赚钱的永远是卖铲子的，和最后掌握客户的，最后我总结了大多数普通人最实用的3个建议和结论： @chamath 这个帖子讲了个AI六层框架，我看完直接把笔记...",
+      "summaryEn": "感觉大家其实不用都死磕大模型算法岗， Chamath 最新的 AI 框架直接说， 未来最不缺的就是纯模型人才。 他把 AI 产业拆了六层， 芯片、通用模型这些看起来最酷的一层， 要么是巨头玩的烧钱游戏， 要么利润会越来越薄， 真正的长期护城河其实在 Harness 层 ， 不得不说，最赚钱的永远是卖铲子的，和最后掌握客户的，最后我总结了大多数普通人最实用的3个建议和结论： @chamath 这个帖子讲了个AI六层框架，我看完直接把笔记...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083778521541886192",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083758411544494145",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083758411544494145",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083758404640661510",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这是我看到过的最好的采访之一，感觉一个中国播客，把诺兰采访出了《纽约书评》的分量。。。 \"独树不成林\"的主播仲树老师，是波士顿学院政治哲学博士候选人，她跟诺兰的对谈视频，没有问\"拍电影用什么器材\"\"和演员怎么合作\"这种通稿问题。 Hats off to doctoral student and podcaster Zhong Shu in Beijing, China, who did this fascinating and sma...",
+      "summaryEn": "这是我看到过的最好的采访之一，感觉一个中国播客，把诺兰采访出了《纽约书评》的分量。。。 \"独树不成林\"的主播仲树老师，是波士顿学院政治哲学博士候选人，她跟诺兰的对谈视频，没有问\"拍电影用什么器材\"\"和演员怎么合作\"这种通稿问题。 Hats off to doctoral student and podcaster Zhong Shu in Beijing, China, who did this fascinating and sma...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083758404640661510",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083732785693413431",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "damn，看到 @adcock_brett 这个视频我鸡皮疙瘩都起来了， 没有像国内机器人用遥控器控制的后空翻，跳舞这些表演炫技，就是看似简单的是爬梯子。 Figure的F.03，完全自主，没有遥控，没有云端接管，自己一步一步爬上了一个真实的金属梯子，站到了平台上。 你可能觉得爬梯子有什么了不起的，",
+      "summaryEn": "damn，看到 @adcock_brett 这个视频我鸡皮疙瘩都起来了， 没有像国内机器人用遥控器控制的后空翻，跳舞这些表演炫技，就是看似简单的是爬梯子。 Figure的F.03，完全自主，没有遥控，没有云端接管，自己一步一步爬上了一个真实的金属梯子，站到了平台上。 你可能觉得爬梯子有什么了不起的，",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083732785693413431",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083624231800107235",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这里有国际空间站最棒的摄影作品 I finally have all 1.2 million raw image files from my latest mission to ISS! Here is a sample of one of my favorite Milky Way photos, taken from the Cupola with Nikon Z9, Arri Zeiss 15mm lens, T1.8 with...",
+      "summaryEn": "这里有国际空间站最棒的摄影作品 I finally have all 1.2 million raw image files from my latest mission to ISS! Here is a sample of one of my favorite Milky Way photos, taken from the Cupola with Nikon Z9, Arri Zeiss 15mm lens, T1.8 with...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083624231800107235",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083614232768024961",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "给普通人最干的结论： 找工作别死磕大模型算法了，懂行业业务+会把流程数据做成AI能用的上下文，比纯算法工程师稀缺10倍； 创业别做通用聊天工具别做新模型，帮中小企业搭自己的私有工作流，比什么都强。 别追着最热闹的风口跑，那是给资本准备的陷阱。",
+      "summaryEn": "给普通人最干的结论： 找工作别死磕大模型算法了，懂行业业务+会把流程数据做成AI能用的上下文，比纯算法工程师稀缺10倍； 创业别做通用聊天工具别做新模型，帮中小企业搭自己的私有工作流，比什么都强。 别追着最热闹的风口跑，那是给资本准备的陷阱。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083614232768024961",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "product"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083614228657684525",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "再补充总结下： 简单理解就是当大家都在卷大模型卷芯片，觉得这是AI的核心的时候， 结果人家直接说： 现在最赚钱的是最底层的土地、电力、机房，数据中心根本建不过来，有电的地比什么都硬，人家已经偷偷拿了6GW的电。 芯片层直接放弃，太重了，创业公司根本玩不动；",
+      "summaryEn": "再补充总结下： 简单理解就是当大家都在卷大模型卷芯片，觉得这是AI的核心的时候， 结果人家直接说： 现在最赚钱的是最底层的土地、电力、机房，数据中心根本建不过来，有电的地比什么都硬，人家已经偷偷拿了6GW的电。 芯片层直接放弃，太重了，创业公司根本玩不动；",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083614228657684525",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "model"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083614213310709796",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "不得不说，最赚钱的永远是卖铲子的，和最后掌握客户的，最后我总结了大多数普通人最实用的3个建议和结论： @chamath 这个帖子讲了个AI六层框架，我看完直接把笔记本上的创业方向划掉重写了，真的不夸张， 他把AI产业链从底到顶分了六层：土地电力机房、芯片、云、模型、Harness、应用。 Here is my AI investing guide. Sitting here August 2026, my current best t...",
+      "summaryEn": "不得不说，最赚钱的永远是卖铲子的，和最后掌握客户的，最后我总结了大多数普通人最实用的3个建议和结论： @chamath 这个帖子讲了个AI六层框架，我看完直接把笔记本上的创业方向划掉重写了，真的不夸张， 他把AI产业链从底到顶分了六层：土地电力机房、芯片、云、模型、Harness、应用。 Here is my AI investing guide. Sitting here August 2026, my current best t...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083614213310709796",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083566940354658449",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "DeepSeek 逼得 openAI 降价 80%真的让人唏嘘， 试问，放眼全球AI圈，谁还有能力让 @sama 低头？ @elonmusk 老马可以吗？ @dariobarassi 奥特曼可以吗？ @JensenHuang 老黄可以吗？ #DeepSeek #梁文锋 #OpenAI 说句会可能会被骂的话：@DarioAmodei 真该学学 @deepseek_ai 是怎么做事的。 一边是隔两周就出来发长文，讲 AI 末日，讲白领失业...",
+      "summaryEn": "DeepSeek 逼得 openAI 降价 80%真的让人唏嘘， 试问，放眼全球AI圈，谁还有能力让 @sama 低头？ @elonmusk 老马可以吗？ @dariobarassi 奥特曼可以吗？ @JensenHuang 老黄可以吗？ #DeepSeek #梁文锋 #OpenAI 说句会可能会被骂的话：@DarioAmodei 真该学学 @deepseek_ai 是怎么做事的。 一边是隔两周就出来发长文，讲 AI 末日，讲白领失业...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083566940354658449",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083511464787120328",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "也不是说安全讨论没用，但是别把安全当流量密码，天天出来吓人造焦虑，转头模型卖的比谁都贵，吃像就太难看了。。。",
+      "summaryEn": "也不是说安全讨论没用，但是别把安全当流量密码，天天出来吓人造焦虑，转头模型卖的比谁都贵，吃像就太难看了。。。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083511464787120328",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083511450442604938",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "说句会可能会被骂的话： @DarioAmodei 真该学学 @deepseek_ai 是怎么做事的。 一边是隔两周就出来发长文，讲 AI 末日，讲白领失业，讲我们多安全多负责，各种路线图各种承诺，热度从来没断过。",
+      "summaryEn": "说句会可能会被骂的话： @DarioAmodei 真该学学 @deepseek_ai 是怎么做事的。 一边是隔两周就出来发长文，讲 AI 末日，讲白领失业，讲我们多安全多负责，各种路线图各种承诺，热度从来没断过。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083511450442604938",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083474069861581148",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "资本开支与自由现金流趋势（部分历史对比）",
+      "summaryEn": "资本开支与自由现金流趋势（部分历史对比）",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083474069861581148",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083474053969433058",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "云业务增速对比（AWS / Microsoft / Alphabet）",
+      "summaryEn": "云业务增速对比（AWS / Microsoft / Alphabet）",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083474053969433058",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083474016950452710",
+      "date": "2026-08-02",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "微软真是闷声发大财啊，靠Anthropic赚了32亿美金！！！ 一边裁5000人，一边资本开支暴涨70%，微软刚发的这份财报我觉得要把AI泡沫论的脸打肿了， 财报我看了三遍，一边裁员5000人，一边资本开支暴涨70%，自由现金流掉了23%，结果盘后涨8%，第二天直接干了15%。",
+      "summaryEn": "微软真是闷声发大财啊，靠Anthropic赚了32亿美金！！！ 一边裁5000人，一边资本开支暴涨70%，微软刚发的这份财报我觉得要把AI泡沫论的脸打肿了， 财报我看了三遍，一边裁员5000人，一边资本开支暴涨70%，自由现金流掉了23%，结果盘后涨8%，第二天直接干了15%。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2083474016950452710",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083800942927839307",
+      "date": "2026-08-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok can analyze any video",
+      "summaryEn": "Grok can analyze any video",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2083800942927839307",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2083800687561908662",
+      "date": "2026-08-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "True Grok can watch and analyze videos for you. Just upload a video the same way you upload an image and ask Grok anything about it.",
+      "summaryEn": "True Grok can watch and analyze videos for you. Just upload a video the same way you upload an image and ask Grok anything about it.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2083800687561908662",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2083709924236751300",
+      "date": "2026-08-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Made with Grok Imagine",
+      "summaryEn": "Made with Grok Imagine",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2083709924236751300",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083706250370449572",
+      "date": "2026-08-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Imagine",
+      "summaryEn": "Grok Imagine",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2083706250370449572",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083658315582632272",
+      "date": "2026-08-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "The Moon base will be even more epic Many have asked how this photo was made. This is my explanation. The ISS rotates about its pitch axis as it orbits Earth at 17,000mph to keep its nadir view constant. Because of this...",
+      "summaryEn": "The Moon base will be even more epic Many have asked how this photo was made. This is my explanation. The ISS rotates about its pitch axis as it orbits Earth at 17,000mph to keep its nadir view constant. Because of this...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2083658315582632272",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083595725552734528",
+      "date": "2026-08-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "A special effect like this used to take months of effort by a specialized company",
+      "summaryEn": "A special effect like this used to take months of effort by a specialized company",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2083595725552734528",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "enterprise"
+      ],
+      "primaryTopic": "enterprise"
+    },
+    {
+      "id": "2083595079357239628",
+      "date": "2026-08-02",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Exactly After all these waves of immigration in Spain, I’m going to explain to you by A + B why a part of the left structurally needs continuous flows of irregular arrivals to stay in power. A. An immigrant who just arr...",
+      "summaryEn": "Exactly After all these waves of immigration in Spain, I’m going to explain to you by A + B why a part of the left structurally needs continuous flows of irregular arrivals to stay in power. A. An immigrant who just arr...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2083595079357239628",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083771495017263333",
+      "date": "2026-08-02",
+      "name": "Frank Wang 玉伯",
+      "handle": "lifesinger",
+      "role": "I am curious and honest",
+      "avatar": "FW",
+      "summary": "发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法： 1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。 2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考哪些内容点赞高，哪些内容自己觉得很好实际数据却很差。在勤奋 +",
+      "summaryEn": "发现自己的粉丝还在持续上涨。分享下做 Founder IP 最核心的三个方法： 1、勤奋是基础。最好坚持日更。如果做不到，也至少得一周五次。这是最最重要的一招。 2、寻找独特性。在勤奋的基础上，不断发布内容。去观察和思考哪些内容点赞高，哪些内容自己觉得很好实际数据却很差。在勤奋 +",
+      "analysis": "",
+      "url": "https://x.com/lifesinger/status/2083771495017263333",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083764056994017647",
+      "date": "2026-08-02",
+      "name": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "avatar": "OP",
+      "summary": "Karpathy去了 Anthropic 以后，第一次发长帖。 他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去讲述《指环王》的故事。然后 Opus 5 给他整了一个 3D 的出来。 We're starting to leave the territory where you'd test an LLM by e.g. \"cr...",
+      "summaryEn": "Karpathy去了 Anthropic 以后，第一次发长帖。 他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去讲述《指环王》的故事。然后 Opus 5 给他整了一个 3D 的出来。 We're starting to leave the territory where you'd test an LLM by e.g. \"cr...",
+      "analysis": "",
+      "url": "https://x.com/op7418/status/2083764056994017647",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "model",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2083759812970786997",
+      "date": "2026-08-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "After accepting for years that GMail is blinding me I finally asked my agent and it installed https:// darkreader.org for me.",
+      "summaryEn": "After accepting for years that GMail is blinding me I finally asked my agent and it installed https:// darkreader.org for me.",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2083759812970786997",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2083694911824826659",
+      "date": "2026-08-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "Repo:",
+      "summaryEn": "Repo:",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2083694911824826659",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2083694161933594703",
+      "date": "2026-08-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel it's stalking me and is constaltly shouting 'HI ESP\" to debug the voice wake command",
+      "summaryEn": "I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel it's stalking me and is constaltly shouting 'HI ESP\" to debug the voice wake command",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2083694161933594703",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2083614690350071945",
+      "date": "2026-08-02",
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw + @OpenAI",
+      "avatar": "PS",
+      "summary": "10 minutes to go! The full program for Agentic AI Summit 2026 is now live. Aug 1–2 @ UC Berkeley The largest Agentic AI event ever held Last year: 2,000+ in person, 40,000+ online This year: 5,000+ in person, hundreds o...",
+      "summaryEn": "10 minutes to go! The full program for Agentic AI Summit 2026 is now live. Aug 1–2 @ UC Berkeley The largest Agentic AI event ever held Last year: 2,000+ in person, 40,000+ online This year: 5,000+ in person, hundreds o...",
+      "analysis": "",
+      "url": "https://x.com/steipete/status/2083614690350071945",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2083755374994415904",
+      "date": "2026-08-02",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus model with the best personality and writing style. Something's off with Opus 5 - it tends to give me overly long replies, use Claude-speak w...",
+      "summaryEn": "I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus model with the best personality and writing style. Something's off with Opus 5 - it tends to give me overly long replies, use Claude-speak w...",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2083755374994415904",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2083637620899184642",
+      "date": "2026-08-02",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "The number one thing I want AI to fix is to cure cancer once and for all",
+      "summaryEn": "The number one thing I want AI to fix is to cure cancer once and for all",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2083637620899184642",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2083594381748302160",
+      "date": "2026-08-02",
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://behindthecraft.com",
+      "avatar": "PY",
+      "summary": "Can someone at @openai look into this bug with plugins? Try to ship my /no-ai-slop skill as a plugin and this is messing up the user experience.",
+      "summaryEn": "Can someone at @openai look into this bug with plugins? Try to ship my /no-ai-slop skill as a plugin and this is messing up the user experience.",
+      "analysis": "",
+      "url": "https://x.com/petergyang/status/2083594381748302160",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "design"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2083752930663121248",
+      "date": "2026-08-02",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "DeepSeek V4-Flash的便宜程度 能让很多创业者开始搞TOKEN下乡了吧！！",
+      "summaryEn": "DeepSeek V4-Flash的便宜程度 能让很多创业者开始搞TOKEN下乡了吧！！",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2083752930663121248",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model",
+        "design",
+        "business"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2083738637859238011",
+      "date": "2026-08-02",
+      "name": "铁锤人",
+      "handle": "lxfater",
+      "role": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，：lxfater@gmail.com",
+      "avatar": "LX",
+      "summary": "亚马逊给 OpenAI 的 500 亿美元投资！！ JUST IN: Amazon has officially completed its $50 billion investment in OpenAI",
+      "summaryEn": "亚马逊给 OpenAI 的 500 亿美元投资！！ JUST IN: Amazon has officially completed its $50 billion investment in OpenAI",
+      "analysis": "",
+      "url": "https://x.com/lxfater/status/2083738637859238011",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2083750803437724016",
+      "date": "2026-08-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "AI creates more work for human experts https:// every.to/p/after-automa tion … New Javons paradox: we are running out of mathematicians to review progress in maths",
+      "summaryEn": "AI creates more work for human experts https:// every.to/p/after-automa tion … New Javons paradox: we are running out of mathematicians to review progress in maths",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2083750803437724016",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083727039048118304",
+      "date": "2026-08-02",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "this tweet under review as further details emerge this is a very good letter x.com/tbpn/status/20…",
+      "summaryEn": "this tweet under review as further details emerge this is a very good letter x.com/tbpn/status/20…",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2083727039048118304",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083745535169909228",
+      "date": "2026-08-02",
+      "name": "Yihui",
+      "handle": "yihui_indie",
+      "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
+      "avatar": "YI",
+      "summary": "【复盘】七月正式组了团队，几个产品同时在跑。说实话，几个产品收入增长和营收不及预期。复盘下来核心原因只有一个：我个人花了太多时间在做自媒体上，没有带着团队去做产品增长。 自媒体有助于冷启动，但要想养活团队，它远远不够。团队阶段需要的是更复利、更可规模化、能复制的增长渠道。",
+      "summaryEn": "【复盘】七月正式组了团队，几个产品同时在跑。说实话，几个产品收入增长和营收不及预期。复盘下来核心原因只有一个：我个人花了太多时间在做自媒体上，没有带着团队去做产品增长。 自媒体有助于冷启动，但要想养活团队，它远远不够。团队阶段需要的是更复利、更可规模化、能复制的增长渠道。",
+      "analysis": "",
+      "url": "https://x.com/yihui_indie/status/2083745535169909228",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "enterprise"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2083743952319225938",
+      "date": "2026-08-02",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "Agency is the most important human quality The world will try to box you, label you, define you Resist that Agency > Intelligence I had this intuitively wrong for decades, I think due to a pervasive cultural veneration ...",
+      "summaryEn": "Agency is the most important human quality The world will try to box you, label you, define you Resist that Agency > Intelligence I had this intuitively wrong for decades, I think due to a pervasive cultural veneration ...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2083743952319225938",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2083738503851258201",
+      "date": "2026-08-02",
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "avatar": "ZZ",
+      "summary": "When asked that question, send them a copy of The Innovator’s Dilemma > Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google. bookmark for the next vc that asks ...",
+      "summaryEn": "When asked that question, send them a copy of The Innovator’s Dilemma > Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google. bookmark for the next vc that asks ...",
+      "analysis": "",
+      "url": "https://x.com/zarazhangrui/status/2083738503851258201",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2083730074147389898",
+      "date": "2026-08-02",
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "role": "ceo @replit . civilizationist",
+      "avatar": "AM",
+      "summary": "Cool! Went to dinner on Friday night at The Ivy Asia Mayfair. Took a couple of rough photos, asked @Replit Design to do something cool with it. Match the aesthetic, but weave in a mystical dream sequence inspired by the...",
+      "summaryEn": "Cool! Went to dinner on Friday night at The Ivy Asia Mayfair. Took a couple of rough photos, asked @Replit Design to do something cool with it. Match the aesthetic, but weave in a mystical dream sequence inspired by the...",
+      "analysis": "",
+      "url": "https://x.com/amasad/status/2083730074147389898",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2083726824924737971",
+      "date": "2026-08-02",
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "role": "head of product @linear",
+      "avatar": "NY",
+      "summary": "Oh, and pangram issue itself, obviously",
+      "summaryEn": "Oh, and pangram issue itself, obviously",
+      "analysis": "",
+      "url": "https://x.com/thenanyu/status/2083726824924737971",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2083722999430050281",
+      "date": "2026-08-02",
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "role": "head of product @linear",
+      "avatar": "NY",
+      "summary": "You should be able to pledge tokens for issues that you open and open source repos. Write a spec in the issue with a pledge. If the maintainer accepts, GitHub passes the issue verbatim to a cloud coding agent at the req...",
+      "summaryEn": "You should be able to pledge tokens for issues that you open and open source repos. Write a spec in the issue with a pledge. If the maintainer accepts, GitHub passes the issue verbatim to a cloud coding agent at the req...",
+      "analysis": "",
+      "url": "https://x.com/thenanyu/status/2083722999430050281",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2083718706874785905",
+      "date": "2026-08-02",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2083718706874785905",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2083690952997429519",
+      "date": "2026-08-02",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "好图收藏，DeepSeek 斩杀线",
+      "summaryEn": "好图收藏，DeepSeek 斩杀线",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2083690952997429519",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "model"
+      ],
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2083684825333105107",
+      "date": "2026-08-02",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "role": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "avatar": "GT",
+      "summary": "Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform Note the marked difference: intelligence on tap as a utility vs signaling it is optimal to integrate all the way up full stack It's sub...",
+      "summaryEn": "Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform Note the marked difference: intelligence on tap as a utility vs signaling it is optimal to integrate all the way up full stack It's sub...",
+      "analysis": "",
+      "url": "https://x.com/garrytan/status/2083684825333105107",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2083484530883878980",
+      "date": "2026-08-02",
+      "name": "花叔",
+      "handle": "AlchainHust",
+      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+      "avatar": "AL",
+      "summary": "已经懒到测评都不想自己出任务和做评估了，全都让agent自己闭环了",
+      "summaryEn": "已经懒到测评都不想自己出任务和做评估了，全都让agent自己闭环了",
+      "analysis": "",
+      "url": "https://x.com/AlchainHust/status/2083484530883878980",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    }
+  ]
+}
