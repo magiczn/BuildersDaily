@@ -13,7 +13,8 @@ export const paths = {
   exampleConfigFile: path.join(rootDir, "config", "monitor.example.json"),
   dataDir: path.join(rootDir, "data"),
   postsFile: path.join(rootDir, "data", "posts.json"),
-  reportsDir: path.join(rootDir, "data", "reports")
+  reportsDir: path.join(rootDir, "data", "reports"),
+  diagnosticsDir: path.join(rootDir, "data", "diagnostics")
 };
 
 const defaults = {
@@ -25,6 +26,9 @@ const defaults = {
   scrollPauseMs: 1500,
   settleDelayMs: 1200,
   maxNoNewPostScrolls: 3,
+  navigationTimeoutMs: 45000,
+  navigationRetryCount: 2,
+  navigationRetryDelayMs: 3000,
   headless: true,
   includeReplies: false,
   includeReposts: false,

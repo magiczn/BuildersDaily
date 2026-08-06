@@ -7,6 +7,7 @@ const LOCAL_X_MONITOR_DIR = process.env.X_LIST_MONITOR_DIR ||
 const PROFILES_PATH = path.join(__dirname, '..', 'profiles.json');
 const ENV_PATH = path.join(__dirname, '..', '.env');
 const ZHIPU_CHAT_COMPLETIONS_URL = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
+const KIMI_CHAT_COMPLETIONS_URL = 'https://api.moonshot.cn/v1/chat/completions';
 const MIN_MODEL_ANALYSIS_LENGTH = 88;
 const MAX_CARD_SUMMARY_LENGTH = 600;
 const SHOULD_SKIP_PROFILE_SYNC = process.env.SKIP_PROFILE_SYNC === '1';
@@ -131,18 +132,29 @@ function getAiAnalysisConfig() {
     return null;
   }
 
-  if (provider !== 'zhipu' || !process.env.ZHIPU_API_KEY) {
-    return null;
+  if (provider === 'kimi' && process.env.KIMI_API_KEY) {
+    return {
+      provider: 'kimi',
+      apiKey: process.env.KIMI_API_KEY,
+      model: process.env.KIMI_API_MODEL || 'kimi-k2.5',
+      endpoint: process.env.KIMI_API_BASE_URL || KIMI_CHAT_COMPLETIONS_URL,
+      batchSize: Math.min(2, Math.max(1, Number.parseInt(process.env.AI_ANALYSIS_BATCH_SIZE || '2', 10) || 2)),
+      timeoutMs: Math.max(20000, Number.parseInt(process.env.AI_ANALYSIS_TIMEOUT_MS || '90000', 10) || 90000)
+    };
   }
 
-  return {
-    provider: 'zhipu',
-    apiKey: process.env.ZHIPU_API_KEY,
-    model: process.env.AI_ANALYSIS_MODEL || 'glm-4.7',
-    endpoint: process.env.ZHIPU_API_ENDPOINT || ZHIPU_CHAT_COMPLETIONS_URL,
-    batchSize: Math.min(2, Math.max(1, Number.parseInt(process.env.AI_ANALYSIS_BATCH_SIZE || '2', 10) || 2)),
-    timeoutMs: Math.max(20000, Number.parseInt(process.env.AI_ANALYSIS_TIMEOUT_MS || '90000', 10) || 90000)
-  };
+  if (provider === 'zhipu' && process.env.ZHIPU_API_KEY) {
+    return {
+      provider: 'zhipu',
+      apiKey: process.env.ZHIPU_API_KEY,
+      model: process.env.AI_ANALYSIS_MODEL || 'glm-4.7',
+      endpoint: process.env.ZHIPU_API_ENDPOINT || ZHIPU_CHAT_COMPLETIONS_URL,
+      batchSize: Math.min(2, Math.max(1, Number.parseInt(process.env.AI_ANALYSIS_BATCH_SIZE || '2', 10) || 2)),
+      timeoutMs: Math.max(20000, Number.parseInt(process.env.AI_ANALYSIS_TIMEOUT_MS || '90000', 10) || 90000)
+    };
+  }
+
+  return null;
 }
 
 function normalizeAnalysisText(text) {
@@ -152,6 +164,22 @@ function normalizeAnalysisText(text) {
   }
 
   return `${normalized.slice(0, 319)}…`;
+}
+
+function joinChineseSentences(parts, maxLength = 320) {
+  const compact = parts
+    .map((part) => String(part || '').replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+
+  if (!compact.length) {
+    return '';
+  }
+
+  const text = compact
+    .map((part) => /[。！？]$/.test(part) ? part : `${part}。`)
+    .join('');
+
+  return normalizeAnalysisText(text.slice(0, maxLength));
 }
 
 function chunkItems(items, batchSize) {
@@ -782,6 +810,75 @@ function buildShortComment(signals, occurrenceIndex = 0) {
   ], occurrenceIndex);
 }
 
+function describePostFocus(text, signals) {
+  const compactText = truncateText(String(text || '').replace(/\s+/g, ' ').trim(), 110);
+
+  if (signals.includes('agent') && signals.includes('devtools')) {
+    return `这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：${compactText}`;
+  }
+
+  if (signals.includes('models')) {
+    return `这条更像模型能力或产品路线的公开信号，原文重点是：${compactText}`;
+  }
+
+  if (signals.includes('distribution') && signals.includes('monetization')) {
+    return `这条讨论的不是单点功能，而是内容分发和变现怎么接成一条链，原文重点是：${compactText}`;
+  }
+
+  if (signals.includes('infrastructure')) {
+    return `这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：${compactText}`;
+  }
+
+  if (signals.includes('workflow')) {
+    return `这条在讲新的产品交互或工作流组织方式，原文重点是：${compactText}`;
+  }
+
+  if (signals.includes('product')) {
+    return `这条更像在暴露用户需求和产品优先级的变化，原文重点是：${compactText}`;
+  }
+
+  return `这条动态最直接的信息是：${compactText}`;
+}
+
+function describeRoleAngle(name, role, contextText = '') {
+  const normalizedRole = String(role || '').trim();
+  const compactContext = String(contextText || '').replace(/\s+/g, ' ').trim();
+
+  if (normalizedRole && normalizedRole !== 'AI Builder' && normalizedRole !== 'Independent Builder') {
+    return `${name} 的身份接近“${truncateText(normalizedRole, 56)}”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。`;
+  }
+
+  if (compactContext) {
+    return `结合他近 24 小时的连续输出看，这条并不是孤立观点，更像一条正在反复推进的主题线索。`;
+  }
+
+  return '';
+}
+
+function buildLocalAnalysis(entry, occurrenceIndex = 0) {
+  const text = entry.summaryEn || entry.summary || '';
+  if (!text || text.length < 10 || text.startsWith('http')) {
+    return '';
+  }
+
+  const signals = identifySignals(text);
+  const specificAnalysis = buildSpecificAnalysis({
+    name: entry.name,
+    handle: (entry.handle || '').toLowerCase(),
+    role: entry.role,
+    text,
+    textLower: text.toLowerCase(),
+    signals,
+    occurrenceIndex
+  });
+
+  const lead = describePostFocus(text, signals);
+  const roleAngle = describeRoleAngle(entry.name, entry.role, entry.analysisContext || '');
+  const takeaway = specificAnalysis || buildShortComment(signals, occurrenceIndex);
+
+  return joinChineseSentences([lead, roleAngle, takeaway], 320);
+}
+
 function nextCommentIndex(text, commentState) {
   const signals = identifySignals(text || '');
   const signature = getCommentSignature(signals);
@@ -868,31 +965,41 @@ function buildAnalysisMessages(batch) {
   ];
 }
 
-async function requestZhipuAnalyses(batch, config) {
+async function requestModelAnalyses(batch, config) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), config.timeoutMs);
   let response;
 
   try {
+    const requestBody = {
+      model: config.model,
+      messages: buildAnalysisMessages(batch),
+      response_format: {
+        type: 'json_object'
+      }
+    };
+
+    if (config.provider === 'zhipu') {
+      requestBody.temperature = 0.62;
+    }
+
+    if (config.provider === 'kimi') {
+      requestBody.max_tokens = 2048;
+      requestBody.thinking = { type: 'disabled' };
+    }
+
     response = await fetch(config.endpoint, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${config.apiKey}`
       },
-      body: JSON.stringify({
-        model: config.model,
-        temperature: 0.62,
-        response_format: {
-          type: 'json_object'
-        },
-        messages: buildAnalysisMessages(batch)
-      }),
+      body: JSON.stringify(requestBody),
       signal: controller.signal
     });
   } catch (error) {
     if (error.name === 'AbortError') {
-      throw new Error(`Zhipu API timeout after ${config.timeoutMs}ms`);
+      throw new Error(`${config.provider} API timeout after ${config.timeoutMs}ms`);
     }
 
     throw error;
@@ -904,7 +1011,7 @@ async function requestZhipuAnalyses(batch, config) {
 
   if (!response.ok) {
     const message = payload.error?.message || payload.msg || `HTTP ${response.status}`;
-    throw new Error(`Zhipu API error: ${message}`);
+    throw new Error(`${config.provider} API error: ${message}`);
   }
 
   const content = payload.choices?.[0]?.message?.content;
@@ -912,37 +1019,47 @@ async function requestZhipuAnalyses(batch, config) {
   const items = Array.isArray(parsed?.items) ? parsed.items : [];
 
   if (!items.length) {
-    throw new Error('Zhipu API returned no analysis items.');
+    throw new Error(`${config.provider} API returned no analysis items.`);
   }
 
   return items;
 }
 
-async function requestZhipuDailySummary(builders, config) {
+async function requestModelDailySummary(builders, config) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), config.timeoutMs);
   let response;
 
   try {
+    const requestBody = {
+      model: config.model,
+      messages: buildDailySummaryMessages(builders),
+      response_format: {
+        type: 'json_object'
+      }
+    };
+
+    if (config.provider === 'zhipu') {
+      requestBody.temperature = 0.5;
+    }
+
+    if (config.provider === 'kimi') {
+      requestBody.max_tokens = 1024;
+      requestBody.thinking = { type: 'disabled' };
+    }
+
     response = await fetch(config.endpoint, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${config.apiKey}`
       },
-      body: JSON.stringify({
-        model: config.model,
-        temperature: 0.5,
-        response_format: {
-          type: 'json_object'
-        },
-        messages: buildDailySummaryMessages(builders)
-      }),
+      body: JSON.stringify(requestBody),
       signal: controller.signal
     });
   } catch (error) {
     if (error.name === 'AbortError') {
-      throw new Error(`Zhipu daily summary timeout after ${config.timeoutMs}ms`);
+      throw new Error(`${config.provider} daily summary timeout after ${config.timeoutMs}ms`);
     }
 
     throw error;
@@ -954,7 +1071,7 @@ async function requestZhipuDailySummary(builders, config) {
 
   if (!response.ok) {
     const message = payload.error?.message || payload.msg || `HTTP ${response.status}`;
-    throw new Error(`Zhipu API error: ${message}`);
+    throw new Error(`${config.provider} API error: ${message}`);
   }
 
   const content = payload.choices?.[0]?.message?.content;
@@ -962,7 +1079,7 @@ async function requestZhipuDailySummary(builders, config) {
   const summary = normalizeAnalysisText(parsed?.summary || '');
 
   if (!summary) {
-    throw new Error('Zhipu API returned no daily summary.');
+    throw new Error(`${config.provider} API returned no daily summary.`);
   }
 
   return summary;
@@ -971,6 +1088,17 @@ async function requestZhipuDailySummary(builders, config) {
 async function enrichAnalysesWithModel(builders) {
   const config = getAiAnalysisConfig();
   if (!config) {
+    const commentState = new Map();
+
+    for (const item of builders) {
+      if (!item || item.isSummary) {
+        continue;
+      }
+
+      const occurrenceIndex = nextCommentIndex(item.summaryEn || item.summary || '', commentState);
+      item.analysis = buildLocalAnalysis(item, occurrenceIndex);
+    }
+
     for (const item of builders) {
       delete item.analysisContext;
     }
@@ -991,7 +1119,7 @@ async function enrichAnalysesWithModel(builders) {
     let results = [];
 
     try {
-      results = await requestZhipuAnalyses(batch, config);
+      results = await requestModelAnalyses(batch, config);
     } catch (error) {
       console.log(`Batch AI analysis failed, retrying individually: ${error.message}`);
     }
@@ -1009,7 +1137,7 @@ async function enrichAnalysesWithModel(builders) {
     const unresolved = batch.filter((_, index) => !resolvedIndexes.has(index));
     for (const entry of unresolved) {
       try {
-        const [single] = await requestZhipuAnalyses([entry], config);
+        const [single] = await requestModelAnalyses([entry], config);
         const analysis = normalizeAnalysisText(single?.analysis);
         if (analysis.length >= MIN_MODEL_ANALYSIS_LENGTH) {
           entry.analysis = analysis;
@@ -1034,18 +1162,29 @@ function generateDailySummary(builders) {
   const signals = identifySignals(combinedText);
   const themes = [];
 
-  if (signals.includes('agent')) themes.push('Agent 正从 demo 走向真实工作流');
-  if (signals.includes('models')) themes.push('模型厂商持续向外释放路线信号');
-  if (signals.includes('distribution')) themes.push('内容、社群和分发继续绑定');
-  if (signals.includes('infrastructure')) themes.push('支付、集成、部署这些基础设施更受重视');
-  if (signals.includes('workflow')) themes.push('生成式 UI 和新工作流开始冒头');
-  if (signals.includes('devtools')) themes.push('开发范式继续向 AI 原生迁移');
+  if (signals.includes('agent')) themes.push('不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行');
+  if (signals.includes('models')) themes.push('模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位');
+  if (signals.includes('distribution')) themes.push('内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手');
+  if (signals.includes('infrastructure')) themes.push('支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度');
+  if (signals.includes('workflow')) themes.push('界面和工作流层面的重组开始变多，产品形态本身在松动');
+  if (signals.includes('devtools')) themes.push('开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力');
 
-  const lead = `今天共追踪到 ${uniqueBuilders} 位 builder 的 ${sourcePosts.length} 条动态。`;
-  const body = themes.slice(0, 3).join('；');
-  const close = '整体看，竞争重点正从单点模型能力，转向工作流整合、分发效率和更快的商业化闭环。';
+  const themeText = themes.slice(0, 3).join('，');
+  const openers = [
+    '今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进',
+    '今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦',
+    '从今天追到的这些 builder 动态看，行业注意力正在变得更务实'
+  ];
+  const closer =
+    uniqueBuilders >= 5
+      ? '谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。'
+      : '现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。';
 
-  return `${lead}${body ? body + '；' : ''}${close}`.slice(0, 200);
+  return joinChineseSentences([
+    openers[sourcePosts.length % openers.length],
+    themeText,
+    closer
+  ], 220);
 }
 
 async function generateDailySummaryWithModel(builders) {
@@ -1060,7 +1199,7 @@ async function generateDailySummaryWithModel(builders) {
   }
 
   try {
-    return await requestZhipuDailySummary(sourcePosts, config);
+    return await requestModelDailySummary(sourcePosts, config);
   } catch (error) {
     console.log(`Falling back to rule-based daily summary: ${error.message}`);
     return generateDailySummary(builders);

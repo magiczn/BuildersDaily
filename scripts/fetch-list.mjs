@@ -1,4 +1,6 @@
 import { existsSync } from "node:fs";
+import { writeFile } from "node:fs/promises";
+import path from "node:path";
 
 import { chromium } from "playwright";
 
@@ -66,6 +68,79 @@ function shouldKeepPost(post, config) {
   return true;
 }
 
+function getDiagnosticsTimestamp() {
+  return new Date().toISOString().replace(/[:.]/g, "-");
+}
+
+async function captureDiagnostics(page, label, extra = {}) {
+  await ensureDir(paths.diagnosticsDir);
+
+  const stamp = getDiagnosticsTimestamp();
+  const prefix = path.join(paths.diagnosticsDir, `${stamp}-${label}`);
+  const screenshotPath = `${prefix}.png`;
+  const htmlPath = `${prefix}.html`;
+  const jsonPath = `${prefix}.json`;
+
+  try {
+    await page.screenshot({ path: screenshotPath, fullPage: true });
+  } catch (error) {
+    extra.screenshotError = error.message;
+  }
+
+  try {
+    await writeFile(htmlPath, await page.content(), "utf8");
+  } catch (error) {
+    extra.htmlError = error.message;
+  }
+
+  await writeJson(jsonPath, {
+    capturedAt: new Date().toISOString(),
+    url: page.url(),
+    title: await page.title().catch(() => ""),
+    ...extra
+  });
+
+  return { screenshotPath, htmlPath, jsonPath };
+}
+
+async function gotoWithRetries(page, url, config, label) {
+  const attempts = Math.max(1, Number(config.navigationRetryCount) || 1);
+  const timeout = Math.max(10_000, Number(config.navigationTimeoutMs) || 45_000);
+  let lastError = null;
+
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      console.log(`Opening ${label}: ${url} (attempt ${attempt}/${attempts})`);
+      await page.goto(url, { waitUntil: "domcontentloaded", timeout });
+      return { ok: true, error: null };
+    } catch (error) {
+      lastError = error;
+      console.warn(
+        `Navigation failed for ${label} on attempt ${attempt}/${attempts}: ${error.message}`
+      );
+
+      if (attempt < attempts) {
+        await sleep(config.navigationRetryDelayMs);
+      }
+    }
+  }
+
+  return { ok: false, error: lastError };
+}
+
+async function loadFallbackHandles(existingPosts = []) {
+  const profilePath = path.join(paths.rootDir, "profiles.json");
+  const profiles = await readJson(profilePath, []);
+  const handles = [
+    ...profiles.map((item) => item?.handle),
+    ...existingPosts.map((item) => item?.author)
+  ]
+    .map((value) => String(value || "").trim())
+    .filter(Boolean);
+
+  return Array.from(new Set(handles));
+}
+
 async function collectVisiblePosts(page) {
   return page.evaluate(() => {
     const parseMetric = (value) => {
@@ -116,6 +191,102 @@ async function collectVisiblePosts(page) {
       };
     });
   });
+}
+
+async function collectRecentPostsFromProfile(page, handle, thresholdMs, config) {
+  const profileUrl = `https://x.com/${handle}`;
+  const collected = new Map();
+  let staleRounds = 0;
+
+  const navigation = await gotoWithRetries(page, profileUrl, config, `fallback profile @${handle}`);
+  if (!navigation.ok) {
+    throw new Error(navigation.error?.message || `Could not open ${profileUrl}`);
+  }
+  await page.waitForTimeout(3_000);
+
+  for (let index = 0; index < 4; index += 1) {
+    const batch = await collectVisiblePosts(page);
+    const beforeCount = collected.size;
+
+    for (const item of batch.map(normalizePost)) {
+      if (!item.id || !item.timestamp || !item.statusUrl) {
+        continue;
+      }
+
+      if (item.author && item.author.toLowerCase() !== handle.toLowerCase()) {
+        continue;
+      }
+
+      if (!shouldKeepPost(item, config)) {
+        continue;
+      }
+
+      if (Date.parse(item.timestamp) < thresholdMs) {
+        continue;
+      }
+
+      collected.set(item.id, item);
+    }
+
+    const addedThisRound = collected.size - beforeCount;
+    staleRounds = addedThisRound === 0 ? staleRounds + 1 : 0;
+
+    if (collected.size > 0 && staleRounds >= 1) {
+      break;
+    }
+
+    if (staleRounds >= 2) {
+      break;
+    }
+
+    await page.mouse.wheel(0, 2200);
+    await sleep(config.scrollPauseMs);
+    await sleep(config.settleDelayMs);
+  }
+
+  return Array.from(collected.values());
+}
+
+async function collectFromFallbackProfiles(context, thresholdMs, config, existingPosts) {
+  const handles = await loadFallbackHandles(existingPosts);
+
+  if (handles.length === 0) {
+    console.warn("Fallback skipped: no profile handles available.");
+    return { posts: [], diagnostics: null };
+  }
+
+  const page = await context.newPage();
+  const collected = new Map();
+  let diagnostics = null;
+
+  try {
+    for (const handle of handles.slice(0, 12)) {
+      try {
+        const posts = await collectRecentPostsFromProfile(page, handle, thresholdMs, config);
+        for (const post of posts) {
+          collected.set(post.id, post);
+        }
+
+        console.log(`Fallback profile @${handle}: ${posts.length} posts in window`);
+
+        if (collected.size >= 24) {
+          break;
+        }
+      } catch (error) {
+        console.warn(`Fallback profile @${handle} failed: ${error.message}`);
+      }
+    }
+
+    if (collected.size === 0) {
+      diagnostics = await captureDiagnostics(page, "fallback-profile-empty", {
+        handlesTried: handles.slice(0, 12)
+      });
+    }
+  } finally {
+    await page.close().catch(() => {});
+  }
+
+  return { posts: Array.from(collected.values()), diagnostics };
 }
 
 async function collectVisibleComments(page, rootPostId) {
@@ -178,7 +349,10 @@ async function collectFullPostText(detailPage, post, config) {
   }
 
   try {
-    await detailPage.goto(post.statusUrl, { waitUntil: "domcontentloaded", timeout: 60_000 });
+    const navigation = await gotoWithRetries(detailPage, post.statusUrl, config, `full text ${post.id}`);
+    if (!navigation.ok) {
+      throw new Error(navigation.error?.message || `Could not open ${post.statusUrl}`);
+    }
     await detailPage.waitForTimeout(config.commentSettleDelayMs);
 
     const fullText = await detailPage.evaluate((postId) => {
@@ -237,7 +411,10 @@ async function collectHotCommentsForPost(detailPage, post, config) {
   }
 
   try {
-    await detailPage.goto(post.statusUrl, { waitUntil: "domcontentloaded", timeout: 60_000 });
+    const navigation = await gotoWithRetries(detailPage, post.statusUrl, config, `comments ${post.id}`);
+    if (!navigation.ok) {
+      throw new Error(navigation.error?.message || `Could not open ${post.statusUrl}`);
+    }
     await detailPage.waitForTimeout(config.commentSettleDelayMs);
 
     const collected = new Map();
@@ -312,71 +489,108 @@ function resolveLaunchOptions(config) {
 
 async function main() {
   const config = await loadConfig();
+  const existingPosts = await readJson(paths.postsFile, []);
 
   if (!(await fileExists(paths.authFile))) {
     throw new Error(`Missing login state at ${paths.authFile}. Run npm run login first.`);
   }
 
   const browser = await chromium.launch(resolveLaunchOptions(config));
-  const context = await browser.newContext({ storageState: paths.authFile });
-  const page = await context.newPage();
 
-  console.log(`Opening list: ${config.listUrl}`);
-  await page.goto(config.listUrl, { waitUntil: "domcontentloaded", timeout: 60_000 });
-  await page.waitForTimeout(3_000);
+  try {
+    const context = await browser.newContext({ storageState: paths.authFile });
+    const page = await context.newPage();
 
-  const thresholdMs = Date.now() - config.lookbackHours * 60 * 60 * 1000;
-  const collected = new Map();
-  let noNewPostScrolls = 0;
+    const thresholdMs = Date.now() - config.lookbackHours * 60 * 60 * 1000;
+    const collected = new Map();
+    let listDiagnostics = null;
+    let noNewPostScrolls = 0;
 
-  for (let index = 0; index < config.maxScrolls; index += 1) {
-    await sleep(config.settleDelayMs);
-    const batch = await collectVisiblePosts(page);
-    const beforeCount = collected.size;
+    const listNavigation = await gotoWithRetries(page, config.listUrl, config, "list timeline");
+    if (listNavigation.ok) {
+      await page.waitForTimeout(3_000);
 
-    for (const item of batch.map(normalizePost)) {
-      if (!item.id || !item.timestamp || !item.statusUrl) {
-        continue;
+      for (let index = 0; index < config.maxScrolls; index += 1) {
+        await sleep(config.settleDelayMs);
+        const batch = await collectVisiblePosts(page);
+        const beforeCount = collected.size;
+
+        for (const item of batch.map(normalizePost)) {
+          if (!item.id || !item.timestamp || !item.statusUrl) {
+            continue;
+          }
+          collected.set(item.id, item);
+        }
+
+        const addedThisRound = collected.size - beforeCount;
+        noNewPostScrolls = addedThisRound === 0 ? noNewPostScrolls + 1 : 0;
+
+        const timestamps = Array.from(collected.values())
+          .map((post) => Date.parse(post.timestamp))
+          .filter(Number.isFinite)
+          .sort((a, b) => a - b);
+
+        const oldestLoaded = timestamps[0] ?? Date.now();
+        console.log(
+          `Scroll ${index + 1}/${config.maxScrolls}: +${addedThisRound} new, ${collected.size} total, oldest ${new Date(
+            oldestLoaded
+          ).toISOString()}, stale rounds ${noNewPostScrolls}`
+        );
+
+        const collectedInWindow = Array.from(collected.values()).filter(
+          (post) => Date.parse(post.timestamp) >= thresholdMs
+        ).length;
+
+        if (
+          index + 1 >= config.minScrolls &&
+          oldestLoaded < thresholdMs &&
+          noNewPostScrolls >= config.maxNoNewPostScrolls
+        ) {
+          console.log(
+            `Stopping after ${index + 1} scrolls: reached old posts and saw no new posts for ${noNewPostScrolls} rounds. In-window posts: ${collectedInWindow}.`
+          );
+          break;
+        }
+
+        await page.mouse.wheel(0, 2200);
+        await sleep(config.scrollPauseMs);
       }
-      collected.set(item.id, item);
-    }
-
-    const addedThisRound = collected.size - beforeCount;
-    noNewPostScrolls = addedThisRound === 0 ? noNewPostScrolls + 1 : 0;
-
-    const timestamps = Array.from(collected.values())
-      .map((post) => Date.parse(post.timestamp))
-      .filter(Number.isFinite)
-      .sort((a, b) => a - b);
-
-    const oldestLoaded = timestamps[0] ?? Date.now();
-    console.log(
-      `Scroll ${index + 1}/${config.maxScrolls}: +${addedThisRound} new, ${collected.size} total, oldest ${new Date(
-        oldestLoaded
-      ).toISOString()}, stale rounds ${noNewPostScrolls}`
-    );
-
-    const collectedInWindow = Array.from(collected.values()).filter(
-      (post) => Date.parse(post.timestamp) >= thresholdMs
-    ).length;
-
-    if (
-      index + 1 >= config.minScrolls &&
-      oldestLoaded < thresholdMs &&
-      noNewPostScrolls >= config.maxNoNewPostScrolls
-    ) {
-      console.log(
-        `Stopping after ${index + 1} scrolls: reached old posts and saw no new posts for ${noNewPostScrolls} rounds. In-window posts: ${collectedInWindow}.`
+    } else {
+      listDiagnostics = await captureDiagnostics(page, "list-navigation-failed", {
+        listUrl: config.listUrl,
+        reason: listNavigation.error?.message || "Navigation failed before the list timeline loaded."
+      });
+      console.warn(
+        `List navigation failed. Diagnostics saved to ${listDiagnostics.jsonPath}. Trying profile fallback.`
       );
-      break;
     }
 
-    await page.mouse.wheel(0, 2200);
-    await sleep(config.scrollPauseMs);
-  }
+    if (collected.size === 0) {
+      if (!listDiagnostics) {
+        listDiagnostics = await captureDiagnostics(page, "list-empty", {
+          listUrl: config.listUrl,
+          reason: "No tweets were visible after scrolling the list timeline."
+        });
+      }
+      console.warn(
+        `List timeline returned 0 posts. Diagnostics saved to ${listDiagnostics.jsonPath}. Trying profile fallback.`
+      );
 
-  const existingPosts = await readJson(paths.postsFile, []);
-  const merged = new Map(existingPosts.map((post) => [post.id, post]));
+      const fallbackResult = await collectFromFallbackProfiles(context, thresholdMs, config, existingPosts);
+      for (const post of fallbackResult.posts) {
+        collected.set(post.id, post);
+      }
+
+      if (fallbackResult.posts.length > 0) {
+        console.warn(`Fallback recovered ${fallbackResult.posts.length} recent posts from profile timelines.`);
+      } else {
+        throw new Error(
+          `X list timeline was empty and profile fallback recovered 0 posts. Diagnostics: ${listDiagnostics.jsonPath}`
+        );
+      }
+    }
+
+    const merged = new Map(existingPosts.map((post) => [post.id, post]));
 
   const rankedCommentTargets = Array.from(collected.values())
     .filter((post) => shouldKeepPost(post, config))
@@ -452,22 +666,23 @@ async function main() {
     );
   }
 
-  await browser.close();
+    for (const post of collected.values()) {
+      merged.set(post.id, post);
+    }
 
-  for (const post of collected.values()) {
-    merged.set(post.id, post);
+    const sortedPosts = Array.from(merged.values())
+      .filter((post) => shouldKeepPost(post, config))
+      .sort((a, b) => Date.parse(b.timestamp) - Date.parse(a.timestamp))
+      .slice(0, 3000);
+
+    await ensureDir(paths.dataDir);
+    await writeJson(paths.postsFile, sortedPosts);
+
+    const freshPosts = sortedPosts.filter((post) => Date.parse(post.timestamp) >= thresholdMs);
+    console.log(`Saved ${sortedPosts.length} posts total, ${freshPosts.length} in the current lookback window.`);
+  } finally {
+    await browser.close().catch(() => {});
   }
-
-  const sortedPosts = Array.from(merged.values())
-    .filter((post) => shouldKeepPost(post, config))
-    .sort((a, b) => Date.parse(b.timestamp) - Date.parse(a.timestamp))
-    .slice(0, 3000);
-
-  await ensureDir(paths.dataDir);
-  await writeJson(paths.postsFile, sortedPosts);
-
-  const freshPosts = sortedPosts.filter((post) => Date.parse(post.timestamp) >= thresholdMs);
-  console.log(`Saved ${sortedPosts.length} posts total, ${freshPosts.length} in the current lookback window.`);
 }
 
 main().catch((error) => {
