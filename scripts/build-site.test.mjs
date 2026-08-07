@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
 import test from 'node:test';
-import { inferTopics, parseReport, slugify } from './build-site.mjs';
+import { inferTopics, parseReport, resolveReportSource, slugify } from './build-site.mjs';
 
 test('slugify produces stable route segments', () => {
   assert.equal(slugify('@PeterGYang'), 'petergyang');
@@ -41,6 +43,36 @@ test('parseReport preserves posts, source links, profiles and date', () => {
   assert.ok(issue.posts[0].topics.includes('agent'));
   assert.ok(issue.highlights.length >= 1);
   assert.ok(issue.highlights.every((id) => issue.posts.some((post) => post.id === id)));
+});
+
+test('missing local reports safely retain a complete committed static site', async (t) => {
+  const root = await mkdtemp(path.join(tmpdir(), 'buildersdaily-build-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const reportsDir = path.join(root, 'data', 'reports');
+  const prebuiltFiles = [
+    path.join(root, 'index.html'),
+    path.join(root, 'archive', 'index.json'),
+    path.join(root, 'builders', 'index.json'),
+    path.join(root, 'topics', 'index.json'),
+    path.join(root, 'sitemap.xml')
+  ];
+
+  for (const file of prebuiltFiles) {
+    await mkdir(path.dirname(file), { recursive: true });
+    await writeFile(file, '{}\n', 'utf8');
+  }
+
+  assert.deepEqual(await resolveReportSource(reportsDir, prebuiltFiles), { mode: 'prebuilt', files: [] });
+});
+
+test('missing reports still fail when committed static artifacts are incomplete', async (t) => {
+  const root = await mkdtemp(path.join(tmpdir(), 'buildersdaily-build-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+
+  await assert.rejects(
+    resolveReportSource(path.join(root, 'data', 'reports'), [path.join(root, 'archive', 'index.json')]),
+    /prebuilt site is incomplete/
+  );
 });
 
 test('primary navigation leaves Builder and topic timelines for homepage sections', async () => {
@@ -87,4 +119,11 @@ test('homepage versions mutable assets to prevent stale DOM and script pairings'
   assert.match(template, /assets\/styles\.css\?v=\d{8}-\d+/);
   assert.match(template, /assets\/config\.js\?v=\d{8}-\d+/);
   assert.match(template, /assets\/app\.js\?v=\d{8}-\d+/);
+});
+
+test('Vercel publishes the committed static site without rebuilding local reports', async () => {
+  const config = JSON.parse(await readFile(new URL('../vercel.json', import.meta.url), 'utf8'));
+  assert.equal(config.framework, null);
+  assert.equal(config.buildCommand, '');
+  assert.equal(config.outputDirectory, '.');
 });
