@@ -1,110 +1,97 @@
-# AI Builders Digest
+# Builders Daily
 
-一个类似抖音/TikTok 风格的 AI 行业动态浏览器，以卡片滑动方式浏览顶级 AI Builder 的最新动态。
+把 AI Builder 圈的公开动态整理成一份可追踪、可长期积累的每日情报。
 
-## 在线体验
+在线站点：[buildersdaily.today](https://www.buildersdaily.today/)
 
-访问: https://buildersdaily.today
+## 现在包含什么
 
-## 功能特点
+- 每日首页：以桌面双列、移动单列的简洁卡片呈现当天全部动态，点击任一卡片展开阅读
+- 深度阅读：在居中蒙层中围绕原始动态、一句话结论、为什么重要和原文入口展开
+- 历史归档：每一期都有稳定链接；首页保留近期入口，“查看更多期刊”在弹窗内展示全部期刊
+- Builder 时间线：按人查看长期动态并可在本地关注，“查看完整名单”在弹窗内展示全部 Builder
+- 主题时间线：Agents、产品、模型、设计、商业等 9 个主题
+- 编辑插画：三张带透明通道的低对比度黑白石墨图用于当天、归档和 Builder 分区，素材位于 `assets/illustrations/`
+- Sitemap、结构化数据和社交预览元信息
+- 产品事件：阅读、关注和原文跳转均已埋点
 
-- **抖音式滑动体验**: 上下滑动浏览不同 Builder 的动态摘要
-- **双语展示**: 中文摘要 + 英文原文对照
-- **多平台支持**: 支持触摸（移动端）、鼠标和键盘（桌面端）操作
-- **一键阅读原文**: 点击按钮直接跳转到原始推文
-- **进度指示**: 顶部进度条和页码显示当前浏览进度
+网站保持纯 HTML、CSS 和 JavaScript，不依赖前端框架。构建脚本会把 `data/reports/` 中的历史日报编译成静态页面与索引。
 
-## 操作方式
-
-| 操作 | 功能 |
-|------|------|
-| 上滑 / 下滑 | 切换到下一条 / 上一条 |
-| 鼠标滚轮 | 上下滚动切换 |
-| 键盘 ↑ / ↓ | 切换到上一条 / 下一条 |
-| 空格键 | 切换到下一条 |
-
-## 数据来源
-
-内容默认优先来自当前项目本地采集结果；如果本地数据不可用，则回退到 [follow-builders](https://github.com/zarazhangrui/follow-builders) Skill。
-
-跟踪以下领域的顶级 AI Builder:
-- AI 研究员和工程师
-- 创业公司创始人和 CEO
-- 产品经理和技术领导者
-
-## 技术栈
-
-- 纯 HTML + CSS + JavaScript
-- 无需构建工具，单文件部署
-- 响应式设计，适配移动端和桌面端
-
-## 首次配置
+## 本地预览
 
 ```bash
 cd /Users/zhaonan/0-Projects/BuildersDaily
 npm install
-npx playwright install chromium
+npm run build
+npm run serve
+```
+
+然后访问 `http://localhost:8000`。页面通过 HTTP 加载 JSON，因此不要直接双击 `index.html` 预览。
+
+## 常用命令
+
+| 命令 | 用途 |
+|---|---|
+| `npm run build` | 从历史报告生成归档、人物页、主题页和 Sitemap |
+| `npm test` | 运行归档解析与主题分类测试 |
+| `npm run serve` | 在 8000 端口启动本地预览 |
+| `npm run site:refresh` | 重新生成首页数据，并编译完整站点 |
+| `npm run daily` | 执行日常采集与摘要流程 |
+| `bash scripts/daily-update.sh` | 完成采集、站点构建、提交与推送的自动流水线 |
+
+构建后会生成：
+
+```text
+archive/            # 每期 JSON 与归档目录
+daily/<date>/       # 每期可索引的独立页面
+builders/<handle>/  # Builder 时间线页面与数据
+topics/<topic>/     # 主题时间线页面与数据
+sitemap.xml         # 搜索引擎站点地图
+```
+
+## 采集配置
+
+首次配置：
+
+```bash
 cp config/monitor.example.json config/monitor.json
+npm run login
 ```
 
-然后：
-
-- 在 `config/monitor.json` 里填好你的 `listUrl`
-- 运行 `npm run login` 保存 X 登录态
-- 如果自动登录受限，可以导出 `x.com` cookies 到 `config/x.cookies.json` 后执行 `npm run import:cookies`
-
-## 本地运行
-
-```bash
-git clone https://github.com/magiczn/nan-builders-digest.git
-cd nan-builders-digest
-open index.html
-```
-
-或者直接双击 `index.html` 文件在浏览器中打开。
-
-## 数据更新
-
-```bash
-cd /Users/zhaonan/0-Projects/BuildersDaily
-node scripts/fetch-data.js
-```
-
-如果要跑完整每日流水线（先更新本地采集数据，再更新站点并提交 Git）：
-
-```bash
-cd /Users/zhaonan/0-Projects/BuildersDaily
-bash scripts/daily-update.sh
-```
-
-如果要启用 macOS 定时任务：
-
-```bash
-mkdir -p ~/Library/LaunchAgents
-cp /Users/zhaonan/0-Projects/BuildersDaily/launchd/com.ndn.daily-update.plist ~/Library/LaunchAgents/com.ndn.daily-update.plist
-launchctl unload ~/Library/LaunchAgents/com.ndn.daily-update.plist 2>/dev/null
-launchctl load ~/Library/LaunchAgents/com.ndn.daily-update.plist
-```
-
-默认每天 `07:00`、`12:00`、`16:00` 运行一次。
+- 在 `config/monitor.json` 填写 X List 地址
+- 如果自动登录受限，可导出 `x.com` cookies 到 `config/x.cookies.json`，再运行 `npm run import:cookies`
+- 人物资料维护在 `profiles.json`
+- 原始历史日报位于 `data/reports/`
 
 可选环境变量：
 
-- `X_LIST_MONITOR_DIR`：采集脚本工作目录，默认 `/Users/zhaonan/0-Projects/BuildersDaily`
-- `ZHIPU_API_KEY`：如果提供，会用智谱模型生成更深的 `AI 解读`
+- `X_LIST_MONITOR_DIR`：采集脚本工作目录
+- `ZHIPU_API_KEY`：启用智谱模型生成更深的 AI 解读
 - `AI_ANALYSIS_PROVIDER`：默认 `zhipu`
 - `AI_ANALYSIS_MODEL`：默认 `glm-4.7`
-- `AI_ANALYSIS_BATCH_SIZE`：每批送进模型的推文数，默认 `6`
+- `AI_ANALYSIS_BATCH_SIZE`：默认每批 6 条
 
-说明：
+没有模型 API Key 时会自动回退到本地规则版，不影响每日更新。
 
-- 如果没有配置模型 API Key，`AI 解读` 会自动回退到本地规则版，不会影响每日更新链路
-- 采集脚本现在会在源头过滤纯回复和纯转发，`posts.json` 会更干净
+## 分析配置
 
-人物资料维护：
+在 `assets/config.js` 中配置可选集成：
 
-- 在 [profiles.json](/Users/zhaonan/0-Projects/BuildersDaily/profiles.json) 里维护 `handle -> name / role / avatar / verified`
-- 每次更新完资料后重新运行 `node scripts/fetch-data.js`
+```js
+window.BUILDERS_DAILY_CONFIG = {
+  siteUrl: 'https://www.buildersdaily.today',
+  analyticsEndpoint: ''
+};
+```
+
+- 页面会自动调用已存在的 Plausible 或 PostHog；也可以把 `analyticsEndpoint` 指向自己的事件接收接口
+- 没有外部分析服务时，最近 100 个事件仅保存在本地浏览器，方便调试
+
+## 自动更新
+
+`scripts/daily-update.sh` 已接入站点构建：采集和 `data.json` 生成成功后，会同步更新归档、人物页、主题页与 Sitemap，再进入原有 Git 提交/推送步骤。
+
+macOS 定时任务默认每天 `07:00`、`12:00`、`16:00` 运行。启动方式见 `launchd/com.ndn.daily-update.plist`。
 
 ## License
 

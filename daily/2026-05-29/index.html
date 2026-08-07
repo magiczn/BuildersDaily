@@ -18,10 +18,9 @@
   <meta name="twitter:description" content="这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。">
   <meta name="twitter:image" content="https://www.buildersdaily.today/assets/social-card.svg">
   <link rel="canonical" href="https://www.buildersdaily.today/daily/2026-05-29/">
-  <link rel="alternate" type="application/rss+xml" title="Builders Daily RSS" href="/feed.xml">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/styles.css?v=20260806-5">
   <title>2026-05-29 AI Builder 情报日报 — Builders Daily</title>
   <script type="application/ld+json" id="structuredData">{"@context":"https://schema.org","@type":"NewsArticle","headline":"2026-05-29 AI Builder 情报日报 — Builders Daily","description":"这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。","datePublished":"2026-05-29","dateModified":"2026-05-29","mainEntityOfPage":"https://www.buildersdaily.today/daily/2026-05-29/","author":{"@type":"Organization","name":"Builders Daily"},"publisher":{"@type":"Organization","name":"Builders Daily","url":"https://www.buildersdaily.today"}}</script>
 </head>
@@ -87,10 +86,9 @@
           <p class="eyebrow">DAILY BRIEFING</p>
           <h2 id="digestTitle">今日</h2>
         </div>
-      </div>
-
-      <div class="digest-status" aria-live="polite">
-        <span id="resultCount">正在整理本期内容…</span>
+        <figure class="editorial-illustration digest-illustration" aria-hidden="true">
+          <img src="/assets/illustrations/signal-orbit-transparent.png" alt="" width="2118" height="742" decoding="async">
+        </figure>
       </div>
 
       <div class="story-grid" id="storyGrid" aria-live="polite"></div>
@@ -104,8 +102,11 @@
         </div>
         <p>按日期回看 Builder 圈的变化。每一期都有稳定链接，可以回看和引用。</p>
       </div>
+      <figure class="editorial-illustration archive-illustration" aria-hidden="true">
+        <img src="/assets/illustrations/archive-mineral-transparent.png" alt="" width="2172" height="724" loading="lazy" decoding="async">
+      </figure>
       <div class="archive-grid" id="archiveGrid"></div>
-      <button class="text-button" id="loadMoreArchive" type="button">展开更多期刊 ↓</button>
+      <button class="text-button" id="loadMoreArchive" type="button">查看更多期刊 ↓</button>
     </section>
 
     <section class="builders-section" id="builders" aria-labelledby="buildersTitle">
@@ -114,36 +115,15 @@
           <p class="eyebrow">BUILDER DIRECTORY</p>
           <h2 id="buildersTitle">跟踪人，而不只是追逐热点</h2>
         </div>
-        <p>找到持续在一个方向上构建的人，查看他们最近出现的信号，并建立自己的关注列表。</p>
+        <figure class="editorial-illustration builders-illustration" aria-hidden="true">
+          <img src="/assets/illustrations/builder-notes-transparent.png" alt="" width="1254" height="1254" loading="lazy" decoding="async">
+        </figure>
       </div>
 
-      <div class="builders-controls">
-        <label class="search-field" for="builderSearch">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg>
-          <input id="builderSearch" type="search" autocomplete="off" placeholder="按名字、Handle 或方向搜索">
-        </label>
-        <button class="follow-filter" id="followedOnly" type="button" aria-pressed="false">只看关注</button>
-      </div>
       <div class="builder-grid" id="builderGrid"></div>
       <button class="text-button" id="loadMoreBuilders" type="button">查看完整名单 ↓</button>
     </section>
 
-    <section class="subscribe-section" id="subscribe" aria-labelledby="subscribeTitle">
-      <div class="subscribe-art" aria-hidden="true">
-        <span class="orbit orbit-one"></span>
-        <span class="orbit orbit-two"></span>
-        <strong>5'</strong>
-      </div>
-      <div class="subscribe-copy">
-        <p class="eyebrow">OWN YOUR FEED</p>
-        <h2 id="subscribeTitle">不用记得回来，<br>让信号主动抵达。</h2>
-        <p>先从 RSS 开始：最新一期、稳定链接、没有算法干扰。邮件与更多中文渠道接入后可复用同一份内容。</p>
-        <div class="subscribe-actions">
-          <a class="button button-primary" href="/feed.xml" id="openRss">打开 RSS</a>
-          <button class="button button-quiet" id="copyRss" type="button">复制 RSS 地址</button>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
@@ -152,8 +132,6 @@
       <span>由红心大狼狗出品 · 感谢张咋啦</span>
     </div>
     <nav aria-label="页脚导航">
-      <a href="/feed.xml">RSS</a>
-      <a href="/sitemap.xml">Sitemap</a>
       <a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a>
     </nav>
   </footer>
@@ -190,9 +168,25 @@
     </div>
   </dialog>
 
+  <dialog class="collection-dialog" id="collectionDialog" aria-labelledby="collectionDialogTitle" aria-describedby="collectionDialogDescription">
+    <div class="collection-shell">
+      <header class="collection-header">
+        <div>
+          <p class="eyebrow" id="collectionDialogEyebrow">ARCHIVE</p>
+          <h2 id="collectionDialogTitle">全部期刊</h2>
+          <p id="collectionDialogDescription"></p>
+        </div>
+        <button class="icon-button dialog-close" type="button" data-close-dialog aria-label="关闭列表">×</button>
+      </header>
+      <div class="collection-body">
+        <div id="collectionDialogGrid"></div>
+      </div>
+    </div>
+  </dialog>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="/assets/config.js"></script>
-  <script type="module" src="/assets/app.js"></script>
+  <script src="/assets/config.js?v=20260806-5"></script>
+  <script type="module" src="/assets/app.js?v=20260806-5"></script>
 </body>
 </html>

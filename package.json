@@ -4,12 +4,16 @@
   "private": true,
   "description": "BuildersDaily local X collector and static site workflow.",
   "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "serve": "python3 -m http.server 8000 --bind 127.0.0.1",
     "login": "node scripts/login.mjs",
     "import:cookies": "node scripts/import-cookies.mjs",
     "fetch:list": "node scripts/fetch-list.mjs",
     "digest": "node scripts/digest.mjs",
     "wechat:digest": "node scripts/wechat-digest.mjs",
-    "daily": "node scripts/fetch-list.mjs && node scripts/digest.mjs"
+    "daily": "node scripts/fetch-list.mjs && node scripts/digest.mjs",
+    "site:refresh": "node scripts/fetch-data.js && node scripts/build-site.mjs"
   },
   "dependencies": {
     "playwright": "^1.54.2"

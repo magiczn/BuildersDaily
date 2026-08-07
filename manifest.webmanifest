@@ -1,0 +1,17 @@
+{
+  "name": "Builders Daily",
+  "short_name": "Builders Daily",
+  "description": "每天 5 分钟，读懂 AI Builders 正在构建什么。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f3f3",
+  "theme_color": "#f3f3f3",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

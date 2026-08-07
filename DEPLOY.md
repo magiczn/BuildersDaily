@@ -5,8 +5,8 @@
 ```
 你的服务器/VPS          GitHub Pages
     ↓                       ↓
-定时运行脚本 ──→ 先更新本地采集数据 ──→ 再更新 data.json ──→ 前端 fetch 数据
-   (本地浏览器登录态)             (纯静态托管)
+定时运行脚本 ──→ 更新采集与 data.json ──→ 编译完整静态站 ──→ GitHub Pages
+   (本地浏览器登录态)          (归档/人物/SEO)           (纯静态托管)
 ```
 
 ## 方案一：使用你自己的服务器/VPS（推荐）
@@ -83,7 +83,7 @@ bash scripts/daily-update.sh
 
 ```bash
 cd /Users/zhaonan/0-Projects/BuildersDaily
-node scripts/fetch-data.js
+npm run site:refresh
 ```
 
 ---
@@ -134,17 +134,13 @@ launchctl load ~/Library/LaunchAgents/com.ndn.daily-update.plist
 
 ## 前端数据加载
 
-现在 `index.html` 会从 `data.json` 动态加载数据：
+首页会从 `data.json` 加载最新一期。构建脚本还会把本地历史报告编译为归档、Builder/主题时间线和 Sitemap：
 
-```javascript
-async function loadData() {
-    const response = await fetch('data.json');
-    buildersData = await response.json();
-    // ... render
-}
+```bash
+npm run build
 ```
 
-这样每次更新 `data.json` 并推送到 GitHub 后，GitHub Pages 会自动重新部署，用户就能看到最新内容。
+`scripts/daily-update.sh` 已包含该构建步骤，并会把所有生成文件加入同一次提交。这样每次推送后，GitHub Pages 会同时更新首页和可索引的历史页面。
 
 ---
 
