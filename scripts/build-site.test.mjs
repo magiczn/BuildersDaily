@@ -120,3 +120,10 @@ test('homepage versions mutable assets to prevent stale DOM and script pairings'
   assert.match(template, /assets\/config\.js\?v=\d{8}-\d+/);
   assert.match(template, /assets\/app\.js\?v=\d{8}-\d+/);
 });
+
+test('Vercel publishes the committed static site without rebuilding local reports', async () => {
+  const config = JSON.parse(await readFile(new URL('../vercel.json', import.meta.url), 'utf8'));
+  assert.equal(config.framework, null);
+  assert.equal(config.buildCommand, '');
+  assert.equal(config.outputDirectory, '.');
+});
