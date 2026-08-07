@@ -591,6 +591,31 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   align-items: start;
 }
 
+.digest-kicker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.digest-kicker .eyebrow {
+  margin: 0;
+}
+
+.digest-date {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+}
+
+.digest-date::before {
+  margin-right: 12px;
+  color: var(--faint);
+  content: "·";
+}
+
 .today-view .digest-heading {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
   align-items: end;

@@ -121,6 +121,14 @@ test('homepage versions mutable assets to prevent stale DOM and script pairings'
   assert.match(template, /assets\/app\.js\?v=\d{8}-\d+/);
 });
 
+test('today heading renders the current issue date from issue data', async () => {
+  const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  const app = await readFile(new URL('../assets/app.js', import.meta.url), 'utf8');
+  assert.match(template, /<time class="digest-date" id="digestDate" datetime=""><\/time>/);
+  assert.match(app, /elements\.digestDate\.dateTime = issue\.date/);
+  assert.match(app, /elements\.digestDate\.textContent = formatDate\(issue\.date\)/);
+});
+
 test('Vercel publishes the committed static site without rebuilding local reports', async () => {
   const config = JSON.parse(await readFile(new URL('../vercel.json', import.meta.url), 'utf8'));
   assert.equal(config.framework, null);

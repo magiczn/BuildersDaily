@@ -331,6 +331,7 @@ function track(eventName, properties = {}) {
 function cacheElements() {
   Object.assign(elements, {
     issueDate: $('#issueDate'),
+    digestDate: $('#digestDate'),
     readingTime: $('#readingTime'),
     builderCount: $('#builderCount'),
     postCount: $('#postCount'),
@@ -447,6 +448,11 @@ function renderPage() {
   const isContext = document.body.classList.contains('context-view');
   const digestSection = $('#digest');
   $('.digest-heading').hidden = isHistorical;
+  elements.digestDate.hidden = isHistorical || isContext;
+  if (!elements.digestDate.hidden) {
+    elements.digestDate.dateTime = issue.date;
+    elements.digestDate.textContent = formatDate(issue.date);
+  }
   if (isHistorical) {
     digestSection.removeAttribute('aria-labelledby');
     digestSection.setAttribute('aria-label', `${formatDate(issue.date)} 历史信息存档`);
