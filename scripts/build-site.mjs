@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { access, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
@@ -11,6 +11,13 @@ const DAILY_DIR = path.join(PROJECT_ROOT, 'daily');
 const BUILDERS_DIR = path.join(PROJECT_ROOT, 'builders');
 const TOPICS_DIR = path.join(PROJECT_ROOT, 'topics');
 const SITE_URL = 'https://www.buildersdaily.today';
+const PREBUILT_SITE_FILES = [
+  path.join(PROJECT_ROOT, 'index.html'),
+  path.join(PROJECT_ROOT, 'archive', 'index.json'),
+  path.join(PROJECT_ROOT, 'builders', 'index.json'),
+  path.join(PROJECT_ROOT, 'topics', 'index.json'),
+  path.join(PROJECT_ROOT, 'sitemap.xml')
+];
 
 export const TOPIC_DEFINITIONS = {
   agent: {
@@ -463,7 +470,44 @@ ${paths.map((item) => `  <url><loc>${SITE_URL}${item.loc}</loc>${item.lastmod ? 
 `;
 }
 
+export async function resolveReportSource(reportsDir = REPORTS_DIR, prebuiltFiles = PREBUILT_SITE_FILES) {
+  let entries;
+  try {
+    entries = await readdir(reportsDir);
+  } catch (error) {
+    if (error?.code !== 'ENOENT') throw error;
+
+    const missingPrebuiltFiles = [];
+    for (const file of prebuiltFiles) {
+      try {
+        await access(file);
+      } catch {
+        missingPrebuiltFiles.push(file);
+      }
+    }
+
+    if (missingPrebuiltFiles.length) {
+      throw new Error(
+        `Source reports are unavailable at ${reportsDir}, and the prebuilt site is incomplete: ${missingPrebuiltFiles.join(', ')}`,
+        { cause: error }
+      );
+    }
+
+    return { mode: 'prebuilt', files: [] };
+  }
+
+  const files = entries
+    .filter((file) => /^\d{4}-\d{2}-\d{2}\.md$/.test(file))
+    .sort()
+    .reverse();
+  if (!files.length) throw new Error(`No report files found in ${reportsDir}`);
+  return { mode: 'source', files };
+}
+
 export async function buildSite() {
+  const reportSource = await resolveReportSource();
+  if (reportSource.mode === 'prebuilt') return { prebuilt: true };
+
   const [template, profilesSource, currentDataSource] = await Promise.all([
     readFile(path.join(PROJECT_ROOT, 'index.html'), 'utf8'),
     readFile(path.join(PROJECT_ROOT, 'profiles.json'), 'utf8'),
@@ -471,11 +515,7 @@ export async function buildSite() {
   ]);
   const profiles = JSON.parse(profilesSource);
   const currentData = JSON.parse(currentDataSource);
-  const reportFiles = (await readdir(REPORTS_DIR))
-    .filter((file) => /^\d{4}-\d{2}-\d{2}\.md$/.test(file))
-    .sort()
-    .reverse();
-  if (!reportFiles.length) throw new Error(`No report files found in ${REPORTS_DIR}`);
+  const reportFiles = reportSource.files;
 
   const latestDate = process.env.BUILDERS_DAILY_DATE || reportFiles[0].replace(/\.md$/, '');
   const issues = [];
@@ -525,6 +565,10 @@ export async function buildSite() {
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   buildSite()
     .then((stats) => {
+      if (stats.prebuilt) {
+        console.log('Source reports are not present; verified and retained the committed prebuilt site.');
+        return;
+      }
       console.log(`Built Builders Daily: ${stats.issueCount} issues, ${stats.postCount} posts, ${stats.builderCount} builders, ${stats.topicCount} topics. Latest: ${stats.latestDate}`);
     })
     .catch((error) => {
