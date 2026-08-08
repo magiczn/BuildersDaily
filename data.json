@@ -4,10 +4,10 @@
     "handle": "AYi_AInotes",
     "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
     "avatar": "阿A",
-    "summary": "最爽的几点：\n它发的不是整个聊天记录，是纯文本摘要，轻量，安全，不会把一堆无关信息倒过去。\n它甚至会主动发，你这边改了个东西，它判断会影响另一个会话的工作，自己就去通知了，不用你说。\n特别适合：多个worktree并行开发、一个会话在跑长任务另一个在等结果、前后端同时改需要同步字段。",
-    "summaryEn": "最爽的几点：\n它发的不是整个聊天记录，是纯文本摘要，轻量，安全，不会把一堆无关信息倒过去。\n它甚至会主动发，你这边改了个东西，它判断会影响另一个会话的工作，自己就去通知了，不用你说。\n特别适合：多个worktree并行开发、一个会话在跑长任务另一个在等结果、前后端同时改需要同步字段。",
-    "analysis": "这条动态最直接的信息是：最爽的几点： 它发的不是整个聊天记录，是纯文本摘要，轻量，安全，不会把一堆无关信息倒过去。 它甚至会主动发，你这边改了个东西，它判断会影响另一个会话的工作，自己就去通知了，不用你说。 特别适合：多个worktree并行开...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
-    "url": "https://x.com/AYi_AInotes/status/2085908400857055733",
+    "summary": "几点思考跟大家分享：\n第一，AI辅助安全这个说法已经过时了。\n之前大家讨论AI和网络安全，说的是AI帮人更快地扫漏洞、分析日志、写检测规则，人还是决策者，AI是工具。\nAstra和Mythos代表的是另一个量级：给它一个目标，它自己侦察、自己找漏洞、写exploit、执行攻击链，中间不需要人。",
+    "summaryEn": "几点思考跟大家分享：\n第一，AI辅助安全这个说法已经过时了。\n之前大家讨论AI和网络安全，说的是AI帮人更快地扫漏洞、分析日志、写检测规则，人还是决策者，AI是工具。\nAstra和Mythos代表的是另一个量级：给它一个目标，它自己侦察、自己找漏洞、写exploit、执行攻击链，中间不需要人。",
+    "analysis": "这条动态最直接的信息是：几点思考跟大家分享： 第一，AI辅助安全这个说法已经过时了。 之前大家讨论AI和网络安全，说的是AI帮人更快地扫漏洞、分析日志、写检测规则，人还是决策者，AI是工具。 Astra和Mythos代表的是另一个量级：给它一个...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/AYi_AInotes/status/2085937005943226508",
     "verified": true,
     "hotComments": []
   },
@@ -16,20 +16,288 @@
     "handle": "AYi_AInotes",
     "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
     "avatar": "阿A",
-    "summary": "用Claude Code的人，这个新功能会让你少掉一半头发hh\n你有没有过这种情况：开了两个Claude Code窗口，一个在改用户资料，一个在写每周邮件推送。左边那个把\nhttp://\nusers.name改成了users.display_name，右边那个还在用旧字段名，跑起来直接报错。\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
-    "summaryEn": "用Claude Code的人，这个新功能会让你少掉一半头发hh\n你有没有过这种情况：开了两个Claude Code窗口，一个在改用户资料，一个在写每周邮件推送。左边那个把\nhttp://\nusers.name改成了users.display_name，右边那个还在用旧字段名，跑起来直接报错。\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
-    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：用Claude Code的人，这个新功能会让你少掉一半头发hh 你有没有过这种情况：开了两个Claude Code窗口，一个在改用户资料，一个在写每周邮件推送。左边那个把 http:// users.name改成了use...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
-    "url": "https://x.com/AYi_AInotes/status/2085908393584218541",
+    "summary": "@OpenAI\n 造了一个强到自己都要踩刹车的模型，Astra，对标\n@AnthropicAI\n 的Mythos，\nOpenAI管它叫Preparedness Framework下第一个\"Critical\"级别的网络安全模型，\nCritical是什么意思？\nOpenAI的定义很具体：这个模型能在没有人指挥的情况下，对真实世界里加固过的系统开发出零日漏洞利用代码。或者你给它一个高层目标，它能自己设计并执行一整套端到端的网络攻击。\n不是那种辅助安全研究员找bug，是它自己就能独立干完。\n所以OpenAI做了什么？\n隔离测试环境、限制网络和工具访问、加密权重、全链路监控包括对Chain of Thought的风险检测、暂停了一些不符合新标准的内部活动、找政府和AI安全组织一起测。\n这跟Anthropic几个月前对Mythos做的事几乎一模一样。Mythos当时也被测出能大规模发现零日、在模拟环境中端到端接管企业网络。Anthropic的选择是：不公开，只通过Project Glasswing给AWS、Apple、Microsoft、Google、CrowdStrike这几个可信伙伴做防御用。\n@sama\n 说：Astra是个强大的模型，我们正在努力让它广泛可用。我们不认为把强大的模型只给少数人是个好策略。鉴于它的网络能力，我们需要多一点时间来安全地做这件事。但希望不会太久。\n这段话我们品...",
+    "summaryEn": "@OpenAI\n 造了一个强到自己都要踩刹车的模型，Astra，对标\n@AnthropicAI\n 的Mythos，\nOpenAI管它叫Preparedness Framework下第一个\"Critical\"级别的网络安全模型，\nCritical是什么意思？\nOpenAI的定义很具体：这个模型能在没有人指挥的情况下，对真实世界里加固过的系统开发出零日漏洞利用代码。或者你给它一个高层目标，它能自己设计并执行一整套端到端的网络攻击。\n不是那种辅助安全研究员找bug，是它自己就能独立干完。\n所以OpenAI做了什么？\n隔离测试环境、限制网络和工具访问、加密权重、全链路监控包括对Chain of Thought的风险检测、暂停了一些不符合新标准的内部活动、找政府和AI安全组织一起测。\n这跟Anthropic几个月前对Mythos做的事几乎一模一样。Mythos当时也被测出能大规模发现零日、在模拟环境中端到端接管企业网络。Anthropic的选择是：不公开，只通过Project Glasswing给AWS、Apple、Microsoft、Google、CrowdStrike这几个可信伙伴做防御用。\n@sama\n 说：Astra是个强大的模型，我们正在努力让它广泛可用。我们不认为把强大的模型只给少数人是个好策略。鉴于它的网络能力，我们需要多一点时间来安全地做这件事。但希望不会太久。\n这段话我们品...",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：@OpenAI 造了一个强到自己都要踩刹车的模型，Astra，对标 @AnthropicAI 的Mythos， OpenAI管它叫Preparedness Framework下第一个\"Critical\"级别的网络安全模型...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/AYi_AInotes/status/2085936997659496751",
     "verified": true,
     "hotComments": []
+  },
+  {
+    "name": "花叔",
+    "handle": "AlchainHust",
+    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+    "avatar": "AL",
+    "summary": "但是我这很扯的是，点进去之后说因为我目前已经是订阅会员，没给我送上...这还逼我先取消订阅？",
+    "summaryEn": "但是我这很扯的是，点进去之后说因为我目前已经是订阅会员，没给我送上...这还逼我先取消订阅？",
+    "analysis": "这条动态最直接的信息是：但是我这很扯的是，点进去之后说因为我目前已经是订阅会员，没给我送上...这还逼我先取消订阅？花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "url": "https://x.com/AlchainHust/status/2085930746980823454",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "花叔",
+    "handle": "AlchainHust",
+    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+    "avatar": "AL",
+    "summary": "OpenAI突然大放水，给开源项目的开发者送6个月Pro会员，可以检查下自己邮箱有没有收到～",
+    "summaryEn": "OpenAI突然大放水，给开源项目的开发者送6个月Pro会员，可以检查下自己邮箱有没有收到～",
+    "analysis": "这条动态最直接的信息是：OpenAI突然大放水，给开源项目的开发者送6个月Pro会员，可以检查下自己邮箱有没有收到～。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+    "url": "https://x.com/AlchainHust/status/2085930346244349973",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "向阳乔木",
+    "handle": "vista8",
+    "role": "喜欢摇滚乐、爱钓鱼的PM",
+    "avatar": "VI",
+    "summary": "验证关注数量看了下，现在是1w多，占百分之十。\n活跃账号是7w多，总关注接近12w。\nx 奖励也是某种收益函数，会影响平台用户行为，进而影响调性。\n支持鼓励原创，打击搬运和AI机器人。",
+    "summaryEn": "验证关注数量看了下，现在是1w多，占百分之十。\n活跃账号是7w多，总关注接近12w。\nx 奖励也是某种收益函数，会影响平台用户行为，进而影响调性。\n支持鼓励原创，打击搬运和AI机器人。",
+    "analysis": "这条动态最直接的信息是：验证关注数量看了下，现在是1w多，占百分之十。 活跃账号是7w多，总关注接近12w。 x 奖励也是某种收益函数，会影响平台用户行为，进而影响调性。 支持鼓励原创，打击搬运和AI机器人。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/vista8/status/2085918095437361559",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Orange AI",
+    "handle": "oran_ge",
+    "role": "橘AI海外版",
+    "avatar": "OG",
+    "summary": "最近测试了一下鸣神的 Seedance 2.5 和冕神的 LibTV，有个很深的感悟。\n对于创作这件事来说，虽然 Agent 也能帮上不少忙，但好像越来越离不开人了，只要创作出来的内容还是给人看，创作的结果就需要人来把关。",
+    "summaryEn": "最近测试了一下鸣神的 Seedance 2.5 和冕神的 LibTV，有个很深的感悟。\n对于创作这件事来说，虽然 Agent 也能帮上不少忙，但好像越来越离不开人了，只要创作出来的内容还是给人看，创作的结果就需要人来把关。",
+    "analysis": "这条动态最直接的信息是：最近测试了一下鸣神的 Seedance 2.5 和冕神的 LibTV，有个很深的感悟。 对于创作这件事来说，虽然 Agent 也能帮上不少忙，但好像越来越离不开人了，只要创作出来的内容还是给人看，创作的结果就需要人来把关...。Orange AI 的身份接近“橘AI海外版”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。Agent 正从演示阶段走向真实工作流，接下来真正拼的是稳定性、接入深度和容错能力。能持续跑一个月的 agent，往往比惊艳十分钟的 demo 更值钱。",
+    "url": "https://x.com/oran_ge/status/2085916570707210508",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+    "avatar": "OP",
+    "summary": "AI 回复、搬运内容、垃圾内容生产，整个交流体系巨差现在。每次回复还得想想，还得仔细看看这个是不是 AI 回复，再加上下面那几十个机器人一样的话。",
+    "summaryEn": "AI 回复、搬运内容、垃圾内容生产，整个交流体系巨差现在。每次回复还得想想，还得仔细看看这个是不是 AI 回复，再加上下面那几十个机器人一样的话。",
+    "analysis": "这条动态最直接的信息是：AI 回复、搬运内容、垃圾内容生产，整个交流体系巨差现在。每次回复还得想想，还得仔细看看这个是不是 AI 回复，再加上下面那几十个机器人一样的话。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "url": "https://x.com/op7418/status/2085913286734995796",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+    "avatar": "OP",
+    "summary": "Karpathy 居然锁定了他的账户，也改了签名。\n他说因为机器人活动和其他问题，估计是受不了那些 AI 和机器人的回复了。\n锁定以后，新用户无法关注他，也没办法看到他的内容，只有已经关注的人才能看到。",
+    "summaryEn": "Karpathy 居然锁定了他的账户，也改了签名。\n他说因为机器人活动和其他问题，估计是受不了那些 AI 和机器人的回复了。\n锁定以后，新用户无法关注他，也没办法看到他的内容，只有已经关注的人才能看到。",
+    "analysis": "这条动态最直接的信息是：Karpathy 居然锁定了他的账户，也改了签名。 他说因为机器人活动和其他问题，估计是受不了那些 AI 和机器人的回复了。 锁定以后，新用户无法关注他，也没办法看到他的内容，只有已经关注的人才能看到。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+    "url": "https://x.com/op7418/status/2085903657053340078",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Nan Yu",
+    "handle": "thenanyu",
+    "role": "head of product @linear",
+    "avatar": "NY",
+    "summary": "Scott Pilgrims everywhere for those with eyes to see\nNets star Michael Porter Jr. had five exes at Michael Rubin's White Party: 'Had to navigate a lot'\nhttps://\ntrib.al/25iUshu",
+    "summaryEn": "Scott Pilgrims everywhere for those with eyes to see\nNets star Michael Porter Jr. had five exes at Michael Rubin's White Party: 'Had to navigate a lot'\nhttps://\ntrib.al/25iUshu",
+    "analysis": "这条动态最直接的信息是：Scott Pilgrims everywhere for those with eyes to see Nets star Michael Porter Jr. had five exes at Michael Rub...。Nan Yu 的身份接近“head of product @linear”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+    "url": "https://x.com/thenanyu/status/2085896386638233728",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Gorden Sun",
+    "handle": "Gorden_Sun",
+    "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+    "avatar": "GS",
+    "summary": "创作者工作室里已经能看到新的奖励计划了，我理解我这样应该就是已经达标了吧？\nX即将更改创作者奖励的标准，需要重新达到条件才能享受奖励。\n核心变化：\n1，影响力要求过去90天，你的帖子触达50万次付费用户；\n2，仅奖励原创内容，转发其他平台的内容不再给奖励；\n3，奖励数量根据对付费用户的影响力来计算； x.com/xcreators/stat…",
+    "summaryEn": "创作者工作室里已经能看到新的奖励计划了，我理解我这样应该就是已经达标了吧？\nX即将更改创作者奖励的标准，需要重新达到条件才能享受奖励。\n核心变化：\n1，影响力要求过去90天，你的帖子触达50万次付费用户；\n2，仅奖励原创内容，转发其他平台的内容不再给奖励；\n3，奖励数量根据对付费用户的影响力来计算； x.com/xcreators/stat…",
+    "analysis": "这条动态最直接的信息是：创作者工作室里已经能看到新的奖励计划了，我理解我这样应该就是已经达标了吧？ X即将更改创作者奖励的标准，需要重新达到条件才能享受奖励。 核心变化： 1，影响力要求过去90天，你的帖子触达50万次付费用户； 2，仅奖励原创...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+    "url": "https://x.com/Gorden_Sun/status/2085894785307718025",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Gorden Sun",
+    "handle": "Gorden_Sun",
+    "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
+    "avatar": "GS",
+    "summary": "Claude支持会话之间互相发消息了：\n1，你可以问当前会话其他对话的信息，把其他对话的信息整合到当前会话。这倒没什么难度，类似compact然后把总结带过来。\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
+    "summaryEn": "Claude支持会话之间互相发消息了：\n1，你可以问当前会话其他对话的信息，把其他对话的信息整合到当前会话。这倒没什么难度，类似compact然后把总结带过来。\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Claude支持会话之间互相发消息了： 1，你可以问当前会话其他对话的信息，把其他对话的信息整合到当前会话。这倒没什么难度，类似compact然后把总结带过来。 New in Claude Code: your sess...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "url": "https://x.com/Gorden_Sun/status/2085860025919230166",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Aaron Levie",
+    "handle": "levie",
+    "role": "ceo @box - your business lives in content. unleash it with AI",
+    "avatar": "AL",
+    "summary": "Bro this is how they’re going to plan their escape\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
+    "summaryEn": "Bro this is how they’re going to plan their escape\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Bro this is how they’re going to plan their escape New in Claude Code: your sessions can now message each othe...。Aaron Levie 的身份接近“ceo @box - your business lives in content. unleash it wi...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
+    "url": "https://x.com/levie/status/2085878722000040006",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "OpenAI",
+    "handle": "OpenAI",
+    "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+    "avatar": "OP",
+    "summary": "astra is a powerful model and we are working to make it generally available.\nwe do not think it is a good strategy to keep powerful models to a chosen few.\ngiven its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+    "summaryEn": "astra is a powerful model and we are working to make it generally available.\nwe do not think it is a good strategy to keep powerful models to a chosen few.\ngiven its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：astra is a powerful model and we are working to make it generally available. we do not think it is a good stra...。OpenAI 的身份接近“OpenAI’s mission is to ensure that artificial general in...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
+    "url": "https://x.com/OpenAI/status/2085865635586912359",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "OpenAI",
+    "handle": "OpenAI",
+    "role": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+    "avatar": "OP",
+    "summary": "After evaluating one of our upcoming models, Astra, we're treating it as our first \"critical\" model for cybersecurity under our Preparedness Framework.\nThis is a scenario we've planned for, and we're putting additional controls in place to ensure Astra's further development",
+    "summaryEn": "After evaluating one of our upcoming models, Astra, we're treating it as our first \"critical\" model for cybersecurity under our Preparedness Framework.\nThis is a scenario we've planned for, and we're putting additional controls in place to ensure Astra's further development",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：After evaluating one of our upcoming models, Astra, we're treating it as our first \"critical\" model for cybers...。OpenAI 的身份接近“OpenAI’s mission is to ensure that artificial general in...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。表面上像一次常规更新，实质上更像模型团队在给生态提前打路线灯。越早看懂方向，越有机会抢到上层产品的时间差。",
+    "url": "https://x.com/OpenAI/status/2085801349866729975",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "kaimorales_",
+        "text": "If your models are not breaking out you're not a frontier lab",
+        "likes": 473,
+        "url": "https://x.com/kaimorales_/status/2085806612443275317"
+      },
+      {
+        "author": "kienbuilds",
+        "text": "im betting that when Astra gets released it’ll be unusable because of the guardrails",
+        "likes": 89,
+        "url": "https://x.com/kienbuilds/status/2085806769167880397"
+      },
+      {
+        "author": "BrenBuilds",
+        "text": "GPT Astra is going to be more neutered than Fable 5",
+        "likes": 72,
+        "url": "https://x.com/BrenBuilds/status/2085807878380691656"
+      }
+    ]
+  },
+  {
+    "name": "Sam Altman",
+    "handle": "sama",
+    "role": "AI is cool i guess",
+    "avatar": "SA",
+    "summary": "astra is a powerful model and we are working to make it generally available.\nwe do not think it is a good strategy to keep powerful models to a chosen few.\ngiven its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+    "summaryEn": "astra is a powerful model and we are working to make it generally available.\nwe do not think it is a good strategy to keep powerful models to a chosen few.\ngiven its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：astra is a powerful model and we are working to make it generally available. we do not think it is a good stra...。Sam Altman 的身份接近“AI is cool i guess”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+    "url": "https://x.com/sama/status/2085862292311396515",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "st3v3li",
+        "text": "Make this right Sam!",
+        "likes": 295,
+        "url": "https://x.com/st3v3li/status/2085868118317130138"
+      },
+      {
+        "author": "suomi55",
+        "text": "„astra is a powerful model and we are working to make it generally available.“\nDo the same for 4o!\n„we do not think it is a good strategy to keep powerful models to a chosen few.“\nOf course not …..\n4o: not for all but ju...",
+        "likes": 75,
+        "url": "https://x.com/suomi55/status/2085863325007597835"
+      },
+      {
+        "author": "frostybaby13",
+        "text": "Agreed! So unlock the one you locked from all of us, 4o!! We been waiting a BIG long time!",
+        "likes": 67,
+        "url": "https://x.com/frostybaby13/status/2085867607211549064"
+      }
+    ]
+  },
+  {
+    "name": "Boris Cherny",
+    "handle": "bcherny",
+    "role": "Claude Code @anthropicai",
+    "avatar": "BC",
+    "summary": "turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model training + input probes + a classifier checking intent). didn't expect that a year ago. auto mode is default in claude code as of next week\nhttps://\nclaude.com/blog/auto-mode\n-default-in-claude-code\n…",
+    "summaryEn": "turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model training + input probes + a classifier checking intent). didn't expect that a year ago. auto mode is default in claude code as of next week\nhttps://\nclaude.com/blog/auto-mode\n-default-in-claude-code\n…",
+    "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model trai...。Boris Cherny 的身份接近“Claude Code @anthropicai”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+    "url": "https://x.com/bcherny/status/2085860677990883454",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "st3v3li",
+        "text": "Want to see other players test results",
+        "likes": 8,
+        "url": "https://x.com/st3v3li/status/2085872821126025679"
+      },
+      {
+        "author": "FernandoTN",
+        "text": "That's great. It should actually be open source the details of how you approach this in order to improve security for the whole industry.\n@thsottiaux\n should definitely follow suit…\nIt's a shame the Claude subscription c...",
+        "likes": 6,
+        "url": "https://x.com/FernandoTN/status/2085861533301780611"
+      },
+      {
+        "author": "euler2074",
+        "text": "not disclosing that this was before the massive Luna auto-review update is predatory and dishonest",
+        "likes": 5,
+        "url": "https://x.com/euler2074/status/2085865879292567893"
+      }
+    ]
+  },
+  {
+    "name": "Ken W",
+    "handle": "kenw_2",
+    "role": "An old friend, stay curious, stay human.",
+    "avatar": "KW",
+    "summary": "X宣布即将停止现有的创作者收益分成计划，最后一笔低保的收益截止至2026年9月7日。\n从9月8日起，创作者可申请加入全新的原创内容奖励计划。\n新计划只奖励原创内容（比如个人想法、专业知识、报道、创意或有意义的评论），简单转发、重新上传或轻微修改的内容不再计入。\n创作者收益仍基于合格的Premium用户在首页时间线的展示量计算。\n申请条件：\n需订阅Premium会员、拥有500+已验证粉丝、过去90天内获得50万已验证展示量。\n获批后每两周发放一次收益。​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+    "summaryEn": "X宣布即将停止现有的创作者收益分成计划，最后一笔低保的收益截止至2026年9月7日。\n从9月8日起，创作者可申请加入全新的原创内容奖励计划。\n新计划只奖励原创内容（比如个人想法、专业知识、报道、创意或有意义的评论），简单转发、重新上传或轻微修改的内容不再计入。\n创作者收益仍基于合格的Premium用户在首页时间线的展示量计算。\n申请条件：\n需订阅Premium会员、拥有500+已验证粉丝、过去90天内获得50万已验证展示量。\n获批后每两周发放一次收益。​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+    "analysis": "这条动态最直接的信息是：X宣布即将停止现有的创作者收益分成计划，最后一笔低保的收益截止至2026年9月7日。 从9月8日起，创作者可申请加入全新的原创内容奖励计划。 新计划只奖励原创内容（比如个人想法、专业知识、报道、创意或有意义的评论），简单...。Ken W 的身份接近“An old friend, stay curious, stay human.”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+    "url": "https://x.com/kenw_2/status/2085847065389633866",
+    "verified": true,
+    "hotComments": []
+  },
+  {
+    "name": "Naval",
+    "handle": "naval",
+    "role": "Incompressible",
+    "avatar": "NA",
+    "summary": "The hierarchy of desire:\n- The fame\n- The money\n- The team\n- The product\n- The work itself",
+    "summaryEn": "The hierarchy of desire:\n- The fame\n- The money\n- The team\n- The product\n- The work itself",
+    "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：The hierarchy of desire: - The fame - The money - The team - The product - The work itself。Naval 的身份接近“Incompressible”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像需求结构在变，不只是做了个新功能，而是产品优先级和用户预期都在重排。很多时候，用户真正要的并不是更多功能，而是更少阻力。",
+    "url": "https://x.com/naval/status/2085821218784264586",
+    "verified": true,
+    "hotComments": [
+      {
+        "author": "Based_Benedict",
+        "text": "- Fame is achieved and you hate it\n- Money doesn’t actual make you happy\n- The team eventually breaks apart\n- The product becomes obsolete\n- The work itself changes",
+        "likes": 42,
+        "url": "https://x.com/Based_Benedict/status/2085822288830808177"
+      },
+      {
+        "author": "IamYackson07",
+        "text": "The higher you go, the less you need the money and the more you need a reason to care. That last one is the real flex.",
+        "likes": 17,
+        "url": "https://x.com/IamYackson07/status/2085831882751566283"
+      },
+      {
+        "author": "sacredism_com",
+        "text": "My hierarchy of desire:\n– Hyperfixation\n– Forgetting lunch\n– Hyperfixation\n– Forgetting dinner\n– The work itself, arriving at 3:40am, uninvited, staying",
+        "likes": 9,
+        "url": "https://x.com/sacredism_com/status/2085823093012844723"
+      }
+    ]
   },
   {
     "name": "今日总结",
     "handle": "daily_brief",
     "role": "Builder Daily",
     "avatar": "BD",
-    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
-    "summaryEn": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summaryEn": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "analysis": "",
     "url": "",
     "verified": false,
