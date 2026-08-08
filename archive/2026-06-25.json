@@ -353,9 +353,9 @@
     {
       "id": "2069803290444124287",
       "date": "2026-06-25",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "正在整理 1.1.0 的代码，马上到。",
       "summaryEn": "正在整理 1.1.0 的代码，马上到。",
@@ -364,16 +364,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2069797413850931353",
       "date": "2026-06-25",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "推荐一个最近爱用的 browser use 小技巧，非常丝滑。 我是那种浏览器一开就是几十上百个 tabs 的重度用户，而且还经常重复。 后来我在 Codex 里加了一个触发任务，每次锁屏/离线的时候，Codex 自动调用 browser use 清理并关闭多余、重复的 tabs，完全不用我手动操心。 这套路在 Codex 和 CC 里都能用，推荐一下。",
       "summaryEn": "推荐一个最近爱用的 browser use 小技巧，非常丝滑。 我是那种浏览器一开就是几十上百个 tabs 的重度用户，而且还经常重复。 后来我在 Codex 里加了一个触发任务，每次锁屏/离线的时候，Codex 自动调用 browser use 清理并关闭多余、重复的 tabs，完全不用我手动操心。 这套路在 Codex 和 CC 里都能用，推荐一下。",
@@ -383,7 +385,8 @@
       "hotComments": [],
       "topics": [
         "agent",
-        "product"
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },

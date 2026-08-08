@@ -6,8 +6,8 @@
     "business",
     "design",
     "enterprise",
-    "other",
-    "agent"
+    "product",
+    "other"
   ],
   "summary": "这一天的高频 Builder 信号集中在商业、设计、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
@@ -259,9 +259,9 @@
     {
       "id": "2081593772065079721",
       "date": "2026-07-27",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "哈，Skill Hub 上周随手发了一下，当天 UV 500+，看来是小刚需。 其他 Skill Hub 拼收录数量，而我们让 Skill 在真实使用中持续进化，并用 benchmark 证明它真的有效果。 Meet EverMind Skill Hub, a measured capability layer for AI agents. We aggregated 800K+ raw SKILL.md files and cura...",
       "summaryEn": "哈，Skill Hub 上周随手发了一下，当天 UV 500+，看来是小刚需。 其他 Skill Hub 拼收录数量，而我们让 Skill 在真实使用中持续进化，并用 benchmark 证明它真的有效果。 Meet EverMind Skill Hub, a measured capability layer for AI agents. We aggregated 800K+ raw SKILL.md files and cura...",
@@ -271,7 +271,8 @@
       "hotComments": [],
       "topics": [
         "agent",
-        "model"
+        "model",
+        "product"
       ],
       "primaryTopic": "agent"
     },

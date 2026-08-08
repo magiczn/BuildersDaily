@@ -4,12 +4,12 @@
   "postCount": 43,
   "topTopics": [
     "model",
+    "product",
     "agent",
     "design",
-    "product",
     "other"
   ],
-  "summary": "这一天的高频 Builder 信号集中在模型、Agents、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在模型、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2075125320521310589",
     "2074965201133375940",
@@ -776,9 +776,9 @@
     {
       "id": "2074834352165564457",
       "date": "2026-07-09",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "Bro 有品味 (社区的作品） https:// github.com/EverMind-AI/ra ven …",
       "summaryEn": "Bro 有品味 (社区的作品） https:// github.com/EverMind-AI/ra ven …",
@@ -787,16 +787,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2074781116066849232",
       "date": "2026-07-09",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "Raven 今天到了 1,000 GitHub stars。 对我们来说，这不是终点，更像是第一次被更多人看见。 最近很多朋友问：Raven 作为一个 agent harness，到底和普通的 “LLM + tools + loop” 有什么不同？ 我来解释一下： 最核心的一点是：Raven 不只是等用户输入。它有一套 Proactive In just one week, Raven crossed 1,000 GitHub sta...",
       "summaryEn": "Raven 今天到了 1,000 GitHub stars。 对我们来说，这不是终点，更像是第一次被更多人看见。 最近很多朋友问：Raven 作为一个 agent harness，到底和普通的 “LLM + tools + loop” 有什么不同？ 我来解释一下： 最核心的一点是：Raven 不只是等用户输入。它有一套 Proactive In just one week, Raven crossed 1,000 GitHub sta...",
@@ -806,16 +808,17 @@
       "hotComments": [],
       "topics": [
         "agent",
-        "product"
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2074776942143009279",
       "date": "2026-07-09",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "置身「鸭」内，即将到来，请期待期待。 https:// github.com/EverMind-AI/Ra ven … 继置身钉内、置身米内，前小红书员工撰写的置身薯内也来了。 作者说他的领导突然离开，被新空降的所代替，不久后也就是在发年终奖的前几天被通知裁员，同时原承诺的期权也没有归属，如果不接受，离职证明会写是被辞退的。",
       "summaryEn": "置身「鸭」内，即将到来，请期待期待。 https:// github.com/EverMind-AI/Ra ven … 继置身钉内、置身米内，前小红书员工撰写的置身薯内也来了。 作者说他的领导突然离开，被新空降的所代替，不久后也就是在发年终奖的前几天被通知裁员，同时原承诺的期权也没有归属，如果不接受，离职证明会写是被辞退的。",
@@ -824,7 +827,9 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     }

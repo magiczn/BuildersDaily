@@ -1,40 +1,40 @@
 [
   {
     "date": "2026-08-08",
-    "builderCount": 13,
-    "postCount": 18,
+    "builderCount": 16,
+    "postCount": 24,
     "topTopics": [
       "product",
       "media",
       "model",
-      "design",
-      "agent"
+      "agent",
+      "design"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2085936997659496751",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：@OpenAI 造了一个强到自己都要踩刹车的模型，Astra，对标 @AnthropicAI 的Mythos， OpenAI管它叫Preparedness Framework下第一个\"Critical\"级别的网络安全模型...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
+        "id": "2086058840433250448",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Sergey Brin，2400亿美元身家，全球第三富，2019年就退休了。 现在他接管了Gemini，每周3到4天回Google办公室写代码。 不是挂个名开开会，是真的写代码、看loss curve、参与招聘、坐在工程...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
         "handle": "AYi_AInotes",
         "name": "AYi",
         "topic": "product",
-        "url": "https://x.com/AYi_AInotes/status/2085936997659496751"
+        "url": "https://x.com/AYi_AInotes/status/2086058840433250448"
       },
       {
-        "id": "2085860025919230166",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Claude支持会话之间互相发消息了： 1，你可以问当前会话其他对话的信息，把其他对话的信息整合到当前会话。这倒没什么难度，类似compact然后把总结带过来。 New in Claude Code: your sess...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连…",
-        "handle": "Gorden_Sun",
-        "name": "Gorden Sun",
+        "id": "2086054476583236059",
+        "text": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：What I like about this answer is the nuance. Yann isn’t dismissing LLMs. He thinks they are incredibly useful...。Elliot - 艾略特 的身份接近“Building Raven at @E…",
+        "handle": "elliotchen100",
+        "name": "Elliot - 艾略特",
         "topic": "product",
-        "url": "https://x.com/Gorden_Sun/status/2085860025919230166"
+        "url": "https://x.com/elliotchen100/status/2086054476583236059"
       },
       {
-        "id": "2085878722000040006",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Bro this is how they’re going to plan their escape New in Claude Code: your sessions can now message each othe...。Aaron Levie 的身份接近“ceo @box - your busine…",
-        "handle": "levie",
-        "name": "Aaron Levie",
+        "id": "2085807103382519872",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：The team and I use Auto mode exclusively, and have been for many months. I couldn't imagine going back to perm...。Boris Cherny 的身份接近“Claude Code @anthropi…",
+        "handle": "bcherny",
+        "name": "Boris Cherny",
         "topic": "product",
-        "url": "https://x.com/levie/status/2085878722000040006"
+        "url": "https://x.com/bcherny/status/2085807103382519872"
       }
     ]
   },
@@ -44,12 +44,12 @@
     "postCount": 11,
     "topTopics": [
       "other",
-      "media",
-      "agent",
       "product",
-      "design"
+      "agent",
+      "media",
+      "model"
     ],
-    "summary": "这一天的高频 Builder 信号集中在内容与媒体、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在产品、Agents、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2085563808773189680",
@@ -63,15 +63,15 @@
         "id": "2085517360178585951",
         "text": "昨天卖了个关子，今天可以公布了，新论文叫 CRAFT。 论文里最喜欢的一点，是它不用提前知道用户会问什么。视频压一次，后面换不同的问题，继续用同一份压缩结果。 这对 AI 眼镜很关键。设备不能等你每问一句，再把整段视频从头算一遍。它得先把看过的内容压下来，需要时再拿出来。 约 8× Another paper from us, this time on v…",
         "handle": "elliotchen100",
-        "name": "艾略特",
-        "topic": "media",
+        "name": "Elliot - 艾略特",
+        "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2085517360178585951"
       },
       {
         "id": "2085354433286963623",
         "text": "这些球类 Agents 思考/计划/执行的动效真好看， 要加进 EverOS 的 CLI 里面。 More types added to the Thinking Orbs library. Large and small sizes, light & dark mode, playground, zero dep http:// orbs.jakuban…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2085354433286963623"
       }
@@ -149,7 +149,7 @@
         "id": "2084832796045152739",
         "text": "一直知道 Notebook LM 是很多人用来做 deep research 然后生成 PPT 学习，没想到 YouMind 在这块做得也非常好。 果然，“彦祖所见略同”。 EverMe 月底要上线的版本也有 deep research， 是我们自己的基模 @miromind_ai 的 MiroThinker 模型。 我们也能生成 PPT 用来学习。 一句…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2084832796045152739"
       }
@@ -172,7 +172,7 @@
         "id": "2084428932888375396",
         "text": "看过的对 harness 最通俗易懂的解读，没有之一。 把 agent 比作研发师，把 harness 比作厨房，要做好蛋糕，是 agent 重要还是 harness 重要？ 形象解读 Harness，小白也能理解。 一个厉害的研发师，可以在实验室做出一块很好吃的蛋糕。但把它变成商业化产品，难点不是照着配方再做一次，而是换一批原料、换一台设备、换一个操作员…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2084428932888375396"
       },
@@ -318,11 +318,11 @@
     "topTopics": [
       "design",
       "model",
-      "agent",
       "product",
+      "agent",
       "business"
     ],
-    "summary": "这一天的高频 Builder 信号集中在设计、模型、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2082723751515521116",
@@ -358,7 +358,8 @@
       "other",
       "design",
       "enterprise",
-      "agent"
+      "agent",
+      "product"
     ],
     "summary": "这一天的高频 Builder 信号集中在设计、企业 AI、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
@@ -374,7 +375,7 @@
         "id": "2082242420369191271",
         "text": "昨晚很荣幸，和慕尼黑大学的 Peter Gritzmann 教授、南京大学的 Xiaolin Xu 教授一起，受邀参加筑波大学的一场线上圆桌。 朱東浩老师很有号召力，现场来了不少朋友。到了 Q&A 环节，有位观众问了一个让我印象很深的问题： 在 AI Agents",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2082242420369191271"
       }
@@ -427,8 +428,8 @@
       "business",
       "design",
       "enterprise",
-      "other",
-      "agent"
+      "product",
+      "other"
     ],
     "summary": "这一天的高频 Builder 信号集中在商业、设计、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
@@ -444,7 +445,7 @@
         "id": "2081593772065079721",
         "text": "哈，Skill Hub 上周随手发了一下，当天 UV 500+，看来是小刚需。 其他 Skill Hub 拼收录数量，而我们让 Skill 在真实使用中持续进化，并用 benchmark 证明它真的有效果。 Meet EverMind Skill Hub, a measured capability layer for AI agents. We aggr…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2081593772065079721"
       },
@@ -466,8 +467,8 @@
       "business",
       "design",
       "enterprise",
-      "agent",
-      "model"
+      "model",
+      "agent"
     ],
     "summary": "这一天的高频 Builder 信号集中在商业、设计、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
@@ -1021,7 +1022,7 @@
         "id": "2076088281738223943",
         "text": "当都以为 AI 抢就业的时候，Sam 说没有。 我觉得最重要的不是“净创造就业”，而是“至少目前”。 AI 会不会最终创造更多工作，不只看它替代了多少任务，更看效率提升后能不能打开更多需求。原本做不起的产品和服务一旦变得可行，就可能出现新公司、新岗位；如果只是让更少的人完成同样的事，就业机会反而会收缩。 现在下结论还早。比岗位总数更值得看的，是这些新机会有…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2076088281738223943"
       },
@@ -1127,12 +1128,12 @@
     "postCount": 43,
     "topTopics": [
       "model",
+      "product",
       "agent",
       "design",
-      "product",
       "other"
     ],
-    "summary": "这一天的高频 Builder 信号集中在模型、Agents、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在模型、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2075125320521310589",
@@ -1167,11 +1168,11 @@
     "topTopics": [
       "model",
       "design",
-      "agent",
       "product",
+      "agent",
       "business"
     ],
-    "summary": "这一天的高频 Builder 信号集中在模型、设计、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2074736781858390368",
@@ -1193,7 +1194,7 @@
         "id": "2074493311046607113",
         "text": "EverOS 1.1.1 发布了。 这版主要是评测质量的 release。 我们之前跑 LoCoMo 测评是直接 93.05% 的 SOTA。 后来发现不少朋友在跑的时候，不容易出现 93.05%，经常是在 90% 上下。 这版本经过我们反复测试，能稳定复现 93%。 欢迎测试哈，测不到，寄礼物给你。 EverOS v1.1.1 is live. A sm…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2074493311046607113"
       }
@@ -1205,12 +1206,12 @@
     "postCount": 66,
     "topTopics": [
       "design",
-      "agent",
-      "product",
       "model",
+      "product",
+      "agent",
       "other"
     ],
-    "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2074292686526566637",
@@ -1555,19 +1556,19 @@
     "builderCount": 2,
     "postCount": 3,
     "topTopics": [
-      "design",
       "model",
       "business",
+      "design",
       "agent",
-      "enterprise"
+      "product"
     ],
-    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在模型、商业、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2071021724066550022",
         "text": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。 bro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。 用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。 延迟低，效果激情，有创意。 i tried building an AI…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2071021724066550022"
       },
@@ -1606,7 +1607,7 @@
         "id": "2070699350217592974",
         "text": "也许市场根本不给 6 个月，我们也是学术，研发，产品，设计，运营多管旗下。 但这个节奏下，要保证学术成绩，代码质量，产品体验甚至是设计品味会很难，万幸的是团队氛围很好，大家都想把这事儿落地做成。 也可以期待下我们马上要发布的 Raven，一个 Memory-first 超强自进化 Agent。 今天giac，特意看了EverOS，之前只觉得是做长期记忆的，…",
         "handle": "elliotchen100",
-        "name": "艾略特",
+        "name": "Elliot - 艾略特",
         "topic": "agent",
         "url": "https://x.com/elliotchen100/status/2070699350217592974"
       },
@@ -1869,11 +1870,11 @@
     "topTopics": [
       "agent",
       "product",
-      "design",
       "model",
+      "design",
       "business"
     ],
-    "summary": "这一天的高频 Builder 信号集中在Agents、产品、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在Agents、产品、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2067858349727613271",
@@ -1946,12 +1947,12 @@
     "postCount": 40,
     "topTopics": [
       "design",
-      "media",
       "model",
+      "media",
       "business",
       "product"
     ],
-    "summary": "这一天的高频 Builder 信号集中在设计、内容与媒体、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2067127517882859655",
@@ -2103,11 +2104,11 @@
     "topTopics": [
       "design",
       "agent",
-      "business",
       "model",
+      "business",
       "enterprise"
     ],
-    "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2065506744642781566",

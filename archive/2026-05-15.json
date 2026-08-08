@@ -1558,9 +1558,9 @@
     {
       "id": "2055093191179960703",
       "date": "2026-05-15",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "Memory 的用法～ 昨天聊了 EarthOnline，今天接着推一个，Golutra。 EverMind 社区一个 bro 写的开源项目，Win / Mac / Linux 都装得上，github 3.5K star，v0.2.0 刚发出来。 最特别的是它把多智能体做成了 「Agent 版 Slack」。一个工作台里有频道，有 DM，agent 有在线状态。 你可以在",
       "summaryEn": "Memory 的用法～ 昨天聊了 EarthOnline，今天接着推一个，Golutra。 EverMind 社区一个 bro 写的开源项目，Win / Mac / Linux 都装得上，github 3.5K star，v0.2.0 刚发出来。 最特别的是它把多智能体做成了 「Agent 版 Slack」。一个工作台里有频道，有 DM，agent 有在线状态。 你可以在",
@@ -1570,16 +1570,17 @@
       "hotComments": [],
       "topics": [
         "agent",
-        "design"
+        "design",
+        "product"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2055093194057253349",
       "date": "2026-05-15",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "(No text captured)",
       "summaryEn": "(No text captured)",
@@ -1588,7 +1589,9 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },

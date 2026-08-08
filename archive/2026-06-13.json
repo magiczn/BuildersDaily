@@ -5,11 +5,11 @@
   "topTopics": [
     "design",
     "agent",
-    "business",
     "model",
+    "business",
     "enterprise"
   ],
-  "summary": "这一天的高频 Builder 信号集中在设计、Agents、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在设计、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2065506744642781566",
     "2065627870597153128",
@@ -19,9 +19,9 @@
     {
       "id": "2065709209384296481",
       "date": "2026-06-13",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "AI memory 最大的问题可能不是「忘了」，而是「串了」。 多人协作里，A 对 B 说过的话、C 后来改过的决定、某个群里的临时共识，都不能被压成一段统一记忆。 这次 EverMind 两篇 memory 相关工作入选 KDD 2026 Oral，我觉得意义不只是发了论文，而是说明我们在持续把这个问题做成可评测、可复现、可推进的技术方向。 长期记忆真正难的地方，是关系和版本，而不只是容量。 We are honored to an...",
       "summaryEn": "AI memory 最大的问题可能不是「忘了」，而是「串了」。 多人协作里，A 对 B 说过的话、C 后来改过的决定、某个群里的临时共识，都不能被压成一段统一记忆。 这次 EverMind 两篇 memory 相关工作入选 KDD 2026 Oral，我觉得意义不只是发了论文，而是说明我们在持续把这个问题做成可评测、可复现、可推进的技术方向。 长期记忆真正难的地方，是关系和版本，而不只是容量。 We are honored to an...",
@@ -30,16 +30,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2065621636553023594",
       "date": "2026-06-13",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "新加坡的物价有点贵， 一碗牛肉面 + 5 个牛肉串， 接近 200 RMB 了。 这个搭配，在国内任何城市， 100 RMB 就搞定了。",
       "summaryEn": "新加坡的物价有点贵， 一碗牛肉面 + 5 个牛肉串， 接近 200 RMB 了。 这个搭配，在国内任何城市， 100 RMB 就搞定了。",
@@ -48,16 +50,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2065620888444416351",
       "date": "2026-06-13",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "「今年是记忆的元年」这是昨天听到最让我开心的一句话。 非常荣幸受邀参加非凡大赏的圆桌，与几位老师一起深入交流了 Agent 的记忆、架构与未来。 只要做 Agent，就绕不开记忆：如果用好记忆， 可以让 Agent 更主动 可以让 Agent 更好用 可以让 Agent 自我进化 可以让 Agent 更有一种「妈生感」 收获很多，也再次感谢 @ZixuanLi_ 的精彩主持。",
       "summaryEn": "「今年是记忆的元年」这是昨天听到最让我开心的一句话。 非常荣幸受邀参加非凡大赏的圆桌，与几位老师一起深入交流了 Agent 的记忆、架构与未来。 只要做 Agent，就绕不开记忆：如果用好记忆， 可以让 Agent 更主动 可以让 Agent 更好用 可以让 Agent 自我进化 可以让 Agent 更有一种「妈生感」 收获很多，也再次感谢 @ZixuanLi_ 的精彩主持。",
@@ -66,7 +70,9 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },

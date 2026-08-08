@@ -4,12 +4,12 @@
   "postCount": 40,
   "topTopics": [
     "design",
-    "media",
     "model",
+    "media",
     "business",
     "product"
   ],
-  "summary": "这一天的高频 Builder 信号集中在设计、内容与媒体、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2067127517882859655",
     "2067091465675866126",
@@ -599,9 +599,9 @@
     {
       "id": "2067047707739607386",
       "date": "2026-06-17",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "昨天升级了一下。 EverOS 1.0.1 主要做了本地记忆持久化的路径安全加固： 收紧外部传入 ID 的校验，并在底层 Markdown 写入层增加 memory root 边界保护，确保本地记忆文件始终写在预期目录内。 本地优先的 memory，边界感很重要。 EverOS 1.0.1 is here. It focuses on path-safety hardening for local-first memory persi...",
       "summaryEn": "昨天升级了一下。 EverOS 1.0.1 主要做了本地记忆持久化的路径安全加固： 收紧外部传入 ID 的校验，并在底层 Markdown 写入层增加 memory root 边界保护，确保本地记忆文件始终写在预期目录内。 本地优先的 memory，边界感很重要。 EverOS 1.0.1 is here. It focuses on path-safety hardening for local-first memory persi...",
@@ -611,7 +611,8 @@
       "hotComments": [],
       "topics": [
         "agent",
-        "infrastructure"
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },

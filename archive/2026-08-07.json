@@ -4,12 +4,12 @@
   "postCount": 11,
   "topTopics": [
     "other",
-    "media",
-    "agent",
     "product",
-    "design"
+    "agent",
+    "media",
+    "model"
   ],
-  "summary": "这一天的高频 Builder 信号集中在内容与媒体、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在产品、Agents、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2085563808773189680",
     "2085517360178585951",
@@ -39,9 +39,9 @@
     {
       "id": "2085517360178585951",
       "date": "2026-08-07",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "昨天卖了个关子，今天可以公布了，新论文叫 CRAFT。 论文里最喜欢的一点，是它不用提前知道用户会问什么。视频压一次，后面换不同的问题，继续用同一份压缩结果。 这对 AI 眼镜很关键。设备不能等你每问一句，再把整段视频从头算一遍。它得先把看过的内容压下来，需要时再拿出来。 约 8× Another paper from us, this time on video token compression. Video VLMs have ...",
       "summaryEn": "昨天卖了个关子，今天可以公布了，新论文叫 CRAFT。 论文里最喜欢的一点，是它不用提前知道用户会问什么。视频压一次，后面换不同的问题，继续用同一份压缩结果。 这对 AI 眼镜很关键。设备不能等你每问一句，再把整段视频从头算一遍。它得先把看过的内容压下来，需要时再拿出来。 约 8× Another paper from us, this time on video token compression. Video VLMs have ...",
@@ -50,18 +50,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "media",
         "agent",
+        "media",
         "product"
       ],
-      "primaryTopic": "media"
+      "primaryTopic": "agent"
     },
     {
       "id": "2085354433286963623",
       "date": "2026-08-07",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "这些球类 Agents 思考/计划/执行的动效真好看， 要加进 EverOS 的 CLI 里面。 More types added to the Thinking Orbs library. Large and small sizes, light & dark mode, playground, zero dep http:// orbs.jakubantalik.com npm install thinking-orbs Huge...",
       "summaryEn": "这些球类 Agents 思考/计划/执行的动效真好看， 要加进 EverOS 的 CLI 里面。 More types added to the Thinking Orbs library. Large and small sizes, light & dark mode, playground, zero dep http:// orbs.jakubantalik.com npm install thinking-orbs Huge...",
@@ -70,7 +70,9 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },

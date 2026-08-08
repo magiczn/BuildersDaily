@@ -975,9 +975,9 @@
     {
       "id": "2062268613273518280",
       "date": "2026-06-04",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "(No text captured)",
       "summaryEn": "(No text captured)",
@@ -986,16 +986,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2062268602380915053",
       "date": "2026-06-04",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "我们的开源库 EverOS 最近做了一次大重构，开发者体验也完成了从“拉”到“夯”的转变。 以前做 AI memory，经常是在数据库、向量库、索引同步、依赖环境之间来回排查。 记忆到底存在哪？为什么没召回？索引是不是坏了？很多时候都不直观。 新版 EverOS 直接把原始记忆放进 Markdown。 开发者可以像看代码一样看 memory：打开文件、搜索文本、看 Git diff、手动修正，必要时直接删除并重建索引。 整个架构也更清...",
       "summaryEn": "我们的开源库 EverOS 最近做了一次大重构，开发者体验也完成了从“拉”到“夯”的转变。 以前做 AI memory，经常是在数据库、向量库、索引同步、依赖环境之间来回排查。 记忆到底存在哪？为什么没召回？索引是不是坏了？很多时候都不直观。 新版 EverOS 直接把原始记忆放进 Markdown。 开发者可以像看代码一样看 memory：打开文件、搜索文本、看 Git diff、手动修正，必要时直接删除并重建索引。 整个架构也更清...",
@@ -1006,16 +1008,16 @@
       "topics": [
         "agent",
         "product",
-        "infrastructure"
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2062196598441177376",
       "date": "2026-06-04",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "表面上是 Claude Code 能自己生成 workflow，往深一层看，是 agent 产品的控制面在变化。 过去我们把复杂任务塞进一个长 context，期待模型自己记住目标、拆步骤、判断完成；现在这些东西开始外化成可执行的 harness。 真正重要的不是并行几个 subagents，而是任务结构、权限边界、验证机制和 stop condition，正在变成 agent 产品的一部分。",
       "summaryEn": "表面上是 Claude Code 能自己生成 workflow，往深一层看，是 agent 产品的控制面在变化。 过去我们把复杂任务塞进一个长 context，期待模型自己记住目标、拆步骤、判断完成；现在这些东西开始外化成可执行的 harness。 真正重要的不是并行几个 subagents，而是任务结构、权限边界、验证机制和 stop condition，正在变成 agent 产品的一部分。",

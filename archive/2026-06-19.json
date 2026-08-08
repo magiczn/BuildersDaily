@@ -5,11 +5,11 @@
   "topTopics": [
     "agent",
     "product",
-    "design",
     "model",
+    "design",
     "business"
   ],
-  "summary": "这一天的高频 Builder 信号集中在Agents、产品、设计。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在Agents、产品、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2067858349727613271",
     "2067815746391224382",
@@ -1127,9 +1127,9 @@
     {
       "id": "2067591174354096448",
       "date": "2026-06-19",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "这是新来的设计师设计得，他叫 Codex. New GitHub repo banner just dropped and I’m obsessed",
       "summaryEn": "这是新来的设计师设计得，他叫 Codex. New GitHub repo banner just dropped and I’m obsessed",
@@ -1139,16 +1139,17 @@
       "hotComments": [],
       "topics": [
         "agent",
-        "design"
+        "design",
+        "product"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2067566071213883531",
       "date": "2026-06-19",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "记忆很靠谱，游戏很精致 \"额滴神啊——\" 同福客栈20年了。2006年那个暑假 郭芙蓉冲进来就排山倒海。吕秀才说子曾经曰过。白展堂缩在墙角，一听\"六扇门\"就抖。 那年夏天，我把83集刷完了，坐在电视前不知道干什么。想着：要是能进去就好了。 所以我真的把它搬进来了。",
       "summaryEn": "记忆很靠谱，游戏很精致 \"额滴神啊——\" 同福客栈20年了。2006年那个暑假 郭芙蓉冲进来就排山倒海。吕秀才说子曾经曰过。白展堂缩在墙角，一听\"六扇门\"就抖。 那年夏天，我把83集刷完了，坐在电视前不知道干什么。想着：要是能进去就好了。 所以我真的把它搬进来了。",
@@ -1157,7 +1158,9 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     }

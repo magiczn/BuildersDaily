@@ -5,11 +5,11 @@
   "topTopics": [
     "model",
     "design",
-    "agent",
     "product",
+    "agent",
     "business"
   ],
-  "summary": "这一天的高频 Builder 信号集中在模型、设计、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在模型、设计、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2074736781858390368",
     "2074638582418231495",
@@ -895,9 +895,9 @@
     {
       "id": "2074646616422982011",
       "date": "2026-07-08",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "这两天，Codex 5.5 extra high + fast speed， 速度很快啊，体感比前两周快了有两倍了吧。",
       "summaryEn": "这两天，Codex 5.5 extra high + fast speed， 速度很快啊，体感比前两周快了有两倍了吧。",
@@ -906,16 +906,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2074641415066525901",
       "date": "2026-07-08",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "推荐一个语音包，挺好玩的，开源，免费。 配置给你的 Codex/CC/其他 Agents，完成状态的时候会有音效。 截图是「魔兽争霸」兽族经典的 work work。 也支持其他语言和游戏的音效提示，「王者荣耀」也有。 支持 brew 一键安装。 https:// github.com/PeonPing/peon- ping …",
       "summaryEn": "推荐一个语音包，挺好玩的，开源，免费。 配置给你的 Codex/CC/其他 Agents，完成状态的时候会有音效。 截图是「魔兽争霸」兽族经典的 work work。 也支持其他语言和游戏的音效提示，「王者荣耀」也有。 支持 brew 一键安装。 https:// github.com/PeonPing/peon- ping …",
@@ -924,16 +926,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2074493311046607113",
       "date": "2026-07-08",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "EverOS 1.1.1 发布了。 这版主要是评测质量的 release。 我们之前跑 LoCoMo 测评是直接 93.05% 的 SOTA。 后来发现不少朋友在跑的时候，不容易出现 93.05%，经常是在 90% 上下。 这版本经过我们反复测试，能稳定复现 93%。 欢迎测试哈，测不到，寄礼物给你。 EverOS v1.1.1 is live. A small release focused on measurable memory...",
       "summaryEn": "EverOS 1.1.1 发布了。 这版主要是评测质量的 release。 我们之前跑 LoCoMo 测评是直接 93.05% 的 SOTA。 后来发现不少朋友在跑的时候，不容易出现 93.05%，经常是在 90% 上下。 这版本经过我们反复测试，能稳定复现 93%。 欢迎测试哈，测不到，寄礼物给你。 EverOS v1.1.1 is live. A small release focused on measurable memory...",
@@ -942,16 +946,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2074486274925490308",
       "date": "2026-07-08",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "这篇很值得讲，强推荐。 最近 recursive 这个词又出来了，所以 recursive self-improvement 就火了。 它不太会先表现为模型直接改自己的权重，而更可能发生在 harness 这一层，也就是模型外面的运行时系统：工具调用、上下文管理、文件系统记忆、子代理、工作流、评估、权限控制等。 AI new post on harness engineering for AI self-improvement: ht...",
       "summaryEn": "这篇很值得讲，强推荐。 最近 recursive 这个词又出来了，所以 recursive self-improvement 就火了。 它不太会先表现为模型直接改自己的权重，而更可能发生在 harness 这一层，也就是模型外面的运行时系统：工具调用、上下文管理、文件系统记忆、子代理、工作流、评估、权限控制等。 AI new post on harness engineering for AI self-improvement: ht...",
@@ -969,9 +975,9 @@
     {
       "id": "2074437064775393634",
       "date": "2026-07-08",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "发现一个有意思的设计， @HuggingFace 上 datasets 的下载量，展示的是「过去 30 天」，且页面没有入口可以看全量下载数。 其实，「过去 30 天」 才是更接近现实的信号。 全量下载数算「虚荣指标」：只增不减，容易被拿来做营销，却不代表当前真实活跃度。 「过去 30 天」才是更接近现实的信号。 当然，也有办法拿到全量下载数： curl -sS ' https:// huggingface.co/api/datase...",
       "summaryEn": "发现一个有意思的设计， @HuggingFace 上 datasets 的下载量，展示的是「过去 30 天」，且页面没有入口可以看全量下载数。 其实，「过去 30 天」 才是更接近现实的信号。 全量下载数算「虚荣指标」：只增不减，容易被拿来做营销，却不代表当前真实活跃度。 「过去 30 天」才是更接近现实的信号。 当然，也有办法拿到全量下载数： curl -sS ' https:// huggingface.co/api/datase...",
@@ -982,16 +988,16 @@
       "topics": [
         "agent",
         "design",
-        "infrastructure"
+        "product"
       ],
       "primaryTopic": "agent"
     },
     {
       "id": "2074437066688192895",
       "date": "2026-07-08",
-      "name": "艾略特",
+      "name": "Elliot - 艾略特",
       "handle": "elliotchen100",
-      "role": "Raven: the deepthinking self-improving agent harness",
+      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "(No text captured)",
       "summaryEn": "(No text captured)",
@@ -1000,7 +1006,9 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "agent"
+        "agent",
+        "product",
+        "model"
       ],
       "primaryTopic": "agent"
     },
