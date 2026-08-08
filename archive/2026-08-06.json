@@ -1,19 +1,19 @@
 {
   "date": "2026-08-06",
-  "builderCount": 10,
-  "postCount": 16,
+  "builderCount": 11,
+  "postCount": 39,
   "topTopics": [
-    "product",
+    "business",
     "design",
     "model",
-    "media",
-    "business"
+    "other",
+    "enterprise"
   ],
-  "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+  "summary": "这一天的高频 Builder 信号集中在商业、设计、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
-    "2085200776159490111",
-    "2085203402699821505",
-    "2085208566177071356"
+    "2085208566177071356",
+    "2085199278583263501",
+    "2085210550372302958"
   ],
   "posts": [
     {
@@ -23,16 +23,16 @@
       "handle": "AYi_AInotes",
       "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
       "avatar": "阿A",
-      "summary": "昨晚马斯克一句话，内存空头的尸首都快堆到交易所门口了。\n他在 SpaceX Q2 财报会上扔的原话，没有一句废话：\n现在内存供给每年涨 20%，放任何传统行业都是神迹级增速；但 AI 对内存的需求每年涨 200% 都打不住。\n供给涨 20%，需求翻两倍多，经济学 101 就告诉你：这东西价格只会涨，不会跌。\n大家都在刷SpaceX上市首份财报，没人注意Musk扔的王炸：@SpaceX 要把AI数据中心搬到太空去，\n而且不是科幻和概念PPT，\n明年就开始发射。\n就在昨天的财报电话会上，\nMusk直接宣布：\nSpaceX未来所有的AI算力，\n不管是地面数据中心还是轨道上的，\n独家使用Nvidia最新的Vera Rubin架构。  x.com/elonmusk/statu…",
-      "summaryEn": "昨晚马斯克一句话，内存空头的尸首都快堆到交易所门口了。\n他在 SpaceX Q2 财报会上扔的原话，没有一句废话：\n现在内存供给每年涨 20%，放任何传统行业都是神迹级增速；但 AI 对内存的需求每年涨 200% 都打不住。\n供给涨 20%，需求翻两倍多，经济学 101 就告诉你：这东西价格只会涨，不会跌。\n大家都在刷SpaceX上市首份财报，没人注意Musk扔的王炸：@SpaceX 要把AI数据中心搬到太空去，\n而且不是科幻和概念PPT，\n明年就开始发射。\n就在昨天的财报电话会上，\nMusk直接宣布：\nSpaceX未来所有的AI算力，\n不管是地面数据中心还是轨道上的，\n独家使用Nvidia最新的Vera Rubin架构。  x.com/elonmusk/statu…",
-      "analysis": "这条动态最直接的信息是：昨晚马斯克一句话，内存空头的尸首都快堆到交易所门口了。 他在 SpaceX Q2 财报会上扔的原话，没有一句废话： 现在内存供给每年涨 20%，放任何传统行业都是神迹级增速；但 AI 对内存的需求每年涨 200% 都打不...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+      "summary": "昨晚马斯克一句话，内存空头的尸首都快堆到交易所门口了。 他在 SpaceX Q2 财报会上扔的原话，没有一句废话： 现在内存供给每年涨 20%，放任何传统行业都是神迹级增速；但 AI 对内存的需求每年涨 200% 都打不住。 供给涨 20%，需求翻两倍多，经济学 101 就告诉你：这东西价格只会涨，不会跌。 大家都在刷SpaceX上市首份财报，没人注意Musk扔的王炸：@SpaceX 要把AI数据中心搬到太空去， 而且不是科幻和概念P...",
+      "summaryEn": "昨晚马斯克一句话，内存空头的尸首都快堆到交易所门口了。 他在 SpaceX Q2 财报会上扔的原话，没有一句废话： 现在内存供给每年涨 20%，放任何传统行业都是神迹级增速；但 AI 对内存的需求每年涨 200% 都打不住。 供给涨 20%，需求翻两倍多，经济学 101 就告诉你：这东西价格只会涨，不会跌。 大家都在刷SpaceX上市首份财报，没人注意Musk扔的王炸：@SpaceX 要把AI数据中心搬到太空去， 而且不是科幻和概念P...",
+      "analysis": "",
       "url": "https://x.com/AYi_AInotes/status/2085210550372302958",
       "verified": true,
       "hotComments": [],
       "topics": [
         "business",
         "design",
-        "infrastructure"
+        "enterprise"
       ],
       "primaryTopic": "business"
     },
@@ -43,18 +43,178 @@
       "handle": "AYi_AInotes",
       "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
       "avatar": "阿A",
-      "summary": "突发：DeepSeek刚宣布要大幅涨价了！\n网友：梁圣要变小梁了吗\n不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。\n目前，DeepSeek-V4-Flash的价格为：\n输入（缓存命中）0.02元/百万tokens；\n为什么是梁文锋做成了 DeepSeek？答案其实就在在他 2011 年发的一条微博里。\n梁文锋早期微博被扒这个事最近外网内网都很火，全网都在玩 程序小王子的梗，\n看了一圈感觉没人说透最关键的一层：为什么是 梁文锋？为什么DeepSeek在全球 AI 竞赛里硬生生杀出一条血路？\n其实答案就藏在 2011  x.com/AYi_AInotes/st…",
-      "summaryEn": "突发：DeepSeek刚宣布要大幅涨价了！\n网友：梁圣要变小梁了吗\n不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。\n目前，DeepSeek-V4-Flash的价格为：\n输入（缓存命中）0.02元/百万tokens；\n为什么是梁文锋做成了 DeepSeek？答案其实就在在他 2011 年发的一条微博里。\n梁文锋早期微博被扒这个事最近外网内网都很火，全网都在玩 程序小王子的梗，\n看了一圈感觉没人说透最关键的一层：为什么是 梁文锋？为什么DeepSeek在全球 AI 竞赛里硬生生杀出一条血路？\n其实答案就藏在 2011  x.com/AYi_AInotes/st…",
-      "analysis": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：突发：DeepSeek刚宣布要大幅涨价了！ 网友：梁圣要变小梁了吗 不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正拉开差距的，往往不是模型本身，而是支付、集成、部署这些最影响交付效率的脏活。越靠近生产环境，越能看出基础设施的重要性。",
+      "summary": "突发：DeepSeek刚宣布要大幅涨价了！ 网友：梁圣要变小梁了吗 不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。 目前，DeepSeek-V4-Flash的价格为： 输入（缓存命中）0.02元/百万tokens； 为什么是梁文锋做成了 DeepSeek？答案其实就在在他 2011 年发的一条微博里。 梁文锋早期微博被扒这个事最近...",
+      "summaryEn": "突发：DeepSeek刚宣布要大幅涨价了！ 网友：梁圣要变小梁了吗 不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。 目前，DeepSeek-V4-Flash的价格为： 输入（缓存命中）0.02元/百万tokens； 为什么是梁文锋做成了 DeepSeek？答案其实就在在他 2011 年发的一条微博里。 梁文锋早期微博被扒这个事最近...",
+      "analysis": "",
       "url": "https://x.com/AYi_AInotes/status/2085208566177071356",
       "verified": true,
       "hotComments": [],
       "topics": [
-        "model",
         "business",
+        "model",
         "design"
       ],
-      "primaryTopic": "model"
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2085192267266949230",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "物理学家 18 年前就算出了飞机最快登机方法，能把登机时间砍一半，结果到今天没有一家航空公司真的用。 方法说穿了特别简单：别从后往前挤，隔排让靠窗的先上，再中间座位，最后过道，大家互相不挡路，能同时站着放行李。 模拟里 11 分钟就能全上完，传统从后往前要 30 多分钟，就连随机登机都要 18 分钟。 其实也不是航司笨赖，是因为这套数学最优解，到了现实环境里全是坑： 你得在登机口把几百人按座位精确排队，迟到的、走错的、带娃的，光把队排...",
+      "summaryEn": "物理学家 18 年前就算出了飞机最快登机方法，能把登机时间砍一半，结果到今天没有一家航空公司真的用。 方法说穿了特别简单：别从后往前挤，隔排让靠窗的先上，再中间座位，最后过道，大家互相不挡路，能同时站着放行李。 模拟里 11 分钟就能全上完，传统从后往前要 30 多分钟，就连随机登机都要 18 分钟。 其实也不是航司笨赖，是因为这套数学最优解，到了现实环境里全是坑： 你得在登机口把几百人按座位精确排队，迟到的、走错的、带娃的，光把队排...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2085192267266949230",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "enterprise",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2085186407270662406",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "张一鸣禁止字节内部蒸馏国外大模型， 很多人说字节AI估计就要落后了， 但看国内字节的基本盘其实他们根本不慌， 何况还有seedance 2.5这种大杀器，独步天下， 我们可以看看最新的今年6月国内AI大模型月活用户top 10， 字节系豆包稳居第一，行业整体AI原生App月活约4.99亿（同比+85.4%）。 豆包用户粘性最高高（人均月使用约76.7次、时长143.7分钟）。 不同机构统计口径差异较大，例如新京报/Xsignal等更宽...",
+      "summaryEn": "张一鸣禁止字节内部蒸馏国外大模型， 很多人说字节AI估计就要落后了， 但看国内字节的基本盘其实他们根本不慌， 何况还有seedance 2.5这种大杀器，独步天下， 我们可以看看最新的今年6月国内AI大模型月活用户top 10， 字节系豆包稳居第一，行业整体AI原生App月活约4.99亿（同比+85.4%）。 豆包用户粘性最高高（人均月使用约76.7次、时长143.7分钟）。 不同机构统计口径差异较大，例如新京报/Xsignal等更宽...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2085186407270662406",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2084892450317865140",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084892450317865140",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084892445070794840",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084892445070794840",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "enterprise"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084892418130817266",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "回看梁文峰的成长轨迹，其实能给我们大部分普通人带来很多启发的， 一个普通家庭出身的男孩，父母都是小学老师，17岁那年把方向盘握在了自己手里，也在那一刻命运的齿轮开始转动…… 我翻完梁文锋26岁写的微博才明白DeepSeek的成功，跟技术路线半毛钱关系都没有。 梁文锋26岁那年,一个人开着菲亚特进了西藏阿里无人区。 深入400公里， 被困了一周， 人走出来了， 车永远留在了那里。 12年后他做了DeepSeek， 你要是读过这个故事,就...",
+      "summaryEn": "回看梁文峰的成长轨迹，其实能给我们大部分普通人带来很多启发的， 一个普通家庭出身的男孩，父母都是小学老师，17岁那年把方向盘握在了自己手里，也在那一刻命运的齿轮开始转动…… 我翻完梁文锋26岁写的微博才明白DeepSeek的成功，跟技术路线半毛钱关系都没有。 梁文锋26岁那年,一个人开着菲亚特进了西藏阿里无人区。 深入400公里， 被困了一周， 人走出来了， 车永远留在了那里。 12年后他做了DeepSeek， 你要是读过这个故事,就...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084892418130817266",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084876734785097771",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "这可能是我今年看过最有意思的AI实盘实验，把人性里最难的部分，用一套工程化的流程给解决了，简直就是个天才啊， 5个月赚了19%跑赢了标普，现在有2700万美元在跟投， 赚钱的方式和绝大多数人想的完全不一样。 14个仓位里有8个现在还在成本线以下，胜率刚过四成，组合却跑赢了大盘。 Five months ago we gave the Claude agents a brand new $50,000 portfolio and one...",
+      "summaryEn": "这可能是我今年看过最有意思的AI实盘实验，把人性里最难的部分，用一套工程化的流程给解决了，简直就是个天才啊， 5个月赚了19%跑赢了标普，现在有2700万美元在跟投， 赚钱的方式和绝大多数人想的完全不一样。 14个仓位里有8个现在还在成本线以下，胜率刚过四成，组合却跑赢了大盘。 Five months ago we gave the Claude agents a brand new $50,000 portfolio and one...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084876734785097771",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business",
+        "model"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2084856141779980329",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "那次无人区遇险之后，他再也没发过自驾内容，转头就一头扎进了量化和 AI 的世界。",
+      "summaryEn": "那次无人区遇险之后，他再也没发过自驾内容，转头就一头扎进了量化和 AI 的世界。",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084856141779980329",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "media"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2084856138005168318",
+      "date": "2026-08-06",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "为什么是梁文锋做成了 DeepSeek？答案其实就在在他 2011 年发的一条微博里。 梁文锋早期微博被扒这个事最近外网内网都很火，全网都在玩 程序小王子的梗， 看了一圈感觉没人说透最关键的一层：为什么是 梁文锋？为什么DeepSeek在全球 AI 竞赛里硬生生杀出一条血路？ 其实答案就藏在 2011 我翻完梁文锋26岁写的微博才明白DeepSeek的成功，跟技术路线半毛钱关系都没有。 梁文锋26岁那年,一个人开着菲亚特进了西藏阿里无...",
+      "summaryEn": "为什么是梁文锋做成了 DeepSeek？答案其实就在在他 2011 年发的一条微博里。 梁文锋早期微博被扒这个事最近外网内网都很火，全网都在玩 程序小王子的梗， 看了一圈感觉没人说透最关键的一层：为什么是 梁文锋？为什么DeepSeek在全球 AI 竞赛里硬生生杀出一条血路？ 其实答案就藏在 2011 我翻完梁文锋26岁写的微博才明白DeepSeek的成功，跟技术路线半毛钱关系都没有。 梁文锋26岁那年,一个人开着菲亚特进了西藏阿里无...",
+      "analysis": "",
+      "url": "https://x.com/AYi_AInotes/status/2084856138005168318",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "business"
     },
     {
       "id": "2085210456160104615",
@@ -63,15 +223,14 @@
       "handle": "vista8",
       "role": "喜欢摇滚乐、爱钓鱼的PM",
       "avatar": "VI",
-      "summary": "Meta的 Muse Spark 1.2 是和 Muse Code 一起联合训练的。\n输入每百万 token 1.25 美元，输出 4.25 美元，价格接近 Gemini 3.6 Flash（1.50 美元 / 7.50 美元）。\n如果同意Meta收集你的数据，可用 muse-spark-1.2-contributor 模型。\n价格 0.10 美元 / 0.20 美元，比如GPT-5.6 luna还便宜很多",
-      "summaryEn": "Meta的 Muse Spark 1.2 是和 Muse Code 一起联合训练的。\n输入每百万 token 1.25 美元，输出 4.25 美元，价格接近 Gemini 3.6 Flash（1.50 美元 / 7.50 美元）。\n如果同意Meta收集你的数据，可用 muse-spark-1.2-contributor 模型。\n价格 0.10 美元 / 0.20 美元，比如GPT-5.6 luna还便宜很多",
-      "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：Meta的 Muse Spark 1.2 是和 Muse Code 一起联合训练的。 输入每百万 token 1.25 美元，输出 4.25 美元，价格接近 Gemini 3.6 Flash（1.50 美元 / 7.50...。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+      "summary": "Meta的 Muse Spark 1.2 是和 Muse Code 一起联合训练的。 输入每百万 token 1.25 美元，输出 4.25 美元，价格接近 Gemini 3.6 Flash（1.50 美元 / 7.50 美元）。 如果同意Meta收集你的数据，可用 muse-spark-1.2-contributor 模型。 价格 0.10 美元 / 0.20 美元，比如GPT-5.6 luna还便宜很多",
+      "summaryEn": "Meta的 Muse Spark 1.2 是和 Muse Code 一起联合训练的。 输入每百万 token 1.25 美元，输出 4.25 美元，价格接近 Gemini 3.6 Flash（1.50 美元 / 7.50 美元）。 如果同意Meta收集你的数据，可用 muse-spark-1.2-contributor 模型。 价格 0.10 美元 / 0.20 美元，比如GPT-5.6 luna还便宜很多",
+      "analysis": "",
       "url": "https://x.com/vista8/status/2085210456160104615",
       "verified": true,
       "hotComments": [],
       "topics": [
         "model",
-        "product",
         "business"
       ],
       "primaryTopic": "model"
@@ -83,18 +242,109 @@
       "handle": "vista8",
       "role": "喜欢摇滚乐、爱钓鱼的PM",
       "avatar": "VI",
-      "summary": "笑死了，大模型公司纷纷用自家模型可以黑别人系统为营销亮点...\n截止目前，谷歌Gemini还没有相关新闻报道 哈哈哈。",
-      "summaryEn": "笑死了，大模型公司纷纷用自家模型可以黑别人系统为营销亮点...\n截止目前，谷歌Gemini还没有相关新闻报道 哈哈哈。",
-      "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：笑死了，大模型公司纷纷用自家模型可以黑别人系统为营销亮点... 截止目前，谷歌Gemini还没有相关新闻报道 哈哈哈。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。与其把它当作一次产品更新，不如把它看成模型团队在提前释放路线方向。真正该盯的是哪些能力会先被产品化、先被推到用户面前。",
+      "summary": "笑死了，大模型公司纷纷用自家模型可以黑别人系统为营销亮点... 截止目前，谷歌Gemini还没有相关新闻报道 哈哈哈。",
+      "summaryEn": "笑死了，大模型公司纷纷用自家模型可以黑别人系统为营销亮点... 截止目前，谷歌Gemini还没有相关新闻报道 哈哈哈。",
+      "analysis": "",
       "url": "https://x.com/vista8/status/2085209172011106435",
       "verified": true,
       "hotComments": [],
       "topics": [
-        "product",
         "model",
         "enterprise"
       ],
-      "primaryTopic": "product"
+      "primaryTopic": "model"
+    },
+    {
+      "id": "2085201450276360204",
+      "date": "2026-08-06",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "刚写了一个给大学生找工作写简历的 skill。 借鉴了 grillme 思想，通过问题访谈生成 PDF 简历。 或提供 JD 针对性修改简历、优化已有简历的排版。 支持一次性生成不同风格。 简历优化参考了清华、MIT、伯克利等知名学校的就业中心的最佳实践。 Skill 安装指令：npx skills add",
+      "summaryEn": "刚写了一个给大学生找工作写简历的 skill。 借鉴了 grillme 思想，通过问题访谈生成 PDF 简历。 或提供 JD 针对性修改简历、优化已有简历的排版。 支持一次性生成不同风格。 简历优化参考了清华、MIT、伯克利等知名学校的就业中心的最佳实践。 Skill 安装指令：npx skills add",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2085201450276360204",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2085192790133354943",
+      "date": "2026-08-06",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "橘子的 Cola AI上架了 Skill 应用市场。 人工收藏整理了不少朋友们的 Skill，下载安装就能用。 https:// colaos.ai",
+      "summaryEn": "橘子的 Cola AI上架了 Skill 应用市场。 人工收藏整理了不少朋友们的 Skill，下载安装就能用。 https:// colaos.ai",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2085192790133354943",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "product",
+        "business"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2085191975301759315",
+      "date": "2026-08-06",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "没想到代码之神 Jeff Dean竟然从谷歌离职了。 一篇1万6千字的文章，讲述 Jeff 的传奇故事。",
+      "summaryEn": "没想到代码之神 Jeff Dean竟然从谷歌离职了。 一篇1万6千字的文章，讲述 Jeff 的传奇故事。",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2085191975301759315",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085191643200958622",
+      "date": "2026-08-06",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2085191643200958622",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085162010208284963",
+      "date": "2026-08-06",
+      "name": "向阳乔木",
+      "handle": "vista8",
+      "role": "喜欢摇滚乐、爱钓鱼的PM",
+      "avatar": "VI",
+      "summary": "只是好奇试了下，哈哈",
+      "summaryEn": "只是好奇试了下，哈哈",
+      "analysis": "",
+      "url": "https://x.com/vista8/status/2085162010208284963",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
     },
     {
       "id": "2085209022115029132",
@@ -103,17 +353,16 @@
       "handle": "nikunj",
       "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter , @opendoor , @atlassian & others. love @shimoleejhaveri +",
       "avatar": "NK",
-      "summary": "These are the words that AI tech people will use a LOT more in the next 6-9 months..\n> out of distribution\n> control plane\n> unverifiable fields\n> rails\n> intelligence per watt\n> cope\n> angst\nSome are already in rotation obviously, but expect the frequency to increase!",
-      "summaryEn": "These are the words that AI tech people will use a LOT more in the next 6-9 months..\n> out of distribution\n> control plane\n> unverifiable fields\n> rails\n> intelligence per watt\n> cope\n> angst\nSome are already in rotation obviously, but expect the frequency to increase!",
-      "analysis": "这条动态最直接的信息是：These are the words that AI tech people will use a LOT more in the next 6-9 months.. > out of distribution > c...。Nikunj Kothari 的身份接近“partner @fpvventures - investing in seed/A. previous: ea...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+      "summary": "These are the words that AI tech people will use a LOT more in the next 6-9 months.. > out of distribution > control plane > unverifiable fields > rails > intelligence per watt > cope > angst Some are already in rotatio...",
+      "summaryEn": "These are the words that AI tech people will use a LOT more in the next 6-9 months.. > out of distribution > control plane > unverifiable fields > rails > intelligence per watt > cope > angst Some are already in rotatio...",
+      "analysis": "",
       "url": "https://x.com/nikunj/status/2085209022115029132",
       "verified": true,
       "hotComments": [],
       "topics": [
-        "product",
-        "media"
+        "other"
       ],
-      "primaryTopic": "product"
+      "primaryTopic": "other"
     },
     {
       "id": "2085207350525464762",
@@ -122,16 +371,16 @@
       "handle": "yihui_indie",
       "role": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
       "avatar": "YI",
-      "summary": "【新课预告】很多 AI 编程新手都有一个顾虑，用 AI 编程其实是为了开发自己和团队使用的小工具，肯定需要部署上线，又担心上线之后被别人盗刷积分和数据安全。\n那这个时候，如何开发一个专属于自己小团队、不允许别人访问，而且不用担心被黑客攻击的网站呢？\n本期教程我们就教大家如何基于",
-      "summaryEn": "【新课预告】很多 AI 编程新手都有一个顾虑，用 AI 编程其实是为了开发自己和团队使用的小工具，肯定需要部署上线，又担心上线之后被别人盗刷积分和数据安全。\n那这个时候，如何开发一个专属于自己小团队、不允许别人访问，而且不用担心被黑客攻击的网站呢？\n本期教程我们就教大家如何基于",
-      "analysis": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：【新课预告】很多 AI 编程新手都有一个顾虑，用 AI 编程其实是为了开发自己和团队使用的小工具，肯定需要部署上线，又担心上线之后被别人盗刷积分和数据安全。 那这个时候，如何开发一个专属于自己小团队、不允许别人访问，而且...。Yihui 的身份接近“iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gatew...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。很多 AI builder 现在做的不是单次内容变现，而是把课程、群和持续更新绑成一个复购结构。社群如果能承接学习节奏，本身就会变成产",
+      "summary": "【新课预告】很多 AI 编程新手都有一个顾虑，用 AI 编程其实是为了开发自己和团队使用的小工具，肯定需要部署上线，又担心上线之后被别人盗刷积分和数据安全。 那这个时候，如何开发一个专属于自己小团队、不允许别人访问，而且不用担心被黑客攻击的网站呢？ 本期教程我们就教大家如何基于",
+      "summaryEn": "【新课预告】很多 AI 编程新手都有一个顾虑，用 AI 编程其实是为了开发自己和团队使用的小工具，肯定需要部署上线，又担心上线之后被别人盗刷积分和数据安全。 那这个时候，如何开发一个专属于自己小团队、不允许别人访问，而且不用担心被黑客攻击的网站呢？ 本期教程我们就教大家如何基于",
+      "analysis": "",
       "url": "https://x.com/yihui_indie/status/2085207350525464762",
       "verified": true,
       "hotComments": [],
       "topics": [
         "product",
-        "design",
-        "infrastructure"
+        "infrastructure",
+        "enterprise"
       ],
       "primaryTopic": "product"
     },
@@ -142,18 +391,18 @@
       "handle": "op7418",
       "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
       "avatar": "OP",
-      "summary": "扎克伯格又掀桌子！\n他们发了一个新的模型 Muse Spark 1.2 和 Muse Code 编程 Agent。\n这玩意价钱便宜得相当于白送，前提是你同意他们的数据收集要求。\n当然，你要想用 Meta 的模型，比用 Anthropic 的模型都麻烦。\n我根本无法访问它，它直接不让你访问它的网站，别说能不能登录了。\nReleasing Muse Code in beta today. It's a terminal coding agent that takes on complete software engineering tasks across large repos: planning changes, writing code, validating the results. Powered by Muse Spark 1.2, a coding-focused model update.",
-      "summaryEn": "扎克伯格又掀桌子！\n他们发了一个新的模型 Muse Spark 1.2 和 Muse Code 编程 Agent。\n这玩意价钱便宜得相当于白送，前提是你同意他们的数据收集要求。\n当然，你要想用 Meta 的模型，比用 Anthropic 的模型都麻烦。\n我根本无法访问它，它直接不让你访问它的网站，别说能不能登录了。\nReleasing Muse Code in beta today. It's a terminal coding agent that takes on complete software engineering tasks across large repos: planning changes, writing code, validating the results. Powered by Muse Spark 1.2, a coding-focused model update.",
-      "analysis": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：扎克伯格又掀桌子！ 他们发了一个新的模型 Muse Spark 1.2 和 Muse Code 编程 Agent。 这玩意价钱便宜得相当于白送，前提是你同意他们的数据收集要求。 当然，你要想用 Meta 的模型，比用 A...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类表态最值得看的不是表面功能，而是它在暗示接下来能力演进的主轴。上层应用做路线选择时，往往就靠这些信号调整优先级。",
+      "summary": "扎克伯格又掀桌子！ 他们发了一个新的模型 Muse Spark 1.2 和 Muse Code 编程 Agent。 这玩意价钱便宜得相当于白送，前提是你同意他们的数据收集要求。 当然，你要想用 Meta 的模型，比用 Anthropic 的模型都麻烦。 我根本无法访问它，它直接不让你访问它的网站，别说能不能登录了。 Releasing Muse Code in beta today. It's a terminal coding ag...",
+      "summaryEn": "扎克伯格又掀桌子！ 他们发了一个新的模型 Muse Spark 1.2 和 Muse Code 编程 Agent。 这玩意价钱便宜得相当于白送，前提是你同意他们的数据收集要求。 当然，你要想用 Meta 的模型，比用 Anthropic 的模型都麻烦。 我根本无法访问它，它直接不让你访问它的网站，别说能不能登录了。 Releasing Muse Code in beta today. It's a terminal coding ag...",
+      "analysis": "",
       "url": "https://x.com/op7418/status/2085203402699821505",
       "verified": true,
       "hotComments": [],
       "topics": [
-        "product",
         "design",
-        "media"
+        "media",
+        "agent"
       ],
-      "primaryTopic": "product"
+      "primaryTopic": "design"
     },
     {
       "id": "2085194288171008440",
@@ -162,23 +411,16 @@
       "handle": "op7418",
       "role": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
       "avatar": "OP",
-      "summary": "天塌了！大早上起来看 DeepSeek 要涨价，还说涨幅较大。\n不知道具体涨幅有多大，不至于翻倍吧？虽然翻倍也很便宜就是了。",
-      "summaryEn": "天塌了！大早上起来看 DeepSeek 要涨价，还说涨幅较大。\n不知道具体涨幅有多大，不至于翻倍吧？虽然翻倍也很便宜就是了。",
-      "analysis": "这条动态最直接的信息是：天塌了！大早上起来看 DeepSeek 要涨价，还说涨幅较大。 不知道具体涨幅有多大，不至于翻倍吧？虽然翻倍也很便宜就是了。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Di...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+      "summary": "天塌了！大早上起来看 DeepSeek 要涨价，还说涨幅较大。 不知道具体涨幅有多大，不至于翻倍吧？虽然翻倍也很便宜就是了。",
+      "summaryEn": "天塌了！大早上起来看 DeepSeek 要涨价，还说涨幅较大。 不知道具体涨幅有多大，不至于翻倍吧？虽然翻倍也很便宜就是了。",
+      "analysis": "",
       "url": "https://x.com/op7418/status/2085194288171008440",
       "verified": true,
-      "hotComments": [
-        {
-          "author": "lizhaoshui",
-          "text": "这不得结下不少梁子",
-          "likes": 11,
-          "url": "https://x.com/lizhaoshui/status/2085195997450510340"
-        }
-      ],
+      "hotComments": [],
       "topics": [
         "design",
         "media",
-        "product"
+        "model"
       ],
       "primaryTopic": "design"
     },
@@ -189,9 +431,9 @@
       "handle": "Gorden_Sun",
       "role": "只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）",
       "avatar": "GS",
-      "summary": "原推Naomi从OpenAI离职，加入初创公司Conduit担任创始研究员。\nConduit致力于研发基于非侵入式神经数据训练的“思维转文字”模型，效果类似心灵感应。用户戴上佩戴式头带，即可通过大脑思维直接向 AI 模型发送指令、修改代码或生成图表。\nTwo weeks ago, I resigned from OpenAI to join Conduit as a founding researcher, where we're training models to non-invasively read the human mind.\nI've written some thoughts about what telepathy could look like by 2035 and how to get there:",
-      "summaryEn": "原推Naomi从OpenAI离职，加入初创公司Conduit担任创始研究员。\nConduit致力于研发基于非侵入式神经数据训练的“思维转文字”模型，效果类似心灵感应。用户戴上佩戴式头带，即可通过大脑思维直接向 AI 模型发送指令、修改代码或生成图表。\nTwo weeks ago, I resigned from OpenAI to join Conduit as a founding researcher, where we're training models to non-invasively read the human mind.\nI've written some thoughts about what telepathy could look like by 2035 and how to get there:",
-      "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：原推Naomi从OpenAI离职，加入初创公司Conduit担任创始研究员。 Conduit致力于研发基于非侵入式神经数据训练的“思维转文字”模型，效果类似心灵感应。用户戴上佩戴式头带，即可通过大脑思维直接向 AI 模型...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。真正值得盯住的不是这一条发布，而是它背后暴露出的模型资源配置和路线选择。谁被连续加码，谁就更可能成为下一个主要战场。",
+      "summary": "原推Naomi从OpenAI离职，加入初创公司Conduit担任创始研究员。 Conduit致力于研发基于非侵入式神经数据训练的“思维转文字”模型，效果类似心灵感应。用户戴上佩戴式头带，即可通过大脑思维直接向 AI 模型发送指令、修改代码或生成图表。 Two weeks ago, I resigned from OpenAI to join Conduit as a founding researcher, where we're t...",
+      "summaryEn": "原推Naomi从OpenAI离职，加入初创公司Conduit担任创始研究员。 Conduit致力于研发基于非侵入式神经数据训练的“思维转文字”模型，效果类似心灵感应。用户戴上佩戴式头带，即可通过大脑思维直接向 AI 模型发送指令、修改代码或生成图表。 Two weeks ago, I resigned from OpenAI to join Conduit as a founding researcher, where we're t...",
+      "analysis": "",
       "url": "https://x.com/Gorden_Sun/status/2085203052504797235",
       "verified": true,
       "hotComments": [],
@@ -211,16 +453,15 @@
       "avatar": "GS",
       "summary": "DeepSeek API即将大幅度涨价，梁圣变梁子。",
       "summaryEn": "DeepSeek API即将大幅度涨价，梁圣变梁子。",
-      "analysis": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：DeepSeek API即将大幅度涨价，梁圣变梁子。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连续日更3年）”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。很多 AI 产品最后赢不赢，不在模型参数，而在这些最琐碎却最关键的工程环节。基础设施做顺了，功能优势才能真正被用户感知。",
+      "analysis": "",
       "url": "https://x.com/Gorden_Sun/status/2085179131273363566",
       "verified": true,
       "hotComments": [],
       "topics": [
-        "product",
         "model",
         "infrastructure"
       ],
-      "primaryTopic": "product"
+      "primaryTopic": "model"
     },
     {
       "id": "2085200776159490111",
@@ -229,18 +470,18 @@
       "handle": "levie",
       "role": "ceo @box - your business lives in content. unleash it with AI",
       "avatar": "AL",
-      "summary": "Correct take. 99% of tokens in the world will get consumed in an enterprise context.\nThey will be for writing code, combing through insane amounts of life sciences research, automating manufacturing, securing enterprises, detecting fraud, and thousands of other tasks like this\nyeah, no.\nthe average consumer has a near zero need for offloading cognitive work. what they need is their netflix and their doordash — your job as a consumer is literally to chill tf out and stay happy and motivated\nif you dont intuit this as obvious you're most likely x.com/joshm/status/2…",
-      "summaryEn": "Correct take. 99% of tokens in the world will get consumed in an enterprise context.\nThey will be for writing code, combing through insane amounts of life sciences research, automating manufacturing, securing enterprises, detecting fraud, and thousands of other tasks like this\nyeah, no.\nthe average consumer has a near zero need for offloading cognitive work. what they need is their netflix and their doordash — your job as a consumer is literally to chill tf out and stay happy and motivated\nif you dont intuit this as obvious you're most likely x.com/joshm/status/2…",
-      "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：Correct take. 99% of tokens in the world will get consumed in an enterprise context. They will be for writing...。Aaron Levie 的身份接近“ceo @box - your business lives in content. unleash it wi...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。生成式 UI 不只是新花样，它开始改写产品交互和工作流边界，背后是软件形态在变。用户未来面对的，可能不再是固定页面，而是按任务实时长出来的",
+      "summary": "Correct take. 99% of tokens in the world will get consumed in an enterprise context. They will be for writing code, combing through insane amounts of life sciences research, automating manufacturing, securing enterprise...",
+      "summaryEn": "Correct take. 99% of tokens in the world will get consumed in an enterprise context. They will be for writing code, combing through insane amounts of life sciences research, automating manufacturing, securing enterprise...",
+      "analysis": "",
       "url": "https://x.com/levie/status/2085200776159490111",
       "verified": true,
       "hotComments": [],
       "topics": [
-        "product",
-        "media",
-        "enterprise"
+        "model",
+        "business",
+        "media"
       ],
-      "primaryTopic": "product"
+      "primaryTopic": "model"
     },
     {
       "id": "2085199499417534709",
@@ -249,18 +490,35 @@
       "handle": "oran_ge",
       "role": "正在观察AI如何一步步把人类代入幻觉时代。",
       "avatar": "OG",
-      "summary": "感谢向阳\n@dotey\n@zarazhangrui\n@dontbesilent\n@Khazix0918\n 各位老师做的优秀的 skill",
-      "summaryEn": "感谢向阳\n@dotey\n@zarazhangrui\n@dontbesilent\n@Khazix0918\n 各位老师做的优秀的 skill",
-      "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：感谢向阳 @dotey @zarazhangrui @dontbesilent @Khazix0918 各位老师做的优秀的 skill。Orange AI 的身份接近“正在观察AI如何一步步把人类代入幻觉时代。”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类想法最有意思的地方，是它在推动界面从固定页面走向按任务即时生成。界面如果会跟着目标变化，软件就更像一个可编排的流程层。",
+      "summary": "感谢向阳 @dotey @zarazhangrui @dontbesilent @Khazix0918 各位老师做的优秀的 skill",
+      "summaryEn": "感谢向阳 @dotey @zarazhangrui @dontbesilent @Khazix0918 各位老师做的优秀的 skill",
+      "analysis": "",
       "url": "https://x.com/oran_ge/status/2085199499417534709",
       "verified": true,
       "hotComments": [],
       "topics": [
-        "product",
         "agent",
         "design"
       ],
-      "primaryTopic": "product"
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2085193437373169769",
+      "date": "2026-08-06",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "我太蠢了，Cola 网址写错了 是这个",
+      "summaryEn": "我太蠢了，Cola 网址写错了 是这个",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2085193437373169769",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
     },
     {
       "id": "2085177197111992742",
@@ -269,36 +527,72 @@
       "handle": "oran_ge",
       "role": "正在观察AI如何一步步把人类代入幻觉时代。",
       "avatar": "OG",
-      "summary": "卧槽，DeepSeek 终于撑不住了…\n官方宣布即将大幅涨价…\n美好的时光总是如此短暂",
-      "summaryEn": "卧槽，DeepSeek 终于撑不住了…\n官方宣布即将大幅涨价…\n美好的时光总是如此短暂",
-      "analysis": "这条动态最直接的信息是：卧槽，DeepSeek 终于撑不住了… 官方宣布即将大幅涨价… 美好的时光总是如此短暂。Orange AI 的身份接近“正在观察AI如何一步步把人类代入幻觉时代。”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+      "summary": "卧槽，DeepSeek 终于撑不住了… 官方宣布即将大幅涨价… 美好的时光总是如此短暂",
+      "summaryEn": "卧槽，DeepSeek 终于撑不住了… 官方宣布即将大幅涨价… 美好的时光总是如此短暂",
+      "analysis": "",
       "url": "https://x.com/oran_ge/status/2085177197111992742",
       "verified": true,
-      "hotComments": [
-        {
-          "author": "iamcheyan",
-          "text": "梁圣即将再次降级为梁子",
-          "likes": 16,
-          "url": "https://x.com/iamcheyan/status/2085200534383026494"
-        },
-        {
-          "author": "tcoin_b",
-          "text": "再怎么涨，和其它国外大模型比起来还是白菜价。",
-          "likes": 9,
-          "url": "https://x.com/tcoin_b/status/2085184353932554347"
-        },
-        {
-          "author": "ShaobinTJ",
-          "text": "是不是在为v4 pro 做准备？",
-          "likes": 5,
-          "url": "https://x.com/ShaobinTJ/status/2085179708921000345"
-        }
-      ],
+      "hotComments": [],
       "topics": [
-        "model",
-        "media"
+        "model"
       ],
       "primaryTopic": "model"
+    },
+    {
+      "id": "2085160715766378715",
+      "date": "2026-08-06",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "可 wps 是免费的啊",
+      "summaryEn": "可 wps 是免费的啊",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2085160715766378715",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085159323391685109",
+      "date": "2026-08-06",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "v4 flash 是行业拐点 越来越多人会意识到 我觉得全世界可能都低估了新的ds v4",
+      "summaryEn": "v4 flash 是行业拐点 越来越多人会意识到 我觉得全世界可能都低估了新的ds v4",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2085159323391685109",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085134141922947493",
+      "date": "2026-08-06",
+      "name": "Orange AI",
+      "handle": "oran_ge",
+      "role": "正在观察AI如何一步步把人类代入幻觉时代。",
+      "avatar": "OG",
+      "summary": "全世界把 DeepSeek V4 Flash 卖的比官方还便宜 6 倍的总共有三家 Command Code https:// commandcode.ai/docs/plans/go OpenCode https:// opencode.ai/go Cola https:// colaos.app 这个价格的模型套餐使用体验是这样的：用不完，根本用不完",
+      "summaryEn": "全世界把 DeepSeek V4 Flash 卖的比官方还便宜 6 倍的总共有三家 Command Code https:// commandcode.ai/docs/plans/go OpenCode https:// opencode.ai/go Cola https:// colaos.app 这个价格的模型套餐使用体验是这样的：用不完，根本用不完",
+      "analysis": "",
+      "url": "https://x.com/oran_ge/status/2085134141922947493",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "business"
+      ],
+      "primaryTopic": "product"
     },
     {
       "id": "2085199278583263501",
@@ -307,24 +601,34 @@
       "handle": "elonmusk",
       "role": "Starmind",
       "avatar": "EM",
-      "summary": "This actually happened\nElon Musk reveals what happens when a rocket launch needs approval from Fish and Wildlife\nElon: \"Nonetheless, we were forced to kidnap a seal, strap it to a board, put headphones on the seal and play sonic boom sounds to it to see if it would be distressed.\"\nElon: \"This is an",
-      "summaryEn": "This actually happened\nElon Musk reveals what happens when a rocket launch needs approval from Fish and Wildlife\nElon: \"Nonetheless, we were forced to kidnap a seal, strap it to a board, put headphones on the seal and play sonic boom sounds to it to see if it would be distressed.\"\nElon: \"This is an",
-      "analysis": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：This actually happened Elon Musk reveals what happens when a rocket launch needs approval from Fish and Wildli...。Elon Musk 的身份接近“Starmind”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像需求结构在变，不只是做了个新功能，而是产品优先级和用户预期都在重排。很多时候，用户真正要的并不是更多功能，而是更少阻力。",
+      "summary": "This actually happened Elon Musk reveals what happens when a rocket launch needs approval from Fish and Wildlife Elon: \"Nonetheless, we were forced to kidnap a seal, strap it to a board, put headphones on the seal and p...",
+      "summaryEn": "This actually happened Elon Musk reveals what happens when a rocket launch needs approval from Fish and Wildlife Elon: \"Nonetheless, we were forced to kidnap a seal, strap it to a board, put headphones on the seal and p...",
+      "analysis": "",
       "url": "https://x.com/elonmusk/status/2085199278583263501",
       "verified": true,
-      "hotComments": [
-        {
-          "author": "Anderaz27a",
-          "text": "Emperor kekius maximus is back",
-          "likes": 5,
-          "url": "https://x.com/Anderaz27a/status/2085200752340025530"
-        }
-      ],
+      "hotComments": [],
       "topics": [
-        "product",
-        "media"
+        "product"
       ],
       "primaryTopic": "product"
+    },
+    {
+      "id": "2085194743496233203",
+      "date": "2026-08-06",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "This is fake btw",
+      "summaryEn": "This is fake btw",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085194743496233203",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
     },
     {
       "id": "2085191304905138594",
@@ -333,37 +637,107 @@
       "handle": "elonmusk",
       "role": "Starmind",
       "avatar": "EM",
-      "summary": "Megapack 3 starting production.\nCongrats Tesla Megapack team!\nMegapack 3 is officially rolling off the line at our newest Megafactory in Brookshire, Texas!\nThe factory went from groundbreaking to operation in just 16 months & has a designed capacity of 50 GWh/year dedicated to Megapack 3",
-      "summaryEn": "Megapack 3 starting production.\nCongrats Tesla Megapack team!\nMegapack 3 is officially rolling off the line at our newest Megafactory in Brookshire, Texas!\nThe factory went from groundbreaking to operation in just 16 months & has a designed capacity of 50 GWh/year dedicated to Megapack 3",
-      "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：Megapack 3 starting production. Congrats Tesla Megapack team! Megapack 3 is officially rolling off the line at...。Elon Musk 的身份接近“Starmind”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。一旦生成式 UI 跑通，很多产品竞争会从“功能多少”转向“工作流是否更自然”。看起来像设计问题，本质上其实是产品架构问题。",
+      "summary": "Megapack 3 starting production. Congrats Tesla Megapack team! Megapack 3 is officially rolling off the line at our newest Megafactory in Brookshire, Texas! The factory went from groundbreaking to operation in just 16 mo...",
+      "summaryEn": "Megapack 3 starting production. Congrats Tesla Megapack team! Megapack 3 is officially rolling off the line at our newest Megafactory in Brookshire, Texas! The factory went from groundbreaking to operation in just 16 mo...",
+      "analysis": "",
       "url": "https://x.com/elonmusk/status/2085191304905138594",
       "verified": true,
-      "hotComments": [
-        {
-          "author": "Mooncat9510",
-          "text": "New Tesla driver just dropped  Full Self-Driving? More like Full Otter-Driving",
-          "likes": 13,
-          "url": "https://x.com/Mooncat9510/status/2085192912892227609"
-        },
-        {
-          "author": "OPteemyst",
-          "text": "“You need battery packs, because the sun does not shine at night.” - Elon",
-          "likes": 6,
-          "url": "https://x.com/OPteemyst/status/2085201182323052864"
-        },
-        {
-          "author": "hberman55",
-          "text": "Texas loves you",
-          "likes": 5,
-          "url": "https://x.com/hberman55/status/2085211239840469389"
-        }
-      ],
+      "hotComments": [],
       "topics": [
         "product",
-        "design",
         "enterprise"
       ],
       "primaryTopic": "product"
+    },
+    {
+      "id": "2085190872564699581",
+      "date": "2026-08-06",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok in Blender",
+      "summaryEn": "Grok in Blender",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085190872564699581",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085188875547513008",
+      "date": "2026-08-06",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Great idea Here’s a radical idea. Hold everybody to the same standards.",
+      "summaryEn": "Great idea Here’s a radical idea. Hold everybody to the same standards.",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085188875547513008",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085188435057488153",
+      "date": "2026-08-06",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Grok Imagine",
+      "summaryEn": "Grok Imagine",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085188435057488153",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085183860489552115",
+      "date": "2026-08-06",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "(No text captured)",
+      "summaryEn": "(No text captured)",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085183860489552115",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085179655691100304",
+      "date": "2026-08-06",
+      "name": "Frank Wang 玉伯",
+      "handle": "lifesinger",
+      "role": "I am curious and honest",
+      "avatar": "FW",
+      "summary": "绝望和希望 就在选择里",
+      "summaryEn": "绝望和希望 就在选择里",
+      "analysis": "",
+      "url": "https://x.com/lifesinger/status/2085179655691100304",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
     },
     {
       "id": "2085157947735429334",
@@ -374,13 +748,12 @@
       "avatar": "PY",
       "summary": "Can't believe I have to review PRs now. My PM training hasn't prepared me for this lol",
       "summaryEn": "Can't believe I have to review PRs now. My PM training hasn't prepared me for this lol",
-      "analysis": "这条动态最直接的信息是：Can't believe I have to review PRs now. My PM training hasn't prepared me for this lol。Peter Yang 的身份接近“Practical AI tutorials and interviews for busy people |...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+      "analysis": "",
       "url": "https://x.com/petergyang/status/2085157947735429334",
       "verified": true,
       "hotComments": [],
       "topics": [
         "agent",
-        "product",
         "design"
       ],
       "primaryTopic": "agent"

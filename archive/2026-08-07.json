@@ -1,0 +1,225 @@
+{
+  "date": "2026-08-07",
+  "builderCount": 6,
+  "postCount": 11,
+  "topTopics": [
+    "other",
+    "media",
+    "agent",
+    "product",
+    "design"
+  ],
+  "summary": "这一天的高频 Builder 信号集中在内容与媒体、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "highlights": [
+    "2085563808773189680",
+    "2085517360178585951",
+    "2085354433286963623"
+  ],
+  "posts": [
+    {
+      "id": "2085563808773189680",
+      "date": "2026-08-07",
+      "name": "Claude",
+      "handle": "claudeai",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+      "avatar": "CL",
+      "summary": "We’re updating Claude Fable 5’s biology safeguards to reduce false positives. In our testing, this update reduced biology-related fallbacks by about 85% across our product surfaces. Fable can now assist on a wider range...",
+      "summaryEn": "We’re updating Claude Fable 5’s biology safeguards to reduce false positives. In our testing, this update reduced biology-related fallbacks by about 85% across our product surfaces. Fable can now assist on a wider range...",
+      "analysis": "",
+      "url": "https://x.com/claudeai/status/2085563808773189680",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "design"
+      ],
+      "primaryTopic": "product"
+    },
+    {
+      "id": "2085517360178585951",
+      "date": "2026-08-07",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "昨天卖了个关子，今天可以公布了，新论文叫 CRAFT。 论文里最喜欢的一点，是它不用提前知道用户会问什么。视频压一次，后面换不同的问题，继续用同一份压缩结果。 这对 AI 眼镜很关键。设备不能等你每问一句，再把整段视频从头算一遍。它得先把看过的内容压下来，需要时再拿出来。 约 8× Another paper from us, this time on video token compression. Video VLMs have ...",
+      "summaryEn": "昨天卖了个关子，今天可以公布了，新论文叫 CRAFT。 论文里最喜欢的一点，是它不用提前知道用户会问什么。视频压一次，后面换不同的问题，继续用同一份压缩结果。 这对 AI 眼镜很关键。设备不能等你每问一句，再把整段视频从头算一遍。它得先把看过的内容压下来，需要时再拿出来。 约 8× Another paper from us, this time on video token compression. Video VLMs have ...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2085517360178585951",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media",
+        "agent",
+        "product"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2085354433286963623",
+      "date": "2026-08-07",
+      "name": "艾略特",
+      "handle": "elliotchen100",
+      "role": "Raven: the deepthinking self-improving agent harness",
+      "avatar": "EL",
+      "summary": "这些球类 Agents 思考/计划/执行的动效真好看， 要加进 EverOS 的 CLI 里面。 More types added to the Thinking Orbs library. Large and small sizes, light & dark mode, playground, zero dep http:// orbs.jakubantalik.com npm install thinking-orbs Huge...",
+      "summaryEn": "这些球类 Agents 思考/计划/执行的动效真好看， 要加进 EverOS 的 CLI 里面。 More types added to the Thinking Orbs library. Large and small sizes, light & dark mode, playground, zero dep http:// orbs.jakubantalik.com npm install thinking-orbs Huge...",
+      "analysis": "",
+      "url": "https://x.com/elliotchen100/status/2085354433286963623",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2085510570753556940",
+      "date": "2026-08-07",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "It will be awesome SpaceX just dropped the Terafab vision video and it’s nuts. It’s a megastructure for real. Largest chip fab on Earth, and it looks like a Cyberpunk city. This is the future I want. (Minus the dystopia...",
+      "summaryEn": "It will be awesome SpaceX just dropped the Terafab vision video and it’s nuts. It’s a megastructure for real. Largest chip fab on Earth, and it looks like a Cyberpunk city. This is the future I want. (Minus the dystopia...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085510570753556940",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "media"
+      ],
+      "primaryTopic": "media"
+    },
+    {
+      "id": "2085510467544314111",
+      "date": "2026-08-07",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Easy to tell who the bad guys are by looking at who has to build a wall to keep people from escaping! Every gun, mine, and guard tower on the Berlin Wall was pointed at East Germans. In 1957, the communist regime in Eas...",
+      "summaryEn": "Easy to tell who the bad guys are by looking at who has to build a wall to keep people from escaping! Every gun, mine, and guard tower on the Berlin Wall was pointed at East Germans. In 1957, the communist regime in Eas...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085510467544314111",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "design"
+    },
+    {
+      "id": "2085509921395605732",
+      "date": "2026-08-07",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Starlink Starlink is capable of delivering broadband connectivity anywhere on Earth, even out on the range where the bison roam. Stay connected to reliable high-speed internet, even in the most rural and remote areas. O...",
+      "summaryEn": "Starlink Starlink is capable of delivering broadband connectivity anywhere on Earth, even out on the range where the bison roam. Stay connected to reliable high-speed internet, even in the most rural and remote areas. O...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085509921395605732",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085472225340137703",
+      "date": "2026-08-07",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "role": "Starmind",
+      "avatar": "EM",
+      "summary": "Whether or not an airline has Starlink will be a deciding factor for consumer choice, especially on long flights Andrew Ross Sorkin today on his @Starlink experience on United Airlines: \"Amazing. I wonder what it's goin...",
+      "summaryEn": "Whether or not an airline has Starlink will be a deciding factor for consumer choice, especially on long flights Andrew Ross Sorkin today on his @Starlink experience on United Airlines: \"Amazing. I wonder what it's goin...",
+      "analysis": "",
+      "url": "https://x.com/elonmusk/status/2085472225340137703",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085498385163808822",
+      "date": "2026-08-07",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "“二十岁时我以为生活是一条可以蹚过去的河，对岸总有灯火。二十六岁才知道根本没有什么河，我们只是被扔进了一场收不到尾的梅雨。那雨细密绵长，顺着毛孔渗进骨髓，不流血，不致命，却把骨头一寸一寸泡软，沉得连抬一抬脚趾都觉得徒劳。他走向讲台，我走向车间，可今夜坐在这张铺着䬸巾的桌前，我们淋",
+      "summaryEn": "“二十岁时我以为生活是一条可以蹚过去的河，对岸总有灯火。二十六岁才知道根本没有什么河，我们只是被扔进了一场收不到尾的梅雨。那雨细密绵长，顺着毛孔渗进骨髓，不流血，不致命，却把骨头一寸一寸泡软，沉得连抬一抬脚趾都觉得徒劳。他走向讲台，我走向车间，可今夜坐在这张铺着䬸巾的桌前，我们淋",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2085498385163808822",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085478482042040639",
+      "date": "2026-08-07",
+      "name": "Ken W",
+      "handle": "kenw_2",
+      "role": "An old friend, stay curious, stay human.",
+      "avatar": "KW",
+      "summary": "中国兰州边检移民管理警察暖心劝返说走就走的想去新加坡的小伙子",
+      "summaryEn": "中国兰州边检移民管理警察暖心劝返说走就走的想去新加坡的小伙子",
+      "analysis": "",
+      "url": "https://x.com/kenw_2/status/2085478482042040639",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    },
+    {
+      "id": "2085474309943030032",
+      "date": "2026-08-07",
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "avatar": "AL",
+      "summary": "Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6 months that somehow agents would be bad for certain software categories. There’s definitely truth in this in some areas, but many were parsing ...",
+      "summaryEn": "Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6 months that somehow agents would be bad for certain software categories. There’s definitely truth in this in some areas, but many were parsing ...",
+      "analysis": "",
+      "url": "https://x.com/levie/status/2085474309943030032",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "agent",
+        "business",
+        "media"
+      ],
+      "primaryTopic": "agent"
+    },
+    {
+      "id": "2085420793400316270",
+      "date": "2026-08-07",
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "avatar": "DS",
+      "summary": "your boy made it into @axios today! https:// axios.com/2026/08/06/goo gles-ai-leadership-shuffle … Tea leaves: In order to be competitive today Google needs to catch up on frontier coding. Demis believes different funda...",
+      "summaryEn": "your boy made it into @axios today! https:// axios.com/2026/08/06/goo gles-ai-leadership-shuffle … Tea leaves: In order to be competitive today Google needs to catch up on frontier coding. Demis believes different funda...",
+      "analysis": "",
+      "url": "https://x.com/danshipper/status/2085420793400316270",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "other"
+      ],
+      "primaryTopic": "other"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-08",
+  "builderCount": 1,
+  "postCount": 2,
+  "topTopics": [
+    "business",
+    "design",
+    "infrastructure",
+    "product",
+    "model"
+  ],
+  "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
+  "highlights": [
+    "2085908393584218541"
+  ],
+  "posts": [
+    {
+      "id": "2085908400857055733",
+      "date": "2026-08-08",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "最爽的几点：\n它发的不是整个聊天记录，是纯文本摘要，轻量，安全，不会把一堆无关信息倒过去。\n它甚至会主动发，你这边改了个东西，它判断会影响另一个会话的工作，自己就去通知了，不用你说。\n特别适合：多个worktree并行开发、一个会话在跑长任务另一个在等结果、前后端同时改需要同步字段。",
+      "summaryEn": "最爽的几点：\n它发的不是整个聊天记录，是纯文本摘要，轻量，安全，不会把一堆无关信息倒过去。\n它甚至会主动发，你这边改了个东西，它判断会影响另一个会话的工作，自己就去通知了，不用你说。\n特别适合：多个worktree并行开发、一个会话在跑长任务另一个在等结果、前后端同时改需要同步字段。",
+      "analysis": "这条动态最直接的信息是：最爽的几点： 它发的不是整个聊天记录，是纯文本摘要，轻量，安全，不会把一堆无关信息倒过去。 它甚至会主动发，你这边改了个东西，它判断会影响另一个会话的工作，自己就去通知了，不用你说。 特别适合：多个worktree并行开...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
+      "url": "https://x.com/AYi_AInotes/status/2085908400857055733",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "business",
+        "design",
+        "infrastructure"
+      ],
+      "primaryTopic": "business"
+    },
+    {
+      "id": "2085908393584218541",
+      "date": "2026-08-08",
+      "name": "AYi",
+      "handle": "AYi_AInotes",
+      "role": "AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 × 组织心理学，Prompt专家，分享有用的 AI 实践，也分享工具之外的深度认知 以术入道，以道御术，KEEP BUILDING 合作/交流：DM/TG @AYi_AInotes",
+      "avatar": "阿A",
+      "summary": "用Claude Code的人，这个新功能会让你少掉一半头发hh\n你有没有过这种情况：开了两个Claude Code窗口，一个在改用户资料，一个在写每周邮件推送。左边那个把\nhttp://\nusers.name改成了users.display_name，右边那个还在用旧字段名，跑起来直接报错。\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
+      "summaryEn": "用Claude Code的人，这个新功能会让你少掉一半头发hh\n你有没有过这种情况：开了两个Claude Code窗口，一个在改用户资料，一个在写每周邮件推送。左边那个把\nhttp://\nusers.name改成了users.display_name，右边那个还在用旧字段名，跑起来直接报错。\nNew in Claude Code: your sessions can now message each other.\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.",
+      "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：用Claude Code的人，这个新功能会让你少掉一半头发hh 你有没有过这种情况：开了两个Claude Code窗口，一个在改用户资料，一个在写每周邮件推送。左边那个把 http:// users.name改成了use...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出海， 大厂组织发展专家 ×...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
+      "url": "https://x.com/AYi_AInotes/status/2085908393584218541",
+      "verified": true,
+      "hotComments": [],
+      "topics": [
+        "product",
+        "model",
+        "business"
+      ],
+      "primaryTopic": "product"
+    }
+  ]
+}

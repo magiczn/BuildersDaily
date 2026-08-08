@@ -1,40 +1,102 @@
 [
   {
-    "date": "2026-08-06",
-    "builderCount": 10,
-    "postCount": 16,
+    "date": "2026-08-08",
+    "builderCount": 1,
+    "postCount": 2,
     "topTopics": [
-      "product",
+      "business",
       "design",
-      "model",
-      "media",
-      "business"
+      "infrastructure",
+      "product",
+      "model"
     ],
-    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，开发动作继续向 AI 原生迁移，真正稀缺的越来越是任务拆解和系统组织能力。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
     "highlights": [
       {
-        "id": "2085200776159490111",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：Correct take. 99% of tokens in the world will get consumed in an enterprise context. They will be for writing...。Aaron Levie 的身份接近“ceo @box - your busines…",
-        "handle": "levie",
-        "name": "Aaron Levie",
-        "topic": "product",
-        "url": "https://x.com/levie/status/2085200776159490111"
-      },
-      {
-        "id": "2085203402699821505",
-        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：扎克伯格又掀桌子！ 他们发了一个新的模型 Muse Spark 1.2 和 Muse Code 编程 Agent。 这玩意价钱便宜得相当于白送，前提是你同意他们的数据收集要求。 当然，你要想用 Meta 的模型，比用 A...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 …",
-        "handle": "op7418",
-        "name": "歸藏(guizang.ai)",
-        "topic": "product",
-        "url": "https://x.com/op7418/status/2085203402699821505"
-      },
-      {
-        "id": "2085208566177071356",
-        "text": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：突发：DeepSeek刚宣布要大幅涨价了！ 网友：梁圣要变小梁了吗 不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务kno…",
+        "id": "2085908393584218541",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：用Claude Code的人，这个新功能会让你少掉一半头发hh 你有没有过这种情况：开了两个Claude Code窗口，一个在改用户资料，一个在写每周邮件推送。左边那个把 http:// users.name改成了use...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
         "handle": "AYi_AInotes",
         "name": "AYi",
-        "topic": "model",
+        "topic": "product",
+        "url": "https://x.com/AYi_AInotes/status/2085908393584218541"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "builderCount": 6,
+    "postCount": 11,
+    "topTopics": [
+      "other",
+      "media",
+      "agent",
+      "product",
+      "design"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在内容与媒体、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2085563808773189680",
+        "text": "We’re updating Claude Fable 5’s biology safeguards to reduce false positives. In our testing, this update reduced biology-related fallbacks by about 85% across our product surface…",
+        "handle": "claudeai",
+        "name": "Claude",
+        "topic": "product",
+        "url": "https://x.com/claudeai/status/2085563808773189680"
+      },
+      {
+        "id": "2085517360178585951",
+        "text": "昨天卖了个关子，今天可以公布了，新论文叫 CRAFT。 论文里最喜欢的一点，是它不用提前知道用户会问什么。视频压一次，后面换不同的问题，继续用同一份压缩结果。 这对 AI 眼镜很关键。设备不能等你每问一句，再把整段视频从头算一遍。它得先把看过的内容压下来，需要时再拿出来。 约 8× Another paper from us, this time on v…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "media",
+        "url": "https://x.com/elliotchen100/status/2085517360178585951"
+      },
+      {
+        "id": "2085354433286963623",
+        "text": "这些球类 Agents 思考/计划/执行的动效真好看， 要加进 EverOS 的 CLI 里面。 More types added to the Thinking Orbs library. Large and small sizes, light & dark mode, playground, zero dep http:// orbs.jakuban…",
+        "handle": "elliotchen100",
+        "name": "艾略特",
+        "topic": "agent",
+        "url": "https://x.com/elliotchen100/status/2085354433286963623"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "builderCount": 11,
+    "postCount": 39,
+    "topTopics": [
+      "business",
+      "design",
+      "model",
+      "other",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在商业、设计、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2085208566177071356",
+        "text": "突发：DeepSeek刚宣布要大幅涨价了！ 网友：梁圣要变小梁了吗 不知道是不是国内友商给了压力，DeepSeek在官网发布通知，计划近期整体上调DeepSeek API服务的定价，预计涨幅较大。具体方案以正式通知为准。 目前，DeepSeek-V4-Flash的价格为： 输入（缓存命中）0.02元/百万tokens； 为什么是梁文锋做成了 DeepSee…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
         "url": "https://x.com/AYi_AInotes/status/2085208566177071356"
+      },
+      {
+        "id": "2085199278583263501",
+        "text": "This actually happened Elon Musk reveals what happens when a rocket launch needs approval from Fish and Wildlife Elon: \"Nonetheless, we were forced to kidnap a seal, strap it to a…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "product",
+        "url": "https://x.com/elonmusk/status/2085199278583263501"
+      },
+      {
+        "id": "2085210550372302958",
+        "text": "昨晚马斯克一句话，内存空头的尸首都快堆到交易所门口了。 他在 SpaceX Q2 财报会上扔的原话，没有一句废话： 现在内存供给每年涨 20%，放任何传统行业都是神迹级增速；但 AI 对内存的需求每年涨 200% 都打不住。 供给涨 20%，需求翻两倍多，经济学 101 就告诉你：这东西价格只会涨，不会跌。 大家都在刷SpaceX上市首份财报，没人注意Mu…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2085210550372302958"
       }
     ]
   },
