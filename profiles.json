@@ -89,7 +89,7 @@
   },
   {
     "handle": "elliotchen100",
-    "name": "Elliot - 艾略特",
+    "name": "Elliot 艾略特",
     "bio": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
     "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
     "avatar": "EL",
@@ -98,10 +98,10 @@
   {
     "handle": "elonmusk",
     "name": "Elon Musk",
-    "role": "Starmind",
+    "role": "http://Terafab.AI",
     "avatar": "EM",
     "verified": true,
-    "bio": "Starmind"
+    "bio": "http://Terafab.AI"
   },
   {
     "handle": "garrytan",
@@ -349,6 +349,14 @@
     "bio": "Thinking, beeping, and booping. @tinkerapi",
     "role": "Thinking, beeping, and booping. @tinkerapi",
     "avatar": "TM",
+    "verified": true
+  },
+  {
+    "handle": "thsottiaux",
+    "name": "Tibo",
+    "bio": "Codex & ChatGPT @OpenAI",
+    "role": "Codex & ChatGPT @OpenAI",
+    "avatar": "TH",
     "verified": true
   },
   {

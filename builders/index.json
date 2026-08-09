@@ -13,11 +13,11 @@
     "handle": "elonmusk",
     "slug": "elonmusk",
     "name": "Elon Musk",
-    "role": "Starmind",
-    "summary": "Starmind",
+    "role": "http://Terafab.AI",
+    "summary": "http://Terafab.AI",
     "avatar": "EM",
     "verified": true,
-    "signalCount": 780
+    "signalCount": 782
   },
   {
     "handle": "garrytan",
@@ -27,7 +27,7 @@
     "summary": "President & CEO @ycombinator —Founder @garryslist —Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
     "avatar": "GT",
     "verified": true,
-    "signalCount": 620
+    "signalCount": 622
   },
   {
     "handle": "petergyang",
@@ -47,7 +47,7 @@
     "summary": "喜欢摇滚乐、爱钓鱼的PM",
     "avatar": "VI",
     "verified": true,
-    "signalCount": 397
+    "signalCount": 398
   },
   {
     "handle": "op7418",
@@ -57,7 +57,7 @@
     "summary": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design） 歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
     "avatar": "OP",
     "verified": true,
-    "signalCount": 364
+    "signalCount": 366
   },
   {
     "handle": "kenw_2",
@@ -97,7 +97,17 @@
     "summary": "Design/Vibe/Shape ► Building @airbuild_hq ► Others http://hwang.fun/projects early @bridge_surf @AFFiNEOfficial",
     "avatar": "HW",
     "verified": true,
-    "signalCount": 262
+    "signalCount": 263
+  },
+  {
+    "handle": "alchainhust",
+    "slug": "alchainhust",
+    "name": "花叔",
+    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+    "summary": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
+    "avatar": "AL",
+    "verified": true,
+    "signalCount": 258
   },
   {
     "handle": "lxfater",
@@ -108,16 +118,6 @@
     "avatar": "LX",
     "verified": true,
     "signalCount": 258
-  },
-  {
-    "handle": "alchainhust",
-    "slug": "alchainhust",
-    "name": "花叔",
-    "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
-    "summary": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
-    "avatar": "AL",
-    "verified": true,
-    "signalCount": 257
   },
   {
     "handle": "Gorden_Sun",
@@ -157,7 +157,7 @@
     "summary": "iOS App：灵感提词器 AI Storyboard： http://mkboard.app AI Gateway : http://llmrelay.site AI Anime： http://mkanime.ai 独立开发者 & Up主，无限进步中",
     "avatar": "YI",
     "verified": true,
-    "signalCount": 180
+    "signalCount": 181
   },
   {
     "handle": "steipete",
@@ -207,7 +207,7 @@
     "summary": "head of product @linear",
     "avatar": "NY",
     "verified": true,
-    "signalCount": 111
+    "signalCount": 112
   },
   {
     "handle": "sama",
@@ -227,7 +227,7 @@
     "summary": "I am curious and honest",
     "avatar": "FW",
     "verified": true,
-    "signalCount": 92
+    "signalCount": 93
   },
   {
     "handle": "claudeai",
@@ -272,7 +272,7 @@
   {
     "handle": "elliotchen100",
     "slug": "elliotchen100",
-    "name": "Elliot - 艾略特",
+    "name": "Elliot 艾略特",
     "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
     "summary": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
     "avatar": "EL",
@@ -297,7 +297,7 @@
     "summary": "Claude Code @anthropicai",
     "avatar": "BC",
     "verified": true,
-    "signalCount": 39
+    "signalCount": 40
   },
   {
     "handle": "naval",
@@ -476,6 +476,16 @@
     "role": "Interviewing the greats @Relentless | Forward Deployed Podcaster",
     "summary": "Interviewing the greats @Relentless | Forward Deployed Podcaster",
     "avatar": "TM",
+    "verified": true,
+    "signalCount": 1
+  },
+  {
+    "handle": "thsottiaux",
+    "slug": "thsottiaux",
+    "name": "Tibo",
+    "role": "Codex & ChatGPT @OpenAI",
+    "summary": "Codex & ChatGPT @OpenAI",
+    "avatar": "TH",
     "verified": true,
     "signalCount": 1
   },
