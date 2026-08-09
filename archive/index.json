@@ -1,16 +1,16 @@
 [
   {
-    "date": "2026-08-08",
-    "builderCount": 16,
-    "postCount": 24,
+    "date": "2026-08-09",
+    "builderCount": 3,
+    "postCount": 6,
     "topTopics": [
       "product",
-      "media",
-      "model",
       "agent",
-      "design"
+      "model",
+      "media",
+      "business"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，界面和工作流层面的重组开始变多，产品形态本身在松动。现在真正拉开差距的，越来越不是会不会做，而是能不能持续交付。",
     "highlights": [
       {
         "id": "2086058840433250448",
@@ -29,12 +29,51 @@
         "url": "https://x.com/elliotchen100/status/2086054476583236059"
       },
       {
-        "id": "2085807103382519872",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：The team and I use Auto mode exclusively, and have been for many months. I couldn't imagine going back to perm...。Boris Cherny 的身份接近“Claude Code @anthropi…",
-        "handle": "bcherny",
-        "name": "Boris Cherny",
+        "id": "2086085784289886427",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：我觉得官网 UV 对 @openclaw 是个严重失真的指标，如果要衡量OpenClaw 这种开源Agent的生命力，要看GitHub Stars，实际安装的 Gateway 数量、活跃 Skills 生态这些， 龙虾大...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2086085784289886427"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "builderCount": 17,
+    "postCount": 47,
+    "topTopics": [
+      "model",
+      "design",
+      "business",
+      "product",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2086085784289886427",
+        "text": "我觉得官网 UV 对 @openclaw 是个严重失真的指标，如果要衡量OpenClaw 这种开源Agent的生命力，要看GitHub Stars，实际安装的 Gateway 数量、活跃 Skills 生态这些， 龙虾大家装完之后日常交互主要走 Telegram 飞书 这些入口，Gateway 跑起来，官网流量就会大幅衰减， WorkBuddy 来自即刻用…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2086085784289886427"
+      },
+      {
+        "id": "2085821218784264586",
+        "text": "The hierarchy of desire: - The fame - The money - The team - The product - The work itself",
+        "handle": "naval",
+        "name": "Naval",
         "topic": "product",
-        "url": "https://x.com/bcherny/status/2085807103382519872"
+        "url": "https://x.com/naval/status/2085821218784264586"
+      },
+      {
+        "id": "2085930346244349973",
+        "text": "OpenAI突然大放水，给开源项目的开发者送6个月Pro会员，可以检查下自己邮箱有没有收到～",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "product",
+        "url": "https://x.com/AlchainHust/status/2085930346244349973"
       }
     ]
   },
