@@ -21,7 +21,7 @@
       "date": "2026-06-28",
       "name": "Elliot 艾略特",
       "handle": "elliotchen100",
-      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
+      "role": "Building EverOS/Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。 bro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。 用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。 延迟低，效果激情，有创意。 i tried building an AI commentator for the World Cup it watche...",
       "summaryEn": "好像现在世界杯的热度不高，推上也基本刷不到任何世界杯的消息。 bro 自己写了一个本地世界杯解说员，可以后台播放，用耳朵摸鱼。 用了我老东家的 RTMP 源 → Agora Media Gateway（转 RTC）→ 后端采样帧 + 调用大模型 + TTS → 再推回 RTC 频道。 延迟低，效果激情，有创意。 i tried building an AI commentator for the World Cup it watche...",

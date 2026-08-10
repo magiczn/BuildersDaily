@@ -601,7 +601,7 @@
       "date": "2026-06-17",
       "name": "Elliot 艾略特",
       "handle": "elliotchen100",
-      "role": "Building Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
+      "role": "Building EverOS/Raven at @EverMind . Interested in pretty much everything AI: models, agents, memory, developer tools, products, and research.",
       "avatar": "EL",
       "summary": "昨天升级了一下。 EverOS 1.0.1 主要做了本地记忆持久化的路径安全加固： 收紧外部传入 ID 的校验，并在底层 Markdown 写入层增加 memory root 边界保护，确保本地记忆文件始终写在预期目录内。 本地优先的 memory，边界感很重要。 EverOS 1.0.1 is here. It focuses on path-safety hardening for local-first memory persi...",
       "summaryEn": "昨天升级了一下。 EverOS 1.0.1 主要做了本地记忆持久化的路径安全加固： 收紧外部传入 ID 的校验，并在底层 Markdown 写入层增加 memory root 边界保护，确保本地记忆文件始终写在预期目录内。 本地优先的 memory，边界感很重要。 EverOS 1.0.1 is here. It focuses on path-safety hardening for local-first memory persi...",
