@@ -129,6 +129,13 @@ test('today heading renders the current issue date from issue data', async () =>
   assert.match(app, /elements\.digestDate\.textContent = formatDate\(issue\.date\)/);
 });
 
+test('today cards use one readable column with a controlled text measure', async () => {
+  const styles = await readFile(new URL('../assets/styles.css', import.meta.url), 'utf8');
+  assert.match(styles, /\.today-view \.story-grid \{[^}]*grid-template-columns: minmax\(0, 1fr\)/s);
+  assert.doesNotMatch(styles, /\.today-view \.story-grid \{[^}]*repeat\(2,/s);
+  assert.match(styles, /\.today-view \.story-grid\.compact \.story-copy \{[^}]*max-width: 780px[^}]*font-family: var\(--ui\)[^}]*line-height: 1\.88/s);
+});
+
 test('Vercel publishes the committed static site without rebuilding local reports', async () => {
   const config = JSON.parse(await readFile(new URL('../vercel.json', import.meta.url), 'utf8'));
   assert.equal(config.framework, null);
