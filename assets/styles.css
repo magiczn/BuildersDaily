@@ -118,6 +118,7 @@ svg {
   align-items: center;
   min-height: var(--header-h);
   padding: 10px max(24px, calc((100vw - var(--max)) / 2));
+  border-bottom: 1px solid rgba(17, 17, 17, 0.045);
   background: rgba(247, 247, 245, 0.94);
   backdrop-filter: blur(20px);
   font-family: var(--ui);
@@ -379,7 +380,7 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
 
 .today-view .digest-section {
   width: min(100%, var(--max));
-  padding-top: 96px;
+  padding-top: 76px;
   padding-bottom: 112px;
 }
 
@@ -620,7 +621,7 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
   align-items: end;
   gap: 48px;
-  margin-bottom: 42px;
+  margin-bottom: 36px;
 }
 
 .today-view .digest-heading h2 {
@@ -814,19 +815,19 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   min-width: 0;
   min-height: 0;
   flex-direction: column;
-  padding: 42px clamp(36px, 5.8vw, 62px) 48px;
-  border: 1px solid rgba(17, 17, 17, 0.075);
-  border-radius: 20px;
+  padding: 38px clamp(34px, 5.4vw, 58px) 44px;
+  border: 1px solid rgba(17, 17, 17, 0.065);
+  border-radius: 16px;
   background: var(--paper);
-  box-shadow: 0 1px 2px rgba(17, 17, 17, 0.018);
+  box-shadow: 0 1px 2px rgba(17, 17, 17, 0.012);
   cursor: pointer;
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
 .today-view .story-grid.compact .story-card:hover,
 .today-view .story-grid.compact .story-card:focus-visible {
-  border-color: rgba(17, 17, 17, 0.14);
-  box-shadow: 0 10px 30px rgba(17, 17, 17, 0.035);
+  border-color: rgba(17, 17, 17, 0.12);
+  box-shadow: 0 12px 32px rgba(17, 17, 17, 0.028);
   transform: translateY(-1px);
 }
 
@@ -836,12 +837,15 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
 }
 
 .today-view .story-grid.compact .story-card-top {
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 18px;
+  align-items: center;
+  gap: 16px;
   margin-bottom: 28px;
 }
 
-.today-view .story-grid.compact .story-builder {
-  margin-bottom: 30px;
+.today-view .story-grid.compact .story-card-top .story-builder {
+  margin: 0;
 }
 
 .today-view .story-grid.compact .builder-avatar {
@@ -860,9 +864,21 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   font-size: 11px;
 }
 
+.today-view .story-grid.compact .story-number {
+  align-self: start;
+  padding-top: 14px;
+}
+
+.today-view .story-grid.compact .story-highlight {
+  align-self: start;
+  padding-top: 12px;
+  text-align: right;
+}
+
 .today-view .story-grid.compact .story-copy {
   display: -webkit-box;
-  max-width: 780px;
+  max-width: 760px;
+  margin-left: 50px;
   overflow: hidden;
   color: var(--text);
   font-family: var(--ui);
@@ -886,13 +902,16 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   min-height: 300px;
   flex-direction: column;
   padding: 30px;
+  border: 1px solid rgba(17, 17, 17, 0.055);
+  border-radius: 14px;
   background: var(--paper);
-  transition: transform 180ms ease, background 180ms ease;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
 .archive-card:hover {
-  background: var(--wash);
-  transform: translateY(-3px);
+  border-color: rgba(17, 17, 17, 0.11);
+  box-shadow: 0 10px 28px rgba(17, 17, 17, 0.025);
+  transform: translateY(-1px);
 }
 
 .archive-date {
@@ -934,6 +953,7 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   margin: 46px auto 0;
   padding: 0 20px;
   border: 0;
+  border-radius: 9px;
   background: var(--wash);
   color: var(--ink);
   cursor: pointer;
@@ -968,7 +988,15 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
 .builder-card {
   min-height: 260px;
   padding: 26px;
+  border: 1px solid rgba(17, 17, 17, 0.05);
+  border-radius: 14px;
   background: var(--page);
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.builder-card:hover {
+  border-color: rgba(17, 17, 17, 0.1);
+  background: #f9f9f7;
 }
 
 .builder-card-head {
@@ -983,6 +1011,7 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   min-height: 34px;
   padding: 0 11px;
   border: 0;
+  border-radius: 8px;
   background: var(--wash-strong);
   color: var(--muted);
   cursor: pointer;
@@ -1076,6 +1105,7 @@ dialog::backdrop {
   max-height: 900px;
   margin: auto;
   overflow: hidden;
+  border-radius: 18px;
   background: var(--page);
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.22);
   animation: reader-enter 220ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
@@ -1198,6 +1228,7 @@ dialog::backdrop {
   max-height: 900px;
   margin: auto;
   overflow: hidden;
+  border-radius: 18px;
   background: var(--page);
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.22);
   animation: reader-enter 220ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
@@ -1491,7 +1522,7 @@ dialog::backdrop {
   }
 
   .today-view .digest-section {
-    padding-top: 72px;
+    padding-top: 60px;
     padding-bottom: 84px;
   }
 
@@ -1501,11 +1532,30 @@ dialog::backdrop {
 
   .today-view .story-grid.compact .story-card {
     min-height: 0;
-    padding: 28px 24px 32px;
-    border-radius: 16px;
+    padding: 26px 22px 30px;
+    border-radius: 14px;
+  }
+
+  .today-view .story-grid.compact .story-card-top {
+    grid-template-columns: 24px minmax(0, 1fr) 16px;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .today-view .story-grid.compact .builder-avatar {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+
+  .today-view .story-grid.compact .story-number,
+  .today-view .story-grid.compact .story-highlight {
+    padding-top: 11px;
   }
 
   .today-view .story-grid.compact .story-copy {
+    max-width: none;
+    margin-left: 36px;
     font-size: 17px;
     line-height: 1.82;
     -webkit-line-clamp: 8;

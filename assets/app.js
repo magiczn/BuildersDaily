@@ -516,9 +516,10 @@ function renderStories() {
     <article class="story-card" data-post-id="${escapeHtml(post.id)}" data-primary-topic="${escapeHtml(post.primaryTopic)}"${isToday ? ` data-reader-card="${escapeHtml(post.id)}" role="button" tabindex="0" aria-label="打开 ${escapeHtml(post.name)} 的深度阅读"` : ''}>
       <div class="story-card-top">
         <span class="story-number">${String(index + 1).padStart(2, '0')}</span>
+        ${isToday ? builderIdentity : ''}
         ${isHighlighted ? '<span class="story-highlight" role="img" aria-label="值得阅读" title="值得阅读">★</span>' : ''}
       </div>
-      ${builderIdentity}
+      ${isToday ? '' : builderIdentity}
       <p class="story-copy">${escapeHtml(post.summaryEn || post.summary)}</p>
       ${isHistorical || isToday ? '' : `<div class="story-card-actions"><button class="read-action" type="button" data-open-post="${escapeHtml(post.id)}">深度阅读</button></div>`}
     </article>
