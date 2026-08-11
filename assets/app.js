@@ -27,8 +27,12 @@ const state = {
   cards: [],
   activeIndex: 0,
   renderedActiveIndex: -1,
+  focusFromIndex: -1,
+  focusToIndex: -1,
+  focusProgress: 1,
   camera: { x: 0, y: 0, zoom: 0.82 },
   cameraAnimation: 0,
+  focusBackdropTimer: 0,
   observedPosts: new Set(),
   completionCelebrated: false,
   readTimer: 0,
@@ -420,6 +424,10 @@ function renderMode(mode, { updateUrl = true } = {}) {
   state.positions = buildPositions(state.items, mode);
   state.activeIndex = 0;
   state.renderedActiveIndex = -1;
+  state.focusFromIndex = -1;
+  state.focusToIndex = -1;
+  state.focusProgress = 1;
+  setFocusBackdrop(false);
   state.camera = { x: state.positions[0]?.x || 0, y: state.positions[0]?.y || 0, zoom: defaultZoom() };
   elements.world.innerHTML = state.items.map(cardMarkup).join('');
   state.cards = $$('.space-card', elements.world);
@@ -441,6 +449,7 @@ function renderMode(mode, { updateUrl = true } = {}) {
   updateNavigation();
   updateActiveUI();
   updateScene();
+  restoreFocusBackdrop(180);
   scheduleReadMark();
 
   if (state.isHome && updateUrl) {
@@ -521,8 +530,19 @@ function updateScene() {
     const distance = Math.hypot(dx, dy);
     const fisheye = 1 / (1 + distance / 960);
     const active = index === state.activeIndex;
-    const scale = clamp(state.camera.zoom * depth * (0.52 + fisheye * 0.48) * (active ? 1.14 : 1), 0.22, 1.12);
-    const opacity = active ? 1 : clamp(1.08 - distance / (viewRadius * 1.4), 0.12, 0.82);
+    let focusWeight = active ? 1 : 0;
+    if (state.focusToIndex >= 0) {
+      if (index === state.focusToIndex) focusWeight = state.focusProgress;
+      else if (index === state.focusFromIndex) focusWeight = 1 - state.focusProgress;
+      else focusWeight = 0;
+    }
+    const focusBounce = index === state.focusToIndex
+      ? Math.sin(state.focusProgress * Math.PI) * 0.045
+      : 0;
+    const focusScale = 1 + focusWeight * 0.28 + focusBounce;
+    const scale = clamp(state.camera.zoom * depth * (0.52 + fisheye * 0.48) * focusScale, 0.22, 1.16);
+    const baseOpacity = clamp(1.08 - distance / (viewRadius * 1.4), 0.12, 0.82);
+    const opacity = focusWeight > 0 ? Math.max(baseOpacity, 0.78 + focusWeight * 0.22) : baseOpacity;
     const rotateY = clamp(-dx / Math.max(rect.width, 1) * 18, -9, 9);
     const rotateX = clamp(dy / Math.max(rect.height, 1) * 12, -6, 6);
     const offscreen = Math.abs(dx) > rect.width * 0.95 || Math.abs(dy) > rect.height * 1.05;
@@ -541,23 +561,76 @@ function updateScene() {
     }
     card.style.transform = `translate3d(${center.x + dx}px, ${center.y + dy}px, 0) translate(-50%, -50%) scale(${scale}) rotateX(${rotateX}deg) rotateY(${rotateY + position.tilt}deg)`;
     card.style.opacity = String(opacity);
-    card.style.zIndex = String(active ? 1000 : Math.round(100 + scale * 100));
+    card.style.zIndex = String(focusWeight > 0 ? Math.round(900 + focusWeight * 100) : Math.round(100 + scale * 100));
   });
 }
 
-function animateCamera(targetX, targetY, targetZoom = state.camera.zoom) {
+function settleFocusTransition() {
+  state.focusFromIndex = -1;
+  state.focusToIndex = -1;
+  state.focusProgress = 1;
+  elements.stage.classList.remove('is-focusing');
+}
+
+function setFocusBackdrop(active) {
+  clearTimeout(state.focusBackdropTimer);
+  state.focusBackdropTimer = 0;
+  elements.stage.classList.toggle('has-focus-backdrop', active);
+}
+
+function syncFocusBackdropHole() {
+  const card = state.cards[state.activeIndex];
+  if (!card) return;
+  const stageRect = state.stageRect || measureStage();
+  const cardRect = card.getBoundingClientRect();
+  const gutter = stageRect.width < 640 ? 10 : 18;
+  const left = clamp(cardRect.left - stageRect.left - gutter, 0, stageRect.width);
+  const top = clamp(cardRect.top - stageRect.top - gutter, 0, stageRect.height);
+  const right = clamp(cardRect.right - stageRect.left + gutter, 0, stageRect.width);
+  const bottom = clamp(cardRect.bottom - stageRect.top + gutter, 0, stageRect.height);
+  elements.stage.style.setProperty('--focus-left', `${left}px`);
+  elements.stage.style.setProperty('--focus-top', `${top}px`);
+  elements.stage.style.setProperty('--focus-right', `${right}px`);
+  elements.stage.style.setProperty('--focus-bottom', `${bottom}px`);
+}
+
+function restoreFocusBackdrop(delay = 0) {
+  clearTimeout(state.focusBackdropTimer);
+  state.focusBackdropTimer = window.setTimeout(() => {
+    state.focusBackdropTimer = 0;
+    syncFocusBackdropHole();
+    elements.stage.classList.add('has-focus-backdrop');
+  }, delay);
+}
+
+function animateCamera(targetX, targetY, targetZoom = state.camera.zoom, focusTransition = null) {
   cancelAnimationFrame(state.cameraAnimation);
+  setFocusBackdrop(false);
   const start = { ...state.camera };
   const startedAt = performance.now();
   const duration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 1 : 560;
+  if (focusTransition) {
+    state.focusFromIndex = focusTransition.from;
+    state.focusToIndex = focusTransition.to;
+    state.focusProgress = 0;
+    elements.stage.classList.add('is-focusing');
+  } else settleFocusTransition();
   const draw = (now) => {
     const progress = clamp((now - startedAt) / duration, 0, 1);
     const eased = progress * progress * (3 - 2 * progress);
+    if (focusTransition) state.focusProgress = eased;
     state.camera.x = start.x + (targetX - start.x) * eased;
     state.camera.y = start.y + (targetY - start.y) * eased;
     state.camera.zoom = start.zoom + (targetZoom - start.zoom) * eased;
     updateScene();
     if (progress < 1) state.cameraAnimation = requestAnimationFrame(draw);
+    else {
+      if (focusTransition) {
+        settleFocusTransition();
+        updateScene();
+      }
+      restoreFocusBackdrop();
+    }
   };
   state.cameraAnimation = requestAnimationFrame(draw);
 }
@@ -565,11 +638,15 @@ function animateCamera(targetX, targetY, targetZoom = state.camera.zoom) {
 function focusItem(index, { smooth = true, trackFocus = true } = {}) {
   if (!state.items.length) return;
   const nextIndex = (index + state.items.length) % state.items.length;
+  const previousIndex = state.activeIndex;
   const changed = nextIndex !== state.activeIndex;
   state.activeIndex = nextIndex;
   const position = state.positions[nextIndex];
   updateActiveUI();
-  if (smooth) animateCamera(position.x, position.y, state.camera.zoom);
+  if (smooth) animateCamera(position.x, position.y, state.camera.zoom, {
+    from: previousIndex,
+    to: nextIndex
+  });
   else {
     state.camera.x = position.x;
     state.camera.y = position.y;
@@ -593,6 +670,7 @@ function nearestItemToCenter() {
 }
 
 function zoomCanvas(delta, clientX, clientY) {
+  setFocusBackdrop(false);
   const rect = state.stageRect || measureStage();
   const center = stageCenter(rect);
   const oldZoom = state.camera.zoom;
@@ -605,6 +683,7 @@ function zoomCanvas(delta, clientX, clientY) {
   state.camera.y = worldY - (pointerY - center.y) / nextZoom;
   state.camera.zoom = nextZoom;
   scheduleSceneUpdate();
+  restoreFocusBackdrop(160);
   elements.status.textContent = `缩放 ${Math.round(nextZoom * 100)}%`;
 }
 
@@ -748,6 +827,9 @@ function bindEvents() {
   elements.stage.addEventListener('pointerdown', (event) => {
     if (event.target.closest('.space-card-action')) return;
     cancelAnimationFrame(state.cameraAnimation);
+    setFocusBackdrop(false);
+    settleFocusTransition();
+    scheduleSceneUpdate();
     state.dragging = {
       id: event.pointerId,
       x: event.clientX,
@@ -778,6 +860,7 @@ function bindEvents() {
     elements.stage.classList.remove('is-dragging');
     if (elements.stage.hasPointerCapture(event.pointerId)) elements.stage.releasePointerCapture(event.pointerId);
     if (drag.moved) focusItem(nearestItemToCenter());
+    else restoreFocusBackdrop(80);
   };
   elements.stage.addEventListener('pointerup', finishDrag);
   elements.stage.addEventListener('pointercancel', finishDrag);

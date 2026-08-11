@@ -92,6 +92,13 @@ test('spatial canvas provides pan, zoom, focus and sequential navigation', async
   assert.match(app, /state\.renderedActiveIndex = state\.activeIndex/);
   assert.doesNotMatch(app, /card\.style\.filter/);
   assert.match(app, /function focusItem\(index/);
+  assert.match(app, /focusBounce = index === state\.focusToIndex/);
+  assert.match(app, /classList\.add\('is-focusing'\)/);
+  assert.match(app, /classList\.add\('has-focus-backdrop'\)/);
+  assert.match(app, /function setFocusBackdrop\(active\)/);
+  assert.match(app, /function syncFocusBackdropHole\(\)/);
+  assert.match(template, /class="spatial-focus-backdrop"/);
+  assert.match(template, /styles\.css\?v=20260811-10/);
   assert.match(app, /addEventListener\('pointerdown'/);
   assert.match(app, /addEventListener\('pointermove'/);
   assert.match(app, /addEventListener\('wheel'/);

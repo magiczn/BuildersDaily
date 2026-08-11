@@ -314,12 +314,64 @@ a {
   user-select: none;
 }
 
+.spatial-focus-backdrop {
+  position: absolute;
+  z-index: 850;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+
+.spatial-stage.has-focus-backdrop .spatial-focus-backdrop {
+  opacity: 1;
+}
+
+.spatial-focus-backdrop span {
+  position: absolute;
+  background: rgba(244, 244, 241, 0.055);
+  -webkit-backdrop-filter: blur(6px) saturate(0.76);
+  backdrop-filter: blur(6px) saturate(0.76);
+}
+
+.spatial-focus-backdrop__top {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: var(--focus-top, 25%);
+}
+
+.spatial-focus-backdrop__right {
+  top: var(--focus-top, 25%);
+  right: 0;
+  bottom: calc(100% - var(--focus-bottom, 75%));
+  left: var(--focus-right, 75%);
+}
+
+.spatial-focus-backdrop__bottom {
+  top: var(--focus-bottom, 75%);
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.spatial-focus-backdrop__left {
+  top: var(--focus-top, 25%);
+  right: calc(100% - var(--focus-left, 25%));
+  bottom: calc(100% - var(--focus-bottom, 75%));
+  left: 0;
+}
+
 .spatial-stage:focus-visible {
   box-shadow: inset 0 0 0 2px rgba(21, 21, 19, 0.65);
 }
 
 .spatial-stage.is-dragging {
   cursor: grabbing;
+}
+
+.spatial-stage.is-focusing {
+  cursor: progress;
 }
 
 .spatial-world {
@@ -368,6 +420,11 @@ a {
   border-color: rgba(21, 21, 19, 0.13);
   background: rgba(255, 255, 255, 0.985);
   box-shadow: 0 30px 90px rgba(21, 21, 19, 0.12), 0 2px 8px rgba(21, 21, 19, 0.04);
+}
+
+.spatial-stage.is-focusing .space-card.is-active {
+  border-color: rgba(21, 21, 19, 0.18);
+  box-shadow: 0 36px 110px rgba(21, 21, 19, 0.15), 0 2px 8px rgba(21, 21, 19, 0.04);
 }
 
 .space-card-focus {
