@@ -20,7 +20,7 @@
   <link rel="canonical" href="https://www.buildersdaily.today/">
   <link rel="icon" href="/assets/favicon.svg?v=20260811-1" type="image/svg+xml">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/assets/styles.css?v=20260811-3">
+  <link rel="stylesheet" href="/assets/styles.css?v=20260811-4">
   <title>Builders Daily — AI Builder 情报日报</title>
   <script type="application/ld+json" id="structuredData">
     {"@context":"https://schema.org","@type":"WebSite","name":"Builders Daily","url":"https://www.buildersdaily.today/","description":"每天 5 分钟，读懂 AI Builders 正在构建什么、为什么重要，以及今天值得尝试什么。"}
@@ -143,27 +143,20 @@
   <dialog class="reader-dialog" id="readerDialog" aria-labelledby="readerTitle">
     <div class="reader-shell">
       <header class="reader-header">
-        <div>
-          <p class="eyebrow" id="readerTopic">SIGNAL</p>
-          <h2 id="readerTitle">深度阅读</h2>
-          <p id="readerMeta"></p>
+        <div class="reader-builder">
+          <span class="builder-avatar" id="readerAvatar" aria-hidden="true">BD</span>
+          <span class="builder-identity">
+            <strong id="readerTitle">深度阅读</strong>
+            <span id="readerMeta"></span>
+          </span>
         </div>
         <button class="icon-button dialog-close" type="button" data-close-dialog aria-label="关闭深度阅读">×</button>
       </header>
       <div class="reader-body">
-        <section class="reader-source">
-          <p class="reader-label">原始动态</p>
-          <div id="readerOriginal"></div>
-        </section>
-        <section class="reader-insight">
-          <div class="insight-block insight-lead">
-            <p class="reader-label">一句话结论</p>
-            <p id="readerConclusion"></p>
-          </div>
-        </section>
+        <div class="reader-original" id="readerOriginal"></div>
       </div>
       <footer class="reader-footer">
-        <a class="button button-primary" id="readerSource" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>
+        <a class="reader-source-link" id="readerSource" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>
       </footer>
     </div>
   </dialog>
@@ -184,9 +177,17 @@
     </div>
   </dialog>
 
+  <div class="completion-celebration" id="completionCelebration" role="status" aria-live="polite" hidden>
+    <canvas class="completion-fireworks" id="completionFireworks" aria-hidden="true"></canvas>
+    <div class="completion-message">
+      <span>DAILY COMPLETE</span>
+      <strong>今日已读完</strong>
+    </div>
+  </div>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="/assets/config.js?v=20260807-1"></script>
-  <script type="module" src="/assets/app.js?v=20260811-2"></script>
+  <script type="module" src="/assets/app.js?v=20260811-3"></script>
 </body>
 </html>

@@ -41,7 +41,8 @@ const TOPIC_DEFINITIONS = {
 
 const STORAGE_KEYS = {
   followed: 'builders-daily:followed:v2',
-  events: 'builders-daily:events:v2'
+  events: 'builders-daily:events:v2',
+  celebrated: 'builders-daily:celebrated:v1'
 };
 
 const state = {
@@ -57,7 +58,8 @@ const state = {
   collectionMode: '',
   collectionTrigger: null,
   observedPosts: new Set(),
-  firstContentTracked: false
+  firstContentTracked: false,
+  completionCelebrated: false
 };
 
 const elements = {};
@@ -342,6 +344,8 @@ function cacheElements() {
     loadMoreArchive: $('#loadMoreArchive'),
     loadMoreBuilders: $('#loadMoreBuilders'),
     readingProgress: $('#readingProgress'),
+    completionCelebration: $('#completionCelebration'),
+    completionFireworks: $('#completionFireworks'),
     readerDialog: $('#readerDialog'),
     collectionDialog: $('#collectionDialog'),
     collectionDialogGrid: $('#collectionDialogGrid'),
@@ -464,6 +468,9 @@ function renderPage() {
       : `今日（${issue.posts.length} 条）`;
 
   state.visiblePosts = [...issue.posts];
+  state.observedPosts.clear();
+  state.firstContentTracked = false;
+  state.completionCelebrated = loadJsonStorage(STORAGE_KEYS.celebrated, []).includes(issue.date);
   renderStories();
   if (!isHistorical) renderArchive();
   updateMetadata();
@@ -528,6 +535,125 @@ function renderStories() {
   observeCards();
 }
 
+function persistCelebratedIssue(date) {
+  const dates = loadJsonStorage(STORAGE_KEYS.celebrated, []).filter(Boolean);
+  if (!dates.includes(date)) dates.push(date);
+  localStorage.setItem(STORAGE_KEYS.celebrated, JSON.stringify(dates.slice(-30)));
+}
+
+function finishCompletionCelebration() {
+  elements.completionCelebration.classList.remove('is-active');
+  setTimeout(() => {
+    elements.completionCelebration.hidden = true;
+    const context = elements.completionFireworks.getContext('2d');
+    context?.clearRect(0, 0, elements.completionFireworks.width, elements.completionFireworks.height);
+  }, 220);
+}
+
+function playCompletionCelebration() {
+  const overlay = elements.completionCelebration;
+  const canvas = elements.completionFireworks;
+  if (!overlay || !canvas) return;
+
+  overlay.hidden = false;
+  requestAnimationFrame(() => overlay.classList.add('is-active'));
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    setTimeout(finishCompletionCelebration, 1600);
+    return;
+  }
+
+  const context = canvas.getContext('2d');
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+  canvas.width = Math.round(width * dpr);
+  canvas.height = Math.round(height * dpr);
+  context.scale(dpr, dpr);
+
+  const bursts = [
+    { x: width * 0.2, y: height * 0.32, delay: 0, count: 22 },
+    { x: width * 0.5, y: height * 0.2, delay: 240, count: 28 },
+    { x: width * 0.78, y: height * 0.38, delay: 470, count: 24 },
+    { x: width * 0.38, y: height * 0.62, delay: 700, count: 20 },
+    { x: width * 0.68, y: height * 0.68, delay: 880, count: 22 }
+  ];
+  const particles = [];
+  const shades = ['17,17,17', '82,82,80', '255,255,255'];
+  const startedAt = performance.now();
+
+  function launchBurst(burst) {
+    burst.launched = true;
+    for (let index = 0; index < burst.count; index += 1) {
+      const angle = (Math.PI * 2 * index) / burst.count + Math.random() * 0.12;
+      const speed = 1.8 + Math.random() * 3.2;
+      particles.push({
+        x: burst.x,
+        y: burst.y,
+        previousX: burst.x,
+        previousY: burst.y,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        age: 0,
+        life: 54 + Math.random() * 30,
+        shade: shades[index % shades.length],
+        width: 0.8 + Math.random() * 1.2
+      });
+    }
+  }
+
+  function drawFrame(now) {
+    const elapsed = now - startedAt;
+    context.clearRect(0, 0, width, height);
+
+    bursts.forEach((burst) => {
+      if (!burst.launched && elapsed >= burst.delay) launchBurst(burst);
+      if (!burst.launched) return;
+      const ringProgress = Math.min(1, Math.max(0, (elapsed - burst.delay) / 620));
+      context.beginPath();
+      context.arc(burst.x, burst.y, ringProgress * 54, 0, Math.PI * 2);
+      context.strokeStyle = `rgba(17,17,17,${Math.max(0, 0.2 * (1 - ringProgress))})`;
+      context.lineWidth = 1;
+      context.stroke();
+    });
+
+    particles.forEach((particle) => {
+      particle.previousX = particle.x;
+      particle.previousY = particle.y;
+      particle.x += particle.vx;
+      particle.y += particle.vy;
+      particle.vx *= 0.985;
+      particle.vy = particle.vy * 0.985 + 0.035;
+      particle.age += 1;
+      const alpha = Math.max(0, 1 - particle.age / particle.life);
+      context.beginPath();
+      context.moveTo(particle.previousX, particle.previousY);
+      context.lineTo(particle.x, particle.y);
+      context.strokeStyle = `rgba(${particle.shade},${alpha * 0.88})`;
+      context.lineWidth = particle.width;
+      context.stroke();
+    });
+
+    if (elapsed < 2300) {
+      requestAnimationFrame(drawFrame);
+    } else {
+      finishCompletionCelebration();
+    }
+  }
+
+  requestAnimationFrame(drawFrame);
+}
+
+function maybeCelebrateCompletion() {
+  const isToday = document.body.classList.contains('today-view');
+  const complete = state.visiblePosts.length > 0 && state.observedPosts.size >= state.visiblePosts.length;
+  if (!isToday || !complete || state.completionCelebrated) return;
+  state.completionCelebrated = true;
+  persistCelebratedIssue(state.issue.date);
+  playCompletionCelebration();
+  track('daily_complete', { date: state.issue.date, postCount: state.visiblePosts.length });
+}
+
 function observeCards() {
   cardObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -543,6 +669,7 @@ function observeCards() {
       }
       const progress = state.visiblePosts.length ? state.observedPosts.size / state.visiblePosts.length : 0;
       elements.readingProgress.style.width = `${Math.min(100, progress * 100)}%`;
+      maybeCelebrateCompletion();
     });
   }, { threshold: [0.5] });
   $$('.story-card', elements.storyGrid).forEach((card) => cardObserver.observe(card));
@@ -651,25 +778,13 @@ function openCollectionDialog(mode, trigger) {
   });
 }
 
-function buildInsight(post) {
-  const analysis = compactText(post.analysis, 560);
-  const sentences = analysis.match(/[^。！？!?]+[。！？!?]?/g)?.map((item) => item.trim()).filter(Boolean) || [];
-  const sourceText = compactText(post.summaryEn || post.summary, 220);
-  const conclusion = sentences[0] || sourceText;
-  return {
-    conclusion: compactText(conclusion, 180)
-  };
-}
-
 function openReader(post, options = {}) {
   if (!post) return;
   state.readerPost = post;
-  const insight = buildInsight(post);
-  $('#readerTopic').textContent = topicLabel(post.primaryTopic).toUpperCase();
+  $('#readerAvatar').textContent = post.avatar || avatarFor(post.name, post.handle);
   $('#readerTitle').textContent = post.name;
   $('#readerMeta').textContent = `@${post.handle} · ${formatDate(post.date || state.issue.date)}`;
   $('#readerOriginal').textContent = post.summaryEn || post.summary;
-  $('#readerConclusion').textContent = insight.conclusion;
   $('#readerSource').href = post.url || '#';
   $('#readerSource').hidden = !post.url;
   elements.readerDialog.showModal();

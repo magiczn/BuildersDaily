@@ -1111,21 +1111,22 @@ dialog::backdrop {
 }
 
 .reader-dialog {
-  width: min(calc(100% - 48px), 820px);
-  height: min(88dvh, 900px);
-  max-width: 820px;
-  max-height: 900px;
+  width: min(calc(100% - 48px), 900px);
+  height: auto;
+  max-width: 900px;
+  max-height: min(82dvh, 720px);
   margin: auto;
   overflow: hidden;
+  border: 1px solid rgba(17, 17, 17, 0.065);
   border-radius: 18px;
-  background: var(--page);
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.22);
+  background: var(--paper);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18);
   animation: reader-enter 220ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
 }
 
 .reader-shell {
   display: flex;
-  height: 100%;
+  max-height: min(82dvh, 720px);
   min-height: 0;
   flex-direction: column;
 }
@@ -1138,24 +1139,30 @@ dialog::backdrop {
   align-items: flex-start;
   justify-content: space-between;
   gap: 30px;
-  padding: 34px clamp(28px, 7vw, 76px) 22px;
-  background: rgba(247, 247, 245, 0.96);
-  backdrop-filter: blur(18px);
+  padding: 38px clamp(34px, 5.4vw, 58px) 24px;
+  background: var(--paper);
 }
 
-.reader-header h2 {
-  margin: 0;
-  font-size: clamp(26px, 3.4vw, 34px);
-  font-weight: 300;
-  letter-spacing: -0.04em;
-  line-height: 1.1;
+.reader-builder {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
 }
 
-.reader-header > div > p:last-child {
-  margin: 9px 0 0;
-  color: var(--muted);
-  font-family: var(--mono);
-  font-size: 10px;
+.reader-builder .builder-avatar {
+  width: 46px;
+  height: 46px;
+  flex-basis: 46px;
+}
+
+.reader-builder .builder-identity strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.reader-builder .builder-identity span {
+  margin-top: 2px;
+  font-size: 11px;
 }
 
 .dialog-close {
@@ -1166,62 +1173,25 @@ dialog::backdrop {
 }
 
 .reader-body {
-  width: min(100%, 700px);
+  width: 100%;
   min-height: 0;
   flex: 1 1 auto;
-  margin: 0 auto;
-  padding: 50px 28px 100px;
+  padding: 18px clamp(34px, 5.4vw, 58px) 34px;
   overflow-y: auto;
   overscroll-behavior: contain;
 }
 
-.reader-label {
-  margin: 0 0 18px;
-  color: var(--muted);
-  font-family: var(--mono);
-  font-size: 9px;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-
-.reader-source {
-  margin-bottom: 64px;
-  padding: 0 0 54px;
-  border-bottom: 1px solid rgba(17, 17, 17, 0.08);
-  background: transparent;
-}
-
-.reader-source > div {
-  color: var(--text);
-  font-size: 16px;
-  font-weight: 350;
-  line-height: 1.8;
+.reader-original {
+  max-width: 760px;
+  margin-left: 62px;
+  color: #292927;
+  font-family: var(--ui);
+  font-size: clamp(16px, 1.45vw, 17.5px);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.82;
+  text-wrap: pretty;
   white-space: pre-wrap;
-}
-
-.reader-insight {
-  display: grid;
-  gap: 56px;
-}
-
-.insight-block {
-  padding: 0;
-}
-
-.insight-block > p:last-child {
-  margin: 0;
-  color: var(--text);
-  font-size: 16px;
-  font-weight: 350;
-  line-height: 1.8;
-}
-
-.insight-lead > p:last-child {
-  color: var(--ink);
-  font-size: clamp(19px, 2vw, 23px);
-  font-weight: 300;
-  letter-spacing: -0.012em;
-  line-height: 1.68;
 }
 
 .reader-footer {
@@ -1229,11 +1199,29 @@ dialog::backdrop {
   z-index: 2;
   display: flex;
   flex: 0 0 auto;
-  gap: 8px;
   margin-top: auto;
-  padding: 16px clamp(28px, 7vw, 76px);
-  background: rgba(247, 247, 245, 0.97);
-  backdrop-filter: blur(18px);
+  padding: 0 clamp(34px, 5.4vw, 58px) 38px calc(clamp(34px, 5.4vw, 58px) + 62px);
+  background: var(--paper);
+}
+
+.reader-source-link {
+  min-height: 40px;
+  padding: 0 15px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 9px;
+  color: var(--muted);
+  font-family: var(--ui);
+  font-size: 12px;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.reader-source-link:hover,
+.reader-source-link:focus-visible {
+  border-color: rgba(17, 17, 17, 0.24);
+  background: var(--page);
+  color: var(--ink);
 }
 
 .collection-dialog {
@@ -1315,6 +1303,68 @@ dialog::backdrop {
 @keyframes backdrop-enter {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+.completion-celebration {
+  position: fixed;
+  inset: 0;
+  z-index: 6000;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: rgba(17, 17, 17, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+
+.completion-celebration.is-active {
+  opacity: 1;
+}
+
+.completion-fireworks {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.completion-message {
+  position: relative;
+  display: grid;
+  min-width: min(280px, calc(100vw - 48px));
+  gap: 6px;
+  padding: 20px 28px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  transform: scale(0.88);
+}
+
+.completion-celebration.is-active .completion-message {
+  animation: completion-message 1800ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.completion-message span {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+}
+
+.completion-message strong {
+  font-family: var(--ui);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+@keyframes completion-message {
+  0% { opacity: 0; transform: scale(0.82); }
+  18%, 72% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.04); }
 }
 
 .toast {
@@ -1670,8 +1720,8 @@ dialog::backdrop {
 
   .reader-dialog {
     width: calc(100% - 24px);
-    height: calc(100dvh - 92px);
-    max-height: calc(100dvh - 92px);
+    height: auto;
+    max-height: calc(100dvh - 72px);
     margin: auto;
   }
 
@@ -1695,42 +1745,34 @@ dialog::backdrop {
   }
 
   .reader-header {
-    padding: 26px 20px 18px;
+    padding: 26px 22px 18px;
   }
 
-  .reader-header h2 {
-    font-size: 27px;
+  .reader-builder {
+    gap: 12px;
+  }
+
+  .reader-builder .builder-avatar {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
   }
 
   .reader-body {
-    padding: 36px 20px 88px;
+    padding: 14px 22px 28px;
   }
 
-  .reader-source {
-    margin-bottom: 48px;
-    padding: 0 0 42px;
-  }
-
-  .reader-source > div {
+  .reader-original {
+    margin-left: 36px;
     font-size: 16px;
-  }
-
-  .reader-insight {
-    gap: 48px;
-  }
-
-  .insight-lead > p:last-child {
-    font-size: 20px;
-    line-height: 1.7;
+    line-height: 1.78;
   }
 
   .reader-footer {
-    padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+    padding: 0 22px calc(24px + env(safe-area-inset-bottom)) 58px;
   }
 
-  .reader-footer .button {
-    flex: 1;
-    padding: 0 12px;
+  .reader-source-link {
     font-size: 11px;
   }
 
@@ -1748,5 +1790,15 @@ dialog::backdrop {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .completion-fireworks {
+    display: none;
+  }
+
+  .completion-celebration.is-active .completion-message {
+    opacity: 1;
+    animation: none;
+    transform: none;
   }
 }

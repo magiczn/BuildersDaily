@@ -149,8 +149,27 @@ test('today cards use one readable column with a controlled editorial hierarchy'
   assert.doesNotMatch(app, /post\.verified \? ' ✓'/);
   assert.doesNotMatch(template, /id="readerWhy"|<p class="reader-label">为什么重要<\/p>/);
   assert.doesNotMatch(app, /#readerWhy/);
+  assert.doesNotMatch(template, /id="readerConclusion"|一句话结论/);
+  assert.doesNotMatch(app, /buildInsight|#readerConclusion/);
+  assert.match(template, /id="readerAvatar"/);
+  assert.match(styles, /\.reader-dialog \{[^}]*height: auto[^}]*max-height: min\(82dvh, 720px\)/s);
+  assert.match(styles, /\.reader-original \{[^}]*max-width: 760px[^}]*color: #292927[^}]*font-family: var\(--ui\)[^}]*font-weight: 400[^}]*line-height: 1\.82/s);
   assert.match(template, /<p class="eyebrow">ARCHIVE<\/p>\s*<h2 id="archiveTitle">归档<\/h2>/);
   assert.doesNotMatch(template, /不让昨天的信号消失|按日期回看 Builder 圈的变化/);
+});
+
+test('finishing every live card triggers one accessible monochrome celebration', async () => {
+  const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  const styles = await readFile(new URL('../assets/styles.css', import.meta.url), 'utf8');
+  const app = await readFile(new URL('../assets/app.js', import.meta.url), 'utf8');
+  assert.match(template, /id="completionCelebration"[^>]*role="status"[^>]*aria-live="polite"/);
+  assert.match(template, /id="completionFireworks"/);
+  assert.match(template, /DAILY COMPLETE[\s\S]*今日已读完/);
+  assert.match(app, /state\.observedPosts\.size >= state\.visiblePosts\.length/);
+  assert.match(app, /persistCelebratedIssue\(state\.issue\.date\)/);
+  assert.match(app, /prefers-reduced-motion: reduce/);
+  assert.match(styles, /\.completion-celebration \{[^}]*position: fixed[^}]*background: rgba\(17, 17, 17, 0\.1\)/s);
+  assert.match(styles, /\.completion-message \{[^}]*background: var\(--ink\)[^}]*color: var\(--paper\)/s);
 });
 
 test('Vercel publishes the committed static site without rebuilding local reports', async () => {
