@@ -75,11 +75,16 @@ test('missing reports still fail when committed static artifacts are incomplete'
   );
 });
 
-test('primary navigation leaves Builder and topic timelines for homepage sections', async () => {
+test('primary navigation opens archive and Builder directories without homepage sections', async () => {
   const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  const app = await readFile(new URL('../assets/app.js', import.meta.url), 'utf8');
   assert.match(template, /<a href="\/" data-nav="today">今日<\/a>/);
-  assert.match(template, /<a href="\/#archive" data-nav="archive">归档<\/a>/);
-  assert.match(template, /<a href="\/#builders" data-nav="builders">Builders<\/a>/);
+  assert.match(template, /<button type="button" data-open-collection="archive" aria-haspopup="dialog" aria-controls="collectionDialog">归档<\/button>/);
+  assert.match(template, /<button type="button" data-open-collection="builders" aria-haspopup="dialog" aria-controls="collectionDialog">Builders<\/button>/);
+  assert.doesNotMatch(template, /href="\/#(?:archive|builders)"/);
+  assert.doesNotMatch(template, /<section class="(?:archive|builders)-section"/);
+  assert.match(app, /event\.target\.closest\('\[data-open-collection\]'\)/);
+  assert.match(app, /async function openCollectionDialog\(mode, trigger\) \{\s*if \(mode === 'builders'\) await ensureBuilderDirectory\(\)/s);
 });
 
 test('template does not expose unavailable RSS subscription controls', async () => {
@@ -93,8 +98,7 @@ test('template does not expose unavailable RSS subscription controls', async () 
 test('homepage template includes editorial art and one reusable collection dialog', async () => {
   const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
   assert.match(template, /assets\/illustrations\/signal-orbit-transparent\.png/);
-  assert.match(template, /assets\/illustrations\/archive-mineral-transparent\.png/);
-  assert.match(template, /assets\/illustrations\/builder-notes-transparent\.png/);
+  assert.doesNotMatch(template, /assets\/illustrations\/(?:archive-mineral|builder-notes)-transparent\.png/);
   assert.match(template, /id="collectionDialog"/);
   assert.match(template, /id="collectionDialogGrid"/);
 });
@@ -133,7 +137,7 @@ test('today heading renders the current issue date from issue data', async () =>
   assert.match(app, /elements\.digestDate\.textContent = formatDate\(issue\.date\)/);
 });
 
-test('today cards use one readable column with a controlled editorial hierarchy', async () => {
+test('today cards use one readable column with direct source links instead of a reader dialog', async () => {
   const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
   const styles = await readFile(new URL('../assets/styles.css', import.meta.url), 'utf8');
   const app = await readFile(new URL('../assets/app.js', import.meta.url), 'utf8');
@@ -144,17 +148,15 @@ test('today cards use one readable column with a controlled editorial hierarchy'
   assert.match(styles, /\.today-view \.story-grid\.compact \.story-copy \{[^}]*max-width: 760px[^}]*margin-left: 50px[^}]*color: #292927[^}]*font-family: var\(--ui\)[^}]*font-size: clamp\(16px, 1\.45vw, 17\.5px\)[^}]*font-weight: 400[^}]*line-height: 1\.82/s);
   assert.match(styles, /\.archive-card \{[^}]*border-radius: 14px/s);
   assert.match(styles, /\.builder-card \{[^}]*border-radius: 14px/s);
-  assert.match(styles, /\.reader-dialog \{[^}]*border-radius: 18px/s);
   assert.match(app, /\$\{isToday \? builderIdentity : ''\}[\s\S]*\$\{isHighlighted/);
   assert.doesNotMatch(app, /post\.verified \? ' ✓'/);
-  assert.doesNotMatch(template, /id="readerWhy"|<p class="reader-label">为什么重要<\/p>/);
-  assert.doesNotMatch(app, /#readerWhy/);
-  assert.doesNotMatch(template, /id="readerConclusion"|一句话结论/);
-  assert.doesNotMatch(app, /buildInsight|#readerConclusion/);
-  assert.match(template, /id="readerAvatar"/);
-  assert.match(styles, /\.reader-dialog \{[^}]*height: auto[^}]*max-height: min\(82dvh, 720px\)/s);
-  assert.match(styles, /\.reader-original \{[^}]*max-width: 760px[^}]*color: #292927[^}]*font-family: var\(--ui\)[^}]*font-weight: 400[^}]*line-height: 1\.82/s);
-  assert.match(template, /<p class="eyebrow">ARCHIVE<\/p>\s*<h2 id="archiveTitle">归档<\/h2>/);
+  assert.doesNotMatch(template, /id="readerDialog"|id="readerAvatar"|id="readerConclusion"|id="readerWhy"/);
+  assert.doesNotMatch(app, /openReader|data-reader-card|data-open-post|readerPost/);
+  assert.match(app, /class="story-source-link"[\s\S]*target="_blank"[\s\S]*data-source-post=/);
+  assert.match(styles, /\.story-source-link \{[^}]*opacity: 0[^}]*pointer-events: none[^}]*transform: translateY\(4px\)/s);
+  assert.match(styles, /\.story-card:hover \.story-source-link,[\s\S]*\.story-card:focus-within \.story-source-link \{[^}]*opacity: 1[^}]*pointer-events: auto/s);
+  assert.match(styles, /@media \(hover: none\) \{[\s\S]*\.story-source-link \{[^}]*opacity: 1[^}]*pointer-events: auto/s);
+  assert.doesNotMatch(template, /id="archiveTitle"|id="buildersTitle"/);
   assert.doesNotMatch(template, /不让昨天的信号消失|按日期回看 Builder 圈的变化/);
 });
 

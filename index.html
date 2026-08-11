@@ -20,7 +20,7 @@
   <link rel="canonical" href="https://www.buildersdaily.today/">
   <link rel="icon" href="/assets/favicon.svg?v=20260811-1" type="image/svg+xml">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/assets/styles.css?v=20260811-4">
+  <link rel="stylesheet" href="/assets/styles.css?v=20260811-5">
   <title>Builders Daily — AI Builder 情报日报</title>
   <script type="application/ld+json" id="structuredData">
     {"@context":"https://schema.org","@type":"WebSite","name":"Builders Daily","url":"https://www.buildersdaily.today/","description":"每天 5 分钟，读懂 AI Builders 正在构建什么、为什么重要，以及今天值得尝试什么。"}
@@ -46,8 +46,8 @@
 
     <nav class="primary-nav" aria-label="主要导航">
       <a href="/" data-nav="today">今日</a>
-      <a href="/#archive" data-nav="archive">归档</a>
-      <a href="/#builders" data-nav="builders">Builders</a>
+      <button type="button" data-open-collection="archive" aria-haspopup="dialog" aria-controls="collectionDialog">归档</button>
+      <button type="button" data-open-collection="builders" aria-haspopup="dialog" aria-controls="collectionDialog">Builders</button>
     </nav>
 
   </header>
@@ -99,35 +99,6 @@
       <div class="story-grid" id="storyGrid" aria-live="polite"></div>
     </section>
 
-    <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">ARCHIVE</p>
-          <h2 id="archiveTitle">归档</h2>
-        </div>
-      </div>
-      <figure class="editorial-illustration archive-illustration" aria-hidden="true">
-        <img src="/assets/illustrations/archive-mineral-transparent.png" alt="" width="2172" height="724" loading="lazy" decoding="async">
-      </figure>
-      <div class="archive-grid" id="archiveGrid"></div>
-      <button class="text-button" id="loadMoreArchive" type="button">查看更多期刊 ↓</button>
-    </section>
-
-    <section class="builders-section" id="builders" aria-labelledby="buildersTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">BUILDER DIRECTORY</p>
-          <h2 id="buildersTitle">跟踪人，而不只是追逐热点</h2>
-        </div>
-        <figure class="editorial-illustration builders-illustration" aria-hidden="true">
-          <img src="/assets/illustrations/builder-notes-transparent.png" alt="" width="1254" height="1254" loading="lazy" decoding="async">
-        </figure>
-      </div>
-
-      <div class="builder-grid" id="builderGrid"></div>
-      <button class="text-button" id="loadMoreBuilders" type="button">查看完整名单 ↓</button>
-    </section>
-
   </main>
 
   <footer class="site-footer">
@@ -139,27 +110,6 @@
       <a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a>
     </nav>
   </footer>
-
-  <dialog class="reader-dialog" id="readerDialog" aria-labelledby="readerTitle">
-    <div class="reader-shell">
-      <header class="reader-header">
-        <div class="reader-builder">
-          <span class="builder-avatar" id="readerAvatar" aria-hidden="true">BD</span>
-          <span class="builder-identity">
-            <strong id="readerTitle">深度阅读</strong>
-            <span id="readerMeta"></span>
-          </span>
-        </div>
-        <button class="icon-button dialog-close" type="button" data-close-dialog aria-label="关闭深度阅读">×</button>
-      </header>
-      <div class="reader-body">
-        <div class="reader-original" id="readerOriginal"></div>
-      </div>
-      <footer class="reader-footer">
-        <a class="reader-source-link" id="readerSource" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>
-      </footer>
-    </div>
-  </dialog>
 
   <dialog class="collection-dialog" id="collectionDialog" aria-labelledby="collectionDialogTitle" aria-describedby="collectionDialogDescription">
     <div class="collection-shell">
@@ -188,6 +138,6 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="/assets/config.js?v=20260807-1"></script>
-  <script type="module" src="/assets/app.js?v=20260811-3"></script>
+  <script type="module" src="/assets/app.js?v=20260811-4"></script>
 </body>
 </html>

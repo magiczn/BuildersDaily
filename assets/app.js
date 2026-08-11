@@ -52,9 +52,6 @@ const state = {
   builderDirectory: [],
   visiblePosts: [],
   followed: new Set(),
-  archiveLimit: 9,
-  builderLimit: 12,
-  readerPost: null,
   collectionMode: '',
   collectionTrigger: null,
   observedPosts: new Set(),
@@ -339,14 +336,9 @@ function cacheElements() {
     postCount: $('#postCount'),
     topicCount: $('#topicCount'),
     storyGrid: $('#storyGrid'),
-    archiveGrid: $('#archiveGrid'),
-    builderGrid: $('#builderGrid'),
-    loadMoreArchive: $('#loadMoreArchive'),
-    loadMoreBuilders: $('#loadMoreBuilders'),
     readingProgress: $('#readingProgress'),
     completionCelebration: $('#completionCelebration'),
     completionFireworks: $('#completionFireworks'),
-    readerDialog: $('#readerDialog'),
     collectionDialog: $('#collectionDialog'),
     collectionDialogGrid: $('#collectionDialogGrid'),
     toast: $('#toast')
@@ -421,7 +413,6 @@ function applyContextHero(type, context) {
   const title = $('#heroTitle');
   const deck = $('.hero-deck');
   const stamp = $('.issue-stamp');
-  const archiveSection = $('#archive');
   if (type === 'builder') {
     [eyebrow, title, deck, $('.hero-actions')].forEach((element) => element?.remove());
     const hero = $('#today');
@@ -434,7 +425,6 @@ function applyContextHero(type, context) {
     deck.textContent = context.summary || `从不同 Builder 的连续动态中观察 ${context.label}。`;
     stamp.querySelector('time').textContent = '主题时间线';
   }
-  archiveSection.hidden = true;
 }
 
 function renderPage() {
@@ -472,9 +462,7 @@ function renderPage() {
   state.firstContentTracked = false;
   state.completionCelebrated = loadJsonStorage(STORAGE_KEYS.celebrated, []).includes(issue.date);
   renderStories();
-  if (!isHistorical) renderArchive();
   updateMetadata();
-  maybeOpenLinkedPost();
   track('page_view', { postCount: issue.postCount, builderCount: issue.builderCount });
 }
 
@@ -520,7 +508,7 @@ function renderStories() {
         </span>
       </a>`;
     return `
-    <article class="story-card" data-post-id="${escapeHtml(post.id)}" data-primary-topic="${escapeHtml(post.primaryTopic)}"${isToday ? ` data-reader-card="${escapeHtml(post.id)}" role="button" tabindex="0" aria-label="打开 ${escapeHtml(post.name)} 的深度阅读"` : ''}>
+    <article class="story-card" data-post-id="${escapeHtml(post.id)}" data-primary-topic="${escapeHtml(post.primaryTopic)}">
       <div class="story-card-top">
         <span class="story-number">${String(index + 1).padStart(2, '0')}</span>
         ${isToday ? builderIdentity : ''}
@@ -528,7 +516,7 @@ function renderStories() {
       </div>
       ${isToday ? '' : builderIdentity}
       <p class="story-copy">${escapeHtml(post.summaryEn || post.summary)}</p>
-      ${isHistorical || isToday ? '' : `<div class="story-card-actions"><button class="read-action" type="button" data-open-post="${escapeHtml(post.id)}">深度阅读</button></div>`}
+      ${post.url ? `<a class="story-source-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer" data-source-post="${escapeHtml(post.id)}">查看原文 ↗</a>` : ''}
     </article>
   `;
   }).join('');
@@ -691,28 +679,19 @@ function archiveCardsMarkup(issues) {
   }).join('');
 }
 
-function renderArchive() {
-  if (!state.archive.length) {
-    elements.archiveGrid.innerHTML = '<div class="error-panel"><h3>归档正在生成</h3><p>运行 npm run build 后，这里会显示历史日报。</p></div>';
-    elements.loadMoreArchive.hidden = true;
-    return;
-  }
-  elements.archiveGrid.innerHTML = archiveCardsMarkup(state.archive.slice(0, state.archiveLimit));
-  elements.loadMoreArchive.hidden = state.archiveLimit >= state.archive.length;
-}
-
 async function ensureBuilderDirectory() {
   if (state.builderDirectory.length) return;
   try {
     const directory = await fetchJson('/builders/index.json');
     state.builderDirectory = Array.isArray(directory) ? directory : [];
   } catch {
+    const issuePosts = state.issue?.posts || [];
     state.builderDirectory = state.profiles.map((profile) => ({
       ...profile,
       handle: String(profile.handle || '').replace(/^@/, ''),
       slug: slugify(profile.handle),
       summary: profile.summary || profile.role || profile.bio || '',
-      signalCount: state.issue.posts.filter((post) => post.handle.toLowerCase() === String(profile.handle || '').replace(/^@/, '').toLowerCase()).length,
+      signalCount: issuePosts.filter((post) => post.handle.toLowerCase() === String(profile.handle || '').replace(/^@/, '').toLowerCase()).length,
       posts: []
     }));
   }
@@ -739,21 +718,14 @@ function builderCardsMarkup(builders) {
   }).join('');
 }
 
-function renderBuilders() {
-  const builders = state.builderDirectory;
-  const visible = builders.slice(0, state.builderLimit);
-  elements.builderGrid.innerHTML = builderCardsMarkup(visible)
-    || '<div class="error-panel"><h3>没有匹配的 Builder</h3><p>换个名字、Handle 或方向试试。</p></div>';
-  elements.loadMoreBuilders.hidden = state.builderDirectory.length <= state.builderLimit;
-}
-
 function renderCollectionDialog() {
   if (state.collectionMode === 'archive') {
     $('#collectionDialogEyebrow').textContent = 'ALL ISSUES';
     $('#collectionDialogTitle').textContent = '全部期刊';
     $('#collectionDialogDescription').textContent = `${state.archive.length} 期日报，按日期由近到远排列。`;
     elements.collectionDialogGrid.className = 'archive-grid collection-grid';
-    elements.collectionDialogGrid.innerHTML = archiveCardsMarkup(state.archive);
+    elements.collectionDialogGrid.innerHTML = archiveCardsMarkup(state.archive)
+      || '<div class="error-panel"><h3>归档正在生成</h3><p>稍后再来查看历史日报。</p></div>';
     return;
   }
 
@@ -761,10 +733,12 @@ function renderCollectionDialog() {
   $('#collectionDialogTitle').textContent = '完整 Builder 名单';
   $('#collectionDialogDescription').textContent = `${state.builderDirectory.length} 位持续追踪中的 Builder。`;
   elements.collectionDialogGrid.className = 'builder-grid collection-grid';
-  elements.collectionDialogGrid.innerHTML = builderCardsMarkup(state.builderDirectory);
+  elements.collectionDialogGrid.innerHTML = builderCardsMarkup(state.builderDirectory)
+    || '<div class="error-panel"><h3>名单正在生成</h3><p>稍后再来查看 Builder 名单。</p></div>';
 }
 
-function openCollectionDialog(mode, trigger) {
+async function openCollectionDialog(mode, trigger) {
+  if (mode === 'builders') await ensureBuilderDirectory();
   state.collectionMode = mode;
   state.collectionTrigger = trigger || null;
   renderCollectionDialog();
@@ -776,42 +750,6 @@ function openCollectionDialog(mode, trigger) {
   track(mode === 'archive' ? 'archive_directory_open' : 'builder_directory_open', {
     count: mode === 'archive' ? state.archive.length : state.builderDirectory.length
   });
-}
-
-function openReader(post, options = {}) {
-  if (!post) return;
-  state.readerPost = post;
-  $('#readerAvatar').textContent = post.avatar || avatarFor(post.name, post.handle);
-  $('#readerTitle').textContent = post.name;
-  $('#readerMeta').textContent = `@${post.handle} · ${formatDate(post.date || state.issue.date)}`;
-  $('#readerOriginal').textContent = post.summaryEn || post.summary;
-  $('#readerSource').href = post.url || '#';
-  $('#readerSource').hidden = !post.url;
-  elements.readerDialog.showModal();
-  if (!options.preserveUrl) updatePostUrl(post);
-  track('deep_read_open', { postId: post.id, topic: post.primaryTopic, handle: post.handle });
-}
-
-function updatePostUrl(post) {
-  if (!post.date && !state.issue.date) return;
-  const url = new URL(window.location.href);
-  url.searchParams.set('post', post.id);
-  history.replaceState({ postId: post.id }, '', url);
-}
-
-function clearPostUrl() {
-  const url = new URL(window.location.href);
-  if (!url.searchParams.has('post')) return;
-  url.searchParams.delete('post');
-  history.replaceState({}, '', url);
-}
-
-function maybeOpenLinkedPost() {
-  if (document.body.classList.contains('history-view')) return;
-  const postIdFromUrl = new URLSearchParams(window.location.search).get('post');
-  if (!postIdFromUrl) return;
-  const post = state.issue.posts.find((item) => item.id === postIdFromUrl);
-  if (post) requestAnimationFrame(() => openReader(post, { preserveUrl: true }));
 }
 
 function toggleFollow(handle) {
@@ -827,24 +765,14 @@ function toggleFollow(handle) {
     showToast(`已关注 @${handle}`);
   }
   persistFollowed();
-  renderBuilders();
   if (state.collectionMode === 'builders' && elements.collectionDialog.open) renderCollectionDialog();
 }
 
 function bindEvents() {
   document.addEventListener('click', (event) => {
-    const openPostButton = event.target.closest('[data-open-post]');
-    if (openPostButton) {
-      const post = state.issue.posts.find((item) => item.id === openPostButton.dataset.openPost);
-      openReader(post);
-      return;
-    }
-
-    const readerCard = event.target.closest('[data-reader-card]');
-    const hasSelection = window.getSelection()?.toString().trim();
-    if (readerCard && !event.target.closest('a, button, input, textarea, select') && !hasSelection) {
-      const post = state.issue.posts.find((item) => item.id === readerCard.dataset.readerCard);
-      openReader(post);
+    const collectionButton = event.target.closest('[data-open-collection]');
+    if (collectionButton) {
+      openCollectionDialog(collectionButton.dataset.openCollection, collectionButton);
       return;
     }
 
@@ -858,30 +786,13 @@ function bindEvents() {
     if (archiveLink) track('archive_open', { date: archiveLink.dataset.archiveDate });
     const builderLink = event.target.closest('[data-builder-link]');
     if (builderLink) track('builder_profile_open', { handle: builderLink.dataset.builderLink });
+    const sourceLink = event.target.closest('[data-source-post]');
+    if (sourceLink) track('source_open', { postId: sourceLink.dataset.sourcePost });
   });
 
-  document.addEventListener('keydown', (event) => {
-    if (!['Enter', ' '].includes(event.key) || !event.target.matches('[data-reader-card]')) return;
-    event.preventDefault();
-    const post = state.issue.posts.find((item) => item.id === event.target.dataset.readerCard);
-    openReader(post);
-  });
-
-  elements.loadMoreArchive.addEventListener('click', (event) => {
-    openCollectionDialog('archive', event.currentTarget);
-  });
-  elements.loadMoreBuilders.addEventListener('click', (event) => {
-    openCollectionDialog('builders', event.currentTarget);
-  });
   $$('[data-close-dialog]').forEach((button) => button.addEventListener('click', () => button.closest('dialog').close()));
-  [elements.readerDialog, elements.collectionDialog].forEach((dialog) => {
-    dialog.addEventListener('click', (event) => {
-      if (event.target === dialog) dialog.close();
-    });
-  });
-  elements.readerDialog.addEventListener('close', () => {
-    state.readerPost = null;
-    clearPostUrl();
+  elements.collectionDialog.addEventListener('click', (event) => {
+    if (event.target === elements.collectionDialog) elements.collectionDialog.close();
   });
   elements.collectionDialog.addEventListener('close', () => {
     const trigger = state.collectionTrigger;
@@ -889,10 +800,6 @@ function bindEvents() {
     state.collectionTrigger = null;
     elements.collectionDialogGrid.innerHTML = '';
     trigger?.focus({ preventScroll: true });
-  });
-
-  $('#readerSource').addEventListener('click', () => {
-    if (state.readerPost) track('source_open', { postId: state.readerPost.id, handle: state.readerPost.handle });
   });
 
   window.addEventListener('scroll', () => {
@@ -926,9 +833,7 @@ async function init() {
   try {
     bindEvents();
     state.issue = await loadCurrentView();
-    if (!document.body.classList.contains('history-view')) await ensureBuilderDirectory();
     renderPage();
-    if (!document.body.classList.contains('history-view')) renderBuilders();
   } catch (error) {
     renderFatalError(error);
   }
