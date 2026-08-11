@@ -625,8 +625,9 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
 }
 
 .today-view .digest-heading h2 {
-  font-size: clamp(44px, 4.4vw, 62px);
-  letter-spacing: -0.052em;
+  font-size: clamp(38px, 3.8vw, 54px);
+  font-weight: 300;
+  letter-spacing: -0.04em;
 }
 
 .editorial-illustration {
@@ -664,6 +665,17 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
 
 .archive-illustration img {
   object-position: right center;
+}
+
+.archive-section > .section-heading {
+  grid-template-columns: minmax(0, 1fr);
+  margin-bottom: 44px;
+}
+
+.archive-section > .section-heading h2 {
+  font-size: clamp(30px, 3.2vw, 42px);
+  font-weight: 300;
+  letter-spacing: -0.035em;
 }
 
 .story-grid {
@@ -882,10 +894,10 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   overflow: hidden;
   color: var(--text);
   font-family: var(--ui);
-  font-size: clamp(17px, 1.7vw, 19px);
-  font-weight: 400;
+  font-size: clamp(16px, 1.45vw, 17.5px);
+  font-weight: 350;
   letter-spacing: 0;
-  line-height: 1.88;
+  line-height: 1.82;
   text-wrap: pretty;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
@@ -1133,9 +1145,9 @@ dialog::backdrop {
 
 .reader-header h2 {
   margin: 0;
-  font-size: clamp(28px, 4vw, 40px);
-  font-weight: 400;
-  letter-spacing: -0.05em;
+  font-size: clamp(26px, 3.4vw, 34px);
+  font-weight: 300;
+  letter-spacing: -0.04em;
   line-height: 1.1;
 }
 
@@ -1181,8 +1193,9 @@ dialog::backdrop {
 
 .reader-source > div {
   color: var(--text);
-  font-size: 18px;
-  line-height: 1.84;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 1.8;
   white-space: pre-wrap;
 }
 
@@ -1198,15 +1211,17 @@ dialog::backdrop {
 .insight-block > p:last-child {
   margin: 0;
   color: var(--text);
-  font-size: 17px;
-  line-height: 1.85;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 1.8;
 }
 
 .insight-lead > p:last-child {
   color: var(--ink);
-  font-size: clamp(22px, 2.4vw, 28px);
-  letter-spacing: -0.018em;
-  line-height: 1.62;
+  font-size: clamp(19px, 2vw, 23px);
+  font-weight: 300;
+  letter-spacing: -0.012em;
+  line-height: 1.68;
 }
 
 .reader-footer {
@@ -1556,8 +1571,9 @@ dialog::backdrop {
   .today-view .story-grid.compact .story-copy {
     max-width: none;
     margin-left: 36px;
-    font-size: 17px;
-    line-height: 1.82;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 1.78;
     -webkit-line-clamp: 8;
   }
 
@@ -1683,7 +1699,7 @@ dialog::backdrop {
   }
 
   .reader-header h2 {
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .reader-body {
@@ -1696,7 +1712,7 @@ dialog::backdrop {
   }
 
   .reader-source > div {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .reader-insight {
@@ -1704,8 +1720,8 @@ dialog::backdrop {
   }
 
   .insight-lead > p:last-child {
-    font-size: 23px;
-    line-height: 1.68;
+    font-size: 20px;
+    line-height: 1.7;
   }
 
   .reader-footer {

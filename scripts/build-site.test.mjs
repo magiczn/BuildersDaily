@@ -130,16 +130,23 @@ test('today heading renders the current issue date from issue data', async () =>
 });
 
 test('today cards use one readable column with a controlled editorial hierarchy', async () => {
+  const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
   const styles = await readFile(new URL('../assets/styles.css', import.meta.url), 'utf8');
   const app = await readFile(new URL('../assets/app.js', import.meta.url), 'utf8');
   assert.match(styles, /\.today-view \.story-grid \{[^}]*grid-template-columns: minmax\(0, 1fr\)/s);
   assert.doesNotMatch(styles, /\.today-view \.story-grid \{[^}]*repeat\(2,/s);
   assert.match(styles, /\.today-view \.story-grid\.compact \.story-card-top \{[^}]*grid-template-columns: 34px minmax\(0, 1fr\) 18px/s);
-  assert.match(styles, /\.today-view \.story-grid\.compact \.story-copy \{[^}]*max-width: 760px[^}]*margin-left: 50px[^}]*font-family: var\(--ui\)[^}]*line-height: 1\.88/s);
+  assert.match(styles, /\.today-view \.digest-heading h2 \{[^}]*font-size: clamp\(38px, 3\.8vw, 54px\)[^}]*font-weight: 300/s);
+  assert.match(styles, /\.today-view \.story-grid\.compact \.story-copy \{[^}]*max-width: 760px[^}]*margin-left: 50px[^}]*font-family: var\(--ui\)[^}]*font-size: clamp\(16px, 1\.45vw, 17\.5px\)[^}]*font-weight: 350[^}]*line-height: 1\.82/s);
   assert.match(styles, /\.archive-card \{[^}]*border-radius: 14px/s);
   assert.match(styles, /\.builder-card \{[^}]*border-radius: 14px/s);
   assert.match(styles, /\.reader-dialog \{[^}]*border-radius: 18px/s);
   assert.match(app, /\$\{isToday \? builderIdentity : ''\}[\s\S]*\$\{isHighlighted/);
+  assert.doesNotMatch(app, /post\.verified \? ' ✓'/);
+  assert.doesNotMatch(template, /id="readerWhy"|<p class="reader-label">为什么重要<\/p>/);
+  assert.doesNotMatch(app, /#readerWhy/);
+  assert.match(template, /<p class="eyebrow">ARCHIVE<\/p>\s*<h2 id="archiveTitle">归档<\/h2>/);
+  assert.doesNotMatch(template, /不让昨天的信号消失|按日期回看 Builder 圈的变化/);
 });
 
 test('Vercel publishes the committed static site without rebuilding local reports', async () => {

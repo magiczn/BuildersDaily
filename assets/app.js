@@ -501,14 +501,14 @@ function renderStories() {
         ? `<div class="story-builder">
           <span class="builder-avatar" aria-hidden="true">${escapeHtml(post.avatar || avatarFor(post.name, post.handle))}</span>
           <span class="builder-identity">
-            <strong>${escapeHtml(post.name)}${post.verified ? ' ✓' : ''}</strong>
+            <strong>${escapeHtml(post.name)}</strong>
             <span>@${escapeHtml(post.handle)}</span>
           </span>
         </div>`
         : `<a class="story-builder" href="/builders/${slugify(post.handle)}/" data-builder-link="${escapeHtml(post.handle)}">
         <span class="builder-avatar" aria-hidden="true">${escapeHtml(post.avatar || avatarFor(post.name, post.handle))}</span>
         <span class="builder-identity">
-          <strong>${escapeHtml(post.name)}${post.verified ? ' ✓' : ''}</strong>
+          <strong>${escapeHtml(post.name)}</strong>
           <span>@${escapeHtml(post.handle)}</span>
         </span>
       </a>`;
@@ -656,10 +656,8 @@ function buildInsight(post) {
   const sentences = analysis.match(/[^。！？!?]+[。！？!?]?/g)?.map((item) => item.trim()).filter(Boolean) || [];
   const sourceText = compactText(post.summaryEn || post.summary, 220);
   const conclusion = sentences[0] || sourceText;
-  const why = sentences.slice(1).join('') || `这条动态与「${topicLabel(post.primaryTopic)}」相关。它的价值不只在单次更新，而在于是否与其他 Builder 的独立实践形成重复信号。`;
   return {
-    conclusion: compactText(conclusion, 180),
-    why: compactText(why, 420)
+    conclusion: compactText(conclusion, 180)
   };
 }
 
@@ -672,7 +670,6 @@ function openReader(post, options = {}) {
   $('#readerMeta').textContent = `@${post.handle} · ${formatDate(post.date || state.issue.date)}`;
   $('#readerOriginal').textContent = post.summaryEn || post.summary;
   $('#readerConclusion').textContent = insight.conclusion;
-  $('#readerWhy').textContent = insight.why;
   $('#readerSource').href = post.url || '#';
   $('#readerSource').hidden = !post.url;
   elements.readerDialog.showModal();
