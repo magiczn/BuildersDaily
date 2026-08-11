@@ -1,46 +1,18 @@
 const CONFIG = window.BUILDERS_DAILY_CONFIG || {};
 
 const TOPIC_DEFINITIONS = {
-  agent: {
-    label: 'Agents',
-    keywords: ['agent', 'agents', 'agentic', '智能体', '代理', 'harness', 'skill', 'mcp', 'memory', 'openclaw']
-  },
-  product: {
-    label: '产品',
-    keywords: ['product', '产品', '用户', '体验', '交互', 'workflow', '工作流', 'app', '应用', 'feature', '功能']
-  },
-  model: {
-    label: '模型',
-    keywords: ['model', '模型', 'gpt', 'claude', 'opus', 'gemini', 'qwen', 'kimi', 'deepseek', 'minimax', 'benchmark', 'token']
-  },
-  design: {
-    label: '设计',
-    keywords: ['design', '设计', 'ui', 'ux', 'frontend', '前端', 'interface', 'canvas', 'prototype', '原型', '3d']
-  },
-  business: {
-    label: '商业',
-    keywords: ['business', '商业', 'startup', '创业', 'revenue', '收入', 'pricing', '价格', 'market', '市场', '投资', '融资', 'founder']
-  },
-  infrastructure: {
-    label: '基础设施',
-    keywords: ['api', 'cloud', 'infra', 'infrastructure', 'deployment', 'deploy', '数据库', '算力', 'gpu', 'server', 'security', '安全', 'permission']
-  },
-  media: {
-    label: '内容与媒体',
-    keywords: ['video', 'image', 'content', 'creator', '视频', '图像', '内容', '创作者', '播客', 'newsletter', '分发']
-  },
-  enterprise: {
-    label: '企业 AI',
-    keywords: ['enterprise', '企业', 'organization', '组织', 'company', '公司', 'team', '团队', 'governance', '治理']
-  },
-  other: {
-    label: '其他',
-    keywords: []
-  }
+  agent: { label: 'Agents', keywords: ['agent', 'agents', 'agentic', '智能体', '代理', 'harness', 'skill', 'mcp', 'memory'] },
+  product: { label: '产品', keywords: ['product', '产品', '用户', '体验', '交互', 'workflow', '工作流', 'app', 'feature'] },
+  model: { label: '模型', keywords: ['model', '模型', 'gpt', 'claude', 'gemini', 'qwen', 'kimi', 'deepseek', 'token'] },
+  design: { label: '设计', keywords: ['design', '设计', 'ui', 'ux', 'frontend', 'interface', 'canvas', 'prototype', '3d'] },
+  business: { label: '商业', keywords: ['business', '商业', 'startup', '创业', 'revenue', 'pricing', 'market', '投资', '融资'] },
+  infrastructure: { label: '基础设施', keywords: ['api', 'cloud', 'infra', 'deployment', '数据库', '算力', 'gpu', 'security', '安全'] },
+  media: { label: '内容与媒体', keywords: ['video', 'image', 'content', 'creator', '视频', '图像', '内容', '创作者', '分发'] },
+  enterprise: { label: '企业 AI', keywords: ['enterprise', '企业', 'organization', '组织', 'company', 'team', 'governance'] },
+  other: { label: '其他', keywords: [] }
 };
 
 const STORAGE_KEYS = {
-  followed: 'builders-daily:followed:v2',
   events: 'builders-daily:events:v2',
   celebrated: 'builders-daily:celebrated:v1'
 };
@@ -48,20 +20,25 @@ const STORAGE_KEYS = {
 const state = {
   issue: null,
   archive: [],
-  profiles: [],
-  builderDirectory: [],
-  visiblePosts: [],
-  followed: new Set(),
-  collectionMode: '',
-  collectionTrigger: null,
+  builders: [],
+  mode: 'today',
+  items: [],
+  positions: [],
+  cards: [],
+  activeIndex: 0,
+  camera: { x: 0, y: 0, zoom: 0.82 },
+  cameraAnimation: 0,
   observedPosts: new Set(),
-  firstContentTracked: false,
-  completionCelebrated: false
+  completionCelebrated: false,
+  readTimer: 0,
+  dragging: null,
+  isHome: false,
+  contextType: '',
+  resizeFrame: 0
 };
 
 const elements = {};
-let toastTimer = null;
-let cardObserver = null;
+let toastTimer = 0;
 
 function $(selector, root = document) {
   return root.querySelector(selector);
@@ -69,6 +46,10 @@ function $(selector, root = document) {
 
 function $$(selector, root = document) {
   return [...root.querySelectorAll(selector)];
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
 }
 
 function escapeHtml(value) {
@@ -80,25 +61,12 @@ function escapeHtml(value) {
     .replace(/'/g, '&#39;');
 }
 
-function safeDecode(value) {
-  try {
-    return decodeURIComponent(value || '');
-  } catch {
-    return String(value || '');
-  }
-}
-
 function loadJsonStorage(key, fallback) {
   try {
-    const parsed = JSON.parse(localStorage.getItem(key) || 'null');
-    return parsed ?? fallback;
+    return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback;
   } catch {
     return fallback;
   }
-}
-
-function persistFollowed() {
-  localStorage.setItem(STORAGE_KEYS.followed, JSON.stringify([...state.followed]));
 }
 
 function slugify(value) {
@@ -112,31 +80,22 @@ function slugify(value) {
 
 function hashText(value) {
   let hash = 2166136261;
-  const text = String(value || '');
-  for (let index = 0; index < text.length; index += 1) {
-    hash ^= text.charCodeAt(index);
+  for (const character of String(value || '')) {
+    hash ^= character.charCodeAt(0);
     hash = Math.imul(hash, 16777619);
   }
   return (hash >>> 0).toString(36);
 }
 
 function postId(post) {
-  const match = String(post.url || '').match(/status\/(\d+)/);
-  return match?.[1] || `${slugify(post.handle)}-${hashText(post.summaryEn || post.summary || '')}`;
+  return String(post.url || '').match(/status\/(\d+)/)?.[1]
+    || `${slugify(post.handle)}-${hashText(post.summaryEn || post.summary || '')}`;
 }
 
 function avatarFor(name, handle) {
   const cleanName = String(name || '').trim();
-  if (/^[\u4e00-\u9fff]/.test(cleanName)) {
-    return cleanName.slice(0, 2);
-  }
-  const initials = cleanName
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((part) => part[0])
-    .join('')
-    .slice(0, 2)
-    .toUpperCase();
+  if (/^[\u4e00-\u9fff]/.test(cleanName)) return cleanName.slice(0, 2);
+  const initials = cleanName.split(/\s+/).filter(Boolean).map((part) => part[0]).join('').slice(0, 2).toUpperCase();
   return initials || String(handle || 'BD').slice(0, 2).toUpperCase();
 }
 
@@ -144,11 +103,7 @@ function inferTopics(post) {
   if (Array.isArray(post.topics) && post.topics.length) {
     return [...new Set(post.topics.filter((topic) => TOPIC_DEFINITIONS[topic]))];
   }
-
-  const haystack = [post.summary, post.summaryEn, post.analysis, post.role]
-    .filter(Boolean)
-    .join(' ')
-    .toLowerCase();
+  const haystack = [post.summary, post.summaryEn, post.analysis, post.role].filter(Boolean).join(' ').toLowerCase();
   const scored = Object.entries(TOPIC_DEFINITIONS)
     .filter(([key]) => key !== 'other')
     .map(([key, definition]) => ({
@@ -159,7 +114,6 @@ function inferTopics(post) {
     .sort((a, b) => b.score - a.score)
     .slice(0, 3)
     .map((item) => item.key);
-
   return scored.length ? scored : ['other'];
 }
 
@@ -176,58 +130,11 @@ function normalizePost(rawPost, date = '') {
     summaryEn: String(post.summaryEn || post.summary || '').trim(),
     analysis: String(post.analysis || '').trim(),
     url: String(post.url || '').trim(),
-    verified: Boolean(post.verified),
-    hotComments: Array.isArray(post.hotComments) ? post.hotComments : []
+    verified: Boolean(post.verified)
   };
   normalized.topics = inferTopics({ ...post, ...normalized });
   normalized.primaryTopic = normalized.topics[0] || 'other';
   return normalized;
-}
-
-function scorePost(post) {
-  const text = `${post.summaryEn || ''} ${post.analysis || ''}`;
-  let score = Math.min(text.length, 800) / 80;
-  if (post.analysis?.length > 100) score += 4;
-  if (post.verified) score += 1;
-  if (post.topics.some((topic) => ['agent', 'product', 'design', 'business', 'infrastructure'].includes(topic))) score += 2;
-  if (/\b(launch|release|built|ship|workflow|product)\b|发布|推出|开源|工作流|产品|构建/i.test(text)) score += 2;
-  if (/政治|遇害|财报后|咳醒|吃饭|旅游|politic|murder/i.test(text)) score -= 5;
-  return score;
-}
-
-function selectHighlights(posts, count = 3) {
-  const ranked = [...posts].sort((a, b) => scorePost(b) - scorePost(a));
-  const selected = [];
-  const usedHandles = new Set();
-  const usedTopics = new Set();
-
-  for (const post of ranked) {
-    const handleKey = post.handle.toLowerCase();
-    if (usedHandles.has(handleKey) && selected.length < count - 1) continue;
-    const addsTopic = post.topics.some((topic) => !usedTopics.has(topic));
-    if (!addsTopic && selected.length < count - 1 && ranked.length > count + 2) continue;
-    selected.push(post);
-    usedHandles.add(handleKey);
-    post.topics.forEach((topic) => usedTopics.add(topic));
-    if (selected.length === count) break;
-  }
-
-  for (const post of ranked) {
-    if (selected.length === count) break;
-    if (!selected.some((item) => item.id === post.id)) selected.push(post);
-  }
-  return selected;
-}
-
-function summarizeIssue(posts) {
-  const topicCounts = countTopics(posts);
-  const topTopics = Object.entries(topicCounts)
-    .filter(([topic]) => topic !== 'other')
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 3)
-    .map(([topic]) => TOPIC_DEFINITIONS[topic].label);
-  if (!topTopics.length) return '今天的 Builder 动态已整理完毕。打开任意条目查看原始内容与判断。';
-  return `今天的高频信号集中在${topTopics.join('、')}。与其逐条追逐更新，更值得关注这些方向是否在不同 Builder 的独立实践中反复出现。`;
 }
 
 function normalizeIssue(raw, fallbackDate = '') {
@@ -237,69 +144,49 @@ function normalizeIssue(raw, fallbackDate = '') {
     return {
       date: fallbackDate,
       posts,
-      summary: String(summaryItem?.summaryEn || summaryItem?.summary || summarizeIssue(posts)),
-      highlights: selectHighlights(posts).map((post) => post.id),
+      summary: String(summaryItem?.summaryEn || summaryItem?.summary || ''),
+      highlights: posts.slice(0, 3).map((post) => post.id),
       builderCount: new Set(posts.map((post) => post.handle.toLowerCase()).filter(Boolean)).size,
       postCount: posts.length
     };
   }
-
   const date = String(raw?.date || fallbackDate || '');
   const posts = Array.isArray(raw?.posts) ? raw.posts.map((post) => normalizePost(post, date)) : [];
   return {
     ...raw,
     date,
     posts,
-    summary: String(raw?.summary || summarizeIssue(posts)),
+    summary: String(raw?.summary || ''),
     highlights: Array.isArray(raw?.highlights)
       ? raw.highlights.map((item) => typeof item === 'string' ? item : item.id).filter(Boolean)
-      : selectHighlights(posts).map((post) => post.id),
+      : posts.slice(0, 3).map((post) => post.id),
     builderCount: Number(raw?.builderCount) || new Set(posts.map((post) => post.handle.toLowerCase()).filter(Boolean)).size,
     postCount: Number(raw?.postCount) || posts.length
   };
-}
-
-function countTopics(posts) {
-  return posts.reduce((counts, post) => {
-    post.topics.forEach((topic) => {
-      counts[topic] = (counts[topic] || 0) + 1;
-    });
-    return counts;
-  }, {});
 }
 
 function topicLabel(topic) {
   return TOPIC_DEFINITIONS[topic]?.label || TOPIC_DEFINITIONS.other.label;
 }
 
-function formatDate(date, style = 'long') {
+function formatDate(date) {
   if (!date) return '最新一期';
   const parsed = new Date(`${date}T00:00:00+08:00`);
   if (Number.isNaN(parsed.getTime())) return date;
-  if (style === 'compact') {
-    return new Intl.DateTimeFormat('zh-CN', { month: '2-digit', day: '2-digit' }).format(parsed);
-  }
   return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' })
     .format(parsed)
     .replaceAll('/', '.');
 }
 
-function estimateReadingTime(posts) {
-  const characters = posts.reduce((total, post) => total + post.summaryEn.length + post.analysis.length, 0);
-  return Math.max(3, Math.min(15, Math.ceil(characters / 1200)));
+function compactText(text, limit = 190) {
+  const compact = String(text || '').replace(/\s+/g, ' ').trim();
+  return compact.length > limit ? `${compact.slice(0, limit - 1)}…` : compact;
 }
 
 async function fetchJson(path) {
   const response = await fetch(path, { cache: 'no-store' });
   if (!response.ok) throw new Error(`无法加载 ${path} (${response.status})`);
   return response.json();
-}
-
-function showToast(message) {
-  clearTimeout(toastTimer);
-  elements.toast.textContent = message;
-  elements.toast.classList.add('show');
-  toastTimer = setTimeout(() => elements.toast.classList.remove('show'), 2600);
 }
 
 function track(eventName, properties = {}) {
@@ -309,19 +196,16 @@ function track(eventName, properties = {}) {
       ...properties,
       issueDate: state.issue?.date || '',
       path: window.location.pathname,
-      view: document.body.dataset.view || 'latest'
+      mode: state.mode
     },
     timestamp: new Date().toISOString()
   };
-
   document.dispatchEvent(new CustomEvent('buildersdaily:track', { detail: payload }));
   if (typeof window.plausible === 'function') window.plausible(eventName, { props: payload.properties });
   if (window.posthog?.capture) window.posthog.capture(eventName, payload.properties);
-
   if (CONFIG.analyticsEndpoint && navigator.sendBeacon) {
     navigator.sendBeacon(CONFIG.analyticsEndpoint, new Blob([JSON.stringify(payload)], { type: 'application/json' }));
   }
-
   const localEvents = loadJsonStorage(STORAGE_KEYS.events, []);
   localEvents.push(payload);
   localStorage.setItem(STORAGE_KEYS.events, JSON.stringify(localEvents.slice(-100)));
@@ -329,198 +213,383 @@ function track(eventName, properties = {}) {
 
 function cacheElements() {
   Object.assign(elements, {
-    issueDate: $('#issueDate'),
-    digestDate: $('#digestDate'),
-    readingTime: $('#readingTime'),
-    builderCount: $('#builderCount'),
-    postCount: $('#postCount'),
-    topicCount: $('#topicCount'),
-    storyGrid: $('#storyGrid'),
-    readingProgress: $('#readingProgress'),
-    completionCelebration: $('#completionCelebration'),
-    completionFireworks: $('#completionFireworks'),
-    collectionDialog: $('#collectionDialog'),
-    collectionDialogGrid: $('#collectionDialogGrid'),
+    stage: $('#spatialStage'),
+    world: $('#spatialWorld'),
+    title: $('#spaceTitle'),
+    kicker: $('#spaceKicker'),
+    meta: $('#spaceMeta'),
+    status: $('#spatialStatus'),
+    activeLabel: $('#activeLabel'),
+    activePosition: $('#activePosition'),
+    headerMode: $('#headerMode'),
+    headerPosition: $('#headerPosition'),
+    progress: $('#readingProgress'),
+    orbit: $('.spatial-orbit'),
+    celebration: $('#completionCelebration'),
+    fireworks: $('#completionFireworks'),
     toast: $('#toast')
   });
 }
 
-async function loadCurrentView() {
+async function loadSiteData() {
   const requestedDate = document.body.dataset.issueDate;
   const view = document.body.dataset.view || 'latest';
   const filter = document.body.dataset.filter || '';
+  state.isHome = view === 'latest' && !requestedDate;
 
-  document.body.classList.toggle('today-view', view === 'latest' && !requestedDate);
-  document.body.classList.toggle('history-view', view === 'latest' && Boolean(requestedDate));
-  document.body.classList.toggle('context-view', view === 'builder' || view === 'topic');
-  document.body.classList.toggle('builder-view', view === 'builder');
-
-  const [archive, profiles] = await Promise.all([
+  const [archive, builders] = await Promise.all([
     fetchJson('/archive/index.json').catch(() => []),
-    fetchJson('/profiles.json').catch(() => [])
+    fetchJson('/builders/index.json').catch(() => [])
   ]);
   state.archive = Array.isArray(archive) ? archive : [];
-  state.profiles = Array.isArray(profiles) ? profiles : [];
+  state.builders = Array.isArray(builders) ? builders : [];
 
   if (view === 'builder' && filter) {
     const builder = await fetchJson(`/builders/${slugify(filter)}/data.json`);
-    if (!builder) throw new Error('找不到这位 Builder 的归档');
-    applyContextHero('builder', builder);
-    return normalizeIssue({
+    state.contextType = 'profile';
+    state.issue = normalizeIssue({
       date: state.archive[0]?.date || '',
       posts: builder.posts || [],
       summary: builder.summary || builder.role || '',
       highlights: (builder.posts || []).slice(0, 3).map((post) => post.id),
       builderCount: 1,
       postCount: (builder.posts || []).length,
-      context: { type: 'builder', value: `${builder.name} (@${builder.handle})`, handle: builder.handle }
+      context: { type: 'profile', name: builder.name, handle: builder.handle }
     });
+    return;
   }
 
   if (view === 'topic' && filter) {
     const topic = await fetchJson(`/topics/${slugify(filter)}/data.json`);
-    if (!topic) throw new Error('找不到这个主题的归档');
-    applyContextHero('topic', topic);
-    return normalizeIssue({
+    state.contextType = 'topic';
+    state.issue = normalizeIssue({
       date: state.archive[0]?.date || '',
       posts: topic.posts || [],
       summary: topic.summary || '',
       highlights: (topic.posts || []).slice(0, 3).map((post) => post.id),
       builderCount: new Set((topic.posts || []).map((post) => post.handle)).size,
       postCount: (topic.posts || []).length,
-      context: { type: 'topic', value: `${topic.label} Builder 信号时间线`, key: topic.key }
+      context: { type: 'topic', name: topic.label, key: topic.key }
+    });
+    return;
+  }
+
+  if (requestedDate) {
+    state.contextType = 'issue';
+    state.issue = normalizeIssue(await fetchJson(`/archive/${requestedDate}.json`), requestedDate);
+    return;
+  }
+
+  state.issue = normalizeIssue(await fetchJson('/data.json'), state.archive[0]?.date || '');
+}
+
+function modeCopy(mode) {
+  if (mode === 'archive') {
+    return { kicker: 'COMPOUNDING ARCHIVE', title: '归档', meta: `${state.archive.length} 期日报 · 由近到远` };
+  }
+  if (mode === 'builders') {
+    return { kicker: 'BUILDER CONSTELLATION', title: 'Builders', meta: `${state.builders.length} 位持续追踪中的 Builder` };
+  }
+  if (mode === 'issue') {
+    return { kicker: 'ARCHIVE ISSUE', title: formatDate(state.issue.date), meta: `${state.issue.posts.length} 条历史信号 · ${state.issue.builderCount} Builders` };
+  }
+  if (mode === 'profile') {
+    return {
+      kicker: 'BUILDER SIGNAL TRAIL',
+      title: state.issue.context?.name || 'Builder',
+      meta: `@${state.issue.context?.handle || ''} · ${state.issue.posts.length} 条归档信号`
+    };
+  }
+  if (mode === 'topic') {
+    return { kicker: 'TOPIC SIGNAL FIELD', title: state.issue.context?.name || '主题', meta: `${state.issue.posts.length} 条相关信号` };
+  }
+  return {
+    kicker: `DAILY SIGNAL SPACE · ${formatDate(state.issue.date)}`,
+    title: '今日',
+    meta: `${state.issue.posts.length} 条动态 · ${state.issue.builderCount} Builders`
+  };
+}
+
+function postsAsItems(posts, mode) {
+  const highlights = new Set(state.issue.highlights || []);
+  return posts.map((post, index) => ({
+    id: post.id,
+    type: 'signal',
+    title: post.name,
+    subtitle: `@${post.handle}`,
+    body: post.summaryEn || post.summary,
+    meta: topicLabel(post.primaryTopic),
+    avatar: post.avatar || avatarFor(post.name, post.handle),
+    url: post.url,
+    action: '查看原文 ↗',
+    external: true,
+    featured: mode === 'today' && highlights.has(post.id),
+    index
+  }));
+}
+
+function itemsForMode(mode) {
+  if (mode === 'archive') {
+    return state.archive.map((issue, index) => ({
+      id: issue.date,
+      type: 'archive',
+      title: formatDate(issue.date),
+      subtitle: `${Number(issue.builderCount) || 0} BUILDERS · ${Number(issue.postCount) || 0} POSTS`,
+      body: issue.summary || issue.highlights?.[0]?.text || '查看这一天的 Builder 信号。',
+      meta: 'DAILY ISSUE',
+      url: `/daily/${issue.date}/`,
+      action: '打开本期 →',
+      index
+    }));
+  }
+  if (mode === 'builders') {
+    return state.builders.map((builder, index) => {
+      const handle = String(builder.handle || '').replace(/^@/, '');
+      return {
+        id: handle,
+        type: 'builder',
+        title: builder.name || handle,
+        subtitle: `@${handle}`,
+        body: builder.summary || builder.role || '持续追踪中的 AI Builder。',
+        meta: `${Number(builder.signalCount || builder.posts?.length) || 0} SIGNALS`,
+        avatar: builder.avatar || avatarFor(builder.name, handle),
+        url: `/builders/${builder.slug || slugify(handle)}/`,
+        action: '查看 Builder →',
+        index
+      };
     });
   }
+  return postsAsItems(state.issue.posts, mode);
+}
 
-  const latestDate = state.archive[0]?.date || requestedDate || '';
-  if (requestedDate) {
-    const issue = normalizeIssue(await fetchJson(`/archive/${requestedDate}.json`), requestedDate);
-    applyHistoryHero(issue);
-    return issue;
+function buildPositions(items, mode) {
+  if (!items.length) return [];
+  const positions = [{ x: 0, y: 0, z: 0, tilt: 0 }];
+  const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+  const density = mode === 'archive' ? 410 : mode === 'builders' ? 460 : 520;
+  const vertical = mode === 'archive' ? 0.72 : 0.78;
+  for (let index = 1; index < items.length; index += 1) {
+    const angle = index * goldenAngle - Math.PI / 2;
+    const radius = Math.sqrt(index) * density;
+    positions.push({
+      x: Math.cos(angle) * radius * 1.16,
+      y: Math.sin(angle) * radius * vertical,
+      z: 55 + (index % 7) * 38 + Math.abs(Math.sin(angle)) * 90,
+      tilt: Math.sin(angle * 1.7) * 2.4
+    });
   }
-  return normalizeIssue(await fetchJson('/data.json'), latestDate);
+  return positions;
 }
 
-function applyHistoryHero(issue) {
-  $('.hero-copy .eyebrow').textContent = 'ARCHIVE ISSUE';
-  $('#heroTitle').innerHTML = `<span>${escapeHtml(formatDate(issue.date))}</span><em>历史日报。</em>`;
-  $('.hero-deck').textContent = issue.summary || '回到这一天，查看当时最值得保留的 Builder 信号。';
-  $('#startReading').textContent = '阅读本期';
-}
-
-function applyContextHero(type, context) {
-  const eyebrow = $('.hero-copy .eyebrow');
-  const title = $('#heroTitle');
-  const deck = $('.hero-deck');
-  const stamp = $('.issue-stamp');
-  if (type === 'builder') {
-    [eyebrow, title, deck, $('.hero-actions')].forEach((element) => element?.remove());
-    const hero = $('#today');
-    hero.removeAttribute('aria-labelledby');
-    hero.setAttribute('aria-label', `${context.name} Builder 动态概览`);
-    stamp.querySelector('time').textContent = `@${context.handle}`;
-  } else {
-    eyebrow.textContent = 'TOPIC TIMELINE';
-    title.innerHTML = `${escapeHtml(context.label)}，<br><em>正在如何变化。</em>`;
-    deck.textContent = context.summary || `从不同 Builder 的连续动态中观察 ${context.label}。`;
-    stamp.querySelector('time').textContent = '主题时间线';
-  }
-}
-
-function renderPage() {
-  const issue = state.issue;
-  const topics = countTopics(issue.posts);
-  const activeTopics = Object.keys(topics).filter((topic) => topic !== 'other');
-  const contextual = Boolean(issue.context);
-
-  if (!contextual) elements.issueDate.textContent = formatDate(issue.date);
-  elements.readingTime.textContent = `约 ${estimateReadingTime(issue.posts)} 分钟`;
-  elements.builderCount.textContent = issue.builderCount;
-  elements.postCount.textContent = issue.postCount;
-  elements.topicCount.textContent = activeTopics.length || 1;
-  const isHistorical = document.body.classList.contains('history-view');
-  const isContext = document.body.classList.contains('context-view');
-  const digestSection = $('#digest');
-  $('.digest-heading').hidden = isHistorical;
-  elements.digestDate.hidden = isHistorical || isContext;
-  if (!elements.digestDate.hidden) {
-    elements.digestDate.dateTime = issue.date;
-    elements.digestDate.textContent = formatDate(issue.date);
-  }
-  if (isHistorical) {
-    digestSection.removeAttribute('aria-labelledby');
-    digestSection.setAttribute('aria-label', `${formatDate(issue.date)} 历史信息存档`);
-  }
-  $('#digestTitle').textContent = isHistorical
-    ? '本期目录'
-    : isContext
-      ? '时间线'
-      : `今日（${issue.posts.length} 条）`;
-
-  state.visiblePosts = [...issue.posts];
-  state.observedPosts.clear();
-  state.firstContentTracked = false;
-  state.completionCelebrated = loadJsonStorage(STORAGE_KEYS.celebrated, []).includes(issue.date);
-  renderStories();
-  updateMetadata();
-  track('page_view', { postCount: issue.postCount, builderCount: issue.builderCount });
-}
-
-function updateMetadata() {
-  const context = state.issue.context;
-  const title = context
-    ? `${context.value} — Builders Daily`
-    : `${formatDate(state.issue.date)} AI Builder 情报日报 — Builders Daily`;
-  const description = state.issue.summary.slice(0, 150);
-  document.title = title;
-  $('meta[name="description"]')?.setAttribute('content', description);
-  $('meta[property="og:title"]')?.setAttribute('content', title);
-  $('meta[property="og:description"]')?.setAttribute('content', description);
-}
-
-function compactText(text, limit = 180) {
-  const compact = String(text || '').replace(/\s+/g, ' ').trim();
-  return compact.length > limit ? `${compact.slice(0, limit - 1)}…` : compact;
-}
-
-function renderStories() {
-  if (cardObserver) cardObserver.disconnect();
-  elements.storyGrid.classList.add('compact');
-  const isHistorical = document.body.classList.contains('history-view');
-  const isToday = document.body.classList.contains('today-view');
-  elements.storyGrid.innerHTML = state.visiblePosts.map((post, index) => {
-    const isHighlighted = isToday && state.issue.highlights?.includes(post.id);
-    const builderIdentity = isHistorical
-      ? `<p class="history-byline">${escapeHtml(post.name)} · @${escapeHtml(post.handle)}</p>`
-      : isToday
-        ? `<div class="story-builder">
-          <span class="builder-avatar" aria-hidden="true">${escapeHtml(post.avatar || avatarFor(post.name, post.handle))}</span>
-          <span class="builder-identity">
-            <strong>${escapeHtml(post.name)}</strong>
-            <span>@${escapeHtml(post.handle)}</span>
-          </span>
-        </div>`
-        : `<a class="story-builder" href="/builders/${slugify(post.handle)}/" data-builder-link="${escapeHtml(post.handle)}">
-        <span class="builder-avatar" aria-hidden="true">${escapeHtml(post.avatar || avatarFor(post.name, post.handle))}</span>
-        <span class="builder-identity">
-          <strong>${escapeHtml(post.name)}</strong>
-          <span>@${escapeHtml(post.handle)}</span>
-        </span>
-      </a>`;
-    return `
-    <article class="story-card" data-post-id="${escapeHtml(post.id)}" data-primary-topic="${escapeHtml(post.primaryTopic)}">
-      <div class="story-card-top">
-        <span class="story-number">${String(index + 1).padStart(2, '0')}</span>
-        ${isToday ? builderIdentity : ''}
-        ${isHighlighted ? '<span class="story-highlight" role="img" aria-label="值得阅读" title="值得阅读">★</span>' : ''}
+function cardMarkup(item, index) {
+  const number = String(index + 1).padStart(2, '0');
+  const avatar = item.avatar
+    ? `<span class="space-avatar" aria-hidden="true">${escapeHtml(item.avatar)}</span>`
+    : '';
+  const featured = item.featured
+    ? '<span class="space-featured" role="img" aria-label="值得阅读" title="值得阅读">★</span>'
+    : '';
+  const target = item.external ? ' target="_blank" rel="noopener noreferrer"' : '';
+  return `
+    <article class="space-card space-card--${escapeHtml(item.type)}" data-space-index="${index}" role="listitem">
+      <button class="space-card-focus" type="button" data-focus-index="${index}" aria-label="聚焦 ${escapeHtml(item.title)}"></button>
+      <div class="space-card-chrome">
+        <span>${number}</span>
+        <span>${escapeHtml(item.meta)}</span>
+        ${featured}
       </div>
-      ${isToday ? '' : builderIdentity}
-      <p class="story-copy">${escapeHtml(post.summaryEn || post.summary)}</p>
-      ${post.url ? `<a class="story-source-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer" data-source-post="${escapeHtml(post.id)}">查看原文 ↗</a>` : ''}
-    </article>
-  `;
-  }).join('');
-  observeCards();
+      <div class="space-card-identity">
+        ${avatar}
+        <div><h2>${escapeHtml(item.title)}</h2><p>${escapeHtml(item.subtitle)}</p></div>
+      </div>
+      <p class="space-card-copy">${escapeHtml(item.body)}</p>
+      ${item.url ? `<a class="space-card-action" href="${escapeHtml(item.url)}"${target} data-item-action="${escapeHtml(item.id)}">${escapeHtml(item.action)}</a>` : ''}
+    </article>`;
+}
+
+function renderMode(mode, { updateUrl = true } = {}) {
+  cancelAnimationFrame(state.cameraAnimation);
+  clearTimeout(state.readTimer);
+  state.mode = mode;
+  state.items = itemsForMode(mode);
+  state.positions = buildPositions(state.items, mode);
+  state.activeIndex = 0;
+  state.camera = { x: state.positions[0]?.x || 0, y: state.positions[0]?.y || 0, zoom: defaultZoom() };
+  elements.world.innerHTML = state.items.map(cardMarkup).join('');
+  state.cards = $$('.space-card', elements.world);
+  elements.world.classList.add('is-entering');
+  requestAnimationFrame(() => elements.world.classList.remove('is-entering'));
+
+  const copy = modeCopy(mode);
+  elements.kicker.textContent = copy.kicker;
+  elements.title.textContent = copy.title;
+  elements.meta.textContent = copy.meta;
+  elements.headerMode.textContent = mode === 'builders' || mode === 'profile'
+    ? 'BUILDERS'
+    : mode === 'archive' || mode === 'issue'
+      ? 'ARCHIVE'
+      : mode === 'topic'
+        ? 'TOPIC'
+        : 'TODAY';
+  elements.orbit.classList.toggle('is-hidden', mode === 'builders');
+  updateNavigation();
+  updateActiveUI();
+  updateScene();
+  scheduleReadMark();
+
+  if (state.isHome && updateUrl) {
+    const url = mode === 'today' ? '/' : `/?space=${mode}`;
+    history.replaceState({ space: mode }, '', url);
+  }
+  track('space_open', { space: mode, count: state.items.length });
+}
+
+function defaultZoom() {
+  if (window.innerWidth < 640) return 0.66;
+  if (window.innerWidth < 980) return 0.72;
+  return 0.82;
+}
+
+function updateNavigation() {
+  $$('[data-space-link]').forEach((link) => {
+    const target = link.dataset.spaceLink;
+    const active = target === state.mode
+      || (target === 'archive' && state.mode === 'issue')
+      || (target === 'builders' && state.mode === 'profile')
+      || (target === 'today' && state.mode === 'topic');
+    link.toggleAttribute('aria-current', active);
+  });
+}
+
+function updateActiveUI() {
+  const item = state.items[state.activeIndex];
+  const position = `${String(state.activeIndex + 1).padStart(2, '0')} / ${String(state.items.length).padStart(2, '0')}`;
+  elements.activeLabel.textContent = item?.title || '暂无内容';
+  elements.activePosition.textContent = position;
+  elements.headerPosition.textContent = position;
+  elements.progress.style.width = state.items.length ? `${((state.activeIndex + 1) / state.items.length) * 100}%` : '0';
+  state.cards.forEach((card, index) => {
+    const active = index === state.activeIndex;
+    card.classList.toggle('is-active', active);
+    card.setAttribute('aria-current', active ? 'true' : 'false');
+  });
+}
+
+function stageCenter(rect) {
+  return {
+    x: rect.width < 760 ? rect.width * 0.5 : rect.width * 0.57,
+    y: rect.height < 680 ? rect.height * 0.54 : rect.height * 0.53
+  };
+}
+
+function updateScene() {
+  if (!state.cards.length) return;
+  const rect = elements.stage.getBoundingClientRect();
+  const center = stageCenter(rect);
+  const viewRadius = Math.hypot(rect.width, rect.height) * 0.7;
+
+  state.cards.forEach((card, index) => {
+    const position = state.positions[index];
+    const depth = 930 / (930 + position.z);
+    const dx = (position.x - state.camera.x) * state.camera.zoom * depth;
+    const dy = (position.y - state.camera.y) * state.camera.zoom * depth;
+    const distance = Math.hypot(dx, dy);
+    const fisheye = 1 / (1 + distance / 960);
+    const active = index === state.activeIndex;
+    const scale = clamp(state.camera.zoom * depth * (0.52 + fisheye * 0.48) * (active ? 1.14 : 1), 0.22, 1.12);
+    const opacity = active ? 1 : clamp(1.08 - distance / (viewRadius * 1.4), 0.12, 0.82);
+    const rotateY = clamp(-dx / Math.max(rect.width, 1) * 18, -9, 9);
+    const rotateX = clamp(dy / Math.max(rect.height, 1) * 12, -6, 6);
+    const offscreen = Math.abs(dx) > rect.width * 0.95 || Math.abs(dy) > rect.height * 1.05;
+
+    card.style.transform = `translate3d(${center.x + dx}px, ${center.y + dy}px, 0) translate(-50%, -50%) scale(${scale}) rotateX(${rotateX}deg) rotateY(${rotateY + position.tilt}deg)`;
+    card.style.opacity = String(opacity);
+    card.style.filter = `blur(${active ? 0 : clamp(distance / 1300, 0, 1.4)}px)`;
+    card.style.zIndex = String(active ? 1000 : Math.round(100 + scale * 100));
+    card.style.visibility = offscreen && !active ? 'hidden' : 'visible';
+  });
+}
+
+function animateCamera(targetX, targetY, targetZoom = state.camera.zoom) {
+  cancelAnimationFrame(state.cameraAnimation);
+  const start = { ...state.camera };
+  const startedAt = performance.now();
+  const duration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 1 : 520;
+  const draw = (now) => {
+    const progress = clamp((now - startedAt) / duration, 0, 1);
+    const eased = 1 - Math.pow(1 - progress, 4);
+    state.camera.x = start.x + (targetX - start.x) * eased;
+    state.camera.y = start.y + (targetY - start.y) * eased;
+    state.camera.zoom = start.zoom + (targetZoom - start.zoom) * eased;
+    updateScene();
+    if (progress < 1) state.cameraAnimation = requestAnimationFrame(draw);
+  };
+  state.cameraAnimation = requestAnimationFrame(draw);
+}
+
+function focusItem(index, { smooth = true, trackFocus = true } = {}) {
+  if (!state.items.length) return;
+  const nextIndex = (index + state.items.length) % state.items.length;
+  const changed = nextIndex !== state.activeIndex;
+  state.activeIndex = nextIndex;
+  const position = state.positions[nextIndex];
+  updateActiveUI();
+  if (smooth) animateCamera(position.x, position.y, state.camera.zoom);
+  else {
+    state.camera.x = position.x;
+    state.camera.y = position.y;
+    updateScene();
+  }
+  scheduleReadMark();
+  if (trackFocus && changed) track('space_item_focus', { itemId: state.items[nextIndex].id, position: nextIndex + 1 });
+}
+
+function nearestItemToCenter() {
+  let nearest = state.activeIndex;
+  let nearestDistance = Number.POSITIVE_INFINITY;
+  state.positions.forEach((position, index) => {
+    const distance = Math.hypot(position.x - state.camera.x, position.y - state.camera.y);
+    if (distance < nearestDistance) {
+      nearestDistance = distance;
+      nearest = index;
+    }
+  });
+  return nearest;
+}
+
+function zoomCanvas(delta, clientX, clientY) {
+  const rect = elements.stage.getBoundingClientRect();
+  const center = stageCenter(rect);
+  const oldZoom = state.camera.zoom;
+  const nextZoom = clamp(oldZoom * delta, 0.34, 1.32);
+  const pointerX = (clientX ?? center.x) - rect.left;
+  const pointerY = (clientY ?? center.y) - rect.top;
+  const worldX = state.camera.x + (pointerX - center.x) / oldZoom;
+  const worldY = state.camera.y + (pointerY - center.y) / oldZoom;
+  state.camera.x = worldX - (pointerX - center.x) / nextZoom;
+  state.camera.y = worldY - (pointerY - center.y) / nextZoom;
+  state.camera.zoom = nextZoom;
+  updateScene();
+  elements.status.textContent = `缩放 ${Math.round(nextZoom * 100)}%`;
+}
+
+function resetView() {
+  const position = state.positions[state.activeIndex] || { x: 0, y: 0 };
+  animateCamera(position.x, position.y, defaultZoom());
+  elements.status.textContent = '视角已重置';
+}
+
+function scheduleReadMark() {
+  clearTimeout(state.readTimer);
+  if (state.mode !== 'today') return;
+  const item = state.items[state.activeIndex];
+  if (!item) return;
+  state.readTimer = setTimeout(() => {
+    if (state.observedPosts.has(item.id)) return;
+    state.observedPosts.add(item.id);
+    track('card_view', { postId: item.id, position: state.activeIndex + 1 });
+    maybeCelebrateCompletion();
+  }, 900);
 }
 
 function persistCelebratedIssue(date) {
@@ -530,27 +599,23 @@ function persistCelebratedIssue(date) {
 }
 
 function finishCompletionCelebration() {
-  elements.completionCelebration.classList.remove('is-active');
+  elements.celebration.classList.remove('is-active');
   setTimeout(() => {
-    elements.completionCelebration.hidden = true;
-    const context = elements.completionFireworks.getContext('2d');
-    context?.clearRect(0, 0, elements.completionFireworks.width, elements.completionFireworks.height);
+    elements.celebration.hidden = true;
+    const context = elements.fireworks.getContext('2d');
+    context?.clearRect(0, 0, elements.fireworks.width, elements.fireworks.height);
   }, 220);
 }
 
 function playCompletionCelebration() {
-  const overlay = elements.completionCelebration;
-  const canvas = elements.completionFireworks;
-  if (!overlay || !canvas) return;
-
+  const overlay = elements.celebration;
+  const canvas = elements.fireworks;
   overlay.hidden = false;
   requestAnimationFrame(() => overlay.classList.add('is-active'));
-
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     setTimeout(finishCompletionCelebration, 1600);
     return;
   }
-
   const context = canvas.getContext('2d');
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
   const width = window.innerWidth;
@@ -558,282 +623,195 @@ function playCompletionCelebration() {
   canvas.width = Math.round(width * dpr);
   canvas.height = Math.round(height * dpr);
   context.scale(dpr, dpr);
-
   const bursts = [
     { x: width * 0.2, y: height * 0.32, delay: 0, count: 22 },
-    { x: width * 0.5, y: height * 0.2, delay: 240, count: 28 },
-    { x: width * 0.78, y: height * 0.38, delay: 470, count: 24 },
-    { x: width * 0.38, y: height * 0.62, delay: 700, count: 20 },
-    { x: width * 0.68, y: height * 0.68, delay: 880, count: 22 }
+    { x: width * 0.5, y: height * 0.2, delay: 220, count: 28 },
+    { x: width * 0.78, y: height * 0.38, delay: 450, count: 24 },
+    { x: width * 0.38, y: height * 0.64, delay: 680, count: 20 },
+    { x: width * 0.68, y: height * 0.68, delay: 850, count: 22 }
   ];
   const particles = [];
-  const shades = ['17,17,17', '82,82,80', '255,255,255'];
   const startedAt = performance.now();
-
-  function launchBurst(burst) {
+  function launch(burst) {
     burst.launched = true;
     for (let index = 0; index < burst.count; index += 1) {
       const angle = (Math.PI * 2 * index) / burst.count + Math.random() * 0.12;
       const speed = 1.8 + Math.random() * 3.2;
-      particles.push({
-        x: burst.x,
-        y: burst.y,
-        previousX: burst.x,
-        previousY: burst.y,
-        vx: Math.cos(angle) * speed,
-        vy: Math.sin(angle) * speed,
-        age: 0,
-        life: 54 + Math.random() * 30,
-        shade: shades[index % shades.length],
-        width: 0.8 + Math.random() * 1.2
-      });
+      particles.push({ x: burst.x, y: burst.y, px: burst.x, py: burst.y, vx: Math.cos(angle) * speed, vy: Math.sin(angle) * speed, age: 0, life: 54 + Math.random() * 30 });
     }
   }
-
-  function drawFrame(now) {
+  function draw(now) {
     const elapsed = now - startedAt;
     context.clearRect(0, 0, width, height);
-
-    bursts.forEach((burst) => {
-      if (!burst.launched && elapsed >= burst.delay) launchBurst(burst);
-      if (!burst.launched) return;
-      const ringProgress = Math.min(1, Math.max(0, (elapsed - burst.delay) / 620));
-      context.beginPath();
-      context.arc(burst.x, burst.y, ringProgress * 54, 0, Math.PI * 2);
-      context.strokeStyle = `rgba(17,17,17,${Math.max(0, 0.2 * (1 - ringProgress))})`;
-      context.lineWidth = 1;
-      context.stroke();
-    });
-
+    bursts.forEach((burst) => { if (!burst.launched && elapsed >= burst.delay) launch(burst); });
     particles.forEach((particle) => {
-      particle.previousX = particle.x;
-      particle.previousY = particle.y;
+      particle.px = particle.x;
+      particle.py = particle.y;
       particle.x += particle.vx;
       particle.y += particle.vy;
       particle.vx *= 0.985;
       particle.vy = particle.vy * 0.985 + 0.035;
       particle.age += 1;
-      const alpha = Math.max(0, 1 - particle.age / particle.life);
       context.beginPath();
-      context.moveTo(particle.previousX, particle.previousY);
+      context.moveTo(particle.px, particle.py);
       context.lineTo(particle.x, particle.y);
-      context.strokeStyle = `rgba(${particle.shade},${alpha * 0.88})`;
-      context.lineWidth = particle.width;
+      context.strokeStyle = `rgba(17,17,17,${Math.max(0, 1 - particle.age / particle.life) * 0.86})`;
+      context.lineWidth = 1;
       context.stroke();
     });
-
-    if (elapsed < 2300) {
-      requestAnimationFrame(drawFrame);
-    } else {
-      finishCompletionCelebration();
-    }
+    if (elapsed < 2200) requestAnimationFrame(draw);
+    else finishCompletionCelebration();
   }
-
-  requestAnimationFrame(drawFrame);
+  requestAnimationFrame(draw);
 }
 
 function maybeCelebrateCompletion() {
-  const isToday = document.body.classList.contains('today-view');
-  const complete = state.visiblePosts.length > 0 && state.observedPosts.size >= state.visiblePosts.length;
-  if (!isToday || !complete || state.completionCelebrated) return;
+  const complete = state.items.length > 0 && state.observedPosts.size >= state.items.length;
+  if (state.mode !== 'today' || !complete || state.completionCelebrated) return;
   state.completionCelebrated = true;
   persistCelebratedIssue(state.issue.date);
   playCompletionCelebration();
-  track('daily_complete', { date: state.issue.date, postCount: state.visiblePosts.length });
+  track('daily_complete', { date: state.issue.date, postCount: state.items.length });
 }
 
-function observeCards() {
-  cardObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting || entry.intersectionRatio < 0.5) return;
-      const id = entry.target.dataset.postId;
-      if (!state.observedPosts.has(id)) {
-        state.observedPosts.add(id);
-        track('card_view', { postId: id, position: state.visiblePosts.findIndex((post) => post.id === id) + 1 });
-      }
-      if (!state.firstContentTracked) {
-        state.firstContentTracked = true;
-        track('first_content_view', { postId: id });
-      }
-      const progress = state.visiblePosts.length ? state.observedPosts.size / state.visiblePosts.length : 0;
-      elements.readingProgress.style.width = `${Math.min(100, progress * 100)}%`;
-      maybeCelebrateCompletion();
-    });
-  }, { threshold: [0.5] });
-  $$('.story-card', elements.storyGrid).forEach((card) => cardObserver.observe(card));
-}
-
-function archiveCardsMarkup(issues) {
-  return issues.map((issue) => {
-    const highlight = issue.highlights?.[0]?.text || issue.summary || '打开本期，查看完整 Builder 信号。';
-    return `
-      <a class="archive-card" href="/daily/${escapeHtml(issue.date)}/" data-archive-date="${escapeHtml(issue.date)}">
-        <div class="archive-date">
-          <time datetime="${escapeHtml(issue.date)}">${escapeHtml(formatDate(issue.date))}</time>
-          <span>${Number(issue.builderCount) || 0} BUILDERS · ${Number(issue.postCount) || 0} POSTS</span>
-        </div>
-        <p class="archive-highlight">${escapeHtml(compactText(highlight, 150))}</p>
-        <div class="archive-topics">${(issue.topTopics || []).slice(0, 3).map((topic) => `<span>${escapeHtml(topicLabel(topic))}</span>`).join('')}</div>
-      </a>
-    `;
-  }).join('');
-}
-
-async function ensureBuilderDirectory() {
-  if (state.builderDirectory.length) return;
-  try {
-    const directory = await fetchJson('/builders/index.json');
-    state.builderDirectory = Array.isArray(directory) ? directory : [];
-  } catch {
-    const issuePosts = state.issue?.posts || [];
-    state.builderDirectory = state.profiles.map((profile) => ({
-      ...profile,
-      handle: String(profile.handle || '').replace(/^@/, ''),
-      slug: slugify(profile.handle),
-      summary: profile.summary || profile.role || profile.bio || '',
-      signalCount: issuePosts.filter((post) => post.handle.toLowerCase() === String(profile.handle || '').replace(/^@/, '').toLowerCase()).length,
-      posts: []
-    }));
-  }
-}
-
-function builderCardsMarkup(builders) {
-  return builders.map((builder) => {
-    const handle = String(builder.handle || '').replace(/^@/, '');
-    const followed = state.followed.has(handle.toLowerCase());
-    return `
-      <article class="builder-card">
-        <div class="builder-card-head">
-          <span class="builder-avatar" aria-hidden="true">${escapeHtml(builder.avatar || avatarFor(builder.name, handle))}</span>
-          <button class="follow-button${followed ? ' is-followed' : ''}" type="button" data-follow-builder="${escapeHtml(handle)}" aria-pressed="${followed}">${followed ? '已关注' : '+ 关注'}</button>
-        </div>
-        <a href="/builders/${escapeHtml(builder.slug || slugify(handle))}/" data-builder-link="${escapeHtml(handle)}">
-          <h3>${escapeHtml(builder.name || handle)}</h3>
-          <p class="builder-handle">@${escapeHtml(handle)}</p>
-          <p class="builder-role">${escapeHtml(builder.summary || builder.role || '持续追踪中的 AI Builder。')}</p>
-          <p class="builder-signal-count">${Number(builder.signalCount || builder.posts?.length) || 0} 条归档信号 →</p>
-        </a>
-      </article>
-    `;
-  }).join('');
-}
-
-function renderCollectionDialog() {
-  if (state.collectionMode === 'archive') {
-    $('#collectionDialogEyebrow').textContent = 'ALL ISSUES';
-    $('#collectionDialogTitle').textContent = '全部期刊';
-    $('#collectionDialogDescription').textContent = `${state.archive.length} 期日报，按日期由近到远排列。`;
-    elements.collectionDialogGrid.className = 'archive-grid collection-grid';
-    elements.collectionDialogGrid.innerHTML = archiveCardsMarkup(state.archive)
-      || '<div class="error-panel"><h3>归档正在生成</h3><p>稍后再来查看历史日报。</p></div>';
-    return;
-  }
-
-  $('#collectionDialogEyebrow').textContent = 'BUILDER DIRECTORY';
-  $('#collectionDialogTitle').textContent = '完整 Builder 名单';
-  $('#collectionDialogDescription').textContent = `${state.builderDirectory.length} 位持续追踪中的 Builder。`;
-  elements.collectionDialogGrid.className = 'builder-grid collection-grid';
-  elements.collectionDialogGrid.innerHTML = builderCardsMarkup(state.builderDirectory)
-    || '<div class="error-panel"><h3>名单正在生成</h3><p>稍后再来查看 Builder 名单。</p></div>';
-}
-
-async function openCollectionDialog(mode, trigger) {
-  if (mode === 'builders') await ensureBuilderDirectory();
-  state.collectionMode = mode;
-  state.collectionTrigger = trigger || null;
-  renderCollectionDialog();
-  elements.collectionDialog.showModal();
-  requestAnimationFrame(() => {
-    $('.collection-body', elements.collectionDialog).scrollTop = 0;
-    $('.dialog-close', elements.collectionDialog)?.focus();
-  });
-  track(mode === 'archive' ? 'archive_directory_open' : 'builder_directory_open', {
-    count: mode === 'archive' ? state.archive.length : state.builderDirectory.length
-  });
-}
-
-function toggleFollow(handle) {
-  const key = String(handle || '').toLowerCase();
-  if (!key) return;
-  if (state.followed.has(key)) {
-    state.followed.delete(key);
-    track('unfollow_builder', { handle: key });
-    showToast(`已取消关注 @${handle}`);
-  } else {
-    state.followed.add(key);
-    track('follow_builder', { handle: key });
-    showToast(`已关注 @${handle}`);
-  }
-  persistFollowed();
-  if (state.collectionMode === 'builders' && elements.collectionDialog.open) renderCollectionDialog();
+function showToast(message) {
+  clearTimeout(toastTimer);
+  elements.toast.textContent = message;
+  elements.toast.classList.add('show');
+  toastTimer = setTimeout(() => elements.toast.classList.remove('show'), 2400);
 }
 
 function bindEvents() {
   document.addEventListener('click', (event) => {
-    const collectionButton = event.target.closest('[data-open-collection]');
-    if (collectionButton) {
-      openCollectionDialog(collectionButton.dataset.openCollection, collectionButton);
+    const navLink = event.target.closest('[data-space-link]');
+    if (navLink && state.isHome) {
+      event.preventDefault();
+      renderMode(navLink.dataset.spaceLink);
       return;
     }
-
-    const followButton = event.target.closest('[data-follow-builder]');
-    if (followButton) {
-      toggleFollow(followButton.dataset.followBuilder);
+    const focusButton = event.target.closest('[data-focus-index]');
+    if (focusButton) {
+      focusItem(Number(focusButton.dataset.focusIndex));
       return;
     }
-
-    const archiveLink = event.target.closest('[data-archive-date]');
-    if (archiveLink) track('archive_open', { date: archiveLink.dataset.archiveDate });
-    const builderLink = event.target.closest('[data-builder-link]');
-    if (builderLink) track('builder_profile_open', { handle: builderLink.dataset.builderLink });
-    const sourceLink = event.target.closest('[data-source-post]');
-    if (sourceLink) track('source_open', { postId: sourceLink.dataset.sourcePost });
+    const action = event.target.closest('[data-item-action]');
+    if (action) track('space_item_open', { itemId: action.dataset.itemAction });
+    const canvasAction = event.target.closest('[data-canvas-action]')?.dataset.canvasAction;
+    if (!canvasAction) return;
+    if (canvasAction === 'previous') focusItem(state.activeIndex - 1);
+    if (canvasAction === 'next') focusItem(state.activeIndex + 1);
+    if (canvasAction === 'zoom-in') zoomCanvas(1.16);
+    if (canvasAction === 'zoom-out') zoomCanvas(0.86);
+    if (canvasAction === 'reset') resetView();
   });
 
-  $$('[data-close-dialog]').forEach((button) => button.addEventListener('click', () => button.closest('dialog').close()));
-  elements.collectionDialog.addEventListener('click', (event) => {
-    if (event.target === elements.collectionDialog) elements.collectionDialog.close();
-  });
-  elements.collectionDialog.addEventListener('close', () => {
-    const trigger = state.collectionTrigger;
-    state.collectionMode = '';
-    state.collectionTrigger = null;
-    elements.collectionDialogGrid.innerHTML = '';
-    trigger?.focus({ preventScroll: true });
+  elements.stage.addEventListener('wheel', (event) => {
+    event.preventDefault();
+    zoomCanvas(event.deltaY > 0 ? 0.9 : 1.1, event.clientX, event.clientY);
+  }, { passive: false });
+
+  elements.stage.addEventListener('pointerdown', (event) => {
+    if (event.target.closest('.space-card-action')) return;
+    cancelAnimationFrame(state.cameraAnimation);
+    state.dragging = {
+      id: event.pointerId,
+      x: event.clientX,
+      y: event.clientY,
+      cameraX: state.camera.x,
+      cameraY: state.camera.y,
+      moved: false
+    };
+    elements.stage.setPointerCapture(event.pointerId);
+    elements.stage.classList.add('is-dragging');
   });
 
-  window.addEventListener('scroll', () => {
-    const max = document.documentElement.scrollHeight - window.innerHeight;
-    if (max <= 0) return;
-    const pageProgress = Math.min(1, window.scrollY / max);
-    if (!state.visiblePosts.length) elements.readingProgress.style.width = `${pageProgress * 100}%`;
-  }, { passive: true });
+  elements.stage.addEventListener('pointermove', (event) => {
+    const drag = state.dragging;
+    if (!drag || drag.id !== event.pointerId) return;
+    const dx = event.clientX - drag.x;
+    const dy = event.clientY - drag.y;
+    if (Math.hypot(dx, dy) > 6) drag.moved = true;
+    state.camera.x = drag.cameraX - dx / state.camera.zoom;
+    state.camera.y = drag.cameraY - dy / state.camera.zoom;
+    updateScene();
+  });
+
+  const finishDrag = (event) => {
+    const drag = state.dragging;
+    if (!drag || drag.id !== event.pointerId) return;
+    state.dragging = null;
+    elements.stage.classList.remove('is-dragging');
+    if (elements.stage.hasPointerCapture(event.pointerId)) elements.stage.releasePointerCapture(event.pointerId);
+    if (drag.moved) focusItem(nearestItemToCenter());
+  };
+  elements.stage.addEventListener('pointerup', finishDrag);
+  elements.stage.addEventListener('pointercancel', finishDrag);
+
+  elements.stage.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+      event.preventDefault();
+      focusItem(state.activeIndex - 1);
+    }
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+      event.preventDefault();
+      focusItem(state.activeIndex + 1);
+    }
+    if (event.key === '+' || event.key === '=') zoomCanvas(1.12);
+    if (event.key === '-' || event.key === '_') zoomCanvas(0.88);
+    if (event.key === 'Home' || event.key === '0') resetView();
+  });
+
+  window.addEventListener('resize', () => {
+    cancelAnimationFrame(state.resizeFrame);
+    state.resizeFrame = requestAnimationFrame(updateScene);
+  });
+
+  window.addEventListener('popstate', () => {
+    if (!state.isHome) return;
+    const requested = new URLSearchParams(location.search).get('space');
+    renderMode(['archive', 'builders'].includes(requested) ? requested : 'today', { updateUrl: false });
+  });
 }
 
 function renderLoadingState() {
-  elements.storyGrid.innerHTML = '<div class="loading-card"></div><div class="loading-card"></div><div class="loading-card"></div><div class="loading-card"></div>';
+  elements.world.innerHTML = '<div class="space-loading"><span></span><p>正在建立信息空间</p></div>';
 }
 
 function renderFatalError(error) {
   console.error(error);
-  elements.storyGrid.innerHTML = `
-    <div class="error-panel">
-      <h3>日报暂时没有加载出来</h3>
-      <p>${escapeHtml(error?.message || '请刷新页面重试。')}</p>
-      <button class="button button-primary" type="button" onclick="location.reload()">重新加载</button>
-    </div>
-  `;
+  elements.world.innerHTML = `
+    <div class="space-error">
+      <p>SPACE OFFLINE</p>
+      <h2>信息空间暂时没有载入</h2>
+      <button type="button" onclick="location.reload()">重新加载</button>
+    </div>`;
+  showToast(error?.message || '请刷新页面重试');
+}
+
+function updateMetadata() {
+  const context = state.issue.context;
+  const title = context
+    ? `${context.name} — Builders Daily`
+    : `${formatDate(state.issue.date)} AI Builder 情报日报 — Builders Daily`;
+  const description = String(state.issue.summary || state.issue.posts[0]?.summaryEn || '').slice(0, 150);
+  document.title = title;
+  $('meta[name="description"]')?.setAttribute('content', description);
+  $('meta[property="og:title"]')?.setAttribute('content', title);
+  $('meta[property="og:description"]')?.setAttribute('content', description);
 }
 
 async function init() {
   cacheElements();
-  state.followed = new Set(loadJsonStorage(STORAGE_KEYS.followed, []).map((handle) => String(handle).toLowerCase()));
   renderLoadingState();
-
+  bindEvents();
   try {
-    bindEvents();
-    state.issue = await loadCurrentView();
-    renderPage();
+    await loadSiteData();
+    state.completionCelebrated = loadJsonStorage(STORAGE_KEYS.celebrated, []).includes(state.issue.date);
+    const requestedSpace = new URLSearchParams(location.search).get('space');
+    const initialMode = state.contextType || (state.isHome && ['archive', 'builders'].includes(requestedSpace) ? requestedSpace : 'today');
+    renderMode(initialMode, { updateUrl: false });
+    updateMetadata();
+    track('page_view', { postCount: state.issue.postCount, builderCount: state.issue.builderCount });
   } catch (error) {
     renderFatalError(error);
   }
