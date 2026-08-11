@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f3f3f3">
+  <meta name="theme-color" content="#f4f4f1">
   <meta name="description" content="这一天的高频 Builder 信号集中在设计、商业、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta property="og:type" content="article">
@@ -18,22 +18,18 @@
   <meta name="twitter:description" content="这一天的高频 Builder 信号集中在设计、商业、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。">
   <meta name="twitter:image" content="https://www.buildersdaily.today/assets/social-card.svg">
   <link rel="canonical" href="https://www.buildersdaily.today/daily/2026-06-25/">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/favicon.svg?v=20260811-1" type="image/svg+xml">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/assets/styles.css?v=20260811-1">
+  <link rel="stylesheet" href="/assets/styles.css?v=20260811-6">
   <title>2026-06-25 AI Builder 情报日报 — Builders Daily</title>
   <script type="application/ld+json" id="structuredData">{"@context":"https://schema.org","@type":"NewsArticle","headline":"2026-06-25 AI Builder 情报日报 — Builders Daily","description":"这一天的高频 Builder 信号集中在设计、商业、企业 AI。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。","datePublished":"2026-06-25","dateModified":"2026-06-25","mainEntityOfPage":"https://www.buildersdaily.today/daily/2026-06-25/","author":{"@type":"Organization","name":"Builders Daily"},"publisher":{"@type":"Organization","name":"Builders Daily","url":"https://www.buildersdaily.today"}}</script>
 </head>
 <body data-issue-date="2026-06-25" data-view="latest" data-filter="">
-  <a class="skip-link" href="#main">跳到主要内容</a>
+  <a class="skip-link" href="#spatialCanvas">跳到信息画布</a>
 
-  <div class="reading-progress" aria-hidden="true">
-    <span id="readingProgress"></span>
-  </div>
+  <div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
 
   <header class="site-header">
-    <a class="history-return" href="/" aria-label="返回今天">← 返回今天</a>
-
     <a class="brand" href="/" aria-label="Builders Daily 首页">
       <span class="brand-mark" aria-hidden="true">BD</span>
       <span class="brand-copy">
@@ -42,154 +38,59 @@
       </span>
     </a>
 
-    <nav class="primary-nav" aria-label="主要导航">
-      <a href="/" data-nav="today">今日</a>
-      <a href="/#archive" data-nav="archive">归档</a>
-      <a href="/#builders" data-nav="builders">Builders</a>
+    <nav class="primary-nav" aria-label="空间导航">
+      <a href="/" data-space-link="today">今日</a>
+      <a href="/?space=archive" data-space-link="archive">归档</a>
+      <a href="/?space=builders" data-space-link="builders">Builders</a>
     </nav>
 
+    <div class="header-index" aria-live="polite">
+      <span id="headerMode">TODAY</span>
+      <strong id="headerPosition">01 / 01</strong>
+    </div>
   </header>
 
-  <main id="main">
-    <section class="hero" id="today" aria-labelledby="heroTitle">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <div class="issue-stamp">
-            <span class="live-dot" aria-hidden="true"></span>
-            <time id="issueDate">最新一期</time>
-            <span id="readingTime">约 5 分钟</span>
-          </div>
-          <p class="eyebrow">TODAY'S BUILDER SIGNALS</p>
-          <h1 id="heroTitle"><span>把 AI Builder 圈</span><span>的噪声，</span><em>压成可行动的信号。</em></h1>
-          <p class="hero-deck">跟踪一线 Builder 的真实动态，告诉你发生了什么、为什么重要，以及今天值得试什么。</p>
+  <main class="spatial-main" id="main">
+    <section class="spatial-shell" id="spatialCanvas" aria-labelledby="spaceTitle">
+      <div class="spatial-grid" aria-hidden="true"></div>
+      <div class="spatial-vignette" aria-hidden="true"></div>
+      <img class="spatial-orbit" src="/assets/illustrations/signal-orbit-transparent.png" alt="" aria-hidden="true" width="2118" height="742" decoding="async">
 
-          <div class="hero-actions">
-            <a class="button button-primary" href="#digest" id="startReading">开始阅读</a>
-          </div>
+      <header class="space-intro">
+        <p class="space-kicker" id="spaceKicker">DAILY SIGNAL SPACE</p>
+        <h1 id="spaceTitle">今日</h1>
+        <p class="space-meta" id="spaceMeta">正在载入 Builder 信号…</p>
+      </header>
 
-          <dl class="issue-metrics" aria-label="本期数据">
-            <div><dt id="builderCount">—</dt><dd>位 Builders</dd></div>
-            <div><dt id="postCount">—</dt><dd>条有效动态</dd></div>
-            <div><dt id="topicCount">—</dt><dd>个活跃主题</dd></div>
-          </dl>
-        </div>
-
+      <div class="spatial-stage" id="spatialStage" tabindex="0" aria-label="可拖拽、缩放的信息空间。使用方向键移动，使用加减键缩放。">
+        <div class="spatial-world" id="spatialWorld" role="list" aria-live="polite"></div>
       </div>
-      <div class="hero-tape" aria-hidden="true">
-        <span>PRODUCT</span><span>AGENTS</span><span>DESIGN</span><span>MODELS</span><span>WORKFLOWS</span>
+
+      <div class="spatial-toolbar" aria-label="画布控制">
+        <button type="button" data-canvas-action="zoom-out" aria-label="缩小画布">−</button>
+        <button type="button" data-canvas-action="reset" aria-label="重置视角">◎</button>
+        <button type="button" data-canvas-action="zoom-in" aria-label="放大画布">＋</button>
       </div>
+
+      <div class="spatial-pager" aria-label="内容切换">
+        <button type="button" data-canvas-action="previous" aria-label="上一条">←</button>
+        <p><span id="activeLabel">正在载入</span><strong id="activePosition">01 / 01</strong></p>
+        <button type="button" data-canvas-action="next" aria-label="下一条">→</button>
+      </div>
+
+      <p class="spatial-help"><span>拖动探索</span><span>滚轮缩放</span><span>点击聚焦</span></p>
+      <div class="spatial-status" id="spatialStatus" role="status" aria-live="polite"></div>
     </section>
-
-    <section class="digest-section" id="digest" aria-labelledby="digestTitle">
-      <div class="section-heading digest-heading">
-        <div>
-          <div class="digest-kicker">
-            <p class="eyebrow">DAILY BRIEFING</p>
-            <time class="digest-date" id="digestDate" datetime=""></time>
-          </div>
-          <h2 id="digestTitle">今日</h2>
-        </div>
-        <figure class="editorial-illustration digest-illustration" aria-hidden="true">
-          <img src="/assets/illustrations/signal-orbit-transparent.png" alt="" width="2118" height="742" decoding="async">
-        </figure>
-      </div>
-
-      <div class="story-grid" id="storyGrid" aria-live="polite"></div>
-    </section>
-
-    <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">COMPOUNDING ARCHIVE</p>
-          <h2 id="archiveTitle">不让昨天的信号消失</h2>
-        </div>
-        <p>按日期回看 Builder 圈的变化。每一期都有稳定链接，可以回看和引用。</p>
-      </div>
-      <figure class="editorial-illustration archive-illustration" aria-hidden="true">
-        <img src="/assets/illustrations/archive-mineral-transparent.png" alt="" width="2172" height="724" loading="lazy" decoding="async">
-      </figure>
-      <div class="archive-grid" id="archiveGrid"></div>
-      <button class="text-button" id="loadMoreArchive" type="button">查看更多期刊 ↓</button>
-    </section>
-
-    <section class="builders-section" id="builders" aria-labelledby="buildersTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">BUILDER DIRECTORY</p>
-          <h2 id="buildersTitle">跟踪人，而不只是追逐热点</h2>
-        </div>
-        <figure class="editorial-illustration builders-illustration" aria-hidden="true">
-          <img src="/assets/illustrations/builder-notes-transparent.png" alt="" width="1254" height="1254" loading="lazy" decoding="async">
-        </figure>
-      </div>
-
-      <div class="builder-grid" id="builderGrid"></div>
-      <button class="text-button" id="loadMoreBuilders" type="button">查看完整名单 ↓</button>
-    </section>
-
   </main>
 
-  <footer class="site-footer">
-    <div>
-      <strong>Builders Daily</strong>
-      <span>由红心大狼狗出品 · 感谢张咋啦</span>
-    </div>
-    <nav aria-label="页脚导航">
-      <a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a>
-    </nav>
-  </footer>
-
-  <dialog class="reader-dialog" id="readerDialog" aria-labelledby="readerTitle">
-    <div class="reader-shell">
-      <header class="reader-header">
-        <div>
-          <p class="eyebrow" id="readerTopic">SIGNAL</p>
-          <h2 id="readerTitle">深度阅读</h2>
-          <p id="readerMeta"></p>
-        </div>
-        <button class="icon-button dialog-close" type="button" data-close-dialog aria-label="关闭深度阅读">×</button>
-      </header>
-      <div class="reader-body">
-        <section class="reader-source">
-          <p class="reader-label">原始动态</p>
-          <div id="readerOriginal"></div>
-        </section>
-        <section class="reader-insight">
-          <div class="insight-block insight-lead">
-            <p class="reader-label">一句话结论</p>
-            <p id="readerConclusion"></p>
-          </div>
-          <div class="insight-block">
-            <p class="reader-label">为什么重要</p>
-            <p id="readerWhy"></p>
-          </div>
-        </section>
-      </div>
-      <footer class="reader-footer">
-        <a class="button button-primary" id="readerSource" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>
-      </footer>
-    </div>
-  </dialog>
-
-  <dialog class="collection-dialog" id="collectionDialog" aria-labelledby="collectionDialogTitle" aria-describedby="collectionDialogDescription">
-    <div class="collection-shell">
-      <header class="collection-header">
-        <div>
-          <p class="eyebrow" id="collectionDialogEyebrow">ARCHIVE</p>
-          <h2 id="collectionDialogTitle">全部期刊</h2>
-          <p id="collectionDialogDescription"></p>
-        </div>
-        <button class="icon-button dialog-close" type="button" data-close-dialog aria-label="关闭列表">×</button>
-      </header>
-      <div class="collection-body">
-        <div id="collectionDialogGrid"></div>
-      </div>
-    </div>
-  </dialog>
+  <div class="completion-celebration" id="completionCelebration" role="status" aria-live="polite" hidden>
+    <canvas class="completion-fireworks" id="completionFireworks" aria-hidden="true"></canvas>
+    <div class="completion-message"><span>DAILY COMPLETE</span><strong>今日已读完</strong></div>
+  </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="/assets/config.js?v=20260807-1"></script>
-  <script type="module" src="/assets/app.js?v=20260811-1"></script>
+  <script type="module" src="/assets/app.js?v=20260811-6"></script>
 </body>
 </html>
