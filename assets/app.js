@@ -34,7 +34,9 @@ const state = {
   dragging: null,
   isHome: false,
   contextType: '',
-  resizeFrame: 0
+  resizeFrame: 0,
+  sceneFrame: 0,
+  stageRect: null
 };
 
 const elements = {};
@@ -409,6 +411,8 @@ function cardMarkup(item, index) {
 
 function renderMode(mode, { updateUrl = true } = {}) {
   cancelAnimationFrame(state.cameraAnimation);
+  cancelAnimationFrame(state.sceneFrame);
+  state.sceneFrame = 0;
   clearTimeout(state.readTimer);
   state.mode = mode;
   state.items = itemsForMode(mode);
@@ -482,9 +486,22 @@ function stageCenter(rect) {
   };
 }
 
+function measureStage() {
+  state.stageRect = elements.stage.getBoundingClientRect();
+  return state.stageRect;
+}
+
+function scheduleSceneUpdate() {
+  if (state.sceneFrame) return;
+  state.sceneFrame = requestAnimationFrame(() => {
+    state.sceneFrame = 0;
+    updateScene();
+  });
+}
+
 function updateScene() {
   if (!state.cards.length) return;
-  const rect = elements.stage.getBoundingClientRect();
+  const rect = state.stageRect || measureStage();
   const center = stageCenter(rect);
   const viewRadius = Math.hypot(rect.width, rect.height) * 0.7;
 
@@ -502,11 +519,19 @@ function updateScene() {
     const rotateX = clamp(dy / Math.max(rect.height, 1) * 12, -6, 6);
     const offscreen = Math.abs(dx) > rect.width * 0.95 || Math.abs(dy) > rect.height * 1.05;
 
+    if (offscreen && !active) {
+      if (card.dataset.sceneVisible !== 'false') {
+        card.style.visibility = 'hidden';
+        card.dataset.sceneVisible = 'false';
+      }
+      return;
+    }
+
+    card.dataset.sceneVisible = 'true';
+    card.style.visibility = 'visible';
     card.style.transform = `translate3d(${center.x + dx}px, ${center.y + dy}px, 0) translate(-50%, -50%) scale(${scale}) rotateX(${rotateX}deg) rotateY(${rotateY + position.tilt}deg)`;
     card.style.opacity = String(opacity);
-    card.style.filter = `blur(${active ? 0 : clamp(distance / 1300, 0, 1.4)}px)`;
     card.style.zIndex = String(active ? 1000 : Math.round(100 + scale * 100));
-    card.style.visibility = offscreen && !active ? 'hidden' : 'visible';
   });
 }
 
@@ -514,10 +539,10 @@ function animateCamera(targetX, targetY, targetZoom = state.camera.zoom) {
   cancelAnimationFrame(state.cameraAnimation);
   const start = { ...state.camera };
   const startedAt = performance.now();
-  const duration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 1 : 520;
+  const duration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 1 : 560;
   const draw = (now) => {
     const progress = clamp((now - startedAt) / duration, 0, 1);
-    const eased = 1 - Math.pow(1 - progress, 4);
+    const eased = progress * progress * (3 - 2 * progress);
     state.camera.x = start.x + (targetX - start.x) * eased;
     state.camera.y = start.y + (targetY - start.y) * eased;
     state.camera.zoom = start.zoom + (targetZoom - start.zoom) * eased;
@@ -558,7 +583,7 @@ function nearestItemToCenter() {
 }
 
 function zoomCanvas(delta, clientX, clientY) {
-  const rect = elements.stage.getBoundingClientRect();
+  const rect = state.stageRect || measureStage();
   const center = stageCenter(rect);
   const oldZoom = state.camera.zoom;
   const nextZoom = clamp(oldZoom * delta, 0.34, 1.32);
@@ -569,7 +594,7 @@ function zoomCanvas(delta, clientX, clientY) {
   state.camera.x = worldX - (pointerX - center.x) / nextZoom;
   state.camera.y = worldY - (pointerY - center.y) / nextZoom;
   state.camera.zoom = nextZoom;
-  updateScene();
+  scheduleSceneUpdate();
   elements.status.textContent = `缩放 ${Math.round(nextZoom * 100)}%`;
 }
 
@@ -733,7 +758,7 @@ function bindEvents() {
     if (Math.hypot(dx, dy) > 6) drag.moved = true;
     state.camera.x = drag.cameraX - dx / state.camera.zoom;
     state.camera.y = drag.cameraY - dy / state.camera.zoom;
-    updateScene();
+    scheduleSceneUpdate();
   });
 
   const finishDrag = (event) => {
@@ -763,7 +788,11 @@ function bindEvents() {
 
   window.addEventListener('resize', () => {
     cancelAnimationFrame(state.resizeFrame);
-    state.resizeFrame = requestAnimationFrame(updateScene);
+    state.resizeFrame = requestAnimationFrame(() => {
+      state.stageRect = null;
+      measureStage();
+      updateScene();
+    });
   });
 
   window.addEventListener('popstate', () => {

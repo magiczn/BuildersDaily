@@ -87,6 +87,9 @@ test('spatial canvas provides pan, zoom, focus and sequential navigation', async
   const app = await readFile(new URL('../assets/app.js', import.meta.url), 'utf8');
   assert.match(app, /function buildPositions\(items, mode\)/);
   assert.match(app, /function updateScene\(\)/);
+  assert.match(app, /function scheduleSceneUpdate\(\)/);
+  assert.match(app, /card\.dataset\.sceneVisible/);
+  assert.doesNotMatch(app, /card\.style\.filter/);
   assert.match(app, /function focusItem\(index/);
   assert.match(app, /addEventListener\('pointerdown'/);
   assert.match(app, /addEventListener\('pointermove'/);
@@ -108,6 +111,7 @@ test('spatial design uses fisheye depth and legible central cards', async () => 
   const app = await readFile(new URL('../assets/app.js', import.meta.url), 'utf8');
   assert.match(styles, /\.spatial-stage \{[^}]*perspective: 1100px/s);
   assert.match(styles, /\.space-card \{[^}]*transform-style: preserve-3d/s);
+  assert.match(styles, /\.space-card \{[^}]*will-change: transform, opacity/s);
   assert.match(styles, /\.space-card\.is-active \{[^}]*box-shadow:/s);
   assert.match(app, /const fisheye = 1 \/ \(1 \+ distance \/ 960\)/);
   assert.match(app, /rotateX\(\$\{rotateX\}deg\) rotateY/);

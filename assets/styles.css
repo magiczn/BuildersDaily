@@ -113,8 +113,7 @@ a {
   align-items: center;
   padding: 10px clamp(20px, 3.5vw, 52px);
   border-bottom: 1px solid rgba(21, 21, 19, 0.055);
-  background: rgba(244, 244, 241, 0.86);
-  backdrop-filter: blur(24px) saturate(1.1);
+  background: rgba(244, 244, 241, 0.97);
   font-family: var(--body);
 }
 
@@ -350,7 +349,9 @@ a {
   box-shadow: 0 12px 36px rgba(21, 21, 19, 0.055);
   transform-origin: center;
   transform-style: preserve-3d;
-  will-change: transform, opacity, filter;
+  contain: layout paint style;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
   transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
 }
 
@@ -471,6 +472,14 @@ a {
   -webkit-line-clamp: 3;
 }
 
+.spatial-stage.is-dragging .space-card {
+  box-shadow: none;
+}
+
+.spatial-stage.is-dragging .space-card::after {
+  opacity: 0;
+}
+
 .space-card-action {
   position: relative;
   z-index: 4;
@@ -564,9 +573,8 @@ a {
   padding: 5px;
   border: 1px solid rgba(21, 21, 19, 0.08);
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.94);
   box-shadow: 0 6px 24px rgba(21, 21, 19, 0.045);
-  backdrop-filter: blur(18px);
   transform: translateY(-50%);
 }
 
@@ -601,9 +609,8 @@ a {
   padding: 4px;
   border: 1px solid rgba(21, 21, 19, 0.08);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 8px 28px rgba(21, 21, 19, 0.06);
-  backdrop-filter: blur(20px);
   transform: translateX(-50%);
 }
 
