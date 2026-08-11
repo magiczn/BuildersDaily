@@ -1,40 +1,79 @@
 [
   {
-    "date": "2026-08-10",
-    "builderCount": 19,
-    "postCount": 27,
+    "date": "2026-08-11",
+    "builderCount": 20,
+    "postCount": 31,
     "topTopics": [
       "product",
-      "media",
-      "agent",
       "design",
-      "business"
+      "media",
+      "model",
+      "agent"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2086562291206791482",
-        "text": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：Linear Agent files feature requests for itself. If a user asks it to do something and it doesn’t have the righ...。Peter Yang 的身份接近“Practical AI tutorial…",
-        "handle": "petergyang",
-        "name": "Peter Yang",
+        "id": "2086649479156121960",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：我是从 Mkdirs 认识的 Fox，从那时就看到了一位一直在用心做产品、真诚 Build in Public 的 Builder ，自此 Fox 就成为了我的偶像，没想到能看到 Mkdirs 开源的一天！ 话说我现在提...。Yihui 的身份接近“iOS App：灵感提词器 AI Storyboard：…",
+        "handle": "yihui_indie",
+        "name": "Yihui",
         "topic": "product",
-        "url": "https://x.com/petergyang/status/2086562291206791482"
+        "url": "https://x.com/yihui_indie/status/2086649479156121960"
       },
       {
-        "id": "2086508841815154846",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：这就是build in public真正的复利效应吧，从做烂产品到让生活变好，中间最关键的变量，我理解就是坚持把自己的思考和实践的真实过程公开，并愿意为真实的人连接付出行动。 左边是 @damonchen ，前Cisco...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
-        "handle": "AYi_AInotes",
-        "name": "AYi",
-        "topic": "product",
-        "url": "https://x.com/AYi_AInotes/status/2086508841815154846"
-      },
-      {
-        "id": "2086520950259118464",
-        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Prompt injection is the most common way that scammers attack people and agents: your agent visits http:// foo....。Boris Cherny 的身份接近“Claude Code @an…",
-        "handle": "bcherny",
-        "name": "Boris Cherny",
+        "id": "2086891169217122586",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：We're making Claude Sonnet 5's introductory pricing permanent. We launched Sonnet 5 in June at $2 per million...。Claude 的身份接近“Claude is an AI assistant bu…",
+        "handle": "claudeai",
+        "name": "Claude",
         "topic": "model",
-        "url": "https://x.com/bcherny/status/2086520950259118464"
+        "url": "https://x.com/claudeai/status/2086891169217122586"
+      },
+      {
+        "id": "2086936798710923603",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：We love to test new ideas, get quick feedback from you, and learn. With this, we've gathered so many great ins...。Google Labs 的身份接近“Google’s home for our …",
+        "handle": "GoogleLabs",
+        "name": "Google Labs",
+        "topic": "product",
+        "url": "https://x.com/GoogleLabs/status/2086936798710923603"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "builderCount": 22,
+    "postCount": 49,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "other"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2086649479156121960",
+        "text": "我是从 Mkdirs 认识的 Fox，从那时就看到了一位一直在用心做产品、真诚 Build in Public 的 Builder ，自此 Fox 就成为了我的偶像，没想到能看到 Mkdirs 开源的一天！ 话说我现在提交很多付费导航站的时候，有些优秀的导航站我能一眼看出是 Mkdirs 开发的。不得不说，Fox 的 Mkdirs 是24年很多中推圈开发者…",
+        "handle": "yihui_indie",
+        "name": "Yihui",
+        "topic": "product",
+        "url": "https://x.com/yihui_indie/status/2086649479156121960"
+      },
+      {
+        "id": "2086615082163941460",
+        "text": "My favorite way to work on things: Start from the bug, the gap, the false claim, the half-built tool, the weird behavior in the institution. Then, ask what hidden machinery would …",
+        "handle": "garrytan",
+        "name": "Garry Tan",
+        "topic": "design",
+        "url": "https://x.com/garrytan/status/2086615082163941460"
+      },
+      {
+        "id": "2086510610435752444",
+        "text": "我不觉得在重新定义工作的时候 FDE 是真正重要的角色，这就像支付宝在推出快捷支付的时候，没人会认为去银行的驻场工程师是重新定义银行支付这个变化中重要的角色一样。快捷支付成为可能是因为计算能力增强的前提下，成本大幅降低。在这些变化里，总有人去做脏活累活然后挣到实打实的收入，但是相信我，他们绝非重要的角色。我们值得把所有工作重新发明一遍，就像当年的汽车制造公…",
+        "handle": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "topic": "product",
+        "url": "https://x.com/turingou/status/2086510610435752444"
       }
     ]
   },
