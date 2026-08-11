@@ -89,6 +89,7 @@ test('spatial canvas provides pan, zoom, focus and sequential navigation', async
   assert.match(app, /function updateScene\(\)/);
   assert.match(app, /function scheduleSceneUpdate\(\)/);
   assert.match(app, /card\.dataset\.sceneVisible/);
+  assert.match(app, /state\.renderedActiveIndex = state\.activeIndex/);
   assert.doesNotMatch(app, /card\.style\.filter/);
   assert.match(app, /function focusItem\(index/);
   assert.match(app, /addEventListener\('pointerdown'/);

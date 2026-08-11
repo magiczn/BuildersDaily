@@ -26,6 +26,7 @@ const state = {
   positions: [],
   cards: [],
   activeIndex: 0,
+  renderedActiveIndex: -1,
   camera: { x: 0, y: 0, zoom: 0.82 },
   cameraAnimation: 0,
   observedPosts: new Set(),
@@ -418,6 +419,7 @@ function renderMode(mode, { updateUrl = true } = {}) {
   state.items = itemsForMode(mode);
   state.positions = buildPositions(state.items, mode);
   state.activeIndex = 0;
+  state.renderedActiveIndex = -1;
   state.camera = { x: state.positions[0]?.x || 0, y: state.positions[0]?.y || 0, zoom: defaultZoom() };
   elements.world.innerHTML = state.items.map(cardMarkup).join('');
   state.cards = $$('.space-card', elements.world);
@@ -472,11 +474,17 @@ function updateActiveUI() {
   elements.activePosition.textContent = position;
   elements.headerPosition.textContent = position;
   elements.progress.style.width = state.items.length ? `${((state.activeIndex + 1) / state.items.length) * 100}%` : '0';
-  state.cards.forEach((card, index) => {
-    const active = index === state.activeIndex;
-    card.classList.toggle('is-active', active);
-    card.setAttribute('aria-current', active ? 'true' : 'false');
-  });
+  const previousCard = state.cards[state.renderedActiveIndex];
+  const activeCard = state.cards[state.activeIndex];
+  if (previousCard && previousCard !== activeCard) {
+    previousCard.classList.remove('is-active');
+    previousCard.setAttribute('aria-current', 'false');
+  }
+  if (activeCard) {
+    activeCard.classList.add('is-active');
+    activeCard.setAttribute('aria-current', 'true');
+  }
+  state.renderedActiveIndex = state.activeIndex;
 }
 
 function stageCenter(rect) {
@@ -527,8 +535,10 @@ function updateScene() {
       return;
     }
 
-    card.dataset.sceneVisible = 'true';
-    card.style.visibility = 'visible';
+    if (card.dataset.sceneVisible !== 'true') {
+      card.dataset.sceneVisible = 'true';
+      card.style.visibility = 'visible';
+    }
     card.style.transform = `translate3d(${center.x + dx}px, ${center.y + dy}px, 0) translate(-50%, -50%) scale(${scale}) rotateX(${rotateX}deg) rotateY(${rotateY + position.tilt}deg)`;
     card.style.opacity = String(opacity);
     card.style.zIndex = String(active ? 1000 : Math.round(100 + scale * 100));
