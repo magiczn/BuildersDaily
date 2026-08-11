@@ -116,9 +116,13 @@ test('live cards and Builder directory avoid redundant prompts and controls', as
 
 test('homepage versions mutable assets to prevent stale DOM and script pairings', async () => {
   const template = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  const favicon = await readFile(new URL('../assets/favicon.svg', import.meta.url), 'utf8');
   assert.match(template, /assets\/styles\.css\?v=\d{8}-\d+/);
   assert.match(template, /assets\/config\.js\?v=\d{8}-\d+/);
   assert.match(template, /assets\/app\.js\?v=\d{8}-\d+/);
+  assert.match(template, /assets\/favicon\.svg\?v=\d{8}-\d+/);
+  assert.match(favicon, /<circle[^>]*fill="#d71920"/);
+  assert.match(favicon, /text-anchor="middle"[^>]*>BD<\/text>/);
 });
 
 test('today heading renders the current issue date from issue data', async () => {
@@ -137,7 +141,7 @@ test('today cards use one readable column with a controlled editorial hierarchy'
   assert.doesNotMatch(styles, /\.today-view \.story-grid \{[^}]*repeat\(2,/s);
   assert.match(styles, /\.today-view \.story-grid\.compact \.story-card-top \{[^}]*grid-template-columns: 34px minmax\(0, 1fr\) 18px/s);
   assert.match(styles, /\.today-view \.digest-heading h2 \{[^}]*font-size: clamp\(38px, 3\.8vw, 54px\)[^}]*font-weight: 300/s);
-  assert.match(styles, /\.today-view \.story-grid\.compact \.story-copy \{[^}]*max-width: 760px[^}]*margin-left: 50px[^}]*font-family: var\(--ui\)[^}]*font-size: clamp\(16px, 1\.45vw, 17\.5px\)[^}]*font-weight: 350[^}]*line-height: 1\.82/s);
+  assert.match(styles, /\.today-view \.story-grid\.compact \.story-copy \{[^}]*max-width: 760px[^}]*margin-left: 50px[^}]*color: #292927[^}]*font-family: var\(--ui\)[^}]*font-size: clamp\(16px, 1\.45vw, 17\.5px\)[^}]*font-weight: 400[^}]*line-height: 1\.82/s);
   assert.match(styles, /\.archive-card \{[^}]*border-radius: 14px/s);
   assert.match(styles, /\.builder-card \{[^}]*border-radius: 14px/s);
   assert.match(styles, /\.reader-dialog \{[^}]*border-radius: 18px/s);

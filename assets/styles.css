@@ -9,7 +9,7 @@
   --wash-strong: #e2e2df;
   --display: "Iowan Old Style", "Baskerville", "Songti SC", "STSong", serif;
   --body: "Iowan Old Style", "Baskerville", "Songti SC", "STSong", serif;
-  --ui: "Avenir Next", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --ui: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
   --mono: "SFMono-Regular", "Menlo", "Monaco", monospace;
   --reading: 760px;
   --max: 1040px;
@@ -892,10 +892,10 @@ body[data-view="latest"][data-issue-date=""] .hero-copy {
   max-width: 760px;
   margin-left: 50px;
   overflow: hidden;
-  color: var(--text);
+  color: #292927;
   font-family: var(--ui);
   font-size: clamp(16px, 1.45vw, 17.5px);
-  font-weight: 350;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: 1.82;
   text-wrap: pretty;
@@ -1572,7 +1572,7 @@ dialog::backdrop {
     max-width: none;
     margin-left: 36px;
     font-size: 16px;
-    font-weight: 350;
+    font-weight: 400;
     line-height: 1.78;
     -webkit-line-clamp: 8;
   }
