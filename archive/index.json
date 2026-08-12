@@ -1,16 +1,16 @@
 [
   {
     "date": "2026-08-12",
-    "builderCount": 11,
-    "postCount": 15,
+    "builderCount": 6,
+    "postCount": 10,
     "topTopics": [
       "product",
-      "agent",
-      "media",
+      "model",
       "design",
-      "model"
+      "business",
+      "media"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
         "id": "2087390767757271476",
@@ -29,12 +29,12 @@
         "url": "https://x.com/bcherny/status/2087284684103537011"
       },
       {
-        "id": "2087058431475904575",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：学到了。模型确实会内化Harness的能力，但是Harness的能力也在不断扩展，能让模型完成越来越复杂的任务。于是左脚踩右脚，螺旋升天。 你可能没理解 harness 实际上是什么 如果只是说那点 system pro...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连…",
-        "handle": "Gorden_Sun",
-        "name": "Gorden Sun",
-        "topic": "model",
-        "url": "https://x.com/Gorden_Sun/status/2087058431475904575"
+        "id": "2087201341114372441",
+        "text": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：Founders today are tackling bolder ideas. Space launch, grid infrastructure, semiconductors, nuclear power. Sp...。Aditya Agarwal 的身份接近“General Part…",
+        "handle": "adityaag",
+        "name": "Aditya Agarwal",
+        "topic": "infrastructure",
+        "url": "https://x.com/adityaag/status/2087201341114372441"
       }
     ]
   },
