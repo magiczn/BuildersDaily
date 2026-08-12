@@ -1,40 +1,79 @@
 [
   {
-    "date": "2026-08-11",
-    "builderCount": 23,
-    "postCount": 36,
+    "date": "2026-08-12",
+    "builderCount": 11,
+    "postCount": 15,
     "topTopics": [
       "product",
+      "agent",
       "media",
-      "model",
       "design",
-      "agent"
+      "model"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2087009941806797206",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：If you told someone 3 months ago that a model released by a US company with frontier-class capability would be...。Aaron Levie 的身份接近“ceo @box - your busine…",
-        "handle": "levie",
-        "name": "Aaron Levie",
+        "id": "2087390767757271476",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Fabulous work. The researchers reconstructed 315,320 reasoning blocks. But for agent builders, the deeper warn...。Elliot 艾略特 的身份接近“Building EverOS/R…",
+        "handle": "elliotchen100",
+        "name": "Elliot 艾略特",
         "topic": "agent",
-        "url": "https://x.com/levie/status/2087009941806797206"
+        "url": "https://x.com/elliotchen100/status/2087390767757271476"
       },
       {
-        "id": "2086891169217122586",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：We're making Claude Sonnet 5's introductory pricing permanent. We launched Sonnet 5 in June at $2 per million...。Claude 的身份接近“Claude is an AI assistant bu…",
-        "handle": "claudeai",
-        "name": "Claude",
+        "id": "2087284684103537011",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：LLMs still produce bugs, but those bugs are different than what they used to be. It’s less off-by-ones and mor...。Boris Cherny 的身份接近“Claude Code @anthropi…",
+        "handle": "bcherny",
+        "name": "Boris Cherny",
+        "topic": "product",
+        "url": "https://x.com/bcherny/status/2087284684103537011"
+      },
+      {
+        "id": "2087058431475904575",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：学到了。模型确实会内化Harness的能力，但是Harness的能力也在不断扩展，能让模型完成越来越复杂的任务。于是左脚踩右脚，螺旋升天。 你可能没理解 harness 实际上是什么 如果只是说那点 system pro...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
         "topic": "model",
-        "url": "https://x.com/claudeai/status/2086891169217122586"
+        "url": "https://x.com/Gorden_Sun/status/2087058431475904575"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "builderCount": 24,
+    "postCount": 76,
+    "topTopics": [
+      "design",
+      "model",
+      "business",
+      "agent",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2087006715824820245",
+        "text": "前些天和姚老师讨论，应该写一个专业的GEO Skill。 我们发现，只有足够的专业和判断，才能写出真正好用的行业 Skill。 姚老师把这两年的GEO研究和实战写成了一个Skill。 持续迭代优化，必将成为GEO领域最专业的Skill。 开源一个GEO超级Skill：GEOHub 这个Skill，把GEO研究、诊断和内容生产等能力，放进同一套能力注册表，并…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2087006715824820245"
       },
       {
-        "id": "2086882606638153882",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Big Data era: \"our data science models work great, the problem is the underlying data\" Modern data stack era:...。Matt Turck 的身份接近“VC at @FirstMarkCap . Ho…",
-        "handle": "mattturck",
-        "name": "Matt Turck",
-        "topic": "agent",
-        "url": "https://x.com/mattturck/status/2086882606638153882"
+        "id": "2087017825890185319",
+        "text": "昨晚凌晨开源的基于人大聂辉华教授的《基层中国的运行逻辑》做成的 skill，早上醒来很多人收藏了， 但估计很多人还不知道装完第一件事该干什么， 我从最痛、也最容易被分数线带歪的场景讲起：求学。 高考志愿、跨城读书、读研落脚， 90% 的家庭只比三样：学校牌子、专业热度、录取分。 这三样都重要，但它们解释不了另一半现实： 为什么同样一本线，有人去了副省级城市…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2087017825890185319"
+      },
+      {
+        "id": "2087000738035621896",
+        "text": "holy shit，人类数学家花了 37 年，把这个数从 40% 推到 41.6%，Claude 用了 1.5 天，就推到了 67.2%，这是黎曼假设关键部分结果的历史最大单步跃升。 @AnthropicAI 的未发布研究版 Claude，60 个 subagent，3100 万 token，2400 条 shell 命令，650 个失败想法之后，找到了一…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2087000738035621896"
       }
     ]
   },
