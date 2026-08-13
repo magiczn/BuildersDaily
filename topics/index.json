@@ -3,14 +3,14 @@
     "key": "design",
     "slug": "design",
     "label": "设计",
-    "signalCount": 3797,
+    "signalCount": 3800,
     "summary": "汇总 Builder 讨论中与「设计」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "business",
     "slug": "business",
     "label": "商业",
-    "signalCount": 2417,
+    "signalCount": 2419,
     "summary": "汇总 Builder 讨论中与「商业」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
@@ -24,14 +24,14 @@
     "key": "agent",
     "slug": "agent",
     "label": "Agents",
-    "signalCount": 2017,
+    "signalCount": 2019,
     "summary": "汇总 Builder 讨论中与「Agents」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "product",
     "slug": "product",
     "label": "产品",
-    "signalCount": 1999,
+    "signalCount": 2005,
     "summary": "汇总 Builder 讨论中与「产品」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
@@ -45,7 +45,7 @@
     "key": "media",
     "slug": "media",
     "label": "内容与媒体",
-    "signalCount": 1261,
+    "signalCount": 1263,
     "summary": "汇总 Builder 讨论中与「内容与媒体」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
@@ -59,7 +59,7 @@
     "key": "infrastructure",
     "slug": "infrastructure",
     "label": "基础设施",
-    "signalCount": 461,
+    "signalCount": 460,
     "summary": "汇总 Builder 讨论中与「基础设施」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   }
 ]
