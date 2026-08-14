@@ -1,40 +1,79 @@
 [
   {
-    "date": "2026-08-13",
-    "builderCount": 16,
-    "postCount": 27,
+    "date": "2026-08-14",
+    "builderCount": 12,
+    "postCount": 18,
     "topTopics": [
       "product",
-      "media",
       "model",
+      "media",
       "design",
       "agent"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2087625178293604438",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：We are gonna be markdown skill-maxxing from here Thank you @illscience for a fun conversation Garry Tan on YC,...。Garry Tan 的身份接近“President & CEO @ycombin…",
-        "handle": "garrytan",
-        "name": "Garry Tan",
+        "id": "2088014489438621990",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of ou...。Boris Cherny 的身份接近“Claude Code @an…",
+        "handle": "bcherny",
+        "name": "Boris Cherny",
         "topic": "product",
-        "url": "https://x.com/garrytan/status/2087625178293604438"
+        "url": "https://x.com/bcherny/status/2088014489438621990"
       },
       {
-        "id": "2087664045797294212",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：Still maintain that @TheEthanDing is a mad mad genius.. this latest post is a good reminder after 4 years of r...。Nikunj Kothari 的身份接近“partner @fpvventure…",
+        "id": "2088029329624371544",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：“Matic” was one of the first ten words my son learned.. and he treats it as the fifth member of the family. Us...。Nikunj Kothari 的身份接近“partner @fpvventure…",
         "handle": "nikunj",
         "name": "Nikunj Kothari",
         "topic": "product",
-        "url": "https://x.com/nikunj/status/2087664045797294212"
+        "url": "https://x.com/nikunj/status/2088029329624371544"
       },
       {
-        "id": "2087602469778166195",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Try out Grok @Bot Grok Bot was able to a) go through the calendars and find out anything I need to make reserv...。Elon Musk 的身份接近“http://Terafab.AI”，所以这条内…",
-        "handle": "elonmusk",
-        "name": "Elon Musk",
-        "topic": "media",
-        "url": "https://x.com/elonmusk/status/2087602469778166195"
+        "id": "2087995350745244083",
+        "text": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：Averaging 2 applications per minute from: Citadel OpenAI Red Bull Microsoft Profound Alpha School NASDAQ Googl...。Dan Shipper 的身份接近“ceo @every | the onl…",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "product",
+        "url": "https://x.com/danshipper/status/2087995350745244083"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "builderCount": 16,
+    "postCount": 58,
+    "topTopics": [
+      "model",
+      "design",
+      "business",
+      "other",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、设计、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2087768881020444712",
+        "text": "跟大家分享下怎么挖掘AI产品 需求，尤其是挖付费痛点的一个思路，重点关注这4类就行： 买过多个工具没解决的、雇过人买过服务的、每周花大量人工的、反复换工具的。 这样筛出来的方向至少有人已经愿意付钱，不用从零教育市场。 然后 @cnyzgkc 这个自媒体找选题的思路很赞，感觉以后做AI内容的不用天天刷 Reddit 和X找选题了， 给一个美国号码+1 (65…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2087768881020444712"
+      },
+      {
+        "id": "2087582937395147196",
+        "text": "SpaceX AI 发布了 Grok 4.6 模型，然后价格还行，每百万输入输出分别为 2 和 6 美元。 当然，如果你有 Twitter 的 Premium+的会员的话，依然可以通过 Grok Build 授权来白嫖。 Introducing Grok 4.6. It delivers frontier intelligence and is a sig…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2087582937395147196"
+      },
+      {
+        "id": "2087572377710600603",
+        "text": "完整benchmark图来了，看起来是比Opus4.8略强，比Fable5弱一些，考虑价格的话，依然可以说是性价比拉满 DeepSeek V4 Pro正式版发布！ DeepSeek刚刚悄无声息的更新了V4 Pro的版本号，看起来是明天会有正式的发布信息。 以我自己最近使用DeepSeek V4 flash的体感来说，那是个又快能力又基本接近Opus 4.8…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "model",
+        "url": "https://x.com/AlchainHust/status/2087572377710600603"
       }
     ]
   },
