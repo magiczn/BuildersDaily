@@ -1,16 +1,16 @@
 [
   {
     "date": "2026-08-15",
-    "builderCount": 18,
-    "postCount": 29,
+    "builderCount": 16,
+    "postCount": 23,
     "topTopics": [
       "product",
       "media",
       "model",
       "design",
-      "agent"
+      "business"
     ],
-    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
         "id": "2088326336012075060",
@@ -33,7 +33,7 @@
         "text": "这条更像模型能力或产品路线的公开信号，原文重点是：I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model c...。Peter Yang 的身份接近“Practical AI tutorials …",
         "handle": "petergyang",
         "name": "Peter Yang",
-        "topic": "model",
+        "topic": "product",
         "url": "https://x.com/petergyang/status/2088261100202868768"
       }
     ]
