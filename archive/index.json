@@ -1,32 +1,24 @@
 [
   {
     "date": "2026-08-15",
-    "builderCount": 16,
-    "postCount": 23,
+    "builderCount": 20,
+    "postCount": 33,
     "topTopics": [
       "product",
       "media",
-      "model",
       "design",
+      "model",
       "business"
     ],
-    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度，界面和工作流层面的重组开始变多，产品形态本身在松动。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2088326336012075060",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Xiaohongshu (RedNote)—often called China's Facebook, with 350 million users and over a decade of lifestyle not...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
+        "id": "2088523159406280815",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok Prompt： Prompt： 主要角色：年轻东亚女性，二十岁出头，精致清冷的五官，肤白如玉，黑色长发渐变银白垂落至腰际，头顶戴着白色毛绒狐耳（内侧淡粉色），额间佩戴金色流苏额饰。身穿白色挂脖蕾丝薄纱长裙，深V...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
         "handle": "AYi_AInotes",
         "name": "AYi",
         "topic": "product",
-        "url": "https://x.com/AYi_AInotes/status/2088326336012075060"
-      },
-      {
-        "id": "2088290208911675761",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for...。Aditya Agarwal 的身份接近“General Partner @SPC…",
-        "handle": "adityaag",
-        "name": "Aditya Agarwal",
-        "topic": "product",
-        "url": "https://x.com/adityaag/status/2088290208911675761"
+        "url": "https://x.com/AYi_AInotes/status/2088523159406280815"
       },
       {
         "id": "2088261100202868768",
@@ -35,6 +27,14 @@
         "name": "Peter Yang",
         "topic": "product",
         "url": "https://x.com/petergyang/status/2088261100202868768"
+      },
+      {
+        "id": "2088290208911675761",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for...。Aditya Agarwal 的身份接近“General Partner @SPC…",
+        "handle": "adityaag",
+        "name": "Aditya Agarwal",
+        "topic": "product",
+        "url": "https://x.com/adityaag/status/2088290208911675761"
       }
     ]
   },
