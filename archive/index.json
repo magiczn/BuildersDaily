@@ -1,40 +1,79 @@
 [
   {
-    "date": "2026-08-14",
-    "builderCount": 16,
-    "postCount": 26,
+    "date": "2026-08-15",
+    "builderCount": 18,
+    "postCount": 29,
     "topTopics": [
       "product",
-      "model",
       "media",
+      "model",
       "design",
       "agent"
     ],
     "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，支付、集成、部署和浏览器运行时这些底层摩擦，正在重新决定交付速度。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2088014489438621990",
-        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of ou...。Boris Cherny 的身份接近“Claude Code @an…",
-        "handle": "bcherny",
-        "name": "Boris Cherny",
+        "id": "2088326336012075060",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Xiaohongshu (RedNote)—often called China's Facebook, with 350 million users and over a decade of lifestyle not...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
         "topic": "product",
-        "url": "https://x.com/bcherny/status/2088014489438621990"
+        "url": "https://x.com/AYi_AInotes/status/2088326336012075060"
       },
       {
-        "id": "2088029329624371544",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：“Matic” was one of the first ten words my son learned.. and he treats it as the fifth member of the family. Us...。Nikunj Kothari 的身份接近“partner @fpvventure…",
-        "handle": "nikunj",
-        "name": "Nikunj Kothari",
+        "id": "2088290208911675761",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for...。Aditya Agarwal 的身份接近“General Partner @SPC…",
+        "handle": "adityaag",
+        "name": "Aditya Agarwal",
         "topic": "product",
-        "url": "https://x.com/nikunj/status/2088029329624371544"
+        "url": "https://x.com/adityaag/status/2088290208911675761"
       },
       {
-        "id": "2087995350745244083",
-        "text": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：Averaging 2 applications per minute from: Citadel OpenAI Red Bull Microsoft Profound Alpha School NASDAQ Googl...。Dan Shipper 的身份接近“ceo @every | the onl…",
-        "handle": "danshipper",
-        "name": "Dan Shipper",
-        "topic": "product",
-        "url": "https://x.com/danshipper/status/2087995350745244083"
+        "id": "2088261100202868768",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model c...。Peter Yang 的身份接近“Practical AI tutorials …",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "model",
+        "url": "https://x.com/petergyang/status/2088261100202868768"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "builderCount": 16,
+    "postCount": 51,
+    "topTopics": [
+      "model",
+      "product",
+      "agent",
+      "design",
+      "business"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在模型、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2088093117840794029",
+        "text": "卧槽，这个真的必须得卧槽一下， 你们敢信，老马把算法权重都给开源了！！！ 这是xai-org/x-algorithm里最重要最精华的部分， 掌握这个就是掌握了x增长的焚决秘籍！！ 这就是传说中的几乎所有x用户都应该听说过的大名鼎鼎的Phoenix（Grok-based transformer）排序模型， 用来合成最终分数的具体权重， 就这么直接给开源了，d…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2088093117840794029"
+      },
+      {
+        "id": "2088139817003466915",
+        "text": "又热闹了！GLM-5.3居然比5.2强了这么多 Introducing GLM-5.3: Built to Code. Ready for Cyber Defense. - Top-tier coding and agentic capabilities, achieved through post-training on the 743B base mo…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "agent",
+        "url": "https://x.com/AlchainHust/status/2088139817003466915"
+      },
+      {
+        "id": "2088107805630697956",
+        "text": "写这个橙皮书的过程，累计调用73个子agent，操作了3146次工具调用，并消耗了1390万tokens。还没包括主agent自己的操作～ 是的，《DeepSeek Harness橙皮书》，总共120页，免费！开源！ https:// github.com/alchaincyf/dee pseek-harness-orange-book … 这么短时间内能…",
+        "handle": "AlchainHust",
+        "name": "花叔",
+        "topic": "agent",
+        "url": "https://x.com/AlchainHust/status/2088107805630697956"
       }
     ]
   },
