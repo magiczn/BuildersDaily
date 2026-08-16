@@ -1,40 +1,79 @@
 [
   {
-    "date": "2026-08-15",
-    "builderCount": 20,
-    "postCount": 33,
+    "date": "2026-08-16",
+    "builderCount": 17,
+    "postCount": 25,
     "topTopics": [
       "product",
       "media",
-      "design",
+      "agent",
       "model",
       "business"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2088523159406280815",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok Prompt： Prompt： 主要角色：年轻东亚女性，二十岁出头，精致清冷的五官，肤白如玉，黑色长发渐变银白垂落至腰际，头顶戴着白色毛绒狐耳（内侧淡粉色），额间佩戴金色流苏额饰。身穿白色挂脖蕾丝薄纱长裙，深V...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
-        "handle": "AYi_AInotes",
-        "name": "AYi",
-        "topic": "product",
-        "url": "https://x.com/AYi_AInotes/status/2088523159406280815"
-      },
-      {
-        "id": "2088261100202868768",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model c...。Peter Yang 的身份接近“Practical AI tutorials …",
+        "id": "2088772605323214999",
+        "text": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：I 100% agree with Dario that using AI to cure diseases (and speeding up the regulatory approval of AI breakthr...。Peter Yang 的身份接近“Practical AI tutorial…",
         "handle": "petergyang",
         "name": "Peter Yang",
         "topic": "product",
-        "url": "https://x.com/petergyang/status/2088261100202868768"
+        "url": "https://x.com/petergyang/status/2088772605323214999"
       },
       {
-        "id": "2088290208911675761",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for...。Aditya Agarwal 的身份接近“General Partner @SPC…",
-        "handle": "adityaag",
-        "name": "Aditya Agarwal",
+        "id": "2088518617344467156",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：推特算法昨天开源的算法又迎来了一波更新。分析了一下，主要是需要做了这三个调整： 普通视频新增了 14 天的 SID 语义召回窗口： 所以长期的高质量视频有可能会获得二次分发机会。 关注与双向关系进入了推荐模型： 模型能识...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 …",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2088518617344467156"
+      },
+      {
+        "id": "2088531459552559466",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：今天文君在大理，一起约在洱海边的时光咖啡聊天。挺有感触的几个收获： 1、Agent 类似网站，OpenClaw 是第一种被大众感知的建站技术。虾是个人网站。Yahoo、Google、Facebook 等大型网站还没出现。...。Frank Wang 玉伯 的身份接近“I am curious and hon…",
+        "handle": "lifesinger",
+        "name": "Frank Wang 玉伯",
         "topic": "product",
-        "url": "https://x.com/adityaag/status/2088290208911675761"
+        "url": "https://x.com/lifesinger/status/2088531459552559466"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "builderCount": 20,
+    "postCount": 62,
+    "topTopics": [
+      "design",
+      "business",
+      "model",
+      "product",
+      "media"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2088523133472960583",
+        "text": "我这套用Fable 5 打磨的AI生图焚决的含金量还在上升，直接看片吧， 以下是用 @grok 生成的， 原图和所有提示词我全部开源， 你们可以拿去跟seedance对比一下 跟大家分享下绝版的Claude Fable 5总结的AI生图焚决，+2个顶级美女人像提示词，这篇至少值3000块！ 昨晚睡前让Fable 5总结了AI生图之性感人像提示词最有效的写法…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "business",
+        "url": "https://x.com/AYi_AInotes/status/2088523133472960583"
+      },
+      {
+        "id": "2088531459552559466",
+        "text": "今天文君在大理，一起约在洱海边的时光咖啡聊天。挺有感触的几个收获： 1、Agent 类似网站，OpenClaw 是第一种被大众感知的建站技术。虾是个人网站。Yahoo、Google、Facebook 等大型网站还没出现。网站 -〉移动应用 -〉Agent，是技术也是产品路线。一切才刚开始。 2、Agent 创业者最重要的两大能力是：能不断找到目标用户的能力…",
+        "handle": "lifesinger",
+        "name": "Frank Wang 玉伯",
+        "topic": "product",
+        "url": "https://x.com/lifesinger/status/2088531459552559466"
+      },
+      {
+        "id": "2088518617344467156",
+        "text": "推特算法昨天开源的算法又迎来了一波更新。分析了一下，主要是需要做了这三个调整： 普通视频新增了 14 天的 SID 语义召回窗口： 所以长期的高质量视频有可能会获得二次分发机会。 关注与双向关系进入了推荐模型： 模型能识别真实关注和双向关系，所以稳定回访的话可能会获得一些加权。 回复排序分界从 1.5 万粉丝升级到 3 万粉丝： 如果跟帖作者和回复上一层的…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2088518617344467156"
       }
     ]
   },
