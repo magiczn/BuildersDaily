@@ -1,25 +1,17 @@
 [
   {
     "date": "2026-08-17",
-    "builderCount": 18,
-    "postCount": 29,
+    "builderCount": 12,
+    "postCount": 20,
     "topTopics": [
       "product",
-      "media",
       "design",
+      "media",
       "model",
-      "agent"
+      "business"
     ],
     "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
-      {
-        "id": "2088995821056659901",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric com...。Aaron Levie 的身份接近“ceo @box - your busine…",
-        "handle": "levie",
-        "name": "Aaron Levie",
-        "topic": "product",
-        "url": "https://x.com/levie/status/2088995821056659901"
-      },
       {
         "id": "2089027381474525487",
         "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok订阅，SuperGrok Heavy，原价是300美元/月，现在有活动是99美元/月，同时赠送200美元档位的Cursor Ultra。有想用Cursor的可以用这个方法。 Grok是只能用Grok自家模型，Cu...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连…",
@@ -35,6 +27,14 @@
         "name": "AYi",
         "topic": "model",
         "url": "https://x.com/AYi_AInotes/status/2089199996159598689"
+      },
+      {
+        "id": "2089069905375351169",
+        "text": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：18x improvement in intelligence per joule in 16 months. hard agree with @amasad —@JonSaadFalcon and my researc...。Amjad Masad 的身份接近“ceo @replit . c…",
+        "handle": "amasad",
+        "name": "Amjad Masad",
+        "topic": "product",
+        "url": "https://x.com/amasad/status/2089069905375351169"
       }
     ]
   },

@@ -1,19 +1,19 @@
 {
   "date": "2026-08-17",
-  "builderCount": 18,
-  "postCount": 29,
+  "builderCount": 12,
+  "postCount": 20,
   "topTopics": [
     "product",
-    "media",
     "design",
+    "media",
     "model",
-    "agent"
+    "business"
   ],
   "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
   "highlights": [
-    "2088995821056659901",
     "2089027381474525487",
-    "2089199996159598689"
+    "2089199996159598689",
+    "2089069905375351169"
   ],
   "posts": [
     {
@@ -351,26 +351,6 @@
       "primaryTopic": "product"
     },
     {
-      "id": "2088978519594352875",
-      "date": "2026-08-17",
-      "name": "Nan Yu",
-      "handle": "thenanyu",
-      "role": "product enthusiast",
-      "avatar": "NY",
-      "summary": "History rhymes\nhttps://\nyoutu.be/PKF9GOE2q38?is\n=cEaXtBDYh6scTPmt\n…\nOn tokens and prices per token.\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and",
-      "summaryEn": "History rhymes\nhttps://\nyoutu.be/PKF9GOE2q38?is\n=cEaXtBDYh6scTPmt\n…\nOn tokens and prices per token.\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and",
-      "analysis": "这条更像模型能力或产品路线的公开信号，原文重点是：History rhymes https:// youtu.be/PKF9GOE2q38?is =cEaXtBDYh6scTPmt … On tokens and prices per token. I said I’d...。Nan Yu 的身份接近“product enthusiast”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这更像模型路线信号，重点不在这次功能本身，而在后续资源和能力会往哪里倾斜。模型团队每次公开表态，其实都在提前给生态做预告。",
-      "url": "https://x.com/thenanyu/status/2088978519594352875",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "product",
-        "model",
-        "media"
-      ],
-      "primaryTopic": "product"
-    },
-    {
       "id": "2089127868903375257",
       "date": "2026-08-17",
       "name": "Dan Shipper",
@@ -462,24 +442,6 @@
       "primaryTopic": "product"
     },
     {
-      "id": "2088868466279502118",
-      "date": "2026-08-17",
-      "name": "Amjad Masad",
-      "handle": "amasad",
-      "role": "ceo @replit . civilizationist",
-      "avatar": "AM",
-      "summary": "Saying things like might be fun but is a huge self-own. It’s almost like Tech is actively trying to scare people from AI and invite distrust.",
-      "summaryEn": "Saying things like might be fun but is a huge self-own. It’s almost like Tech is actively trying to scare people from AI and invite distrust.",
-      "analysis": "这条动态最直接的信息是：Saying things like might be fun but is a huge self-own. It’s almost like Tech is actively trying to scare peop...。Amjad Masad 的身份接近“ceo @replit . civilizationist”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
-      "url": "https://x.com/amasad/status/2088868466279502118",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "media"
-      ],
-      "primaryTopic": "media"
-    },
-    {
       "id": "2089012934953599263",
       "date": "2026-08-17",
       "name": "Garry Tan",
@@ -488,14 +450,14 @@
       "avatar": "GT",
       "summary": "Everyone go follow this guy on instagram, he's amazing",
       "summaryEn": "Everyone go follow this guy on instagram, he's amazing",
-      "analysis": "这条动态最直接的信息是：Everyone go follow this guy on instagram, he's amazing。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
+      "analysis": "这条动态最直接的信息是：Everyone go follow this guy on instagram, he's amazing。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
       "url": "https://x.com/garrytan/status/2089012934953599263",
       "verified": true,
       "hotComments": [],
       "topics": [
         "media",
-        "product",
-        "design"
+        "design",
+        "business"
       ],
       "primaryTopic": "media"
     },
@@ -508,7 +470,7 @@
       "avatar": "GT",
       "summary": "There's nothing more conservative than a liberal with a house.",
       "summaryEn": "There's nothing more conservative than a liberal with a house.",
-      "analysis": "这条动态最直接的信息是：There's nothing more conservative than a liberal with a house.。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
+      "analysis": "这条动态最直接的信息是：There's nothing more conservative than a liberal with a house.。Garry Tan 的身份接近“President & CEO @ycombinator —Founder @garryslist —Creat...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
       "url": "https://x.com/garrytan/status/2089012811007688746",
       "verified": true,
       "hotComments": [],
@@ -518,142 +480,6 @@
         "design"
       ],
       "primaryTopic": "media"
-    },
-    {
-      "id": "2088995821056659901",
-      "date": "2026-08-17",
-      "name": "Aaron Levie",
-      "handle": "levie",
-      "role": "ceo @box - your business lives in content. unleash it with AI",
-      "avatar": "AL",
-      "summary": "AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric companies, with the top 1% spending $7,500/mo and top 10% spending $660/mo per employee on AI. But the general trend of continued exponential growth is occurring throughout\nThe median company is spending $12 / employee / month on AI\nThe top 1% are spending $7,500 / employee / month\nNot sure we've ever seen an adoption gap quite like this\n(h/t @tryramp data, @a16z)",
-      "summaryEn": "AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric companies, with the top 1% spending $7,500/mo and top 10% spending $660/mo per employee on AI. But the general trend of continued exponential growth is occurring throughout\nThe median company is spending $12 / employee / month on AI\nThe top 1% are spending $7,500 / employee / month\nNot sure we've ever seen an adoption gap quite like this\n(h/t @tryramp data, @a16z)",
-      "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric com...。Aaron Levie 的身份接近“ceo @box - your business lives in content. unleash it wi...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。一旦生成式 UI 跑通，很多产品竞争会从“功能多少”转向“工作流是否更自然”。看起来像设计问题，本质上其实是产品架构问题。",
-      "url": "https://x.com/levie/status/2088995821056659901",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "product",
-        "design",
-        "media"
-      ],
-      "primaryTopic": "product"
-    },
-    {
-      "id": "2088976906003607638",
-      "date": "2026-08-17",
-      "name": "Ken W",
-      "handle": "kenw_2",
-      "role": "An old friend, stay curious, stay human.",
-      "avatar": "KW",
-      "summary": "1 盎司黄金 和 1盎司棉花 哪个更重？\n1 磅黄金 和 1磅棉花 哪个更重？\n我以为自己能答对",
-      "summaryEn": "1 盎司黄金 和 1盎司棉花 哪个更重？\n1 磅黄金 和 1磅棉花 哪个更重？\n我以为自己能答对",
-      "analysis": "这条动态最直接的信息是：1 盎司黄金 和 1盎司棉花 哪个更重？ 1 磅黄金 和 1磅棉花 哪个更重？ 我以为自己能答对。Ken W 的身份接近“An old friend, stay curious, stay human.”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
-      "url": "https://x.com/kenw_2/status/2088976906003607638",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "media"
-      ],
-      "primaryTopic": "media"
-    },
-    {
-      "id": "2088893239122342137",
-      "date": "2026-08-17",
-      "name": "mmguo",
-      "handle": "mmguo_lb",
-      "role": "I design interfaces for AI products. Currently building http://wispal.ai",
-      "avatar": "MM",
-      "summary": "Why has AI become a public issue?\nBecause it is about the future.\nSome are building the future.\nSome are predicting the future.\nSome are hoping for the future.\nSome are afraid of the future.\nAnd some are selling those hopes and fears.\nThe first two drive the AI conversation.",
-      "summaryEn": "Why has AI become a public issue?\nBecause it is about the future.\nSome are building the future.\nSome are predicting the future.\nSome are hoping for the future.\nSome are afraid of the future.\nAnd some are selling those hopes and fears.\nThe first two drive the AI conversation.",
-      "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：Why has AI become a public issue? Because it is about the future. Some are building the future. Some are predi...。mmguo 的身份接近“I design interfaces for AI products. Currently building...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这类动态背后真正的新意，是界面开始围着任务生成，而不是让用户去适应固定页面。谁先把生成式 UI 接进真实数据，谁就更可能重写体验上限。",
-      "url": "https://x.com/mmguo_lb/status/2088893239122342137",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "product",
-        "design",
-        "media"
-      ],
-      "primaryTopic": "product"
-    },
-    {
-      "id": "2088882885394649325",
-      "date": "2026-08-17",
-      "name": "向阳乔木",
-      "handle": "vista8",
-      "role": "喜欢摇滚乐、爱钓鱼的PM",
-      "avatar": "VI",
-      "summary": "像丁师傅说的一样，B站藏龙卧虎，有一大批优秀的 AI 产品创作者。\nDeepSeek Harness 插件贡献者中很多都是 B 站的UP主，一水儿的二次元头像。\n比如 DSH 发布当天热榜第一 colleague-skill ，第三的OpenBiliClaw全都是B站 UP主。\n当年二次元属于小众爱好，现在都成了各大公司的核心技术主力。",
-      "summaryEn": "像丁师傅说的一样，B站藏龙卧虎，有一大批优秀的 AI 产品创作者。\nDeepSeek Harness 插件贡献者中很多都是 B 站的UP主，一水儿的二次元头像。\n比如 DSH 发布当天热榜第一 colleague-skill ，第三的OpenBiliClaw全都是B站 UP主。\n当年二次元属于小众爱好，现在都成了各大公司的核心技术主力。",
-      "analysis": "这条动态最直接的信息是：像丁师傅说的一样，B站藏龙卧虎，有一大批优秀的 AI 产品创作者。 DeepSeek Harness 插件贡献者中很多都是 B 站的UP主，一水儿的二次元头像。 比如 DSH 发布当天热榜第一 colleague-ski...。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。现在还不能下结论，但它已经露出一点苗头，值得继续观察后续有没有真实需求接住。能不能被反复使用，决定了它是灵感还是产品。",
-      "url": "https://x.com/vista8/status/2088882885394649325",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "agent",
-        "media",
-        "product"
-      ],
-      "primaryTopic": "agent"
-    },
-    {
-      "id": "2088857787757429133",
-      "date": "2026-08-17",
-      "name": "向阳乔木",
-      "handle": "vista8",
-      "role": "喜欢摇滚乐、爱钓鱼的PM",
-      "avatar": "VI",
-      "summary": "已经没有精力辨别DeepSeek Harness插件的质量好坏了。\n另外，有没有人写个Skill，专门在 DSH 创造模式生成插件的？没有的话，明天抽空研究写一个。\n还有，如果你开发了DSH插件，欢迎发评论交流。\n下周测试觉得不错，可以帮大家转帖传播。",
-      "summaryEn": "已经没有精力辨别DeepSeek Harness插件的质量好坏了。\n另外，有没有人写个Skill，专门在 DSH 创造模式生成插件的？没有的话，明天抽空研究写一个。\n还有，如果你开发了DSH插件，欢迎发评论交流。\n下周测试觉得不错，可以帮大家转帖传播。",
-      "analysis": "这条动态最直接的信息是：已经没有精力辨别DeepSeek Harness插件的质量好坏了。 另外，有没有人写个Skill，专门在 DSH 创造模式生成插件的？没有的话，明天抽空研究写一个。 还有，如果你开发了DSH插件，欢迎发评论交流。 下周测...。向阳乔木 的身份接近“喜欢摇滚乐、爱钓鱼的PM”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。眼下更像一个信号而非结论，关键看它后面会不会演化成可持续的用户需求。真正值得下注的，通常不是热度，而是复用频率。",
-      "url": "https://x.com/vista8/status/2088857787757429133",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "agent",
-        "product",
-        "model"
-      ],
-      "primaryTopic": "agent"
-    },
-    {
-      "id": "2088861184015650918",
-      "date": "2026-08-17",
-      "name": "郭宇 guoyu.eth",
-      "handle": "turingou",
-      "role": "Retired. 只活一次等于没活。",
-      "avatar": "TO",
-      "summary": "今天我的 summer sonic 主场是！babymetal！！",
-      "summaryEn": "今天我的 summer sonic 主场是！babymetal！！",
-      "analysis": "这条动态最直接的信息是：今天我的 summer sonic 主场是！babymetal！！郭宇 guoyu.eth 的身份接近“Retired. 只活一次等于没活。”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。这条还不算定论，但值得继续跟，看它会不会从一个观点长成真实、稳定、可复用的需求。很多好机会，最早都长得像一句半成型的判断。",
-      "url": "https://x.com/turingou/status/2088861184015650918",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "media"
-      ],
-      "primaryTopic": "media"
-    },
-    {
-      "id": "2088852372894191775",
-      "date": "2026-08-17",
-      "name": "花叔",
-      "handle": "AlchainHust",
-      "role": "不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲.skill — GitHub 20000+ stars → 小猫补光灯 — App Store 付费榜 Top 1 → Claude Code橙皮书 — 微信读书热搜第一",
-      "avatar": "AL",
-      "summary": "大家好，紧急更新CuIMao版的《牛来》，由Seedance2.5制作。",
-      "summaryEn": "大家好，紧急更新CuIMao版的《牛来》，由Seedance2.5制作。",
-      "analysis": "这条在讲新的产品交互或工作流组织方式，原文重点是：大家好，紧急更新CuIMao版的《牛来》，由Seedance2.5制作。花叔 的身份接近“不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 7万+ 做过的事 → 女娲...”，所以这条内容更像他在自己熟悉的位置上给出的真实进展，而不是泛泛转述。如果生成式 UI 成为常态，未来不少产品的优势都会来自更顺滑的任务组织方式。届时 UI 本身会成为智能系统的一部分，而不是最后一层壳。",
-      "url": "https://x.com/AlchainHust/status/2088852372894191775",
-      "verified": true,
-      "hotComments": [],
-      "topics": [
-        "product",
-        "agent",
-        "model"
-      ],
-      "primaryTopic": "product"
     }
   ]
 }
