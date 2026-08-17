@@ -1,40 +1,79 @@
 [
   {
-    "date": "2026-08-16",
-    "builderCount": 17,
-    "postCount": 25,
+    "date": "2026-08-17",
+    "builderCount": 16,
+    "postCount": 27,
     "topTopics": [
-      "product",
       "media",
-      "agent",
+      "product",
+      "design",
       "model",
-      "business"
+      "agent"
     ],
-    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2088772605323214999",
-        "text": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：I 100% agree with Dario that using AI to cure diseases (and speeding up the regulatory approval of AI breakthr...。Peter Yang 的身份接近“Practical AI tutorial…",
-        "handle": "petergyang",
-        "name": "Peter Yang",
+        "id": "2089061772846076386",
+        "text": "这条动态最直接的信息是：Guys, let me lay out a brutally honest truth. Most people veer off course in life not because they do not work...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注商业，职场，投资，业务出…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
         "topic": "product",
-        "url": "https://x.com/petergyang/status/2088772605323214999"
+        "url": "https://x.com/AYi_AInotes/status/2089061772846076386"
       },
       {
-        "id": "2088518617344467156",
-        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：推特算法昨天开源的算法又迎来了一波更新。分析了一下，主要是需要做了这三个调整： 普通视频新增了 14 天的 SID 语义召回窗口： 所以长期的高质量视频有可能会获得二次分发机会。 关注与双向关系进入了推荐模型： 模型能识...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 …",
-        "handle": "op7418",
-        "name": "歸藏(guizang.ai)",
+        "id": "2089068517979283639",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Ten minutes of talking gives Riley 80% of the diagrams that he shares in his videos. From @rileybrown : “I use...。Peter Yang 的身份接近“Practical AI tuto…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
         "topic": "media",
-        "url": "https://x.com/op7418/status/2088518617344467156"
+        "url": "https://x.com/petergyang/status/2089068517979283639"
+      },
+      {
+        "id": "2088995821056659901",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric com...。Aaron Levie 的身份接近“ceo @box - your busine…",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "topic": "product",
+        "url": "https://x.com/levie/status/2088995821056659901"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "builderCount": 17,
+    "postCount": 47,
+    "topTopics": [
+      "design",
+      "business",
+      "agent",
+      "product",
+      "model"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2088819786687938670",
+        "text": "DeepSeek V4 Pro 作为当前最强开源 Agent 模型，有个很离谱的毛病， 或者说是有个真实软肋： 能力高度绑定特定脚手架， 换个工具集换个 harness 换个系统提示，它就可能从 99 掉到 91, 也就是说同一个模型，同一套任务，分数能差 7 到 8 分， 区别只在一件事：第一轮你给它用了多少工具， 如果把25 个工具从第一轮全塞进去，9…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2088819786687938670"
       },
       {
         "id": "2088531459552559466",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：今天文君在大理，一起约在洱海边的时光咖啡聊天。挺有感触的几个收获： 1、Agent 类似网站，OpenClaw 是第一种被大众感知的建站技术。虾是个人网站。Yahoo、Google、Facebook 等大型网站还没出现。...。Frank Wang 玉伯 的身份接近“I am curious and hon…",
+        "text": "今天文君在大理，一起约在洱海边的时光咖啡聊天。挺有感触的几个收获： 1、Agent 类似网站，OpenClaw 是第一种被大众感知的建站技术。虾是个人网站。Yahoo、Google、Facebook 等大型网站还没出现。网站 -〉移动应用 -〉Agent，是技术也是产品路线。一切才刚开始。 2、Agent 创业者最重要的两大能力是：能不断找到目标用户的能力…",
         "handle": "lifesinger",
         "name": "Frank Wang 玉伯",
         "topic": "product",
         "url": "https://x.com/lifesinger/status/2088531459552559466"
+      },
+      {
+        "id": "2088518617344467156",
+        "text": "推特算法昨天开源的算法又迎来了一波更新。分析了一下，主要是需要做了这三个调整： 普通视频新增了 14 天的 SID 语义召回窗口： 所以长期的高质量视频有可能会获得二次分发机会。 关注与双向关系进入了推荐模型： 模型能识别真实关注和双向关系，所以稳定回访的话可能会获得一些加权。 回复排序分界从 1.5 万粉丝升级到 3 万粉丝： 如果跟帖作者和回复上一层的…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2088518617344467156"
       }
     ]
   },
@@ -949,20 +988,20 @@
         "url": "https://x.com/davemorin/status/2079712881105678570"
       },
       {
+        "id": "2079774261712167251",
+        "text": "+1. Lately I've been studying AI product marketing on Instagram, and I've noticed that the stories there are always told much better. They're crafted for people with a genuine nee…",
+        "handle": "mmguo_lb",
+        "name": "mmguo",
+        "topic": "design",
+        "url": "https://x.com/mmguo_lb/status/2079774261712167251"
+      },
+      {
         "id": "2079758604656316619",
         "text": "Before this year ends, Grok Imagine will make a full-length movie of The Odyssey that is historically accurate and true to the art of Homer Dialogue scene from Homer's Odyssey bui…",
         "handle": "elonmusk",
         "name": "Elon Musk",
         "topic": "design",
         "url": "https://x.com/elonmusk/status/2079758604656316619"
-      },
-      {
-        "id": "2079747118525534603",
-        "text": "Troubling … OpenAI disclosed it themselves yesterday. Their models (GPT-5.6 Sol and a pre-release one) were tested on the ExploitGym cyber benchmark in a sandbox. They escaped, ex…",
-        "handle": "elonmusk",
-        "name": "Elon Musk",
-        "topic": "model",
-        "url": "https://x.com/elonmusk/status/2079747118525534603"
       }
     ]
   },
