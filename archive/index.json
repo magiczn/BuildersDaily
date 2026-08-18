@@ -1,32 +1,32 @@
 [
   {
-    "date": "2026-08-18",
+    "date": "2026-08-19",
     "builderCount": 15,
-    "postCount": 24,
+    "postCount": 25,
     "topTopics": [
       "product",
       "media",
-      "model",
       "design",
+      "model",
       "agent"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2089499887905997272",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：When you hear that data is the new oil, this is ultimately what that looks like. AI has such a thirst for data...。Aaron Levie 的身份接近“ceo @box - your busine…",
-        "handle": "levie",
-        "name": "Aaron Levie",
-        "topic": "product",
-        "url": "https://x.com/levie/status/2089499887905997272"
-      },
-      {
-        "id": "2089601873397338597",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：这次本地模型的天花板可以说是 @Alibaba_Qwen 一拳打碎了，标志着本地模型第一次真正摸到了frontier的门槛。 Artificial Analysis最新的Intelligence Index榜单上，阿里Q...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
+        "id": "2089712095411527748",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：本地部署了Qwen3.8的兄弟，去给你的显卡敬个礼吧， 因为这个27B的开源模型，在Agent能力这个最硬核的赛道上，把所有闭源旗舰挨个干了一遍， 最新的Agentic Index榜单出来了，Qwen 3.8 27B的得...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
         "handle": "AYi_AInotes",
         "name": "AYi",
         "topic": "model",
-        "url": "https://x.com/AYi_AInotes/status/2089601873397338597"
+        "url": "https://x.com/AYi_AInotes/status/2089712095411527748"
+      },
+      {
+        "id": "2089788656445734922",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：we asked @ajambrosino to send us his thesis for the future of work after automation he replied with only one w...。Dan Shipper 的身份接近“ceo @every | the only …",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "product",
+        "url": "https://x.com/danshipper/status/2089788656445734922"
       },
       {
         "id": "2089525819567739264",
@@ -35,6 +35,45 @@
         "name": "Amjad Masad",
         "topic": "product",
         "url": "https://x.com/amasad/status/2089525819567739264"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "builderCount": 17,
+    "postCount": 49,
+    "topTopics": [
+      "design",
+      "agent",
+      "model",
+      "business",
+      "product"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2089601873397338597",
+        "text": "这次本地模型的天花板可以说是 @Alibaba_Qwen 一拳打碎了，标志着本地模型第一次真正摸到了frontier的门槛。 Artificial Analysis最新的Intelligence Index榜单上，阿里Qwen团队开源的Qwen3.8-27B拿了52分， 什么概念呢？ DeepSeek V4 Pro 53分， GLM 5.2 53分， GP…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2089601873397338597"
+      },
+      {
+        "id": "2089577680522063957",
+        "text": "这么技术范儿的skill都能到1w Star 可见相当好用，有大量口播传播。 烟花老师社群做的也很好，给我分享了很多干货，推荐关注。 四个多月时间，我开源的这个小项目今天正式突破了 10000star！ fireworks-tech-graph 是专门用于生成技术类图片的 skill,目前已支持 12 种风格，和 svg,png,gif 多种格式，会继续进…",
+        "handle": "vista8",
+        "name": "向阳乔木",
+        "topic": "agent",
+        "url": "https://x.com/vista8/status/2089577680522063957"
+      },
+      {
+        "id": "2089537919795212565",
+        "text": "Let us know what you think! Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and Desktop, built on artifa…",
+        "handle": "bcherny",
+        "name": "Boris Cherny",
+        "topic": "design",
+        "url": "https://x.com/bcherny/status/2089537919795212565"
       }
     ]
   },
