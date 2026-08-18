@@ -3,63 +3,63 @@
     "key": "design",
     "slug": "design",
     "label": "设计",
-    "signalCount": 3895,
+    "signalCount": 3937,
     "summary": "汇总 Builder 讨论中与「设计」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "business",
     "slug": "business",
     "label": "商业",
-    "signalCount": 2491,
+    "signalCount": 2521,
     "summary": "汇总 Builder 讨论中与「商业」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "model",
     "slug": "model",
     "label": "模型",
-    "signalCount": 2262,
+    "signalCount": 2278,
     "summary": "汇总 Builder 讨论中与「模型」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "agent",
     "slug": "agent",
     "label": "Agents",
-    "signalCount": 2064,
+    "signalCount": 2081,
     "summary": "汇总 Builder 讨论中与「Agents」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "product",
     "slug": "product",
     "label": "产品",
-    "signalCount": 2047,
+    "signalCount": 2060,
     "summary": "汇总 Builder 讨论中与「产品」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "other",
     "slug": "other",
     "label": "其他",
-    "signalCount": 1567,
+    "signalCount": 1576,
     "summary": "汇总 Builder 讨论中与「其他」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "media",
     "slug": "media",
     "label": "内容与媒体",
-    "signalCount": 1286,
+    "signalCount": 1303,
     "summary": "汇总 Builder 讨论中与「内容与媒体」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "enterprise",
     "slug": "enterprise",
     "label": "企业 AI",
-    "signalCount": 899,
+    "signalCount": 914,
     "summary": "汇总 Builder 讨论中与「企业 AI」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "infrastructure",
     "slug": "infrastructure",
     "label": "基础设施",
-    "signalCount": 469,
+    "signalCount": 470,
     "summary": "汇总 Builder 讨论中与「基础设施」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   }
 ]

@@ -1,40 +1,79 @@
 [
   {
-    "date": "2026-08-17",
-    "builderCount": 12,
+    "date": "2026-08-18",
+    "builderCount": 13,
     "postCount": 20,
     "topTopics": [
       "product",
-      "design",
       "media",
+      "design",
       "model",
-      "business"
+      "agent"
     ],
     "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2089027381474525487",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Grok订阅，SuperGrok Heavy，原价是300美元/月，现在有活动是99美元/月，同时赠送200美元档位的Cursor Ultra。有想用Cursor的可以用这个方法。 Grok是只能用Grok自家模型，Cu...。Gorden Sun 的身份接近“只发AI相关信息，个人维护的AI资讯日报（已连…",
-        "handle": "Gorden_Sun",
-        "name": "Gorden Sun",
-        "topic": "model",
-        "url": "https://x.com/Gorden_Sun/status/2089027381474525487"
+        "id": "2089499887905997272",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：When you hear that data is the new oil, this is ultimately what that looks like. AI has such a thirst for data...。Aaron Levie 的身份接近“ceo @box - your busine…",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "topic": "product",
+        "url": "https://x.com/levie/status/2089499887905997272"
       },
       {
-        "id": "2089199996159598689",
-        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：喵的，我终于搞明白为什么 Codex 处理大项目老是丢上下文了，搞了半天不是模型不行， OpenAI 负责 Codex 的 Tibo 亲自下场爆料了， Codex 里偷偷藏了个满血开关，只需要三行配置，就能把 GPT-5...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know…",
-        "handle": "AYi_AInotes",
-        "name": "AYi",
-        "topic": "model",
-        "url": "https://x.com/AYi_AInotes/status/2089199996159598689"
-      },
-      {
-        "id": "2089069905375351169",
-        "text": "这条具体落在支付、集成、部署或运行环境这些底层环节，原文重点是：18x improvement in intelligence per joule in 16 months. hard agree with @amasad —@JonSaadFalcon and my researc...。Amjad Masad 的身份接近“ceo @replit . c…",
+        "id": "2089525819567739264",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount i...。Amjad Masad 的身份接近“ceo @replit . civiliza…",
         "handle": "amasad",
         "name": "Amjad Masad",
         "topic": "product",
-        "url": "https://x.com/amasad/status/2089069905375351169"
+        "url": "https://x.com/amasad/status/2089525819567739264"
+      },
+      {
+        "id": "2089525989223157976",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：I have had extremely similar experiences Voice mode even better My father just got a new MacBook after years w...。Dan Shipper 的身份接近“ceo @every | the…",
+        "handle": "danshipper",
+        "name": "Dan Shipper",
+        "topic": "agent",
+        "url": "https://x.com/danshipper/status/2089525989223157976"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "builderCount": 18,
+    "postCount": 67,
+    "topTopics": [
+      "design",
+      "business",
+      "media",
+      "model",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2089176557747413105",
+        "text": "Yes “Having two planets that are both self-sustaining and strong is going to be incredibly important for the long-term survival of civilization” This is exactly what Starship is b…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "design",
+        "url": "https://x.com/elonmusk/status/2089176557747413105"
+      },
+      {
+        "id": "2088997857751871831",
+        "text": "SandAI开源MAGI-2 Preview视频模型 北京三呆科技开源的AI视频模型，MoE架构，114B总参数，6B激活参数，能生成音视频同步的10秒视频。生成的画面看起来有点油腻。 三呆科技成立于2024年，之前效果不错的GAGA-1也是他家的视频模型。 模型： https:// huggingface.co/sand-ai/MAGI-2 -previ…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2088997857751871831"
+      },
+      {
+        "id": "2089012345691611394",
+        "text": "North-Micro-Vision-Instruct：多模态小模型 Cohere开源，仅2.4B参数，适合OCR、图片描述、视觉定位等任务，不适合复杂推理任务。评分比不上Qwen3.5-2B，Qwen在小模型领域几乎垄断领先。 模型： https:// huggingface.co/CohereLabs/Nor th-Micro-Vision-Instr…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "model",
+        "url": "https://x.com/Gorden_Sun/status/2089012345691611394"
       }
     ]
   },
