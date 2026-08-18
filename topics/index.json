@@ -17,21 +17,21 @@
     "key": "model",
     "slug": "model",
     "label": "模型",
-    "signalCount": 2278,
+    "signalCount": 2280,
     "summary": "汇总 Builder 讨论中与「模型」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "agent",
     "slug": "agent",
     "label": "Agents",
-    "signalCount": 2081,
+    "signalCount": 2083,
     "summary": "汇总 Builder 讨论中与「Agents」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "product",
     "slug": "product",
     "label": "产品",
-    "signalCount": 2060,
+    "signalCount": 2063,
     "summary": "汇总 Builder 讨论中与「产品」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
@@ -45,7 +45,7 @@
     "key": "media",
     "slug": "media",
     "label": "内容与媒体",
-    "signalCount": 1303,
+    "signalCount": 1306,
     "summary": "汇总 Builder 讨论中与「内容与媒体」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
@@ -59,7 +59,7 @@
     "key": "infrastructure",
     "slug": "infrastructure",
     "label": "基础设施",
-    "signalCount": 470,
+    "signalCount": 469,
     "summary": "汇总 Builder 讨论中与「基础设施」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   }
 ]
