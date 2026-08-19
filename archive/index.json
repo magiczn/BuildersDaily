@@ -1,25 +1,17 @@
 [
   {
     "date": "2026-08-19",
-    "builderCount": 19,
-    "postCount": 30,
+    "builderCount": 21,
+    "postCount": 32,
     "topTopics": [
       "product",
       "media",
-      "design",
       "model",
+      "design",
       "agent"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
-      {
-        "id": "2089712095411527748",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：本地部署了Qwen3.8的兄弟，去给你的显卡敬个礼吧， 因为这个27B的开源模型，在Agent能力这个最硬核的赛道上，把所有闭源旗舰挨个干了一遍， 最新的Agentic Index榜单出来了，Qwen 3.8 27B的得...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关…",
-        "handle": "AYi_AInotes",
-        "name": "AYi",
-        "topic": "model",
-        "url": "https://x.com/AYi_AInotes/status/2089712095411527748"
-      },
       {
         "id": "2089869693201092848",
         "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：If you want SF rent to be $10K/mo for a 1BR (you're a NIMBY landlord and you hate newcomers and young people)...。Garry Tan 的身份接近“President & CEO @ycombina…",
@@ -35,6 +27,14 @@
         "name": "Boris Cherny",
         "topic": "product",
         "url": "https://x.com/bcherny/status/2089924199804711410"
+      },
+      {
+        "id": "2089931839016468575",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：I should build an app (or an agent?) where you get and maintain a streak for how many days you avoid bringing...。Peter Yang 的身份接近“Practical AI tutor…",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "product",
+        "url": "https://x.com/petergyang/status/2089931839016468575"
       }
     ]
   },
@@ -4543,11 +4543,11 @@
     "topTopics": [
       "design",
       "model",
-      "business",
       "media",
+      "business",
       "product"
     ],
-    "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2044964275253559479",

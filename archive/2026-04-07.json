@@ -2115,7 +2115,7 @@
       "date": "2026-04-07",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "I’ve been using the Fish Audio API to generate personalized podcasts. Dropping the skill soon Fish Audio performed a 10-day blind test across 5,098 real user comparisons on production traffic. Our S2 Pro model ranked #1...",
       "summaryEn": "I’ve been using the Fish Audio API to generate personalized podcasts. Dropping the skill soon Fish Audio performed a 10-day blind test across 5,098 real user comparisons on production traffic. Our S2 Pro model ranked #1...",
@@ -2124,18 +2124,18 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "infrastructure",
         "agent",
-        "product"
+        "product",
+        "model"
       ],
-      "primaryTopic": "infrastructure"
+      "primaryTopic": "agent"
     },
     {
       "id": "2041196551113179296",
       "date": "2026-04-07",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "Before shipping a product built with AI, the most important step is to think about what features you can CUT, not what features you can add",
       "summaryEn": "Before shipping a product built with AI, the most important step is to think about what features you can CUT, not what features you can add",
@@ -2145,8 +2145,7 @@
       "hotComments": [],
       "topics": [
         "product",
-        "design",
-        "infrastructure"
+        "design"
       ],
       "primaryTopic": "product"
     },

@@ -808,7 +808,7 @@
       "date": "2026-05-19",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "Keep getting this error in Claude Code recently; is it just me or are others getting this too? How to resolve this? API Error: The socket connection was closed unexpectedly. For more information, pass verbose: true in t...",
       "summaryEn": "Keep getting this error in Claude Code recently; is it just me or are others getting this too? How to resolve this? API Error: The socket connection was closed unexpectedly. For more information, pass verbose: true in t...",
@@ -817,11 +817,11 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "infrastructure",
         "model",
-        "design"
+        "design",
+        "infrastructure"
       ],
-      "primaryTopic": "infrastructure"
+      "primaryTopic": "model"
     },
     {
       "id": "2056485938969100724",

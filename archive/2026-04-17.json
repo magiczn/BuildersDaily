@@ -5,11 +5,11 @@
   "topTopics": [
     "design",
     "model",
-    "business",
     "media",
+    "business",
     "product"
   ],
-  "summary": "这一天的高频 Builder 信号集中在设计、模型、商业。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在设计、模型、内容与媒体。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2044964275253559479",
     "2044843110367428881",
@@ -1420,7 +1420,7 @@
       "date": "2026-04-17",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "The 3 things that are the best use of my time: 1. Deep talk: having deep conversations/brainstorm sessions with awesome people 2. Deep read: consume a piece of long-form content 3. Deep play: try crazy/random things wit...",
       "summaryEn": "The 3 things that are the best use of my time: 1. Deep talk: having deep conversations/brainstorm sessions with awesome people 2. Deep read: consume a piece of long-form content 3. Deep play: try crazy/random things wit...",
@@ -1430,7 +1430,6 @@
       "hotComments": [],
       "topics": [
         "design",
-        "infrastructure",
         "media"
       ],
       "primaryTopic": "design"
@@ -1440,7 +1439,7 @@
       "date": "2026-04-17",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "“What the symphony was to Beethoven, play was to Shakespeare, HTML is to agents” Turned my Frontend Slides GitHub repo into a video:",
       "summaryEn": "“What the symphony was to Beethoven, play was to Shakespeare, HTML is to agents” Turned my Frontend Slides GitHub repo into a video:",
@@ -1451,7 +1450,7 @@
       "topics": [
         "agent",
         "design",
-        "infrastructure"
+        "media"
       ],
       "primaryTopic": "agent"
     },
@@ -1460,7 +1459,7 @@
       "date": "2026-04-17",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "HTML videos are here! HTML is eating everything We built our launch video in Claude Code using HyperFrames. Now it's yours. Open source, agent-native framework. HTML to MP4. $ npx skills add heygen-com/hyperframes RT + ...",
       "summaryEn": "HTML videos are here! HTML is eating everything We built our launch video in Claude Code using HyperFrames. Now it's yours. Open source, agent-native framework. HTML to MP4. $ npx skills add heygen-com/hyperframes RT + ...",
@@ -1480,7 +1479,7 @@
       "date": "2026-04-17",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "\"Successful software developers 20 years ago were computer experts. I think the people who build successful software going forward will increasing understand humans and users very well. The skill required to build softw...",
       "summaryEn": "\"Successful software developers 20 years ago were computer experts. I think the people who build successful software going forward will increasing understand humans and users very well. The skill required to build softw...",
@@ -1490,8 +1489,7 @@
       "hotComments": [],
       "topics": [
         "agent",
-        "design",
-        "infrastructure"
+        "design"
       ],
       "primaryTopic": "agent"
     },

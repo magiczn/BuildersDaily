@@ -791,7 +791,7 @@
       "date": "2026-04-24",
       "name": "Zara Zhang",
       "handle": "zarazhangrui",
-      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
+      "role": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://github.com/zarazhangrui YouTube: https://youtube.com/@ZaraZhangg",
       "avatar": "ZZ",
       "summary": "Fascinating read Over the past month, some of you reported Claude Code's quality had slipped. We investigated, and published a post-mortem on the three issues we found. All are fixed in v2.1.116+ and we’ve reset usage l...",
       "summaryEn": "Fascinating read Over the past month, some of you reported Claude Code's quality had slipped. We investigated, and published a post-mortem on the three issues we found. All are fixed in v2.1.116+ and we’ve reset usage l...",
@@ -801,8 +801,7 @@
       "hotComments": [],
       "topics": [
         "model",
-        "design",
-        "infrastructure"
+        "design"
       ],
       "primaryTopic": "model"
     },
