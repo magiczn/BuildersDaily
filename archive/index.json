@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-08-19",
-    "builderCount": 15,
-    "postCount": 25,
+    "builderCount": 19,
+    "postCount": 30,
     "topTopics": [
       "product",
       "media",
@@ -10,7 +10,7 @@
       "model",
       "agent"
     ],
-    "summary": "今天最明显的变化，是讨论重点继续从模型本身外移到产品、流程和交付摩擦。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
         "id": "2089712095411527748",
@@ -21,20 +21,20 @@
         "url": "https://x.com/AYi_AInotes/status/2089712095411527748"
       },
       {
-        "id": "2089788656445734922",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：we asked @ajambrosino to send us his thesis for the future of work after automation he replied with only one w...。Dan Shipper 的身份接近“ceo @every | the only …",
-        "handle": "danshipper",
-        "name": "Dan Shipper",
+        "id": "2089869693201092848",
+        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：If you want SF rent to be $10K/mo for a 1BR (you're a NIMBY landlord and you hate newcomers and young people)...。Garry Tan 的身份接近“President & CEO @ycombina…",
+        "handle": "garrytan",
+        "name": "Garry Tan",
         "topic": "product",
-        "url": "https://x.com/danshipper/status/2089788656445734922"
+        "url": "https://x.com/garrytan/status/2089869693201092848"
       },
       {
-        "id": "2089525819567739264",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount i...。Amjad Masad 的身份接近“ceo @replit . civiliza…",
-        "handle": "amasad",
-        "name": "Amjad Masad",
+        "id": "2089924199804711410",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：The small quality of life improvements keep coming. When you’re using Desktop every day, slow startup makes th...。Boris Cherny 的身份接近“Claude Code @anthropi…",
+        "handle": "bcherny",
+        "name": "Boris Cherny",
         "topic": "product",
-        "url": "https://x.com/amasad/status/2089525819567739264"
+        "url": "https://x.com/bcherny/status/2089924199804711410"
       }
     ]
   },
