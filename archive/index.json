@@ -1,17 +1,33 @@
 [
   {
-    "date": "2026-08-19",
-    "builderCount": 21,
+    "date": "2026-08-20",
+    "builderCount": 20,
     "postCount": 32,
     "topTopics": [
       "product",
       "media",
       "model",
-      "design",
-      "agent"
+      "agent",
+      "design"
     ],
     "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
+      {
+        "id": "2090211023798321435",
+        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：mRNA vaccines to treat cancer seems extremely promising although ChatGPT tells me there are no active mRNA tri...。Peter Yang 的身份接近“Practical AI tutorials …",
+        "handle": "petergyang",
+        "name": "Peter Yang",
+        "topic": "product",
+        "url": "https://x.com/petergyang/status/2090211023798321435"
+      },
+      {
+        "id": "2090151530322182641",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：Damn，Cursor刚刚的更新把AI编程的分工改了， 以前你盯着它一轮轮干活每一步都要确认，现在你交代完目标就能放心离开忙自己的事， 它自己监听PR、修CI、并行派子agent跑独立VM，你回来只看diff， 官方原话...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2090151530322182641"
+      },
       {
         "id": "2089869693201092848",
         "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：If you want SF rent to be $10K/mo for a 1BR (you're a NIMBY landlord and you hate newcomers and young people)...。Garry Tan 的身份接近“President & CEO @ycombina…",
@@ -19,22 +35,45 @@
         "name": "Garry Tan",
         "topic": "product",
         "url": "https://x.com/garrytan/status/2089869693201092848"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "builderCount": 21,
+    "postCount": 61,
+    "topTopics": [
+      "other",
+      "design",
+      "model",
+      "product",
+      "agent"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、模型、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2089889644871913918",
+        "text": "谷歌AI产品Mixboard即将下线 从9月28日起，Mixboard将停止服务。Mixboard是谷歌的实验性产品，用于探索AI绘画风格。现在AI绘画模型足够强，确实这个产品没有存在的价值了。 官网： https:// labs.google.com/mixboard/welco me … 谷歌AI产品Portraits即将下线 从9月14日起，Goog…",
+        "handle": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "topic": "product",
+        "url": "https://x.com/Gorden_Sun/status/2089889644871913918"
       },
       {
-        "id": "2089924199804711410",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：The small quality of life improvements keep coming. When you’re using Desktop every day, slow startup makes th...。Boris Cherny 的身份接近“Claude Code @anthropi…",
-        "handle": "bcherny",
-        "name": "Boris Cherny",
-        "topic": "product",
-        "url": "https://x.com/bcherny/status/2089924199804711410"
+        "id": "2089944722882064641",
+        "text": "多 Agent 时代最痛的那个问题，终于有人正经下手了， 现在应该没人只用一个 coding agent 了吧，Claude Code、Codex、DeepSeek Harness 各赢一项，来回切是正常操作， 但每次切工具最烦的是什么，代码不烦，git 里都有， 烦的是那些只在对话里拍过板、没写进任何文件的产品决定，为什么选 A 不选 我想很多人都有这个…",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "agent",
+        "url": "https://x.com/AYi_AInotes/status/2089944722882064641"
       },
       {
-        "id": "2089931839016468575",
-        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：I should build an app (or an agent?) where you get and maintain a streak for how many days you avoid bringing...。Peter Yang 的身份接近“Practical AI tutor…",
-        "handle": "petergyang",
-        "name": "Peter Yang",
-        "topic": "product",
-        "url": "https://x.com/petergyang/status/2089931839016468575"
+        "id": "2089712095411527748",
+        "text": "本地部署了Qwen3.8的兄弟，去给你的显卡敬个礼吧， 因为这个27B的开源模型，在Agent能力这个最硬核的赛道上，把所有闭源旗舰挨个干了一遍， 最新的Agentic Index榜单出来了，Qwen 3.8 27B的得分， 超过了 →GPT 5.6 Terra， →Claude Opus 4.8， →DeepSeek V4 Pro， →GLM 5.2， …",
+        "handle": "AYi_AInotes",
+        "name": "AYi",
+        "topic": "model",
+        "url": "https://x.com/AYi_AInotes/status/2089712095411527748"
       }
     ]
   },
