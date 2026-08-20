@@ -4,12 +4,12 @@
   "postCount": 97,
   "topTopics": [
     "design",
-    "product",
     "agent",
+    "product",
     "business",
     "model"
   ],
-  "summary": "这一天的高频 Builder 信号集中在设计、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+  "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
   "highlights": [
     "2050355768285946255",
     "2050396309505622016",
@@ -1726,7 +1726,7 @@
       "date": "2026-05-02",
       "name": "wabi",
       "handle": "wabi",
-      "role": "Create your first mini-app. Tag @wabi with an app idea and we’ll build it for you.",
+      "role": "Create and share wabis with friends. Tag @wabi with an idea and we’ll build it for you.",
       "avatar": "WA",
       "summary": "POV: Your wabi is loading Loading exploration in collaboration with one of our favorite visual artists, @loremdeloop",
       "summaryEn": "POV: Your wabi is loading Loading exploration in collaboration with one of our favorite visual artists, @loremdeloop",
@@ -1735,10 +1735,9 @@
       "verified": true,
       "hotComments": [],
       "topics": [
-        "product",
         "design"
       ],
-      "primaryTopic": "product"
+      "primaryTopic": "design"
     },
     {
       "id": "2050295657836277764",

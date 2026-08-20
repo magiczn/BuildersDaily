@@ -1,12 +1,12 @@
 [
   {
-    "date": "2026-08-20",
-    "builderCount": 18,
-    "postCount": 26,
+    "date": "2026-08-21",
+    "builderCount": 21,
+    "postCount": 32,
     "topTopics": [
       "product",
-      "media",
       "design",
+      "media",
       "model",
       "business"
     ],
@@ -21,20 +21,59 @@
         "url": "https://x.com/op7418/status/2090299959493136738"
       },
       {
-        "id": "2090211023798321435",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：mRNA vaccines to treat cancer seems extremely promising although ChatGPT tells me there are no active mRNA tri...。Peter Yang 的身份接近“Practical AI tutorials …",
-        "handle": "petergyang",
-        "name": "Peter Yang",
-        "topic": "model",
-        "url": "https://x.com/petergyang/status/2090211023798321435"
-      },
-      {
         "id": "2090278256306229675",
         "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：There tends to be a debate between being an expert or generalist in the era of AI. So far, the experts appear...。Aaron Levie 的身份接近“ceo @box - your b…",
         "handle": "levie",
         "name": "Aaron Levie",
         "topic": "agent",
         "url": "https://x.com/levie/status/2090278256306229675"
+      },
+      {
+        "id": "2090560853364121664",
+        "text": "这条更像在暴露用户需求和产品优先级的变化，原文重点是：《打动自己，知难而进》冯骥 1、首先打动自己。 无论何时，请把自己与团队当作最优先的目标用户。 这是公司成立至今的价值观，我总是翻来覆去说这句有点拗口的话—— “必须做开发者自己作为用户也理解、认可、喜爱的游戏。” 这不...。Orange AI 的身份接近“橘AI海外版”，所以这条内容更像他在自己熟悉…",
+        "handle": "oran_ge",
+        "name": "Orange AI",
+        "topic": "product",
+        "url": "https://x.com/oran_ge/status/2090560853364121664"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "builderCount": 19,
+    "postCount": 57,
+    "topTopics": [
+      "design",
+      "business",
+      "other",
+      "model",
+      "enterprise"
+    ],
+    "summary": "这一天的高频 Builder 信号集中在设计、商业、模型。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "highlights": [
+      {
+        "id": "2090311312228360406",
+        "text": "Try @Grok @Bot I am not a coder. I don’t work with CRM or play with spreadsheets. I’m about as removed from a “workflow” in my job as a kid flying a kite. I don’t really use AI be…",
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "topic": "product",
+        "url": "https://x.com/elonmusk/status/2090311312228360406"
+      },
+      {
+        "id": "2090202870956298281",
+        "text": "v1 of this was fully built using /goal in @ChatGPT Codex (ran for five+ hours) & @Railway Made some visual edits at the end using @itskasturiii generative loaders, Departure Mono …",
+        "handle": "nikunj",
+        "name": "Nikunj Kothari",
+        "topic": "model",
+        "url": "https://x.com/nikunj/status/2090202870956298281"
+      },
+      {
+        "id": "2090299959493136738",
+        "text": "黑神话钟馗制作人冯骥（尤卡）发预告也顺便发了十条做游戏的工作原则，做产品做内容都可以参考 -----以下是原文----- 1、首先打动自己。 无论何时，请把自己与团队当作最优先的目标用户。 这是公司成立至今的价值观，我总是翻来覆去说这句有点拗口的话—— “必须做开发者自己作为用户也理解、认可、喜爱的游戏。” 这不单是情怀，也是理性的产品策略。 如果你对正在…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "media",
+        "url": "https://x.com/op7418/status/2090299959493136738"
       }
     ]
   },
@@ -4035,12 +4074,12 @@
     "postCount": 97,
     "topTopics": [
       "design",
-      "product",
       "agent",
+      "product",
       "business",
       "model"
     ],
-    "summary": "这一天的高频 Builder 信号集中在设计、产品、Agents。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
+    "summary": "这一天的高频 Builder 信号集中在设计、Agents、产品。回看这些独立动态，可以判断哪些变化只是短期热度，哪些正在变成真实工作流。",
     "highlights": [
       {
         "id": "2050355768285946255",
