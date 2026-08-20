@@ -1,40 +1,40 @@
 [
   {
     "date": "2026-08-20",
-    "builderCount": 21,
-    "postCount": 30,
+    "builderCount": 18,
+    "postCount": 26,
     "topTopics": [
       "product",
       "media",
-      "model",
       "design",
-      "agent"
+      "model",
+      "business"
     ],
-    "summary": "今天这批动态的共同气氛，不是单点炫技，而是大家都在往更硬的落地环节推进。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
+    "summary": "从今天追到的这些 builder 动态看，行业注意力正在变得更务实。不少 builder 都在把 agent 从展示能力往真实流程里压，重点已经落到可接入、可复用、可长期运行，模型相关讨论没有停在跑分，而是开始外溢成具体产品路线和生态站位，内容分发、社群运营和产品触达被绑得更紧，谁拿到持续触达谁就更占先手。谁能更快把能力接进真实工作流，谁就更容易把热度变成稳定产出。",
     "highlights": [
       {
-        "id": "2090278256306229675",
-        "text": "这条在讲新的产品交互或工作流组织方式，原文重点是：There tends to be a debate between being an expert or generalist in the era of AI. So far, the experts appear...。Aaron Levie 的身份接近“ceo @box - your busines…",
-        "handle": "levie",
-        "name": "Aaron Levie",
-        "topic": "product",
-        "url": "https://x.com/levie/status/2090278256306229675"
-      },
-      {
-        "id": "2090255946106744893",
-        "text": "这条更像模型能力或产品路线的公开信号，原文重点是：Damn，27B模型在MacBook上跑到70 tok/s，比Fable和Sol还快， 还完全不降质，感觉本地AI的可用性拐点，可能就是今天了 DFlash 2让Qwen3.8-27B在一台M5 Max MacBook...。AYi 的身份接近“AI 实用主义，专注AI落地的组织和业务know how，关注…",
-        "handle": "AYi_AInotes",
-        "name": "AYi",
-        "topic": "model",
-        "url": "https://x.com/AYi_AInotes/status/2090255946106744893"
+        "id": "2090299959493136738",
+        "text": "这条动态最直接的信息是：黑神话钟馗制作人冯骥（尤卡）发预告也顺便发了十条做游戏的工作原则，做产品做内容都可以参考 -----以下是原文----- 1、首先打动自己。 无论何时，请把自己与团队当作最优先的目标用户。 这是公司成立至今的价值观，我总...。歸藏(guizang.ai) 的身份接近“关注人工智能、LLM 、 AI 图像视频和设计（Interest…",
+        "handle": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "topic": "design",
+        "url": "https://x.com/op7418/status/2090299959493136738"
       },
       {
         "id": "2090211023798321435",
         "text": "这条更像模型能力或产品路线的公开信号，原文重点是：mRNA vaccines to treat cancer seems extremely promising although ChatGPT tells me there are no active mRNA tri...。Peter Yang 的身份接近“Practical AI tutorials …",
         "handle": "petergyang",
         "name": "Peter Yang",
-        "topic": "product",
+        "topic": "model",
         "url": "https://x.com/petergyang/status/2090211023798321435"
+      },
+      {
+        "id": "2090278256306229675",
+        "text": "这条动态聚焦在 AI 编码与 agent 工作流，核心信息是：There tends to be a debate between being an expert or generalist in the era of AI. So far, the experts appear...。Aaron Levie 的身份接近“ceo @box - your b…",
+        "handle": "levie",
+        "name": "Aaron Levie",
+        "topic": "agent",
+        "url": "https://x.com/levie/status/2090278256306229675"
       }
     ]
   },

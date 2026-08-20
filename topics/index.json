@@ -3,35 +3,35 @@
     "key": "design",
     "slug": "design",
     "label": "设计",
-    "signalCount": 3984,
+    "signalCount": 3985,
     "summary": "汇总 Builder 讨论中与「设计」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "business",
     "slug": "business",
     "label": "商业",
-    "signalCount": 2555,
+    "signalCount": 2554,
     "summary": "汇总 Builder 讨论中与「商业」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "model",
     "slug": "model",
     "label": "模型",
-    "signalCount": 2316,
+    "signalCount": 2312,
     "summary": "汇总 Builder 讨论中与「模型」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "agent",
     "slug": "agent",
     "label": "Agents",
-    "signalCount": 2118,
+    "signalCount": 2115,
     "summary": "汇总 Builder 讨论中与「Agents」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
     "key": "product",
     "slug": "product",
     "label": "产品",
-    "signalCount": 2097,
+    "signalCount": 2093,
     "summary": "汇总 Builder 讨论中与「产品」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
@@ -45,7 +45,7 @@
     "key": "media",
     "slug": "media",
     "label": "内容与媒体",
-    "signalCount": 1324,
+    "signalCount": 1325,
     "summary": "汇总 Builder 讨论中与「内容与媒体」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   },
   {
@@ -59,7 +59,7 @@
     "key": "infrastructure",
     "slug": "infrastructure",
     "label": "基础设施",
-    "signalCount": 351,
+    "signalCount": 352,
     "summary": "汇总 Builder 讨论中与「基础设施」相关的连续信号，帮助判断这个方向正在发生什么变化。"
   }
 ]
